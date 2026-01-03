@@ -1,0 +1,29 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:aluminum_oxide_dust",
+            "count": 4.0
+        },
+        {
+            "item": "chemlib:sodium_sulfide_dust",
+            "count": 3.0
+        }
+    ],
+    "energy": 162215.76,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "moremekanismprocessing:dust_aluminum",
+            "count": 8.0
+        },
+        {
+            "item": "chemlib:sodium_bisulfate_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:sodium_hydroxide_dust",
+            "count": 3.0
+        }
+    ]
+}

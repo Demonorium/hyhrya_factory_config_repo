@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:mercury_sulfide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "thermal:cinnabar_dust",
+            "count": 1
+        }
+    ],
+    "energy": 6398
+}

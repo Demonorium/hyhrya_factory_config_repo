@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:gallium_ingot",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:gallium",
+        "amount": 100.0
+    },
+    "energy": 3029.146
+}

@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:potassium_dichromate"
+        }
+    },
+    "output": {
+        "gas": "kubejs:potassium_dichromate",
+        "amount": 100.0
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:promethium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:promethium",
+            "count": 1
+        }
+    ],
+    "energy": 13150
+}

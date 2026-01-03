@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:tungsten_carbide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:tungsten_carbide",
+        "amount": 100.0
+    },
+    "energy": 23272
+}

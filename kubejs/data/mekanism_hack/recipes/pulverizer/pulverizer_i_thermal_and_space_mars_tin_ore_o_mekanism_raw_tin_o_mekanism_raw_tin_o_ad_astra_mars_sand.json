@@ -1,0 +1,22 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "thermal_and_space:mars_tin_ore",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "mekanism:raw_tin",
+            "chance": 2.5
+        },
+        {
+            "item": "mekanism:raw_tin",
+            "chance": 0.5
+        },
+        {
+            "item": "ad_astra:mars_sand",
+            "chance": 0.25
+        }
+    ],
+    "experience": 1.0
+}

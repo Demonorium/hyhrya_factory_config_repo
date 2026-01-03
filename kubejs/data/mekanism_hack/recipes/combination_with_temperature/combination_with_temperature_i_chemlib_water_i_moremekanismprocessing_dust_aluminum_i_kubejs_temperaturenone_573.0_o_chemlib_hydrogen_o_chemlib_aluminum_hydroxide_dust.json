@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 5.698932038834951,
+    "temperature": {
+        "max_temp": 573.0
+    },
+    "fluid_input": {
+        "fluid": "minecraft:water",
+        "amount": 300.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "moremekanismprocessing:dust_aluminum",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanism:hydrogen",
+        "amount": 300.0
+    },
+    "item_output": {
+        "item": "chemlib:aluminum_hydroxide_dust",
+        "count": 1.0
+    }
+}

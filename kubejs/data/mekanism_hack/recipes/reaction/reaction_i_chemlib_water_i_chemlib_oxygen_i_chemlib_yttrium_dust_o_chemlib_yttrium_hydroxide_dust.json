@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 300,
+        "fluid": "minecraft:water"
+    },
+    "gasInput": {
+        "amount": 300,
+        "gas": "mekanism:oxygen"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:yttrium_dust"
+        }
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "chemlib:yttrium_hydroxide_dust"
+    }
+}

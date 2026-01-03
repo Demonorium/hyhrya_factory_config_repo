@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "moremekanismprocessing:dust_aluminum",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:aluminum",
+        "amount": 100.0
+    },
+    "energy": 7001
+}

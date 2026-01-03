@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:potassium_chloride_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:beryllium_hydroxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 40132.7,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:beryllium_chloride_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:potassium_hydroxide_dust",
+            "count": 2.0
+        }
+    ]
+}

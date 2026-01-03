@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:mendelevium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:mendelevium",
+            "count": 1
+        }
+    ],
+    "energy": 11000
+}

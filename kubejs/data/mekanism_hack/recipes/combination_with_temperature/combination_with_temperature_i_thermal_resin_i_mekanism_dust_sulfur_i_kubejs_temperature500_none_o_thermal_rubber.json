@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 2.0,
+    "temperature": {
+        "min_temp": 500
+    },
+    "fluid_input": {
+        "fluid": "thermal:resin",
+        "amount": 2000.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "mekanism:dust_sulfur",
+        "count": 2.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "thermal:rubber",
+        "count": 6.0
+    }
+}

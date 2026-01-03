@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:aluminum_oxide_dust"
+        }
+    },
+    "mainInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:strontium_oxide_dust"
+        }
+    },
+    "output": {
+        "item": "chemlib:strontium_aluminate_dust",
+        "count": 1.0
+    }
+}

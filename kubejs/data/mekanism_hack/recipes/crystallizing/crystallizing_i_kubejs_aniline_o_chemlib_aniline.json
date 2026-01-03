@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:aniline",
+        "amount": 100
+    },
+    "output": {
+        "item": "chemlib:aniline",
+        "count": 1.0
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "dimensions": [
+        "sgjourney:unitas",
+        "ad_astra:venus"   
+    ],
+    "regions": [
+        {
+            "type": "constant",
+            "bottom": {
+                "anchor": "constant",
+                "depth": 1001,
+                "temperature": -273.15,
+                "units": "c"
+            }
+        },
+        {
+            "type": "linear",
+            "top": {
+                "anchor": "constant",
+                "depth": 1000,
+                "temperature": -273.15,
+                "units": "c"
+            },
+            "bottom": {
+                "anchor": "constant",
+                "depth": 300,
+                "temperature": {
+                    "strength": 0,
+                    "value": 1
+                },
+                "units": "c"
+            }
+        },
+        {
+            "type": "linear",
+            "top": {
+                "anchor": "constant",
+                "depth": 299,
+                "temperature": {
+                    "strength": 0.0,
+                    "value": 1.0
+                },
+                "units": "c"
+            },
+            "bottom": {
+                "anchor": "constant",
+                "depth": 10,
+                "temperature": {
+                    "value": 150,
+                    "strength": 0.6
+                }, 
+                "units": "c"
+            }
+        },
+        {
+            "type": "linear",
+            "top": {
+                "anchor": "constant",
+                "depth": 9,
+                "temperature": {
+                    "value": 150,
+                    "strength": 0.6
+                }, 
+                "units": "c"
+            },
+            "bottom": {
+                "anchor": "constant",
+                "depth": -64,
+                "temperature": {
+                    "value": 150,
+                    "strength": 1.0
+                }, 
+                "units": "c"
+            }
+        },
+        {
+            "type": "linear",
+            "top": {
+                "anchor": "constant",
+                "depth": -65,
+                "temperature": {
+                    "value": 120,
+                    "strength": 1.0
+                },
+                "units": "c"
+            },
+            "bottom": {
+                "anchor": "constant",
+                "depth": -319,
+                "temperature": -273.15,
+                "units": "c"
+            }
+        },
+        {
+            "type": "constant",
+            "top": {
+                "anchor": "constant",
+                "depth": -320,
+                "temperature": -273.15,
+                "units": "c"
+            }
+        }
+    ]
+}

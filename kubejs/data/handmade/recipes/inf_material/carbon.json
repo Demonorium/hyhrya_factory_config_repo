@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:infusion_conversion",
+    "input": {
+      "ingredient": [
+        {
+          "item": "chemlib:carbon_dust"
+        }
+      ]
+    },
+    "output": {
+      "amount": 40,
+      "infuse_type": "mekanism:carbon"
+    }
+}

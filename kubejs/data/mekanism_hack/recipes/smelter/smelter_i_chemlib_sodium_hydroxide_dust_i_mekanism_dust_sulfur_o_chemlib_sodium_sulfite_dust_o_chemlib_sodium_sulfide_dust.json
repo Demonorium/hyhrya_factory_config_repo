@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_sulfite_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_sulfide_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 78110.61333333334,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:sodium_hydroxide_dust",
+            "count": 6.0
+        },
+        {
+            "item": "mekanism:dust_sulfur",
+            "count": 3.0
+        }
+    ]
+}

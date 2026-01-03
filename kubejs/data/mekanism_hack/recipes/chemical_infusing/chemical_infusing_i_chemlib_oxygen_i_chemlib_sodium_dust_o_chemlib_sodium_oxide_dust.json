@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "mekanism:oxygen",
+        "amount": 1.0
+    },
+    "output": {
+        "gas": "kubejs:sodium_oxide",
+        "amount": 1.0
+    },
+    "rightInput": {
+        "gas": "mekanism:sodium",
+        "amount": 2.0
+    }
+}

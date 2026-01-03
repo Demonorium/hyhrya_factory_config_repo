@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:europium_iii_iodide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:europium_iii_iodide_dust",
+            "count": 1
+        }
+    ],
+    "energy": 5872
+}

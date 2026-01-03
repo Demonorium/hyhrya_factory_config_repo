@@ -1,0 +1,24 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 6.205794701986755,
+    "temperature": {},
+    "fluid_input": {
+        "fluid": "mekanismelements:ammonia",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:iron_ii_oxide_dust",
+        "count": 3.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:nitrogen",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "mekanism:dust_iron",
+        "count": 3.0
+    }
+}

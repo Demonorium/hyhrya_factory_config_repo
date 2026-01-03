@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 687,
+    "fluidInput": {
+        "amount": 200,
+        "fluid": "kubejs:silicon_dioxide"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "kubejs:sodium_sulfate"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:carbon_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 200,
+        "gas": "mekanism:sulfur_dioxide"
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "chemlib:sodium_metasilicate_dust"
+    }
+}

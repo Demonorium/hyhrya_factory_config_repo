@@ -1,0 +1,6 @@
+
+["Gear Hearts"]
+	#Range: 1 ~ 99
+	"Amount of Hearts Gained from the Hearty Enchantment" = 2
+	"Hearty Enchantment is a Treasure Enchantment and can NOT be enchanted on the Enchantment Table" = true
+

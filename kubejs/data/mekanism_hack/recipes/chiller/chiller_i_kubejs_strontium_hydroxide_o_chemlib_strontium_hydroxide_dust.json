@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:strontium_hydroxide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:strontium_hydroxide_dust",
+            "count": 1
+        }
+    ],
+    "energy": 6060
+}

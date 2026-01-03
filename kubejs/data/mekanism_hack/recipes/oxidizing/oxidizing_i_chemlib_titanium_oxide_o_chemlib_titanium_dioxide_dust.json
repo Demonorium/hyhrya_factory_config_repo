@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:oxidizing",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:titanium_oxide"
+        }
+    },
+    "output": {
+        "gas": "kubejs:titanium_dioxide",
+        "amount": 200.0
+    }
+}

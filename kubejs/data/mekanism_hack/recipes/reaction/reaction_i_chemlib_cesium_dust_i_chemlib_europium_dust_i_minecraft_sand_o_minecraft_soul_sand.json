@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 600,
+    "fluidInput": {
+        "amount": 400,
+        "fluid": "kubejs:cesium"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "kubejs:europium"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "minecraft:sand"
+        }
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "minecraft:soul_sand"
+    }
+}

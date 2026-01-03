@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "mekanism:oxygen",
+        "amount": 9.0
+    },
+    "output": {
+        "gas": "kubejs:fluorine",
+        "amount": 200.0,
+        "chemicalType": "gas"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 309,
+    "fluidInput": {
+        "amount": 300,
+        "fluid": "kubejs:sodium_chloride"
+    },
+    "gasInput": {
+        "amount": 300,
+        "gas": "mekanism:water_vapor"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dust_aluminum"
+        }
+    },
+    "gasOutput": {
+        "amount": 300,
+        "gas": "kubejs:sodium_hydroxide"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:aluminium_chloride_dust"
+    }
+}

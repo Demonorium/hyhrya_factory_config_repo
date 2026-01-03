@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "moremekanismprocessing:cobalt_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 17680.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:cobalt",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "ad_astra:venus_calorite_ore",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "ad_astra:raw_calorite",
+            "chance": 2.5
+        },
+        {
+            "item": "ad_astra:raw_calorite",
+            "chance": 0.5
+        },
+        {
+            "item": "ad_astra:venus_sand",
+            "chance": 0.25
+        }
+    ],
+    "experience": 1.0
+}

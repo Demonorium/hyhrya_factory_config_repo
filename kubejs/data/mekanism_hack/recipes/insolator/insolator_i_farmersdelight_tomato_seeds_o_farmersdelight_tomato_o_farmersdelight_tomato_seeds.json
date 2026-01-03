@@ -1,0 +1,19 @@
+{
+    "type": "thermal:insolator",
+    "ingredient": {
+        "item": "farmersdelight:tomato_seeds",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "farmersdelight:tomato",
+            "chance": 1
+        },
+        {
+            "item": "farmersdelight:tomato_seeds",
+            "chance": 1
+        }
+    ],
+    "energy_mod": 2.0,
+    "water_mod": 1.0
+}

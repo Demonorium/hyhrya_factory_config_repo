@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "thermal:nickel_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:iron_iii_nitrate_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 104360.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "mekanism:dust_iron",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:nickel_nitrate_dust",
+            "count": 3.0
+        }
+    ]
+}

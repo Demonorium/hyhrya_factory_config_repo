@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "mekanismelements:nitrogen"
+    },
+    "gasInput": {
+        "amount": 300,
+        "gas": "mekanism:oxygen"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:hydrogen"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "mekanismelements:nitric_acid"
+    }
+}

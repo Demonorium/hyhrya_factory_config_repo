@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:magnesium_sulfate",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:magnesium_sulfate",
+        "amount": 100.0
+    },
+    "energy": 13970
+}

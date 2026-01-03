@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 6.46,
+    "temperature": {
+        "max_temp": 919.0
+    },
+    "fluid_input": {
+        "fluid": "mekanism:chlorine",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:cesium_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "chemlib:cesium_chloride_dust",
+        "count": 1.0
+    }
+}

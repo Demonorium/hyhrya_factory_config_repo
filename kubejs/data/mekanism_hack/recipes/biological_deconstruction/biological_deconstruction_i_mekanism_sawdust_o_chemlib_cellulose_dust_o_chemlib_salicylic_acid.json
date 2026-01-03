@@ -1,0 +1,27 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "mekanism:sawdust",
+        "count": 1.0
+    },
+    "nutrientsCost": 2,
+    "processingTime": 100,
+    "results": [
+        {
+            "item": "chemlib:cellulose_dust",
+            "countRange": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+            }
+        },
+        {
+            "item": "chemlib:salicylic_acid",
+            "countRange": {
+                "type": "uniform",
+                "min": 0,
+                "max": 2
+            }
+        }
+    ]
+}

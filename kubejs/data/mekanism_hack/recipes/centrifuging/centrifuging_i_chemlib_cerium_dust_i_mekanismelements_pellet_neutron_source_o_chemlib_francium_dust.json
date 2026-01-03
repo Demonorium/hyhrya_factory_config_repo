@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:cerium",
+        "amount": 3.0
+    },
+    "output": {
+        "gas": "kubejs:francium",
+        "amount": 50.0,
+        "chemicalType": "gas"
+    }
+}

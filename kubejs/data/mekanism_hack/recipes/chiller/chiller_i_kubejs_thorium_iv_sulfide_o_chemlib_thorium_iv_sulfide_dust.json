@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:thorium_iv_sulfide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:thorium_iv_sulfide_dust",
+            "count": 1
+        }
+    ],
+    "energy": 16335
+}

@@ -1,0 +1,20 @@
+{
+    "type": "thermal:crystallizer",
+    "ingredients": [
+        {
+            "fluid": "pneumaticcraft:ethanol",
+            "amount": 100.0
+        },
+        {
+            "item": "chemlib:carbon_dust",
+            "count": 1.0
+        }
+    ],
+    "result": [
+        {
+            "item": "moremekanismprocessing:dust_bort",
+            "count": 3.0
+        }
+    ],
+    "energy": 80000
+}

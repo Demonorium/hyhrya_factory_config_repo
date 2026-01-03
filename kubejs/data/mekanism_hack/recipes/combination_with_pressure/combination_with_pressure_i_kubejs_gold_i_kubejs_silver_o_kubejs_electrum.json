@@ -1,0 +1,19 @@
+{
+    "type": "pneumaticcraft:fluid_mixer",
+    "input1": {
+        "fluid": "kubejs:gold",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "input2": {
+        "fluid": "kubejs:silver",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "pressure": 3,
+    "time": 160,
+    "fluid_output": {
+        "fluid": "kubejs:electrum",
+        "amount": 200.0
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:terbium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:terbium_dust",
+            "count": 1
+        }
+    ],
+    "energy": 12218
+}

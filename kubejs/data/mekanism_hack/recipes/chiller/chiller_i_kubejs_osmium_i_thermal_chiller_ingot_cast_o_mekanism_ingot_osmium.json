@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "mekanism:ingot_osmium",
+            "count": 1
+        }
+    ],
+    "energy": 33060.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:osmium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:iron_disulfide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:iron_disulfide",
+        "amount": 100.0
+    },
+    "energy": 6469
+}

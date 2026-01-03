@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:americium",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:americium",
+        "amount": 100.0
+    },
+    "energy": 14490
+}

@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "minecraft:prismarine_shard",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:zinc_carbonate",
+        "amount": 100.0
+    },
+    "energy": 3098
+}

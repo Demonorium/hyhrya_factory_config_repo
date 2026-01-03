@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "thermal:cinnabar_dust"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:red",
+        "amount": 512.0
+    }
+}

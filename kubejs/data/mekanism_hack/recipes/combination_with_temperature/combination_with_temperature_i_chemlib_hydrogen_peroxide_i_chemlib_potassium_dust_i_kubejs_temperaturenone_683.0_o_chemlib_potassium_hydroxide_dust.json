@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 2.05,
+    "temperature": {
+        "max_temp": 683.0
+    },
+    "fluid_input": {
+        "fluid": "kubejs:hydrogen_peroxide",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:potassium_dust",
+        "count": 2.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "chemlib:potassium_hydroxide_dust",
+        "count": 2.0
+    }
+}

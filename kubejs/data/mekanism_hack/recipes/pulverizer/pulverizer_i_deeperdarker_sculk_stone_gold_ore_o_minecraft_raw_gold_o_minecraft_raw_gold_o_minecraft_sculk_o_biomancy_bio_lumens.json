@@ -1,0 +1,26 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "deeperdarker:sculk_stone_gold_ore",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "minecraft:raw_gold",
+            "chance": 2.5
+        },
+        {
+            "item": "minecraft:raw_gold",
+            "chance": 0.5
+        },
+        {
+            "item": "minecraft:sculk",
+            "chance": 0.25
+        },
+        {
+            "item": "biomancy:bio_lumens",
+            "chance": 0.25
+        }
+    ],
+    "experience": 1.0
+}

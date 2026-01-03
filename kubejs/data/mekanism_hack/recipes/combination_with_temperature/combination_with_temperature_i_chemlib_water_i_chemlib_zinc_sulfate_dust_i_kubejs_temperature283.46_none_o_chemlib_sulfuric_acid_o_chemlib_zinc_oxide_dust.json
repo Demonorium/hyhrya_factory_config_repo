@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 25.054059405940595,
+    "temperature": {
+        "min_temp": 283.46
+    },
+    "fluid_input": {
+        "fluid": "minecraft:water",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:zinc_sulfate_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanism:sulfuric_acid",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:zinc_oxide_dust",
+        "count": 1.0
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "mekanism:dust_iron",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:calcium_sulfate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 51044.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:calcium_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:iron_ii_sulfate_dust",
+            "count": 1.0
+        }
+    ]
+}

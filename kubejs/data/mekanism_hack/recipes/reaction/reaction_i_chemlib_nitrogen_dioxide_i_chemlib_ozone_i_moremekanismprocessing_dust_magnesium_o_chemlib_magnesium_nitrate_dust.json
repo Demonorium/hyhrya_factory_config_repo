@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 600,
+        "fluid": "mekanismelements:nitrogen_dioxide"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "kubejs:ozone"
+    },
+    "itemInput": {
+        "amount": 3.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dust_magnesium"
+        }
+    },
+    "itemOutput": {
+        "count": 3,
+        "item": "chemlib:magnesium_nitrate_dust"
+    }
+}

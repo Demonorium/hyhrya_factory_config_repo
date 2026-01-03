@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:phosgene",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:phosgene",
+            "count": 1
+        }
+    ],
+    "energy": 10551
+}

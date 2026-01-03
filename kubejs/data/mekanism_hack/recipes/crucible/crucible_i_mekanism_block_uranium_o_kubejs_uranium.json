@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "mekanism:block_uranium",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:uranium",
+        "amount": 900.0
+    },
+    "energy": 126477.0
+}

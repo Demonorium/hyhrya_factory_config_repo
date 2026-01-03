@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:chalcopyrite_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:chalcopyrite",
+        "amount": 100.0
+    },
+    "energy": 7398
+}

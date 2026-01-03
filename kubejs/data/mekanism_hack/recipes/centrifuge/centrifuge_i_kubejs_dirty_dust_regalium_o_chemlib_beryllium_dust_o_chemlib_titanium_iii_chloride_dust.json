@@ -1,0 +1,18 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+        "item": "kubejs:dirty_dust_regalium",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "chemlib:beryllium_dust",
+            "chance": 2.5
+        },
+        {
+            "item": "chemlib:titanium_iii_chloride_dust",
+            "chance": 0.5
+        }
+    ],
+    "energy": 2000
+}

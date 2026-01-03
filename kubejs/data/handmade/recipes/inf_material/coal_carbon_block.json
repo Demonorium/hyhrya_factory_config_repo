@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:infusion_conversion",
+    "input": {
+      "ingredient": [
+        {
+          "item": "thermal:coal_coke_block"
+        }
+      ]
+    },
+    "output": {
+      "amount": 360,
+      "infuse_type": "mekanism:carbon"
+    }
+}

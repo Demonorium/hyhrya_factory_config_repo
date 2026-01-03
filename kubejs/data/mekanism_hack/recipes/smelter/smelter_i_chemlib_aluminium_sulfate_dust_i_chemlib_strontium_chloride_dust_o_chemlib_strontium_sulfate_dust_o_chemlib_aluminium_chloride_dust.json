@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:strontium_sulfate_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:aluminium_chloride_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 55429.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:aluminium_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:strontium_chloride_dust",
+            "count": 3.0
+        }
+    ]
+}

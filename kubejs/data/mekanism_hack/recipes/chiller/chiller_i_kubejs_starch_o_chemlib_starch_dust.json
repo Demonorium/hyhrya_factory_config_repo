@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:starch",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:starch_dust",
+            "count": 1
+        }
+    ],
+    "energy": 8339
+}

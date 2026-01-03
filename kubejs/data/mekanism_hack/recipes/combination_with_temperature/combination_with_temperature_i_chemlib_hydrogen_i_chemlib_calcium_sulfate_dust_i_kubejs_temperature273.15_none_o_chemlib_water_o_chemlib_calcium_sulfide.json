@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 29.53028846153846,
+    "temperature": {
+        "min_temp": 273.15
+    },
+    "fluid_input": {
+        "fluid": "mekanism:hydrogen",
+        "amount": 800.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:calcium_sulfate_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "minecraft:water",
+        "amount": 400.0
+    },
+    "item_output": {
+        "item": "chemlib:calcium_sulfide",
+        "count": 1.0
+    }
+}

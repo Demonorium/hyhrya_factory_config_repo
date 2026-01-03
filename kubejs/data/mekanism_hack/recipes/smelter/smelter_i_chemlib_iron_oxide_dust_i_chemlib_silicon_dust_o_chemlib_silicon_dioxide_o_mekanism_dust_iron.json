@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:silicon_dioxide",
+            "count": 3.0
+        },
+        {
+            "item": "mekanism:dust_iron",
+            "count": 4.0
+        }
+    ],
+    "energy": 197770.32,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:iron_oxide_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:silicon_dust",
+            "count": 3.0
+        }
+    ]
+}

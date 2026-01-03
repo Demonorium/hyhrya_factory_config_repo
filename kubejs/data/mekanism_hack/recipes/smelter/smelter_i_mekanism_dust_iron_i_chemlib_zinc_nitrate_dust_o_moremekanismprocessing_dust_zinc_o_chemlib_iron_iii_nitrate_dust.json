@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "moremekanismprocessing:dust_zinc",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:iron_iii_nitrate_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 74896.4,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "mekanism:dust_iron",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:zinc_nitrate_dust",
+            "count": 3.0
+        }
+    ]
+}

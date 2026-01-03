@@ -1,0 +1,8 @@
+[
+    {
+        "hostile": true,
+        "when": "onjoin",
+        "spawntype": ["mob_summoned", "spawn_egg"],
+        "result": "default"
+    }
+]

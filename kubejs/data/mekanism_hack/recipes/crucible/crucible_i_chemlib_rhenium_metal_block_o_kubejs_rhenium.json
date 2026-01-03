@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:rhenium_metal_block",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:rhenium",
+        "amount": 900.0
+    },
+    "energy": 311310.0
+}

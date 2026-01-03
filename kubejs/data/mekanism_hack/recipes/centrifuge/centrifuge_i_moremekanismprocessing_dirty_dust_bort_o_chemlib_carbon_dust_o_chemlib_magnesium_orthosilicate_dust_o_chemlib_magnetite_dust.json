@@ -1,0 +1,22 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+        "item": "moremekanismprocessing:dirty_dust_bort",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "chemlib:carbon_dust",
+            "chance": 3.5
+        },
+        {
+            "item": "chemlib:magnesium_orthosilicate_dust",
+            "chance": 1.5
+        },
+        {
+            "item": "chemlib:magnetite_dust",
+            "chance": 1.0
+        }
+    ],
+    "energy": 3000
+}

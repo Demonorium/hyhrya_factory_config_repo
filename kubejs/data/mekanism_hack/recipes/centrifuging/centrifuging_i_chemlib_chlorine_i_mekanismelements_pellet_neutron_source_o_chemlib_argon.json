@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "mekanism:chlorine",
+        "amount": 18.0
+    },
+    "output": {
+        "gas": "kubejs:argon",
+        "amount": 425.0,
+        "chemicalType": "gas"
+    }
+}

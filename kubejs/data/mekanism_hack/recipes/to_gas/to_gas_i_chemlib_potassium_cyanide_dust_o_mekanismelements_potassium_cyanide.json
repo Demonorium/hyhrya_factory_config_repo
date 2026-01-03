@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:potassium_cyanide_dust"
+        }
+    },
+    "output": {
+        "gas": "mekanismelements:potassium_cyanide",
+        "amount": 100.0
+    }
+}

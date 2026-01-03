@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:antimony_pentaoxide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:antimony_pentaoxide_dust",
+            "count": 1
+        }
+    ],
+    "energy": 1469
+}

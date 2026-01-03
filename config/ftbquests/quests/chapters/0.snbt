@@ -1,0 +1,1326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0"
+	group: ""
+	icon: "minecraft:campfire"
+	id: "5891AF8B836E3954"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["36980C7C44834F5C"]
+			id: "4FF4A0934BEDEA7E"
+			rewards: [{
+				count: 5
+				id: "785A039F236CC692"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Начните свой путь к автоматизации"
+			tasks: [
+				{
+					id: "45FA16FC15CFBC6B"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A56543A51EF52A1"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36980C7C44834F5C"]
+			id: "1B0E3812221535F6"
+			rewards: [
+				{
+					count: 5
+					id: "1D2242B8C3E92A0A"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2BA0A1513C6A5280"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69CE9DEDB5288898"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Добро пожаловать в чудесный мир автоматизации!"
+				"Прежде чем вы сможете приступить к его уничтожению, утилизации и поглощению вам потребуется сделать несколько вещей."
+				""
+				"Во-первых вам найти место, что станет вашим заводом."
+				"Во-вторых вам нужны инструменты."
+				"В-третьих есть еда."
+				""
+				"К счастью у вас с собой есть некоторые припасы."
+			]
+			id: "36980C7C44834F5C"
+			rewards: [
+				{
+					count: 5
+					id: "5BE39416087E443E"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "2E409F4E2D89B6A5"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "467A53E2A141F3B5"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "7C6B28C7A5917A48"
+					item: "akashictome:tome"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Начало пути"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "ad_astra:earth_globe"
+				id: "3BE4DF5FB75CB15F"
+				title: "Появитесь в мире"
+				type: "dimension"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4FF4A0934BEDEA7E"]
+			description: ["Соберите всё необходимое, чтобы начать автоматизировать"]
+			id: "3C12307CF05BB570"
+			rewards: [
+				{
+					count: 32
+					id: "153933DF584528C4"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "2E5113FD91246834"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "pneumaticcraft:book"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Глава 1"
+			tasks: [
+				{
+					count: 32L
+					id: "5F8E42789DBF955F"
+					item: { Count: 64, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6DB421F062F65346"
+					item: { Count: 5, id: "minecraft:gunpowder" }
+					type: "item"
+				}
+				{
+					id: "0218F8EE95674E6E"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			title: "Базовые материалы"
+			x: 2.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4FF4A0934BEDEA7E"]
+			description: [
+				"Стандартные инструменты достаточно ограничены."
+				""
+				"Для большей гибкости вы можете использовать модульные инструменты:"
+				"Выложите шаблоны в форме части инструмента и получите шаблон."
+				""
+				"Выложите ту же форму с помощью материала, положив в стеку крафта шаблон в любой свободный слот - получите компонент."
+				""
+				"Деревянные шаблоны расходуются при крафтах."
+				""
+				"Вы можете комбинировать разные материалы в сетке крафта, чтобы получить разные эффекты. Порядок имеет значение. Эксперементируйте!"
+			]
+			id: "022573FC960322BB"
+			rewards: [
+				{
+					count: 10
+					id: "6A0A976E8D7E0F55"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "6A90CB9C082004E2"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2008C59499E97AC3"
+					item: "silentgear:template_board"
+					type: "item"
+				}
+			]
+			subtitle: "Совершенные инструменты"
+			tasks: [{
+				id: "082E6EF5583E0F61"
+				item: "silentgear:template_board"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["022573FC960322BB"]
+			id: "336AB02B20F18571"
+			rewards: [{
+				count: 16
+				id: "33F300A5F1B93932"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Эффективная переработка"
+			tasks: [{
+				id: "4BAAB7991383158E"
+				item: "silentgear:salvager"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["022573FC960322BB"]
+			description: [
+				"Смешивая разные материалы на этих устройствах можно получить весьма интересные вещи!"
+				"Проверьте рецепты."
+			]
+			id: "204620924CE36A78"
+			rewards: [
+				{
+					count: 32
+					id: "168058979894526F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "70536203DE7D306B"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6B5C2A143A950EF8"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "45C576950AA8F659"
+					item: "silentgear:recrystallizer"
+					type: "item"
+				}
+				{
+					id: "32A951CB2D9C236A"
+					item: "silentgear:refabricator"
+					type: "item"
+				}
+				{
+					id: "63FFC4562805257E"
+					item: "silentgear:metal_alloyer"
+					type: "item"
+				}
+			]
+			title: "Смешивание"
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["022573FC960322BB"]
+			description: ["Если спрессовать любые материалы ис сплавы - можно получить компонент брони."]
+			id: "5894730C3EA730C9"
+			rewards: [{
+				count: 32
+				id: "5A7A2B6E5B844A3E"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			subtitle: "Броня"
+			tasks: [{
+				id: "548C38193E6B8ACF"
+				item: "silentgear:metal_press"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["022573FC960322BB"]
+			description: [
+				"Смешитель материалов позволяет улучшить эффект от материала."
+				"Для этого поместите материал и катализатор."
+				""
+				"Чем лучше катализатор, тем выше шанс SSS материала."
+			]
+			id: "64F54BA6E2C22823"
+			rewards: [{
+				count: 32
+				id: "57F4E32D85CFEF2B"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FFF4BA404198F37"
+				item: "silentgear:material_grader"
+				type: "item"
+			}]
+			title: "Гача"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["022573FC960322BB"]
+			description: [
+				"Освободите площадку 7х7 блоков."
+				""
+				"В центре разместите накопитель."
+				""
+				"В 4 углах постройте колонны в 2 блока высотой из любых полных блоков."
+				"На вершину каждой колонный поместите блок багрового железа."
+				""
+				"Теперь эта конструкция способна заряжать ваши кристаллы: алмазы, изумруды и т.д. силой звёзд."
+				""
+				"Вместо навершия можно также использовать азурное серебро или тирианскую сталь, получая более мощные эффекты"
+			]
+			id: "6A429E207FDDB04D"
+			rewards: [{
+				count: 5
+				id: "409C4148ED6FBE54"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "Лунная призма"
+			tasks: [
+				{
+					id: "1C5588C935A96663"
+					item: "silentgear:starlight_charger"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7E0AFBB4E3E5868D"
+					item: "silentgear:crimson_steel_block"
+					type: "item"
+				}
+			]
+			title: "Сила звёзд"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B0E3812221535F6"]
+			description: [
+				"Начните готовить."
+				""
+				"Кстати еда делает вас сильнее."
+			]
+			id: "535F39ED6E63C537"
+			rewards: [
+				{
+					count: 64
+					id: "17ACC09687492E06"
+					item: "aquaculture:sushi"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "676432CE1BB361D9"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "497613F6E24BA0CD"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "105DA32F8E5F3CA2"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "28B46F0A5DF1F07D"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D31244F8AC8743F"
+					item: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2ED51A6436D7BAC8"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13A228A50D2BC326"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+			]
+			title: "Готовка"
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["690ABF4A0A5DEAC2"]
+			id: "2B70BC686164D44A"
+			rewards: [
+				{
+					id: "43F0DEBDBE71BD95"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B3679E76439EB03"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22248461A7704EF5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0CB6E82E4C5D25EB"
+					item: "silentgear:flax_string"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46ABAF247D8D5592"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36980C7C44834F5C"]
+			description: [
+				"Возможно вы уже заметили, что вы умираете от холода."
+				""
+				"К сожалению этот мир весьма жесток, вам следует подготовиться."
+			]
+			id: "690ABF4A0A5DEAC2"
+			rewards: [{
+				id: "3ADC0AA7D706AA3E"
+				item: {
+					Count: 1
+					id: "minecraft:leather_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Условия мира весьма суровы"
+			tasks: [{
+				id: "7C174E59EB072D3A"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			title: "Утепление"
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36980C7C44834F5C"]
+			description: [
+				"Возможно вам не стоит есть еду только одного вида, ведь разнообразное питание даст вам множество бонусов!"
+				""
+				"Поедание еды и получение урона также позволяет вам накалпивать генетические сбои."
+				"Как бессмертное существо, вы способны эволюционировать. Используйте кольцо Меню на букву G, чтобы открыть меню эволюцию."
+				""
+				"Внимание: есть баг, из-за которого меню открывается, когда ты нажимаешь любую кнопку после выбора его в круговом меню."
+				""
+				"Внимание: Требования к опыту растут экспоненциально."
+			]
+			id: "68A0E762400D392D"
+			rewards: [{
+				count: 10
+				id: "1BBD1ED68D13A257"
+				item: "pneumaticcraft:sourdough_bread"
+				type: "item"
+			}]
+			subtitle: "Эволюция через пожирание"
+			tasks: [{
+				id: "59B77A6E68DEBC57"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			title: "Еда и припасы"
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			description: ["Бросок яиц и последующее приручение слизня с помощью яиц позволяет очень медленного и очень жирного питомца. Тем не менее, он с радостью пожрёт каждого, кто так считает."]
+			id: "06F2F60E63A7E32E"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "367B59D85856912A"
+				item: "minecraft:slime_block"
+				type: "item"
+			}]
+			subtitle: "Вы можете вырастить слизняка и он будет вашим питомцем"
+			tasks: [{
+				id: "494C8B803E82BEE8"
+				item: "opposing_force:slug_eggs"
+				type: "item"
+			}]
+			title: "Ручные слизни-убийцы"
+			x: -9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2B70BC686164D44A"]
+			id: "416C0537F80DBE46"
+			rewards: [{
+				count: 3
+				id: "6105FD8FEBD3DB7D"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			tasks: [{
+				id: "388D5873B7C3A2C4"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				match_nbt: false
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B70BC686164D44A"]
+			id: "5EDD3D4642A4CECF"
+			rewards: [{
+				count: 2
+				id: "29FE55AC6FA7CA60"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62F754CC310E0A60"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B70BC686164D44A"]
+			id: "20B2C940078F8A36"
+			rewards: [{
+				count: 8
+				id: "7F286DA4FBCD76D6"
+				item: "superbwarfare:cell"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32AB82DFB01C2134"
+				item: "sophisticatedbackpacks:battery_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B70BC686164D44A"]
+			id: "4BED54C252AE145A"
+			rewards: [{
+				count: 128
+				id: "79A10C8AB3FD3FE5"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DD94DDB53179E6C"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B70BC686164D44A"]
+			id: "44F8E9AC6277BBC5"
+			rewards: [{
+				id: "35D1854D149755ED"
+				item: "mekanism:advanced_fluid_tank"
+				type: "item"
+			}]
+			tasks: [{
+				id: "098A25B4718E1294"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["690ABF4A0A5DEAC2"]
+			description: ["Некоторые виды укрепления дают вам не только утепление, но и защиту"]
+			id: "3FE9E15C3CA1F0D2"
+			rewards: [{
+				count: 8
+				id: "67F4401C1A25DC7C"
+				item: "thermal:iron_plate"
+				type: "item"
+			}]
+			subtitle: "Плоть слаба"
+			tasks: [{
+				id: "2357247AA04C62A6"
+				item: "thermal:iron_plate"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			id: "770C62F791CF0080"
+			tasks: [{
+				icon: "ad_astra:iron_factory_block"
+				id: "606EA2C125E23A79"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"40C1930754F57115"
+				"72755ECBB3748D8B"
+			]
+			id: "34271F6A9D8F5CB0"
+			tasks: [{
+				id: "3D178B86903BD083"
+				item: "pneumaticcraft:stomp_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["40C1930754F57115"]
+			id: "1375F897E04AA090"
+			tasks: [{
+				id: "12A8CC3572552314"
+				item: "pneumaticcraft:jumping_upgrade_1"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1375F897E04AA090"
+				"40C1930754F57115"
+				"770C62F791CF0080"
+			]
+			id: "088BDC49E5A0192B"
+			tasks: [{
+				id: "0D36E9B3338E74B8"
+				item: "pneumaticcraft:jumping_upgrade_2"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			id: "397377DDC2D2886B"
+			tasks: [{
+				icon: "cataclysm:altar_of_fire"
+				id: "3595B37055805037"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["397377DDC2D2886B"]
+			id: "7F4329882FCDE180"
+			tasks: [{
+				id: "18FA610D1A61AEB3"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["770C62F791CF0080"]
+			id: "5425552E48D05FE4"
+			tasks: [{
+				id: "3E60A6B3F0F59F9C"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5425552E48D05FE4"
+				"40C1930754F57115"
+			]
+			id: "5C87B4AE6F24F811"
+			tasks: [{
+				id: "3937D9F5FD3860AA"
+				item: "pneumaticcraft:jet_boots_upgrade_1"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"088BDC49E5A0192B"
+				"40C1930754F57115"
+			]
+			id: "53CFBC4039233F39"
+			tasks: [{
+				id: "0AE446008432289B"
+				item: "pneumaticcraft:jumping_upgrade_3"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7F4329882FCDE180"
+				"53CFBC4039233F39"
+				"40C1930754F57115"
+			]
+			id: "0515D119C0698F3B"
+			tasks: [{
+				id: "5C6AA9E6CBDD5B84"
+				item: "pneumaticcraft:jumping_upgrade_4"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5C87B4AE6F24F811"
+				"40C1930754F57115"
+			]
+			id: "14FB8324E0E543FF"
+			tasks: [{
+				id: "52789662509F4ADC"
+				item: "pneumaticcraft:jet_boots_upgrade_2"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"14FB8324E0E543FF"
+				"40C1930754F57115"
+			]
+			id: "1CF459988FDF121E"
+			tasks: [{
+				id: "2F34EEC5C93BB4C6"
+				item: "pneumaticcraft:jet_boots_upgrade_3"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"1CF459988FDF121E"
+				"7F4329882FCDE180"
+				"40C1930754F57115"
+			]
+			id: "4A659609E0FC1FE1"
+			tasks: [{
+				id: "2E09E473AA4648BB"
+				item: "pneumaticcraft:jet_boots_upgrade_4"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4A659609E0FC1FE1"
+				"4BBFE96F67264FDE"
+				"40C1930754F57115"
+			]
+			id: "491448B7DF83B23B"
+			tasks: [{
+				id: "20C333B0BA1A855A"
+				item: "pneumaticcraft:jet_boots_upgrade_5"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			id: "71AB2F206D2D8554"
+			tasks: [{
+				icon: "cataclysm:ceraunus"
+				id: "7709EAEC7F97A869"
+				structure: "cataclysm:acropolis"
+				type: "structure"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["71AB2F206D2D8554"]
+			id: "4BBFE96F67264FDE"
+			tasks: [{
+				id: "1BFADC050E772F97"
+				item: "cataclysm:essence_of_the_storm"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"72755ECBB3748D8B"
+				"6806EDD7791E8647"
+				"40C1930754F57115"
+			]
+			dependency_requirement: "one_completed"
+			id: "164D190A6201AF57"
+			tasks: [{
+				id: "27814822B26B654C"
+				item: "pneumaticcraft:armor_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["466A6AA597BEC6F0"]
+			id: "72755ECBB3748D8B"
+			tasks: [{
+				id: "73887E64DF1BB67A"
+				item: "cataclysm:monstrous_horn"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "466A6AA597BEC6F0"
+			tasks: [{
+				icon: "cataclysm:monstrous_eye"
+				id: "3DB9BAA7A76E61FF"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6806EDD7791E8647"
+				"40C1930754F57115"
+			]
+			id: "689787EE24145294"
+			tasks: [{
+				id: "72FD77A6C331E324"
+				item: "pneumaticcraft:ender_visor_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["46085F82488B1DA1"]
+			id: "6806EDD7791E8647"
+			tasks: [{
+				id: "687EFEAE39DF090D"
+				item: "bosses_of_mass_destruction:obsidian_heart"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			id: "46085F82488B1DA1"
+			tasks: [{
+				icon: "minecraft:obsidian"
+				id: "1C53579DADDD20B6"
+				structure: "bosses_of_mass_destruction:obsidilith_arena"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"7C68F32D23568384"
+				"2B70BC686164D44A"
+			]
+			id: "1768C8884082284E"
+			tasks: [{
+				id: "64DEBCE40D288364"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "6F3EACF626BDDA3C"
+			tasks: [{
+				icon: "bosses_of_mass_destruction:soul_star"
+				id: "4788675E05831B7C"
+				structure: "bosses_of_mass_destruction:lich_tower"
+				type: "structure"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6F3EACF626BDDA3C"]
+			id: "7C68F32D23568384"
+			tasks: [{
+				id: "628C6CD611C0F1E4"
+				item: "bosses_of_mass_destruction:ancient_anima"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["52AE73B1EE88CE26"]
+			id: "7C916CAF2FB34C9A"
+			tasks: [{
+				id: "178C9847871C4E73"
+				item: "meetyourfight:phantoplasm"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "52AE73B1EE88CE26"
+			tasks: [{
+				id: "3D46CD3D3A1B64CC"
+				item: "meetyourfight:haunted_bell"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7C916CAF2FB34C9A"]
+			id: "6EE2503E73331844"
+			tasks: [{
+				id: "752FF1B9CE1D5818"
+				item: "advancedperipherals:weak_automata_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7C68F32D23568384"
+				"6EE2503E73331844"
+			]
+			id: "291EC98B508A5493"
+			tasks: [{
+				id: "6B5B464851B91616"
+				item: "advancedperipherals:overpowered_weak_automata_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7C68F32D23568384"
+				"6951BC096F77EBA5"
+			]
+			id: "6B7B4C80FC45923F"
+			tasks: [{
+				id: "684305ADAEB89392"
+				item: "advancedperipherals:overpowered_end_automata_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7C68F32D23568384"
+				"07237F7734DA8221"
+			]
+			id: "0AE951865D39348D"
+			tasks: [{
+				id: "5A20758B9B57972D"
+				item: "advancedperipherals:overpowered_husbandry_automata_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D28627BD6068472"]
+			id: "280BD84AC99D4E0B"
+			tasks: [{
+				id: "79ED8F27C69B82A2"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "3D28627BD6068472"
+			tasks: [{
+				icon: "cataclysm:void_eye"
+				id: "2BCCFC9E3AA49210"
+				structure: "cataclysm:ruined_citadel"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["280BD84AC99D4E0B"]
+			id: "6951BC096F77EBA5"
+			tasks: [{
+				id: "2055E57C443A3F66"
+				item: "advancedperipherals:end_automata_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3C6FE5E0F2E4D594"]
+			id: "07237F7734DA8221"
+			tasks: [{
+				id: "44468539BDE03E40"
+				item: "advancedperipherals:husbandry_automata_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0CCB1F6024716B5D"]
+			id: "3C6FE5E0F2E4D594"
+			tasks: [{
+				id: "714348CD08F8162D"
+				item: "bosses_of_mass_destruction:crystal_fruit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "0CCB1F6024716B5D"
+			tasks: [{
+				id: "0A9D1A9FAA97A1ED"
+				item: "bosses_of_mass_destruction:void_lily"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["690ABF4A0A5DEAC2"]
+			id: "67243EB467601E59"
+			rewards: [{
+				count: 3
+				id: "1A0416179B0A069A"
+				item: "cold_sweat:goat_fur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C759B21275CD582"
+				item: "cold_sweat:goat_fur"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["690ABF4A0A5DEAC2"]
+			id: "0CC14B5758869105"
+			rewards: [{
+				id: "3B8A8F457B3A0850"
+				item: "alexsmobs:bison_fur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E493DA411FFFBAA"
+				item: "alexsmobs:bison_fur"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["690ABF4A0A5DEAC2"]
+			id: "76BC7305F994C8E9"
+			tasks: [{
+				id: "53B690F3D2612D2B"
+				item: "macabre:limb_splitter_fur"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["690ABF4A0A5DEAC2"]
+			id: "7C1C0E91E81E0232"
+			tasks: [{
+				id: "6179D0C956E29F86"
+				item: "alexsmobs:mimicream"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["690ABF4A0A5DEAC2"]
+			id: "3101B376B7EC66AB"
+			tasks: [{
+				id: "6EC51934DCB042EC"
+				item: "cold_sweat:chameleon_molt"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["690ABF4A0A5DEAC2"]
+			id: "618C844F8BA18EE7"
+			tasks: [{
+				id: "55BEE9C59650AABE"
+				item: "alexsmobs:bear_fur"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["690ABF4A0A5DEAC2"]
+			id: "6C2F813D80EBA3BA"
+			tasks: [{
+				id: "70400D04D8884840"
+				item: "netherdepthsupgrade:soul_sucker_leather"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["690ABF4A0A5DEAC2"]
+			id: "3F954FA5A10E8B75"
+			tasks: [{
+				id: "39196BA0EE4EF7B6"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["690ABF4A0A5DEAC2"]
+			id: "34DA248C62675D75"
+			tasks: [{
+				id: "5D08C736229CFBA3"
+				item: "pncepcb:flexible_finished_pcb"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["690ABF4A0A5DEAC2"]
+			id: "2E3DC1AE52F45B96"
+			tasks: [{
+				id: "440EC660327248B5"
+				item: "pncepcb:bio_compatible_finished_pcb"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["690ABF4A0A5DEAC2"]
+			id: "2E67343D8580B1AA"
+			tasks: [{
+				id: "56222B9630F3E7C1"
+				item: "biomancy:tough_fibers"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["690ABF4A0A5DEAC2"]
+			id: "54A0BB709B777596"
+			tasks: [{
+				id: "3A99EEC2AADE30C2"
+				item: "deeperdarker:resonarium_plate"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"04729721E3EF7CCF"
+				"40C1930754F57115"
+			]
+			id: "3461C435DB73F0F2"
+			tasks: [{
+				id: "1A9922B449369987"
+				item: "pneumaticcraft:night_vision_upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2F5A5B6AABC855F9"]
+			id: "04729721E3EF7CCF"
+			tasks: [{
+				id: "716E9EDD04194423"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			id: "2F5A5B6AABC855F9"
+			tasks: [{
+				icon: "cataclysm:cursed_eye"
+				id: "09A96231A9F71F9B"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			x: 8.5d
+			y: 8.5d
+		}
+	]
+	title: "Глава 0. Путешествие"
+}

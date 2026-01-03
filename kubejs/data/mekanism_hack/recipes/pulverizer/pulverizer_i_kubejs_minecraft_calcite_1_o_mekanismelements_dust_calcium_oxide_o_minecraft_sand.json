@@ -1,0 +1,18 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "tag": "kubejs:minecraft/calcite_1",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "mekanismelements:dust_calcium_oxide",
+            "chance": 1.0
+        },
+        {
+            "item": "minecraft:sand",
+            "chance": 1.0
+        }
+    ],
+    "experience": 1.0
+}

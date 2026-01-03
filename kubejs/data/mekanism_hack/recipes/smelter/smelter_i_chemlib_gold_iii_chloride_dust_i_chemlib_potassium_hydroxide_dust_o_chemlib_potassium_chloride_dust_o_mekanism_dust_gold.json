@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:potassium_chloride_dust",
+            "count": 6.0
+        },
+        {
+            "item": "mekanism:dust_gold",
+            "count": 2.0
+        }
+    ],
+    "energy": 131951.7,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:gold_iii_chloride_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:potassium_hydroxide_dust",
+            "count": 6.0
+        }
+    ]
+}

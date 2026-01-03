@@ -1,0 +1,5 @@
+
+[preview]
+	#Set up to 4 button multipliers/divide on the preview screen.
+	button = [2, 16, 64, 100]
+

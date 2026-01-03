@@ -1,0 +1,6 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#sgjourney:is_athos",
+    "features": "handmade:global_ruby_ore",
+    "step": "underground_ores"
+}

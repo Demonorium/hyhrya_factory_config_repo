@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:potassium_nitrite_dust",
+            "count": 5.0
+        },
+        {
+            "item": "chemlib:phosphorus_pentoxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 52067.075,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:phosphorus_dust",
+            "count": 2.0
+        },
+        {
+            "item": "thermal:niter_dust",
+            "count": 5.0
+        }
+    ]
+}

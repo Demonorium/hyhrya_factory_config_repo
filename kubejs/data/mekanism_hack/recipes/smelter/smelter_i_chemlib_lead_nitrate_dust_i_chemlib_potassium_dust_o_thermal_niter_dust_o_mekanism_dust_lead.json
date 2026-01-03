@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "thermal:niter_dust",
+            "count": 2.0
+        },
+        {
+            "item": "mekanism:dust_lead",
+            "count": 1.0
+        }
+    ],
+    "energy": 21743.129999999997,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:lead_nitrate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:potassium_dust",
+            "count": 2.0
+        }
+    ]
+}

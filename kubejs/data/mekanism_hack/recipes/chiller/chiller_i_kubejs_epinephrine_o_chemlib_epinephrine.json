@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:epinephrine",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:epinephrine",
+            "count": 1
+        }
+    ],
+    "energy": 13390
+}

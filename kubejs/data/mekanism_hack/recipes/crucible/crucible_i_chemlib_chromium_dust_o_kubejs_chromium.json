@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:chromium_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:chromium",
+        "amount": 100.0
+    },
+    "energy": 16350
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:sodium_tellurite",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:sodium_tellurite_dust",
+            "count": 1
+        }
+    ],
+    "energy": 7372
+}

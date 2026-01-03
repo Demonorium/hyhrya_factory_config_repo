@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:nitric_oxide",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "mekanismelements:nitric_oxide",
+        "amount": 100.0
+    },
+    "energy": 1090
+}

@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:separating",
+    "input": {
+        "fluid": "kubejs:fluorite_aluminum",
+        "amount": 100.0
+    },
+    "leftGasOutput": {
+        "gas": "kubejs:aluminum",
+        "amount": 25.0
+    },
+    "rightGasOutput": {
+        "gas": "kubejs:fluorine",
+        "amount": 50.0
+    }
+}

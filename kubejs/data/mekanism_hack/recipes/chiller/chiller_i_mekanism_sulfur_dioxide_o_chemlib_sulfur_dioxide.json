@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "mekanism:sulfur_dioxide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:sulfur_dioxide",
+            "count": 1
+        }
+    ],
+    "energy": 2010
+}

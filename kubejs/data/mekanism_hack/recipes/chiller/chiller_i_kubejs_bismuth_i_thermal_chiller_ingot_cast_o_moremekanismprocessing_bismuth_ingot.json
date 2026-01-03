@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "moremekanismprocessing:bismuth_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 5447.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:bismuth",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

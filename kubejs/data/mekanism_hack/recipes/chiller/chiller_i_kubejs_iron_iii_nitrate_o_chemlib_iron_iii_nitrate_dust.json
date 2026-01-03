@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:iron_iii_nitrate",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:iron_iii_nitrate_dust",
+            "count": 1
+        }
+    ],
+    "energy": 2402
+}

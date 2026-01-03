@@ -1,0 +1,127 @@
+{
+    "dimensions": [
+        "ad_astra:mars",
+        "ad_astra:moon",
+        "ad_astra:mercury",
+        "ad_astra:glacio"    
+    ],
+    "regions": [
+    {
+      "bottom": {
+        "anchor": "world_top",
+        "depth": 1000,
+        "temperature": {
+          "value": -273.15,
+          "strength": 1
+        },
+        "units": "c"
+      }
+    },
+    {
+      "type": "linear",
+      "top": {
+        "anchor": "world_top",
+        "depth": 999,
+        "temperature": {
+          "value": -273.15,
+          "strength": 1
+        },
+        "units": "c"
+      },
+      "bottom": {
+        "anchor": "world_top",
+        "depth": 1,
+        "temperature": {
+          "value": -273.15,
+          "strength": 0.01
+        }
+      }
+    },
+    {
+      "type": "linear",
+      "top": {
+        "anchor": "world_top",
+        "depth": 0,
+        "temperature": {
+          "value": -273.15,
+          "strength": 0.01
+        },
+        "units": "c"
+      },
+      "bottom": {
+        "anchor": "ground_level",
+        "depth": 31,
+        "temperature": {
+          "strength": 0
+        }
+      }
+    },
+    {
+      "type": "linear",
+      "top": {
+        "anchor": "ground_level",
+        "depth": 30,
+        "temperature": {
+          "strength": 0
+        }
+      },
+      "bottom": {
+        "anchor": "ground_level",
+        "depth": -30,
+        "temperature": {
+          "strength": 0.7,
+          "value": -20
+        },
+        "units": "c"
+      }
+    },
+    {
+      "type": "logarithmic",
+      "top": {
+        "anchor": "ground_level",
+        "depth": -31,
+        "temperature": {
+          "strength": 0.7,
+          "value": -20
+        },
+        "units": "c"
+      },
+      "bottom": {
+        "anchor": "world_bottom",
+        "depth": 1,
+        "temperature": {
+          "strength": 0.9,
+          "value": 5
+        },
+        "units": "c"
+      }
+    },
+    {
+      "type": "linear",
+      "top": {
+        "anchor": "world_bottom",
+        "depth": 0,
+        "temperature": {
+          "strength": 0.9,
+          "value": 5
+        },
+        "units": "c"
+      },
+      "bottom": {
+        "anchor": "world_bottom",
+        "depth": -319,
+        "temperature": -273.15,
+        "units": "c"
+      }
+    },
+    {
+      "type": "constant",
+      "top": {
+        "anchor": "world_bottom",
+        "depth": -320,
+        "temperature": -273.15,
+        "units": "c"
+      }
+    }
+  ]
+}

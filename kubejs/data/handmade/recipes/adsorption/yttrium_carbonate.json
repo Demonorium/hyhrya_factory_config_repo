@@ -1,0 +1,17 @@
+{
+  "type": "mekanismelements:adsorption",
+  "gasInput": {
+    "amount": 50,
+    "gas": "mekanismelements:compressed_air"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "chemlib:yttrium_hydroxide_dust"
+    }
+  },
+  "output": {
+    "amount": 100,
+    "chemicalType": "gas",
+    "gas": "kubejs:yttrium_carbonate"
+  }
+}

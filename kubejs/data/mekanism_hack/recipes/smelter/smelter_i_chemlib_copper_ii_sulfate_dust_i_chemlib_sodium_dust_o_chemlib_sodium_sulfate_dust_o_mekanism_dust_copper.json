@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "mekanism:dust_copper",
+            "count": 1.0
+        }
+    ],
+    "energy": 30220.780000000002,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:copper_ii_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_dust",
+            "count": 2.0
+        }
+    ]
+}

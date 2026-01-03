@@ -1,0 +1,29 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:aluminum_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:chromium_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:potassium_aluminate_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 98603.29,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "moremekanismprocessing:dust_aluminum",
+            "count": 4.0
+        },
+        {
+            "item": "chemlib:potassium_dichromate",
+            "count": 1.0
+        }
+    ]
+}

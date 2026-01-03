@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "moremekanismprocessing:magnesium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 9230.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:magnesium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

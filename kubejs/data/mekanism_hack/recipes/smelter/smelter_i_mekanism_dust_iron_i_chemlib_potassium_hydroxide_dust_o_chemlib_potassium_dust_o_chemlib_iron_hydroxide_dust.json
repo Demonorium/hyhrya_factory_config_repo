@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:potassium_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:iron_hydroxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 45038.299999999996,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "mekanism:dust_iron",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:potassium_hydroxide_dust",
+            "count": 2.0
+        }
+    ]
+}

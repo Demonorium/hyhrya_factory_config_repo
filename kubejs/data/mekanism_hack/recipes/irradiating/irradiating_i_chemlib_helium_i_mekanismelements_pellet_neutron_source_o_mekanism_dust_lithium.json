@@ -1,0 +1,18 @@
+{
+    "type": "mekanismelements:radiation_irradiating",
+    "gasInput": {
+        "gas": "mekanismelements:helium",
+        "amount": 3.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanismelements:pellet_neutron_source"
+        }
+    },
+    "output": {
+        "gas": "mekanism:lithium",
+        "amount": 50.0,
+        "chemicalType": "gas"
+    }
+}

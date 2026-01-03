@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 12.871386138613861,
+    "temperature": {
+        "min_temp": 313.01,
+        "max_temp": 987.0
+    },
+    "fluid_input": {
+        "fluid": "mekanism:hydrogen_chloride",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:enstatite_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:metasilicic_acid",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:magnesium_chloride_dust",
+        "count": 1.0
+    }
+}

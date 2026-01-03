@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "mekanism:block_osmium",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:osmium",
+        "amount": 900.0
+    },
+    "energy": 297540.0
+}

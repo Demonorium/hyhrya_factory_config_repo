@@ -1,0 +1,12 @@
+{
+    "type": "ad_astra:compressing",
+    "cookingtime": 100,
+    "energy": 20,
+    "ingredient": {
+        "item": "silentgear:emerald_shard"
+    },
+    "result": {
+        "count": 1,
+        "id": "chemlib:beryllium"
+    }
+}

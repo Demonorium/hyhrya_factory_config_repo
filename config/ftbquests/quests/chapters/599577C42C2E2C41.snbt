@@ -1,0 +1,3118 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "599577C42C2E2C41"
+	group: ""
+	icon: "chemlib:aluminum_carbonate"
+	id: "599577C42C2E2C41"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1D5AAF52FBE0B7D3"
+				"70E5B972F195C885"
+				"47C1AFD9A32CBD7A"
+			]
+			id: "07D13F1DD12D4DDC"
+			tasks: [{
+				id: "39641DE41BE3E268"
+				item: "chemlib:yttrium_barium_copper_oxide_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"54EE2B9666F1BE03"
+				"18E437A6007A7821"
+				"66004C7C1B68BC4B"
+			]
+			dependency_requirement: "one_completed"
+			id: "67342BFD3A7C5724"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Глава 4. Часть первая"
+			tasks: [{
+				id: "01D1BDD62083F1EF"
+				item: "moremekanismprocessing:dust_aluminum"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5048539AF26215A5"]
+			id: "307184EC430A29BB"
+			tasks: [{
+				id: "5CF8009D526E5738"
+				item: "chemlib:calcium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"18677CFF41F6479E"
+				"4AE0AC2428AF1849"
+				"77C7E6613637A144"
+				"52C20E6141324906"
+			]
+			dependency_requirement: "one_completed"
+			id: "1D5AAF52FBE0B7D3"
+			tasks: [{
+				id: "5455B4F1655F073D"
+				item: "chemlib:copper_carbonate_dust"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"6733806BDFAA884C"
+				"1E9570F175351E2E"
+			]
+			dependency_requirement: "one_completed"
+			id: "70E5B972F195C885"
+			tasks: [{
+				id: "34470040477EB2DF"
+				item: "chemlib:barium_carbonate_dust"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["55B415F4EAD3CF06"]
+			id: "47C1AFD9A32CBD7A"
+			tasks: [{
+				id: "68499C415CFA4A22"
+				item: "chemlib:yttrium_carbonate_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"0EA6102293564A51"
+				"0C4BC778C0FBCB2C"
+			]
+			id: "55B415F4EAD3CF06"
+			tasks: [{
+				id: "13C9BBD6E2728506"
+				item: "chemlib:yttrium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6568506BD2B1F16F"]
+			dependency_requirement: "one_completed"
+			id: "6733806BDFAA884C"
+			tasks: [{
+				id: "3173796F6F3665E9"
+				item: "chemlib:barium_sulfate"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0F9A545740E899C3"
+				"74341A669DBB5CCE"
+			]
+			id: "07CE2EB4E5880431"
+			tasks: [{
+				id: "21A1017A834339C3"
+				item: "chemlib:sodium_carbonate_dust"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "0F9A545740E899C3"
+			tasks: [{
+				id: "3D58D011B36D2E86"
+				item: "mekanism:salt"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["74341A669DBB5CCE"]
+			id: "0B827D4F95442D85"
+			shape: "gear"
+			tasks: [{
+				id: "1BBD3E3BA33778E7"
+				item: "minecraft:sponge"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"6733806BDFAA884C"
+				"4923DC87942355FB"
+			]
+			dependency_requirement: "one_completed"
+			id: "002B4A8EEB4C782C"
+			tasks: [{
+				id: "0C3E31067290AFE3"
+				item: "minecraft:white_dye"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["790198F8F797F850"]
+			id: "4222B06043262348"
+			tasks: [{
+				id: "1C93A8A4CC427C93"
+				item: "chemlib:cobalt_aluminate_dust"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4222B06043262348"]
+			id: "089DA4ED1EBEF73E"
+			tasks: [{
+				id: "055AB24D31EE4129"
+				item: "minecraft:blue_dye"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"70E5B972F195C885"
+				"77C7E6613637A144"
+			]
+			id: "2B4E37B38F80BF86"
+			tasks: [{
+				id: "528489165F3F9BB4"
+				item: "chemlib:han_purple"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2B4E37B38F80BF86"]
+			id: "7F17B2F95857BBC6"
+			tasks: [{
+				id: "15F9A66FC01157A1"
+				item: "minecraft:magenta_dye"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"56F707F30173FD7F"
+				"65E6CE63441A7067"
+			]
+			id: "3E38DD11DB920F58"
+			tasks: [{
+				id: "6F34A594C0E275D0"
+				item: "minecraft:red_dye"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1BBEBDD1EF4BFFD2"]
+			id: "4923DC87942355FB"
+			tasks: [{
+				id: "45700A2D11978240"
+				item: "chemlib:antimony_trioxide_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["601E6009AE7C411B"]
+			id: "6AEFECF616C1A4BA"
+			tasks: [{
+				id: "51184B6D966B5BCF"
+				item: "chemlib:beta_carotene_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["1BBEBDD1EF4BFFD2"]
+			id: "6F5557C299DD5A52"
+			tasks: [{
+				id: "1FC663ED49314681"
+				item: "chemlib:cadmium_sulfide_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6F5557C299DD5A52"
+				"4EAE5A516B163A01"
+				"559311255FC7975A"
+			]
+			id: "31CEFAD10E54285B"
+			tasks: [{
+				id: "47BEFBFB69C2F50D"
+				item: "minecraft:yellow_dye"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AEFECF616C1A4BA"]
+			id: "0BE047CFEF7C5664"
+			tasks: [{
+				id: "5DE3894789F287B4"
+				item: "minecraft:orange_dye"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["79C646EC94D60EE5"]
+			id: "1E6D997D75A4F479"
+			tasks: [{
+				id: "14D9CF6EB5762EBD"
+				item: "minecraft:brown_dye"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["179D5F9B631B41D2"]
+			id: "6C03EB73F933C672"
+			tasks: [{
+				id: "51AF566752582EA7"
+				item: "chemlib:chromium_oxide_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6C03EB73F933C672"]
+			id: "04795D97E0FE9A72"
+			tasks: [{
+				id: "3366561B2D6B9193"
+				item: "minecraft:green_dye"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"701812E8B8396A63"
+				"6568506BD2B1F16F"
+			]
+			dependency_requirement: "one_completed"
+			id: "4EAE5A516B163A01"
+			tasks: [{
+				id: "7249FFA3BB8C00C5"
+				item: "chemlib:lead_iodide"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["601E6009AE7C411B"]
+			id: "79C646EC94D60EE5"
+			tasks: [{
+				id: "44A69F3BBA0D5CC8"
+				item: "chemlib:p_phenylenediamine_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["68D6E1E257F03E16"]
+			id: "398E309870E52A07"
+			tasks: [{
+				id: "6ADA845CD35EC323"
+				item: "minecraft:black_dye"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			id: "20987649F16183AB"
+			tasks: [{
+				id: "4F5FC607ACAD824F"
+				item: "mekanismelements:adsorption_separator"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			hide_dependency_lines: true
+			id: "4DEFA00048F9163B"
+			tasks: [{
+				id: "50A28002563E10F6"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["62F00095CB8949E2"]
+			id: "304874F96444EA1A"
+			tasks: [{
+				id: "0F20D9EABFC7662F"
+				item: "chemlib:acetylsalicylic_acid_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"4DEFA00048F9163B"
+				"51053C8FA29A5FE8"
+			]
+			id: "07B0BF554CA3962C"
+			tasks: [{
+				id: "2E5E2686B95234BE"
+				item: "thermal:niter_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51053C8FA29A5FE8"]
+			id: "5AC99AAE12A0AA65"
+			tasks: [{
+				id: "5BB5A5CB4477B4CE"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6568506BD2B1F16F"]
+			id: "559311255FC7975A"
+			tasks: [{
+				id: "0CDAE4CD237347AC"
+				item: "chemlib:lead_antimonate_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			hide_dependency_lines: true
+			id: "04A13142EB0967A1"
+			tasks: [{
+				id: "73F4809C88DCFD57"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["04A13142EB0967A1"]
+			id: "7C468A3E209543AB"
+			tasks: [{
+				id: "1A4CFC173DB2699C"
+				item: "chemlib:silicon_dioxide"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["601E6009AE7C411B"]
+			id: "62F00095CB8949E2"
+			tasks: [{
+				id: "1BB6D93A6EC1EB02"
+				item: "chemlib:salicylic_acid"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			hide_dependency_lines: true
+			id: "701812E8B8396A63"
+			tasks: [{
+				id: "0C751D1C7A1DCB7F"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["701812E8B8396A63"]
+			id: "230F8A00BBFBCF95"
+			tasks: [{
+				id: "4477619F593BE3AB"
+				item: "mekanismelements:tablet_iodine"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			id: "11189DC530BFF52C"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "015141F1C62683B1"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6568506BD2B1F16F"]
+			icon: "mekanism:hazmat_mask"
+			id: "7A36A93CB4952816"
+			tasks: [{
+				id: "56896429185B74E0"
+				item: "mekanism:hazmat_mask"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["11189DC530BFF52C"]
+			id: "182AEC71C45E8108"
+			tasks: [{
+				id: "78BC0F26705CF952"
+				item: "chemlib:hydrazine"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			hide_dependency_lines: true
+			id: "679C065C589A1198"
+			tasks: [{
+				id: "46535381D554DD1F"
+				item: "minecraft:calcite"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["44AC4A8D115A9532"]
+			id: "45FA8AED9C75FDE5"
+			tasks: [{
+				id: "398317D0FFFB09B3"
+				item: "silentgear:azure_silver_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"3372163AC827ED34"
+				"00C310358F452A99"
+			]
+			hide_dependency_lines: true
+			id: "44AC4A8D115A9532"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:ender_eye"
+				id: "2B6FA56A380F02D0"
+				title: "Посетите край"
+				type: "dimension"
+			}]
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "6B24080F9076CAD9"
+			tasks: [{
+				id: "4C6490D3ABB08A64"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6B24080F9076CAD9"
+				"49EFDD6CE07E0307"
+			]
+			dependency_requirement: "one_completed"
+			id: "56F707F30173FD7F"
+			tasks: [{
+				id: "41E598D5DD0AF9B7"
+				item: "chemlib:iron_oxide_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B24080F9076CAD9"]
+			id: "09FD642E7636A5B8"
+			tasks: [{
+				id: "5F5675B71EC87167"
+				item: "chemlib:iron_carbonate_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B24080F9076CAD9"]
+			id: "2C1784DD9E1C06C9"
+			tasks: [{
+				id: "4E3CB26DE9A4B414"
+				item: "chemlib:magnetite_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "7A3DB281A5386FE9"
+			tasks: [{
+				id: "4AE9A34BB3D696C6"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "6DEE213448A30231"
+			tasks: [{
+				id: "25A79D7E052DAE9E"
+				item: "thermal:raw_silver"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7A3DB281A5386FE9"]
+			id: "52C20E6141324906"
+			tasks: [{
+				id: "44BA7AD6E71828FA"
+				item: "chemlib:chalcopyrite_dust"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7A3DB281A5386FE9"]
+			id: "4AE0AC2428AF1849"
+			tasks: [{
+				id: "1954FF4D5451AF5E"
+				item: "chemlib:copper_i_sulfide_dust"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7A3DB281A5386FE9"]
+			id: "77C7E6613637A144"
+			tasks: [{
+				id: "3EBEE2426133B1EE"
+				item: "chemlib:copper_i_oxide_dust"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"6DEE213448A30231"
+				"57C93009689E4908"
+				"49E4634179755976"
+			]
+			dependency_requirement: "one_completed"
+			id: "1596DDA0D2276A4F"
+			tasks: [{
+				id: "56E90D1AC42C4731"
+				item: "moremekanismprocessing:dust_silver"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"6DEE213448A30231"
+				"002953CCC9923E3A"
+			]
+			dependency_requirement: "one_completed"
+			id: "5067B3B102F79545"
+			tasks: [{
+				id: "19B71F6490481C65"
+				item: "chemlib:arsenic_dust"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"57C93009689E4908"
+				"6DEE213448A30231"
+			]
+			dependency_requirement: "one_completed"
+			id: "65E6CE63441A7067"
+			tasks: [{
+				id: "569C5707C2AFD9CD"
+				item: "thermal:cinnabar_dust"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6DEE213448A30231"
+				"57C93009689E4908"
+			]
+			dependency_requirement: "one_completed"
+			id: "611F9A5DFE5CDB3E"
+			tasks: [{
+				id: "2A6DDF9228F9F46C"
+				item: "chemlib:calaverite_dust"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "57C93009689E4908"
+			tasks: [{
+				id: "3437D75413E9FEA2"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["57C93009689E4908"]
+			id: "28F588FADB4278D4"
+			tasks: [{
+				id: "5D72976B9EADAFF5"
+				item: "chemlib:gold_iii_sulfide_dust"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C468A3E209543AB"]
+			id: "50B7050B87449A3A"
+			tasks: [{
+				id: "02264B691D0A60A3"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"5048539AF26215A5"
+				"54EE2B9666F1BE03"
+			]
+			id: "093E7F412D2A9A7D"
+			tasks: [{
+				id: "5BD52DBD08BF2FE6"
+				item: "mekanism:structural_glass"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			hide_dependency_lines: true
+			id: "0366AC0DB78870B8"
+			tasks: [{
+				id: "7B7833D26251FB0D"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7C7BBFBBC60461A7"
+				"2EE7EF51A8E370F4"
+				"2B84783743AF192E"
+				"679C065C589A1198"
+				"0366AC0DB78870B8"
+			]
+			dependency_requirement: "one_completed"
+			id: "5048539AF26215A5"
+			tasks: [{
+				id: "1BA98E9F8CC83F4C"
+				item: "mekanismelements:dust_calcium_oxide"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["63CFA73DF8E514EF"]
+			id: "27C9689712D7BCE2"
+			subtitle: "Массовые убийства"
+			tasks: [{
+				id: "4897E19B24D6A964"
+				item: "ballistix:chemical"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5067B3B102F79545"]
+			id: "4C0CB0AF4418857A"
+			tasks: [{
+				id: "2007998E46C565A4"
+				item: "chemlib:arsenic_sulfide"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["239F1743BC842ABE"]
+			id: "6568506BD2B1F16F"
+			tasks: [{
+				id: "4711E7FC273845A0"
+				item: "mekanism:raw_lead"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6568506BD2B1F16F"]
+			id: "68D6E1E257F03E16"
+			tasks: [{
+				id: "6A0FE7A154561151"
+				item: "chemlib:lead_sulfide_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6568506BD2B1F16F"]
+			id: "73A7CD31EEDA56AB"
+			tasks: [{
+				id: "31246A3B75E39A0B"
+				item: "chemlib:lead_carbonate_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["318D11881F2EA09D"]
+			hide_until_deps_complete: true
+			id: "7862397CCA28CD6A"
+			tasks: [{
+				id: "5C640C78FD47AF19"
+				item: "mekanism:raw_osmium"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_details_until_startable: true
+			id: "49EFDD6CE07E0307"
+			tasks: [{
+				id: "7DAEE6EA7A38DA74"
+				item: "mekanism:raw_tin"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["49EFDD6CE07E0307"]
+			id: "72FB95FDF2194B38"
+			tasks: [{
+				id: "5981185C92F66CFF"
+				item: "chemlib:tin_oxide_dust"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7862397CCA28CD6A"]
+			id: "55E4888E30A7C9F2"
+			tasks: [{
+				id: "1C86B898B8A8CF29"
+				item: "moremekanismprocessing:dust_iridium"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7862397CCA28CD6A"]
+			id: "27F2B5B54451AB0F"
+			tasks: [{
+				id: "444C666E70AB2DFE"
+				item: "moremekanismprocessing:dust_platinum"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7862397CCA28CD6A"]
+			id: "4CACC6C26A3D767D"
+			tasks: [{
+				id: "5356E8789CAAC10B"
+				item: "chemlib:osmium_dioxide_dust"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7862397CCA28CD6A"]
+			id: "54C11D9389DFFC6C"
+			tasks: [{
+				id: "5B09E0F88BD41004"
+				item: "chemlib:ruthenium_iv_oxide_dust"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			hide_dependency_lines: true
+			id: "1BBE4089E38491D2"
+			tasks: [{
+				id: "0FBAECAABA107251"
+				item: "undergarden:raw_cloggrum"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			hide_dependency_lines: true
+			id: "0EC0EF47CBB4DBA3"
+			tasks: [{
+				id: "52C41184FB896B69"
+				item: "undergarden:raw_froststeel"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			hide_dependency_lines: true
+			id: "7CBCD5F99E6A252D"
+			tasks: [{
+				id: "626FA5661B289C85"
+				item: "silentcompat:raw_plasteel"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0EC0EF47CBB4DBA3"
+				"1BBE4089E38491D2"
+				"7CBCD5F99E6A252D"
+				"6A6903DFFAAA6138"
+			]
+			id: "33A1E2BC044A725A"
+			tasks: [{
+				id: "46370E031E8764B5"
+				item: "chemlib:titanium_iii_chloride_dust"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"49EFDD6CE07E0307"
+				"1BBE4089E38491D2"
+				"745C2A22317FD10A"
+				"66004C7C1B68BC4B"
+				"4C4E3242E52827AC"
+				"6E7627E862EEE3AD"
+			]
+			dependency_requirement: "one_completed"
+			id: "54EE2B9666F1BE03"
+			tasks: [{
+				id: "4C7F65BF6192C953"
+				item: "chemlib:aluminum_oxide_dust"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"318D11881F2EA09D"
+				"004DCE2563970C33"
+			]
+			id: "18E437A6007A7821"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "2E19E21C897C7550"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"33A1E2BC044A725A"
+				"560739A94700BD32"
+				"00C310358F452A99"
+			]
+			id: "004DCE2563970C33"
+			tasks: [{
+				id: "2509C95C84E21139"
+				item: "moremekanismprocessing:titanium_ingot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			hide_dependency_lines: true
+			id: "0EA6102293564A51"
+			tasks: [{
+				id: "2722AA32BFBBBD24"
+				item: "mekanism:fluorite_gem"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			id: "0EA9F0848E4AB121"
+			rewards: [
+				{
+					count: 8
+					id: "79BC9130D1A1CC7D"
+					item: "mekanism:advanced_fluid_tank"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2C4F378C0231FF7A"
+					item: "mekanism:advanced_mechanical_pipe"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6AB867639E5C3645"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"40303EB3A89F8CAF"
+				"0EA9F0848E4AB121"
+				"1C9235D189085204"
+			]
+			id: "560739A94700BD32"
+			rewards: [{
+				count: 64
+				id: "458A85129229425E"
+				item: "mekanism:dust_osmium"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2196FEEAE7085F83"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0EC0EF47CBB4DBA3"]
+			id: "1C9235D189085204"
+			tasks: [{
+				id: "00C9FD97A4B87662"
+				item: "undergarden:froststeel_ingot"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["601E6009AE7C411B"]
+			id: "473315BEA47EF987"
+			tasks: [{
+				id: "492FB464A9F42BE1"
+				item: "biomancy:stone_powder"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			hide_dependency_lines: true
+			id: "6A6903DFFAAA6138"
+			tasks: [{
+				id: "42C3AF4E30DC2B93"
+				item: "kubejs:dirty_dust_regalium"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6A6903DFFAAA6138"
+				"4C4E3242E52827AC"
+			]
+			id: "4198E2432476B674"
+			tasks: [{
+				id: "295B87EBF3E76709"
+				item: "chemlib:beryllium_dust"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "4C4E3242E52827AC"
+			tasks: [{
+				id: "457E7473DEECBECF"
+				item: "moremekanismprocessing:dirty_dust_emerald"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4C4E3242E52827AC"
+				"6E7627E862EEE3AD"
+				"184CD46720221939"
+				"0CC947EF2FE0F519"
+			]
+			id: "745C2A22317FD10A"
+			tasks: [{
+				id: "113B4F26A9291E74"
+				item: "chemlib:orthoclase_dust"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["20987649F16183AB"]
+			id: "52A57ACAFD53F1C6"
+			tasks: [{
+				id: "5742A03AB3E04509"
+				item: "mekanismelements:seawater_pump"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"18213DD3A7187903"
+				"55E4888E30A7C9F2"
+				"27F2B5B54451AB0F"
+			]
+			id: "00C310358F452A99"
+			rewards: [{
+				count: 3
+				id: "6F227F1859E3E8A7"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Химическое растворение"
+			tasks: [{
+				id: "3AA0EB51B50AD120"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["20987649F16183AB"]
+			id: "0C063F64DAC9600B"
+			tasks: [{
+				id: "37D23BB3720BE392"
+				item: "mekanismelements:air_compressor"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5B16438AB2BFD293"
+				"22D245EE63939938"
+				"335C9B73E9C1FC5C"
+			]
+			id: "77FC7968D277B4BF"
+			shape: "square"
+			tasks: [{
+				id: "75C46B98A531DFD9"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["10A24C71082285AC"]
+			id: "601E6009AE7C411B"
+			shape: "square"
+			tasks: [{
+				id: "416FBC9644956ACA"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["601E6009AE7C411B"]
+			id: "4806E1986B68739B"
+			tasks: [{
+				id: "6A5736AB4AFC18AF"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["10A24C71082285AC"]
+			id: "1E20A1158AF66F3A"
+			tasks: [{
+				id: "3D69C18C6A723CB7"
+				item: "biomancy:chrysalis"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["77FC7968D277B4BF"]
+			id: "10A24C71082285AC"
+			shape: "square"
+			tasks: [{
+				id: "335B6EEF4CE60DB7"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["10A24C71082285AC"]
+			id: "70F07865936073F7"
+			shape: "gear"
+			tasks: [{
+				id: "76436A14C935F2E7"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["10A24C71082285AC"]
+			id: "048B1AADAC011D98"
+			shape: "square"
+			tasks: [{
+				id: "1BCE371FBD2C7D4B"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["601E6009AE7C411B"]
+			id: "1D91546DDA2C060E"
+			tasks: [{
+				id: "1B5C7CBA7E5B1283"
+				item: "biomancy:nutrient_bar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["2317A8F2D3FC606B"]
+			id: "0C4BC778C0FBCB2C"
+			tasks: [{
+				id: "0925498270C5832A"
+				item: "mekanism:yellow_cake_uranium"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"0EC0EF47CBB4DBA3"
+				"49E4634179755976"
+			]
+			id: "60571B831AB47978"
+			tasks: [{
+				id: "14BDE9D9946EB5B8"
+				item: "chemlib:cobalt_sulfate_dust"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["506A2ECDFB1ACE1E"]
+			id: "412FFFFA9AB6E363"
+			tasks: [
+				{
+					id: "2826A58FC6B9FE67"
+					item: "ballistix:launcherplatformtier1"
+					type: "item"
+				}
+				{
+					id: "74C6154FB4574964"
+					item: "ballistix:launchersupportframetier1"
+					type: "item"
+				}
+				{
+					id: "405B00F21A6C5918"
+					item: "ballistix:launchercontrolpaneltier3"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"412FFFFA9AB6E363"
+				"1862C9D367926544"
+			]
+			id: "6715E28C7A6DCD4E"
+			tasks: [{
+				id: "678850E6BF6FDDB0"
+				item: "ballistix:launcherplatformtier2"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"412FFFFA9AB6E363"
+				"4884C92A0FFF9B86"
+			]
+			id: "522EE076E60B3500"
+			tasks: [{
+				id: "1F286B83BCDFEFD6"
+				item: "ballistix:launcherplatformtier3"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["412FFFFA9AB6E363"]
+			id: "765EBBB4027AFAF5"
+			shape: "gear"
+			tasks: [{
+				id: "0988847F17217B8A"
+				item: "ballistix:rocketlauncher"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["412FFFFA9AB6E363"]
+			id: "5315C62E378B87CB"
+			tasks: [{
+				id: "2D3E859262645A4A"
+				item: "ballistix:missiletier1"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0BE93773B72111B9"]
+			description: [
+				"Найдите пирамиды древних и обыщите их внутренние помещения. Найдите Идол."
+				""
+				"Стол археолога является точкой интереса для жителя у которого можно купить карту потеряных звёздных врат."
+			]
+			id: "20FDAA198EC9425A"
+			subtitle: "В поисках золота"
+			tasks: [{
+				id: "43C85C6A325FF6CE"
+				item: "sgjourney:archeology_table"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["20FDAA198EC9425A"]
+			id: "63EE7533B7D31775"
+			rewards: [{
+				id: "00020C593D07EE8D"
+				item: {
+					Count: 1
+					id: "mekanism:advanced_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "16000000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Межзвёздные прыжки"
+			tasks: [
+				{
+					id: "57418B85421FCA80"
+					item: {
+						Count: 1
+						id: "sgjourney:milky_way_stargate"
+						tag: {
+							BlockEntityTag: {
+								generation_step: 2b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14A7478F2A1A0084"
+					item: {
+						Count: 1
+						id: "sgjourney:milky_way_dhd"
+						tag: {
+							BlockEntityTag: {
+								generation_step: 2b
+								id: "sgjourney:milky_way_dhd"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Врата млечного пути"
+			x: 3.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			id: "63CFA73DF8E514EF"
+			subtitle: "Дизорентация "
+			tasks: [{
+				id: "24B309594545A725"
+				item: "ballistix:debilitation"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"07CC849A14CF717F"
+				"1A545C75AD39E73D"
+				"004DCE2563970C33"
+				"43EF287730D4F9FB"
+				"6C03EB73F933C672"
+			]
+			id: "0874D51F0FB0A24C"
+			tasks: [{
+				id: "148C9D3D1D2B831E"
+				item: "ad_astra:tier_1_rocket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["11189DC530BFF52C"]
+			id: "18CA24AFBB7BD38A"
+			tasks: [{
+				id: "763DF231F4C39FF9"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["637FE3D421036958"]
+			id: "1862C9D367926544"
+			tasks: [{
+				id: "1F158C05A0842800"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1862C9D367926544"]
+			id: "4D90E01B70E1A676"
+			tasks: [{
+				id: "40DD457A1D3E32B5"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1862C9D367926544"]
+			id: "203FA03831FDC72D"
+			tasks: [{
+				id: "5BE708ABF783A12E"
+				item: "ad_astra:tier_1_rover"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1862C9D367926544"]
+			id: "5BCD62337827899D"
+			tasks: [{
+				id: "1A1F0DF8F8700718"
+				item: "ad_astra:gravity_normalizer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0874D51F0FB0A24C"
+				"07C0404AA2A0C067"
+			]
+			id: "637FE3D421036958"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "26E7740A1FCF2D3F"
+				title: "Слетайте на Луну"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18CA24AFBB7BD38A"]
+			id: "07CC849A14CF717F"
+			tasks: [{
+				id: "7F67A5CF13D58193"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["07CC849A14CF717F"]
+			icon: {
+				Count: 1
+				id: "ad_astra:space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "07C0404AA2A0C067"
+			tasks: [
+				{
+					id: "16A2F5F0366A736E"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34336A12349E04BF"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49F0C8F85D71AE74"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49FAADE96CB68523"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Скафандр"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C03EB73F933C672"]
+			id: "7A30302D722B9C01"
+			tasks: [{
+				id: "4EDF459C3A4285DA"
+				item: "ad_astra:engine_frame"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7A30302D722B9C01"]
+			id: "1A545C75AD39E73D"
+			tasks: [{
+				id: "435D5E33EE990854"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["637FE3D421036958"]
+			id: "31F656A139F2C74F"
+			subtitle: "Поешь сыра"
+			tasks: [{
+				id: "5A064148A3A95248"
+				item: "ad_astra:moon_cheese_ore"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07C0404AA2A0C067"]
+			id: "4CAEAFFABA834E54"
+			tasks: [{
+				id: "2806581AEC91D1BE"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"07D13F1DD12D4DDC"
+				"3A7A131158AEE4E3"
+			]
+			id: "77961D154AED3D18"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Глава 4. Часть вторая"
+			tasks: [{
+				id: "53B9F0B34A1143AE"
+				item: "mekanism_extras:alloy_radiance"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0C4BC778C0FBCB2C"]
+			id: "3A7A131158AEE4E3"
+			tasks: [{
+				id: "6B99C7F2912843D0"
+				item: "mekanism_extras:dust_radiance"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"0E36516AB2341A4A"
+				"4806E1986B68739B"
+			]
+			id: "4926F06D1EF6324E"
+			shape: "square"
+			subtitle: "Грядки это не технологично"
+			tasks: [{
+				id: "4E4CDCD84F2C8431"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"7C7BBFBBC60461A7"
+				"4A3B9A53AF1E4376"
+				"18E437A6007A7821"
+			]
+			dependency_requirement: "one_completed"
+			id: "1E9570F175351E2E"
+			tasks: [{
+				id: "6894F68C49714763"
+				item: "chemlib:barium_chloride_dust"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "7C7BBFBBC60461A7"
+			tasks: [{
+				id: "39312635EF4C29A0"
+				item: "minecraft:dripstone_block"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"4EFD88B9FC2A55AB"
+				"18E437A6007A7821"
+			]
+			hide_dependency_lines: true
+			id: "4A3B9A53AF1E4376"
+			tasks: [{
+				id: "56EBC350C25F6BD6"
+				item: "ad_astra:venus_stone"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1862C9D367926544"]
+			id: "5029DD4A338E25FF"
+			tasks: [{
+				id: "4D3537386818AF08"
+				item: "ad_astra:tier_2_rocket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4884C92A0FFF9B86"]
+			id: "006FB0E0E581A613"
+			tasks: [{
+				id: "328992746D409943"
+				item: "ad_astra:tier_3_rocket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4884C92A0FFF9B86"
+				"44FCF6EA7E5DF03D"
+			]
+			id: "71EE01C51E673370"
+			tasks: [{
+				id: "33BE91F45BF4CF31"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5029DD4A338E25FF"]
+			id: "5C4071E659E7783F"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "6AD294EA7D584545"
+				title: "Слетайте на Марс"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C4071E659E7783F"]
+			id: "4884C92A0FFF9B86"
+			tasks: [{
+				id: "005B61A5449273FC"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4884C92A0FFF9B86"]
+			id: "14CAE80E49D488F1"
+			tasks: [{
+				id: "712C77570EF562E4"
+				item: "ad_astra:oxygen_sensor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C4071E659E7783F"]
+			icon: {
+				Count: 1
+				id: "ad_astra:netherite_space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3882ABBFE9FB687A"
+			tasks: [
+				{
+					id: "4161CC72EA10D9AC"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "050EE5A35B1A505B"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10F8ABB300FEE95E"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69019A05AC30A8BD"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Незеритовый скафандр"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51649EFD33D547CC"]
+			id: "44FCF6EA7E5DF03D"
+			tasks: [{
+				id: "5BFEB481B2A903AF"
+				item: "chemlib:strontium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["63EE7533B7D31775"]
+			id: "064AC01B6A8EA987"
+			tasks: [{
+				dimension: "sgjourney:abydos"
+				icon: "sgjourney:golden_idol"
+				id: "01B59F45098B6796"
+				title: "Посетите Абидас"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["064AC01B6A8EA987"]
+			id: "239F1743BC842ABE"
+			tasks: [{
+				dimension: "sgjourney:cavum_tenebrae"
+				icon: "ae2:singularity"
+				id: "25E529D873A56DDA"
+				type: "dimension"
+			}]
+			title: "Посетите Каврум"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"239F1743BC842ABE"
+				"3974FF1CB397EC6E"
+				"0E29AFC234E69DAC"
+			]
+			id: "026406E57858AB34"
+			tasks: [{
+				id: "542ADFC8FCB544E0"
+				item: "mekanism:deepslate_uranium_ore"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"7A36A93CB4952816"
+				"40C1930754F57115"
+				"026406E57858AB34"
+			]
+			id: "2317A8F2D3FC606B"
+			tasks: [{
+				id: "126679BE8EC99CDC"
+				item: "pneumaticcraft:radiation_shielding_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"318D11881F2EA09D"
+				"1862C9D367926544"
+			]
+			id: "40C1930754F57115"
+			tasks: [
+				{
+					id: "0595F2BCD5610C96"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "pneumaticcraft:pneumatic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10D42AAE7C2DCF81"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "pneumaticcraft:pneumatic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56FEAE8265157467"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "pneumaticcraft:pneumatic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D7BCB093D6CA085"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "pneumaticcraft:pneumatic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Пневмоброня"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["40C1930754F57115"]
+			id: "3974FF1CB397EC6E"
+			tasks: [{
+				id: "64F38CA600EF8B23"
+				item: "ad_astra_giselle_addon:pneumatic_space_breathing_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"40C1930754F57115"
+				"3882ABBFE9FB687A"
+			]
+			id: "0E29AFC234E69DAC"
+			tasks: [{
+				id: "53BFBB7D752941C4"
+				item: "ad_astra_giselle_addon:pneumatic_space_fire_proof_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07CC849A14CF717F"]
+			id: "506A2ECDFB1ACE1E"
+			tasks: [{
+				id: "468EAF368A84E2AF"
+				item: "ad_astra_giselle_addon:automation_nasa_workbench"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["60571B831AB47978"]
+			id: "790198F8F797F850"
+			tasks: [{
+				id: "33D23C47CB7EED92"
+				item: "moremekanismprocessing:dust_cobalt"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["790198F8F797F850"]
+			id: "675A723B779D2EBD"
+			tasks: [{
+				id: "115678B7FE2D0A4C"
+				item: "silentcompat:solarmetal_ingot"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["790198F8F797F850"]
+			id: "188CDE58109EE69B"
+			tasks: [{
+				id: "5E3598A0ACCC4795"
+				item: "silentcompat:arcmetal_ingot"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0C063F64DAC9600B"
+				"7C468A3E209543AB"
+			]
+			id: "0F838F1DB234B546"
+			tasks: [{
+				id: "135B6307CD0BDCD6"
+				item: "kubejs:absorbent"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2F5FC0E82610F7B4"]
+			id: "33673FC8ECC46694"
+			tasks: [{
+				id: "517395FC98AB6118"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:micromissiles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0F838F1DB234B546"]
+			id: "62D1DB9C56F79924"
+			tasks: [{
+				id: "0923EE14B07DF13F"
+				item: "chemlib:ammonium_nitrate_dust"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"62D1DB9C56F79924"
+				"40D9B2BE014FC4EC"
+				"2D6E713C0C9E4A1A"
+				"3AE987E6AB5A5613"
+			]
+			dependency_requirement: "one_completed"
+			id: "2F5FC0E82610F7B4"
+			tasks: [{
+				id: "24E4A640C83F22D3"
+				item: "superbwarfare:missile_engine"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0F838F1DB234B546"]
+			id: "40D9B2BE014FC4EC"
+			tasks: [{
+				id: "278049FAC75FFAFE"
+				item: "chemlib:ammonium_perchlorate_dust"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6E813EA8755FE2C1"]
+			id: "2D6E713C0C9E4A1A"
+			tasks: [{
+				id: "02CF93F52277BD32"
+				item: "chemlib:lithium_perchlorate_dust"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["54C9F809ABA0B82C"]
+			id: "3AE987E6AB5A5613"
+			tasks: [{
+				id: "16A4015A20402A46"
+				item: "chemlib:potassium_perchlorate_dust"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4A3B9A53AF1E4376"
+				"45278DCBCDA9A39A"
+				"37B4FDEBDD0DDFA2"
+				"0DCFE0192BF01630"
+				"35482B4E1108D289"
+				"5D39231AFEA60DD9"
+				"6581A026BAC66A5D"
+				"70C6DF17056D7822"
+				"7586A221F8833650"
+				"78F7165D7969A1CA"
+				"65512BBC4E812BB9"
+				"0A30409C62DD298F"
+				"0CC947EF2FE0F519"
+				"6B14ABDC3C082975"
+				"2EE7EF51A8E370F4"
+				"2B84783743AF192E"
+			]
+			dependency_requirement: "one_completed"
+			id: "66004C7C1B68BC4B"
+			tasks: [{
+				id: "35F9FF2987546095"
+				item: "chemlib:aluminum_hydroxide_dust"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "45278DCBCDA9A39A"
+			tasks: [{
+				id: "5841CCA5D65AEF9F"
+				item: "minecraft:basalt"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "0DCFE0192BF01630"
+			tasks: [{
+				id: "0822476AFCD08F32"
+				item: "ad_astra:venus_sandstone"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "5D39231AFEA60DD9"
+			tasks: [{
+				id: "6BD93FC8A9B4FDC2"
+				item: "ad_astra:venus_sand"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "37B4FDEBDD0DDFA2"
+			tasks: [{
+				id: "47D38359A557F04E"
+				item: "undergarden:smogstem_log"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "35482B4E1108D289"
+			tasks: [{
+				id: "4B91AF2CEF9CC1F6"
+				item: "ad_astra:mars_stone"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "6581A026BAC66A5D"
+			tasks: [{
+				id: "10EAD859596BF565"
+				item: "ad_astra:mars_sand"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "70C6DF17056D7822"
+			tasks: [{
+				id: "276CC1280A020F2F"
+				item: "minecraft:red_sandstone"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			hide_dependency_lines: true
+			id: "6E813EA8755FE2C1"
+			tasks: [{
+				id: "409BB2FE85419FE5"
+				item: "mekanism:dust_lithium"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6E813EA8755FE2C1"]
+			id: "0BE93773B72111B9"
+			rewards: [{
+				count: 32
+				id: "4886485150BA9AA7"
+				item: "mekanism:structural_glass"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "457F04484FD9F93A"
+					item: "mekanism:basic_induction_cell"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6FF30A7127C78F2F"
+					item: { Count: 2, id: "mekanism:basic_induction_provider" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "2826DD4DF3B9EFA9"
+					item: { Count: 4, id: "mekanism:induction_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "423E75CDCC61771B"
+					item: { Count: 2, id: "mekanism:induction_port" }
+					type: "item"
+				}
+			]
+			x: -20.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "6E7627E862EEE3AD"
+			tasks: [{
+				id: "74C5E6E631EFBF4E"
+				item: "moremekanismprocessing:dirty_dust_lapis"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E7627E862EEE3AD"]
+			id: "2CC3F7CD7AE11D9C"
+			tasks: [{
+				id: "0F214B01785702C8"
+				item: "chemlib:sodium_chloride_dust"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "49E4634179755976"
+			tasks: [{
+				id: "4E1A316735D70608"
+				item: "kubejs:dirty_dust_arcmetal"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "7586A221F8833650"
+			tasks: [{
+				id: "55EC5C66364E38A7"
+				item: "ad_astra:mars_cobblestone"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "78F7165D7969A1CA"
+			tasks: [{
+				id: "653EA2719AEDBA2A"
+				item: "minecraft:red_sand"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			id: "65512BBC4E812BB9"
+			shape: "gear"
+			tasks: [{
+				id: "43D228AA528209B3"
+				item: "minecraft:terracotta"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "0A30409C62DD298F"
+			tasks: [{
+				id: "626E99AC5853F422"
+				item: "minecraft:tuff"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			id: "6B14ABDC3C082975"
+			tasks: [{
+				id: "5D055FAB662A90D9"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "0CC947EF2FE0F519"
+			tasks: [{
+				id: "062B7D3F3576C64E"
+				item: "minecraft:granite"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "2EE7EF51A8E370F4"
+			tasks: [{
+				id: "044F9234FD39BCE1"
+				item: "biomesoplenty:white_sand"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "2B84783743AF192E"
+			tasks: [{
+				id: "1A61F7F044BCBAF7"
+				item: "biomesoplenty:white_sandstone"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"4A3B9A53AF1E4376"
+				"0DCFE0192BF01630"
+				"5D39231AFEA60DD9"
+			]
+			id: "51053C8FA29A5FE8"
+			tasks: [{
+				id: "3C69593970B8615C"
+				item: "thermal:niter"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7586A221F8833650"
+				"35482B4E1108D289"
+				"6581A026BAC66A5D"
+			]
+			id: "1A37C43BBFAF6E4B"
+			tasks: [{
+				id: "16347C2D8BF1183D"
+				item: "chemlib:iron_ii_sulfate_dust"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7586A221F8833650"
+				"35482B4E1108D289"
+				"6581A026BAC66A5D"
+			]
+			id: "18677CFF41F6479E"
+			tasks: [{
+				id: "0C18A6F101810026"
+				item: "chemlib:copper_nitrate_dust"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "184CD46720221939"
+			tasks: [{
+				id: "47BB783EA5FB82CB"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["745C2A22317FD10A"]
+			id: "54C9F809ABA0B82C"
+			tasks: [{
+				id: "2ADE2AD50509F48E"
+				item: "chemlib:potassium_oxide_dust"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "6ED39B30A779AB9D"
+			tasks: [{
+				id: "6A2A9A7AF3342D07"
+				item: "biomesoplenty:orange_sand"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			hide_dependency_lines: true
+			id: "5B43BCB347E83824"
+			tasks: [{
+				id: "03A2AB06B63365BF"
+				item: "biomesoplenty:orange_sandstone"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"78F7165D7969A1CA"
+				"70C6DF17056D7822"
+				"6ED39B30A779AB9D"
+				"5B43BCB347E83824"
+			]
+			id: "1E7F3F19674DB126"
+			tasks: [{
+				id: "794FEBC781C50C7C"
+				item: "chemlib:neodymium_iii_sulfate_dust"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"78F7165D7969A1CA"
+				"70C6DF17056D7822"
+				"6ED39B30A779AB9D"
+				"5B43BCB347E83824"
+			]
+			id: "73EF80B385E3AE33"
+			tasks: [{
+				id: "22267A8BDB354059"
+				item: "chemlib:thorium_iv_sulfide_dust"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			hide_dependency_lines: true
+			id: "002953CCC9923E3A"
+			tasks: [{
+				id: "50F2640F7750E6F8"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["026406E57858AB34"]
+			id: "7FFF84A46EECBA85"
+			tasks: [{
+				id: "052DC0361C41CBFC"
+				item: "chemlib:thorium_monoxide_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			hide_dependency_lines: true
+			id: "179D5F9B631B41D2"
+			tasks: [{
+				id: "295981F478274AE9"
+				item: "undergarden:depthrock_pebble"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["64A8E4F955064194"]
+			id: "073681958FA85BA6"
+			tasks: [{
+				dimension: "macabre:the_pit"
+				icon: {
+					Count: 1
+					id: "macabre:everlurking_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "45D70BB79E33F879"
+				title: "Посетите отстойники плоти"
+				type: "dimension"
+			}]
+			x: -9.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["74341A669DBB5CCE"]
+			id: "5164D397F5D75129"
+			tasks: [{
+				id: "177B51CA1476A7F2"
+				item: "minecraft:dead_horn_coral"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["307184EC430A29BB"]
+			dependency_requirement: "one_completed"
+			id: "74341A669DBB5CCE"
+			tasks: [{
+				id: "2A5EFE353E570444"
+				item: "chemlib:calcium_chloride_dust"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["44AC4A8D115A9532"]
+			id: "1BBEBDD1EF4BFFD2"
+			invisible: true
+			tasks: [{
+				id: "4A156E0F5E7A4640"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["52A57ACAFD53F1C6"]
+			id: "013EC6F9977BE535"
+			tasks: [{
+				id: "12D67F3CAB2402A5"
+				item: "chemlib:molybdenum_disulphide_dust"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["601E6009AE7C411B"]
+			id: "6B9E1548A3C2D82A"
+			tasks: [{
+				id: "118636D784C3DBA4"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["2D6E713C0C9E4A1A"]
+			id: "7D3735CA1A29BA93"
+			rewards: [{
+				count: 5
+				id: "0A405E33600A27B0"
+				item: "chemlib:lithium_perchlorate_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A02A75F1C85637E"
+				item: "superbwarfare:battery"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["18E437A6007A7821"]
+			id: "25F7EAEACC8AA072"
+			shape: "gear"
+			tasks: [{
+				id: "1737856F3AD94AC7"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			id: "4C71F4F7C4CF25A9"
+			rewards: [{
+				count: 32
+				id: "2534E7144A66B87B"
+				item: "superbwarfare:high_energy_explosives"
+				type: "item"
+			}]
+			subtitle: "Отец всех бомб"
+			tasks: [{
+				id: "0F4DE5D2056B30C0"
+				item: "ballistix:thermobaric"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"4C71F4F7C4CF25A9"
+				"18E437A6007A7821"
+			]
+			id: "325B8C0BEE197EA1"
+			rewards: [{
+				count: 64
+				id: "6752795C0585A42F"
+				item: "chemlib:ethanol"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Обрати мир в пепел и прах"
+			tasks: [{
+				id: "3E74808AACF5BEEE"
+				item: "ballistix:exothermic"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["71EE01C51E673370"]
+			id: "49E5A0DF2712EAAE"
+			tasks: [{
+				id: "26EB9751ED80340A"
+				item: "ballistix:endothermic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6B9E1548A3C2D82A"]
+			id: "3976A5722990BCC5"
+			tasks: [{
+				id: "65452ED50C458BCE"
+				item: "chemlib:germanium_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6B9E1548A3C2D82A"]
+			id: "51649EFD33D547CC"
+			tasks: [{
+				id: "0C77BB109BA1148B"
+				item: "chemlib:strontium_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["6B9E1548A3C2D82A"]
+			id: "2F0587B25E53EEB7"
+			tasks: [{
+				id: "28F7C78D201C045E"
+				item: "chemlib:titanium_dioxide_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6715E28C7A6DCD4E"]
+			id: "5541B800FA7E0166"
+			tasks: [{
+				id: "1E731892081D4606"
+				item: "ballistix:missiletier2"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["522EE076E60B3500"]
+			id: "1E0FE4348A0D9D02"
+			tasks: [{
+				id: "1BA6A5753077BA13"
+				item: "ballistix:missiletier3"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["013EC6F9977BE535"]
+			id: "43EF287730D4F9FB"
+			tasks: [{
+				id: "272E379A4778C11A"
+				item: "clanginghowl:extraterrestrial_steel_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			description: ["И убейте богов, что надеялись вас заполучить."]
+			id: "64A8E4F955064194"
+			subtitle: "Принесите себя в жертву"
+			tasks: [{
+				id: "09785C8E0F84AE9D"
+				item: "macabre:sacrificial_dirk"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["304874F96444EA1A"]
+			id: "7BD337CF4341FE9D"
+			tasks: [{
+				id: "232392DB537A145F"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["073681958FA85BA6"]
+			id: "5B16438AB2BFD293"
+			subtitle: "Убейте Пустого"
+			tasks: [{
+				id: "3A8FD2BEAEDEC3BC"
+				item: "macabre:rootofinfestation"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["048B1AADAC011D98"]
+			id: "4B70355C816DA0E5"
+			tasks: [{
+				id: "1300900F792AA749"
+				item: "biomancy:genetic_compound"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["4B70355C816DA0E5"]
+			id: "684A2B08461436F3"
+			tasks: [{
+				id: "5D90A09B5D00AE02"
+				item: "biomancy:breeding_stimulant"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["4B70355C816DA0E5"]
+			id: "03F433F9D6DF5716"
+			tasks: [{
+				id: "4C9F371E6FF8DA03"
+				item: "kubejs:stimulator_injection"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["4B70355C816DA0E5"]
+			id: "2E82062DB6289828"
+			tasks: [{
+				id: "31EA8B76A8C4B096"
+				item: "biomancy:frenzy_serum"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["048B1AADAC011D98"]
+			id: "4BCF1B5D0E86CA23"
+			tasks: [{
+				id: "6A08301FD3CCD680"
+				item: "biomancy:insomnia_cure"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["44AC4A8D115A9532"]
+			hide_dependent_lines: true
+			id: "22D245EE63939938"
+			tasks: [{
+				id: "67CC6C3E844E94E4"
+				item: "endlessbiomes:arkan"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["22D245EE63939938"]
+			hide_dependency_lines: false
+			id: "75E4CC25E7F6EECA"
+			tasks: [{
+				id: "06D508A017194D55"
+				item: "chemlib:zinconat_cobalt_dust"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["75E4CC25E7F6EECA"]
+			id: "303F004CE1C539CA"
+			tasks: [{
+				id: "10E363CD283F43B5"
+				item: "minecraft:lime_dye"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			hide_dependency_lines: true
+			id: "13F4544EE2E79DDA"
+			tasks: [{
+				id: "4AC711463E6ADCA5"
+				item: "thermal:raw_nickel"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["13F4544EE2E79DDA"]
+			id: "335C9B73E9C1FC5C"
+			tasks: [{
+				id: "4DEC4CB1A3C9C86D"
+				item: "chemlib:palladium_dust"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["13F4544EE2E79DDA"]
+			id: "1D69FF4C3191476A"
+			tasks: [{
+				id: "1CC4D2C4221A25B1"
+				item: "chemlib:nickel_oxide_dust"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["13F4544EE2E79DDA"]
+			id: "7074ADB2491FAD8B"
+			tasks: [{
+				id: "3029FD0FABCD3FDD"
+				item: "chemlib:nickel_sulfate_dust"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["03F433F9D6DF5716"]
+			id: "26DC72057DD3EF50"
+			tasks: [{
+				id: "4872511A1BC3F334"
+				item: "kubejs:nanomachines_injection"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["26DC72057DD3EF50"]
+			id: "6B6689E3B79CCBB2"
+			tasks: [{
+				id: "5E856B3E559FEB20"
+				item: "kubejs:neural_nanomachines_injection"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 23.0d
+		}
+	]
+	title: "Главы 3. Продвинутая химия"
+}

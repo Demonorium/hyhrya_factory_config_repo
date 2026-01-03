@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:phosphorus_dust",
+            "count": 8.0
+        },
+        {
+            "item": "thermal:rich_slag",
+            "count": 1.0
+        }
+    ],
+    "energy": 20000,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:phosphoric_acid_dust",
+            "count": 8.0
+        },
+        {
+            "item": "thermal:coal_coke",
+            "count": 5.0
+        }
+    ]
+}

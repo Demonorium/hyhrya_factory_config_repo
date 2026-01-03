@@ -1,0 +1,23 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+        "item": "chemlib:aluminium_sulfate_dust",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "chemlib:aluminum_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:oxygen",
+            "count": 3.0
+        },
+        {
+            "fluid": "mekanism:sulfur_dioxide",
+            "amount": 300.0
+        }
+    ],
+    "energy": 4730.0,
+    "experience": 2.36
+}

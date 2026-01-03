@@ -1,0 +1,24 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 19.53009900990099,
+    "temperature": {},
+    "fluid_input": {
+        "fluid": "kubejs:iron_disulfide",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:carbon_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:carbon_disulfide",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "mekanism:dust_iron",
+        "count": 1.0
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_carbonate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 72526.44,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:carbon_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_hydroxide_dust",
+            "count": 3.0
+        }
+    ]
+}

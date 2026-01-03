@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:calcium_sulfide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:calcium_sulfide",
+            "count": 1
+        }
+    ],
+    "energy": 27980
+}

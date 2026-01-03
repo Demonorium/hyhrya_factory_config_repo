@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "kubejs:acetylene",
+        "amount": 2.0
+    },
+    "output": {
+        "gas": "mekanism:ethene",
+        "amount": 3.0
+    },
+    "rightInput": {
+        "gas": "mekanismelements:methane",
+        "amount": 2.0
+    }
+}

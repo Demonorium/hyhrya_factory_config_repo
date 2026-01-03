@@ -1,0 +1,28 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 5.310394963955733,
+    "temperature": {
+        "min_temp": 218.16326530612247,
+        "max_temp": 315.5314285714286
+    },
+    "fluid_input": {
+        "fluid": "mekanism:sulfur_dioxide",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:fluorine",
+        "count": 6.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:sulfur_hexafluoride",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:oxygen",
+        "count": 2.0
+    },
+    "pressure": 5
+}

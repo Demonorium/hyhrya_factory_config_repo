@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:potassium_chloride_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 27965.64,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:potassium_dust",
+            "count": 1.0
+        },
+        {
+            "item": "mekanism:salt",
+            "count": 1.0
+        }
+    ]
+}

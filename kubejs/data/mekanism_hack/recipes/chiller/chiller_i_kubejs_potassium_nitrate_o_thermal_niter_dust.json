@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:potassium_nitrate",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "thermal:niter_dust",
+            "count": 1
+        }
+    ],
+    "energy": 590
+}

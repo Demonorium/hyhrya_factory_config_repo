@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:beryllium_nitrate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:barium_sulfate",
+            "count": 1.0
+        }
+    ],
+    "energy": 34316.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:barium_nitrate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:beryllium_sulfate_dust",
+            "count": 1.0
+        }
+    ]
+}

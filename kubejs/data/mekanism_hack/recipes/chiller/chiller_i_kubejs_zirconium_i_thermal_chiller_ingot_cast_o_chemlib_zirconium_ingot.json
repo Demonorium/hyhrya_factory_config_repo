@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:zirconium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 21280.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:zirconium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:vanadium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 21830.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:vanadium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

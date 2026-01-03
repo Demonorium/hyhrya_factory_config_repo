@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:chromium_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:aluminum_oxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 87932.44,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "moremekanismprocessing:dust_aluminum",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:chromium_oxide_dust",
+            "count": 1.0
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 600,
+        "fluid": "mekanismelements:nitrogen_dioxide"
+    },
+    "gasInput": {
+        "amount": 300,
+        "gas": "mekanism:oxygen"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:aluminum_oxide_dust"
+        }
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "chemlib:aluminum_nitrate_dust"
+    }
+}

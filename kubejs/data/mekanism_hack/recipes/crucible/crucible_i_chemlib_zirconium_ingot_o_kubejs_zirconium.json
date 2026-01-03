@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:zirconium_ingot",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:zirconium",
+        "amount": 100.0
+    },
+    "energy": 21280.0
+}

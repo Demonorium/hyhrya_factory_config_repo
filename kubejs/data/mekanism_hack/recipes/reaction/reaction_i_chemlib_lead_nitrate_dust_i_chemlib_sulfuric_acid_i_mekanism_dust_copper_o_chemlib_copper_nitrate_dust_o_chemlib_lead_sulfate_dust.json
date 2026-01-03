@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 200,
+        "fluid": "kubejs:lead_nitrate"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "mekanism:sulfuric_acid"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:dust_copper"
+        }
+    },
+    "gasOutput": {
+        "amount": 200,
+        "gas": "kubejs:lead_sulfate"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:copper_nitrate_dust"
+    }
+}

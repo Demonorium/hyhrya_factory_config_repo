@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:magnesium_hydroxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "mekanism:dust_lithium",
+            "count": 2.0
+        }
+    ],
+    "energy": 39736.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:lithium_hydroxide_dust",
+            "count": 2.0
+        },
+        {
+            "item": "moremekanismprocessing:dust_magnesium",
+            "count": 1.0
+        }
+    ]
+}

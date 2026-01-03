@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:hafnium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 25060.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:hafnium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+
+[guis]
+	#Wether the Grappling Hook Gui is visible when wearing a Grappling Hook Harness. Default: true
+	guiGrapplingHookEnabled = true
+	#Wether the Heat Overly Gui is visible when looking at a heated tile entity. Default: true
+	guiHeatOverlayEnabled = true
+	#Wether the Orbital Laser Gui is visible when wearing a Orbital Laser Controller. Note the Controller is unusable without. Default: true
+	guiOrbitalLaserEnabled = true
+

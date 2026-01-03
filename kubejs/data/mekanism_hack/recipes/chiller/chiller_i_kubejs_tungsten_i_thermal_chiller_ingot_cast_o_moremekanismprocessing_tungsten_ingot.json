@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "moremekanismprocessing:tungsten_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 36950.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:tungsten",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

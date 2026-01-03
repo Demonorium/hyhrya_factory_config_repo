@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:astatine",
+        "amount": 6.0
+    },
+    "output": {
+        "gas": "kubejs:nobelium",
+        "amount": 125.0,
+        "chemicalType": "gas"
+    }
+}

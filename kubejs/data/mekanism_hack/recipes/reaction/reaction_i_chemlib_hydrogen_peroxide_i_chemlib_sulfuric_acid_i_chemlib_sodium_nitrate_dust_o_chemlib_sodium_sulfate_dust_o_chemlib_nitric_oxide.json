@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "kubejs:hydrogen_peroxide"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "mekanism:sulfuric_acid"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:sodium_nitrate_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 200,
+        "gas": "mekanismelements:nitric_oxide"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:sodium_sulfate_dust"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "moremekanismprocessing:zinc_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 6926.799999999999,
+    "ingredients": [
+        {
+            "fluid": "kubejs:zinc",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

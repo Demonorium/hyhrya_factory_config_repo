@@ -1,0 +1,10 @@
+{
+    "type": "pneumaticcraft:fuel_quality",
+    "air_per_bucket": 633335,
+    "burn_rate": 0.25358306188925084,
+    "fluid": {
+        "type": "pneumaticcraft:fluid",
+        "amount": 1000,
+        "fluid": "kubejs:molybdenum"
+    }
+}

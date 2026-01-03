@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:ethanol",
+        "amount": 100
+    },
+    "output": {
+        "item": "chemlib:ethanol",
+        "count": 1.0
+    }
+}

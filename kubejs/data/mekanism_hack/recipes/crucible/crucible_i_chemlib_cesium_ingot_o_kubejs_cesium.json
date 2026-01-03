@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:cesium_ingot",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:cesium",
+        "amount": 100.0
+    },
+    "energy": 3017.0
+}

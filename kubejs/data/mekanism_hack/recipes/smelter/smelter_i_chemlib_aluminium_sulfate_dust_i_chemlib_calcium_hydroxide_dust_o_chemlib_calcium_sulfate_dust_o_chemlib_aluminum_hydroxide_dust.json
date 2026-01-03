@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:calcium_sulfate_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:aluminum_hydroxide_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 92630.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:aluminium_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:calcium_hydroxide_dust",
+            "count": 3.0
+        }
+    ]
+}

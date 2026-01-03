@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:gallium",
+        "amount": 32.0
+    },
+    "output": {
+        "gas": "kubejs:germanium",
+        "amount": 775.0,
+        "chemicalType": "gas"
+    }
+}

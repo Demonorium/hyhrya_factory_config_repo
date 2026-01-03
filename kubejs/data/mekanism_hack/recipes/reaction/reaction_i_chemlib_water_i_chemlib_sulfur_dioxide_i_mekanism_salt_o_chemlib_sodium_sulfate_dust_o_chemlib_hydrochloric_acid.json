@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "minecraft:water"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "mekanism:sulfur_dioxide"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "mekanism:salt"
+        }
+    },
+    "gasOutput": {
+        "amount": 200,
+        "gas": "mekanism:hydrogen_chloride"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:sodium_sulfate_dust"
+    }
+}

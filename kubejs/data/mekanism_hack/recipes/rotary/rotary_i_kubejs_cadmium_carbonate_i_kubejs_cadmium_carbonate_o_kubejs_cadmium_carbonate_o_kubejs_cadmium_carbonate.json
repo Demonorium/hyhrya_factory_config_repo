@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:cadmium_carbonate",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:cadmium_carbonate",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:cadmium_carbonate",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:cadmium_carbonate",
+        "amount": 1.0
+    }
+}

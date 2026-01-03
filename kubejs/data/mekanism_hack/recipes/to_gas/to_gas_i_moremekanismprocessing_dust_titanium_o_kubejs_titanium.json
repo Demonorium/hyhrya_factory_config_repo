@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dust_titanium"
+        }
+    },
+    "output": {
+        "gas": "kubejs:titanium",
+        "amount": 100.0
+    }
+}

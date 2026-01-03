@@ -1,0 +1,18 @@
+{
+    "type": "mekanismelements:adsorption",
+    "fluidInput": {
+        "fluid": "mekanismelements:compressed_air",
+        "amount": 5.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dust_zinc"
+        }
+    },
+    "output": {
+        "gas": "kubejs:zinc_oxide",
+        "amount": 100,
+        "chemicalType": "gas"
+    }
+}

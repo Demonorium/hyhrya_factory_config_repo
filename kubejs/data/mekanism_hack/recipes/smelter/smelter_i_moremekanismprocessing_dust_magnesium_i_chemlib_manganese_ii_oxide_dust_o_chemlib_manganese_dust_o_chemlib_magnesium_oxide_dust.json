@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:manganese_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:magnesium_oxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 75684.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "moremekanismprocessing:dust_magnesium",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:manganese_ii_oxide_dust",
+            "count": 1.0
+        }
+    ]
+}

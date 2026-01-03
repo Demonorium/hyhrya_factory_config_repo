@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:rubidium_chloride_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:neodymium_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 62393.5,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:neodymium_iii_chloride_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:rubidium_dust",
+            "count": 3.0
+        }
+    ]
+}

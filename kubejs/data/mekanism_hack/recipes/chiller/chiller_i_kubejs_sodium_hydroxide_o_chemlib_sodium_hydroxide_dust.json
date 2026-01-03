@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:sodium_hydroxide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:sodium_hydroxide_dust",
+            "count": 1
+        }
+    ],
+    "energy": 4470
+}

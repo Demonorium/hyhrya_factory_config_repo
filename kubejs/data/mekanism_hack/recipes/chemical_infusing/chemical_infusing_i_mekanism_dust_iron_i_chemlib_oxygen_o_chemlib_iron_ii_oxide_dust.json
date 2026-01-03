@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "kubejs:iron",
+        "amount": 1.0
+    },
+    "output": {
+        "gas": "kubejs:iron_ii_oxide",
+        "amount": 1.0
+    },
+    "rightInput": {
+        "gas": "mekanism:oxygen",
+        "amount": 1.0
+    }
+}

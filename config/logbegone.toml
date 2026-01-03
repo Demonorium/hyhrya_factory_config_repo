@@ -1,0 +1,5 @@
+
+[logbegone]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels .*"]
+	phrases = ["Disconnecting VANILLA connection attempt", "Exception loading blockstate definition: 'productiveslimes", "Exception loading blockstate definition: 'mekanismelements", "Exception loading blockstate definition: 'chemlib", "Unable to load model: 'chemlib", "Patched item model for ", "Unable to load model: 'minecraft", "Unable to load model: 'mekanismscience", "Could not apply rainbow color layer to", "Registering config factory for mod", "Exception loading blockstate definition: 'mekanism_extras", "Exception loading blockstate definition: 'bountiful_critters"]
+

@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:terbium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 16290.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:terbium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

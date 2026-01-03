@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:zinc_hydroxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_nitrate_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 31350.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:sodium_hydroxide_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:zinc_nitrate_dust",
+            "count": 1.0
+        }
+    ]
+}

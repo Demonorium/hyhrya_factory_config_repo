@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:lutetium_metal_block",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:lutetium",
+        "amount": 900.0
+    },
+    "energy": 173250.0
+}

@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 500,
+        "fluid": "mekanismelements:potassium_hydroxide"
+    },
+    "gasInput": {
+        "amount": 300,
+        "gas": "mekanismelements:nitric_acid"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dust_aluminum"
+        }
+    },
+    "gasOutput": {
+        "amount": 300,
+        "gas": "kubejs:potassium_nitrite"
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "chemlib:potassium_aluminate_dust"
+    }
+}

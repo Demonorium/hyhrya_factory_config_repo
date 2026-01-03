@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "mekanism:dust_iron",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:chromium_oxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 114470.16,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:chromium_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:iron_oxide_dust",
+            "count": 1.0
+        }
+    ]
+}

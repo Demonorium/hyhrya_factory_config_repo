@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 200,
+        "fluid": "kubejs:sodium_hydroxide"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "mekanism:oxygen"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:silicon_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "mekanism:water_vapor"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:sodium_metasilicate_dust"
+    }
+}

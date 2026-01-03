@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:perchloric_acid",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:perchloric_acid",
+        "amount": 100.0
+    },
+    "energy": 2560
+}

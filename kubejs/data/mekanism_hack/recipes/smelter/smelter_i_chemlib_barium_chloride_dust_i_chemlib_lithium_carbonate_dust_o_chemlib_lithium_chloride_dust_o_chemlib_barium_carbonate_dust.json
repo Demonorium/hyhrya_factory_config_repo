@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:lithium_chloride_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:barium_carbonate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 51276.2,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:barium_chloride_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:lithium_carbonate_dust",
+            "count": 1.0
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+        "item": "thermal_and_space:oil_mars_sand",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "ad_astra:mars_sand",
+            "count": 1.0
+        },
+        {
+            "item": "thermal:tar",
+            "count": 1.0
+        },
+        {
+            "item": "thermal:bitumen",
+            "count": 1.0
+        },
+        {
+            "fluid": "pneumaticcraft:oil",
+            "amount": 200.0
+        }
+    ],
+    "energy": 20000
+}

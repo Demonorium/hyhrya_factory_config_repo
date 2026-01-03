@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 543,
+    "fluidInput": {
+        "amount": 200,
+        "fluid": "minecraft:water"
+    },
+    "gasInput": {
+        "amount": 600,
+        "gas": "mekanismelements:nitrogen_dioxide"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:sulfuric_acid"
+        }
+    },
+    "gasOutput": {
+        "amount": 600,
+        "gas": "mekanismelements:nitric_acid"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "mekanism:dust_sulfur"
+    }
+}

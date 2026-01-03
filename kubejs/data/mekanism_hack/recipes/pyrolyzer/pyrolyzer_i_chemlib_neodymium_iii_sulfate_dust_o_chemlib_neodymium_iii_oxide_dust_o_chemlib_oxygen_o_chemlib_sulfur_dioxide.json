@@ -1,0 +1,23 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+        "item": "chemlib:neodymium_iii_sulfate_dust",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "chemlib:neodymium_iii_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:oxygen",
+            "count": 3.0
+        },
+        {
+            "fluid": "mekanism:sulfur_dioxide",
+            "amount": 300.0
+        }
+    ],
+    "energy": 3130,
+    "experience": 1.56
+}

@@ -1,0 +1,19 @@
+{
+    "type": "thermal:insolator",
+    "ingredient": {
+        "item": "silentgear:flax_seeds",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "silentgear:flax_fiber",
+            "chance": 1
+        },
+        {
+            "item": "silentgear:flax_seeds",
+            "chance": 1
+        }
+    ],
+    "energy_mod": 3.0,
+    "water_mod": 1.0
+}

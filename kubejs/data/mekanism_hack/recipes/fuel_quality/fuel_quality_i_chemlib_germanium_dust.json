@@ -1,0 +1,10 @@
+{
+    "type": "pneumaticcraft:fuel_quality",
+    "air_per_bucket": 455600,
+    "burn_rate": 0.3719575016097875,
+    "fluid": {
+        "type": "pneumaticcraft:fluid",
+        "amount": 1000,
+        "fluid": "kubejs:germanium"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:holmium_ingot",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:holmium",
+        "amount": 100.0
+    },
+    "energy": 17340.0
+}

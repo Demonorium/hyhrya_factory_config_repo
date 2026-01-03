@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:calcium_chloride_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:barium_sulfate",
+            "count": 1.0
+        }
+    ],
+    "energy": 58941.399999999994,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:barium_chloride_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:calcium_sulfate_dust",
+            "count": 1.0
+        }
+    ]
+}

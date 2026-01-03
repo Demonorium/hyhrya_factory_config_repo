@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 3.6233333333333335,
+    "temperature": {
+        "max_temp": 1360.0
+    },
+    "fluid_input": {
+        "fluid": "kubejs:ozone",
+        "amount": 400.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:lead_sulfide_dust",
+        "count": 3.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "chemlib:lead_sulfate_dust",
+        "count": 3.0
+    }
+}

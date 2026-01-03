@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:palladium_ingot",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:palladium",
+        "amount": 100.0
+    },
+    "energy": 18280.5
+}

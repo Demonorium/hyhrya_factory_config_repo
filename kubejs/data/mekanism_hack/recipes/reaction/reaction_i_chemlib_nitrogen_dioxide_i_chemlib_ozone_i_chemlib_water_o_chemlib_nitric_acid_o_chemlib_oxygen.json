@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 281,
+    "fluidInput": {
+        "amount": 200,
+        "fluid": "mekanismelements:nitrogen_dioxide"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "kubejs:ozone"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:water"
+        }
+    },
+    "gasOutput": {
+        "amount": 200,
+        "gas": "mekanism:oxygen"
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "chemlib:nitric_acid"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:samarium_ingot",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:samarium",
+        "amount": 100.0
+    },
+    "energy": 13450.0
+}

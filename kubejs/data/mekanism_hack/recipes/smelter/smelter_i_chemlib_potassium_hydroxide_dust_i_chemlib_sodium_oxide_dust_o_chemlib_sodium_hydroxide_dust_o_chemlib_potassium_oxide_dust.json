@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_hydroxide_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:potassium_oxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 50258.3,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:potassium_hydroxide_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:sodium_oxide_dust",
+            "count": 1.0
+        }
+    ]
+}

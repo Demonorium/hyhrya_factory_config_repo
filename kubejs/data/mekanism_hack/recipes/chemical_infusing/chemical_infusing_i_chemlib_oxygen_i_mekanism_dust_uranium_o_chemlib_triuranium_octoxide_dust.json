@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "mekanism:oxygen",
+        "amount": 8.0
+    },
+    "output": {
+        "gas": "kubejs:triuranium_octoxide",
+        "amount": 1.0
+    },
+    "rightInput": {
+        "gas": "kubejs:uranium",
+        "amount": 3.0
+    }
+}

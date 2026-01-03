@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:irradiating",
+    "input": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dust_aluminum"
+        }
+    },
+    "output": {
+        "item": "chemlib:silicon_dust",
+        "count": 1.0
+    },
+    "ticks": 5480
+}

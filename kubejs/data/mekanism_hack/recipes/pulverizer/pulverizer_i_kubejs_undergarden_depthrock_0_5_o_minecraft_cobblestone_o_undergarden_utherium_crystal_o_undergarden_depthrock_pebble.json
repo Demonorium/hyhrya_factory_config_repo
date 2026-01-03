@@ -1,0 +1,22 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "tag": "kubejs:undergarden/depthrock_0_5",
+        "count": 2.0
+    },
+    "result": [
+        {
+            "item": "minecraft:cobblestone",
+            "count": 1.0
+        },
+        {
+            "item": "undergarden:utherium_crystal",
+            "chance": 0.05
+        },
+        {
+            "item": "undergarden:depthrock_pebble",
+            "chance": 0.5
+        }
+    ],
+    "experience": 1.0
+}

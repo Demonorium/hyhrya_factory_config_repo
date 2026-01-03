@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "kubejs:zinc_oxide"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "mekanism:sulfuric_acid"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dust_zinc"
+        }
+    },
+    "gasOutput": {
+        "amount": 200,
+        "gas": "mekanism:hydrogen"
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "chemlib:zinc_sulfate_dust"
+    }
+}

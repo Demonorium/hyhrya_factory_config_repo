@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:antimony",
+        "amount": 18.0
+    },
+    "output": {
+        "gas": "mekanismelements:xenon",
+        "amount": 425.0,
+        "chemicalType": "gas"
+    }
+}

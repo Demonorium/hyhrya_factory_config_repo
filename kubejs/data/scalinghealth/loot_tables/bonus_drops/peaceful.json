@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "name": "crystals",
+      "rolls": 1,
+      "entries": [
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "name": "difficulty_mutators",
+      "rolls": 1,
+      "entries": [
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.015,
+          "looting_multiplier": 0.025
+        }
+      ]
+    },
+    {
+      "name": "blights",
+      "rolls": 1,
+      "entries": [
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    }
+  ]
+}

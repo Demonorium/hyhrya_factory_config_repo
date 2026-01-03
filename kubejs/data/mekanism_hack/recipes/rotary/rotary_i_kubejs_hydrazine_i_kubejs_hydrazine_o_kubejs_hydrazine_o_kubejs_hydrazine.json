@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:hydrazine",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:hydrazine",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:hydrazine",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:hydrazine",
+        "amount": 1.0
+    }
+}

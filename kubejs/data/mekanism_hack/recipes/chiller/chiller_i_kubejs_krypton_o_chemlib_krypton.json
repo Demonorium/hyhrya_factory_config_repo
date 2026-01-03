@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:krypton",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:krypton",
+            "count": 1
+        }
+    ],
+    "energy": 1158
+}

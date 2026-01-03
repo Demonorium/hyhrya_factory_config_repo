@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:ozone",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:ozone",
+            "count": 1
+        }
+    ],
+    "energy": 810
+}

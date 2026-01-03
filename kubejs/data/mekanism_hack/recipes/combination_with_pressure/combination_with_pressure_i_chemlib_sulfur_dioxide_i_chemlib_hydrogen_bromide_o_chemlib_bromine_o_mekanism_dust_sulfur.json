@@ -1,0 +1,23 @@
+{
+    "type": "pneumaticcraft:fluid_mixer",
+    "input1": {
+        "fluid": "mekanism:sulfur_dioxide",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "input2": {
+        "fluid": "kubejs:hydrogen_bromide",
+        "amount": 400.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "pressure": 1.0,
+    "time": 1590,
+    "fluid_output": {
+        "fluid": "mekanismelements:bromine",
+        "amount": 400.0
+    },
+    "item_output": {
+        "item": "mekanism:dust_sulfur",
+        "count": 1.0
+    }
+}

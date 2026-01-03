@@ -1,0 +1,122 @@
+{
+    "dimensions": [
+        "sgjourney:rima"
+    ],
+    "regions": [
+        {
+            "type": "constant",
+            "bottom": {
+                "anchor": "constant",
+                "depth": 1001,
+                "temperature": -273.15,
+                "units": "c"
+            }
+        },
+        {
+            "type": "linear",
+            "top": {
+                "anchor": "constant",
+                "depth": 1000,
+                "temperature": -273.15,
+                "units": "c"
+            },
+            "bottom": {
+                "anchor": "constant",
+                "depth": 300,
+                "temperature": {
+                    "strength": 0,
+                    "value": 1
+                }
+            }
+        },
+        {
+            "type": "linear",
+            "top": {
+                "anchor": "constant",
+                "depth": 299,
+                "temperature": {
+                    "strength": 0.5,
+                    "value": 70.0
+                }
+            },
+            "bottom": {
+                "anchor": "constant",
+                "depth": 85,
+                "temperature": {
+                    "value": 70.0,
+                    "strength": 0.5
+                }, 
+                "units": "c"
+            }
+        },
+        {
+            "type": "linear",
+            "top": {
+                "anchor": "constant",
+                "depth": 84,
+                "temperature": {
+                    "strength": 0.5,
+                    "value": 70.0
+                },
+                "units": "c"
+            },
+            "bottom": {
+                "anchor": "constant",
+                "depth": 31,
+                "temperature": {
+                    "value": 15.0,
+                    "strength": 0.5
+                }, 
+                "units": "c"
+            }
+        },
+        {
+            "type": "linear",
+            "top": {
+                "anchor": "constant",
+                "depth": 30,
+                "temperature": {
+                    "value": 15,
+                    "strength": 0.75
+                }, 
+                "units": "c"
+            },
+            "bottom": {
+                "anchor": "constant",
+                "depth": -64,
+                "temperature": {
+                    "value": 60,
+                    "strength": 1.0
+                }, 
+                "units": "c"
+            }
+        },
+        {
+            "type": "linear",
+            "top": {
+                "anchor": "constant",
+                "depth": -65,
+                "temperature": {
+                    "value": 60,
+                    "strength": 1.0
+                },
+                "units": "c"
+            },
+            "bottom": {
+                "anchor": "constant",
+                "depth": -319,
+                "temperature": -273.15,
+                "units": "c"
+            }
+        },
+        {
+            "type": "constant",
+            "top": {
+                "anchor": "constant",
+                "depth": -320,
+                "temperature": -273.15,
+                "units": "c"
+            }
+        }
+    ]
+}

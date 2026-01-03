@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:strontium_oxide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:strontium_oxide",
+        "amount": 100.0
+    },
+    "energy": 4141
+}

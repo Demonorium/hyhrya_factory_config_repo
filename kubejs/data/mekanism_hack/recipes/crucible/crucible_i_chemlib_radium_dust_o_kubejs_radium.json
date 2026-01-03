@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:radium_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:radium",
+        "amount": 100.0
+    },
+    "energy": 9248
+}

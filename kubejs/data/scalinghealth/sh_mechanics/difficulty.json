@@ -1,0 +1,85 @@
+{
+  "startingValue" : 50,
+  "minValue" : 50,
+  "maxValue" : 400,
+  "changePerSecond" : 0.0,
+  "mode" : {
+    "type" : "average",
+	"radius" : 256,
+    "distance" : {
+      "distanceFactor" : 0.00025
+    },
+    "average" : {
+      "radius" : 256
+    }
+  },
+  "groupBonus" : "1 + 0.1 * (areaPlayerCount - 1)",
+  "groupBonusRadius" : 128,
+  "idleMultiplier" : 1.0,
+  "afkMessage" : false,
+  "timeBeforeAfk" : 120,
+  "sleepWarningMessage": false,
+  "multipliers" : {
+    "lunarMultipliers" : [1.25, 1.125, 1.075, 1.0, 0.8, 1.0, 1.05, 1.075],
+    "locationMultipliers" : [
+      {
+        "scale" : 2.0,
+        "dimensions" : ["minecraft:the_end"]
+      },
+      {
+        "scale" : 1.1,
+        "dimensions" : ["minecraft:the_nether"]
+      },
+      {
+        "scale" : 1.1,
+        "dimensions" : ["minecraft:overworld"],
+        "biomes" : ["#forge:is_swamp", "#c:deep_ocean"]
+      },
+      {
+        "scale" : 1.2,
+        "dimensions" : ["minecraft:overworld"],
+        "biomes" : ["#forge:is_cold"]
+      },
+      {
+        "scale" : 1.5,
+        "dimensions" : ["minecraft:overworld"],
+        "biomes" : ["#forge:is_underground", "#forge:is_cave", "minecraft:deep_dark"]
+      },
+	    {
+        "scale" : 0,
+        "dimensions" : ["ae2:spatial_storage"]
+      },
+	    {
+        "scale" : 1.5,
+        "dimensions" : ["undergarden:undergarden"]
+      },
+	    {
+        "scale" : 3.0,
+        "dimensions" : [
+          "ad_astra:mercury", "ad_astra:venus_orbit", 
+          "ad_astra:moon_orbit", "ad_astra:mercury_orbit", 
+          "ad_astra:moon", "ad_astra:earth_orbit",
+          "ad_astra:mars", "ad_astra:venus",
+          "ad_astra:glacio", "ad_astra:mars_orbit",
+          "ad_astra:glacio_orbit"
+        ]
+      },
+	    {
+        "scale" : 4.0,
+        "dimensions" : [
+          "macabre:the_pit", "macabre:limbo", "deeperdarker:otherside"
+        ]
+      }
+    ]
+  },
+  "mutators" : {
+    "onBlightKilled" : "difficulty",
+    "onHostileKilled" : "difficulty",
+    "onPeacefulKilled" : "difficulty",
+    "onPlayerKilled" : "difficulty",
+    "onPlayerDeath" : "difficulty",
+    "onPlayerSleep" : "difficulty",
+    "byEntity" : [
+    ]
+  }
+}

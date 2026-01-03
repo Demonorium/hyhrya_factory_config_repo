@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "mekanismelements:nitric_oxide"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "mekanismelements:nitrogen_dioxide"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:potassium_hydroxide_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "mekanism:water_vapor"
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "chemlib:potassium_nitrite_dust"
+    }
+}

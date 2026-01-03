@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:antimony_pentaoxide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:antimony_pentaoxide",
+        "amount": 100.0
+    },
+    "energy": 1469
+}

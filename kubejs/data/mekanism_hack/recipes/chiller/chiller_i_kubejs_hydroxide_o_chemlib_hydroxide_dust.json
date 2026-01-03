@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:hydroxide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:hydroxide_dust",
+            "count": 1
+        }
+    ],
+    "energy": 256
+}

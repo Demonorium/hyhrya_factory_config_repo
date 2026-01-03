@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crushing",
+    "input": {
+      "ingredient": {
+        "item": "minecraft:raw_copper"
+      }
+    },
+    "output": {
+      "count": 4,
+      "item": "chemlib:copper_nitrate"
+    }
+}

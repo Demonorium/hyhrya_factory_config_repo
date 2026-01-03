@@ -1,0 +1,63 @@
+#spidermodConfig
+#Config for the black widow entity
+#Percentage based chance that a black widow will spawn when breaking accepted block in accepted biomes
+#Range: 0 ~ 100
+widow_p_chance = 1
+#List of accepted biomes for black widow to spawn in
+widow_biomes = ["minecraft:windswept_savanna", "minecraft:savanna_plateau", "minecraft:wooded_badlands", "minecraft:eroded_badlands", "minecraft:sparse_jungle", "minecraft:jagged_peaks", "minecraft:bamboo_jungle", "minecraft:savanna", "minecraft:badlands", "minecraft:jungle", "minecraft:desert"]
+#List of accepted blocks for house spider to spawn from
+widow_blocks = ["minecraft:oak_planks", "minecraft:spruce_planks", "minecraft:birch_planks", "minecraft:dark_oak_planks", "minecraft:jungle_planks", "minecraft:acacia_planks", "minecraft:bamboo_planks", "minecraft:cherry_planks", "minecraft:mangrove_planks", "minecraft:warped_planks", "minecraft:crimson_planks", "minecraft:cobblestone"]
+#Whether the black widow venom is lethal or not
+widow_venom_d = false
+#The stop point where a venom effect cannot deal any more damage if it is not lethal, represented as (max health / X)
+#Range: 2 ~ 20
+widow_venom_p = 20
+#Config gor the house spider entity
+#Percentage based chance that a house spider will spawn when breaking accepted block in accepted biomes
+#Range: 0 ~ 100
+house_p_chance = 1
+#List of accepted biomes for house spider to spawn in
+house_biomes = ["minecraft:plains", "minecraft:sunflower_plains", "minecraft:birch_forest", "minecraft:taiga", "minecraft:forest", "minecraft:flower_forest", "minecraft:meadow"]
+#Config for the funnel web entity
+#Whether the funnel web venom is lethal or not
+funnel_venom_d = true
+#The stop point where a venom effect cannot deal any more damage if it is not lethal, represented as (max health / X)
+#Range: 2 ~ 20
+funnel_venom_p = 20
+#Config for the huntsman spider entity
+#Whether the huntsman spider venom is lethal or not
+huntsman_venom_d = false
+#The stop point where a venom effect cannot deal any more damage if it is not lethal, represented as (max health / X)
+#Range: 2 ~ 20
+huntsman_venom_p = 20
+#Chance for baby huntsmen to spawn when killing an adult huntsman
+#Range: 0 ~ 100
+huntsman_ab_chance = 35
+#Chance for baby huntsmen to spawn when killing an elder huntsman
+#Range: 0 ~ 100
+huntsman_eb_chance = 35
+#Config for the orb weaver entity
+#Whether the orb weaver venom is lethal or not
+orb_venom_d = true
+#The stop point where a venom effect cannot deal any more damage if it is not lethal, represented as (max health / X)
+#Range: 2 ~ 20
+orb_venom_p = 20
+#Config for the tarantula entity
+#Whether the tarantula venom is lethal or not
+tarantula_venom_d = true
+#The stop point where a venom effect cannot deal any more damage if it is not lethal, represented as (max health / X)
+#Range: 2 ~ 20
+tarantula_venom_p = 2
+#Config for the wandering spider entity
+#Whether the wandering spider venom is lethal or not
+wandering_venom_d = true
+#The damage delay of the wandering spider venom effect in ticks
+#Range: 10 ~ 100
+wandering_venom_i = 20
+#Config for the wolf spider entity
+#whether the wolf spider venom is lethal or not
+wolf_venom_d = true
+#The stop point where a venom effect cannot deal any more damage if it is not lethal, represented as (max health / X)
+#Range: 2 ~ 20
+wolf_venom_p = 2
+

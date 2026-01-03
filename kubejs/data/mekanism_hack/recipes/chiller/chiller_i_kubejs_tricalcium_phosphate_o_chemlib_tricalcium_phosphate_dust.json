@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:tricalcium_phosphate",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:tricalcium_phosphate_dust",
+            "count": 1
+        }
+    ],
+    "energy": 14550
+}

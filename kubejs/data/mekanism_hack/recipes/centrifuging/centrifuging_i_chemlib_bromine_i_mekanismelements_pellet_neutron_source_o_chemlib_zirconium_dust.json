@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "mekanismelements:bromine",
+        "amount": 8.0
+    },
+    "output": {
+        "gas": "kubejs:zirconium",
+        "amount": 175.0,
+        "chemicalType": "gas"
+    }
+}

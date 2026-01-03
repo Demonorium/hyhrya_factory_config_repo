@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:sodium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 3709.44,
+    "ingredients": [
+        {
+            "fluid": "mekanism:sodium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

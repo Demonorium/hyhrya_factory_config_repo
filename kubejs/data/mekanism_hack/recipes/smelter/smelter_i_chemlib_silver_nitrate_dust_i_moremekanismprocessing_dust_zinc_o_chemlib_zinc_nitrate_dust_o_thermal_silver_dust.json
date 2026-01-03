@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:zinc_nitrate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "thermal:silver_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 45111.4,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:silver_nitrate_dust",
+            "count": 2.0
+        },
+        {
+            "item": "moremekanismprocessing:dust_zinc",
+            "count": 1.0
+        }
+    ]
+}

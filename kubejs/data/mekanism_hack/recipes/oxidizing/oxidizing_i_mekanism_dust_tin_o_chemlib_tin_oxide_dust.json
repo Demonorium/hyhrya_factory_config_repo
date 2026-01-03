@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:oxidizing",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:dust_tin"
+        }
+    },
+    "output": {
+        "gas": "kubejs:tin_oxide",
+        "amount": 100.0
+    }
+}

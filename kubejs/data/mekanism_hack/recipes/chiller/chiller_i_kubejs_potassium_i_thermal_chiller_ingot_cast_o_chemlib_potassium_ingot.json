@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:potassium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 3367.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:potassium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

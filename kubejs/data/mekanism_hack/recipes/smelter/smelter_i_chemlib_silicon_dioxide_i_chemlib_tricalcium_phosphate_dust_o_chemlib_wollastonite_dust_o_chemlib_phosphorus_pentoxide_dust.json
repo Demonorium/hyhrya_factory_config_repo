@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:wollastonite_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:phosphorus_pentoxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 102900.48,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:silicon_dioxide",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:tricalcium_phosphate_dust",
+            "count": 1.0
+        }
+    ]
+}

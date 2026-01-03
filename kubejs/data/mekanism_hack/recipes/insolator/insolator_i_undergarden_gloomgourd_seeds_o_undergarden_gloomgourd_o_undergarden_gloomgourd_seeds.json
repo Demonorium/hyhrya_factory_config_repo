@@ -1,0 +1,19 @@
+{
+    "type": "thermal:insolator",
+    "ingredient": {
+        "item": "undergarden:gloomgourd_seeds",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "undergarden:gloomgourd",
+            "chance": 1
+        },
+        {
+            "item": "undergarden:gloomgourd_seeds",
+            "chance": 1
+        }
+    ],
+    "energy_mod": 1.0,
+    "water_mod": 1.5
+}

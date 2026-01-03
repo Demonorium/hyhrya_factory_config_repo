@@ -1,0 +1,18 @@
+{
+    "type": "mekanismelements:radiation_irradiating",
+    "gasInput": {
+        "gas": "kubejs:titanium",
+        "amount": 23.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanismelements:pellet_neutron_source"
+        }
+    },
+    "output": {
+        "gas": "kubejs:vanadium",
+        "amount": 550.0,
+        "chemicalType": "gas"
+    }
+}

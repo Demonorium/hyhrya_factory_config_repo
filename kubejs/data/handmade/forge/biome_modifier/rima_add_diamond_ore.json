@@ -1,0 +1,6 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#sgjourney:is_rima",
+    "features": "handmade:rima_diamond_ore",
+    "step": "underground_ores"
+}

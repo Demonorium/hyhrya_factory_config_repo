@@ -1,0 +1,38 @@
+{
+    "type": "thermal:crystallizer",
+    "ingredients": [
+        {
+            "fluid": "pneumaticcraft:plastic",
+            "amount": 250.0
+        },
+        {
+            "value": [
+                {
+                    "item": "mekanism:ingot_steel"
+                },
+                {
+                    "item": "mekanism:dust_steel"
+                }
+            ],
+            "count": 3.0
+        },
+        {
+            "value": [
+                {
+                    "item": "silentgear:blaze_gold_ingot"
+                },
+                {
+                    "item": "silentgear:blaze_gold_dust"
+                }
+            ],
+            "count": 1.0
+        }
+    ],
+    "result": [
+        {
+            "item": "silentcompat:plasteel_ingot",
+            "count": 4.0
+        }
+    ],
+    "energy": 17000
+}

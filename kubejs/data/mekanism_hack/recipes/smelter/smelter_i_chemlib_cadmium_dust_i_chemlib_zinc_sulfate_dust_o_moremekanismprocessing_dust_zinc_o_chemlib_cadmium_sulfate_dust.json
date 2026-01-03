@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "moremekanismprocessing:dust_zinc",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:cadmium_sulfate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 35579.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:cadmium_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:zinc_sulfate_dust",
+            "count": 1.0
+        }
+    ]
+}

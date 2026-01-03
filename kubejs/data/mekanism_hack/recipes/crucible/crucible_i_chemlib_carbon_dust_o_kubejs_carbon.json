@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:carbon_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:carbon",
+        "amount": 100.0
+    },
+    "energy": 28672
+}

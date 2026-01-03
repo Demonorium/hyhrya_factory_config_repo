@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "mekanismelements:potassium_chloride",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:potassium_chloride_dust",
+            "count": 1
+        }
+    ],
+    "energy": 7800
+}

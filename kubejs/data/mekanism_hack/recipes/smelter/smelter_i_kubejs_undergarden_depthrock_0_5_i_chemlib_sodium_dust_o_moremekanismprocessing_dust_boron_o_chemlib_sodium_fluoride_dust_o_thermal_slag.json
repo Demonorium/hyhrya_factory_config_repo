@@ -1,0 +1,30 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "moremekanismprocessing:dust_boron",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_fluoride_dust",
+            "count": 1.0
+        },
+        {
+            "item": "thermal:slag",
+            "count": 1.0,
+            "chance": 0.75
+        }
+    ],
+    "energy": 3000,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "tag": "kubejs:undergarden/depthrock_0_5",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:sodium_dust",
+            "count": 1.0
+        }
+    ]
+}

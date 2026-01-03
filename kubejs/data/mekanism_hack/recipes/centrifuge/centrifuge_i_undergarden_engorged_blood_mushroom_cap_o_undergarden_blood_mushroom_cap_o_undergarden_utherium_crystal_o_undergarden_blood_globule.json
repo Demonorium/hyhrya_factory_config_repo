@@ -1,0 +1,22 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+        "item": "undergarden:engorged_blood_mushroom_cap",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "undergarden:blood_mushroom_cap",
+            "count": 1.0
+        },
+        {
+            "item": "undergarden:utherium_crystal",
+            "count": 1.0
+        },
+        {
+            "item": "undergarden:blood_globule",
+            "count": 1.0
+        }
+    ],
+    "energy": 4000
+}

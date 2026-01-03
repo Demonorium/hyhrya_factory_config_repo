@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:rubidium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 3124.5,
+    "ingredients": [
+        {
+            "fluid": "kubejs:rubidium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

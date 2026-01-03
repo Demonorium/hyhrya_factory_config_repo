@@ -1,0 +1,18 @@
+{
+    "type": "mekanismelements:radiation_irradiating",
+    "gasInput": {
+        "gas": "kubejs:boron",
+        "amount": 7.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanismelements:pellet_neutron_source"
+        }
+    },
+    "output": {
+        "gas": "mekanismelements:nitrogen",
+        "amount": 125.0,
+        "chemicalType": "gas"
+    }
+}

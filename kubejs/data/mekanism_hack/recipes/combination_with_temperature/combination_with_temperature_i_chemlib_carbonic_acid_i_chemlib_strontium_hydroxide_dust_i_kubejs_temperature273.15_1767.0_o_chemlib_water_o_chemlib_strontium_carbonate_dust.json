@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 20.001470588235296,
+    "temperature": {
+        "min_temp": 273.15,
+        "max_temp": 1767.0
+    },
+    "fluid_input": {
+        "fluid": "kubejs:carbonic_acid",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:strontium_hydroxide_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "minecraft:water",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "chemlib:strontium_carbonate_dust",
+        "count": 1.0
+    }
+}

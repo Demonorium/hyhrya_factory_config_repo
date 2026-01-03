@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "kubejs:covellite",
+        "amount": 1.0
+    },
+    "output": {
+        "gas": "kubejs:copper_ii_sulfate",
+        "amount": 1.0
+    },
+    "rightInput": {
+        "gas": "mekanism:oxygen",
+        "amount": 4.0
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 1000,
+    "fluidInput": {
+        "amount": 1000,
+        "fluid": "minecraft:water"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "mekanism:hydrogen_chloride"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "tag": "kubejs:minecraft/end_stone_0_5"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "kubejs:cadmium_chloride"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:antimony_oxychloride_dust"
+    }
+}

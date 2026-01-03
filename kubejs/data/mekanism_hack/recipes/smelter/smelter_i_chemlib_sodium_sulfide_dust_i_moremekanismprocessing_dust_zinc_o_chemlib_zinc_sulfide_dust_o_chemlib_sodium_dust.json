@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:zinc_sulfide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 51650.68,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:sodium_sulfide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "moremekanismprocessing:dust_zinc",
+            "count": 1.0
+        }
+    ]
+}

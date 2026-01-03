@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "moremekanismprocessing:dust_zinc",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:magnesium_sulfate",
+            "count": 1.0
+        }
+    ],
+    "energy": 36868.899999999994,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "moremekanismprocessing:dust_magnesium",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:zinc_sulfate_dust",
+            "count": 1.0
+        }
+    ]
+}

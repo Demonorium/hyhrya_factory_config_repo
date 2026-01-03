@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:chromium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 21800.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:chromium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

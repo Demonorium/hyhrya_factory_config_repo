@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:water",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "minecraft:water",
+        "amount": 100.0
+    },
+    "energy": 2732
+}

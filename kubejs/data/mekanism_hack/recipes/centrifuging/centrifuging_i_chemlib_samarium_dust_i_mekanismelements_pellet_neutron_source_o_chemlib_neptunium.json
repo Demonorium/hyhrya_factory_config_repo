@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:samarium",
+        "amount": 3.0
+    },
+    "output": {
+        "gas": "kubejs:neptunium",
+        "amount": 50.0,
+        "chemicalType": "gas"
+    }
+}

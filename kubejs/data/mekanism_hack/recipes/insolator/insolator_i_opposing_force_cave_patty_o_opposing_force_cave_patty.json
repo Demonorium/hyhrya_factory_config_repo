@@ -1,0 +1,15 @@
+{
+    "type": "thermal:insolator",
+    "ingredient": {
+        "item": "opposing_force:cave_patty",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "opposing_force:cave_patty",
+            "chance": 2
+        }
+    ],
+    "energy_mod": 1.5,
+    "water_mod": 0.5
+}

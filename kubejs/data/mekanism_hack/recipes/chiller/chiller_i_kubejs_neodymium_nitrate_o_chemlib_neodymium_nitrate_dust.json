@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:neodymium_nitrate",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:neodymium_nitrate_dust",
+            "count": 1
+        }
+    ],
+    "energy": 846
+}

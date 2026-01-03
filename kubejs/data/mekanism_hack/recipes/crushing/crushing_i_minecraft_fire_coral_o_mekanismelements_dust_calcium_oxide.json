@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:crushing",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "minecraft:fire_coral"
+        }
+    },
+    "output": {
+        "item": "mekanismelements:dust_calcium_oxide",
+        "count": 1.0
+    }
+}

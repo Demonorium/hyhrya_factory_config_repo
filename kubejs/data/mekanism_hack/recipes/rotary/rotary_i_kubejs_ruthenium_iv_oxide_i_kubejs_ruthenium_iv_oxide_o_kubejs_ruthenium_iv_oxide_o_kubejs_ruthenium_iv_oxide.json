@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:ruthenium_iv_oxide",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:ruthenium_iv_oxide",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:ruthenium_iv_oxide",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:ruthenium_iv_oxide",
+        "amount": 1.0
+    }
+}

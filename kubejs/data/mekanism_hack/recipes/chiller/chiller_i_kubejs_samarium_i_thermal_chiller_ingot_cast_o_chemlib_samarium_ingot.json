@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:samarium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 13450.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:samarium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 12.114620462046204,
+    "temperature": {
+        "min_temp": 377.6433333333333,
+        "max_temp": 496.34
+    },
+    "fluid_input": {
+        "fluid": "kubejs:carbon_monoxide",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:zinc_oxide_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:carbon_dioxide",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "moremekanismprocessing:dust_zinc",
+        "count": 1.0
+    },
+    "pressure": 2
+}

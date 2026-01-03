@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:lithium_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:calcium_hydroxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 51696.3,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:calcium_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:lithium_hydroxide_dust",
+            "count": 2.0
+        }
+    ]
+}

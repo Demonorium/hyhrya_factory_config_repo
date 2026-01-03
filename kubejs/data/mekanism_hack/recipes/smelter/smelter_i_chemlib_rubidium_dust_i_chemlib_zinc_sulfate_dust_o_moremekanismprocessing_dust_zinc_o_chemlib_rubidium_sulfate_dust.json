@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "moremekanismprocessing:dust_zinc",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:rubidium_sulfate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 35905.8,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:rubidium_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:zinc_sulfate_dust",
+            "count": 1.0
+        }
+    ]
+}

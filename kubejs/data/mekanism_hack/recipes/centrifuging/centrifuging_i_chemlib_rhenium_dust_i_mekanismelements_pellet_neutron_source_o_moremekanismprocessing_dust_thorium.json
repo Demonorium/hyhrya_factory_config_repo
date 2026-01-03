@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:rhenium",
+        "amount": 6.0
+    },
+    "output": {
+        "gas": "kubejs:thorium",
+        "amount": 125.0,
+        "chemicalType": "gas"
+    }
+}

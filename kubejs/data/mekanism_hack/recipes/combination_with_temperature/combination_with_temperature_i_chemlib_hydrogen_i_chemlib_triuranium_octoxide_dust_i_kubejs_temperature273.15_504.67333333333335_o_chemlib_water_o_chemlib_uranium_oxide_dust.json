@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 2.5755739514348783,
+    "temperature": {
+        "min_temp": 273.15,
+        "max_temp": 504.67333333333335
+    },
+    "fluid_input": {
+        "fluid": "mekanism:hydrogen",
+        "amount": 400.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:triuranium_octoxide_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "minecraft:water",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "chemlib:uranium_oxide_dust",
+        "count": 3.0
+    }
+}

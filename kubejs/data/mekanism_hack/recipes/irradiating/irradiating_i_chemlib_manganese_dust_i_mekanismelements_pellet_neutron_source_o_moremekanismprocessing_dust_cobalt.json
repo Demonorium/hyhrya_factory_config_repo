@@ -1,0 +1,18 @@
+{
+    "type": "mekanismelements:radiation_irradiating",
+    "gasInput": {
+        "gas": "kubejs:manganese",
+        "amount": 27.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanismelements:pellet_neutron_source"
+        }
+    },
+    "output": {
+        "gas": "kubejs:cobalt",
+        "amount": 625.0,
+        "chemicalType": "gas"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:enstatite",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:enstatite_dust",
+            "count": 1
+        }
+    ],
+    "energy": 4160
+}

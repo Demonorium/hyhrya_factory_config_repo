@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "minecraft:prismarine_shard",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:potassium_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 29430.8,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:potassium_carbonate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "moremekanismprocessing:dust_zinc",
+            "count": 1.0
+        }
+    ]
+}

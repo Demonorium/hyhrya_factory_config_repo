@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:chitin",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:chitin_dust",
+            "count": 1
+        }
+    ],
+    "energy": 8639
+}

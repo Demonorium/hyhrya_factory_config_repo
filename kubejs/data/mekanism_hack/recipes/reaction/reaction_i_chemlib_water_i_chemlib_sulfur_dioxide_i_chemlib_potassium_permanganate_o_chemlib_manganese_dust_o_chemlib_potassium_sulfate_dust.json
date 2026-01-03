@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 600,
+        "fluid": "minecraft:water"
+    },
+    "gasInput": {
+        "amount": 700,
+        "gas": "mekanism:sulfur_dioxide"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:potassium_permanganate"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "kubejs:potassium_sulfate"
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "chemlib:manganese_dust"
+    }
+}

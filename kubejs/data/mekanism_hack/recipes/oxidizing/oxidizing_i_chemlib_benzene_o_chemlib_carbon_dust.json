@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:oxidizing",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:benzene"
+        }
+    },
+    "output": {
+        "gas": "kubejs:carbon",
+        "amount": 600.0
+    }
+}

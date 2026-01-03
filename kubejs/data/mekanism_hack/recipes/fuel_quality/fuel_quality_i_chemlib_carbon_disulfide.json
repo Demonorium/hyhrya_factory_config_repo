@@ -1,0 +1,10 @@
+{
+    "type": "pneumaticcraft:fuel_quality",
+    "air_per_bucket": 1434120,
+    "burn_rate": 3.180968408528758,
+    "fluid": {
+        "type": "pneumaticcraft:fluid",
+        "amount": 1000,
+        "fluid": "kubejs:carbon_disulfide"
+    }
+}

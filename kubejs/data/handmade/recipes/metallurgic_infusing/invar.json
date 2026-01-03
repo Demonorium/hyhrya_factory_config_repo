@@ -1,0 +1,17 @@
+{
+    "type": "mekanism:metallurgic_infusing",
+    "chemicalInput": {
+        "amount": 20,
+        "tag": "kubejs:nickel"
+    },
+    "itemInput": {
+        "amount": 1,
+        "ingredient": {
+            "item": "chemlib:titanium_dust"
+        }
+    },
+    "output": {
+        "item": "undergarden:cloggrum_ingot",
+        "count": 1
+    }
+}

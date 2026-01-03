@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:lithium_chloride_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:aluminum_hydroxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 55568.899999999994,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:aluminium_chloride_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:lithium_hydroxide_dust",
+            "count": 3.0
+        }
+    ]
+}

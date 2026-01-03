@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "chemlib:aluminum_metal_block",
+            "count": 1.0
+        }
+    ],
+    "result": {
+        "item": "moremekanismprocessing:aluminum_ingot",
+        "count": 9.0
+    }
+}

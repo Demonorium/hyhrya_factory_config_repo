@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "mekanism:dust_gold",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:gold",
+        "amount": 100.0
+    },
+    "energy": 10030
+}

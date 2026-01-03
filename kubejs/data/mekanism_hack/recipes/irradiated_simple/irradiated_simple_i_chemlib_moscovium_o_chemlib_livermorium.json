@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:irradiating",
+    "input": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:moscovium"
+        }
+    },
+    "output": {
+        "item": "chemlib:livermorium",
+        "count": 1.0
+    },
+    "ticks": 260
+}

@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:acetic_anhydride",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:acetic_anhydride",
+        "amount": 100.0
+    },
+    "energy": 2001
+}

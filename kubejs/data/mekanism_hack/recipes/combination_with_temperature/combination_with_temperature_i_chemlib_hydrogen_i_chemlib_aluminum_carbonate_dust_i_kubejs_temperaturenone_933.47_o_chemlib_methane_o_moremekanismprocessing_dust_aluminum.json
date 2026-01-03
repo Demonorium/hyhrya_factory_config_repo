@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 2.541349875930521,
+    "temperature": {
+        "max_temp": 933.47
+    },
+    "fluid_input": {
+        "fluid": "mekanism:hydrogen",
+        "amount": 1200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:aluminum_carbonate_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:methane",
+        "amount": 300.0
+    },
+    "item_output": {
+        "item": "moremekanismprocessing:dust_aluminum",
+        "count": 4.0
+    }
+}

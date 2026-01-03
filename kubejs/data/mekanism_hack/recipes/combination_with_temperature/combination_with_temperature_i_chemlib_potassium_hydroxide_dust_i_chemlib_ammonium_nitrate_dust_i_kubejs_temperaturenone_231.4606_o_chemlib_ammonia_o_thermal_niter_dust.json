@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 5.74618297029703,
+    "temperature": {
+        "max_temp": 231.4606
+    },
+    "fluid_input": {
+        "fluid": "mekanismelements:potassium_hydroxide",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:ammonium_nitrate_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:ammonia",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "thermal:niter_dust",
+        "count": 1.0
+    },
+    "pressure": 3
+}

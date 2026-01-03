@@ -1,0 +1,578 @@
+{
+	"zh6ljk7b7ep784hn": {
+		"definition": "health_root",
+		"x": -155.36852026326164,
+		"y": -149.31252911913,
+		"root": false
+	},
+	"yjp1y3xankivk6br": {
+		"definition": "health+1",
+		"x": -192.3679625344251,
+		"y": -108.94950118695168,
+		"root": false
+	},
+	"zk20391oiu0tq8ch": {
+		"definition": "health+1",
+		"x": -217.59485499203655,
+		"y": -48.40495928868421,
+		"root": false
+	},
+	"181relp1b6anvwja": {
+		"definition": "health+1",
+		"x": -214.23126933102168,
+		"y": 12.139582609583263,
+		"root": false
+	},
+	"82u9bm1guy9gpew3": {
+		"definition": "health+1",
+		"x": -170.5046557378285,
+		"y": -186.31197139029345,
+		"root": false
+	},
+	"poguyajdewtiyewz": {
+		"definition": "health+1",
+		"x": -200.77692668696224,
+		"y": -236.76575630551633,
+		"root": false
+	},
+	"ij5pr690wm90hsue": {
+		"definition": "health+1",
+		"x": -229.36740480558854,
+		"y": -297.31029820378376,
+		"root": false
+	},
+	"obx9wox7obuawcty": {
+		"definition": "health+5",
+		"x": -252.91250443269257,
+		"y": -356.1730472715438,
+		"root": false
+	},
+	"zgwt9mwzs67r1xbq": {
+		"definition": "armor+1",
+		"x": -264.6850542462446,
+		"y": -275.44699140718717,
+		"root": false
+	},
+	"bx3bv5fdugrshgqz": {
+		"definition": "armor+1",
+		"x": -276.4576040597966,
+		"y": -93.81336571238481,
+		"root": false
+	},
+	"qo8wba80m15hqneq": {
+		"definition": "armor_toughness",
+		"x": -311.7752535004526,
+		"y": -201.4481068648603,
+		"root": false
+	},
+	"45h7jdek8mu4m5i4": {
+		"definition": "healing+1",
+		"x": -367.2744169071978,
+		"y": -261.99264876312776,
+		"root": false
+	},
+	"d7hx2y9fe9iwpul8": {
+		"definition": "health+1",
+		"x": -177.23182705985823,
+		"y": 86.13846715191018,
+		"root": false
+	},
+	"iet4f2ym6b424c1j": {
+		"definition": "health+1",
+		"x": -104.91473534803875,
+		"y": -137.539979305578,
+		"root": false
+	},
+	"4xqk2280ly2i694h": {
+		"definition": "health+1",
+		"x": -54.46095043281585,
+		"y": -129.13101515304083,
+		"root": false
+	},
+	"fdj3qeojrrujap9w": {
+		"definition": "health+1",
+		"x": -24.188679483682115,
+		"y": -147.63073628862256,
+		"root": false
+	},
+	"epuvhcsjso6e6k06": {
+		"definition": "health+1",
+		"x": 14.492555617988769,
+		"y": -176.22121440724888,
+		"root": false
+	},
+	"44ujhwvi08hr8pi2": {
+		"definition": "health+1",
+		"x": 53.17379071965966,
+		"y": -206.49348535638262,
+		"root": false
+	},
+	"sx83wmmpits78hpj": {
+		"definition": "health+1",
+		"x": 110.35474695691227,
+		"y": -223.3114136614569,
+		"root": false
+	},
+	"fftny3nw7x6f7wki": {
+		"definition": "health+1",
+		"x": 143.99060356706087,
+		"y": -208.17527818689004,
+		"root": false
+	},
+	"6ozx3nmvuv5ile6o": {
+		"definition": "luck_root",
+		"x": 184.35363149923919,
+		"y": -177.9030072377563,
+		"root": false
+	},
+	"99v7wqac2l8pgyyp": {
+		"definition": "luck",
+		"x": 234.80741641446207,
+		"y": -214.90244950891974,
+		"root": false
+	},
+	"u7prvp1o9ouwy36y": {
+		"definition": "luck",
+		"x": 271.8068586856255,
+		"y": -243.49292762754607,
+		"root": false
+	},
+	"h2pwsf8solheb7zm": {
+		"definition": "luck",
+		"x": 31.310483923063067,
+		"y": -258.62906310211287,
+		"root": false
+	},
+	"stz4jyl6l03obcri": {
+		"definition": "mining",
+		"x": 4.40179863494419,
+		"y": -317.4918121698729,
+		"root": false
+	},
+	"m822623wuzx6rbvl": {
+		"definition": "defence",
+		"x": -155.36852026326164,
+		"y": -335.99153330545465,
+		"root": false
+	},
+	"i58f8p9eyler09qk": {
+		"definition": "warm_limit_x25",
+		"x": -266.366847076752,
+		"y": 32.32109657567242,
+		"root": false
+	},
+	"0037zk503bkj3pgp": {
+		"definition": "health+5",
+		"x": -125.77915760230849,
+		"y": 122.72894527053649,
+		"root": false
+	},
+	"dtq9rh59nxopnhnh": {
+		"definition": "health+5",
+		"x": -59.77915760230846,
+		"y": 141.72894527053649,
+		"root": false
+	},
+	"iga962bm5kper1m3": {
+		"definition": "health+5",
+		"x": -12.779157602308436,
+		"y": 130.72894527053649,
+		"root": false
+	},
+	"4p6rpwfiewput5tl": {
+		"definition": "armor+3",
+		"x": -314.679492142025,
+		"y": 92.07435374440104,
+		"root": false
+	},
+	"cvvbe7x3t8zqi4lu": {
+		"definition": "healing+2",
+		"x": -55.43234107143178,
+		"y": 199.10299409464594,
+		"root": false
+	},
+	"k2hxx10gr9xlb72a": {
+		"definition": "healing+2",
+		"x": -12.620884931333793,
+		"y": 87.31752528439014,
+		"root": false
+	},
+	"a0eh448abztm6bcy": {
+		"definition": "mining",
+		"x": -57.810755301437155,
+		"y": -355.06752149662236,
+		"root": false
+	},
+	"sgpplsro6wiocnar": {
+		"definition": "cold_limit_x25",
+		"x": -57.810755301437155,
+		"y": -412.149463016753,
+		"root": false
+	},
+	"8yhbe1oiw3uqad2v": {
+		"definition": "muscules_root",
+		"x": 149.11128270903643,
+		"y": 67.10100432934388,
+		"root": false
+	},
+	"cvx65kpvip08jiyx": {
+		"definition": "health+1",
+		"x": -12.620884931333725,
+		"y": -114.84768426607255,
+		"root": false
+	},
+	"52klz6cyb5540w3d": {
+		"definition": "health+1",
+		"x": 33.758192553772425,
+		"y": -68.46860678096641,
+		"root": false
+	},
+	"6riy8hp5lska5hwq": {
+		"definition": "health+1",
+		"x": 88.46171984389763,
+		"y": -30.41397910087931,
+		"root": false
+	},
+	"gvyb4j43t1uzua0j": {
+		"definition": "health+1",
+		"x": 122.94872617897656,
+		"y": 19.532719729235005,
+		"root": false
+	},
+	"sed7k8k3lupk1y7f": {
+		"definition": "armor+3",
+		"x": 7.474684949231696,
+		"y": -32.40516288222333,
+		"root": false
+	},
+	"mf076xubut4l957a": {
+		"definition": "health+1",
+		"x": 148.9903316345556,
+		"y": 103.16444822808695,
+		"root": false
+	},
+	"gm9zgnw61ny62qwn": {
+		"definition": "health+1",
+		"x": 11.444341329228314,
+		"y": 146.0490055647402,
+		"root": false
+	},
+	"jz6klhgwx0dlwuwj": {
+		"definition": "health+1",
+		"x": 53.87074820042119,
+		"y": 150.29164625185948,
+		"root": false
+	},
+	"fwhrs69kkhyx631s": {
+		"definition": "health+1",
+		"x": 92.76162116568132,
+		"y": 145.34189878355366,
+		"root": false
+	},
+	"lj7ke3r6ehhpgaeg": {
+		"definition": "health+1",
+		"x": 132.359600912128,
+		"y": 143.220578439994,
+		"root": false
+	},
+	"vmjkgavbkbco14ev": {
+		"definition": "health+1",
+		"x": 187.6038710048057,
+		"y": 79.58562748028639,
+		"root": false
+	},
+	"qez6xtkjlqzor1xs": {
+		"definition": "health+1",
+		"x": 241.42124158104346,
+		"y": 109.85789842942013,
+		"root": false
+	},
+	"n430qb0iut2btx27": {
+		"definition": "health+1",
+		"x": 282.6251659284755,
+		"y": 124.994033903987,
+		"root": false
+	},
+	"la50u5emvf6703bl": {
+		"definition": "health+1",
+		"x": 333.0789508436984,
+		"y": 121.63044824297215,
+		"root": false
+	},
+	"988cgdvcw4m7z9zf": {
+		"definition": "health+1",
+		"x": 375.9646680216379,
+		"y": 107.33520918365899,
+		"root": false
+	},
+	"26qcgnyqgyoy72uj": {
+		"definition": "health+1",
+		"x": 386.8963214199362,
+		"y": 64.4494920057195,
+		"root": false
+	},
+	"avmvd60v7nggyp9e": {
+		"definition": "health+1",
+		"x": 391.9416999114585,
+		"y": 7.2685357684668785,
+		"root": false
+	},
+	"qe9szjjfy1p1gl4f": {
+		"definition": "health+1",
+		"x": 387.73721783518994,
+		"y": -40.662559900994886,
+		"root": false
+	},
+	"s2whsplhy4gjagdx": {
+		"definition": "health+1",
+		"x": 365.87391103859335,
+		"y": -90.27544840096408,
+		"root": false
+	},
+	"r9kzkqrv4e33gclj": {
+		"definition": "health+1",
+		"x": 313.738333292863,
+		"y": -138.20654407042585,
+		"root": false
+	},
+	"4t7kcy7660wnaubg": {
+		"definition": "health+1",
+		"x": 241.42124158104346,
+		"y": -163.4334365280373,
+		"root": false
+	},
+	"l140482m87d4novo": {
+		"definition": "armor+3",
+		"x": 234.70413889248636,
+		"y": 62.852224617417555,
+		"root": false
+	},
+	"rhucq3doy76gt8in": {
+		"definition": "armor+3",
+		"x": 429.8656104999738,
+		"y": -39.67825865463196,
+		"root": false
+	},
+	"kx3u4k0kofnew24x": {
+		"definition": "muscules",
+		"x": 282.78740001317163,
+		"y": 162.55428076472086,
+		"root": false
+	},
+	"b9s32ksebtabuza8": {
+		"definition": "muscules",
+		"x": 349.96254422589374,
+		"y": 52.952729680805874,
+		"root": false
+	},
+	"vl4nua9y2rvs4txw": {
+		"definition": "muscules",
+		"x": 378.95392225454225,
+		"y": -125.94528595939084,
+		"root": false
+	},
+	"wdf7mh499pbc76ic": {
+		"definition": "speed",
+		"x": 287.193267585881,
+		"y": 216.13292452741146,
+		"root": false
+	},
+	"x1fe5btq4znxsd6o": {
+		"definition": "swim",
+		"x": 396.1932675858812,
+		"y": 138.13292452741138,
+		"root": false
+	},
+	"a1euedg2f6ysszgy": {
+		"definition": "jump",
+		"x": 406.1932675858812,
+		"y": 174.1329245274114,
+		"root": false
+	},
+	"pq21ift3t9a1sedh": {
+		"definition": "jump",
+		"x": 433.1932675858812,
+		"y": 137.13292452741138,
+		"root": false
+	},
+	"r4c0h43f8kvr2rax": {
+		"definition": "critical",
+		"x": 297.193267585881,
+		"y": -268.86707547258914,
+		"root": false
+	},
+	"0wo0omhny7oocxjg": {
+		"definition": "critical",
+		"x": 301.193267585881,
+		"y": 17.132924527411227,
+		"root": false
+	},
+	"fxqvlgyvn3zdj0ie": {
+		"definition": "defence",
+		"x": 407.1932675858812,
+		"y": -158.867075472589,
+		"root": false
+	},
+	"r1odchejok08fjek": {
+		"definition": "luck",
+		"x": 301.193267585881,
+		"y": -105.86707547258892,
+		"root": false
+	},
+	"4zcowr193gcyfe4e": {
+		"definition": "cold_limit_x25",
+		"x": -20.313428120993176,
+		"y": -247.21986603449457,
+		"root": false
+	},
+	"km4nwp1gprdip8h2": {
+		"definition": "cold_limit_x25",
+		"x": -176.10632133980695,
+		"y": -394.71986603449494,
+		"root": false
+	},
+	"mleuxx8li695w57d": {
+		"definition": "cold_limit_x25",
+		"x": -113.10632133980683,
+		"y": -294.7198660344947,
+		"root": false
+	},
+	"srsgu3opvl99ne18": {
+		"definition": "warm_limit_x25",
+		"x": -149.54024033570906,
+		"y": 64.94976945263083,
+		"root": false
+	},
+	"9ew0ckiaswyz63bz": {
+		"definition": "warm_limit_x25",
+		"x": -142.54024033570903,
+		"y": 170.94976945263122,
+		"root": false
+	},
+	"euslov3ssr34b0r1": {
+		"definition": "warm_limit_x25",
+		"x": -57.54024033570876,
+		"y": 93.94976945263092,
+		"root": false
+	},
+	"bm4fzzj7i0z8lajj": {
+		"definition": "cold_resist_x25",
+		"x": 118.33614572419565,
+		"y": -273.6749248195132,
+		"root": false
+	},
+	"kvnbg5mmm8ptve8b": {
+		"definition": "cold_resist_x25",
+		"x": 122.54062780046424,
+		"y": -319.08333124321393,
+		"root": false
+	},
+	"jovyt10xxea13fw1": {
+		"definition": "cold_resist_x25",
+		"x": 129.26779912249398,
+		"y": -361.9690484211535,
+		"root": false
+	},
+	"p3zeifvy5dci2nb2": {
+		"definition": "warm_resist_x25",
+		"x": 132.54174657205823,
+		"y": 186.18348215316223,
+		"root": false
+	},
+	"0ffeionm8kwe6pwg": {
+		"definition": "warm_resist_x25",
+		"x": 138.42802147883427,
+		"y": 245.88712763617616,
+		"root": false
+	},
+	"slvkjmnolx8i5es4": {
+		"definition": "warm_resist_x25",
+		"x": 152.72326053814746,
+		"y": 291.2955340598769,
+		"root": false
+	},
+	"z8tf2bpho9uggmyx": {
+		"definition": "adaptation",
+		"x": 169.65519568359466,
+		"y": 339.41413983833695,
+		"root": false
+	},
+	"p04fhi1luy7apr99": {
+		"definition": "adaptation",
+		"x": 142.72742866597252,
+		"y": -423.90041589248744,
+		"root": false
+	},
+	"4tar8yatjutqzagp": {
+		"definition": "stamina+1",
+		"x": 198.23070278165707,
+		"y": -349.39999407618853,
+		"root": false
+	},
+	"nnkyyjk6u1hytdh2": {
+		"definition": "stamina+1",
+		"x": 267.1842088324619,
+		"y": -363.6952331355018,
+		"root": false
+	},
+	"6a0gdowviqy1jbgx": {
+		"definition": "stamina+1",
+		"x": 69.57355124783832,
+		"y": -386.3994363473521,
+		"root": false
+	},
+	"q07qjpw718zm7nsh": {
+		"definition": "stamina+1",
+		"x": 48.551140866495395,
+		"y": -448.6257710761272,
+		"root": false
+	},
+	"4cgc780dmdvl0iwt": {
+		"definition": "stamina+2.5",
+		"x": 337.6659352860125,
+		"y": -328.2607629013967,
+		"root": false
+	},
+	"0om9layaxp1mv7pg": {
+		"definition": "stamina+2.5",
+		"x": -10.230601057770013,
+		"y": -493.7237496990494,
+		"root": false
+	},
+	"57pf8mv91r2bmbr3": {
+		"definition": "resistance+10%",
+		"x": -312.5026329703216,
+		"y": 155.26012838104157,
+		"root": false
+	},
+	"btdme3qnhmyf68zr": {
+		"definition": "resistance+10%",
+		"x": -393.9261159693844,
+		"y": 89.16468480212149,
+		"root": false
+	},
+	"0v49h0097f0wuqvs": {
+		"definition": "resistance+10%",
+		"x": 228.7556768611251,
+		"y": 11.164684802121236,
+		"root": false
+	},
+	"23g5slud97yiq8iy": {
+		"definition": "health+5",
+		"x": 462.87290938525314,
+		"y": -72.59279653634263,
+		"root": false
+	},
+	"w47gzruqwfo0zoqr": {
+		"definition": "health+5",
+		"x": 194.1121013946373,
+		"y": -449.57145199220645,
+		"root": false
+	},
+	"27hg6g51ann7dpmh": {
+		"definition": "health+5",
+		"x": 125.13808872447926,
+		"y": -461.46352314223367,
+		"root": false
+	}
+}

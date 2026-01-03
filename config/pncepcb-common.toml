@@ -1,0 +1,7 @@
+
+[general]
+	#List of item registry names to disable, e.g., ["pncepcb:high_power_finished_pcb", "pncepcb:high_power_unassembled_pcb"]
+	disabledItems = []
+	#List of PCB types to disable, e.g., ["primitive", "high_power", "components"]
+	disabledPcbTypes = []
+

@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 756,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "kubejs:potassium_carbonate"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "mekanismelements:nitrogen"
+    },
+    "itemInput": {
+        "amount": 4.0,
+        "ingredient": {
+            "item": "chemlib:carbon_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 300,
+        "gas": "kubejs:carbon_monoxide"
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "chemlib:potassium_cyanide_dust"
+    }
+}

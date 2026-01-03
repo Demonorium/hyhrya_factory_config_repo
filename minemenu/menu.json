@@ -1,0 +1,184 @@
+{
+  "Аксессуары": {},
+  "main": {
+    "0": {
+      "title": "Квесты",
+      "icon": {
+        "stack": "{Count:1b,id:\"ftbquests:book\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.ftbquests.quests",
+          "toggle": true
+        }
+      }
+    },
+    "2": {
+      "title": "Импланты и броня Mekanism",
+      "icon": {
+        "stack": "{Count:1b,id:\"mekanism:mekasuit_helmet\"}"
+      },
+      "action": {
+        "category": "Компоненты"
+      }
+    },
+    "3": {
+      "title": "Темпад",
+      "icon": {
+        "stack": "{Count:1b,id:\"tempad:tempad\",tag:{}}"
+      },
+      "action": {
+        "key": {
+          "key": "key.tempad.shortcut",
+          "toggle": true
+        }
+      }
+    },
+    "4": {
+      "title": "Список меток",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:beacon\"}"
+      },
+      "action": {
+        "key": {
+          "key": "gui.xaero_waypoints_key",
+          "toggle": true
+        }
+      }
+    },
+    "5": {
+      "title": "Метка",
+      "icon": {
+        "stack": "{Count:1b,id:\"farmersdelight:cyan_canvas_sign\"}"
+      },
+      "action": {
+        "key": {
+          "key": "gui.xaero_new_waypoint",
+          "toggle": true
+        }
+      }
+    },
+    "6": {
+      "title": "Рюкзак",
+      "icon": {
+        "stack": "{Count:1b,id:\"sophisticatedbackpacks:backpack\"}"
+      },
+      "action": {
+        "key": {
+          "key": "keybind.sophisticatedbackpacks.open_backpack",
+          "toggle": true
+        }
+      }
+    },
+    "7": {
+      "title": "Терминал",
+      "icon": {
+        "stack": "{Count:1b,id:\"ae2:wireless_terminal\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.ae2.wireless_terminal",
+          "toggle": true
+        }
+      }
+    },
+    "8": {
+      "title": "Диета",
+      "icon": {
+        "stack": "{Count:1b,id:\"farmersdelight:mixed_salad\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.diet.open.desc",
+          "toggle": true
+        }
+      }
+    },
+    "9": {
+      "title": "Дерево эволюции",
+      "icon": {
+        "stack": "{Count:1b,id:\"biomancy:genetic_compound\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.puffish_skills.open",
+          "toggle": true
+        }
+      }
+    }
+  },
+  "Компоненты": {
+    "0": {
+      "title": "Перключить HUD Mekanism",
+      "icon": {
+        "stack": "{Count:1b,id:\"ftbquests:task_screen_configurator\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.mekanism.key_hud",
+          "toggle": true
+        }
+      }
+    },
+    "2": {
+      "title": "Переключить режим ботинок (бегунков)",
+      "icon": {
+        "stack": "{Count:1b,id:\"mekanism:free_runners_armored\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.mekanism.feet_mode",
+          "toggle": true
+        }
+      }
+    },
+    "3": {
+      "title": "Переключить режим штанов",
+      "icon": {
+        "stack": "{Count:1b,id:\"mekanism:mekasuit_pants\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.mekanism.legs_mode",
+          "toggle": true
+        }
+      }
+    },
+    "4": {
+      "title": "Переключить режим нагрудника (ранца)",
+      "icon": {
+        "stack": "{Count:1b,id:\"mekanism:jetpack\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.mekanism.chest_mode",
+          "toggle": true
+        }
+      }
+    },
+    "5": {
+      "title": "Переключение режима шлема",
+      "icon": {
+        "stack": "{Count:1b,id:\"mekanism:mekasuit_helmet\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.mekanism.head_mode",
+          "toggle": true
+        }
+      }
+    },
+    "9": {
+      "title": "Настройка модулей",
+      "icon": {
+        "stack": "{Count:1b,id:\"mekanism:module_color_modulation_unit\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.mekanism.module_tweaker",
+          "toggle": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 772,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "kubejs:zinc_sulfate"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "mekanism:water_vapor"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:lead_sulfate_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "kubejs:zinc"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:lead_dioxide_dust"
+    }
+}

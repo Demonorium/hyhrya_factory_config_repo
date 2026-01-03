@@ -1,0 +1,23 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "ad_astra:raw_ostrum",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "moremekanismprocessing:dirty_dust_ostrum",
+            "chance": 1.5
+        },
+        {
+            "item": "moremekanismprocessing:clump_ostrum",
+            "chance": 1.0
+        },
+        {
+            "item": "moremekanismprocessing:dust_ostrum",
+            "count": 1.0,
+            "chance": 5
+        }
+    ],
+    "experience": 1.0
+}

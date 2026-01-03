@@ -1,0 +1,23 @@
+{
+    "type": "pneumaticcraft:fluid_mixer",
+    "input1": {
+        "fluid": "mekanismelements:ammonia",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "input2": {
+        "fluid": "kubejs:aniline",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "pressure": 1.0,
+    "time": 698,
+    "fluid_output": {
+        "fluid": "mekanism:hydrogen",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "chemlib:p_phenylenediamine_dust",
+        "count": 1.0
+    }
+}

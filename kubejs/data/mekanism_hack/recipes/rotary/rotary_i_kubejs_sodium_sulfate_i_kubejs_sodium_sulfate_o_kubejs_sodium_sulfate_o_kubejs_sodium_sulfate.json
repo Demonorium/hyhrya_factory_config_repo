@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:sodium_sulfate",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:sodium_sulfate",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:sodium_sulfate",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:sodium_sulfate",
+        "amount": 1.0
+    }
+}

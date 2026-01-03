@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:lead_oxide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:lead_oxide_dust",
+            "count": 1
+        }
+    ],
+    "energy": 2456
+}

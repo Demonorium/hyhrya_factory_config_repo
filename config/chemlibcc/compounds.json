@@ -1,0 +1,3484 @@
+{
+    "compounds": [
+        {
+            "name": "aluminum_carbonate",
+            "display_name": "\u041a\u0430\u0440\u0431\u0438\u0434 \u0430\u043b\u044e\u043c\u0438\u043d\u0438\u044f",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "\u041a\u0430\u0440\u0431\u0438\u0434 \u0430\u043b\u044e\u043c\u0438\u043d\u0438\u044f - \u043f\u0440\u043e\u043c\u0435\u0436\u0443\u0442\u043e\u0447\u043d\u044b\u0439 \u043f\u0440\u043e\u0434\u0443\u043a\u0442 \u043f\u0440\u0438 \u0432\u044b\u0434\u0435\u043b\u0435\u043d\u0438\u0438 \u0447\u0438\u0441\u0442\u043e\u0433\u043e \u0430\u043b\u044e\u043c\u0438\u043d\u0438\u044f \u0441\u0430\u043c\u044b\u043c \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u043c \u0441\u043f\u043e\u0441\u043e\u0431\u043e\u043c.",
+            "color": "a0a2de",
+            "components": [
+                {
+                    "name": "aluminum",
+                    "count": 4
+                },
+                {
+                    "name": "carbon",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "yttrium_barium_copper_oxide",
+            "display_name": "\u0418\u0442\u0442\u0440\u0438\u0439-\u043c\u0435\u0434\u044c-\u0431\u0430\u0440\u0438\u0435\u0432\u0430\u044f \u043a\u0435\u0440\u0430\u043c\u0438\u043a\u0430",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "\u0412\u044b\u0441\u043e\u043a\u043e\u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u043d\u044b\u0439 \u0441\u0432\u0435\u0440\u0445\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u0438\u043a.",
+            "color": "c0bcbb",
+            "components": [
+                {
+                    "name": "yttrium",
+                    "count": 1
+                },
+                {
+                    "name": "barium",
+                    "count": 2
+                },
+                {
+                    "name": "copper",
+                    "count": 3
+                },
+                {
+                    "name": "oxygen",
+                    "count": 7
+                }
+            ]
+        },
+        {
+            "name": "carbon_trioxide",
+            "display_name": "\u0422\u0440\u0438\u043e\u043a\u0441\u0438\u0434 \u0443\u0433\u043b\u0435\u0440\u043e\u0434\u0430",
+            "matter_state": "gas",
+            "has_item": false,
+            "description": "\u041d\u0435\u0441\u0442\u0430\u0431\u0438\u043b\u044c\u043d\u043e\u0435 \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435 \u0443\u0433\u043b\u0435\u0440\u043e\u0434\u0430.",
+            "color": "32c832",
+            "fluid_properties": {
+                "density": -1000,
+                "light_level": 0,
+                "viscosity": 0,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            },
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "yttrium_carbonate",
+            "display_name": "\u041a\u0430\u0440\u0431\u043e\u043d\u0430\u0442 \u0438\u0442\u0442\u0440\u0438\u044f",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "\u0411\u0435\u043b\u044b\u0435 \u043a\u0440\u0438\u0441\u0442\u0430\u043b\u043b\u044b.",
+            "color": "afafaf",
+            "components": [
+                {
+                    "name": "yttrium",
+                    "count": 2
+                },
+                {
+                    "name": "carbon_trioxide",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "yttrium_hydroxide",
+            "display_name": "\u0413\u0438\u0434\u0440\u043e\u043a\u0441\u0438\u0434 \u0438\u0442\u0442\u0440\u0438\u044f",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "\u0416\u0451\u043b\u0442\u044b\u0435 \u043a\u0440\u0438\u0441\u0442\u0430\u043b\u043b\u044b.",
+            "color": "bfb86b",
+            "components": [
+                {
+                    "name": "yttrium",
+                    "count": 1
+                },
+                {
+                    "name": "hydroxide",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "titanium_carbide",
+            "display_name": "\u041a\u0430\u0440\u0431\u0438\u0434 \u0442\u0438\u0442\u0430\u043d\u0430",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "\u0421\u0432\u0435\u0440\u0445\u043f\u0440\u043e\u0447\u043d\u044b\u0439 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b.",
+            "color": "767875",
+            "components": [
+                {
+                    "name": "titanium",
+                    "count": 1
+                },
+                {
+                    "name": "carbon",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "sodium_sulfide",
+            "display_name": "\u0421\u0443\u043b\u044c\u0444\u0438\u0434 \u043d\u0430\u0442\u0440\u0438\u044f",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "fadd9d",
+            "components": [
+                {
+                    "name": "sodium",
+                    "count": 2
+                },
+                {
+                    "name": "sulfur",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "uranium_oxide",
+            "display_name": "\u041e\u043a\u0441\u0438\u0434 \u0443\u0440\u0430\u043d\u0430",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "Nuclear fuel.",
+            "color": "d8e0b0",
+            "components": [
+                {
+                    "name": "uranium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "uranium_hexafluoride",
+            "display_name": "\u0413\u0435\u043a\u0441\u0430\u0444\u0442\u043e\u0440\u0438\u0434 \u0443\u0440\u0430\u043d\u0430",
+            "matter_state": "liquid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "121110",
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            },
+            "components": [
+                {
+                    "name": "uranium",
+                    "count": 1
+                },
+                {
+                    "name": "fluorine",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "name": "hydrofluoric_acid",
+            "display_name": "\u0424\u0442\u043e\u0440\u043e\u0432\u043e\u0434\u043e\u0440\u043e\u0434\u043d\u0430\u044f \u043a\u0438\u0441\u043b\u043e\u0442\u0430",
+            "matter_state": "liquid",
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            },
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "cdcdca",
+            "components": [
+                {
+                    "name": "hydrogen",
+                    "count": 1
+                },
+                {
+                    "name": "fluorine",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "azanide",
+            "display_name": "\u0410\u0437\u0430\u043d\u0438\u0434",
+            "matter_state": "gas",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "c8c1dc",
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            },
+            "components": [
+                {
+                    "name": "nitrogen",
+                    "count": 1
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "p_phenylenediamine",
+            "display_name": "\u043f\u0430\u0440\u0430-\u0424\u0435\u043d\u0438\u043b\u0435\u043d\u0434\u0438\u0430\u043c\u0438\u043d",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "c8c1dc",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 6
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 4
+                },
+                {
+                    "name": "azanide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "aniline",
+            "display_name": "\u0410\u043d\u0438\u043b\u0438\u043d",
+            "matter_state": "liquid",
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            },
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "d6d1b5",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 6
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 5
+                },
+                {
+                    "name": "azanide",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "benzene",
+            "display_name": "\u0411\u0435\u043d\u0437\u043e\u043b",
+            "matter_state": "liquid",
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            },
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "d6d1b5",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 6
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "name": "ozone",
+            "display_name": "\u041e\u0437\u043e\u043d",
+            "matter_state": "gas",
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            },
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "b8d2ed",
+            "components": [
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "potassium_nitrite",
+            "display_name": "\u041d\u0438\u0442\u0440\u0438\u0442 \u043a\u0430\u043b\u0438\u044f",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "bbb593",
+            "components": [
+                {
+                    "name": "potassium",
+                    "count": 1
+                },
+                {
+                    "name": "nitrogen",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "lead_dioxide",
+            "display_name": "\u0414\u0438\u043e\u043a\u0441\u0438\u0434 \u0441\u0432\u0438\u043d\u0446\u0430",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "bbb593",
+            "components": [
+                {
+                    "name": "lead",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "salicylic_acid",
+            "display_name": "\u0421\u0430\u043b\u0438\u0446\u0438\u043b\u043e\u0432\u0430\u044f \u043a\u0438\u0441\u043b\u043e\u0442\u0430",
+            "matter_state": "liquid",
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            },
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "765820",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 7
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 6
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "carboxylic_acid",
+            "display_name": "\u041a\u0430\u0440\u0431\u043e\u043a\u0441\u0438\u043b\u044c\u043d\u0430\u044f \u0433\u0440\u0443\u043f\u043f\u0430",
+            "matter_state": "liquid",
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            },
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "765820",
+            "components": [
+                {
+                    "name": "carbon_monoxide",
+                    "count": 1
+                },
+                {
+                    "name": "hydroxide",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "antimony_sulfate",
+            "display_name": "\u0421\u0443\u043b\u044c\u0444\u0430\u0442 \u0441\u0443\u0440\u044c\u043c\u044b",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ccbb97",
+            "components": [
+                {
+                    "name": "antimony",
+                    "count": 2
+                },
+                {
+                    "name": "sulfate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "sulfate",
+            "display_name": "\u0421\u0443\u043b\u044c\u0444\u0430\u0442",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ccbb97",
+            "components": [
+                {
+                    "name": "sulfur",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "antimony_acid",
+            "display_name": "\u0421\u0443\u0440\u044c\u043c\u044f\u043d\u0430\u044f \u043a\u0438\u0441\u043b\u043e\u0442\u0430",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ccbb97",
+            "components": [
+                {
+                    "name": "hydrogen",
+                    "count": 1
+                },
+                {
+                    "name": "antimony",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "antimonate",
+            "display_name": "\u0410\u043d\u0442\u0438\u043c\u043e\u043d\u0430\u0442",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ccbb97",
+            "components": [
+                {
+                    "name": "antimony",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "lead_antimonate",
+            "display_name": "\u0410\u043d\u0442\u0438\u043c\u043e\u043d\u0430\u0442 \u0441\u0432\u0438\u043d\u0446\u0430",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e4e429",
+            "components": [
+                {
+                    "name": "lead",
+                    "count": 3
+                },
+                {
+                    "name": "antimonate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "antimony_pentaoxide",
+            "display_name": "\u041f\u0435\u043d\u0442\u0430\u043e\u043a\u0441\u0438\u0434\u0430 \u0441\u0443\u0440\u044c\u043c\u044b",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "a86d32",
+            "components": [
+                {
+                    "name": "antimony",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "name": "acetic_anhydride",
+            "display_name": "\u0423\u043a\u0441\u0443\u0441\u043d\u044b\u0439 \u0430\u043d\u0433\u0438\u0434\u0440\u0438\u0434",
+            "matter_state": "liquid",
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            },
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "55524a",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 4
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 6
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "tungsten_carbide",
+            "display_name": "\u041a\u0430\u0440\u0431\u0438\u0434 \u0432\u043e\u043b\u044c\u0444\u0440\u0430\u043c\u0430",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "111111",
+            "components": [
+                {
+                    "name": "tungsten",
+                    "count": 1
+                },
+                {
+                    "name": "carbon",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "thallium_iii_oxide",
+            "display_name": "\u041e\u043a\u0441\u0438\u0434 \u0442\u0430\u043b\u043b\u0438\u044f (III)",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "dddddd",
+            "components": [
+                {
+                    "name": "thallium",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "niobium_oxide",
+            "display_name": "Niobium oxide",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "d2d2d2",
+            "components": [
+                {
+                    "name": "niobium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "niobium_pentoxide",
+            "display_name": "Niobium pentoxide",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "d2d2d2",
+            "components": [
+                {
+                    "name": "niobium",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "name": "niobium_carbide",
+            "display_name": "Niobium carbide",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "d2d2d2",
+            "components": [
+                {
+                    "name": "niobium",
+                    "count": 1
+                },
+                {
+                    "name": "carbon",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "calcium_fluoride",
+            "display_name": "Calcium fluoride",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "d2d2c2",
+            "components": [
+                {
+                    "name": "calcium",
+                    "count": 1
+                },
+                {
+                    "name": "fluorine",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "bismuth_iii_sulfide",
+            "display_name": "Bismuth(III) sulfide",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "49423c",
+            "components": [
+                {
+                    "name": "bismuth",
+                    "count": 2
+                },
+                {
+                    "name": "sulfur",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "livingstonite",
+            "display_name": "\u041b\u0438\u0432\u0438\u043d\u0433\u0441\u0442\u043e\u043d\u0438\u0442",
+            "matter_state": "solid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "9F423c",
+            "components": [
+                {
+                    "name": "mercury",
+                    "count": 1
+                },
+                {
+                    "name": "antimony",
+                    "count": 4
+                },
+                {
+                    "name": "sulfur",
+                    "count": 7
+                }
+            ]
+        },
+        {
+            "name": "hydrazine",
+            "display_name": "\u0413\u0438\u0434\u0440\u0430\u0437\u0438\u043d",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "b6d2f5",
+            "matter_state": "liquid",
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            },
+            "components": [
+                {
+                    "name": "nitrogen",
+                    "count": 2
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "sodium_hypochlorite",
+            "display_name": "\u0413\u0438\u043f\u043e\u0445\u043b\u043e\u0440\u0438\u0442 \u043d\u0430\u0442\u0440\u0438\u044f",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ddda8f",
+            "matter_state": "liquid",
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            },
+            "components": [
+                {
+                    "name": "sodium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "monochloramine",
+            "display_name": "\u0425\u043b\u043e\u0440\u0430\u043c\u0438\u043d",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "dad98f",
+            "matter_state": "liquid",
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            },
+            "components": [
+                {
+                    "name": "nitrogen",
+                    "count": 1
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 2
+                },
+                {
+                    "name": "chlorine",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "iron_iii_oxide_hydroxide",
+            "display_name": "Iron(III) oxide-hydroxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "712213",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "iron",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 1
+                },
+                {
+                    "name": "hydroxide",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "orthoclase",
+            "display_name": "Orthoclase",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "c19179",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "potassium",
+                    "count": 1
+                },
+                {
+                    "name": "aluminum",
+                    "count": 1
+                },
+                {
+                    "name": "silicon",
+                    "count": 3
+                },
+                {
+                    "name": "oxygen",
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "name": "sodium_metasilicate",
+            "display_name": "Sodium Metasilicate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "aaaaaa",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "sodium",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                },
+                {
+                    "name": "silicon",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "potassium_aluminate",
+            "display_name": "Potassium Aluminate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "a1a1a1",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "potassium",
+                    "count": 1
+                },
+                {
+                    "name": "aluminum",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "zirconium_silicate",
+            "display_name": "Zirconium(IV) Silicate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "8d6d54",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "zirconium",
+                    "count": 1
+                },
+                {
+                    "name": "silicon",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "enstatite",
+            "display_name": "Enstatite",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "524900",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "magnesium",
+                    "count": 1
+                },
+                {
+                    "name": "silicon",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "ferrosilite",
+            "display_name": "Ferrosilite",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "443a44",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "iron",
+                    "count": 1
+                },
+                {
+                    "name": "silicon",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "titanium_dioxide",
+            "display_name": "Titanium dioxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e4dbd5",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "titanium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "magnetite",
+            "display_name": "Magnetite",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "79797b",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "iron",
+                    "count": 3
+                },
+                {
+                    "name": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "glutaric_acid",
+            "display_name": "Glutaric acid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "eeeeee",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 5
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 8
+                },
+                {
+                    "name": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "iron_hydroxide",
+            "display_name": "Iron Hydroxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "020101",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "iron",
+                    "count": 1
+                },
+                {
+                    "name": "hydroxide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "chalcopyrite",
+            "display_name": "Chalcopyrite",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "c4bb9e",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "copper",
+                    "count": 1
+                },
+                {
+                    "name": "iron",
+                    "count": 1
+                },
+                {
+                    "name": "sulfur",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "copper_ii_oxide",
+            "display_name": "Copper(II) oxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "010101",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "copper",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "covellite",
+            "display_name": "Covellite",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "1a2b31",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "copper",
+                    "count": 1
+                },
+                {
+                    "name": "sulfur",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "villamaninite",
+            "display_name": "Villamaninite",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "1a2b31",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "copper",
+                    "count": 1
+                },
+                {
+                    "name": "sulfur",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "magnesium_orthosilicate",
+            "display_name": "Magnesium orthosilicate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e2e2e2",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "magnesium",
+                    "count": 2
+                },
+                {
+                    "name": "silicon",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "gold_iii_oxide",
+            "display_name": "Gold(III) oxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "6d2715",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "gold",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "gold_i_sulfide",
+            "display_name": "Gold(I) sulfide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "4f3b36",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "gold",
+                    "count": 2
+                },
+                {
+                    "name": "sulfur",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "gold_iii_sulfide",
+            "display_name": "Gold(III) sulfide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "4f3b36",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "gold",
+                    "count": 2
+                },
+                {
+                    "name": "sulfur",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "gold_iii_chloride",
+            "display_name": "Gold(III) chloride",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "6d2715",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "gold",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "gold_iii_hydroxide",
+            "display_name": "Gold(III) hydroxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "564e1f",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "gold",
+                    "count": 1
+                },
+                {
+                    "name": "hydroxide",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "chloroauric_acid",
+            "display_name": "Chloroauric acid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ebb823",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "hydrogen",
+                    "count": 1
+                },
+                {
+                    "name": "gold",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "wollastonite",
+            "display_name": "Wollastonite",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "afaaa3",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "calcium",
+                    "count": 1
+                },
+                {
+                    "name": "silicon",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "glucose",
+            "display_name": "glucose",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "afaaa3",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 6
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 12
+                },
+                {
+                    "name": "oxygen",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "name": "formic_acid",
+            "display_name": "Formic acid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "afaaa3",
+            "matter_state": "liquid",
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            },
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 1
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "tricalcium_phosphate",
+            "display_name": "Tricalcium phosphate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "847d63",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "calcium",
+                    "count": 3
+                },
+                {
+                    "name": "phosphate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "phosphorus_pentoxide",
+            "display_name": "Phosphorus pentoxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ffffff",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "phosphorus",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "name": "strontium_aluminate",
+            "display_name": "Strontium aluminate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "40fff6",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "strontium",
+                    "count": 1
+                },
+                {
+                    "name": "aluminum",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "dolomite",
+            "display_name": "dolomite",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "75756d",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "calcium",
+                    "count": 1
+                },
+                {
+                    "name": "magnesium",
+                    "count": 1
+                },
+                {
+                    "name": "carbon_trioxide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "manganese_ii_oxide",
+            "display_name": "Manganese(II) oxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e87773",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "manganese",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "calaverite",
+            "display_name": "tellurium",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "726245",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "gold",
+                    "count": 1
+                },
+                {
+                    "name": "tellurium",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "titanium_iii_chloride",
+            "display_name": "chlorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "41058e",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "titanium",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "titanium_ii_chloride",
+            "display_name": "chlorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "010101",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "titanium",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "titanium_tetrachloride",
+            "display_name": "chlorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ffffff",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "titanium",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 4
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "osmium_dioxide",
+            "display_name": "oxygen",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "17181d",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "osmium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "osmium_tetroxide",
+            "display_name": "oxygen",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "bcb6a7",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "osmium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "ruthenium_iv_oxide",
+            "display_name": "oxygen",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "160b56",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "ruthenium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "triuranium_octoxide",
+            "display_name": "oxygen",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "002e00",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "uranium",
+                    "count": 3
+                },
+                {
+                    "name": "oxygen",
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "name": "thorium_dioxide",
+            "display_name": "oxygen",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ffffff",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "thorium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "thorium_monoxide",
+            "display_name": "oxygen",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "111111",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "thorium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "aluminium_sulfate",
+            "display_name": "sulfate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "fbf6ef",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "aluminum",
+                    "count": 2
+                },
+                {
+                    "name": "sulfate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "mercury_ii_chloride",
+            "display_name": "chlorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ffffff",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "mercury",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "vanadium_v_oxide",
+            "display_name": "Vanadium(V) oxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "f1ca7d",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "vanadium",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "name": "vanadium_iii_oxide",
+            "display_name": "Vanadium(III) oxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "af9b5c",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "vanadium",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "vanadium_iv_oxide",
+            "display_name": "Vanadium(IV) oxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "010101",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "vanadium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "maleic_anhydride",
+            "display_name": "malei anhydride",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ffffff",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 4
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "molybdenum_disulphide",
+            "display_name": "molybdenum disulphide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "5b5a6a",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "molybdenum",
+                    "count": 1
+                },
+                {
+                    "name": "sulfur",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "molybdenum_trioxide",
+            "display_name": "molybdenum trioxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "9397a6",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "molybdenum",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "molybdenum_dioxide",
+            "display_name": "molybdenum dioxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "5e008d",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "molybdenum",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "perchlorate",
+            "display_name": "Perchlorate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "090909",
+            "matter_state": "liquid",
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            },
+            "components": [
+                {
+                    "name": "chlorine",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "perchloric_acid",
+            "display_name": "Perchloric acid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "090909",
+            "matter_state": "liquid",
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            },
+            "components": [
+                {
+                    "name": "hydrogen",
+                    "count": 1
+                },
+                {
+                    "name": "perchlorate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "ammonium_perchlorate",
+            "display_name": "Ammonium perchlorate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "393939",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "nitrogen",
+                    "count": 1
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 4
+                },
+                {
+                    "name": "perchlorate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "barium_perchlorate",
+            "display_name": "Barium perchlorate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "999999",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "barium",
+                    "count": 1
+                },
+                {
+                    "name": "perchlorate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "potassium_perchlorate",
+            "display_name": "Potassium perchlorate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "696969",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "potassium",
+                    "count": 1
+                },
+                {
+                    "name": "perchlorate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "cobalt_ii_perchlorate",
+            "display_name": "Cobalt(II) perchlorate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ab4225",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "cobalt",
+                    "count": 1
+                },
+                {
+                    "name": "perchlorate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "lithium_perchlorate",
+            "display_name": "Lithium perchlorate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ab4225",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "lithium",
+                    "count": 1
+                },
+                {
+                    "name": "perchlorate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "magnesium_perchlorate",
+            "display_name": "Magnesium perchlorate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "aaaaaa",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "magnesium",
+                    "count": 1
+                },
+                {
+                    "name": "perchlorate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "copper_ii_perchlorate",
+            "display_name": "Copper(II) perchlorate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "2090cb",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "copper",
+                    "count": 1
+                },
+                {
+                    "name": "perchlorate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "sodium_perchlorate",
+            "display_name": "Sodium perchlorate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "aaaaaa",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "sodium",
+                    "count": 1
+                },
+                {
+                    "name": "perchlorate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "nitrosyl_perchlorate",
+            "display_name": "Nitrosyl perchlorate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "8a8a8a",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "nitrogen",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 1
+                },
+                {
+                    "name": "perchlorate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "rubidium_perchlorate",
+            "display_name": "Rubidium perchlorate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "8a8a8a",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "rubidium",
+                    "count": 1
+                },
+                {
+                    "name": "perchlorate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "silver_perchlorate",
+            "display_name": "Silver perchlorate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "8a8a8a",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "silver",
+                    "count": 1
+                },
+                {
+                    "name": "perchlorate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "ammonium_nitrate",
+            "display_name": "Ammonium nitrate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "9a9a9a",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "nitrogen",
+                    "count": 1
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 4
+                },
+                {
+                    "name": "nitrate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "aluminium_chloride",
+            "display_name": "chlorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "d2d45c",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "aluminum",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "chromium_trioxide",
+            "display_name": "oxygen",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "594549",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "chromium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "sulfur_dichloride",
+            "display_name": "chlorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ff0a3f",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "sulfur",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 2
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "phosgene",
+            "display_name": "chlorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ffffff",
+            "matter_state": "gas",
+            "components": [
+                {
+                    "name": "oxygen",
+                    "count": 1
+                },
+                {
+                    "name": "carbon",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 2
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "thorium_iv_sulfide",
+            "display_name": "sulfur",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "705337",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "thorium",
+                    "count": 1
+                },
+                {
+                    "name": "sulfur",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "neodymium_iii_sulfate",
+            "display_name": "sulfate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "a05383",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "neodymium",
+                    "count": 2
+                },
+                {
+                    "name": "sulfate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "europium_ii_sulfate",
+            "display_name": "sulfate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "fffaf9",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "europium",
+                    "count": 1
+                },
+                {
+                    "name": "sulfate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "europium_ii_chloride",
+            "display_name": "chlorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e9f5ea",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "europium",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "europium_iii_chloride",
+            "display_name": "chlorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e3e3e3",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "europium",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "lead_ii_chloride",
+            "display_name": "chlorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "eae8db",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "lead",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "lead_iv_chloride",
+            "display_name": "chlorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "a7ae76",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "lead",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 4
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "yttrium_iii_nitrate",
+            "display_name": "nitrate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "aaaaaa",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "yttrium",
+                    "count": 1
+                },
+                {
+                    "name": "nitrate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "yttrium_iii_oxide",
+            "display_name": "oxygen",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "aaaaaa",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "yttrium",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "yttrium_iii_sulfate",
+            "display_name": "sulfate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "aaaaaa",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "yttrium",
+                    "count": 2
+                },
+                {
+                    "name": "sulfate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "hydrogen_cyanide",
+            "display_name": "sodium",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "dedede",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "hydrogen",
+                    "count": 1
+                },
+                {
+                    "name": "carbon",
+                    "count": 1
+                },
+                {
+                    "name": "nitrogen",
+                    "count": 1
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "cobalt_ii_hydroxide",
+            "display_name": "hydroxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "785263",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "cobalt",
+                    "count": 1
+                },
+                {
+                    "name": "hydroxide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "sulfur_hexafluoride",
+            "display_name": "fluorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "fffee2",
+            "matter_state": "gas",
+            "components": [
+                {
+                    "name": "sulfur",
+                    "count": 1
+                },
+                {
+                    "name": "fluorine",
+                    "count": 6
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "cobalt_ii_oxide",
+            "display_name": "oxygen",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "867f72",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "cobalt",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "cadmium_chloride",
+            "display_name": "chlorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "9e9b98",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "cadmium",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "antimony_trichloride",
+            "display_name": "chlorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "aaaaaa",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "antimony",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "antimony_oxychloride",
+            "display_name": "chlorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "b9a98f",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "antimony",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "antimony_pentachloride",
+            "display_name": "chlorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e6e5ce",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "antimony",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 5
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "hydrogen_iodide",
+            "display_name": "iodine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "beafbe",
+            "matter_state": "gas",
+            "components": [
+                {
+                    "name": "hydrogen",
+                    "count": 1
+                },
+                {
+                    "name": "iodine",
+                    "count": 1
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "silver_nitrate",
+            "display_name": "nitrate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "a1a1a1",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "silver",
+                    "count": 1
+                },
+                {
+                    "name": "nitrate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "silver_sulfate",
+            "display_name": "sulfate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "b0b3af",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "silver",
+                    "count": 2
+                },
+                {
+                    "name": "sulfate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "vanadium_carbide",
+            "display_name": "carbon",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "000000",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "vanadium",
+                    "count": 1
+                },
+                {
+                    "name": "carbon",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "disulfur_dichloride",
+            "display_name": "chlorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "a96d25",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "sulfur",
+                    "count": 2
+                },
+                {
+                    "name": "chlorine",
+                    "count": 2
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "zinconat_cobalt",
+            "display_name": "Cobalt zinconat",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "049030",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "cobalt",
+                    "count": 1
+                },
+                {
+                    "name": "zinc",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "sodium_fluoride",
+            "display_name": "fluorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "f8f6e6",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "sodium",
+                    "count": 1
+                },
+                {
+                    "name": "fluorine",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "hydrogen_peroxide",
+            "display_name": "oxygen",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "dad5d9",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "hydrogen",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "silicon_tetrafluoride",
+            "display_name": "fluorine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e6e6e6",
+            "matter_state": "gas",
+            "components": [
+                {
+                    "name": "silicon",
+                    "count": 1
+                },
+                {
+                    "name": "fluorine",
+                    "count": 4
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "europium_ii_bromide",
+            "display_name": "bromine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "d8d4d1",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "europium",
+                    "count": 1
+                },
+                {
+                    "name": "bromine",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "europium_iii_bromide",
+            "display_name": "bromine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "b6b6b6",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "europium",
+                    "count": 1
+                },
+                {
+                    "name": "bromine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "europium_iii_iodide",
+            "display_name": "Europium(III) iodide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "78641a",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "europium",
+                    "count": 1
+                },
+                {
+                    "name": "iodine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "europium_ii_iodide",
+            "display_name": "Europium(II) iodide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "aa9648",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "europium",
+                    "count": 1
+                },
+                {
+                    "name": "iodine",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "europium_iii_sulfate",
+            "display_name": "Europium(III) sulfate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "bd6a8b",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "europium",
+                    "count": 2
+                },
+                {
+                    "name": "sulfate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "europium_iii_hydroxide",
+            "display_name": "Europium(III) hydroxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ffeffd",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "europium",
+                    "count": 1
+                },
+                {
+                    "name": "hydroxide",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "europium_iii_oxide",
+            "display_name": "Europium(III) oxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ffffff",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "europium",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "europium_ii_oxide",
+            "display_name": "Europium(II) oxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "c33dad",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "europium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "carbonic_acid",
+            "display_name": "Carbonic acid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "444444",
+            "matter_state": "gas",
+            "components": [
+                {
+                    "name": "hydrogen",
+                    "count": 2
+                },
+                {
+                    "name": "carbonate",
+                    "count": 1
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "hydrogen_bromide",
+            "display_name": "Hydrogen bromide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ffeffe",
+            "matter_state": "gas",
+            "components": [
+                {
+                    "name": "hydrogen",
+                    "count": 1
+                },
+                {
+                    "name": "bromine",
+                    "count": 1
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "niobium_v_chloride",
+            "display_name": "Niobium(V) chloride",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "c8c741",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "niobium",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "name": "zirconium_dioxide",
+            "display_name": "Zirconium dioxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "a5ad7e",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "zirconium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "zirconium_iv_iodide",
+            "display_name": "Zirconium(IV) iodide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e5bd1f",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "zirconium",
+                    "count": 1
+                },
+                {
+                    "name": "iodine",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "zirconium_iv_chloride",
+            "display_name": "Zirconium(IV) chloride",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "927e6a",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "zirconium",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "zirconium_oxyhydroxide",
+            "display_name": "zirconium oxyhydroxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ffffff",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "zirconium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 1
+                },
+                {
+                    "name": "hydroxide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "neodymium_iii_oxide",
+            "display_name": "Neodymium(III) oxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "baa1c5",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "neodymium",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "neodymium_iii_hydroxide",
+            "display_name": "Neodymium(III) hydroxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ba97bc",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "neodymium",
+                    "count": 1
+                },
+                {
+                    "name": "hydroxide",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "neodymium_nitrate",
+            "display_name": "Neodymium nitrate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "fd2fdb",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "neodymium",
+                    "count": 1
+                },
+                {
+                    "name": "nitrate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "neodymium_iii_chloride",
+            "display_name": "Neodymium(III) chloride",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "d68cc5",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "neodymium",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "sodium_tellurite",
+            "display_name": "Sodium tellurite",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "efefef",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "sodium",
+                    "count": 2
+                },
+                {
+                    "name": "tellurium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "tellurium_dioxide",
+            "display_name": "Tellurium dioxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e9e0bd",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "tellurium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "bismuth_iii_oxide",
+            "display_name": "Bismuth(III) oxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "c8b529",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "bismuth",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "sodium_sulfite",
+            "display_name": "Sodium sulfite",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e2e2e2",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "sodium",
+                    "count": 2
+                },
+                {
+                    "name": "sulfur_trioxide",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "bismuth_hydroxide",
+            "display_name": "Bismuth hydroxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "dddddd",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "bismuth",
+                    "count": 1
+                },
+                {
+                    "name": "hydroxide",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "bismuth_iii_sulfate",
+            "display_name": "Bismuth(III) sulfate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "dadada",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "bismuth",
+                    "count": 2
+                },
+                {
+                    "name": "sulfate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "metasilicic_acid",
+            "display_name": "Metasilicic acid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "212121",
+            "matter_state": "gas",
+            "components": [
+                {
+                    "name": "hydrogen",
+                    "count": 2
+                },
+                {
+                    "name": "silicon",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "sodium_orthosilicate",
+            "display_name": "Sodium orthosilicate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "cacaca",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "sodium",
+                    "count": 4
+                },
+                {
+                    "name": "silicon",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 4
+                }
+            ]
+        }
+    ]
+}

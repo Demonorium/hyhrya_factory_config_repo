@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "name": "crystals",
+      "rolls": 1,
+      "entries": [
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "name": "extras",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "scalinghealth:heart_crystal_shard"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ],
+          "name": "scalinghealth:heart_crystal_shard"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "scalinghealth:mob_properties",
+          "entity": "this",
+          "is_blight": false,
+          "difficulty": {
+            "min": 30.0,
+            "max": 2.14748365E9
+          }
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.025,
+          "looting_multiplier": 0.005
+        }
+      ]
+    },
+    {
+      "name": "difficulty_mutators",
+      "rolls": 1,
+      "entries": [
+	  
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.015,
+          "looting_multiplier": 0.025
+        }
+      ]
+    }
+  ]
+}

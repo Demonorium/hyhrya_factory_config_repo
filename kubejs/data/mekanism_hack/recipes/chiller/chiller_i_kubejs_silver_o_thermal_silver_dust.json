@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:silver",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "thermal:silver_dust",
+            "count": 1
+        }
+    ],
+    "energy": 9262
+}

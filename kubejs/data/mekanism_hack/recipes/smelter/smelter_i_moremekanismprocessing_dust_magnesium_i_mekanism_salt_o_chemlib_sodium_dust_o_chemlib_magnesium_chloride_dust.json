@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:magnesium_chloride_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 49806.28,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "moremekanismprocessing:dust_magnesium",
+            "count": 1.0
+        },
+        {
+            "item": "mekanism:salt",
+            "count": 2.0
+        }
+    ]
+}

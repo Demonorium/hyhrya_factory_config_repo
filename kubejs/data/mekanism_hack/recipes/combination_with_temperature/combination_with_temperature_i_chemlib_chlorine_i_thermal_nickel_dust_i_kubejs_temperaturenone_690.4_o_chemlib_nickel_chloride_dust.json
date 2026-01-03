@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 4.1739999999999995,
+    "temperature": {
+        "max_temp": 690.4
+    },
+    "fluid_input": {
+        "fluid": "mekanism:chlorine",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "thermal:nickel_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "chemlib:nickel_chloride_dust",
+        "count": 1.0
+    }
+}

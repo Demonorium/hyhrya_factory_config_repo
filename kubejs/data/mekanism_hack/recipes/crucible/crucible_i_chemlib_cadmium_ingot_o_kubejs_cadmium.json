@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:cadmium_ingot",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:cadmium",
+        "amount": 100.0
+    },
+    "energy": 5942.200000000001
+}

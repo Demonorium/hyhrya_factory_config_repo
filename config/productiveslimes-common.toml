@@ -1,0 +1,9 @@
+
+["Slime Settings"]
+	#Should vanilla slime able to attack player
+	vanilla_slime_can_attack_player = false
+
+["Iron Golem Settings"]
+	#Should iron golem able to attack slime
+	iron_golem_can_attack_slime = false
+

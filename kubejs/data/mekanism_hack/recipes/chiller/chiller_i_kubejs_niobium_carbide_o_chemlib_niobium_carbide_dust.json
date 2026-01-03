@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:niobium_carbide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:niobium_carbide_dust",
+            "count": 1
+        }
+    ],
+    "energy": 29108
+}

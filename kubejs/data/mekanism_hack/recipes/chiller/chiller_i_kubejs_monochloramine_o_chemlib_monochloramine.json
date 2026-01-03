@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:monochloramine",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:monochloramine",
+            "count": 1
+        }
+    ],
+    "energy": 2070
+}

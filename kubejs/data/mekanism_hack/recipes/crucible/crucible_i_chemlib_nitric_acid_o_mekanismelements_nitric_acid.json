@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:nitric_acid",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "mekanismelements:nitric_acid",
+        "amount": 100.0
+    },
+    "energy": 2310
+}

@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:magnesium_carbonate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:lithium_chloride_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 43071.6,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:lithium_carbonate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:magnesium_chloride_dust",
+            "count": 1.0
+        }
+    ]
+}

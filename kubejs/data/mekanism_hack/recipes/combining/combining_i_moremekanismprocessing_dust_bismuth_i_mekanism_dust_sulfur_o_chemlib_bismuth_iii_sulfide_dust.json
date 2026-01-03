@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dust_bismuth"
+        }
+    },
+    "mainInput": {
+        "amount": 3.0,
+        "ingredient": {
+            "item": "mekanism:dust_sulfur"
+        }
+    },
+    "output": {
+        "item": "chemlib:bismuth_iii_sulfide_dust",
+        "count": 1.0
+    }
+}

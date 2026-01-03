@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:curium",
+        "amount": 9.0
+    },
+    "output": {
+        "gas": "kubejs:hassium",
+        "amount": 200.0,
+        "chemicalType": "gas"
+    }
+}

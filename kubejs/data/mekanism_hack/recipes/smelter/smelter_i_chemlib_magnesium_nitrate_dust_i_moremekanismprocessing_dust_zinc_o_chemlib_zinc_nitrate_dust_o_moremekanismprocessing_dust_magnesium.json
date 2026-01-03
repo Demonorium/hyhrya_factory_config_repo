@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:zinc_nitrate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "moremekanismprocessing:dust_magnesium",
+            "count": 1.0
+        }
+    ],
+    "energy": 24006.8,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:magnesium_nitrate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "moremekanismprocessing:dust_zinc",
+            "count": 1.0
+        }
+    ]
+}

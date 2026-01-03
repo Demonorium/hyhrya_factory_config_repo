@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 30.564356435643564,
+    "temperature": {
+        "min_temp": 201.0
+    },
+    "fluid_input": {
+        "fluid": "mekanism:oxygen",
+        "amount": 300.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:calcium_sulfide",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanism:sulfur_dioxide",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "mekanismelements:dust_calcium_oxide",
+        "count": 1.0
+    }
+}

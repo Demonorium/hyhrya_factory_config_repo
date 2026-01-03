@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "chemlib:terbium_ingot",
+            "count": 1.0
+        }
+    ],
+    "result": {
+        "item": "chemlib:terbium_nugget",
+        "count": 9.0
+    }
+}

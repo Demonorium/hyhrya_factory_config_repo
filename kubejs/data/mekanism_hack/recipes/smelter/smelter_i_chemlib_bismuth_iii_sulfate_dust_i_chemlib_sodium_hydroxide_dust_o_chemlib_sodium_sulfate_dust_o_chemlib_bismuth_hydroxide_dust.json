@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_sulfate_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:bismuth_hydroxide_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 79699.21428571429,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:bismuth_iii_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_hydroxide_dust",
+            "count": 6.0
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:aluminum",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "moremekanismprocessing:dust_aluminum",
+            "count": 1
+        }
+    ],
+    "energy": 7001
+}

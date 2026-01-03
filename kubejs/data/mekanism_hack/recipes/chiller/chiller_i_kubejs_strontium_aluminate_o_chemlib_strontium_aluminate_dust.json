@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:strontium_aluminate",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:strontium_aluminate_dust",
+            "count": 1
+        }
+    ],
+    "energy": 3358
+}

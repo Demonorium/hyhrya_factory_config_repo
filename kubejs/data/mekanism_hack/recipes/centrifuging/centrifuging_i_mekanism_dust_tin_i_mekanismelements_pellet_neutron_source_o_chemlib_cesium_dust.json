@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:tin",
+        "amount": 11.0
+    },
+    "output": {
+        "gas": "kubejs:cesium",
+        "amount": 250.0,
+        "chemicalType": "gas"
+    }
+}

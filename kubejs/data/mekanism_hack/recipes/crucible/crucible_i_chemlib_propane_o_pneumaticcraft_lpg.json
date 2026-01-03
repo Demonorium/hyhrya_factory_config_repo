@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:propane",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "pneumaticcraft:lpg",
+        "amount": 100.0
+    },
+    "energy": 855
+}

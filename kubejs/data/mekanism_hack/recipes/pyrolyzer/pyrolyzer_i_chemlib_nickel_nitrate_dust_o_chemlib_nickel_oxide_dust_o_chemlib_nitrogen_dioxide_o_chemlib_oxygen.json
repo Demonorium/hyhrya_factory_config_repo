@@ -1,0 +1,23 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+        "item": "chemlib:nickel_nitrate_dust",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "chemlib:nickel_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:nitrogen_dioxide",
+            "count": 2.0
+        },
+        {
+            "fluid": "mekanism:oxygen",
+            "amount": 100.0
+        }
+    ],
+    "energy": 4180.0,
+    "experience": 2.09
+}

@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:cadmium",
+        "amount": 17.0
+    },
+    "output": {
+        "gas": "kubejs:antimony",
+        "amount": 400.0,
+        "chemicalType": "gas"
+    }
+}

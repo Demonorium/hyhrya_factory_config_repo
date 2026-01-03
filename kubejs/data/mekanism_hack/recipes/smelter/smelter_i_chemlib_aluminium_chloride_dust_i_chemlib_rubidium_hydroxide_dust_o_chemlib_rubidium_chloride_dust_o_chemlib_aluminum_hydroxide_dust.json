@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:rubidium_chloride_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:aluminum_hydroxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 53271.8,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:aluminium_chloride_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:rubidium_hydroxide_dust",
+            "count": 3.0
+        }
+    ]
+}

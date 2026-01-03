@@ -1,0 +1,23 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+        "item": "chemlib:livingstonite_dust",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "chemlib:antimony_trisulfide_dust",
+            "count": 2.0
+        },
+        {
+            "item": "mekanism:dust_sulfur",
+            "count": 1.0
+        },
+        {
+            "fluid": "kubejs:mercury",
+            "amount": 100.0
+        }
+    ],
+    "energy": 30000,
+    "experience": 15.0
+}

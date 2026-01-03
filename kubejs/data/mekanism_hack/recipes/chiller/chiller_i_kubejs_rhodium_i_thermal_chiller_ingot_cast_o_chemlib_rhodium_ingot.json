@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:rhodium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 22370.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:rhodium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

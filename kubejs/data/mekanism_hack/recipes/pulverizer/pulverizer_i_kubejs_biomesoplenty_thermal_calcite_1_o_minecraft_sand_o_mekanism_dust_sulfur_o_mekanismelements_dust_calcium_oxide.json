@@ -1,0 +1,22 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "tag": "kubejs:biomesoplenty/thermal_calcite_1",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "minecraft:sand",
+            "count": 2.0
+        },
+        {
+            "item": "mekanism:dust_sulfur",
+            "chance": 1.0
+        },
+        {
+            "item": "mekanismelements:dust_calcium_oxide",
+            "chance": 1.0
+        }
+    ],
+    "experience": 1.0
+}

@@ -1,0 +1,14 @@
+{
+  "registry": "cold_sweat:world/temp_region",
+  "config_type": [
+    "json"
+  ],
+  "entries": [
+    "cold_sweat:default"
+  ],
+  "operations": [
+    {
+      "type": "disable"
+    }
+  ]
+}

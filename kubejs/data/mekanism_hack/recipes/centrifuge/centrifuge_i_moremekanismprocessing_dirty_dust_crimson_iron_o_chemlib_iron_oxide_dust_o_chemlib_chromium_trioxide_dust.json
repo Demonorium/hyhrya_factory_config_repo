@@ -1,0 +1,18 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+        "item": "moremekanismprocessing:dirty_dust_crimson_iron",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "chemlib:iron_oxide_dust",
+            "chance": 2.5
+        },
+        {
+            "item": "chemlib:chromium_trioxide_dust",
+            "chance": 1.5
+        }
+    ],
+    "energy": 2000
+}

@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_nitrate_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:barium_sulfate",
+            "count": 1.0
+        }
+    ],
+    "energy": 50340.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:barium_nitrate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_sulfate_dust",
+            "count": 1.0
+        }
+    ]
+}

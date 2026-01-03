@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:sulfur_dichloride",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:sulfur_dichloride",
+            "count": 1
+        }
+    ],
+    "energy": 1522
+}

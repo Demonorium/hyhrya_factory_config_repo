@@ -1,0 +1,19 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+        "item": "undergarden:butterbunch",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "minecraft:yellow_dye",
+            "count": 1.0
+        },
+        {
+            "fluid": "pneumaticcraft:vegetable_oil",
+            "amount": 1.0,
+            "chance": 0.5
+        }
+    ],
+    "energy": 2000
+}

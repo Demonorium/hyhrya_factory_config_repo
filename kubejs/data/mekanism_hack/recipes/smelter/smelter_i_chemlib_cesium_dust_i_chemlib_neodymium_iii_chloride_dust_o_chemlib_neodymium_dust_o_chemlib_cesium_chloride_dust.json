@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:neodymium_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:cesium_chloride_dust",
+            "count": 3.0
+        }
+    ],
+    "energy": 59911.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:cesium_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:neodymium_iii_chloride_dust",
+            "count": 1.0
+        }
+    ]
+}

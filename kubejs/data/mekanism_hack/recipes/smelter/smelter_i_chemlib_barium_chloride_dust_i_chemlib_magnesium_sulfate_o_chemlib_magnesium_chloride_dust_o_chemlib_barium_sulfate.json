@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:magnesium_chloride_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:barium_sulfate",
+            "count": 1.0
+        }
+    ],
+    "energy": 54832.5,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:barium_chloride_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:magnesium_sulfate",
+            "count": 1.0
+        }
+    ]
+}

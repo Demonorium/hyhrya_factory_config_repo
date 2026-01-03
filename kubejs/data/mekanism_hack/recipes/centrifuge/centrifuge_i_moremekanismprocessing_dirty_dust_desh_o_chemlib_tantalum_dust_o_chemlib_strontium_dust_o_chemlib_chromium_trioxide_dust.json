@@ -1,0 +1,22 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+        "item": "moremekanismprocessing:dirty_dust_desh",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "chemlib:tantalum_dust",
+            "chance": 2.5
+        },
+        {
+            "item": "chemlib:strontium_dust",
+            "chance": 1.5
+        },
+        {
+            "item": "chemlib:chromium_trioxide_dust",
+            "chance": 0.6666666666666666
+        }
+    ],
+    "energy": 3000
+}

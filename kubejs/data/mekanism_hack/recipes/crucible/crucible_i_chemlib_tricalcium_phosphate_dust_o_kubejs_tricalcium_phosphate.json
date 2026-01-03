@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:tricalcium_phosphate_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:tricalcium_phosphate",
+        "amount": 100.0
+    },
+    "energy": 14550
+}

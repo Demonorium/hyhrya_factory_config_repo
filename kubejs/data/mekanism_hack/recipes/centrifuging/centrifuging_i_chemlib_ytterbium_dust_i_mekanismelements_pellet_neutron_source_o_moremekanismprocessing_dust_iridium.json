@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:ytterbium",
+        "amount": 11.0
+    },
+    "output": {
+        "gas": "kubejs:iridium",
+        "amount": 250.0,
+        "chemicalType": "gas"
+    }
+}

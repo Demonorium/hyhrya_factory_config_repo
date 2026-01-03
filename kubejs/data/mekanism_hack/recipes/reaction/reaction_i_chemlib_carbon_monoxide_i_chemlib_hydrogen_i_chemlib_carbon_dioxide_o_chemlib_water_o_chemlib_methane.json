@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "kubejs:carbon_monoxide"
+    },
+    "gasInput": {
+        "amount": 1400,
+        "gas": "mekanism:hydrogen"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:carbon_dioxide"
+        }
+    },
+    "gasOutput": {
+        "amount": 200,
+        "gas": "mekanismelements:methane"
+    },
+    "itemOutput": {
+        "count": 3,
+        "item": "chemlib:water"
+    }
+}

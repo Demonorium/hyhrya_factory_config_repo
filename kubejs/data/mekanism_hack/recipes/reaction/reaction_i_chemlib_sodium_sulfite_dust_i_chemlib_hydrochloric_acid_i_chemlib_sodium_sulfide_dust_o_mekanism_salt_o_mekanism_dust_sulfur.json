@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "kubejs:sodium_sulfite"
+    },
+    "gasInput": {
+        "amount": 600,
+        "gas": "mekanism:hydrogen_chloride"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:sodium_sulfide_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 300,
+        "gas": "kubejs:sulfur"
+    },
+    "itemOutput": {
+        "count": 6,
+        "item": "mekanism:salt"
+    }
+}

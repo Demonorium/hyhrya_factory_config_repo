@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_nitrate_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:copper_carbonate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 31460.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:copper_nitrate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_carbonate_dust",
+            "count": 1.0
+        }
+    ]
+}

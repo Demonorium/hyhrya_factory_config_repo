@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:gadolinium_metal_block",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:gadolinium",
+        "amount": 900.0
+    },
+    "energy": 142650.0
+}

@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:dysprosium_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:dysprosium",
+        "amount": 100.0
+    },
+    "energy": 12600
+}

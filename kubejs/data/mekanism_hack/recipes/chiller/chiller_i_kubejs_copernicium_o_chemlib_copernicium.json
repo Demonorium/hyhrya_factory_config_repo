@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:copernicium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:copernicium",
+            "count": 1
+        }
+    ],
+    "energy": 17850
+}

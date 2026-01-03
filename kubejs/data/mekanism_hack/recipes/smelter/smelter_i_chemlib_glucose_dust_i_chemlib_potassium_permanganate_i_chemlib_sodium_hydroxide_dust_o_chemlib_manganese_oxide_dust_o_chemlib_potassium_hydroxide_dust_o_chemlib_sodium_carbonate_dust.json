@@ -1,0 +1,33 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:manganese_oxide_dust",
+            "count": 8.0
+        },
+        {
+            "item": "chemlib:potassium_hydroxide_dust",
+            "count": 8.0
+        },
+        {
+            "item": "chemlib:sodium_carbonate_dust",
+            "count": 6.0
+        }
+    ],
+    "energy": 309043.35,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:glucose_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:potassium_permanganate",
+            "count": 8.0
+        },
+        {
+            "item": "chemlib:sodium_hydroxide_dust",
+            "count": 12.0
+        }
+    ]
+}

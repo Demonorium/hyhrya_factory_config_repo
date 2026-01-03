@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "thermal:niter_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:cadmium_hydroxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 25593.03,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:cadmium_nitrate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:potassium_hydroxide_dust",
+            "count": 2.0
+        }
+    ]
+}

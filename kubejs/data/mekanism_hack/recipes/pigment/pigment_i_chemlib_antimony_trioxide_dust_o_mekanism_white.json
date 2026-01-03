@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:antimony_trioxide_dust"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:white",
+        "amount": 512.0
+    }
+}

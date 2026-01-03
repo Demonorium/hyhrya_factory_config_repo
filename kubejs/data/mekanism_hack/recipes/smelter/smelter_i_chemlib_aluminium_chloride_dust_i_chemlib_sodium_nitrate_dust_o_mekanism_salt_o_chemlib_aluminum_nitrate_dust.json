@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "mekanism:salt",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:aluminum_nitrate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 57564.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:aluminium_chloride_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_nitrate_dust",
+            "count": 3.0
+        }
+    ]
+}

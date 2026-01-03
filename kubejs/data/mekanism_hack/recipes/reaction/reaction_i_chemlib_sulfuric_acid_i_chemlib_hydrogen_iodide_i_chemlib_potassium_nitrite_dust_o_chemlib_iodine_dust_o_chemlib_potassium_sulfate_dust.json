@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "mekanism:sulfuric_acid"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "kubejs:hydrogen_iodide"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:potassium_nitrite_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "kubejs:potassium_sulfate"
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "chemlib:iodine_dust"
+    }
+}

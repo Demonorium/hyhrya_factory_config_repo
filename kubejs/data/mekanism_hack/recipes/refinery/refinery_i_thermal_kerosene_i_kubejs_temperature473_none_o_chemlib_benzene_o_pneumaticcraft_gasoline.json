@@ -1,0 +1,21 @@
+{
+    "type": "pneumaticcraft:refinery",
+    "input": {
+        "fluid": "thermal:kerosene",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "results": [
+        {
+            "fluid": "pneumaticcraft:gasoline",
+            "amount": 70.0
+        },
+        {
+            "fluid": "kubejs:benzene",
+            "amount": 20.0
+        }
+    ],
+    "temperature": {
+        "min_temp": 473
+    }
+}

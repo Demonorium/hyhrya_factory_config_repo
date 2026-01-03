@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:molybdenum_dust",
+            "count": 1.0
+        },
+        {
+            "item": "mekanismelements:dust_calcium_oxide",
+            "count": 3.0
+        }
+    ],
+    "energy": 148141.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:calcium_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:molybdenum_trioxide_dust",
+            "count": 1.0
+        }
+    ]
+}

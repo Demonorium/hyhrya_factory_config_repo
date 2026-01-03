@@ -1,0 +1,23 @@
+{
+    "type": "pneumaticcraft:fluid_mixer",
+    "input1": {
+        "fluid": "mekanism_extras:silicon_tetrafluoride",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "input2": {
+        "fluid": "minecraft:water",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "pressure": 1.0,
+    "time": 515,
+    "fluid_output": {
+        "fluid": "mekanism:hydrofluoric_acid",
+        "amount": 400.0
+    },
+    "item_output": {
+        "item": "chemlib:silicon_dioxide",
+        "count": 1.0
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 11.975247524752476,
+    "temperature": {
+        "min_temp": 201.0
+    },
+    "fluid_input": {
+        "fluid": "kubejs:manganese_sulfate",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:carbon_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanism:sulfur_dioxide",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "chemlib:manganese_ii_oxide_dust",
+        "count": 2.0
+    }
+}

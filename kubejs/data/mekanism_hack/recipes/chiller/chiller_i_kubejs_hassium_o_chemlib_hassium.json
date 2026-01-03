@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:hassium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:hassium",
+            "count": 1
+        }
+    ],
+    "energy": 1260
+}

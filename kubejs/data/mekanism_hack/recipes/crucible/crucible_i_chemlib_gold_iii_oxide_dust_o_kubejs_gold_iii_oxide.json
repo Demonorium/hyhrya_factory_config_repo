@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:gold_iii_oxide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:gold_iii_oxide",
+        "amount": 100.0
+    },
+    "energy": 4282
+}

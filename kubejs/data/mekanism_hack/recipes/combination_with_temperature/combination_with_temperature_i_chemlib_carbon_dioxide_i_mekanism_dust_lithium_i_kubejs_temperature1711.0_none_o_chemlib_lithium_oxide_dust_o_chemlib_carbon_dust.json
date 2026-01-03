@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 54.254901960784316,
+    "temperature": {
+        "min_temp": 1711.0
+    },
+    "fluid_input": {
+        "fluid": "kubejs:carbon_dioxide",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "mekanism:dust_lithium",
+        "count": 4.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:lithium_oxide",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "chemlib:carbon_dust",
+        "count": 1.0
+    }
+}

@@ -1,0 +1,720 @@
+{
+	"health_root": {
+		"title": "Укрепление тканей",
+		"required_skills": 0,
+		"description": "Увеличивает предел повреждений, которые может пережить носитель.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "biomancy:flesh_bits"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"health+1": {
+		"title": "Укрепление тканей",
+		"description": "Увеличивает предел повреждений, которые может пережить носитель.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "biomancy:flesh_bits"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"health+5": {
+		"title": "Укрепление внутренних органов",
+		"description": "Значительно увеличивает предел повреждений, которые может пережить носитель.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "macabre:liver"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"armor+1": {
+		"title": "Хитиновая кожа",
+		"description": "Ваша кожа содержит хитин, что делает её значительно прочнее. Носителя труднее ранить.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "biomancy:bone_fragments"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"armor+3": {
+		"title": "Кристализация тканей",
+		"description": "Формирование биомеханических слоёв внутренней брони, которые поглощают повреждение. Носитель становится крепче и способен переживать значительный урон.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "mekanism:dirty_netherite_scrap"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 3,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor_toughness",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"armor_toughness": {
+		"title": "Укрепление костей",
+		"description": "Значительное увеличение прочности костей, позволяет вам многократно снизить повреждение от сильных ударов.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cataclysm:koboleton_bone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor_toughness",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"healing+1": {
+		"title": "Клеточная репликация",
+		"description": "Увеличение скорость репликации клеток, позволяет увеличить скорость самовосстановления.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "clanginghowl:technoflesh_membrane"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.healing",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"healing+2": {
+		"title": "Увеличение пределов деления",
+		"description": "Увеличение пределов деления клеток, позволяет увеличить скорость самовосстановления и прочность носителя.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "biomancy:malignant_flesh_veins"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.healing",
+					"value": 0.2,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"impulse_healing": {
+		"title": "Импульсная регенерация",
+		"description": "Мгновенная переодическая регенерация утраченных участков тканей с полным восстановлением функциональности. Повышает восстановление от всех источников. Совершенно подходит для боевых столкновений",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "biomancy:living_flesh"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "obscure_api:healing_power",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"resistance+10%": {
+		"title": "Распределение импульса",
+		"description": "Изменение структуры тканей позволяет полностью рассеять часть урона.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "biomancy:flesh_ladder"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.resistance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"warm_limit_x25": {
+		"title": "Терморегуляция",
+		"description": "Улушение охлаждения для снижения скорости разрушения организма в условиях перегрева.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "macabre:ba_3"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "cold_sweat:burning_point",
+					"value": 0.5,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "cold_sweat:burning_point",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cold_limit_x25": {
+		"title": "Гибернация",
+		"description": "Значительное снижение минимально переносимой температуры за счёт замедления клеточных процессов.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cataclysm:abyssal_sacrifice"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "cold_sweat:freezing_point",
+					"value": 0.5,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "cold_sweat:freezing_point",
+					"value": -0.26,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cold_resist_x25": {
+		"title": "Жировые клетки",
+		"description": "Изменение структуры жира, для уменьшения получаемых повреждений при экстремально низкой температуре",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "macabre:scorching_acid"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "cold_sweat:cold_resistance",
+					"value": 0.25,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"warm_resist_x25": {
+		"title": "Термальное поглощение",
+		"description": "Изменение механизмов отмирания клеток для снижения повреждений от экстремальной температуры.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "macabre:blackheads"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "cold_sweat:heat_resistance",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+
+	"adaptation": {
+		"title": "Адаптация",
+		"description": "Адаптация к среде позволяет дольше выдерживать экстремальные условия перед полчением критического состояния.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "biomancy:warrior_armor_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "cold_sweat:cold_dampening",
+					"value": 0.5,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "cold_sweat:heat_dampening",
+					"value": 0.5,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"muscules_root": {
+		"title": "Усиление мышц",
+		"description": "Увеличение максимальной мощности мышц увеличивает такие параметры как: скорость движения, урон от ударов, максимальную силу натяжения лука, скорость добычи",
+		"required_skills": 0,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "biomancy:elastic_fibers"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.melee_damage",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.ranged_damage",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.mining_speed",
+					"value": 0.25,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"muscules": {
+		"title": "Усиление мышц",
+		"description": "Увеличение максимальной мощности мышц увеличивает такие параметры как: скорость движения, урон от ударов, максимальную силу натяжения лука, скорость добычи",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "biomancy:elastic_fibers"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.melee_damage",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.ranged_damage",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.mining_speed",
+					"value": 0.25,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+    "speed": {
+		"title": "Ускорение высвобождения",
+		"description": "Повышение взрывной силы мышц, позволяя быстрее бегать и бить.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "alexsmobs:elastic_tendon"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.sprinting_speed",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.jump",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"jump": {
+		"title": "Изменение строения коленей",
+		"description": "Изменения мышечной и костной структуры коленей. Немного увеличивает высоту прыжка и скорость движения.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "silentgear:flax_fiber"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.jump",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.sprinting_speed",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"swim": {
+		"title": "Перепонки",
+		"description": "Перепонки на руках и ногах значительно увеличивают скорость перемещения в воде",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "silentgear:flax_fiber"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.35,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"luck_root": {
+		"title": "Интуиция",
+		"required_skills": 0,
+		"description": "Улучшение скорости анализа позволяет подмечать предметы, которые вы раньше не могли заметить.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "macabre:brain"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"luck": {
+		"title": "Интуиция",
+		"description": "Вы лучше анализируете окружение, что позволяет подмечать предметы, которые вы раньше не могли заметить.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "macabre:brain"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.fortune",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mining": {
+		"title": "Интуиция шахтёра",
+		"description": "Улучшение способностей к анализу материалов на ощупь для более эффективной добычи руды и разборки предметов.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cataclysm:blazing_grips"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.mining_speed",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.fortune",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"critical": {
+		"title": "Боевая интуиция",
+		"description": "Улучшение боевых инстинктов позволяя находить слабые места у противника, стыки брони, слабые точки.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "macabre:everlurking_eye"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "obscure_api:penetration",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "obscure_api:critical_hit",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"defence": {
+		"title": "Рефлексы",
+		"description": "Носитель автоматически использует возможности вашей брони и тела, чтобы минимизировать возможные повреждения.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "alexsmobs:rocky_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor_toughness",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "obscure_api:dodge",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"stamina+1": {
+		"title": "Запас веществ",
+		"description": "Увеличивает максимальный накопленный запас энергии.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "biomancy:nutrient_paste"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.stamina",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"stamina+2.5": {
+		"title": "Полное расщепление",
+		"description": "Более эффективное перевариваение пищи, за счёт изменения состава желудочного сока",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "biomancy:nutrient_bar"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.stamina",
+					"value": 0.25,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	}
+}

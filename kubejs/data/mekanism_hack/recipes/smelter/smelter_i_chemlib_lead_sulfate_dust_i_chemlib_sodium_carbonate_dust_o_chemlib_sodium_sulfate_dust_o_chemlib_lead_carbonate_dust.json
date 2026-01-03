@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:lead_carbonate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 42290.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:lead_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_carbonate_dust",
+            "count": 1.0
+        }
+    ]
+}

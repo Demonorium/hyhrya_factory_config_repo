@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:nickel_nitrate_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:nickel_nitrate",
+        "amount": 100.0
+    },
+    "energy": 2474
+}

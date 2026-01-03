@@ -1,0 +1,6 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#sgjourney:is_abydos",
+    "features": "thermal:oil_sand",
+    "step": "underground_ores"
+}

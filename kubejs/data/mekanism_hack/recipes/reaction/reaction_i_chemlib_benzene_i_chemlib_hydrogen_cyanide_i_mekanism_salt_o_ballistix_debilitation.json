@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 2000,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "kubejs:benzene"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "mekanismelements:hydrogen_cyanide"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:salt"
+        }
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "ballistix:debilitation"
+    }
+}

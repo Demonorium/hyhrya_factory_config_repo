@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:nobelium",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:nobelium",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:nobelium",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:nobelium",
+        "amount": 1.0
+    }
+}

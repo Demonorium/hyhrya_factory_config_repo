@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 11.69059405940594,
+    "temperature": {
+        "min_temp": 273.15,
+        "max_temp": 907.6
+    },
+    "fluid_input": {
+        "fluid": "mekanismelements:hydrogen_cyanide",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:potassium_hydroxide_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "minecraft:water",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:potassium_cyanide_dust",
+        "count": 1.0
+    }
+}

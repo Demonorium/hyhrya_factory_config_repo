@@ -1,0 +1,33 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:manganese_oxide_dust",
+            "count": 5.0
+        },
+        {
+            "item": "chemlib:potassium_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:zinc_sulfate_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 157570.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:manganese_sulfate_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:potassium_permanganate",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:zinc_oxide_dust",
+            "count": 2.0
+        }
+    ]
+}

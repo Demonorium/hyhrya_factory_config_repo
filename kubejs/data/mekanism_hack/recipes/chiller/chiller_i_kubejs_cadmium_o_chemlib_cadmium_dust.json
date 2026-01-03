@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:cadmium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:cadmium_dust",
+            "count": 1
+        }
+    ],
+    "energy": 4457
+}

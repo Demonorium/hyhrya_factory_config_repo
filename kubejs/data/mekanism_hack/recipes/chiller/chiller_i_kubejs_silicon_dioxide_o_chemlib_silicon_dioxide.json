@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:silicon_dioxide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:silicon_dioxide",
+            "count": 1
+        }
+    ],
+    "energy": 19860
+}

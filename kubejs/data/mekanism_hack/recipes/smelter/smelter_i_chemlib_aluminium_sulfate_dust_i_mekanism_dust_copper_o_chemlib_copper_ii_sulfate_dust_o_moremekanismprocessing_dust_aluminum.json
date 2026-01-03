@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:copper_ii_sulfate_dust",
+            "count": 3.0
+        },
+        {
+            "item": "moremekanismprocessing:dust_aluminum",
+            "count": 2.0
+        }
+    ],
+    "energy": 74572.5,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:aluminium_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "mekanism:dust_copper",
+            "count": 3.0
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+  "ID": "minecraft:stray",
+  "Probability": 0.5,
+  "Guns": [
+    {
+      // Gun item's registry ID, MUST NOT be null and MUST be GunItem
+      "ID": "superbwarfare:marlin",
+      // Roll weight for this gun
+      "Weight": 10,
+      // Aim time in ticks for mobs to aim before shoot
+      "AimTime": 40,
+      // Clear aim time when lost sight, otherwise aim time will reduce by 1 per tick
+      "ClearAimTimeWhenLostSight": true,
+      // Extra cooldown in microseconds for semi and burst fire mode
+      "SemiFireInterval": 200,
+      // Backup ammo count for this gun
+      "BackupAmmo": 10,
+      // Should guns be loaded when mobs spawn
+      "SpawnWithLoadedAmmo": false,
+      "ShootDistance": 50,
+      // Will mobs be considered as zooming when shoot
+      "Zoom": true,
+      // Fire spread
+      "Spread": 1
+    },
+    {
+      // Gun item's registry ID, MUST NOT be null and MUST be GunItem
+      "ID": "superbwarfare:mp_443",
+      // Roll weight for this gun
+      "Weight": 7,
+      // Aim time in ticks for mobs to aim before shoot
+      "AimTime": 20,
+      // Clear aim time when lost sight, otherwise aim time will reduce by 1 per tick
+      "ClearAimTimeWhenLostSight": true,
+      // Extra cooldown in microseconds for semi and burst fire mode
+      "SemiFireInterval": 400,
+      // Backup ammo count for this gun
+      "BackupAmmo": 40,
+      // Should guns be loaded when mobs spawn
+      "SpawnWithLoadedAmmo": false,
+      "ShootDistance": 50,
+      // Will mobs be considered as zooming when shoot
+      "Zoom": false,
+      // Fire spread
+      "Spread": 5
+    }
+  ]
+}

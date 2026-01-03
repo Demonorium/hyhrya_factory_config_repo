@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "mekanism:oxygen",
+        "amount": 3.0
+    },
+    "output": {
+        "gas": "kubejs:yttrium_iii_oxide",
+        "amount": 1.0
+    },
+    "rightInput": {
+        "gas": "mekanismelements:yttrium",
+        "amount": 2.0
+    }
+}

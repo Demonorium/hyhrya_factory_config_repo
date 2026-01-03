@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:yttrium_barium_copper_oxide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:yttrium_barium_copper_oxide",
+        "amount": 100.0
+    },
+    "energy": 9548
+}

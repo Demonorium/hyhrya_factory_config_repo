@@ -1,0 +1,6 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#sgjourney:is_lantea",
+    "features": "handmade:lantea_sapphire_ore",
+    "step": "underground_ores"
+}

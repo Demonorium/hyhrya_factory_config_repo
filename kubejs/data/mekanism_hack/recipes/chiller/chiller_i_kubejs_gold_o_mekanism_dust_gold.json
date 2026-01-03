@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:gold",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "mekanism:dust_gold",
+            "count": 1
+        }
+    ],
+    "energy": 10030
+}

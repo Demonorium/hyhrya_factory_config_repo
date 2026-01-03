@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_sulfide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:calcium_chloride_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 75765.3,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:calcium_sulfide",
+            "count": 1.0
+        },
+        {
+            "item": "mekanism:salt",
+            "count": 2.0
+        }
+    ]
+}

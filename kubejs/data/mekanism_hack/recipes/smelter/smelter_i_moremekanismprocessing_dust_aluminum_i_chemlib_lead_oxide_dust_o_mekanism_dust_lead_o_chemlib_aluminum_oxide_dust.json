@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "mekanism:dust_lead",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:aluminum_oxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 40397.590000000004,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "moremekanismprocessing:dust_aluminum",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:lead_oxide_dust",
+            "count": 3.0
+        }
+    ]
+}

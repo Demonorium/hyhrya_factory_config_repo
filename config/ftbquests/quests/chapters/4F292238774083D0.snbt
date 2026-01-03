@@ -1,0 +1,3232 @@
+{
+	autofocus_id: "5650CAEE38369031"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4F292238774083D0"
+	group: ""
+	icon: "mekanism:metallurgic_infuser"
+	id: "4F292238774083D0"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1AA2A590F998DAB2"]
+			description: ["Что может быть проще сжигания материалов, чтобы питать механизмы?"]
+			id: "5650CAEE38369031"
+			rewards: [{
+				count: 2
+				id: "53C05E01DE40CB86"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Тёплое электричество"
+			tasks: [{
+				id: "758C8B48407A132A"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5650CAEE38369031"]
+			description: [
+				"Теплогенератор гораздо более интересная штука."
+				"Ведь если разместить рядом с ним источник тепла, он будет использовать его для выработки энергии."
+				""
+				"Попробуйте разметисть лаву с нескольких сторон."
+			]
+			id: "34C4DA1CD29EAADA"
+			rewards: [{
+				count: 3
+				id: "41D01083D5E3AD18"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			subtitle: "Разместите рядом с генератором источник тепла"
+			tasks: [{
+				id: "4BE0151D832249E4"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			title: "Тепловая энергия"
+			x: -16.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"17B9E6D5342AA0D5"
+				"1A520D70554B37DF"
+			]
+			description: [
+				"Возможно вам уже стало нехватать руды? Тогда этот механизм для вас!"
+				"Умножайте руду, очищайте руду, обогощайте руду! Будьте эффективны."
+			]
+			id: "2F67A4BFDDE4A86A"
+			rewards: [
+				{
+					id: "7E1430E72AA014B4"
+					item: "minecraft:raw_iron_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2C44D7B3D8648574"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Обогащение"
+			tasks: [{
+				id: "262D9C021AC441A2"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			title: "Обработка и очистка"
+			x: -14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4A0C6AC77FC73C13"]
+			id: "1F37EEAD36E735F2"
+			rewards: [{
+				count: 10
+				id: "4F39198ECFF3B449"
+				item: "thermal:coal_coke"
+				type: "item"
+			}]
+			subtitle: "Обогатите железо дважды"
+			tasks: [{
+				id: "2D1AB5A5D2DC556F"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0391D657A89F56DA"]
+			hide_until_deps_complete: true
+			id: "3372163AC827ED34"
+			rewards: [
+				{
+					count: 4
+					id: "20972D82FFDC932A"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "66B1F678D572A822"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4D5654BF3022212E"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			subtitle: "Найдите осмий "
+			tasks: [{
+				id: "606DFE46A1E50B66"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2EAB01D6614C78D0"
+				"3C27B412271DBF29"
+			]
+			id: "1A520D70554B37DF"
+			rewards: [{
+				count: 16
+				id: "1E596A41C30E8DE8"
+				item: "mekanism:raw_osmium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00B4AA04848C8FD3"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1AA2A590F998DAB2"]
+			description: [
+				"Солнечные панели - это ещё один вид источников энергии."
+				"Они чуть более эффективны теплового источника."
+			]
+			id: "6C77CD84B4885052"
+			rewards: [{
+				count: 4
+				id: "7EFFEA451AC60ED5"
+				item: "mekanismgenerators:solar_panel"
+				type: "item"
+			}]
+			subtitle: "Очень экологично"
+			tasks: [{
+				id: "517091E86C78C3BE"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6C77CD84B4885052"]
+			description: ["Обычно солнечная панель вырабатывает меньше энергии, когда солнце не в зените. Поэтому мы сделали панель, которая следует за солнцем. Максимальная эффективность."]
+			id: "43CDA7F3AFD29CC4"
+			rewards: [{
+				count: 4
+				id: "66291CBC512B0FDD"
+				item: "mekanismgenerators:solar_panel"
+				type: "item"
+			}]
+			subtitle: "Следуй за солнцем"
+			tasks: [{
+				id: "4031AEF3F7E9A27E"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["710296F3C0C083E4"]
+			id: "219D3ACD18F148C9"
+			rewards: [{
+				count: 5
+				id: "3F412138BB8EB172"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "653DFD40E75A7C1F"
+				item: "mekanism:ingot_bronze"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BA3C2936FFE72D7"]
+			id: "0D8ABA969298E47F"
+			rewards: [{
+				count: 16
+				id: "3A1898D27C4FB4E8"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			subtitle: "Точно универсальный"
+			tasks: [{
+				id: "7B780BE4C3535CA2"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1F37EEAD36E735F2"]
+			id: "472CD9D0CC85A358"
+			rewards: [{
+				count: 8
+				id: "69B079FEB31B71C6"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73CA4834CD393FA3"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F37EEAD36E735F2"]
+			id: "78423762E721D1A4"
+			rewards: [{
+				count: 8
+				id: "676AA1E2EF7EF82C"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61572C63C2A23051"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C91DE23AE708A95"]
+			description: ["Универсальное хранилище энергии."]
+			id: "3CAF5E9098666D9D"
+			rewards: [
+				{
+					count: 64
+					id: "0B3CEA62478DF9BD"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0A6C5AA8355F0C6D"
+					item: "mekanism:steel_casing"
+					type: "item"
+				}
+			]
+			subtitle: "Хранение энергии"
+			tasks: [{
+				id: "652F0AE608941F40"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1F37EEAD36E735F2"]
+			id: "17B9E6D5342AA0D5"
+			rewards: [
+				{
+					id: "52DAAFA1865D8FDF"
+					item: {
+						Count: 1
+						id: "railcraft:steel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "662AB1DCBE8EE6D8"
+					item: {
+						Count: 1
+						id: "railcraft:steel_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70657FE643F8E81B"
+					item: {
+						Count: 1
+						id: "railcraft:steel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F32744E107B6B30"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2535D747D99042D6"]
+			description: [""]
+			id: "1AA2A590F998DAB2"
+			rewards: [{
+				count: 16
+				id: "1562D00B6BE28F3E"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			subtitle: "Продвинутая батарейка"
+			tasks: [{
+				id: "73C05DAA330791A0"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["17B9E6D5342AA0D5"]
+			description: ["Вам больше не нужен уголь, чтобы плавить, теперь вам нужна энергия... возможно стоит построить ядерный реактор."]
+			id: "683812891F89683D"
+			rewards: [{
+				count: 10
+				id: "3AEEF826204D39F5"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "WIFI-20000"
+			tasks: [{
+				id: "6B0D23BDABAB03D0"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"76C7C4377637AFB2"
+				"3372163AC827ED34"
+			]
+			description: [
+				"Пустите весь этот мир на запчасти, если что-то нельзя использовать - просто передробите это и соберите заного."
+				""
+				"К сожалению вы не можете получить больше материала, используя дробление."
+			]
+			id: "7FBC222A3F99A434"
+			rewards: [
+				{
+					count: 16
+					id: "6216659FE097D730"
+					item: "mekanism:dust_iron"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5AA3D3A3088B8CA6"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Всё есть материал"
+			tasks: [{
+				id: "0730550E1CCDB6C2"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7FBC222A3F99A434"]
+			description: ["Флора и фауна никогда не была полезна в строительстве завода. Пусть же она послужит топливом."]
+			id: "1BE332861A067027"
+			subtitle: "Ненавижу природу"
+			tasks: [{
+				id: "6BF52700A57F1A76"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7FBC222A3F99A434"]
+			id: "1326C0FFD89B6CFE"
+			subtitle: "Не такой красивый, но полезный"
+			tasks: [{
+				id: "0E4B14436A49ADDA"
+				item: "mekanism:dust_diamond"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1326C0FFD89B6CFE"]
+			id: "08F7D854AA93BF69"
+			subtitle: "Снова красивый"
+			tasks: [{
+				id: "60647A9F2A0D94BD"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4CF0EFAD9341CBC6"
+				"79DF6D50052115A9"
+			]
+			description: [
+				"Весь мир очень не ровный. Пока у вас нет средств, чтобы выровнять его, можно приспособиться."
+				""
+				"Этот косты... прекрасный механизм, позволяет вам ходить по метровым ступенькам, как если бы это была ровная земля. А также падать с любой высоты не получая урона. Не забудьте зарядить."
+			]
+			id: "1D4095A97DED552F"
+			rewards: [{
+				count: 16
+				id: "14F418A8BF8F1944"
+				item: "superbwarfare:cell"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Эффективно ходить"
+			tasks: [{
+				id: "14AA4FD62C4DC279"
+				item: "mekanism:free_runners"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"0E36516AB2341A4A"
+				"710296F3C0C083E4"
+			]
+			id: "53752CDA213B6012"
+			shape: "square"
+			subtitle: "Сжимай сильнее"
+			tasks: [{
+				id: "2C16146BC9B4EE77"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"08F7D854AA93BF69"
+				"40303EB3A89F8CAF"
+			]
+			id: "0E36516AB2341A4A"
+			tasks: [{
+				id: "702C57213CC6BA56"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1326C0FFD89B6CFE"]
+			description: ["Поместите улучшение в машину и она будет загружать чанк где находится."]
+			id: "03540A00006E0D8E"
+			rewards: [{
+				count: 2
+				id: "4AED04A2B3F7A86D"
+				item: "mekanism:dust_diamond"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Загрузка чанков для новичков"
+			tasks: [{
+				id: "678E47FDD0B101CE"
+				item: "mekanism:upgrade_anchor"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["53752CDA213B6012"]
+			id: "74537D113E40F871"
+			subtitle: "Абсолютная прочность"
+			tasks: [{
+				id: "7C696DDDB0FB727D"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["53752CDA213B6012"]
+			id: "579FDE14E1BE6B50"
+			tasks: [{
+				id: "6148231805ABE16D"
+				item: "mekanism:ingot_refined_glowstone"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["08F7D854AA93BF69"]
+			id: "5E80D8C4CED5F16E"
+			rewards: [
+				{
+					id: "41E626611AB61848"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7811ADCEDB7F351C"
+					item: "mekanism:advanced_universal_cable"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C23714B3DAF0799"
+				item: "mekanism:elite_pressurized_tube"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08F7D854AA93BF69"]
+			id: "2442BB85EB7EFC3A"
+			rewards: [
+				{
+					id: "75746D6A12D81E54"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1228FC59D007F6C1"
+					item: "mekanism:enriched_iron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30A7BC46C17C195E"
+				item: "mekanism:elite_logistical_transporter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08F7D854AA93BF69"]
+			id: "7FE5F341510D0CDD"
+			rewards: [
+				{
+					id: "2EA3B1652A62E2E2"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1DE947ACF80CA1F9"
+					item: "mekanism:basic_energy_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D3AA23DE3675929"
+				item: "mekanism:elite_universal_cable"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A520D70554B37DF"]
+			id: "478717A6B676146F"
+			rewards: [{
+				count: 8
+				id: "4F86ADA2401A8AF1"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26EE5E8FB33AF111"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08F7D854AA93BF69"]
+			id: "6118950CF865569E"
+			rewards: [
+				{
+					id: "33C6966C1932D8E7"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "28135FDD54AB990E"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2035D88B865289F0"
+				item: "mekanism:elite_mechanical_pipe"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1BE332861A067027"]
+			id: "1EB22B90FAB1E15F"
+			rewards: [{
+				count: 32
+				id: "566334A7B36EEA22"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			subtitle: "Сжигать природу"
+			tasks: [{
+				id: "71A6F193CAE18698"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1AA2A590F998DAB2"
+				"1F37EEAD36E735F2"
+			]
+			id: "4CF0EFAD9341CBC6"
+			rewards: [{
+				id: "02381BB5BBECDC64"
+				item: {
+					Count: 1
+					id: "mekanism:energy_tablet"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "1000000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D023B95EDD1D15F"
+				item: "mekanism:chargepad"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"3E47A0F5E31B4EAC"
+				"2C034ED5037F430E"
+			]
+			id: "66B2B4975D8AE268"
+			rewards: [{
+				count: 32
+				id: "4ABEDA70CF866B91"
+				item: "mekanism:structural_glass"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Наконец-то я сделал чайник"
+			tasks: [
+				{
+					count: 2L
+					id: "08A31803CE45D008"
+					item: "mekanism:boiler_valve"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "7D7C37DBE85082B3"
+					item: { Count: 24, id: "mekanism:boiler_casing" }
+					type: "item"
+				}
+				{
+					id: "5E72937AE1A0324A"
+					item: "mekanism:superheating_element"
+					type: "item"
+				}
+				{
+					id: "7D8F6B9C50940399"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+			]
+			title: "Бойлер"
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["40303EB3A89F8CAF"]
+			id: "5EA91240FE0919A5"
+			rewards: [
+				{
+					count: 10
+					id: "154817197D454B2F"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "089DBEB8362FCA15"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					count: 24L
+					id: "51E80328CCF6E7BC"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+				{
+					id: "7674CB1CCA447DDA"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["556CB23E41611059"]
+			id: "3C27B412271DBF29"
+			rewards: [{
+				count: 8
+				id: "66D7CA8993F4D030"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Наполнение"
+			tasks: [{
+				id: "046843DD969B2867"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "Первые технологии"
+			x: -20.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"46AF5A9119A75A33"
+				"1A520D70554B37DF"
+			]
+			id: "40303EB3A89F8CAF"
+			tasks: [{
+				id: "707B64C87734BC93"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C27B412271DBF29"]
+			description: [
+				"Долго анализируя местную природу, я пришёл к выводу, что можно использовать материалы одного из миров, для ещё большей прогрессии."
+				"Узериум - кристал заражающий миры, вызывающий безумие и производящий редстоун реакции. Хороший материал для улучшения компонентов."
+			]
+			hide_dependency_lines: true
+			id: "46AF5A9119A75A33"
+			subtitle: "Подземные технологии"
+			tasks: [{
+				id: "16151C5293A991E1"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AA2A590F998DAB2"]
+			description: [
+				"Может вырабатывать большое количество энергии, но очень ненадёжен."
+				""
+				"Более эффективен в горах"
+			]
+			id: "4E90F560BD71AC3A"
+			subtitle: "Обратный вентилятор"
+			tasks: [{
+				id: "0B5E62D849DB8504"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5EA91240FE0919A5"
+				"0E36516AB2341A4A"
+			]
+			description: [
+				"Реакционная камера может делать множество полезных вещей:"
+				"- Умножать руду в 4 раза."
+				"- Производить бетон."
+				"- Восстанавливать состояние некоторых блоков, таких как глина и терракота."
+				"- Получать серу из пороха."
+			]
+			id: "17BE475FDF12B481"
+			shape: "square"
+			subtitle: "x4 производство"
+			tasks: [{
+				id: "2DEE18978FD96E2C"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17BE475FDF12B481"]
+			description: ["Камера очистки позволяет вам преобразовать одну руду в 3 глыбы, дальнешая обработка умножает руду ещё сильнее."]
+			id: "6257ECCEE9D37A48"
+			shape: "square"
+			subtitle: "х3 Производство"
+			tasks: [{
+				id: "25D8D509AABEE3A9"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4CF0EFAD9341CBC6"
+				"79DF6D50052115A9"
+			]
+			description: [
+				"Электрический лук это вариант обычного лука, который никогда не сломается."
+				"Довольно эффективное решение."
+			]
+			id: "00A8DD8003CB3565"
+			rewards: [{
+				count: 32
+				id: "690168D4D74D4A4E"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "С подогревом"
+			tasks: [{
+				id: "1706285D2EB65160"
+				item: "mekanism:electric_bow"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"00A8DD8003CB3565"
+				"1AA2A590F998DAB2"
+			]
+			description: ["Автоматизация убийств. Кстати, в неё можно ставить улучшения, чтобы убивать ЕЩЁ эффективнее."]
+			id: "5C956CC5E0154CF2"
+			rewards: [{
+				count: 256
+				id: "54F5A4D0C8E801E6"
+				item: "minecraft:light_gray_concrete"
+				type: "item"
+			}]
+			subtitle: "Периметр"
+			tasks: [{
+				id: "04462D8B0794010E"
+				item: "mekanism_turrets:basic_laser_turret"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0E36516AB2341A4A"
+				"017F7286387CC49B"
+			]
+			description: [
+				"Плазменное оружие обладает средним уроном, высокой скорострельностью, но относительно низким уроном. Длительная стрельба вызывает перегрев."
+				""
+				"Преимущество этого оружия в том, что оно не требует боеприпасов, только энергию."
+			]
+			id: "7A93489AB9616110"
+			rewards: [{
+				count: 8
+				id: "263717D6412E15E3"
+				item: {
+					Count: 1
+					id: "mekanism:energy_tablet"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "1000000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "6C95BA64FABD7EDE"
+				item: {
+					Count: 1
+					id: "mekanism_weaponry:plasma_rifle"
+					tag: {
+						chip1: {
+							Count: 1b
+							id: "minecraft:air"
+						}
+						chip2: {
+							Count: 1b
+							id: "minecraft:air"
+						}
+						chip3: {
+							Count: 1b
+							id: "minecraft:air"
+						}
+						paint: {
+							Count: 1b
+							id: "minecraft:air"
+						}
+						scope: {
+							Count: 1b
+							id: "minecraft:air"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Плазменное оружие"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"017F7286387CC49B"
+				"74537D113E40F871"
+			]
+			description: [
+				"Стреляет длинными металическими стрежнями. Имеет 2 режима: обычный и перегрузка."
+				"В перегруженном режиме многократно возрастает энергопотребление и урон, но каждый выстрел вызывает лёгкую контузию у стрелка."
+			]
+			id: "1F04061A5B2CFF04"
+			rewards: [{
+				count: 32
+				id: "7DE3B0ED21A2A5B9"
+				item: "mekanism_weaponry:steel_rod"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "У каждого должен быть внутренний стержень"
+			tasks: [{
+				id: "6D734A145110C18A"
+				item: {
+					Count: 1
+					id: "mekanism_weaponry:railgun"
+					tag: {
+						chip1: {
+							Count: 1b
+							id: "minecraft:air"
+						}
+						chip2: {
+							Count: 1b
+							id: "minecraft:air"
+						}
+						chip3: {
+							Count: 1b
+							id: "minecraft:air"
+						}
+						loaded_ammo: {
+							Count: 1b
+							id: "minecraft:air"
+						}
+						paint: {
+							Count: 1b
+							id: "minecraft:air"
+						}
+						railgun_secondary_mode: 0b
+						scope: {
+							Count: 1b
+							id: "minecraft:air"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Электромагнитный ускоритель"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0E36516AB2341A4A"]
+			id: "318D11881F2EA09D"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Глава 2"
+			tasks: [{
+				id: "67C2999B90A0765C"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["66B2B4975D8AE268"]
+			id: "3F5F76DF465F3427"
+			rewards: [{
+				count: 64
+				id: "3CC8D77C14722AE6"
+				item: "mekanism:structural_glass"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					count: 2L
+					id: "3EA29067E4B6A4A7"
+					item: { Count: 2, id: "mekanismgenerators:turbine_valve" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3FC1A3B4C8F9136A"
+					item: { Count: 4, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2F3612AF3C4FACF4"
+					item: { Count: 2, id: "mekanismgenerators:turbine_rotor" }
+					type: "item"
+				}
+				{
+					id: "47EBDCC7ED059FD9"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+				{
+					id: "3D7422D677F20738"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "229B5A8AAEC92A66"
+					item: { Count: 48, id: "mekanismgenerators:turbine_casing" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "453D1F1F53C2216F"
+					item: { Count: 8, id: "mekanismgenerators:saturating_condenser" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "045F35B70352A5A7"
+					item: { Count: 8, id: "mekanism:pressure_disperser" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2CC0DC0E8BB1E28C"
+					item: { Count: 16, id: "mekanismgenerators:turbine_vent" }
+					type: "item"
+				}
+			]
+			title: "Энергия пара"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"74537D113E40F871"
+				"5D195EF31E4F56D5"
+			]
+			description: [
+				"Позволяет с максимальной эффективностью добывать любые материалы любых миров."
+				"Но требует энергию."
+			]
+			id: "5AE9F6FB9C4B1E9B"
+			shape: "gear"
+			subtitle: "Абсолютная кирка"
+			tasks: [{
+				id: "03DB64BBF144FF5E"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4CF0EFAD9341CBC6"
+				"79DF6D50052115A9"
+			]
+			description: [
+				"Пкм по трубе заставит её реагировать на редстоун"
+				"Шифт+пкм по входу в устройство переключит его тип (вход, выход, нет)"
+			]
+			id: "5538DF23DCCF0BFE"
+			rewards: [
+				{
+					count: 8
+					id: "7E74FB9C832F6776"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "65D761362B08BC81"
+					item: "minecraft:repeater"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1AAE8B0A2F2374A0"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Настройки труб и проводов"
+			tasks: [{
+				id: "7E3FC0810C9E4C3A"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["40303EB3A89F8CAF"]
+			description: [
+				"Позволяет автоматически изготавливать предметы. "
+				"Не сравнится с молекулярными сборщиками, но очень полезен."
+			]
+			id: "12193E15AD4981A6"
+			rewards: [{
+				count: 32
+				id: "4C9BCFB973D066FF"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Автокрафт для бедных"
+			tasks: [{
+				id: "077E38F0BAA31B4F"
+				item: "mekanism:formulaic_assemblicator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12193E15AD4981A6"]
+			id: "72AF99C08441F8EB"
+			tasks: [{
+				id: "7B60039A539E94F1"
+				item: "mekanism:crafting_formula"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["318D11881F2EA09D"]
+			id: "2F9AD94C9772CFA0"
+			tasks: [{
+				id: "00F4E8C3408DB8AD"
+				item: "mekanism:robit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["318D11881F2EA09D"]
+			id: "7A9DC7789F4E0C73"
+			subtitle: "Загрузка чанков для профи"
+			tasks: [{
+				id: "790DBDE041A54897"
+				item: "mekanism:dimensional_stabilizer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C9FBA2E52A6BA67"]
+			description: ["Эта батарея может подзаряжать вашу экипировку находясь прямо в инвентаре"]
+			id: "5D195EF31E4F56D5"
+			rewards: [{
+				count: 4
+				id: "2BD4C5FCC2AD04F4"
+				item: {
+					Count: 1
+					id: "mekanism:energy_tablet"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "1000000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Павербанк"
+			tasks: [{
+				id: "65EB61ECFD59C917"
+				item: "ad_astra:etrionic_capacitor"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7FBC222A3F99A434"]
+			id: "1C9FBA2E52A6BA67"
+			rewards: [
+				{
+					count: 2
+					id: "52AB18417FFCF6FB"
+					item: "mekanism:dust_diamond"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7903A1631E5E933E"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			subtitle: "Многослойные композиты"
+			tasks: [{
+				id: "11144A2D13805577"
+				item: "ad_astra:etrium_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A520D70554B37DF"]
+			id: "382399AA3A1DD457"
+			subtitle: "Шалкербокс"
+			tasks: [{
+				id: "44809E970D882DFC"
+				item: "mekanism:personal_chest"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A520D70554B37DF"]
+			id: "5A8073F0E8BDD4BF"
+			subtitle: "Шалкербочка"
+			tasks: [{
+				id: "7A22C7BC460AE850"
+				item: "mekanism:personal_barrel"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EA91240FE0919A5"]
+			id: "3E47A0F5E31B4EAC"
+			shape: "gear"
+			tasks: [{
+				id: "5D9717DDA8C0E893"
+				item: "mekanism:fuelwood_heater"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1C9FBA2E52A6BA67"]
+			id: "017F7286387CC49B"
+			tasks: [{
+				id: "26637D3D6781C09A"
+				item: "mekanism_weaponry:plasma_circuit"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"318D11881F2EA09D"
+				"017F7286387CC49B"
+			]
+			id: "2DAA5C5E02DDD8A1"
+			rewards: [{
+				id: "7233BE6F29D03A9D"
+				item: {
+					Count: 1
+					id: "ad_astra:etrionic_capacitor"
+					tag: {
+						BotariumData: {
+							Energy: 250000L
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "198110BEC2A05009"
+				item: {
+					Count: 1
+					id: "mekanism_weaponry:tesla_minigun"
+					tag: {
+						chip1: {
+							Count: 1b
+							id: "minecraft:air"
+							tag: {
+								Charged: 0b
+							}
+						}
+						chip2: {
+							Count: 1b
+							id: "minecraft:air"
+							tag: {
+								Charged: 0b
+							}
+						}
+						chip3: {
+							Count: 1b
+							id: "minecraft:air"
+							tag: {
+								Charged: 0b
+							}
+						}
+						paint: {
+							Count: 1b
+							id: "minecraft:air"
+							tag: {
+								Charged: 0b
+							}
+						}
+						scope: {
+							Count: 1b
+							id: "minecraft:air"
+							tag: {
+								Charged: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5BA3C2936FFE72D7"]
+			description: ["Позволяет переносить энергию руками (Помните: ручной труд это не эффективно и контрпродуктивно)."]
+			id: "79DF6D50052115A9"
+			rewards: [{
+				count: 16
+				id: "5017E418AE190CF4"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AD92CCB67C0314E"
+				item: "superbwarfare:cell"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["79DF6D50052115A9"]
+			id: "2535D747D99042D6"
+			tasks: [{
+				id: "1C2A1DCA6FEC4658"
+				item: "superbwarfare:battery"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"40303EB3A89F8CAF"
+				"2535D747D99042D6"
+			]
+			dependency_requirement: "one_completed"
+			id: "6C91DE23AE708A95"
+			tasks: [{
+				id: "44917202B4ECDDDD"
+				item: "superbwarfare:small_battery_pack"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"6C91DE23AE708A95"
+				"0E36516AB2341A4A"
+			]
+			id: "4A3065FC2443C6AB"
+			tasks: [{
+				id: "67CEBFC818790D6F"
+				item: "superbwarfare:medium_battery_pack"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"6C91DE23AE708A95"
+				"3CAF5E9098666D9D"
+			]
+			id: "4E5FFB567EC0A819"
+			tasks: [{
+				id: "23ABE0A32282D597"
+				item: "mekanism:advanced_energy_cube"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"4A3065FC2443C6AB"
+				"318D11881F2EA09D"
+			]
+			id: "67F6E88804325098"
+			tasks: [{
+				id: "2B8AD90C9C6B5DDC"
+				item: "superbwarfare:large_battery_pack"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"4A3065FC2443C6AB"
+				"4E5FFB567EC0A819"
+			]
+			id: "5C6B2546B868B323"
+			tasks: [{
+				id: "390FCECE5F94F9D4"
+				item: "mekanism:elite_energy_cube"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"4A3065FC2443C6AB"
+				"5C6B2546B868B323"
+			]
+			id: "5157C93690A097F2"
+			tasks: [{
+				id: "20ED55D307197FEC"
+				item: "mekanism:ultimate_energy_cube"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"67F6E88804325098"
+				"5157C93690A097F2"
+			]
+			id: "3C2782C51C573EAB"
+			tasks: [{
+				id: "54AA5C9335CA1BB0"
+				item: "mekanism_extras:absolute_energy_cube"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"3C2782C51C573EAB"
+				"67F6E88804325098"
+			]
+			id: "79FA65BAB3C6815B"
+			tasks: [{
+				id: "0A967F9AB6A95BEB"
+				item: "mekanism_extras:supreme_energy_cube"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"79FA65BAB3C6815B"
+				"67F6E88804325098"
+			]
+			id: "0DFE43F277464A97"
+			tasks: [{
+				id: "3652DB482BABD477"
+				item: "mekanism_extras:cosmic_energy_cube"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"0DFE43F277464A97"
+				"67F6E88804325098"
+			]
+			id: "40438E31CFE93B92"
+			tasks: [{
+				id: "3FC4FC37DD21C5C4"
+				item: "mekanism_extras:infinite_energy_cube"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["478717A6B676146F"]
+			id: "43B24B48817EE777"
+			tasks: [{
+				id: "1251CD95921C6778"
+				item: "mekanism:logistical_sorter"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5EA91240FE0919A5"]
+			id: "2C034ED5037F430E"
+			shape: "gear"
+			tasks: [{
+				id: "6E542A3E2BFD9479"
+				item: "mekanism:resistive_heater"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3C27B412271DBF29"]
+			id: "5BA3C2936FFE72D7"
+			tasks: [{
+				id: "4AD1F39E36BCA135"
+				item: "thermal:rf_coil"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["17B9E6D5342AA0D5"]
+			id: "06348957FB20B09A"
+			tasks: [{
+				id: "557F8478CD6CC5B7"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"06348957FB20B09A"
+				"1A520D70554B37DF"
+			]
+			id: "76C7C4377637AFB2"
+			shape: "square"
+			subtitle: "x4 руда"
+			tasks: [{
+				id: "23298CB3E1BCA964"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C27B412271DBF29"]
+			id: "0BA1EC457C07D0C6"
+			rewards: [{
+				count: 8
+				id: "4533342835AC9B09"
+				item: "moremekanismprocessing:nickel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C92DEE5208881E9"
+				item: "thermal:invar_ingot"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["366BA1FC49324430"]
+			id: "4E0349722A770FB6"
+			rewards: [{
+				count: 3
+				id: "4E4E2C7A8215B5CF"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "19907E9C35B979CC"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "403EFED4CDDAFBF3"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "6F3F0D3A95A0ECA4"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "7F00116CB663D023"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			x: -18.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0391D657A89F56DA"]
+			id: "366BA1FC49324430"
+			rewards: [{
+				count: 4
+				id: "6AE4D8ED078D7B08"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A9603CC13FABEA4"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["366BA1FC49324430"]
+			id: "5773C97D9222A019"
+			subtitle: "Компас катастроф"
+			tasks: [{
+				id: "1F4D49D969B7191A"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E0349722A770FB6"]
+			id: "2EAB01D6614C78D0"
+			rewards: [{
+				count: 8
+				id: "514B53B6B6F1CACF"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "205750CF82DBA364"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5773C97D9222A019"]
+			id: "5BC814FF3C30EC78"
+			tasks: [{
+				id: "7FE266BF1FF4D013"
+				item: "naturescompass:naturescompass"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5773C97D9222A019"]
+			id: "58926EC89AEAFC6D"
+			tasks: [{
+				id: "580924C1C168D4F0"
+				item: "explorerscompass:explorerscompass"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A520D70554B37DF"]
+			id: "0A08AC1ADA4862C1"
+			rewards: [{
+				count: 32
+				id: "595C3516C71C9780"
+				item: "mekanism:structural_glass"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 20L
+					id: "7FE677E47FFFC506"
+					item: "mekanism:dynamic_tank"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "51F0A3DA0DCB4163"
+					item: { Count: 2, id: "mekanism:dynamic_valve" }
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["710296F3C0C083E4"]
+			description: [
+				"Позволят разрушать жидкости на составляющие путём электролиза."
+				"Особенно полезен для разрушения воды и рассола."
+				""
+				"Водород получаемый при распаде воды можно использовать, как эффективное топливо."
+			]
+			id: "18213DD3A7187903"
+			rewards: [{
+				count: 4
+				id: "40976D6B2E6C6CBB"
+				item: "mekanism:basic_chemical_tank"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Школьные опыты"
+			tasks: [{
+				id: "7A970553E6A3F49F"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18213DD3A7187903"]
+			description: ["Один из самых эффективных генераторов энергии на начальном этапе."]
+			id: "0A6D25E86E8EDCC6"
+			rewards: [{
+				id: "20F327BC7AA9651A"
+				item: "mekanism:basic_chemical_tank"
+				type: "item"
+			}]
+			subtitle: "Трубы и огонь"
+			tasks: [{
+				id: "31A73C411E7321D1"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18213DD3A7187903"]
+			description: ["Поставьте над одиночным источником воды, чтобы бесконечно качать воду"]
+			id: "1C17C455C16530CF"
+			rewards: [
+				{
+					count: 32
+					id: "0312A8D781B52F35"
+					item: "mekanism:basic_pressurized_tube"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "08414117BD4893D5"
+					item: "mekanism:basic_mechanical_pipe"
+					type: "item"
+				}
+			]
+			subtitle: "Источник воды"
+			tasks: [{
+				id: "5182BB7DAB5924DE"
+				item: "mekanism:electric_pump"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18213DD3A7187903"]
+			description: ["Заправьте ранец в газовом болоне с водородом и больше никто не сможет вас остановить."]
+			id: "0BD15B1BF83751EC"
+			rewards: [{
+				count: 16
+				id: "10260DEFACE870CA"
+				item: "mekanism:dust_steel"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Полёт"
+			tasks: [{
+				id: "68C045D494F86C3A"
+				item: "mekanism:jetpack"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1AA2A590F998DAB2"]
+			description: [
+				"Перчатки являются самым эффективным средством борьбы с быстрыми противниками."
+				""
+				"Ведь они могут отправить их в полёт."
+			]
+			id: "6B3277C768351C53"
+			shape: "gear"
+			subtitle: "Хороший удар"
+			tasks: [{
+				id: "50DBF0E3CE91E9AC"
+				item: "mekanism_weaponry:gauntlet"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0E36516AB2341A4A"]
+			id: "23D928BC4BD41A95"
+			shape: "square"
+			tasks: [{
+				id: "06275C6E2479410E"
+				item: "mekanism:combiner"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"30849B9039989494"
+				"5BA3C2936FFE72D7"
+				"1A520D70554B37DF"
+			]
+			id: "4A0C6AC77FC73C13"
+			shape: "square"
+			subtitle: "Выделение углерода"
+			tasks: [{
+				id: "04075A3DC999A58E"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40303EB3A89F8CAF"]
+			id: "410E1E1E7BE3B126"
+			shape: "square"
+			tasks: [{
+				id: "5A4CA1D56D3B37F8"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["40303EB3A89F8CAF"]
+			id: "710296F3C0C083E4"
+			shape: "square"
+			tasks: [{
+				id: "49765A8937CDD092"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C27B412271DBF29"]
+			id: "30849B9039989494"
+			rewards: [
+				{
+					id: "4B3D35F784EE3F25"
+					item: "thermal:wrench"
+					type: "item"
+				}
+				{
+					id: "22FA1B15159E63C6"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			subtitle: "Шестерни"
+			tasks: [{
+				id: "6709450FA0A9AAF9"
+				item: "thermal:constantan_ingot"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40303EB3A89F8CAF"]
+			id: "14287BA1FC1B2186"
+			shape: "square"
+			tasks: [{
+				id: "14432163025F7C77"
+				item: "thermal:machine_brewer"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17B9E6D5342AA0D5"]
+			description: ["Вы когда-нибудь пробовали пихать руку в циркулярную пилу? Нет? Обязательно попробуйте! Главное не свою."]
+			id: "744D5A9B9829F376"
+			rewards: [
+				{
+					count: 64
+					id: "5033B18870FC5EF5"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "365826866BF98843"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "237AE3CB3912A603"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Режет дерево и мясо"
+			tasks: [{
+				id: "6237207E46792165"
+				item: "mekanism:precision_sawmill"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"40303EB3A89F8CAF"
+				"744D5A9B9829F376"
+			]
+			id: "6064F4A8D0673226"
+			rewards: [
+				{
+					count: 32
+					id: "219DF250067A1581"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6B6B7F6468251257"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Природа это не только топливо, но ещё и красители"
+			tasks: [
+				{
+					id: "46615D27D8E22605"
+					item: "mekanism:painting_machine"
+					type: "item"
+				}
+				{
+					id: "2ABCA8720E4050AF"
+					item: "mekanism:pigment_extractor"
+					type: "item"
+				}
+			]
+			title: "Покраска"
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0E36516AB2341A4A"
+				"6064F4A8D0673226"
+			]
+			id: "7792B03FE84C6958"
+			rewards: [{
+				count: 64
+				id: "6012400CCA185609"
+				item: "minecraft:purple_dye"
+				type: "item"
+			}]
+			subtitle: "Больше цветов"
+			tasks: [{
+				id: "32AD1ED95ACE7E92"
+				item: "mekanism:pigment_mixer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["18213DD3A7187903"]
+			id: "0E5E2DE543D11CDA"
+			subtitle: "Химическое оружие"
+			tasks: [{
+				id: "6B0D597ADF34DDB6"
+				item: "mekanism:flamethrower"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["76C7C4377637AFB2"]
+			id: "2E54D0A3918630CA"
+			subtitle: "Вечное пламя"
+			tasks: [{
+				id: "4CD44AEDDC3F829C"
+				item: "ballistix:incendiary"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6B088CBBD1DB0DD7"
+				"40303EB3A89F8CAF"
+			]
+			id: "1BEA23CC6B9EFA9C"
+			shape: "square"
+			tasks: [{
+				id: "0620DE9ED88EBEAF"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["06348957FB20B09A"]
+			id: "6B088CBBD1DB0DD7"
+			shape: "square"
+			tasks: [{
+				id: "3E87127579A3EF50"
+				item: "thermal:device_tree_extractor"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"219D3ACD18F148C9"
+				"710296F3C0C083E4"
+			]
+			id: "0D75E629115B3C29"
+			tasks: [{
+				id: "573AA843EE748C5B"
+				item: "superbwarfare:common_material_pack"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0D75E629115B3C29"]
+			id: "19214DE3F36B1A33"
+			tasks: [{
+				id: "382ABE8957F84B43"
+				item: {
+					Count: 1
+					id: "superbwarfare:taser"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0D75E629115B3C29"]
+			id: "5F1EEC8AA9796C5D"
+			tasks: [{
+				id: "20FDA8DDA6DCAE17"
+				item: {
+					Count: 1
+					id: "superbwarfare:mp_443"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D75E629115B3C29"]
+			id: "70FB7DC5312B5791"
+			tasks: [{
+				id: "4B34675C730A4207"
+				item: {
+					Count: 1
+					id: "superbwarfare:m_1911"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D75E629115B3C29"]
+			id: "0AB5106602FE816C"
+			tasks: [{
+				id: "30CE5300E41211B7"
+				item: {
+					Count: 1
+					id: "superbwarfare:marlin"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0D75E629115B3C29"]
+			id: "7711D6BEEA8172AD"
+			tasks: [{
+				id: "489BFD23908918C0"
+				item: {
+					Count: 1
+					id: "superbwarfare:glock_17"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"049AE9E4A801DFDF"
+				"0D8ABA969298E47F"
+			]
+			id: "1AECCEDAB57F10A5"
+			rewards: [{
+				count: 5
+				id: "39F37A0936D52EAC"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B7B61D0EB1AA9BC"
+				item: "curvy_pipes:tiny_energy_pipe"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1AECCEDAB57F10A5"]
+			id: "6BACBAC0568F610E"
+			rewards: [{
+				count: 4
+				id: "52197F798B133AF0"
+				item: "curvy_pipes:tiny_energy_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AC1404D90880F0B"
+				item: "curvy_pipes:small_energy_pipe"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6BACBAC0568F610E"]
+			id: "2708AAF5B85AAFB1"
+			rewards: [{
+				count: 4
+				id: "48AE6BB47FB65B74"
+				item: "curvy_pipes:small_energy_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04C2A68CC6F84DD2"
+				item: "curvy_pipes:medium_energy_pipe"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2708AAF5B85AAFB1"]
+			id: "6685818566C3EDA1"
+			rewards: [{
+				count: 4
+				id: "7A2CD1BC1FD5BDF9"
+				item: "curvy_pipes:medium_energy_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5473EEDE138DB5FC"
+				item: "curvy_pipes:large_energy_pipe"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6685818566C3EDA1"]
+			id: "03AEF67ADB676D2B"
+			rewards: [{
+				count: 4
+				id: "47F19DA35E94FD7F"
+				item: "curvy_pipes:large_energy_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7483A133DFC0323F"
+				item: "curvy_pipes:huge_energy_pipe"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7FBC222A3F99A434"]
+			id: "66A2AEA9CD6066FB"
+			tasks: [{
+				id: "7662A6DCCAAE2D9E"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7FBC222A3F99A434"]
+			id: "330B6B5C566FFC76"
+			tasks: [{
+				id: "6DEF77CCD70B0222"
+				item: "mekanism:upgrade_energy"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F37EEAD36E735F2"]
+			id: "75B1B920889EF7CB"
+			tasks: [{
+				id: "69CB5D9DDE6D0079"
+				item: "mekanism:upgrade_muffling"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18213DD3A7187903"]
+			id: "7636CBC312F17F53"
+			tasks: [{
+				id: "38B0064ECBE57FB0"
+				item: "mekanism:upgrade_gas"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3C27B412271DBF29"]
+			description: ["Автоматически поставляет булыгу в механизмы, если та нужна для рецепта."]
+			id: "753E3B37E8200D28"
+			subtitle: "Если вам нужен булыжник - вам не нужен булыжник"
+			tasks: [{
+				id: "4342E06A9A75F573"
+				item: "mekanism:upgrade_stone_generator"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"53752CDA213B6012"
+				"6611BB2CCE6C5F18"
+			]
+			id: "27B5A85225E3A075"
+			tasks: [{
+				id: "631C923CF7361607"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"40303EB3A89F8CAF"
+				"66A2AEA9CD6066FB"
+			]
+			id: "6611BB2CCE6C5F18"
+			tasks: [{
+				id: "50C4086584E7B374"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3C27B412271DBF29"]
+			id: "015AD39A710E5E17"
+			rewards: [{
+				count: 8
+				id: "778EF8A94000443A"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AA3CD5B8A087007"
+				item: "morered:red_alloy_wire"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["015AD39A710E5E17"]
+			id: "60B52D9EEF2A988A"
+			rewards: [{
+				count: 8
+				id: "45E7E933FECC3AA0"
+				item: {
+					Count: 1
+					id: "morered:redwire_spool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C9F4B35876A1FBC"
+				item: {
+					Count: 1
+					id: "morered:redwire_spool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["60B52D9EEF2A988A"]
+			id: "7317C0015FA0F56D"
+			rewards: [{
+				count: 8
+				id: "7B901CE9D9940458"
+				item: {
+					Count: 1
+					id: "morered:redwire_spool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CB449A31B2E84CF"
+				item: "morered:redwire_post_relay_plate"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["26ADEE7D99D64305"]
+			id: "7166D49A37577FB3"
+			rewards: [{
+				count: 4
+				id: "0F5BDBAD03A08A02"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7080E6F9FF37F5CA"
+				item: "morered:bundled_network_cable"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7166D49A37577FB3"]
+			id: "7B0C0E9F148727B2"
+			rewards: [
+				{
+					id: "3FD7B01B460B706F"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "788AA30E73E5845E"
+					item: "minecraft:red_wool"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1ECDB654F55F285B"
+					item: {
+						Count: 1
+						id: "morered:bundled_cable_spool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F089068849E957D"
+					item: "morered:bundled_cable_relay_plate"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7133A76CAC71EEB2"]
+			id: "658EFD1E5B581377"
+			tasks: [{
+				id: "133C95A77A936AC2"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6BE2182FFB1D3484"]
+			id: "6F04942BC7E852BA"
+			tasks: [{
+				id: "449FC57C4929185F"
+				item: "computercraft:computer_advanced"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["60B52D9EEF2A988A"]
+			id: "6A1953FB995FAB3C"
+			tasks: [{
+				id: "1FD6FAD8AAB2A8EB"
+				item: "computercraft:pocket_computer_normal"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["60B52D9EEF2A988A"]
+			id: "3EAF71F3499CFB3D"
+			tasks: [{
+				id: "45535D38690E0157"
+				item: "computercraft:pocket_computer_advanced"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["60B52D9EEF2A988A"]
+			id: "7133A76CAC71EEB2"
+			tasks: [{
+				id: "56B7949520D37F5A"
+				item: "computercraft:monitor_normal"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7133A76CAC71EEB2"]
+			id: "6BE2182FFB1D3484"
+			tasks: [{
+				id: "48D9CF200D593A1C"
+				item: "computercraft:monitor_advanced"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["658EFD1E5B581377"]
+			id: "677ED054C63A721D"
+			tasks: [{
+				id: "35D4F4DB110D9EAA"
+				item: "computercraft:turtle_normal"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6F04942BC7E852BA"]
+			id: "44D8F05F6EBA77C0"
+			tasks: [{
+				id: "69F23C525E5B1B0E"
+				item: "computercraft:turtle_advanced"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["658EFD1E5B581377"]
+			id: "2033DD7C43BE1F84"
+			tasks: [{
+				id: "66C423F57C03C3F1"
+				item: "computercraft:printer"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["658EFD1E5B581377"]
+			id: "671FCDC340084705"
+			tasks: [{
+				id: "56F58D14F6E2C520"
+				item: "computercraft:disk_drive"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"658EFD1E5B581377"
+				"2C574F96A849BEF7"
+			]
+			id: "0B576B8F2A38BC9E"
+			rewards: [{
+				count: 8
+				id: "59E3F272AC85E24A"
+				item: "computercraft:cable"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7420A251408C6956"
+				item: "computercraft:wired_modem"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1A520D70554B37DF"]
+			hide_dependency_lines: true
+			id: "6F893D3A9E786942"
+			rewards: [{
+				count: 4
+				id: "60E255030D30D47E"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52EA529703757860"
+				item: "mekanism:basic_infusing_factory"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["683812891F89683D"]
+			hide_dependency_lines: true
+			id: "632F6001BBCDDF05"
+			rewards: [{
+				count: 4
+				id: "3177F752D02F2320"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7943BA643C7675D0"
+				item: "mekanism:basic_smelting_factory"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"7FBC222A3F99A434"
+				"76C7C4377637AFB2"
+			]
+			hide_dependency_lines: true
+			id: "752E025A722C8CF5"
+			rewards: [{
+				count: 4
+				id: "288BD32FF1E3573F"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F06C0DC52E85204"
+				item: "mekanism:basic_crushing_factory"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["53752CDA213B6012"]
+			hide_dependency_lines: true
+			id: "69057738AADE9C98"
+			rewards: [{
+				count: 4
+				id: "2322D06FB6220E03"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09FD1D1B2F0B4C34"
+				item: "mekanism:basic_compressing_factory"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["23D928BC4BD41A95"]
+			hide_dependency_lines: true
+			id: "183A7F8BC5DC7632"
+			rewards: [{
+				count: 4
+				id: "1E5F7234DBD92683"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E8CF90A50B170EA"
+				item: "mekanism:basic_combining_factory"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6257ECCEE9D37A48"]
+			hide_dependency_lines: true
+			id: "764CE345356E46D7"
+			rewards: [{
+				count: 4
+				id: "6793C70A90058006"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "202D714E09F24CC3"
+				item: "mekanism:basic_purifying_factory"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["17BE475FDF12B481"]
+			hide_dependency_lines: true
+			id: "610551F063060E1A"
+			rewards: [{
+				count: 4
+				id: "59F9C342ACF26199"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "408B3BE1A21FBC65"
+				item: "mekanism:basic_injecting_factory"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["744D5A9B9829F376"]
+			hide_dependency_lines: true
+			id: "2ECD62ADE200A635"
+			rewards: [{
+				count: 4
+				id: "4BB23B96CC86B4FD"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58D7C2657AF8B6AB"
+				item: "mekanism:basic_sawing_factory"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2F67A4BFDDE4A86A"]
+			hide_dependency_lines: true
+			id: "52BC80080AFB03E7"
+			rewards: [{
+				count: 4
+				id: "56E0A03FE2861850"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11AC3E1CABB56534"
+				item: "mekanism:basic_enriching_factory"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"0E36516AB2341A4A"
+				"74537D113E40F871"
+			]
+			description: [
+				"Теперь вы можете производить x5 руды растворяя их в серной кислоте"
+				""
+				"Теперь вам доступно всё необходимое чтобы покорить все миры."
+			]
+			id: "1133660CBAFEF8C1"
+			rewards: [{
+				count: 5
+				id: "60021AB135CEC788"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "x5 производство из руды"
+			tasks: [{
+				id: "2A32331E10679824"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1133660CBAFEF8C1"]
+			description: ["Растворите руду серной кислотой и получится загрязённая взесь, которую можно использовать."]
+			id: "5600A93E6D6EDB72"
+			subtitle: "х5 руда"
+			tasks: [{
+				id: "082060F81B9C5F11"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["342A94A83BBB9E3F"]
+			description: [
+				"Используя новые вычислительные схемы можно создать примитивное хранилище на основе пространственной сети."
+				""
+				"Соедините свои ёмкости и сундуки используя интерфейсы хранения."
+				"Но помните доступ к сети требует бесперебойной подачи электричества."
+			]
+			id: "7F235ED426D3DACF"
+			rewards: [
+				{
+					count: 8
+					id: "1FF0C5129A67F70E"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					id: "005AD8EB4F042DDB"
+					item: "ae2:guide"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Примитивная пространственная технология"
+			tasks: [
+				{
+					id: "26A426DBF36E156D"
+					item: "ae2:terminal"
+					type: "item"
+				}
+				{
+					id: "7749B4F854ABCDEA"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7F235ED426D3DACF"]
+			id: "3BF4B197B7191044"
+			subtitle: "Простейшая генерация"
+			tasks: [{
+				id: "3074F60887FCA549"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F235ED426D3DACF"]
+			id: "4FCF8FEF5B5FE228"
+			tasks: [{
+				id: "0FE2705EBF5DF45A"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F235ED426D3DACF"]
+			id: "2496459AED99E9C4"
+			tasks: [{
+				id: "0710F8CF15858EAA"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E36516AB2341A4A"]
+			id: "342A94A83BBB9E3F"
+			shape: "square"
+			tasks: [{
+				id: "7E0552BD0CB88227"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F235ED426D3DACF"]
+			id: "2C574F96A849BEF7"
+			tasks: [{
+				id: "09AC98DBB93901DC"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"12193E15AD4981A6"
+				"0E36516AB2341A4A"
+				"219D3ACD18F148C9"
+			]
+			id: "3822C705C954F5C4"
+			shape: "square"
+			tasks: [{
+				id: "07F06F221F09E156"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6FEADEA5F041CA90"
+				"7F235ED426D3DACF"
+			]
+			id: "6A8453CCFD4517D0"
+			shape: "gear"
+			subtitle: "Компьютеризация"
+			tasks: [{
+				id: "3C76FE2A220CF7EF"
+				item: "advancedperipherals:me_bridge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0B576B8F2A38BC9E"]
+			id: "6FEADEA5F041CA90"
+			tasks: [{
+				id: "78E0CD47F32EBE64"
+				item: "advancedperipherals:peripheral_casing"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6FEADEA5F041CA90"]
+			id: "26ADEE7D99D64305"
+			tasks: [{
+				id: "54B1D8C2E7BE6E9B"
+				item: "advancedperipherals:redstone_integrator"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6FEADEA5F041CA90"]
+			id: "5B5DADC96559B5A9"
+			tasks: [{
+				id: "32666516865A4A64"
+				item: "advancedperipherals:nbt_storage"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6FEADEA5F041CA90"]
+			id: "491396303438D56D"
+			tasks: [{
+				id: "0B5C02B81EB5D5F2"
+				item: "advancedperipherals:block_reader"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6FEADEA5F041CA90"]
+			id: "3CA6907E630CA4CD"
+			tasks: [{
+				id: "17CF96FDA0F20307"
+				item: "advancedperipherals:chat_box"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6FEADEA5F041CA90"]
+			id: "18989A4973872B35"
+			tasks: [{
+				id: "2B1B58885962D92A"
+				item: "advancedperipherals:inventory_manager"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6FEADEA5F041CA90"]
+			id: "5B1C8670050073D8"
+			tasks: [{
+				id: "0F9BF196382BBD76"
+				item: "advancedperipherals:energy_detector"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6FEADEA5F041CA90"]
+			id: "127CD7C5ED89EB52"
+			tasks: [{
+				id: "14AA9EC6FAFCFA0E"
+				item: "advancedperipherals:player_detector"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0B576B8F2A38BC9E"]
+			id: "32CE184BA292F402"
+			tasks: [{
+				id: "28DC08AE2951C73D"
+				item: "ducky-periphs:sculkophone_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0B576B8F2A38BC9E"]
+			id: "6B617F6CFD450F77"
+			tasks: [{
+				id: "604CF4E3AA771648"
+				item: "ducky-periphs:entity_detector_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0B576B8F2A38BC9E"]
+			id: "7C15BD98CA5F894B"
+			tasks: [{
+				id: "5C03D1B5E71880E8"
+				item: "ducky-periphs:weather_machine_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["609F8C67E137ED0D"]
+			id: "085ADAEB840D974B"
+			tasks: [{
+				id: "5FBCAB1C2DB9FCE3"
+				item: "superbwarfare:fumo_25"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["6B617F6CFD450F77"]
+			id: "376C823DB9B3EF72"
+			tasks: [{
+				id: "0B8440EF300951D2"
+				item: "ballistix:radar"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["376C823DB9B3EF72"]
+			id: "609F8C67E137ED0D"
+			tasks: [{
+				id: "6680827523CC9816"
+				item: "ballistix:firecontrolradar"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0B576B8F2A38BC9E"]
+			id: "36DBC90BA09E1E80"
+			tasks: [{
+				id: "08C7FEC392E0507B"
+				item: "advancedperipherals:chunk_controller"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["376C823DB9B3EF72"]
+			id: "5275BDD0879ED553"
+			tasks: [{
+				id: "1D93D14CECB732F4"
+				item: "ballistix:esmtower"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0B576B8F2A38BC9E"]
+			id: "24FDA9153E0A93AF"
+			tasks: [{
+				id: "781E1B346E954E07"
+				item: "computercraft:wireless_modem_normal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0B576B8F2A38BC9E"]
+			id: "1B1950EE5ECF631B"
+			tasks: [{
+				id: "10AC14BC1E617A30"
+				item: "computercraft:wireless_modem_advanced"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["342A94A83BBB9E3F"]
+			id: "48AD2017ABE31D52"
+			tasks: [{
+				id: "67B5E98387AA529D"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Глава 2. Автоматизация"
+}

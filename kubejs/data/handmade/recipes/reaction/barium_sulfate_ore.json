@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 250,
+    "fluidInput": {
+      "amount": 200,
+      "fluid": "minecraft:water"
+    },
+    "gasInput": {
+      "amount": 700,
+      "gas": "mekanism:sulfuric_acid"
+    },
+    "itemInput": {
+      "amount": 1,
+      "ingredient": {
+        "tag": "forge:ores/lead"
+      }
+    },
+    "itemOutput": {
+      "count": 7,
+      "item": "chemlib:lead_sulfate"
+    },
+    "gasOutput": {
+      "amount": 150,
+      "gas": "kubejs:barium_sulfate"
+    }
+}

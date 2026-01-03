@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 200,
+        "fluid": "mekanismelements:nitric_acid"
+    },
+    "gasInput": {
+        "amount": 300,
+        "gas": "mekanism:sulfuric_acid"
+    },
+    "itemInput": {
+        "amount": 3.0,
+        "ingredient": {
+            "item": "mekanism:dust_copper"
+        }
+    },
+    "gasOutput": {
+        "amount": 200,
+        "gas": "mekanismelements:nitric_oxide"
+    },
+    "itemOutput": {
+        "count": 3,
+        "item": "chemlib:copper_ii_sulfate_dust"
+    }
+}

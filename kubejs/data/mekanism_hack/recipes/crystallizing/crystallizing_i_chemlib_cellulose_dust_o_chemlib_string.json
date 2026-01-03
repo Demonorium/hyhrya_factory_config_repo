@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:cellulose",
+        "amount": 100
+    },
+    "output": {
+        "item": "chemlib:string",
+        "count": 9.0
+    }
+}

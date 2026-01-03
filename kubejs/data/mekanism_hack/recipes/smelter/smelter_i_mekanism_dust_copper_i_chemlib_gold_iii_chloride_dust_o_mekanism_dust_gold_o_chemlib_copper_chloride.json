@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "mekanism:dust_gold",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:copper_chloride",
+            "count": 3.0
+        }
+    ],
+    "energy": 99406.20000000001,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "mekanism:dust_copper",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:gold_iii_chloride_dust",
+            "count": 2.0
+        }
+    ]
+}

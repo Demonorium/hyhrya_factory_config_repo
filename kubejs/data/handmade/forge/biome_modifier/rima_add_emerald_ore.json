@@ -1,0 +1,6 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#sgjourney:is_rima",
+    "features": "minecraft:ore_emerald",
+    "step": "underground_ores"
+}

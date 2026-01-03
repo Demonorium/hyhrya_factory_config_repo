@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:p_phenylenediamine",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:p_phenylenediamine_dust",
+            "count": 1
+        }
+    ],
+    "energy": 10807
+}

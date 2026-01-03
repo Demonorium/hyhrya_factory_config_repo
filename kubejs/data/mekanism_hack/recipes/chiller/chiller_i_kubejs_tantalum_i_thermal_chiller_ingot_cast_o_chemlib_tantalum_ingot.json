@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:tantalum_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 32900.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:tantalum",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

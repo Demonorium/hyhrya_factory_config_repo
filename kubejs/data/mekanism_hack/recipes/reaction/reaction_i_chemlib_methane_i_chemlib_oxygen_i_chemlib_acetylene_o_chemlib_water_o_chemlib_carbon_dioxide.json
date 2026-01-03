@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "mekanismelements:methane"
+    },
+    "gasInput": {
+        "amount": 1400,
+        "gas": "mekanism:oxygen"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:acetylene"
+        }
+    },
+    "gasOutput": {
+        "amount": 500,
+        "gas": "kubejs:carbon_dioxide"
+    },
+    "itemOutput": {
+        "count": 4,
+        "item": "chemlib:water"
+    }
+}

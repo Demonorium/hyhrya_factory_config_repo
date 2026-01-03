@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:zinc_sulfate_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:zinc_sulfate",
+        "amount": 100.0
+    },
+    "energy": 7148
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:iridium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "moremekanismprocessing:dust_iridium",
+            "count": 1
+        }
+    ],
+    "energy": 20392
+}

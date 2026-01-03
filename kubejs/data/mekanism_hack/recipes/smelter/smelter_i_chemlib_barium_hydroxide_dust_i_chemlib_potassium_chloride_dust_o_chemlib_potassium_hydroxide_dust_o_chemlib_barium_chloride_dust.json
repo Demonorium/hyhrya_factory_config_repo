@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:potassium_hydroxide_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:barium_chloride_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 51385.4,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:barium_hydroxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:potassium_chloride_dust",
+            "count": 2.0
+        }
+    ]
+}

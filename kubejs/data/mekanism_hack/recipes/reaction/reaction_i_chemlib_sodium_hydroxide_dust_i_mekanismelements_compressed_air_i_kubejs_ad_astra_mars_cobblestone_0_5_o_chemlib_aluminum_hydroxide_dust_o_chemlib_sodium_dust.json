@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 600,
+    "fluidInput": {
+        "amount": 300,
+        "fluid": "kubejs:sodium_hydroxide"
+    },
+    "gasInput": {
+        "amount": 1000,
+        "gas": "mekanismelements:compressed_air"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "tag": "kubejs:ad_astra/mars_cobblestone_0_5"
+        }
+    },
+    "gasOutput": {
+        "amount": 300,
+        "gas": "mekanism:sodium"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:aluminum_hydroxide_dust"
+    }
+}

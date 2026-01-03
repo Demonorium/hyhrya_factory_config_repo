@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 200,
+        "fluid": "kubejs:sodium_hydroxide"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "kubejs:hydrogen_peroxide"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:silver_nitrate_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 200,
+        "gas": "kubejs:sodium_nitrate"
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "thermal:silver_dust"
+    }
+}

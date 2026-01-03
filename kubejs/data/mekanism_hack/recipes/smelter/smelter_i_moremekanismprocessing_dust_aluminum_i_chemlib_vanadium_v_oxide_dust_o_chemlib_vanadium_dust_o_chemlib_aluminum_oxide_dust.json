@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:vanadium_dust",
+            "count": 6.0
+        },
+        {
+            "item": "chemlib:aluminum_oxide_dust",
+            "count": 5.0
+        }
+    ],
+    "energy": 235980.2,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "moremekanismprocessing:dust_aluminum",
+            "count": 10.0
+        },
+        {
+            "item": "chemlib:vanadium_v_oxide_dust",
+            "count": 3.0
+        }
+    ]
+}

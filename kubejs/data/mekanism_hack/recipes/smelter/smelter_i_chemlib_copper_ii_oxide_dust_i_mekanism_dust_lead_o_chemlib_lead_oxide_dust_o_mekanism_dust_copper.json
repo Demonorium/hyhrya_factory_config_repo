@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:lead_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "mekanism:dust_copper",
+            "count": 1.0
+        }
+    ],
+    "energy": 38214.549999999996,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:copper_ii_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "mekanism:dust_lead",
+            "count": 1.0
+        }
+    ]
+}

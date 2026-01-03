@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 6.14,
+    "temperature": {
+        "max_temp": 887.0
+    },
+    "fluid_input": {
+        "fluid": "mekanism:chlorine",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "mekanism:dust_lithium",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "chemlib:lithium_chloride_dust",
+        "count": 1.0
+    }
+}

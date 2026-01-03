@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "mekanism:block_lead",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:lead",
+        "amount": 900.0
+    },
+    "energy": 54054.9
+}

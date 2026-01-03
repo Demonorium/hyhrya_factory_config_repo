@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:sodium_perchlorate",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:sodium_perchlorate_dust",
+            "count": 1
+        }
+    ],
+    "energy": 5558
+}

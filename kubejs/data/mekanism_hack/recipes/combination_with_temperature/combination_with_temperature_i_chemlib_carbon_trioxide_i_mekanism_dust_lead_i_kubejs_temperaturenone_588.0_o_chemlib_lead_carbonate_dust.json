@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 3.15,
+    "temperature": {
+        "max_temp": 588.0
+    },
+    "fluid_input": {
+        "fluid": "kubejs:carbon_trioxide",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "mekanism:dust_lead",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "chemlib:lead_carbonate_dust",
+        "count": 1.0
+    }
+}

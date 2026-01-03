@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:neon",
+        "amount": 11.0
+    },
+    "output": {
+        "gas": "mekanism:sodium",
+        "amount": 250.0,
+        "chemicalType": "gas"
+    }
+}

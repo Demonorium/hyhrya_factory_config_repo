@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:niobium",
+        "amount": 2.0
+    },
+    "output": {
+        "gas": "kubejs:lead",
+        "amount": 25.0,
+        "chemicalType": "gas"
+    }
+}

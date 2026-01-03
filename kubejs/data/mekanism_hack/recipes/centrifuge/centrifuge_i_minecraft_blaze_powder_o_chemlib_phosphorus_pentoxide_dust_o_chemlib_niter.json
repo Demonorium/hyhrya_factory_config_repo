@@ -1,0 +1,19 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+        "item": "minecraft:blaze_powder",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "fluid": "kubejs:phosphorus_pentoxide",
+            "amount": 100.0
+        },
+        {
+            "item": "chemlib:niter",
+            "count": 1.0,
+            "chance": 1.5
+        }
+    ],
+    "energy": 20000
+}

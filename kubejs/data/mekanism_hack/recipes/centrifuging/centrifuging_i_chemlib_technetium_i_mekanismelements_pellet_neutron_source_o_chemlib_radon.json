@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:technetium",
+        "amount": 2.0
+    },
+    "output": {
+        "gas": "kubejs:radon",
+        "amount": 25.0,
+        "chemicalType": "gas"
+    }
+}

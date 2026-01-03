@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:calcium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 11150.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:calcium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "mekanismelements:dust_calcium_oxide",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:beryllium_hydroxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 63661.7,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:beryllium_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:calcium_hydroxide_dust",
+            "count": 1.0
+        }
+    ]
+}

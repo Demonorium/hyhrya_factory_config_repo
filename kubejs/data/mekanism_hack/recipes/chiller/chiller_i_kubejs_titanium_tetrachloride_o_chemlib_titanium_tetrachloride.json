@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:titanium_tetrachloride",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:titanium_tetrachloride",
+            "count": 1
+        }
+    ],
+    "energy": 2491
+}

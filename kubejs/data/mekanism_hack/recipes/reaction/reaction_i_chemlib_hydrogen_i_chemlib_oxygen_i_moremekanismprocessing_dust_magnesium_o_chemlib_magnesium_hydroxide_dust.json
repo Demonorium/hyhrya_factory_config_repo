@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 200,
+        "fluid": "mekanism:hydrogen"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "mekanism:oxygen"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dust_magnesium"
+        }
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:magnesium_hydroxide_dust"
+    }
+}

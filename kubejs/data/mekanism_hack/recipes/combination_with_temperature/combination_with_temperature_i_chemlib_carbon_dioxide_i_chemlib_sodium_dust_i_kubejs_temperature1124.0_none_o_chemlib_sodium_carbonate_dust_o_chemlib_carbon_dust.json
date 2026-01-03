@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 48.5,
+    "temperature": {
+        "min_temp": 1124.0
+    },
+    "fluid_input": {
+        "fluid": "kubejs:carbon_dioxide",
+        "amount": 300.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:sodium_dust",
+        "count": 4.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:sodium_carbonate",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "chemlib:carbon_dust",
+        "count": 1.0
+    }
+}

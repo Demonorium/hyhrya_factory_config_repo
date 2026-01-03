@@ -1,0 +1,17 @@
+{
+    "type": "mekanism:compressing",
+    "chemicalInput": {
+        "gas": "kubejs:gold",
+        "amount": 1.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "thermal:silver_ingot"
+        }
+    },
+    "output": {
+        "item": "thermal:electrum_dust",
+        "count": 2.0
+    }
+}

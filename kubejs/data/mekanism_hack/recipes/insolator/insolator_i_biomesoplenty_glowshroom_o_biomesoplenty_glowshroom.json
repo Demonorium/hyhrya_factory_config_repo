@@ -1,0 +1,15 @@
+{
+    "type": "thermal:insolator",
+    "ingredient": {
+        "item": "biomesoplenty:glowshroom",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "biomesoplenty:glowshroom",
+            "chance": 2
+        }
+    ],
+    "energy_mod": 1.5,
+    "water_mod": 0.5
+}

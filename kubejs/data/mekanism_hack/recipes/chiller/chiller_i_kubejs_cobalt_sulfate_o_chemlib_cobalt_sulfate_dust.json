@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:cobalt_sulfate",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:cobalt_sulfate_dust",
+            "count": 1
+        }
+    ],
+    "energy": 7560
+}

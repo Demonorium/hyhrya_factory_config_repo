@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:oxidizing",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dust_aluminum"
+        }
+    },
+    "output": {
+        "gas": "kubejs:aluminum_oxide",
+        "amount": 50.0
+    }
+}

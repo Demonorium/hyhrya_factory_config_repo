@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:europium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:europium_dust",
+            "count": 1
+        }
+    ],
+    "energy": 8242
+}

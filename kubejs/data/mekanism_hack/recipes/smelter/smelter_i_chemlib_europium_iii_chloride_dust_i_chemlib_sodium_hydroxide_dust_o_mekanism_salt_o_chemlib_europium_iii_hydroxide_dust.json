@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "mekanism:salt",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:europium_iii_hydroxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 60860.46428571429,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:europium_iii_chloride_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_hydroxide_dust",
+            "count": 3.0
+        }
+    ]
+}

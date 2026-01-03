@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:cobalt_ii_perchlorate",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:cobalt_ii_perchlorate",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:cobalt_ii_perchlorate",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:cobalt_ii_perchlorate",
+        "amount": 1.0
+    }
+}

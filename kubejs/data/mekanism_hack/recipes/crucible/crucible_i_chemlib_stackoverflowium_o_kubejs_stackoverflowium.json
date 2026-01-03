@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:stackoverflowium",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:stackoverflowium",
+        "amount": 100.0
+    },
+    "energy": 10
+}

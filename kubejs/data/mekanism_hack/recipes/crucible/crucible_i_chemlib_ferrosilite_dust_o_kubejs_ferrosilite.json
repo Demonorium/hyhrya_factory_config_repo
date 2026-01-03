@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:ferrosilite_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:ferrosilite",
+        "amount": 100.0
+    },
+    "energy": 5492
+}

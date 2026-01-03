@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:cesium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:cesium_dust",
+            "count": 1
+        }
+    ],
+    "energy": 2263
+}

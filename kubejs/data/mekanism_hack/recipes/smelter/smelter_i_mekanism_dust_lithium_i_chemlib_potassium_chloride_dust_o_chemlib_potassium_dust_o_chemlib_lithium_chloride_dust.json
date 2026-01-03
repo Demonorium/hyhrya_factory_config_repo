@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:potassium_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:lithium_chloride_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 27450.8,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "mekanism:dust_lithium",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:potassium_chloride_dust",
+            "count": 1.0
+        }
+    ]
+}

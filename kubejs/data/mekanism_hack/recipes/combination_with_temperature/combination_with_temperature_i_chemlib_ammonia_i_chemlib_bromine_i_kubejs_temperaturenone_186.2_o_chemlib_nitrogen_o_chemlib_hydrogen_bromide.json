@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 0.8284053156146179,
+    "temperature": {
+        "max_temp": 186.2
+    },
+    "fluid_input": {
+        "fluid": "mekanismelements:ammonia",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:bromine",
+        "count": 3.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:nitrogen",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:hydrogen_bromide",
+        "count": 3.0
+    }
+}

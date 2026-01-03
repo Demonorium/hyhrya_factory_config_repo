@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "minecraft:water"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "mekanismelements:nitrogen_dioxide"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:bromine"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "mekanismelements:bromine"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:nitrate_dust"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:zinc_nitrate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:potassium_sulfate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 28353.03,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "thermal:niter_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:zinc_sulfate_dust",
+            "count": 1.0
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "thermal:sapphire_ore",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "moremekanismprocessing:dirty_dust_sapphire",
+            "chance": 3.5
+        },
+        {
+            "item": "minecraft:sand",
+            "chance": 0.25
+        },
+        {
+            "item": "thermal:sapphire",
+            "count": 1.0,
+            "chance": 8
+        }
+    ],
+    "experience": 1.0
+}

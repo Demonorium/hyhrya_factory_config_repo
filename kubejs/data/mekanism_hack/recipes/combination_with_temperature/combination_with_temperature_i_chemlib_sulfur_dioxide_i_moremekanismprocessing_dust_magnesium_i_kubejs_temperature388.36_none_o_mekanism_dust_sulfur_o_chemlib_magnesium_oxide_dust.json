@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 17.47940298507463,
+    "temperature": {
+        "min_temp": 388.36
+    },
+    "fluid_input": {
+        "fluid": "mekanism:sulfur_dioxide",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "moremekanismprocessing:dust_magnesium",
+        "count": 2.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:sulfur",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:magnesium_oxide_dust",
+        "count": 2.0
+    }
+}

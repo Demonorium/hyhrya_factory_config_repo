@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "kubejs:niobium",
+        "amount": 2.0
+    },
+    "output": {
+        "gas": "kubejs:niobium_pentoxide",
+        "amount": 1.0
+    },
+    "rightInput": {
+        "gas": "mekanism:oxygen",
+        "amount": 5.0
+    }
+}

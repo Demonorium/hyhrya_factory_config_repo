@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 8.42,
+    "temperature": {
+        "max_temp": 1115.0
+    },
+    "fluid_input": {
+        "fluid": "minecraft:water",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "mekanismelements:dust_calcium_oxide",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "chemlib:calcium_dust",
+        "count": 1.0
+    }
+}

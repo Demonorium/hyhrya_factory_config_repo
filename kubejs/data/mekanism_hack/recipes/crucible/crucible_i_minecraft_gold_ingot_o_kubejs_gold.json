@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "minecraft:gold_ingot",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:gold",
+        "amount": 100.0
+    },
+    "energy": 13373.3
+}

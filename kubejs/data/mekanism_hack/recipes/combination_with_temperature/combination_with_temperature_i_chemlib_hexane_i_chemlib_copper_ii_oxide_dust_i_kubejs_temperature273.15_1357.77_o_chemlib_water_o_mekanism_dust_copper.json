@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 0.8552281069743052,
+    "temperature": {
+        "min_temp": 273.15,
+        "max_temp": 1357.77
+    },
+    "fluid_input": {
+        "fluid": "kubejs:hexane",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:copper_ii_oxide_dust",
+        "count": 19.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "minecraft:water",
+        "amount": 700.0
+    },
+    "item_output": {
+        "item": "mekanism:dust_copper",
+        "count": 19.0
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "thermal:insolator",
+    "ingredient": {
+        "item": "undergarden:veil_mushroom",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "undergarden:veil_mushroom",
+            "chance": 2
+        }
+    ],
+    "energy_mod": 1.5,
+    "water_mod": 1.5
+}

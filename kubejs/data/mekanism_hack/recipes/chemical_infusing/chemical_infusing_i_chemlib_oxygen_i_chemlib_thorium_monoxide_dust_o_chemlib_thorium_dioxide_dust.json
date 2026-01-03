@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "mekanism:oxygen",
+        "amount": 1.0
+    },
+    "output": {
+        "gas": "kubejs:thorium_dioxide",
+        "amount": 1.0
+    },
+    "rightInput": {
+        "gas": "kubejs:thorium_monoxide",
+        "amount": 1.0
+    }
+}

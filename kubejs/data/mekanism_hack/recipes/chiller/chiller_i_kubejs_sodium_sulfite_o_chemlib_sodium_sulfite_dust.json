@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:sodium_sulfite",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:sodium_sulfite_dust",
+            "count": 1
+        }
+    ],
+    "energy": 1290
+}

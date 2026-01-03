@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:lead_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "mekanism:dust_copper",
+            "count": 1.0
+        }
+    ],
+    "energy": 35513.600000000006,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:copper_ii_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "mekanism:dust_lead",
+            "count": 1.0
+        }
+    ]
+}

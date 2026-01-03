@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:hassium",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:hassium",
+        "amount": 100.0
+    },
+    "energy": 1260
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:tellurium_dioxide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:tellurium_dioxide_dust",
+            "count": 1
+        }
+    ],
+    "energy": 7538
+}

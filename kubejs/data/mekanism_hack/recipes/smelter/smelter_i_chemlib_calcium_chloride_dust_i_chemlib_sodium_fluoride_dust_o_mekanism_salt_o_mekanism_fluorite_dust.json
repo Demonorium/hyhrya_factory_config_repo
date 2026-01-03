@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "mekanism:salt",
+            "count": 2.0
+        },
+        {
+            "item": "mekanism:fluorite_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 73130.7,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:calcium_chloride_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_fluoride_dust",
+            "count": 2.0
+        }
+    ]
+}

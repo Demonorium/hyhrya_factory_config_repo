@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:sodium_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "mekanism:sodium",
+        "amount": 100.0
+    },
+    "energy": 2782
+}

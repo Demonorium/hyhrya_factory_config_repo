@@ -1,0 +1,6 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#sgjourney:is_cavum_tenebrae",
+    "features": "handmade:cavum_tenebrae_scheelite_ore",
+    "step": "underground_ores"
+}

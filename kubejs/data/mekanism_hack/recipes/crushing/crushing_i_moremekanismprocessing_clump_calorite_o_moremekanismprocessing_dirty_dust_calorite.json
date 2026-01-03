@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:crushing",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:clump_calorite"
+        }
+    },
+    "output": {
+        "item": "moremekanismprocessing:dirty_dust_calorite",
+        "count": 1.0
+    }
+}

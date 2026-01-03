@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 600,
+        "fluid": "mekanismelements:nitric_acid"
+    },
+    "gasInput": {
+        "amount": 400,
+        "gas": "mekanism:hydrogen"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dust_magnesium"
+        }
+    },
+    "gasOutput": {
+        "amount": 200,
+        "gas": "kubejs:magnesium_nitrate"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:ammonium_nitrate_dust"
+    }
+}

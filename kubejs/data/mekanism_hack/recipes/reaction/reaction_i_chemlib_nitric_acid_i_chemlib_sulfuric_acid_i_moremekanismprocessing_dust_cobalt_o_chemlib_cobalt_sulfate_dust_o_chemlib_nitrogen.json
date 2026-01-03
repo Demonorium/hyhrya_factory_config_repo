@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 200,
+        "fluid": "mekanismelements:nitric_acid"
+    },
+    "gasInput": {
+        "amount": 500,
+        "gas": "mekanism:sulfuric_acid"
+    },
+    "itemInput": {
+        "amount": 5.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dust_cobalt"
+        }
+    },
+    "gasOutput": {
+        "amount": 200,
+        "gas": "mekanismelements:nitrogen"
+    },
+    "itemOutput": {
+        "count": 5,
+        "item": "chemlib:cobalt_sulfate_dust"
+    }
+}

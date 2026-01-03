@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 6.947064676616916,
+    "temperature": {
+        "min_temp": 388.36,
+        "max_temp": 1008.0
+    },
+    "fluid_input": {
+        "fluid": "mekanism:sulfur_dioxide",
+        "amount": 300.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:cobalt_ii_oxide_dust",
+        "count": 2.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:sulfur",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:cobalt_sulfate_dust",
+        "count": 2.0
+    }
+}

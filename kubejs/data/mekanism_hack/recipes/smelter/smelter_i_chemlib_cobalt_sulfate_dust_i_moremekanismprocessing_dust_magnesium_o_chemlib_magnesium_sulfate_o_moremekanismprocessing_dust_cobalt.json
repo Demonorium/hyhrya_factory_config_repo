@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:magnesium_sulfate",
+            "count": 1.0
+        },
+        {
+            "item": "moremekanismprocessing:dust_cobalt",
+            "count": 1.0
+        }
+    ],
+    "energy": 47224.7,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:cobalt_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "moremekanismprocessing:dust_magnesium",
+            "count": 1.0
+        }
+    ]
+}

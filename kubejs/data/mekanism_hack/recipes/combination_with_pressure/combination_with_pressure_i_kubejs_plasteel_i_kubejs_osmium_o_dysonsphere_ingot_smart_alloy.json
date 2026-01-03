@@ -1,0 +1,19 @@
+{
+    "type": "pneumaticcraft:fluid_mixer",
+    "input1": {
+        "fluid": "kubejs:plasteel",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "input2": {
+        "fluid": "kubejs:osmium",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "pressure": 3,
+    "time": 160,
+    "item_output": {
+        "item": "dysonsphere:ingot_smart_alloy",
+        "count": 2.0
+    }
+}

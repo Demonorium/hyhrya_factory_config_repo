@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "mekanismelements:helium",
+        "amount": 3.0
+    },
+    "output": {
+        "gas": "mekanism:lithium",
+        "amount": 50.0,
+        "chemicalType": "gas"
+    }
+}

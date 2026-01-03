@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "mekanism:lithium",
+        "amount": 4.0
+    },
+    "output": {
+        "gas": "mekanismelements:beryllium",
+        "amount": 75.0,
+        "chemicalType": "gas"
+    }
+}

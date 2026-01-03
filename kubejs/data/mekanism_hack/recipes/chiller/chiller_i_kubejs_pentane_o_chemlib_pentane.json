@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:pentane",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:pentane",
+            "count": 1
+        }
+    ],
+    "energy": 1441
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:hydrogen_peroxide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:hydrogen_peroxide",
+            "count": 1
+        }
+    ],
+    "energy": 2727
+}

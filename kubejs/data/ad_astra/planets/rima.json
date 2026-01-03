@@ -1,0 +1,9 @@
+{
+  "dimension": "sgjourney:rima",
+  "gravity": 14.56,
+  "oxygen": true,
+  "solar_power": 3,
+  "solar_system": "sgjourney",
+  "temperature": 73,
+  "tier": 4
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:molybdenum",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:molybdenum_dust",
+            "count": 1
+        }
+    ],
+    "energy": 21720
+}

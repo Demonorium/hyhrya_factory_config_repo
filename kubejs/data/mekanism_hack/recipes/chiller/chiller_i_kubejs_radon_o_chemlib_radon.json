@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:radon",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:radon",
+            "count": 1
+        }
+    ],
+    "energy": 2020
+}

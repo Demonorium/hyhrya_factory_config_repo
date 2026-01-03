@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:sodium_metasilicate",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:sodium_metasilicate_dust",
+            "count": 1
+        }
+    ],
+    "energy": 10208
+}

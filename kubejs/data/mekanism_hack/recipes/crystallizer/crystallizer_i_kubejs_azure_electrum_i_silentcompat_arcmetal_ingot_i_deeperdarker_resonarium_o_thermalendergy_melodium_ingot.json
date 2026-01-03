@@ -1,0 +1,22 @@
+{
+    "type": "thermal:crystallizer",
+    "ingredients": [
+        {
+            "fluid": "kubejs:azure_electrum",
+            "amount": 250.0
+        },
+        {
+            "item": "silentcompat:arcmetal_ingot"
+        },
+        {
+            "item": "deeperdarker:resonarium"
+        }
+    ],
+    "result": [
+        {
+            "item": "thermalendergy:melodium_ingot",
+            "count": 2.0
+        }
+    ],
+    "energy": 17000
+}

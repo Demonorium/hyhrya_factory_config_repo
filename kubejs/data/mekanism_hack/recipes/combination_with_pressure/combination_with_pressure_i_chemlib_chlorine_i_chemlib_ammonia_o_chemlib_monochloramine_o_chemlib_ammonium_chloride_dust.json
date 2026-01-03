@@ -1,0 +1,23 @@
+{
+    "type": "pneumaticcraft:fluid_mixer",
+    "input1": {
+        "fluid": "mekanism:chlorine",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "input2": {
+        "fluid": "mekanismelements:ammonia",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "pressure": 1.0,
+    "time": 1235,
+    "fluid_output": {
+        "fluid": "kubejs:monochloramine",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:ammonium_chloride_dust",
+        "count": 1.0
+    }
+}

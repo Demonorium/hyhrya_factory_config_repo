@@ -1,0 +1,27 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "opposing_force:purple_knob",
+        "count": 1.0
+    },
+    "nutrientsCost": 3,
+    "processingTime": 50,
+    "results": [
+        {
+            "item": "chemlib:beta_carotene_dust",
+            "countRange": {
+                "type": "uniform",
+                "min": 0,
+                "max": 2
+            }
+        },
+        {
+            "item": "chemlib:magnesium_oxide_dust",
+            "countRange": {
+                "type": "uniform",
+                "min": 0,
+                "max": 3
+            }
+        }
+    ]
+}

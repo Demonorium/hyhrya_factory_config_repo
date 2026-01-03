@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:potassium_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "moremekanismprocessing:dust_magnesium",
+            "count": 1.0
+        }
+    ],
+    "energy": 59698.3,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:magnesium_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:potassium_dust",
+            "count": 2.0
+        }
+    ]
+}

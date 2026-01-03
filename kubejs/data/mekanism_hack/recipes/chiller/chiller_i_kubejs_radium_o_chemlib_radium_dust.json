@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:radium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:radium_dust",
+            "count": 1
+        }
+    ],
+    "energy": 9248
+}

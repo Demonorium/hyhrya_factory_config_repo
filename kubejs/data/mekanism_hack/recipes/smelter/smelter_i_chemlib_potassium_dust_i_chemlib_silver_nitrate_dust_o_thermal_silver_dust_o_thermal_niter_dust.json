@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "thermal:silver_dust",
+            "count": 1.0
+        },
+        {
+            "item": "thermal:niter_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 21330.815000000002,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:potassium_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:silver_nitrate_dust",
+            "count": 1.0
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 869,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "kubejs:lead_sulfate"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "kubejs:lead_sulfide"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:lead_oxide_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 300,
+        "gas": "mekanism:sulfur_dioxide"
+    },
+    "itemOutput": {
+        "count": 5,
+        "item": "mekanism:dust_lead"
+    }
+}

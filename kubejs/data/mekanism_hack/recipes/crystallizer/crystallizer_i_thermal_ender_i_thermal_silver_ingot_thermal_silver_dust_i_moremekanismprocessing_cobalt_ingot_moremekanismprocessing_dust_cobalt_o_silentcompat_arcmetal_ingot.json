@@ -1,0 +1,38 @@
+{
+    "type": "thermal:crystallizer",
+    "ingredients": [
+        {
+            "fluid": "thermal:ender",
+            "amount": 250.0
+        },
+        {
+            "value": [
+                {
+                    "item": "thermal:silver_ingot"
+                },
+                {
+                    "item": "thermal:silver_dust"
+                }
+            ],
+            "count": 4.0
+        },
+        {
+            "value": [
+                {
+                    "item": "moremekanismprocessing:cobalt_ingot"
+                },
+                {
+                    "item": "moremekanismprocessing:dust_cobalt"
+                }
+            ],
+            "count": 2.0
+        }
+    ],
+    "result": [
+        {
+            "item": "silentcompat:arcmetal_ingot",
+            "count": 1.0
+        }
+    ],
+    "energy": 17000
+}

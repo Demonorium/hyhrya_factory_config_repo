@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 600,
+        "fluid": "mekanismelements:potassium_hydroxide"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "kubejs:hydrogen_peroxide"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:gold_iii_chloride_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 600,
+        "gas": "mekanismelements:potassium_chloride"
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "mekanism:dust_gold"
+    }
+}

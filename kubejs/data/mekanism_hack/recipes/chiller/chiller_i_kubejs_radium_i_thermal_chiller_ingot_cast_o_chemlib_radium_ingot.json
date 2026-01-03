@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:radium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 12330.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:radium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

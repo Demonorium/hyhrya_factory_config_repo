@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:strontium_ingot",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "mekanismelements:strontium",
+        "amount": 100.0
+    },
+    "energy": 10500.0
+}

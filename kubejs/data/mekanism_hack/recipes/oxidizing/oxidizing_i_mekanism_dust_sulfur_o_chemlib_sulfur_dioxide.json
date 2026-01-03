@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:oxidizing",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:dust_sulfur"
+        }
+    },
+    "output": {
+        "gas": "mekanism:sulfur_dioxide",
+        "amount": 100.0
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 313,
+    "fluidInput": {
+        "amount": 600,
+        "fluid": "mekanismelements:bromine"
+    },
+    "gasInput": {
+        "amount": 400,
+        "gas": "mekanism:water_vapor"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:dust_sulfur"
+        }
+    },
+    "gasOutput": {
+        "amount": 600,
+        "gas": "kubejs:hydrogen_bromide"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:sulfuric_acid"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "kubejs:hydrazine",
+        "amount": 1.0
+    },
+    "output": {
+        "gas": "mekanismelements:ammonia",
+        "amount": 2.0
+    },
+    "rightInput": {
+        "gas": "mekanism:hydrogen",
+        "amount": 2.0
+    }
+}

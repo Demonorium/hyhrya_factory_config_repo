@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "mekanism:dust_copper",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:barium_sulfate",
+            "count": 1.0
+        }
+    ],
+    "energy": 38957.5,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:barium_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:copper_ii_sulfate_dust",
+            "count": 1.0
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:potassium_dichromate",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:potassium_dichromate",
+        "amount": 100.0
+    },
+    "energy": 6710
+}

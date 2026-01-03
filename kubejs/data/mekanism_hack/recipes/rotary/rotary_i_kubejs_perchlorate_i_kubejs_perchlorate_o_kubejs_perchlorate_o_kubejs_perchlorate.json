@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:perchlorate",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:perchlorate",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:perchlorate",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:perchlorate",
+        "amount": 1.0
+    }
+}

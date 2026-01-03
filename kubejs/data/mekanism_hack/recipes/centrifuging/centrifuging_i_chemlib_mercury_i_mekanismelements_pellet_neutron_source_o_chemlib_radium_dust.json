@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:mercury",
+        "amount": 11.0
+    },
+    "output": {
+        "gas": "kubejs:radium",
+        "amount": 250.0,
+        "chemicalType": "gas"
+    }
+}

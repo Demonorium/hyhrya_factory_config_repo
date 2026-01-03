@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 3.111317365269461,
+    "temperature": {
+        "min_temp": 201.0,
+        "max_temp": 1357.77
+    },
+    "fluid_input": {
+        "fluid": "kubejs:covellite",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:copper_i_oxide_dust",
+        "count": 2.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanism:sulfur_dioxide",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "mekanism:dust_copper",
+        "count": 5.0
+    }
+}

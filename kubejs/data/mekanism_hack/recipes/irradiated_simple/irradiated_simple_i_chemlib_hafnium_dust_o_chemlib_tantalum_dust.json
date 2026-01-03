@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:irradiating",
+    "input": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:hafnium_dust"
+        }
+    },
+    "output": {
+        "item": "chemlib:tantalum_dust",
+        "count": 1.0
+    },
+    "ticks": 2460
+}

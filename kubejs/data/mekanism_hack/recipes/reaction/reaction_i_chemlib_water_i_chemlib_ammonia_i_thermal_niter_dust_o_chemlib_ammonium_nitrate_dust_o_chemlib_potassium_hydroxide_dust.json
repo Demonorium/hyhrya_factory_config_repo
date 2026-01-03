@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "minecraft:water"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "mekanismelements:ammonia"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "thermal:niter_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "mekanismelements:potassium_hydroxide"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:ammonium_nitrate_dust"
+    }
+}

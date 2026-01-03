@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:cadmium_hydroxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 38600.4,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:cadmium_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_hydroxide_dust",
+            "count": 2.0
+        }
+    ]
+}

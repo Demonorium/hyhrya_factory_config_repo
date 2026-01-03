@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 2.3223880597014928,
+    "temperature": {
+        "min_temp": 201.0,
+        "max_temp": 265.8
+    },
+    "fluid_input": {
+        "fluid": "kubejs:hydrogen_bromide",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:sulfur_trioxide",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanism:sulfur_dioxide",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:bromine",
+        "count": 2.0
+    }
+}

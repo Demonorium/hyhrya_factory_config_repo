@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:magnesium_chloride_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:calcium_sulfate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 51451.100000000006,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:calcium_chloride_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:magnesium_sulfate",
+            "count": 1.0
+        }
+    ]
+}

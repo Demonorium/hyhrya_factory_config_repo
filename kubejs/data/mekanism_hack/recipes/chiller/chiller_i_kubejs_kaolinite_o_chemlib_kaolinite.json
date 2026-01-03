@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:kaolinite",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:kaolinite",
+            "count": 1
+        }
+    ],
+    "energy": 2897
+}

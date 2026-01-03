@@ -1,0 +1,23 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "ad_astra:glacio_lapis_ore",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "moremekanismprocessing:dirty_dust_lapis",
+            "chance": 3.5
+        },
+        {
+            "item": "ad_astra:glacio_cobblestone",
+            "chance": 0.25
+        },
+        {
+            "item": "minecraft:lapis_lazuli",
+            "count": 1.0,
+            "chance": 20
+        }
+    ],
+    "experience": 1.0
+}

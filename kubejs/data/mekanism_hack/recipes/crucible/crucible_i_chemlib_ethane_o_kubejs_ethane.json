@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:ethane",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:ethane",
+        "amount": 100.0
+    },
+    "energy": 904
+}

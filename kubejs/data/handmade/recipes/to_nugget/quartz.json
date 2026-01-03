@@ -1,0 +1,12 @@
+{
+    "type": "ad_astra:compressing",
+    "cookingtime": 900,
+    "energy": 20,
+    "ingredient": {
+        "item": "chemlib:silicon_dioxide"
+    },
+    "result": {
+        "count": 1,
+        "id": "minecraft:quartz"
+    }
+}

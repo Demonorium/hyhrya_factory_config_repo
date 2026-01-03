@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "chemlib:dysprosium_ingot",
+            "count": 1.0
+        }
+    ],
+    "result": {
+        "item": "chemlib:dysprosium_nugget",
+        "count": 9.0
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:nitrogen_dioxide",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "mekanismelements:nitrogen_dioxide",
+        "amount": 100.0
+    },
+    "energy": 2638
+}

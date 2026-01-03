@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:cobalt_metal_block",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:cobalt",
+        "amount": 900.0
+    },
+    "energy": 159120.0
+}

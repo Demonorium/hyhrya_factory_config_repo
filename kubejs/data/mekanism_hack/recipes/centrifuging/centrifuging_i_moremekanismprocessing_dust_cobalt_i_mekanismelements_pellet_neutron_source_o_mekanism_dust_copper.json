@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:cobalt",
+        "amount": 29.0
+    },
+    "output": {
+        "gas": "kubejs:copper",
+        "amount": 675.0,
+        "chemicalType": "gas"
+    }
+}

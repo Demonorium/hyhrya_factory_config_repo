@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:diammonium_phosphate",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:diammonium_phosphate_dust",
+            "count": 1
+        }
+    ],
+    "energy": 79
+}

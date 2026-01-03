@@ -1,0 +1,31 @@
+{
+  // A negatable list or single block requirement
+  "block": {
+    "blocks": [
+      "mekanismgenerators:heat_generator",
+      "mekanism:resistive_heater",
+      "mekanism:fuelfood_heater"
+    ],
+    "nbt": {
+      "HeatCapacitors": [{
+        "stored": "100000:"
+      }]
+    }
+  },
+  // The temperature of the block
+  "temperature": 10,
+  // The maximum temperature change that this BlockTemp can cause
+  // Multiple instances of this block can only heat/cool up to this amount
+  "max_effect": 2000,
+  // Temperature units to use. All temperature fields must be specified in these units
+  "units": "c",
+  // (default=true) Makes the block's effect fade with increasing distance
+  "fade": false,
+  // The radius of the block's area-of-effect
+  "range": 7,
+  // (optional) This block cannot heat the local area to above this value
+  "max_temp": 20,
+  // (optional) This block cannot cool the local area to below this value
+  "min_temp": 0,
+  "logarithmic": false
+}

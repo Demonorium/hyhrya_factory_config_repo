@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:nickel_sulfide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:nickel_sulfide_dust",
+            "count": 1
+        }
+    ],
+    "energy": 8025
+}

@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:beryllium_hydroxide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:beryllium_hydroxide",
+        "amount": 100.0
+    },
+    "energy": 2443
+}

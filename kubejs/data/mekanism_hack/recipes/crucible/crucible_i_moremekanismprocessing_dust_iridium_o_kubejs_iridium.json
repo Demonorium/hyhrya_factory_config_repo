@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "moremekanismprocessing:dust_iridium",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:iridium",
+        "amount": 100.0
+    },
+    "energy": 20392
+}

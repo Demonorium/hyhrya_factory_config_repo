@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 8.25539603960396,
+    "temperature": {
+        "max_temp": 741.0
+    },
+    "fluid_input": {
+        "fluid": "kubejs:perchloric_acid",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "mekanism:salt",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanism:hydrogen_chloride",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:sodium_perchlorate_dust",
+        "count": 1.0
+    }
+}

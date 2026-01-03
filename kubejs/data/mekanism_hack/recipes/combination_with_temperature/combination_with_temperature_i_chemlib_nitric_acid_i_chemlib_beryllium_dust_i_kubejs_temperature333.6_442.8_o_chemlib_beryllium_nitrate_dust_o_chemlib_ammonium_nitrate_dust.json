@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 7.465384615384616,
+    "temperature": {
+        "min_temp": 333.6,
+        "max_temp": 442.8
+    },
+    "fluid_input": {
+        "fluid": "mekanismelements:nitric_acid",
+        "amount": 1000.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:beryllium_dust",
+        "count": 4.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:beryllium_nitrate",
+        "amount": 400.0
+    },
+    "item_output": {
+        "item": "chemlib:ammonium_nitrate_dust",
+        "count": 1.0
+    }
+}

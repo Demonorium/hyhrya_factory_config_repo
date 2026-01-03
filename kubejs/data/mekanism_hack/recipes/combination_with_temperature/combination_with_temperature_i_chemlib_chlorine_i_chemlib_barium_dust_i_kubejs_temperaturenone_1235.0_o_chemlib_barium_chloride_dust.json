@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 9.62,
+    "temperature": {
+        "max_temp": 1235.0
+    },
+    "fluid_input": {
+        "fluid": "mekanism:chlorine",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:barium_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "chemlib:barium_chloride_dust",
+        "count": 1.0
+    }
+}

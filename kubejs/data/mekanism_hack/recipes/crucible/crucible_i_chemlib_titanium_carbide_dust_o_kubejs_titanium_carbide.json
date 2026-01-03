@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:titanium_carbide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:titanium_carbide",
+        "amount": 100.0
+    },
+    "energy": 25725
+}

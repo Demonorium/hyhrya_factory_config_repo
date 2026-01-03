@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "thermal:nickel_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:aluminium_chloride_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 95345.3,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "moremekanismprocessing:dust_aluminum",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:nickel_chloride_dust",
+            "count": 3.0
+        }
+    ]
+}

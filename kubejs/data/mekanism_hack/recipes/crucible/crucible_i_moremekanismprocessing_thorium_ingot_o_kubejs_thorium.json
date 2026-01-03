@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "moremekanismprocessing:thorium_ingot",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:thorium",
+        "amount": 100.0
+    },
+    "energy": 20230.0
+}

@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:oxidizing",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "minecraft:poisonous_potato"
+        }
+    },
+    "output": {
+        "gas": "mekanismelements:methane",
+        "amount": 50.0
+    }
+}

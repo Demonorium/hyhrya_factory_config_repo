@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 0.8324257425742573,
+    "temperature": {
+        "max_temp": 273.15
+    },
+    "fluid_input": {
+        "fluid": "kubejs:carbon",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:ammonium_nitrate_dust",
+        "count": 2.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:nitrogen",
+        "amount": 400.0
+    },
+    "item_output": {
+        "item": "chemlib:water",
+        "count": 4.0
+    }
+}

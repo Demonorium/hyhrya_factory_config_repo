@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:calcium_fluoride",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "mekanism:fluorite_dust",
+            "count": 1
+        }
+    ],
+    "energy": 12682
+}

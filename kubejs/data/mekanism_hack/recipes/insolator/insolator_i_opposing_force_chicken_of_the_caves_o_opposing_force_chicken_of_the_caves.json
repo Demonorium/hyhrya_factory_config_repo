@@ -1,0 +1,15 @@
+{
+    "type": "thermal:insolator",
+    "ingredient": {
+        "item": "opposing_force:chicken_of_the_caves",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "opposing_force:chicken_of_the_caves",
+            "chance": 2
+        }
+    ],
+    "energy_mod": 1.5,
+    "water_mod": 0.5
+}

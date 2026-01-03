@@ -1,0 +1,27 @@
+{
+  "ID": "illagerinvasion:marauder",
+  "Probability": 0.3,
+  "Guns": [
+    {
+      // Gun item's registry ID, MUST NOT be null and MUST be GunItem
+      "ID": "superbwarfare:mosin_nagant",
+      // Roll weight for this gun
+      "Weight": 1,
+      // Aim time in ticks for mobs to aim before shoot
+      "AimTime": 60,
+      // Clear aim time when lost sight, otherwise aim time will reduce by 1 per tick
+      "ClearAimTimeWhenLostSight": true,
+      // Extra cooldown in microseconds for semi and burst fire mode
+      "SemiFireInterval": 20,
+      // Backup ammo count for this gun
+      "BackupAmmo": 1,
+      // Should guns be loaded when mobs spawn
+      "SpawnWithLoadedAmmo": true,
+      "ShootDistance": 90,
+      // Will mobs be considered as zooming when shoot
+      "Zoom": true,
+      // Fire spread
+      "Spread": 5
+    }
+  ]
+}

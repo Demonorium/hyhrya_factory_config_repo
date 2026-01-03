@@ -1,0 +1,17 @@
+{
+    "type": "mekanism:compressing",
+    "chemicalInput": {
+        "gas": "kubejs:radon",
+        "amount": 4.0
+    },
+    "itemInput": {
+        "amount": 4.0,
+        "ingredient": {
+            "item": "minecraft:glass"
+        }
+    },
+    "output": {
+        "item": "chemlib:radon_lamp_block",
+        "count": 1.0
+    }
+}

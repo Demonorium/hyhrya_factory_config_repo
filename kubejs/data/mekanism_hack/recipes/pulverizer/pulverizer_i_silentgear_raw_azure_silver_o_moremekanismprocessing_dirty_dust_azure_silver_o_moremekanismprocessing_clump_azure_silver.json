@@ -1,0 +1,18 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "silentgear:raw_azure_silver",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "moremekanismprocessing:dirty_dust_azure_silver",
+            "chance": 1.5
+        },
+        {
+            "item": "moremekanismprocessing:clump_azure_silver",
+            "chance": 1.0
+        }
+    ],
+    "experience": 1.0
+}

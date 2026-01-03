@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:germanium",
+        "amount": 17.0
+    },
+    "output": {
+        "gas": "kubejs:selenium",
+        "amount": 400.0,
+        "chemicalType": "gas"
+    }
+}

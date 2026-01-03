@@ -1,0 +1,28 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "silentgear:bort_ore",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "moremekanismprocessing:dirty_dust_bort",
+            "chance": 3.5
+        },
+        {
+            "item": "minecraft:sand",
+            "chance": 0.25
+        },
+        {
+            "item": "silentgear:bort",
+            "count": 1.0,
+            "chance": 3
+        },
+        {
+            "item": "moremekanismprocessing:dust_bort",
+            "count": 1.0,
+            "chance": 2
+        }
+    ],
+    "experience": 1.0
+}

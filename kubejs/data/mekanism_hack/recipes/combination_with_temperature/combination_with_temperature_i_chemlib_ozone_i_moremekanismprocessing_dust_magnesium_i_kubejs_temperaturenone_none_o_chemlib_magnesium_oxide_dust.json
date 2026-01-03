@@ -1,0 +1,20 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 9.506666666666666,
+    "temperature": {},
+    "fluid_input": {
+        "fluid": "kubejs:ozone",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "moremekanismprocessing:dust_magnesium",
+        "count": 3.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "chemlib:magnesium_oxide_dust",
+        "count": 3.0
+    }
+}

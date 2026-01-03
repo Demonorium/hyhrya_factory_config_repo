@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:copper_ii_hydroxide_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:aluminum_oxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 74043.04000000001,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:aluminum_hydroxide_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:copper_ii_oxide_dust",
+            "count": 3.0
+        }
+    ]
+}

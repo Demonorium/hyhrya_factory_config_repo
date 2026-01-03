@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:antimony_trisulfide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:antimony_trisulfide_dust",
+            "count": 1
+        }
+    ],
+    "energy": 6172
+}

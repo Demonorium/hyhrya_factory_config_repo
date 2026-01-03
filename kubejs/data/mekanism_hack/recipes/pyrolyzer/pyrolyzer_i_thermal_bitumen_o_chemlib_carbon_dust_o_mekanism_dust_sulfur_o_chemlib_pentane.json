@@ -1,0 +1,23 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+        "item": "thermal:bitumen",
+        "count": 10.0
+    },
+    "result": [
+        {
+            "item": "chemlib:carbon_dust",
+            "chance": 0.5
+        },
+        {
+            "item": "mekanism:dust_sulfur",
+            "chance": 0.5
+        },
+        {
+            "fluid": "kubejs:pentane",
+            "amount": 300.0
+        }
+    ],
+    "energy": 10000,
+    "experience": 5.0
+}

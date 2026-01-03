@@ -1,0 +1,23 @@
+{
+    "type": "pneumaticcraft:fluid_mixer",
+    "input1": {
+        "fluid": "kubejs:carbon_dioxide",
+        "amount": 600.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "input2": {
+        "fluid": "minecraft:water",
+        "amount": 600.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "pressure": 1.0,
+    "time": 1050,
+    "fluid_output": {
+        "fluid": "mekanism:oxygen",
+        "amount": 1200.0
+    },
+    "item_output": {
+        "item": "chemlib:glucose_dust",
+        "count": 1.0
+    }
+}

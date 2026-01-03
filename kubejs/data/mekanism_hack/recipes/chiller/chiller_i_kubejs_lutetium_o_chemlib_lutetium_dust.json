@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:lutetium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:lutetium_dust",
+            "count": 1
+        }
+    ],
+    "energy": 14438
+}

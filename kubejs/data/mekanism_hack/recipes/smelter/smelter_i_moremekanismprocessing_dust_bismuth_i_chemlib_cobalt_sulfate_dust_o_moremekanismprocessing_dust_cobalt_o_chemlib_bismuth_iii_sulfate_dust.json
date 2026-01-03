@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "moremekanismprocessing:dust_cobalt",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:bismuth_iii_sulfate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 101554.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "moremekanismprocessing:dust_bismuth",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:cobalt_sulfate_dust",
+            "count": 3.0
+        }
+    ]
+}

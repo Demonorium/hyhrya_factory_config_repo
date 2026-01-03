@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "moremekanismprocessing:titanium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 19410.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:titanium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

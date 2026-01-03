@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "mekanismelements:potassium_hydroxide"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "mekanism:hydrogen_chloride"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:lithium_hydroxide_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "mekanismelements:potassium_chloride"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:lithium_chloride_dust"
+    }
+}

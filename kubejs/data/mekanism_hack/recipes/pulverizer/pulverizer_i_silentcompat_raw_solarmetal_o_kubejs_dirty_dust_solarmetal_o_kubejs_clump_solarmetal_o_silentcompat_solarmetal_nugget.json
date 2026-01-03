@@ -1,0 +1,23 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "silentcompat:raw_solarmetal",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "kubejs:dirty_dust_solarmetal",
+            "chance": 1.5
+        },
+        {
+            "item": "kubejs:clump_solarmetal",
+            "chance": 1.0
+        },
+        {
+            "item": "silentcompat:solarmetal_nugget",
+            "count": 1.0,
+            "chance": 40
+        }
+    ],
+    "experience": 1.0
+}

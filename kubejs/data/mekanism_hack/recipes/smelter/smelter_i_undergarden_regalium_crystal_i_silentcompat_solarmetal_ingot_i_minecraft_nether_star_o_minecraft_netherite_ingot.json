@@ -1,0 +1,22 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "minecraft:netherite_ingot",
+            "count": 1.0
+        }
+    ],
+    "energy": 12000,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "undergarden:regalium_crystal"
+        },
+        {
+            "item": "silentcompat:solarmetal_ingot"
+        },
+        {
+            "item": "minecraft:nether_star"
+        }
+    ]
+}

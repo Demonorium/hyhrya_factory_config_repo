@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 26.693069306930692,
+    "temperature": {
+        "min_temp": 710.0
+    },
+    "fluid_input": {
+        "fluid": "mekanism:chlorine",
+        "amount": 400.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:zirconium_silicate_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:zirconium_iv_chloride",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:silicon_dioxide",
+        "count": 1.0
+    }
+}

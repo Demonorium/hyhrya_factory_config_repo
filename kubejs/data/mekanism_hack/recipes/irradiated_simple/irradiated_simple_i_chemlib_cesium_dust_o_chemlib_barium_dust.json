@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:irradiating",
+    "input": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:cesium_dust"
+        }
+    },
+    "output": {
+        "item": "chemlib:barium_dust",
+        "count": 1.0
+    },
+    "ticks": 3360
+}

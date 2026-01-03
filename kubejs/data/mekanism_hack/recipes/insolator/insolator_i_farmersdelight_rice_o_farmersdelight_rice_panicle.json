@@ -1,0 +1,15 @@
+{
+    "type": "thermal:insolator",
+    "ingredient": {
+        "item": "farmersdelight:rice",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "farmersdelight:rice_panicle",
+            "chance": 2
+        }
+    ],
+    "energy_mod": 1.0,
+    "water_mod": 2.0
+}

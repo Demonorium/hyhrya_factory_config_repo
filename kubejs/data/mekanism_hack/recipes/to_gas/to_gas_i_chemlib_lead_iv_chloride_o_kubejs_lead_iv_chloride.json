@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:lead_iv_chloride"
+        }
+    },
+    "output": {
+        "gas": "kubejs:lead_iv_chloride",
+        "amount": 100.0
+    }
+}

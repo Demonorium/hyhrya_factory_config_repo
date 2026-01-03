@@ -1,0 +1,88 @@
+{
+    "dimensions": [
+        "sgjourney:cavum_tenebrae"
+    ],
+    "regions": [
+        {
+            "type": "constant",
+            "bottom": {
+                "anchor": "constant",
+                "depth": 201,
+                "temperature": {
+                    "strength": 0,
+                    "value": 1
+                },
+                "units": "c"
+            }
+        },
+        {
+            "type": "linear",
+            "top": {
+                "anchor": "constant",
+                "depth": 200,
+                "temperature": {
+                    "strength": 0.0,
+                    "value": 1.0
+                },
+                "units": "c"
+            },
+            "bottom": {
+                "anchor": "constant",
+                "depth": 90,
+                "temperature": {
+                    "value": 200,
+                    "strength": 0.25
+                }, 
+                "units": "c"
+            }
+        },
+        {
+            "type": "linear",
+            "top": {
+                "anchor": "constant",
+                "depth": 89,
+                "temperature": {
+                    "value": 200,
+                    "strength": 0.25
+                }, 
+                "units": "c"
+            },
+            "bottom": {
+                "anchor": "constant",
+                "depth": 0,
+                "temperature": {
+                    "value": 300,
+                    "strength": 1.0
+                }, 
+                "units": "c"
+            }
+        },
+        {
+            "type": "linear",
+            "top": {
+                "anchor": "constant",
+                "depth": -1,
+                "temperature": {
+                    "value": 300,
+                    "strength": 1.0
+                },
+                "units": "c"
+            },
+            "bottom": {
+                "anchor": "constant",
+                "depth": -319,
+                "temperature": -273.15,
+                "units": "c"
+            }
+        },
+        {
+            "type": "constant",
+            "top": {
+                "anchor": "constant",
+                "depth": -320,
+                "temperature": -273.15,
+                "units": "c"
+            }
+        }
+    ]
+}

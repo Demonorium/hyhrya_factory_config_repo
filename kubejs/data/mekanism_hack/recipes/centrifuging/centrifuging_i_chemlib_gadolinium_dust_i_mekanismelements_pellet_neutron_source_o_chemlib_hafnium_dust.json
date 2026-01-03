@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:gadolinium",
+        "amount": 9.0
+    },
+    "output": {
+        "gas": "kubejs:hafnium",
+        "amount": 200.0,
+        "chemicalType": "gas"
+    }
+}

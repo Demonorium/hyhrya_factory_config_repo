@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 600,
+        "fluid": "mekanism:hydrogen"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "mekanism:oxygen"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:carbon_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "kubejs:ethanol"
+    }
+}

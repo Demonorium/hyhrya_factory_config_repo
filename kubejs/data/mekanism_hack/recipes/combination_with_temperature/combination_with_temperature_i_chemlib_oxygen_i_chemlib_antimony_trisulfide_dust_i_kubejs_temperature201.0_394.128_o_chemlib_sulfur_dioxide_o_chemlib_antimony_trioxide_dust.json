@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 5.7779417475728145,
+    "temperature": {
+        "min_temp": 201.0,
+        "max_temp": 394.128
+    },
+    "fluid_input": {
+        "fluid": "mekanism:oxygen",
+        "amount": 900.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:antimony_trisulfide_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanism:sulfur_dioxide",
+        "amount": 300.0
+    },
+    "item_output": {
+        "item": "chemlib:antimony_trioxide_dust",
+        "count": 1.0
+    }
+}

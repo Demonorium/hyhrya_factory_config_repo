@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:cadmium_sulfide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:cadmium_sulfide",
+        "amount": 100.0
+    },
+    "energy": 15150
+}

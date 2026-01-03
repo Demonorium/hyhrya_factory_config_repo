@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:tricalcium_phosphate",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:tricalcium_phosphate",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:tricalcium_phosphate",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:tricalcium_phosphate",
+        "amount": 1.0
+    }
+}

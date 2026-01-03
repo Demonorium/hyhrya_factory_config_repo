@@ -1,0 +1,19 @@
+{
+    "type": "thermal:insolator",
+    "ingredient": {
+        "item": "biomesoplenty:yellow_maple_sapling",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "biomesoplenty:maple_log",
+            "chance": 6
+        },
+        {
+            "item": "biomesoplenty:yellow_maple_sapling",
+            "chance": 1
+        }
+    ],
+    "energy_mod": 6.0,
+    "water_mod": 1.0
+}

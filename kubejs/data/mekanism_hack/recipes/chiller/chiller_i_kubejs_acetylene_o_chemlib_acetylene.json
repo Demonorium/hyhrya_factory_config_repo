@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:acetylene",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:acetylene",
+            "count": 1
+        }
+    ],
+    "energy": 1923
+}

@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:calcium_carbonate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 71697.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "mekanismelements:dust_calcium_oxide",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_carbonate_dust",
+            "count": 1.0
+        }
+    ]
+}

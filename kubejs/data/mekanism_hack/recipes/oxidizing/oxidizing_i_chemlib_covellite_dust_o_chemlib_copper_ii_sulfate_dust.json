@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:oxidizing",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:covellite_dust"
+        }
+    },
+    "output": {
+        "gas": "kubejs:copper_ii_sulfate",
+        "amount": 100.0
+    }
+}

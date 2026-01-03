@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "moremekanismprocessing:dust_zinc",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:iron_ii_oxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 61289.100000000006,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "mekanism:dust_iron",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:zinc_oxide_dust",
+            "count": 1.0
+        }
+    ]
+}

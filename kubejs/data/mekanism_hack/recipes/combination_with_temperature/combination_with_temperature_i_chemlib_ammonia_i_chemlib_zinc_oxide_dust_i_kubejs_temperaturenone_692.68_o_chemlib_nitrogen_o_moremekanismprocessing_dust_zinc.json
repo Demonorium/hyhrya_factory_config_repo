@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 2.5027483443708607,
+    "temperature": {
+        "max_temp": 692.68
+    },
+    "fluid_input": {
+        "fluid": "mekanismelements:ammonia",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:zinc_oxide_dust",
+        "count": 3.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:nitrogen",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "moremekanismprocessing:dust_zinc",
+        "count": 3.0
+    }
+}

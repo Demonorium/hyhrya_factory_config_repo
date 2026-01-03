@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "kubejs:carbon",
+        "amount": 1.0
+    },
+    "output": {
+        "gas": "mekanism:hydrogen_chloride",
+        "amount": 4.0
+    },
+    "rightInput": {
+        "gas": "mekanism:chlorine",
+        "amount": 4.0
+    }
+}

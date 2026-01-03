@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 200,
+        "fluid": "mekanism:chlorine"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "mekanism:sulfur_dioxide"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:water"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "mekanism:chlorine"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:sulfate_dust"
+    }
+}

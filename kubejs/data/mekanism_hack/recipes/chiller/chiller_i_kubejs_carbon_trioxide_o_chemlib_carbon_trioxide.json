@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:carbon_trioxide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:carbon_trioxide",
+            "count": 1
+        }
+    ],
+    "energy": 9965
+}

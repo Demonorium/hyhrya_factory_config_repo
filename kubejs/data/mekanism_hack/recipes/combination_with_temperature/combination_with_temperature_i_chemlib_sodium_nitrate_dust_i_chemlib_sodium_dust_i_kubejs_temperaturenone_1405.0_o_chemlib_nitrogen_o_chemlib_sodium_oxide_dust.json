@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 4.877574750830565,
+    "temperature": {
+        "max_temp": 1405.0
+    },
+    "fluid_input": {
+        "fluid": "kubejs:sodium_nitrate",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:sodium_dust",
+        "count": 5.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:nitrogen",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:sodium_oxide_dust",
+        "count": 3.0
+    }
+}

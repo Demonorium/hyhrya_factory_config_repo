@@ -1,0 +1,1944 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4"
+	group: ""
+	icon: "mekanism:teleportation_core"
+	id: "3A58363A4EC6E018"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["67342BFD3A7C5724"]
+			hide_until_deps_complete: true
+			id: "652F63FD0FE536BD"
+			tasks: [{
+				id: "75B1F33C9EEE611A"
+				item: "moremekanismprocessing:aluminum_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["652F63FD0FE536BD"]
+			id: "04691C5532996D17"
+			tasks: [{
+				id: "2B12E5C4C2F28F9D"
+				item: "superbwarfare:vehicle_assembling_table"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["04691C5532996D17"]
+			id: "7293E286B66BDA36"
+			tasks: [{
+				id: "1204EA4C089AF65A"
+				item: "superbwarfare:charging_station"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.982142857142875d
+		}
+		{
+			dependencies: ["7293E286B66BDA36"]
+			id: "141FC371FC370637"
+			tasks: [{
+				id: "4F42C33F939A04CA"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:wheel_chair"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Инвалидное кресло"
+			x: -7.5d
+			y: 7.982142857142875d
+		}
+		{
+			dependencies: ["7293E286B66BDA36"]
+			id: "7B51B29C04FF4691"
+			tasks: [{
+				id: "6F815940D498AA98"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:type_63"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Град из ракет"
+			x: -5.0d
+			y: 7.982142857142875d
+		}
+		{
+			dependencies: ["04691C5532996D17"]
+			id: "4D801ADCBABFEF04"
+			tasks: [{
+				id: "7FCCD33A52391722"
+				item: {
+					Count: 1
+					id: "superbwarfare:crowbar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"7293E286B66BDA36"
+				"10ADBB3F58BA3F4F"
+			]
+			id: "59C016BE00ED04BF"
+			tasks: [{
+				id: "18B7F773D05ACC54"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:a_10a"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Самолёт"
+			x: -2.5d
+			y: 7.982142857142875d
+		}
+		{
+			dependencies: ["1E0318C6FBDB9DDB"]
+			id: "716EB1FFC81C698D"
+			tasks: [{
+				id: "74AF6311574CB321"
+				item: "mekanism:upgrade_filter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["652F63FD0FE536BD"]
+			id: "2C737A50E47A28FB"
+			tasks: [{
+				id: "00E994DA8C4608B1"
+				item: "superbwarfare:rare_material_pack"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "3A60A41CE39BE4E8"
+			tasks: [{
+				id: "334B0B0BA067CF9B"
+				item: {
+					Count: 1
+					id: "superbwarfare:glock_18"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "6A911D0485C96E29"
+			tasks: [{
+				id: "67BE4D0346A2E51A"
+				item: {
+					Count: 1
+					id: "superbwarfare:m_79"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "3102F7AD205346C4"
+			tasks: [{
+				id: "434874B06C5DDE8E"
+				item: {
+					Count: 1
+					id: "superbwarfare:rpg"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "3DFE33B9C17BA129"
+			tasks: [{
+				id: "44EE63C1CBDCEED9"
+				item: {
+					Count: 1
+					id: "superbwarfare:qbz_95"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "5ABFCA884C3D250A"
+			tasks: [{
+				id: "1E89B9FEF464E05B"
+				item: {
+					Count: 1
+					id: "superbwarfare:hk_416"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "3048E6D2346E44B3"
+			tasks: [{
+				id: "5C2C25E15786ACC5"
+				item: {
+					Count: 1
+					id: "superbwarfare:ak_47"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "488827C8B0D760B6"
+			shape: "gear"
+			tasks: [{
+				id: "44E1DD3E861F8E1E"
+				item: {
+					Count: 1
+					id: "superbwarfare:ak_12"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "56BC96558666DF5F"
+			tasks: [{
+				id: "05B1FB42DA41A1DD"
+				item: {
+					Count: 1
+					id: "superbwarfare:mosin_nagant"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "5D6563A06F426E2F"
+			tasks: [{
+				id: "29E254CDBF5EFED3"
+				item: {
+					Count: 1
+					id: "superbwarfare:sks"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "3AC6E40D010D9718"
+			tasks: [{
+				id: "27DF5507B27F33E1"
+				item: {
+					Count: 1
+					id: "superbwarfare:k_98"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "17ACBEA4E7F49C71"
+			tasks: [{
+				id: "7117FC51E9A63830"
+				item: {
+					Count: 1
+					id: "superbwarfare:m_4"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "2809729DB6875940"
+			tasks: [{
+				id: "41CC7121ABE71770"
+				item: {
+					Count: 1
+					id: "superbwarfare:mp_5"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: {
+							Ammo: { }
+							Damage: { }
+							Functional: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "6ABA8F46F93E7DCA"
+			tasks: [{
+				id: "0B113B67D880CBBD"
+				item: {
+					Count: 1
+					id: "superbwarfare:m_2_hb"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: {
+							Ammo: { }
+							Damage: { }
+							Functional: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["652F63FD0FE536BD"]
+			id: "3DC40F1DDE28D7ED"
+			shape: "square"
+			tasks: [{
+				id: "33898A2EE373B291"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3DC40F1DDE28D7ED"]
+			id: "5D38300615C2FF33"
+			tasks: [{
+				id: "0157F6DE768C507A"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D38300615C2FF33"]
+			id: "5E2DD5C3E92DCA43"
+			tasks: [{
+				id: "7B3EC0B7B5BA830C"
+				item: "appliedpneumatics:air_cell_shell"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D38300615C2FF33"]
+			id: "6CAA15F338104F84"
+			shape: "gear"
+			tasks: [{
+				id: "150DB19C0D5E1102"
+				item: "ae2:item_cell_housing"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D38300615C2FF33"]
+			id: "0E6FA2A9DFDB2796"
+			tasks: [{
+				id: "1BDD77E0F10209CF"
+				item: "ae2:fluid_cell_housing"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D38300615C2FF33"]
+			id: "4AC342384E43ACC1"
+			tasks: [{
+				id: "6C21BA6BB0E96813"
+				item: "appmek:chemical_cell_housing"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"13B46C3F5CAB1752"
+				"2E00BB1868026D04"
+				"6A1FC50D6E06C2A9"
+				"4E29ED8A556FD6FD"
+			]
+			id: "1E0318C6FBDB9DDB"
+			rewards: [{
+				count: 16
+				id: "4F22C8126B32CA09"
+				item: "mekanismgenerators:reactor_glass"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					count: 2L
+					id: "50FACD7D37CCF852"
+					item: { Count: 2, id: "mekanismgenerators:fission_reactor_port" }
+					type: "item"
+				}
+				{
+					id: "36CB6668CBC00090"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"60A651F5FBEC600D"
+				"716EB1FFC81C698D"
+			]
+			id: "0CAAF2388E2C1DDA"
+			shape: "square"
+			tasks: [
+				{
+					id: "1978B8DB3FFC5228"
+					item: "bfr:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "61265008BAF3C0F3"
+					item: { Count: 2, id: "bfr:fusion_reactor_logic_adapter" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "53FC3A6C59DA78EA"
+					item: "bfr:fusion_reactor_port"
+					type: "item"
+				}
+				{
+					id: "5302686123B0C9A1"
+					item: "bfr:laser_focus_matrix"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "714C33F274AC55D2"
+					item: { Count: 36, id: "bfr:fusion_reactor_frame" }
+					type: "item"
+				}
+			]
+			title: "Термоядерный реактор"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0CA6E0735563B8A6"
+				"652F63FD0FE536BD"
+			]
+			hide_dependency_lines: true
+			id: "60A651F5FBEC600D"
+			tasks: [{
+				id: "391890BE8CBD449E"
+				item: "mekanism:laser"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0CAAF2388E2C1DDA"]
+			id: "09DBCE09D5DEAB57"
+			tasks: [{
+				id: "58A510BC298DD433"
+				item: "bfr:irradiator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E0318C6FBDB9DDB"]
+			id: "02920B722772B4A9"
+			tasks: [{
+				id: "7B287666888B42E0"
+				item: "mekanismelements:radiation_irradiator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["21EEA5C05D176B78"]
+			id: "02B5E9492B56192B"
+			tasks: [{
+				id: "1C4C474053890C37"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0CAAF2388E2C1DDA"
+				"276EB80F1300410D"
+				"4305E67FC0511133"
+			]
+			id: "21EEA5C05D176B78"
+			rewards: [{
+				count: 64
+				id: "7454F80D8074770F"
+				item: "mekanism:structural_glass"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					count: 60L
+					id: "2FB723A38A7FD7BC"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					id: "7EE1706BBCBE64E3"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "78B6ABD2C3811501"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A63DAB3C15C5DB2"]
+			id: "07E4CFFB622D4358"
+			tasks: [{
+				id: "6D1B47367E69B3C6"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4305E67FC0511133"]
+			id: "3D7AD04288204175"
+			rewards: [{
+				id: "6DD5D2858B921D58"
+				item: "mekanism:qio_dashboard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B790A6183ADB8D1"
+				item: "mekanism:qio_drive_array"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"74DEC2C2BB67932A"
+				"7FCCF9FC8CDC41CF"
+			]
+			id: "59BD6B6555CFF7F5"
+			tasks: [{
+				id: "4B4B2FF27725C077"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["21EEA5C05D176B78"]
+			id: "2EF1531973723E86"
+			shape: "square"
+			tasks: [{
+				id: "1FD0379AAD1293C5"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A63DAB3C15C5DB2"]
+			id: "74DEC2C2BB67932A"
+			tasks: [{
+				id: "2ECA2224D2F8AC52"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["59BD6B6555CFF7F5"]
+			id: "3B2AED3C7C9C6A81"
+			tasks: [{
+				id: "4F5DD38EA646D141"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5A63DAB3C15C5DB2"]
+			id: "3ABA811128D8A09E"
+			tasks: [{
+				id: "5A37054FE25927D5"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0CA6E0735563B8A6"]
+			id: "13B46C3F5CAB1752"
+			shape: "square"
+			tasks: [{
+				id: "10676A271BAA59B0"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74DEC2C2BB67932A"]
+			id: "04A9BD214438D909"
+			tasks: [{
+				id: "7F86DF47B636BBE0"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["59BD6B6555CFF7F5"]
+			id: "27EF7192A0F1CB11"
+			tasks: [{
+				id: "7AC99FA7EEB53A43"
+				item: "hostilenetworks:prediction_matrix"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["27EF7192A0F1CB11"]
+			id: "7DE8DD32BC1DFD86"
+			tasks: [{
+				id: "0D8571CA51405AB6"
+				item: "hostilenetworks:overworld_prediction"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["27EF7192A0F1CB11"]
+			id: "20B67E6871DC696A"
+			tasks: [{
+				id: "17AE48F00BF9BB7C"
+				item: "hostilenetworks:nether_prediction"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["27EF7192A0F1CB11"]
+			id: "660327AF8260AC6F"
+			tasks: [{
+				id: "1AAD6C77C723DD60"
+				item: "hostilenetworks:end_prediction"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3D7AD04288204175"]
+			id: "2AA348D765AE35F9"
+			shape: "gear"
+			tasks: [{
+				id: "480712A4069FB22D"
+				item: "mekanism:portable_qio_dashboard"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3D7AD04288204175"]
+			id: "5E7337891BE965B8"
+			rewards: [{
+				id: "588E19F2FCCB1A8F"
+				item: "mekanism:qio_importer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F12F196BDBDE4B4"
+				item: "mekanism:qio_exporter"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D7AD04288204175"]
+			id: "15E7A310DB337E93"
+			tasks: [{
+				id: "501D993A6D142AAF"
+				item: "mekanism:qio_redstone_adapter"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"0CA6E0735563B8A6"
+				"307ED87468697DE6"
+			]
+			id: "4305E67FC0511133"
+			tasks: [{
+				id: "4ED3ECB279EE0BF0"
+				item: "mekanism_extras:supreme_control_circuit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"318D11881F2EA09D"
+				"77961D154AED3D18"
+				"2EAB01D6614C78D0"
+			]
+			hide_until_deps_complete: true
+			id: "0CA6E0735563B8A6"
+			tasks: [{
+				id: "00F7C2E5741759F1"
+				item: "mekanism_extras:absolute_control_circuit"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1E0318C6FBDB9DDB"
+				"0CA6E0735563B8A6"
+			]
+			id: "307ED87468697DE6"
+			tasks: [{
+				id: "1CA4247534B8C9E1"
+				item: "mekanism_extras:alloy_thermonuclear"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5A754BF9E5718B35"
+				"238601DF7A8437E9"
+			]
+			id: "3D417079D0545748"
+			tasks: [{
+				id: "6973BD62CBAF1685"
+				item: "ballistix:antimatter"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["11745900AD0C598E"]
+			id: "59765E4BFF68AAE1"
+			tasks: [{
+				id: "100F7498523D1EA6"
+				item: {
+					Count: 1
+					id: "superbwarfare:bocek"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: {
+							Ammo: { }
+							Damage: { }
+							Functional: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.3095238095238244d
+			y: 3.589285714285694d
+		}
+		{
+			dependencies: [
+				"0CA6E0735563B8A6"
+				"2C737A50E47A28FB"
+			]
+			id: "11745900AD0C598E"
+			tasks: [{
+				id: "55AA016CEB63C7CB"
+				item: "superbwarfare:epic_material_pack"
+				type: "item"
+			}]
+			x: 0.3095238095238244d
+			y: 4.5178571428571175d
+		}
+		{
+			dependencies: [
+				"11745900AD0C598E"
+				"10ADBB3F58BA3F4F"
+			]
+			id: "2441A33E5EE2DEB2"
+			tasks: [{
+				id: "65D0D0CC7A627865"
+				item: "superbwarfare:medium_armament_module"
+				type: "item"
+			}]
+			x: 0.345238095238102d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"2441A33E5EE2DEB2"
+				"7293E286B66BDA36"
+			]
+			id: "4CA16B24E99023AE"
+			subtitle: "Бронетранспорт"
+			tasks: [{
+				id: "7B83C45B897D5287"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:bmp_2"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "БМП-2"
+			x: 1.0d
+			y: 7.982142857142875d
+		}
+		{
+			dependencies: [
+				"11745900AD0C598E"
+				"02B5E9492B56192B"
+			]
+			id: "794F06FFD7C8DE4B"
+			tasks: [{
+				id: "0B8687E5BAAA487F"
+				item: "superbwarfare:shortcut_pack"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["11745900AD0C598E"]
+			id: "589079BB335773D0"
+			tasks: [{
+				id: "71D6FAD461730744"
+				item: {
+					Count: 1
+					id: "superbwarfare:m_98b"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["11745900AD0C598E"]
+			id: "0BDCFE5A56213F3F"
+			tasks: [{
+				id: "3C05050380776448"
+				item: {
+					Count: 1
+					id: "superbwarfare:insidious"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["11745900AD0C598E"]
+			id: "5A0A574B0D6736A0"
+			tasks: [{
+				id: "1E84AE93FC1B6010"
+				item: {
+					Count: 1
+					id: "superbwarfare:hunting_rifle"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["11745900AD0C598E"]
+			id: "19B5C622FA65836C"
+			tasks: [{
+				id: "28478B23AA3276A3"
+				item: {
+					Count: 1
+					id: "superbwarfare:mk_14"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["11745900AD0C598E"]
+			id: "5361BCAE4FF8F6C6"
+			tasks: [{
+				id: "6E13BDE875F56F01"
+				item: {
+					Count: 1
+					id: "superbwarfare:svd"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["11745900AD0C598E"]
+			id: "05B63F9A31B0A7E7"
+			tasks: [{
+				id: "26977C69F9AC1DA7"
+				item: {
+					Count: 1
+					id: "superbwarfare:devotion"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["11745900AD0C598E"]
+			id: "010CE6A031640987"
+			tasks: [{
+				id: "21A4BFEEA9BE2FC3"
+				item: {
+					Count: 1
+					id: "superbwarfare:trachelium"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["11745900AD0C598E"]
+			id: "03A9FB85167B0CE9"
+			tasks: [{
+				id: "3D77778C66BAA2C4"
+				item: {
+					Count: 1
+					id: "superbwarfare:m_60"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["11745900AD0C598E"]
+			id: "38C4CF896025591D"
+			tasks: [{
+				id: "1145096C1F465B80"
+				item: {
+					Count: 1
+					id: "superbwarfare:rpk"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["11745900AD0C598E"]
+			id: "6F8117F62E09DFE2"
+			tasks: [{
+				id: "3CB1A022B84DF36F"
+				item: {
+					Count: 1
+					id: "superbwarfare:vector"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["11745900AD0C598E"]
+			id: "1618FC3A10F9B710"
+			tasks: [{
+				id: "5F0823C0B91C9F75"
+				item: {
+					Count: 1
+					id: "superbwarfare:awm"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: {
+							Ammo: { }
+							Damage: { }
+							Functional: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["11745900AD0C598E"]
+			id: "5E186ABB881CFFCC"
+			tasks: [{
+				id: "3D61CB07C34EA026"
+				item: {
+					Count: 1
+					id: "superbwarfare:igla_9k38"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: {
+							Ammo: { }
+							Damage: { }
+							Functional: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.3095238095238244d
+			y: 5.5178571428571175d
+		}
+		{
+			dependencies: ["11745900AD0C598E"]
+			id: "333D67961EBE9EBD"
+			tasks: [{
+				id: "3ECD6B4AB3A20808"
+				item: {
+					Count: 1
+					id: "superbwarfare:qbz_191"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: {
+							Ammo: { }
+							Damage: { }
+							Functional: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"10ADBB3F58BA3F4F"
+				"7293E286B66BDA36"
+			]
+			id: "0A07DE1547FC14A0"
+			tasks: [{
+				id: "5DFAC39742099F7B"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:lav_150"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Командная БМП"
+			x: -1.5d
+			y: 7.982142857142875d
+		}
+		{
+			dependencies: [
+				"7293E286B66BDA36"
+				"2441A33E5EE2DEB2"
+			]
+			id: "366CA993F9B74EE7"
+			tasks: [{
+				id: "3943DD6D200582ED"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:ah_6"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Вертолёт"
+			x: 0.0d
+			y: 7.982142857142875d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "10ADBB3F58BA3F4F"
+			tasks: [{
+				id: "5B5B4685A9FA5B85"
+				item: "superbwarfare:light_armament_module"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7293E286B66BDA36"
+				"6ABA8F46F93E7DCA"
+			]
+			id: "475CBE7A66B63AFB"
+			tasks: [{
+				id: "4C4DA1C69AB68EB0"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:speedboat"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Катер"
+			x: -3.5d
+			y: 7.982142857142875d
+		}
+		{
+			dependencies: [
+				"0CA6E0735563B8A6"
+				"3DC40F1DDE28D7ED"
+			]
+			id: "66971F8190DDE4DD"
+			tasks: [{
+				id: "6F37C4B4BBB9E0F9"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4305E67FC0511133"
+				"6CAA15F338104F84"
+			]
+			id: "68681D990D513DC6"
+			tasks: [{
+				id: "4FBCC7CAE145AC03"
+				item: "ae2things:disk_housing"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4305E67FC0511133"]
+			id: "533CAD14FAD50B37"
+			rewards: [
+				{
+					count: 16
+					id: "65EAACD3879B1F90"
+					item: "ae2:spatial_pylon"
+					type: "item"
+				}
+				{
+					id: "2827EDBE4494C494"
+					item: "ae2:spatial_cell_component_2"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "5E7E357EC4A1B3A4"
+					item: "ae2:spatial_io_port"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "291A553C02A3A43A"
+					item: { Count: 12, id: "ae2:spatial_pylon" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0CA6E0735563B8A6"]
+			hide_until_deps_complete: true
+			id: "5A63DAB3C15C5DB2"
+			tasks: [{
+				id: "7CF2E0473867C017"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1E0318C6FBDB9DDB"]
+			id: "5A754BF9E5718B35"
+			tasks: [{
+				id: "007AB38DFAF6C977"
+				item: "ballistix:nuclear"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0B3219B67CE4A226"
+				"5A63DAB3C15C5DB2"
+			]
+			hide_until_deps_visible: true
+			id: "0D6F7FC66C3EAF4A"
+			rewards: [
+				{
+					id: "56E216D19FA938B3"
+					item: "mekanism:teleporter"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "4DCAC2076B16002C"
+					item: "mekanism:teleporter_frame"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2DA9857FE6A0B813"
+					item: "mekanism:teleporter"
+					type: "item"
+				}
+				{
+					id: "3C399D2B4D4B7381"
+					item: "mekanism:teleporter_frame"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0D6F7FC66C3EAF4A"]
+			id: "26A053AEB7D66F8E"
+			tasks: [{
+				id: "502D8C6BC49B557D"
+				item: "mekanism:portable_teleporter"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0B1CE962AC36E7D5"]
+			id: "65CEDA107ABCC625"
+			tasks: [{
+				id: "2B959C011225921D"
+				item: "dysonsphere:dysonsphere_monitor_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["750303CA42B7A12E"]
+			id: "6F1A5993F2ABE3A0"
+			tasks: [{
+				id: "469525845F025156"
+				item: "dysonsphere:solar_foil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["307ED87468697DE6"]
+			id: "0B1CE962AC36E7D5"
+			rewards: [{
+				id: "1BA4E7326316101B"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "dysonsphere:guide"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "591B98E394FCF5BB"
+				item: "dysonsphere:railgun_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F1A5993F2ABE3A0"]
+			id: "4D74E2E43731769C"
+			tasks: [{
+				id: "1800732265916D54"
+				item: "dysonsphere:capsule_solar"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0B1CE962AC36E7D5"]
+			id: "750303CA42B7A12E"
+			tasks: [{
+				id: "6E93033C5FA1FB36"
+				item: "dysonsphere:capsule_empty"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1571AFA636DF7E73"
+				"4305E67FC0511133"
+				"24EE2FE2EAD29636"
+			]
+			id: "52469F247D8FF2F1"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "4BBE86D766B529E0"
+				item: "dysonsphere:laser_crafter_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"750303CA42B7A12E"
+				"60A651F5FBEC600D"
+			]
+			id: "1571AFA636DF7E73"
+			tasks: [{
+				id: "04FD90FFB7FBF100"
+				item: "dysonsphere:capsule_laser"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1571AFA636DF7E73"]
+			id: "50FA81D52B34B95C"
+			rewards: [{
+				count: 8
+				id: "48099678A28A1682"
+				item: "dysonsphere:heat_pipe_block"
+				type: "item"
+			}]
+			subtitle: "Чайник совершенно нового уровня"
+			tasks: [
+				{
+					id: "582088706E17F6BA"
+					item: "dysonsphere:dysonsphere_energy_receiver_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "295D986B1E7F5A54"
+					item: { Count: 4, id: "dysonsphere:heat_exchanger_block" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["52469F247D8FF2F1"]
+			id: "7443CF5569E1AC4E"
+			shape: "gear"
+			tasks: [{
+				id: "023F1CE878518EBC"
+				item: "ae2:flawless_budding_quartz"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["52469F247D8FF2F1"]
+			id: "34B942900A3EA229"
+			tasks: [{
+				id: "71FA31A59BB9E046"
+				item: "minecraft:budding_amethyst"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["52469F247D8FF2F1"]
+			id: "252D8166C12A43D1"
+			tasks: [{
+				id: "5D18ADFB98683E42"
+				item: "sgjourney:budding_unity"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["006FB0E0E581A613"]
+			hide_until_deps_complete: true
+			id: "4EFD88B9FC2A55AB"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_globe"
+				id: "414D837D1AD10DDB"
+				title: "Слетайте на Венеру"
+				type: "dimension"
+			}]
+			x: 8.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["323BFBEDEF074509"]
+			id: "1185710085BEEAC6"
+			tasks: [{
+				id: "477D5B1DF71CA88C"
+				item: "ad_astra:tier_4_rocket"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["52469F247D8FF2F1"]
+			id: "323BFBEDEF074509"
+			tasks: [{
+				id: "02D48CB14945CDFC"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4EFD88B9FC2A55AB"]
+			id: "24EE2FE2EAD29636"
+			tasks: [{
+				id: "72E6E1BE660DF29C"
+				item: "thermal:ruby"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4305E67FC0511133"]
+			id: "650100D124A3A280"
+			tasks: [{
+				id: "4D8FC2E76C139225"
+				item: "ae2:spatial_anchor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"323BFBEDEF074509"
+				"46E2231251211EBA"
+			]
+			id: "238601DF7A8437E9"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Последняя глава"
+			tasks: [{
+				id: "14F1F4477FBC41EE"
+				item: "thermalendergy:stellarium_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D7AD04288204175"]
+			id: "4C3296C1DF558B48"
+			tasks: [{
+				id: "1506C7D28FF58156"
+				item: "mekanism:qio_drive_base"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "616C1F6C964BA66D"
+			tasks: [{
+				id: "2FEE2A060F5EFE83"
+				item: {
+					Count: 1
+					id: "superbwarfare:m_870"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"60A651F5FBEC600D"
+				"24EE2FE2EAD29636"
+			]
+			id: "276EB80F1300410D"
+			tasks: [{
+				id: "7F9996164E71EB32"
+				item: "mekanism_lasers:ultimate_laser"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0CA6E0735563B8A6"]
+			hide_dependency_lines: true
+			id: "71C74F71CC5BA4C0"
+			tasks: [
+				{
+					id: "2088806E4308A4DD"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "750AFC313B45162D"
+					item: "minecraft:soul_soil"
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71C74F71CC5BA4C0"]
+			id: "02DFE968BE0A5496"
+			tasks: [{
+				id: "3D114BC5C5397380"
+				item: "chemlib:cesium_nitrate_dust"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71C74F71CC5BA4C0"]
+			id: "464D6227F0F27FF3"
+			tasks: [{
+				id: "31D8C1BAF3EBE3A4"
+				item: "chemlib:europium_ii_sulfate_dust"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0CA6E0735563B8A6"]
+			hide_dependency_lines: true
+			id: "3B49D5EB882ACFBB"
+			tasks: [{
+				id: "0A13B139D2A980BB"
+				item: "chemlib:calcium_carbonate_dust"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3B49D5EB882ACFBB"]
+			id: "159A2B4ADC22F612"
+			tasks: [{
+				id: "515FBD63758280F7"
+				item: "chemlib:gadolinium_dust"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"159A2B4ADC22F612"
+				"464D6227F0F27FF3"
+			]
+			id: "2E00BB1868026D04"
+			rewards: [{
+				count: 4
+				id: "41D924A417DA6B74"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B33FCB17C033605"
+				item: "mekanismgenerators:fission_fuel_assembly"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["464D6227F0F27FF3"]
+			id: "6A1FC50D6E06C2A9"
+			rewards: [{
+				count: 4
+				id: "33C83B1A11A20AB5"
+				item: "mekanismgenerators:fission_reactor_casing"
+				type: "item"
+			}]
+			tasks: [{
+				count: 24L
+				id: "36DF0D0C76E51A95"
+				item: "mekanismgenerators:fission_reactor_casing"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"238601DF7A8437E9"
+				"0A2E3B2A9B6FF957"
+			]
+			id: "0753C4CF7651EF00"
+			tasks: [{
+				id: "3F7E9813AF5E52B3"
+				item: "thermalendergy:endergy_upgrade_3"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0CA6E0735563B8A6"]
+			hide_dependency_lines: true
+			id: "4E29ED8A556FD6FD"
+			tasks: [{
+				id: "7B03B01FDB1502EE"
+				item: "mekanismgenerators:control_rod_assembly"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5A63DAB3C15C5DB2"
+				"3DC40F1DDE28D7ED"
+			]
+			id: "7FCCF9FC8CDC41CF"
+			tasks: [{
+				id: "156131EEE72E4E27"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2EF1531973723E86"]
+			id: "46E2231251211EBA"
+			tasks: [{
+				id: "61512F24E47DFD9A"
+				item: "mekanism_extras:alloy_shining"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7293E286B66BDA36"]
+			id: "3EBEB8EB2DD87D45"
+			tasks: [{
+				id: "0A86C96C86B5C5EF"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:laser_tower"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Автономная лазерная башня"
+			x: -6.5d
+			y: 7.982142857142875d
+		}
+		{
+			dependencies: ["0CA6E0735563B8A6"]
+			id: "0A2E3B2A9B6FF957"
+			tasks: [{
+				id: "5C8A7CBC56B9C604"
+				item: "thermalendergy:endergy_upgrade_2"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66971F8190DDE4DD"]
+			id: "51558714B6715A34"
+			tasks: [
+				{
+					count: 2L
+					id: "13C4D915FC8101A2"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "64B5E55447897953"
+					item: { Count: 8, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["533CAD14FAD50B37"]
+			id: "009FA7EA50540157"
+			rewards: [{
+				count: 16
+				id: "7CEE216C8A99A35F"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			subtitle: "Акт творения"
+			tasks: [{
+				dimension: "ae2:spatial_storage"
+				id: "602DBD15493C40CD"
+				title: "Создайте мир"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+	]
+	title: "Глава 4. Доминирование над природой"
+}

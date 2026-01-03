@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:cadmium_metal_block",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:cadmium",
+        "amount": 900.0
+    },
+    "energy": 53479.8
+}

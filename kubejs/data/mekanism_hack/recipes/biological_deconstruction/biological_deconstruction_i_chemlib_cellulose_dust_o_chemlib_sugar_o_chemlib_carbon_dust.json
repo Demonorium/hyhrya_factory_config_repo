@@ -1,0 +1,27 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "chemlib:cellulose_dust",
+        "count": 1.0
+    },
+    "nutrientsCost": 1,
+    "processingTime": 40,
+    "results": [
+        {
+            "item": "chemlib:sugar",
+            "countRange": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+            }
+        },
+        {
+            "item": "chemlib:carbon_dust",
+            "countRange": {
+                "type": "uniform",
+                "min": 0,
+                "max": 1
+            }
+        }
+    ]
+}

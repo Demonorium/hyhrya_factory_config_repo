@@ -1,0 +1,17 @@
+[
+    {
+        "mob": "spidermod:huntsman",
+        "persecond": 1.0,
+        "attempts": 20,
+        "amount": {
+            "minimum": 2,
+            "maximum": 3
+        },
+        "conditions": {
+            "dimension": "sgjourney:abydos",
+            "mindist": 25,
+            "maxdist": 100,
+            "maxthis": 100
+        }
+  }
+]

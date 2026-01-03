@@ -1,0 +1,19 @@
+{
+    "type": "thermal:refinery",
+    "ingredient": {
+        "fluid": "mekanismelements:compressed_air",
+        "amount": 1000.0
+    },
+    "result": [
+        {
+            "fluid": "kubejs:argon",
+            "amount": 100.0
+        },
+        {
+            "fluid": "kubejs:neon",
+            "amount": 10.0
+        }
+    ],
+    "energy": 6000,
+    "experience": 0.2
+}

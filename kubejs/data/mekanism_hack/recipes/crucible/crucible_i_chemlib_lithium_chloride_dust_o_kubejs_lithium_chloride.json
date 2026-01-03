@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:lithium_chloride_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:lithium_chloride",
+        "amount": 100.0
+    },
+    "energy": 6652
+}

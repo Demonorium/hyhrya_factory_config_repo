@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:polyvinyl_chloride_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:polyvinyl_chloride",
+        "amount": 100.0
+    },
+    "energy": 2798
+}

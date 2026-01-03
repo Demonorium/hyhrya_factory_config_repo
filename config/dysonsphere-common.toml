@@ -1,0 +1,353 @@
+
+[dyson_sphere]
+	#A list of dimensions where the Dyson Sphere should not be accessible. Add dimensions in the format 'minecraft:the_end', 'ad_astra:mercury'. Default: 'minecraft:the_end', 'minecraft:the_nether
+	dimensionBlacklist = ["minecraft:the_end", "minecraft:the_nether"]
+	#If the dimensionBlacklist should be used as a whitelist instead, Default: false
+	dimensionIsWhitelist = false
+
+[general]
+
+	[general.heat]
+		#The ambient temperature all heat handlers get initialized with. 0.0-2000.0. Default: 300.0
+		#Range: 0.0 ~ 2000.0
+		generalHeatAmbientTemp = 300.0
+
+	[general.laser]
+		#The multiplier used to determine the energy per laser (damage*blockDamage*mult=RF) 0.0-10000000.0 Default: 20000.0
+		#Range: 0.0 ~ 1.0E7
+		generalLaserEnergyMult = 20000.0
+
+[machines]
+
+	[machines.ds_energy_receiver]
+		#The upper limit of heat capacity of the dyson sphere energy receiver. 0-1.7976931348623157E308. Default 1700
+		#Range: 0.0 ~ 1.7976931348623157E308
+		dsEnergyReceiverMaxHeat = 1700.0
+
+	[machines.heat_exchanger]
+		#The upper limit of heat capacity of the heat exchanger. 0-1.7976931348623157E308. Default 1700
+		#Range: 0.0 ~ 1.7976931348623157E308
+		heatExchangerMaxHeat = 1700.0
+		#The capacity of the internal fluid Tank (input and output) of the heat exchanger. 1-2147483647. Default 4000
+		#Range: > 1
+		heatExchangerFluidCapacity = 4000
+
+	[machines.heat_generator]
+		#The upper limit of heat capacity of the heat generator. 0-1.7976931348623157E308. Default 1700
+		#Range: 0.0 ~ 1.7976931348623157E308
+		heatGeneratorMaxHeat = 1700.0
+		#The energy capacity of the heat generator. 1-2147483647. Default 25000
+		#Range: > 1
+		heatGeneratorEnergyCapacity = 25000
+		#The minimum heat difference required to generate RF. Production is per min heat difference
+		#Range: 0.0 ~ 10000.0
+		heatGeneratorMinHeatDif = 25.0
+		#The amount of RF generated per minimum heat difference between adjacent heat containers. 0-2147483647. Default 1
+		#Range: > 0
+		heatGeneratorEnergyGenerated = 1
+
+	[machines.heat_pipe]
+		#The upper limit of heat capacity of the heat pipe. 0-1.7976931348623157E308. Default 1950
+		#Range: 0.0 ~ 1.7976931348623157E308
+		heatPipeMaxHeat = 1950.0
+
+	[machines.railgun]
+		#The base energy required for the railgun to launch a single item from earth. (Changes based on gravity and sun distance with ad astra) 0-2147483647. Default 90000
+		#Range: > 0
+		railgunLaunchEnergy = 90000
+		#The energy capacity of the railgun. Must be bigger then the launchEnergy for the railgun to work. 1-2147483647. Default 150000
+		#Range: > 1
+		railgunEnergyCapacity = 150000
+
+	[machines.laser_controller_tile]
+		#The energy used by the Laser Controller Tile per working tick. 0-10000. Default 50
+		#Range: 0 ~ 10000
+		laserControllerTileEnergyUsage = 50
+		#The internal energy capacity of the Laser Controller Tile. 0-2147483647. Default 50
+		#Range: > 0
+		laserControllerTileEnergyCapacity = 50000
+		#The time in ticks the Laser Controller Tile needs before it can start working again. 0-10000. Default 100
+		#Range: 0 ~ 10000
+		laserControllerTileCooldown = 100
+		#The time in ticks the Laser Controller Tile needs to finish a work cycle. 0-10000. Default 400
+		#Range: 0 ~ 10000
+		laserControllerTileWorkTime = 400
+
+	[machines.laser_crafter]
+		#The static energy loss of the Laser Crafter in RF per tick. 0-2147483647. Default 10000
+		#Range: > 0
+		laserControllerTileEnergyUsage = 10000
+		#The scaling energy loss of the Laser Crafter. 0 is no loss, 1 is complete loss of all energy. Between scaling and static loss only the higher is applied. 0.0-1.0. Default 0.05
+		#Range: 0.0 ~ 1.0
+		laserCrafterEnergyBleedScaling = 0.05
+		#The upper limit of heat capacity of the laser crafter. 0-1.7976931348623157E308. Default 1950
+		#Range: 0.0 ~ 1.7976931348623157E308
+		laserCrafterMaxHeat = 1700.0
+		#The resistance against new energy based on the current heat. A higher number will increase the energy received at the same heat. 0.0001-10000.0. Default 50.0
+		#Range: 1.0E-4 ~ 10000.0
+		laserCrafterInputHeatResistance = 50.0
+		#The amount of energy (rf) that needs to dissipate to increase the heat by 1°K. 0.0-10000.0. Default 50.0
+		#Range: 0.0 ~ 10000.0
+		laserCrafterEnergyBleedToHeat = 50.0
+
+	[machines.laser_pattern_controller]
+		#The internal energy capacity of the Laser Pattern Controller. 0-2147483647. Default 5000
+		#Range: > 0
+		laserPatternControllerEnergyCapacity = 5000
+		#The amount of energy the Laser Pattern Controller uses per Saved pattern. 0-2147483647. Default 100
+		#Range: > 0
+		laserPatternControllerEnergyUsage = 100
+
+[space_capsules]
+
+	[space_capsules.solar]
+		#The energy a single solar capsule provides per tick once added to the dyson sphere. 0-2147483647. Default 10
+		#Range: > 0
+		solarCapsuleEnergyProvided = 10
+		#The dyson sphere completion a single solar capsule adds. 0.0-1.0. Default 0.00001
+		#Range: 0.0 ~ 1.0
+		solarCapsuleCompletion = 1.0E-5
+
+	[space_capsules.laser]
+		#The energy a single laser capsule consumes per tick once added to the dyson sphere. 0-2147483647. Default 50
+		#Range: > 0
+		laserCapsuleEnergyConsumed = 50
+		#The dyson sphere completion a laser solar capsule adds. 0.0-1.0. Default 0.00001
+		#Range: 0.0 ~ 1.0
+		laserCapsuleCompletion = 1.0E-5
+
+[tools]
+
+	[tools.laser_controller_item]
+		#The amount of energy that can be stored in the Laser Controller Item. 0-2147483647. Default 50000
+		#Range: > 0
+		laserControllerItemEnergyCapacity = 50000
+		#The amount of energy that a single use of the Laser Controller Item consumes. 0-2147483647. Default 100
+		#Range: > 0
+		laserControllerItemChargeRate = 100
+
+[grappling_hooks]
+
+	[grappling_hooks.hooks]
+
+		[grappling_hooks.hooks.smart_alloy]
+			#The amount of hooks that can be deployed at the same time 0-500. Default 3
+			#Range: 0 ~ 500
+			grapplingHookHookSmartAlloyCount = 3
+			#The gravity (downward acceleration) of the hook. -10.0-10.0. Default: 0.02
+			#Range: -10.0 ~ 10.0
+			grapplingHookHookSmartAlloyGravity = 0.02
+
+		[grappling_hooks.hooks.blaze]
+			#The amount of hooks that can be deployed at the same time outside the nether 0-500. Default 2
+			#Range: 0 ~ 500
+			grapplingHookHookBlazeCountNormal = 2
+			#The gravity (downward acceleration) of the hook outside the nether. -10.0-10.0. Default: 0.01
+			#Range: -10.0 ~ 10.0
+			grapplingHookHookBlazeGravityNormal = 0.01
+			#The amount of hooks that can be deployed at the same time in the nether 0-500. Default 4
+			#Range: 0 ~ 500
+			grapplingHookHookBlazeCountNether = 4
+			#The gravity (downward acceleration) of the hook in the nether. -10.0-10.0. Default: 0.0
+			#Range: -10.0 ~ 10.0
+			grapplingHookHookBlazeGravityNether = 0.0
+
+		[grappling_hooks.hooks.wood]
+			#The amount of hooks that can be deployed at the same time outside the nether 0-500. Default 1
+			#Range: 0 ~ 500
+			grapplingHookHookWoodCount = 1
+			#The gravity (downward acceleration) of the hook. -10.0-10.0. Default: 0.05
+			#Range: -10.0 ~ 10.0
+			grapplingHookHookWoodGravity = 0.05
+
+		[grappling_hooks.hooks.slime]
+			#The amount of hooks that can be deployed at the same time 0-500. Default 2
+			#Range: 0 ~ 500
+			grapplingHookHookSlimeCount = 2
+			#The gravity (downward acceleration) of the hook. -10.0-10.0. Default: 0.05
+			#Range: -10.0 ~ 10.0
+			grapplingHookHookSlimeGravity = 0.05
+
+		[grappling_hooks.hooks.tripwire]
+			#The amount of hooks that can be deployed at the same time outside the nether 0-500. Default 2
+			#Range: 0 ~ 500
+			grapplingHookHookTripwireCount = 2
+			#The gravity (downward acceleration) of the hook. -10.0-10.0. Default: 0.04
+			#Range: -10.0 ~ 10.0
+			grapplingHookHookTripwireGravity = 0.04
+
+	[grappling_hooks.engine]
+
+		[grappling_hooks.engine.steam]
+			#The internal storage of the engine in mB. 0-2147483647. Default: 32000
+			#Range: > 0
+			grapplingHookEngineSteamCapacity = 32000
+			#The steam usage on hook launch in mB. 0-2147483647. Default: 100
+			#Range: > 0
+			grapplingHookEngineSteamLaunchUsage = 100
+			#The steam usage on active pulling tick in mB. 0-10000. Default: 10
+			#Range: 0 ~ 10000
+			grapplingHookEngineSteamWinchUsage = 10
+			#The launch force of the hook. 0.0-20.0. Default: 2.0
+			#Range: 0.0 ~ 20.0
+			grapplingHookEngineSteamLaunchForce = 2.0
+			#The winch force of the hook. 0.0-20.0. Default: 3.5
+			#Range: 0.0 ~ 20.0
+			grapplingHookEngineSteamWinchForce = 3.5
+
+		[grappling_hooks.engine.electric1]
+			#The internal RF capacity of the engine. 0-2147483647. Default: 15000
+			#Range: > 0
+			grapplingHookEngineElectric1Capacity = 15000
+			#The RF transfer/charge rate of the engine. 0-2147483647. Default: 500
+			#Range: > 0
+			grapplingHookEngineElectric1ChargeRate = 500
+			#The RF usage on hook launch. 0-2147483647. Default: 50
+			#Range: > 0
+			grapplingHookEngineElectric1LaunchUsage = 50
+			#The RF usage on active pulling tick. 0-10000. Default: 5
+			#Range: 0 ~ 10000
+			grapplingHookEngineElectric1WinchUsage = 5
+			#The RF generated on active rappling tick. 0-10000. Default: 1
+			#Range: 0 ~ 10000
+			grapplingHookEngineElectric1WinchRecuperation = 1
+			#The launch force of the hook. 0.0-20.0. Default: 2.5
+			#Range: 0.0 ~ 20.0
+			grapplingHookEngineElectric1LaunchForce = 2.5
+			#The winch force of the hook. 0.0-20.0. Default: 3.2
+			#Range: 0.0 ~ 20.0
+			grapplingHookEngineElectric1WinchForce = 3.2
+
+		[grappling_hooks.engine.electric2]
+			#The internal RF capacity of the engine. 0-2147483647. Default: 1000000
+			#Range: > 0
+			grapplingHookEngineElectric2Capacity = 1000000
+			#The RF transfer/charge rate of the engine. 0-2147483647. Default: 5000
+			#Range: > 0
+			grapplingHookEngineElectric2ChargeRate = 5000
+			#The RF usage on hook launch. 0-2147483647. Default: 50
+			#Range: > 0
+			grapplingHookEngineElectric2LaunchUsage = 50
+			#The RF usage on active pulling tick. 0-10000. Default: 10
+			#Range: 0 ~ 10000
+			grapplingHookEngineElectric2WinchUsage = 10
+			#The RF generated on active rappling tick. 0-10000. Default: 5
+			#Range: 0 ~ 10000
+			grapplingHookEngineElectric2WinchRecuperation = 5
+			#The launch force of the hook. 0.0-20.0. Default: 5.0
+			#Range: 0.0 ~ 20.0
+			grapplingHookEngineElectric2LaunchForce = 5.0
+			#The winch force of the hook. 0.0-20.0. Default: 4.4
+			#Range: 0.0 ~ 20.0
+			grapplingHookEngineElectric2WinchForce = 4.4
+
+		[grappling_hooks.engine.mechanical]
+			#The internal RF capacity of the engine. 0-2147483647. Default: 20000
+			#Range: > 0
+			grapplingHookEngineMechanicalCapacity = 20000
+			#The RF transfer/charge rate of the engine. 0-2147483647. Default: 5000
+			#Range: > 0
+			grapplingHookEngineMechanicalChargeRate = 5000
+			#The RF usage on hook launch. 0-2147483647. Default: 75
+			#Range: > 0
+			grapplingHookEngineMechanicalLaunchUsage = 75
+			#The RF usage on active pulling tick. 0-10000. Default: 1
+			#Range: 0 ~ 10000
+			grapplingHookEngineMechanicalWinchUsage = 10
+			#The RF generated on active rappling tick. 0-10000. Default: 5
+			#Range: 0 ~ 10000
+			grapplingHookEngineMechanicalWinchRecuperation = 5
+			#The launch force of the hook. 0.0-20.0. Default: 2.8
+			#Range: 0.0 ~ 20.0
+			grapplingHookEngineMechanicalLaunchForce = 2.8
+			#The winch force of the hook. 0.0-20.0. Default: 3.0
+			#Range: 0.0 ~ 20.0
+			grapplingHookEngineMechanicalWinchForce = 3.0
+
+		[grappling_hooks.engine.manual]
+			#The exhaustion added on hook launch. 0.0-10. Default: 0.1
+			#Range: 0.0 ~ 10.0
+			grapplingHookEngineManualLaunchUsage = 0.1
+			#The exhaustion added on active pulling tick. 0.0-10.0 Default: 0.2
+			#Range: 0.0 ~ 10.0
+			grapplingHookEngineManualWinchUsage = 0.2
+			#The exhaustion added on active rappling tick. 0.0-10.0. Default: 0.05
+			#Range: 0.0 ~ 10.0
+			grapplingHookEngineManualRappelUsage = 0.05
+			#The launch force of the hook. 0.0-20.0. Default: 2.0
+			#Range: 0.0 ~ 20.0
+			grapplingHookEngineManualLaunchForce = 2.0
+			#The winch force of the hook. 0.0-20.0. Default: 2.4
+			#Range: 0.0 ~ 20.0
+			grapplingHookEngineManualWinchForce = 2.4
+
+	[grappling_hooks.rope]
+
+		[grappling_hooks.rope.ender]
+			#The maximum length of the rope in blocks. 0.0-1024.0 Default: 256.0
+			#Range: 0.0 ~ 1024.0
+			grapplingHookRopeEnderMaxDistance = 256.0
+			#The gravity multiplier of the rope. 0.0-10.0 Default: 0.2
+			#Range: 0.0 ~ 10.0
+			grapplingHookRopeEnderLaunchForce = 0.2
+			#The winch force multiplier of the rope. 0.0-10.0 Default: 1.0
+			#Range: 0.0 ~ 10.0
+			grapplingHookRopeEnderWinchForce = 1.0
+
+		[grappling_hooks.rope.string]
+			#The maximum length of the rope in blocks. 0.0-1024.0 Default: 16.0
+			#Range: 0.0 ~ 1024.0
+			grapplingHookRopeStringMaxDistance = 16.0
+			#The gravity multiplier of the rope. 0.0-10.0 Default: 1.0
+			#Range: 0.0 ~ 10.0
+			grapplingHookRopeStringLaunchForce = 1.0
+			#The winch force multiplier of the rope. 0.0-10.0 Default: 0.8
+			#Range: 0.0 ~ 10.0
+			grapplingHookRopeStringWinchForce = 0.8
+
+		[grappling_hooks.rope.chain]
+			#The maximum length of the rope in blocks. 0.0-1024.0 Default: 32.0
+			#Range: 0.0 ~ 1024.0
+			grapplingHookRopeChainMaxDistance = 32.0
+			#The gravity multiplier of the rope. 0.0-10.0 Default: 1.2
+			#Range: 0.0 ~ 10.0
+			grapplingHookRopeChainLaunchForce = 1.2
+			#The winch force multiplier of the rope. 0.0-10.0 Default: 1.2
+			#Range: 0.0 ~ 10.0
+			grapplingHookRopeChainWinchForce = 1.2
+
+[compat]
+
+	[compat.mekanism]
+		#Multiplier applied to all heat transfer from Mekanism heat into Dysonsphere heat. 0.0-100.0. Default: 0.01
+		#Range: 0.0 ~ 100.0
+		mekHeatExchangeRate = 0.01
+		#Multiplier to scale Dysonsphere thermal resistance to Mekanism thermal resistance. 0.0-1000000.0. Default: 1000.0
+		#Range: 0.0 ~ 1000000.0
+		mekHeatResistance = 1000.0
+
+	[compat.pneumaticcraft]
+		#Multiplier applied to all heat transfer from Pneumaticcraft heat into Dysonsphere heat. 0.0-1000.0. Default: 1.0
+		#Range: 0.0 ~ 1000.0
+		pncHeatExchangeRate = 1.0
+
+		[compat.pneumaticcraft.grappling_hook_engine]
+			#The air capacity of the Pneumatic Engine. 0-10000000. Default: 4000
+			#Range: 0 ~ 10000000
+			pncGrapplingHookEngineAirCapacity = 4000
+			#The maximum pressure that can be in the Pneumatic Engine. 1.0-50.0. Default: 10.0
+			#Range: 1.0 ~ 50.0
+			pncGrapplingHookEngineMaxPressure = 10.0
+			#The amount of air used by the Pneumatic Engine to launch a hook. 10-5000. Default: 60
+			#Range: 10 ~ 5000
+			pncGrapplingHookEngineLaunchUse = 60
+			#The amount of air used by the Pneumatic Engine per active 'pulling' tick. 1-1000. Default: 15
+			#Range: 1 ~ 1000
+			pncGrapplingHookEngineWinchUse = 15
+			#The base launch force of the Pneumatic Engine. 0.0-50.0. Default: 2.5
+			#Range: 0.0 ~ 50.0
+			pncGrapplingHookEngineLaunchForce = 2.5
+			#The base winch force of the Pneumatic Engine. 0.0-50.0. Default: 3.8
+			#Range: 0.0 ~ 50.0
+			pncGrapplingHookEngineWinchForce = 3.8
+

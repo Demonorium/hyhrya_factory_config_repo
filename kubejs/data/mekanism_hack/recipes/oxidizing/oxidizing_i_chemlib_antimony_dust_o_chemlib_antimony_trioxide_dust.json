@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:oxidizing",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:antimony_dust"
+        }
+    },
+    "output": {
+        "gas": "kubejs:antimony_trioxide",
+        "amount": 50.0
+    }
+}

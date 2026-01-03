@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:salicylic_acid",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:salicylic_acid",
+        "amount": 100.0
+    },
+    "energy": 4318
+}

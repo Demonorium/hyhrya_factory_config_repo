@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:nitrogen",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "mekanismelements:nitrogen",
+        "amount": 100.0
+    },
+    "energy": 632
+}

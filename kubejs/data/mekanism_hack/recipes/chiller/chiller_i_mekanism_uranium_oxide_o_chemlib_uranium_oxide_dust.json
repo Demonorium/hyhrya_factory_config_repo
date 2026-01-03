@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "mekanism:uranium_oxide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:uranium_oxide_dust",
+            "count": 1
+        }
+    ],
+    "energy": 3785
+}

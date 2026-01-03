@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:cucurbitacin_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:cucurbitacin",
+        "amount": 100.0
+    },
+    "energy": 11017
+}

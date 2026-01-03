@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:irradiating",
+    "input": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "mekanism:dust_osmium"
+        }
+    },
+    "output": {
+        "item": "moremekanismprocessing:dust_iridium",
+        "count": 1.0
+    },
+    "ticks": 2220
+}

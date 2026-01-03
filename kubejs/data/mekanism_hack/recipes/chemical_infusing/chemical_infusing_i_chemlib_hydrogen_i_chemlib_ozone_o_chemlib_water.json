@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "mekanism:hydrogen",
+        "amount": 6.0
+    },
+    "output": {
+        "gas": "mekanism:water_vapor",
+        "amount": 3.0
+    },
+    "rightInput": {
+        "gas": "kubejs:ozone",
+        "amount": 1.0
+    }
+}

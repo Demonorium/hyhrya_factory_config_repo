@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:palladium_metal_block",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:palladium",
+        "amount": 900.0
+    },
+    "energy": 164524.5
+}

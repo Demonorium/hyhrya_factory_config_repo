@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:gadolinium_ingot",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:gadolinium",
+        "amount": 100.0
+    },
+    "energy": 15850.0
+}

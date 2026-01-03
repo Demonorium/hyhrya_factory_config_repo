@@ -1,0 +1,19 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+        "item": "minecraft:rotten_flesh",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "fluid": "mekanismelements:ammonia",
+            "amount": 50.0
+        },
+        {
+            "item": "chemlib:hydrogen_sulfide",
+            "count": 1.0,
+            "chance": 0.5
+        }
+    ],
+    "energy": 20000
+}

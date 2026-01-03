@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 2400,
+        "fluid": "kubejs:potassium_permanganate"
+    },
+    "gasInput": {
+        "amount": 3600,
+        "gas": "mekanism:sulfuric_acid"
+    },
+    "itemInput": {
+        "amount": 5.0,
+        "ingredient": {
+            "item": "chemlib:glucose_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 1200,
+        "gas": "kubejs:potassium_sulfate"
+    },
+    "itemOutput": {
+        "count": 24,
+        "item": "chemlib:manganese_sulfate_dust"
+    }
+}

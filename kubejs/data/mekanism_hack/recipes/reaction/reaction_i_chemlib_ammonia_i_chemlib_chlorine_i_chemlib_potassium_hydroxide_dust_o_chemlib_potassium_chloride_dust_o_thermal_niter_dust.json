@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "mekanismelements:ammonia"
+    },
+    "gasInput": {
+        "amount": 800,
+        "gas": "mekanism:chlorine"
+    },
+    "itemInput": {
+        "amount": 9.0,
+        "ingredient": {
+            "item": "chemlib:potassium_hydroxide_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "kubejs:potassium_nitrate"
+    },
+    "itemOutput": {
+        "count": 8,
+        "item": "chemlib:potassium_chloride_dust"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 10.266176470588237,
+    "temperature": {
+        "min_temp": 273.15,
+        "max_temp": 774.0
+    },
+    "fluid_input": {
+        "fluid": "mekanism:hydrogen_chloride",
+        "amount": 400.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:lead_dioxide_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "minecraft:water",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "chemlib:lead_iv_chloride",
+        "count": 1.0
+    }
+}

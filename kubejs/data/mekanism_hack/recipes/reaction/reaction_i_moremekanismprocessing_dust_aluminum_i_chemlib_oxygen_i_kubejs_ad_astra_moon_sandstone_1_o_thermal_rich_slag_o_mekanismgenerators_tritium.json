@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 600,
+    "fluidInput": {
+        "amount": 1200,
+        "fluid": "kubejs:aluminum"
+    },
+    "gasInput": {
+        "amount": 1200,
+        "gas": "mekanism:oxygen"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "tag": "kubejs:ad_astra/moon_sandstone_1"
+        }
+    },
+    "gasOutput": {
+        "amount": 1200,
+        "gas": "mekanismgenerators:tritium"
+    },
+    "itemOutput": {
+        "count": 12,
+        "item": "thermal:rich_slag"
+    }
+}

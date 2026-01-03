@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "mekanismelements:xenon",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:xenon",
+            "count": 1
+        }
+    ],
+    "energy": 1614
+}

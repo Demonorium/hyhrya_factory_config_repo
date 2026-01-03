@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "moremekanismprocessing:aluminum_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 9334.7,
+    "ingredients": [
+        {
+            "fluid": "kubejs:aluminum",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

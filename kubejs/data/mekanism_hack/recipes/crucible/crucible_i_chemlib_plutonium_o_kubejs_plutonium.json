@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:plutonium",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:plutonium",
+        "amount": 100.0
+    },
+    "energy": 9125
+}

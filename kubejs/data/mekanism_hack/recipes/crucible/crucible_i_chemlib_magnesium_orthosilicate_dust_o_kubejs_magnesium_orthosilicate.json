@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:magnesium_orthosilicate_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:magnesium_orthosilicate",
+        "amount": 100.0
+    },
+    "energy": 16200
+}

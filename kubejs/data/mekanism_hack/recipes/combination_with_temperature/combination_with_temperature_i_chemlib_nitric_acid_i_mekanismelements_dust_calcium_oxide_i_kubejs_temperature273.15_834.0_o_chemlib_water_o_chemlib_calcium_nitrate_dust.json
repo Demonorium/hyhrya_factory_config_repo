@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 10.961881188118813,
+    "temperature": {
+        "min_temp": 273.15,
+        "max_temp": 834.0
+    },
+    "fluid_input": {
+        "fluid": "mekanismelements:nitric_acid",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "mekanismelements:dust_calcium_oxide",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "minecraft:water",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:calcium_nitrate_dust",
+        "count": 1.0
+    }
+}

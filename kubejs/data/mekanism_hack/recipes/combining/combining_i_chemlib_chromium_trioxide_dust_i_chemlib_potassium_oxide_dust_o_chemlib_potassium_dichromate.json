@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:chromium_trioxide_dust"
+        }
+    },
+    "mainInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:potassium_oxide_dust"
+        }
+    },
+    "output": {
+        "item": "chemlib:potassium_dichromate",
+        "count": 1.0
+    }
+}

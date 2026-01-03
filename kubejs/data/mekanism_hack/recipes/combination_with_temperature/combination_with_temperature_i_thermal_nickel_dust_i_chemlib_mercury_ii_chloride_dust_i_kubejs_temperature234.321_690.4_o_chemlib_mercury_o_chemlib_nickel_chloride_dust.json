@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 9.155653465346536,
+    "temperature": {
+        "min_temp": 234.321,
+        "max_temp": 690.4
+    },
+    "fluid_input": {
+        "fluid": "kubejs:nickel",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:mercury_ii_chloride_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:mercury",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:nickel_chloride_dust",
+        "count": 1.0
+    }
+}

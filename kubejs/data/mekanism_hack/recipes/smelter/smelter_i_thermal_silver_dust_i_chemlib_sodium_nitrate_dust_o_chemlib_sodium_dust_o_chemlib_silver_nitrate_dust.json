@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:silver_nitrate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 30122.74,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "thermal:silver_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_nitrate_dust",
+            "count": 1.0
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 2400,
+        "fluid": "mekanism:oxygen"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "kubejs:propane"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:ethane"
+        }
+    },
+    "gasOutput": {
+        "amount": 700,
+        "gas": "kubejs:carbon_dioxide"
+    },
+    "itemOutput": {
+        "count": 10,
+        "item": "chemlib:water"
+    }
+}

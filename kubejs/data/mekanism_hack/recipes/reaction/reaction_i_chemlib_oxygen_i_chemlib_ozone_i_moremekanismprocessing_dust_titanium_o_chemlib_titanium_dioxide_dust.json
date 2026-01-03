@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "mekanism:oxygen"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "kubejs:ozone"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dust_titanium"
+        }
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "chemlib:titanium_dioxide_dust"
+    }
+}

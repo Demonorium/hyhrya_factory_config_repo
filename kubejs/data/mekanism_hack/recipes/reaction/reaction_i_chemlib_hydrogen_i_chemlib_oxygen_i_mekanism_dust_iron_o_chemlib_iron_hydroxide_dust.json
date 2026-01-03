@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 200,
+        "fluid": "mekanism:hydrogen"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "mekanism:oxygen"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:dust_iron"
+        }
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:iron_hydroxide_dust"
+    }
+}

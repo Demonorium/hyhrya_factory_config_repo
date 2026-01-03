@@ -1,0 +1,1152 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "16C0CB719352C2B7"
+	group: ""
+	icon: "ad_astra:tier_4_rocket"
+	id: "16C0CB719352C2B7"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7C3EC436B88C1892"]
+			id: "0B3219B67CE4A226"
+			tasks: [{
+				id: "2A4389104B2AA11B"
+				item: "mekanism_extras:infinite_control_circuit"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"46E2231251211EBA"
+				"238601DF7A8437E9"
+			]
+			id: "7C3EC436B88C1892"
+			tasks: [{
+				id: "6A9E14300A6B4A62"
+				item: "mekanism_extras:alloy_spectrum"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B3219B67CE4A226"]
+			id: "2A0CA92DD5805F1D"
+			tasks: [{
+				id: "5EBA47F3DA8AA488"
+				item: "mekanism:mekasuit_helmet"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B3219B67CE4A226"]
+			id: "1C4105768402F2F8"
+			tasks: [{
+				id: "5B7B5C0AAC7D6A25"
+				item: "mekanism:mekasuit_bodyarmor"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B3219B67CE4A226"]
+			id: "75AD9125524C7951"
+			tasks: [{
+				id: "030D6FD5CB18FDF7"
+				item: "mekanism:mekasuit_pants"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B3219B67CE4A226"]
+			id: "02BDA2BB67A1CBC1"
+			tasks: [{
+				id: "5DAAB3A94AA685C4"
+				item: "mekanism:mekasuit_boots"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B3219B67CE4A226"]
+			id: "5538F214016C0CAC"
+			tasks: [{
+				id: "5BC8E6B694A520E8"
+				item: "mekanism:meka_tool"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B3219B67CE4A226"]
+			id: "167089A6FCFAF267"
+			tasks: [{
+				id: "2451467F9120B27D"
+				item: "mekaweapons:mekatana"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0B3219B67CE4A226"]
+			id: "1A342258150273FD"
+			tasks: [{
+				id: "658FE5FFB6BF36FD"
+				item: "mekaweapons:mekabow"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B3219B67CE4A226"]
+			id: "21E1BCB70F6E864C"
+			tasks: [{
+				icon: "superbwarfare:annihilator_blueprint"
+				id: "6EAECB82B990438D"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:annihilator"
+							id: "superbwarfare:container"
+						}
+						CanPlacedAboveWater: 0b
+					}
+				}
+				type: "item"
+			}]
+			title: "Аннигилятор"
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["421F9D094748593B"]
+			id: "104A7FEA451981B5"
+			tasks: [{
+				id: "75C90631859E47B5"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:prism_tank"
+							id: "superbwarfare:container"
+						}
+						CanPlacedAboveWater: 0b
+					}
+				}
+				type: "item"
+			}]
+			title: "Призматический танк"
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0B3219B67CE4A226"
+				"421F9D094748593B"
+			]
+			id: "3A2B27C9756299DF"
+			tasks: [{
+				id: "5C516AB7F4558E6D"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:yx_100"
+							id: "superbwarfare:container"
+						}
+						CanPlacedAboveWater: 0b
+					}
+				}
+				type: "item"
+			}]
+			title: "Сверхтяжёлый танк"
+			x: 17.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"46E2231251211EBA"
+				"1A24E9B8B8EE2CD2"
+			]
+			id: "29A36638B429D5EC"
+			tasks: [{
+				id: "25656534721DA598"
+				item: "mekanism_extras:cosmic_control_circuit"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29A36638B429D5EC"]
+			id: "2CF46C87A8779899"
+			tasks: [
+				{
+					id: "532BE12BC3EB12CD"
+					item: "mekanism_extras:naquadah_reactor_controller"
+					type: "item"
+				}
+				{
+					count: 108L
+					id: "0DE8A5916D7D9138"
+					item: { Count: 108, id: "mekanism_extras:naquadah_reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 217L
+					id: "497B0B076B3B6322"
+					item: "mekanism_extras:lead_coated_glass"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2C89A0490319907E"
+					item: { Count: 3, id: "mekanism_extras:naquadah_reactor_port" }
+					type: "item"
+				}
+				{
+					id: "3E2289C8FD0568E5"
+					item: "mekanism_extras:lead_coated_laser_focus_matrix"
+					type: "item"
+				}
+			]
+			title: "Наквадовый реактор"
+			x: 13.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"00DE9C83CE353866"
+				"7C3EC436B88C1892"
+			]
+			id: "53F31B3571A4D1DD"
+			tasks: [{
+				id: "1694259AF645BCAB"
+				item: {
+					Count: 1
+					id: "superbwarfare:sentinel"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: {
+							Ammo: { }
+							Damage: { }
+							Functional: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00DE9C83CE353866"]
+			id: "7E7A0AF430606ACE"
+			tasks: [{
+				id: "077D7C1A5989E06B"
+				item: {
+					Count: 1
+					id: "superbwarfare:javelin"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["29A36638B429D5EC"]
+			id: "00DE9C83CE353866"
+			tasks: [{
+				id: "03DEEA15E5BA61DB"
+				item: "superbwarfare:legendary_material_pack"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"00DE9C83CE353866"
+				"7C3EC436B88C1892"
+			]
+			id: "37002088296DF5A1"
+			tasks: [{
+				id: "103954C86EF9AAE9"
+				item: {
+					Count: 1
+					id: "superbwarfare:secondary_cataclysm"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: {
+							Ammo: { }
+							Damage: { }
+							Functional: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["00DE9C83CE353866"]
+			id: "68B191767B5C35DC"
+			tasks: [{
+				id: "461D58E01E1444F9"
+				item: {
+					Count: 1
+					id: "superbwarfare:aa_12"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["00DE9C83CE353866"]
+			id: "6C336293907758F5"
+			tasks: [{
+				id: "4323DE5014D8F8A6"
+				item: {
+					Count: 1
+					id: "superbwarfare:ntw_20"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00DE9C83CE353866"]
+			id: "5C13FC460990721B"
+			tasks: [{
+				id: "232EEA89B6B04E63"
+				item: {
+					Count: 1
+					id: "superbwarfare:minigun"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["00DE9C83CE353866"]
+			id: "7D777F3B7BA3F381"
+			tasks: [{
+				id: "56ECEF57F977BF10"
+				item: {
+					Count: 1
+					id: "superbwarfare:aurelia_sceptre"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["29A36638B429D5EC"]
+			id: "593FEADDD4C2AA73"
+			tasks: [{
+				id: "1865B6C976642802"
+				item: "ballistix:darkmatter"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29A36638B429D5EC"]
+			id: "09F17B9E20B2C76B"
+			tasks: [{
+				id: "2BAB86EF8B7C2C88"
+				item: "ballistix:largeantimatter"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["29A36638B429D5EC"]
+			id: "4627AC1E2224C37C"
+			tasks: [{
+				id: "70C685889CD1DC62"
+				item: "ae2_mega_things:fluid_disk_housing"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["47A3E2D3EDF506D2"]
+			id: "0FA659A50C5F19F9"
+			tasks: [{
+				id: "18A458926389C99A"
+				item: "ae2_mega_things:mega_fluid_disk_housing"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["29A36638B429D5EC"]
+			id: "21882687630A9769"
+			tasks: [{
+				id: "51BE29A5A30F4E23"
+				item: "ae2_mega_things:chemical_disk_housing"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3543494E3EB8E8EB"]
+			id: "10A816290232894D"
+			tasks: [{
+				id: "5D3A700535394AC2"
+				item: "ae2_mega_things:mega_chemical_disk_housing"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4D2199CC538DE5DA"]
+			id: "16C9A1D8C7A8F48E"
+			tasks: [{
+				id: "0293EB4FF2917AA0"
+				item: "ae2_mega_things:mega_item_disk_housing"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["09C9917B03B225E0"]
+			id: "550E86D0B7D5FDBB"
+			tasks: [{
+				id: "6E472CB1D9E1551A"
+				item: "appliedpneumatics:mega_air_cell_shell"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["09C9917B03B225E0"]
+			id: "4D2199CC538DE5DA"
+			tasks: [{
+				id: "020954A602F6F8F1"
+				item: "megacells:mega_item_cell_housing"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["09C9917B03B225E0"]
+			id: "3543494E3EB8E8EB"
+			tasks: [{
+				id: "2AA80C3A8E5F6652"
+				item: "megacells:mega_chemical_cell_housing"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["09C9917B03B225E0"]
+			id: "47A3E2D3EDF506D2"
+			tasks: [{
+				id: "46F981BF2511D9DC"
+				item: "megacells:mega_fluid_cell_housing"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["29A36638B429D5EC"]
+			id: "09C9917B03B225E0"
+			tasks: [{
+				id: "54030CE6E5E4E897"
+				item: "megacells:cell_component_1m"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0B3219B67CE4A226"]
+			id: "70920DAFA3CC310A"
+			tasks: [{
+				id: "7DCA9F269183FB76"
+				item: "tempad:tempad"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["29A36638B429D5EC"]
+			id: "3370C931A1C6EFAD"
+			tasks: [{
+				id: "1B29BB662633ADD9"
+				item: "ballistix:rejuvination"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29A36638B429D5EC"]
+			id: "13080DF669ACA490"
+			tasks: [{
+				id: "794656B791484577"
+				item: "megacells:mega_crafting_unit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29A36638B429D5EC"]
+			id: "08A810C0B6904E12"
+			tasks: [{
+				id: "1837161B71B9B28D"
+				item: "megacells:mega_interface"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29A36638B429D5EC"]
+			id: "00231A84D41D685C"
+			tasks: [{
+				id: "144B4859FD0FA637"
+				item: "megacells:radioactive_cell_component"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["29A36638B429D5EC"]
+			id: "480D6E40C1BB76C3"
+			tasks: [{
+				id: "27B57C39A74973B2"
+				item: "megacells:mega_energy_cell"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29A36638B429D5EC"]
+			id: "2ECF81045B9670B1"
+			tasks: [{
+				id: "4F667879FD38C927"
+				item: "megacells:bulk_item_cell"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["29A36638B429D5EC"]
+			id: "39D5945C2FD47559"
+			tasks: [{
+				id: "206965D4F8C5AF5D"
+				item: "megacells:mega_pattern_provider"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29A36638B429D5EC"]
+			id: "461912EE469CF41B"
+			tasks: [{
+				id: "5FC9AA6CC7709AD3"
+				item: "megacells:decompression_module"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["29A36638B429D5EC"]
+			id: "62B24AE9F957E753"
+			tasks: [
+				{
+					id: "09056BD7C1A3EEDA"
+					item: "dysonsphere:laser_controller_block"
+					type: "item"
+				}
+				{
+					id: "02DF629550A61AB0"
+					item: "dysonsphere:laser_pattern"
+					type: "item"
+				}
+				{
+					id: "73327DFEFDA27336"
+					item: "dysonsphere:laser_pattern_controller_block"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["62B24AE9F957E753"]
+			id: "11993226961D5830"
+			tasks: [{
+				id: "5AC9AD529DDF2FBC"
+				item: "dysonsphere:laser_controller"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["238601DF7A8437E9"]
+			id: "1A24E9B8B8EE2CD2"
+			tasks: [{
+				id: "2166D125D1E8D6EC"
+				item: "pncepcb:quantum_finished_pcb"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1A342258150273FD"]
+			id: "147634A1C34E2BAC"
+			tasks: [{
+				id: "38D906894F90DC15"
+				item: "mekaweapons:module_arrowenergy_unit"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1A342258150273FD"]
+			id: "3FF1C6FC8CAC5CFD"
+			tasks: [{
+				id: "664D24903F0722DD"
+				item: "mekaweapons:module_autofire_unit"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1A342258150273FD"]
+			id: "4EE6CE11F45FA112"
+			tasks: [{
+				id: "5D552998F144FD46"
+				item: "mekaweapons:module_drawspeed_unit"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1A342258150273FD"]
+			id: "7F4E8FF99342C260"
+			tasks: [{
+				id: "6B69014CB26C9AC3"
+				item: "mekaweapons:module_gravitydampener_unit"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"167089A6FCFAF267"
+				"1A342258150273FD"
+			]
+			id: "02820F496AB69B16"
+			tasks: [{
+				id: "354CAD60347F8FE0"
+				item: "mekaweapons:module_attackamplification_unit"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1C4105768402F2F8"]
+			id: "2F1F389DEFB916CC"
+			tasks: [{
+				id: "2799C7D2196CC5D1"
+				item: "ad_astra_giselle_addon:module_acid_rain_proof_unit"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02BDA2BB67A1CBC1"]
+			id: "055B0FD95DAB44B2"
+			tasks: [{
+				id: "0447C456F1452A9B"
+				item: "ad_astra_giselle_addon:module_gravity_normalizing_unit"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A0CA92DD5805F1D"]
+			id: "2451D9893FC1CC70"
+			tasks: [{
+				id: "64573539AECD4A33"
+				item: "ad_astra_giselle_addon:module_space_breathing_unit"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["373A4FDABA572983"]
+			id: "5C6FA172E7F035E0"
+			tasks: [{
+				id: "74C6633186E9FFBA"
+				item: "mekanism:module_energy_unit"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"75AD9125524C7951"
+				"02BDA2BB67A1CBC1"
+				"2A0CA92DD5805F1D"
+				"1C4105768402F2F8"
+			]
+			id: "5900355CBDF6AB75"
+			tasks: [{
+				id: "5F3F286D4C725E16"
+				item: "mekanism:module_color_modulation_unit"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"75AD9125524C7951"
+				"02BDA2BB67A1CBC1"
+				"2A0CA92DD5805F1D"
+				"1C4105768402F2F8"
+			]
+			id: "1A8AA6271E0AA5CA"
+			tasks: [{
+				id: "5078339D5922BD74"
+				item: "mekanism:module_laser_dissipation_unit"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"75AD9125524C7951"
+				"02BDA2BB67A1CBC1"
+				"2A0CA92DD5805F1D"
+				"1C4105768402F2F8"
+			]
+			id: "1A357C154939546E"
+			tasks: [{
+				id: "407B1428277A61C7"
+				item: "mekanism:module_radiation_shielding_unit"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5538F214016C0CAC"]
+			id: "07A4C02391215BBC"
+			tasks: [{
+				id: "74E80B94F86BBCED"
+				item: "mekanism:module_attack_amplification_unit"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B3219B67CE4A226"]
+			id: "373A4FDABA572983"
+			tasks: [{
+				id: "5314205C7BF470B0"
+				item: "mekanism:modification_station"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5538F214016C0CAC"]
+			id: "4C8D90260306FCB2"
+			tasks: [{
+				id: "34DE9ECCD4D06B3C"
+				item: "mekanism:module_farming_unit"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5538F214016C0CAC"]
+			id: "068C1CF0BAA0BAEB"
+			tasks: [{
+				id: "1D1E9AF13B2EA9D2"
+				item: "mekanism:module_shearing_unit"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5538F214016C0CAC"]
+			id: "60852642489CF094"
+			tasks: [{
+				id: "1FFF9DE0CEA34185"
+				item: "mekanism:module_silk_touch_unit"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5538F214016C0CAC"]
+			id: "7DD2EF8D444CDFE0"
+			tasks: [{
+				id: "6ED20629DDC1321C"
+				item: "mekanism:module_excavation_escalation_unit"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5538F214016C0CAC"]
+			id: "34EF3E6DC2A4C110"
+			tasks: [{
+				id: "3FAC91FFA1F24E51"
+				item: "mekanism:module_fortune_unit"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5538F214016C0CAC"]
+			id: "07354429AC08645E"
+			tasks: [{
+				id: "2357A885A496BE2F"
+				item: "mekanism:module_vein_mining_unit"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["373A4FDABA572983"]
+			id: "1DC001DCF746A01B"
+			tasks: [{
+				id: "4333952C60BDA04D"
+				item: "mekanism:module_teleportation_unit"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A0CA92DD5805F1D"]
+			id: "270176DFA83071D0"
+			tasks: [{
+				id: "595CFF552375E138"
+				item: "mekanism:module_electrolytic_breathing_unit"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2A0CA92DD5805F1D"]
+			id: "10AE55AD0A2E0D23"
+			tasks: [{
+				id: "0525E640B8B5E589"
+				item: "mekanism:module_inhalation_purification_unit"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2A0CA92DD5805F1D"]
+			id: "45E8651D5A7FAF74"
+			tasks: [{
+				id: "01B00A5CB4DCA0EB"
+				item: "mekanism:module_vision_enhancement_unit"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2A0CA92DD5805F1D"]
+			id: "3267CEBFAF79A208"
+			tasks: [{
+				id: "57549FB230B1CB30"
+				item: "mekanism:module_nutritional_injection_unit"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C4105768402F2F8"]
+			id: "63E6C2041425D955"
+			tasks: [{
+				id: "6112F46EB20BFE90"
+				item: "mekanism:module_dosimeter_unit"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C4105768402F2F8"]
+			id: "55BCC3B4D4DFDAE5"
+			tasks: [{
+				id: "6A4AC8D6D02A0EF9"
+				item: "mekanism:module_geiger_unit"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C4105768402F2F8"]
+			id: "1F044BD30E9D6926"
+			tasks: [{
+				id: "766D338E1D74AE7D"
+				item: "mekanism:module_jetpack_unit"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C4105768402F2F8"]
+			id: "228B12E95A74FE6E"
+			tasks: [{
+				id: "334C2E22DE8DACA7"
+				item: "mekanism:module_charge_distribution_unit"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1C4105768402F2F8"
+				"055B0FD95DAB44B2"
+			]
+			id: "54DF16E7F09F9734"
+			tasks: [{
+				id: "3BAA1984EC9AC092"
+				item: "mekanism:module_gravitational_modulating_unit"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C4105768402F2F8"]
+			id: "19F7CB4AD41870CB"
+			tasks: [{
+				id: "79954B4D025557F5"
+				item: "mekanism:module_elytra_unit"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75AD9125524C7951"]
+			id: "7C3EFB2922661297"
+			tasks: [{
+				id: "25799ED1DAF3413F"
+				item: "mekanism:module_gyroscopic_stabilization_unit"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75AD9125524C7951"]
+			id: "5DD514193BE16C2C"
+			tasks: [{
+				id: "1B206FD04DBF070E"
+				item: "mekanism:module_hydrostatic_repulsor_unit"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75AD9125524C7951"]
+			id: "3A30153A200DE2ED"
+			tasks: [{
+				id: "2D28D467D0183BE2"
+				item: "mekanism:module_locomotive_boosting_unit"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75AD9125524C7951"]
+			id: "45C18E4B22A83CE5"
+			tasks: [{
+				id: "223AF369E2804D13"
+				item: "mekanism:module_motorized_servo_unit"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02BDA2BB67A1CBC1"]
+			id: "11262C924FF926E2"
+			tasks: [{
+				id: "0223FAD6BEAD1105"
+				item: "mekanism:module_hydraulic_propulsion_unit"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["02BDA2BB67A1CBC1"]
+			id: "6A1C744FA38E971E"
+			tasks: [{
+				id: "4FDC7AA066798499"
+				item: "mekanism:module_magnetic_attraction_unit"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["02BDA2BB67A1CBC1"]
+			id: "13ED5994B746253A"
+			tasks: [{
+				id: "0AACD84B8BDF941A"
+				item: "mekanism:module_frost_walker_unit"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["54DF16E7F09F9734"]
+			id: "601C36AA9C6968DC"
+			tasks: [{
+				id: "750DB4C7054C35D8"
+				item: "gravitationalmodulatingunittweaks:module_gravitational_modulating_additional_unit"
+				type: "item"
+			}]
+			x: 31.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B3219B67CE4A226"]
+			id: "6A1ACFD4C0052ABB"
+			tasks: [{
+				id: "08EE1920CA9B6EF6"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:waveforce_tower"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Волновая башня"
+			x: 20.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00DE9C83CE353866"]
+			id: "421F9D094748593B"
+			tasks: [{
+				id: "7FF0B3B0084F2751"
+				item: "superbwarfare:heavy_armament_module"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.5d
+		}
+	]
+	title: "Глава 5. Абсолютные технологии"
+}

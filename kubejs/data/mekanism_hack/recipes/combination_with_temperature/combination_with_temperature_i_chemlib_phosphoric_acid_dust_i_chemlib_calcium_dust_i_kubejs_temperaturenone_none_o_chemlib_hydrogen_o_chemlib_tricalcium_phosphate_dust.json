@@ -1,0 +1,24 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 18.4338679245283,
+    "temperature": {},
+    "fluid_input": {
+        "fluid": "kubejs:phosphoric_acid",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:calcium_dust",
+        "count": 3.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanism:hydrogen",
+        "amount": 600.0
+    },
+    "item_output": {
+        "item": "chemlib:tricalcium_phosphate_dust",
+        "count": 1.0
+    }
+}

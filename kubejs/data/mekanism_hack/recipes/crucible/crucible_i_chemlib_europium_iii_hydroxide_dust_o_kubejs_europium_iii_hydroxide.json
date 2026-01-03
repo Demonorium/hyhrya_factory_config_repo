@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:europium_iii_hydroxide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:europium_iii_hydroxide",
+        "amount": 100.0
+    },
+    "energy": 1287
+}

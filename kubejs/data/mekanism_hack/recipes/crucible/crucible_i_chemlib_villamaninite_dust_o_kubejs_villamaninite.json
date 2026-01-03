@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:villamaninite_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:villamaninite",
+        "amount": 100.0
+    },
+    "energy": 5336
+}

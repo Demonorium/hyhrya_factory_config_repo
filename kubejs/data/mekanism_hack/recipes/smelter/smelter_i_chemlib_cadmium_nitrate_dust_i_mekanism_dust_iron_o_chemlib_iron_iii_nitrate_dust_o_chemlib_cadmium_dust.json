@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:iron_iii_nitrate_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:cadmium_dust",
+            "count": 3.0
+        }
+    ],
+    "energy": 79442.6,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:cadmium_nitrate_dust",
+            "count": 3.0
+        },
+        {
+            "item": "mekanism:dust_iron",
+            "count": 2.0
+        }
+    ]
+}

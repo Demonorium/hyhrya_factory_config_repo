@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:silicon_tetrafluoride",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "mekanism_extras:silicon_tetrafluoride",
+        "amount": 100.0
+    },
+    "energy": 1782
+}

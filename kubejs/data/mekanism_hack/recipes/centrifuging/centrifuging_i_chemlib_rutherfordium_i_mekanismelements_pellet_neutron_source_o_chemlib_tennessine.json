@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:rutherfordium",
+        "amount": 9.0
+    },
+    "output": {
+        "gas": "kubejs:tennessine",
+        "amount": 200.0,
+        "chemicalType": "gas"
+    }
+}

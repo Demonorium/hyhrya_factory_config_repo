@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:indium",
+        "amount": 8.0
+    },
+    "output": {
+        "gas": "kubejs:barium",
+        "amount": 175.0,
+        "chemicalType": "gas"
+    }
+}

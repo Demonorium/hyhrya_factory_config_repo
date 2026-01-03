@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "moremekanismprocessing:boron_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 23490.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:boron",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

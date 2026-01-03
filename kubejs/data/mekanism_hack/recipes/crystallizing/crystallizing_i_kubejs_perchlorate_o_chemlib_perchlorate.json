@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:perchlorate",
+        "amount": 100
+    },
+    "output": {
+        "item": "chemlib:perchlorate",
+        "count": 1.0
+    }
+}

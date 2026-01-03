@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "minecraft:water"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "mekanism:oxygen"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:calcium_dust"
+        }
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:calcium_hydroxide_dust"
+    }
+}

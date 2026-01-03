@@ -1,0 +1,23 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+        "item": "chemlib:potassium_nitrite_dust",
+        "count": 2.0
+    },
+    "result": [
+        {
+            "item": "chemlib:potassium_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:nitrogen",
+            "count": 2.0
+        },
+        {
+            "fluid": "mekanism:oxygen",
+            "amount": 300.0
+        }
+    ],
+    "energy": 7131.7,
+    "experience": 3.57
+}

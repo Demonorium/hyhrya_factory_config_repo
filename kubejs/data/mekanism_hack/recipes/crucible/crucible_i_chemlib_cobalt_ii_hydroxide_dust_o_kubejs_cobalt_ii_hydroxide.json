@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:cobalt_ii_hydroxide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:cobalt_ii_hydroxide",
+        "amount": 100.0
+    },
+    "energy": 3308
+}

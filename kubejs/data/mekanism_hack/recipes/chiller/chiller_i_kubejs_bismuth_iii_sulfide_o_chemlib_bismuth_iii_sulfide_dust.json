@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:bismuth_iii_sulfide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:bismuth_iii_sulfide_dust",
+            "count": 1
+        }
+    ],
+    "energy": 3382
+}

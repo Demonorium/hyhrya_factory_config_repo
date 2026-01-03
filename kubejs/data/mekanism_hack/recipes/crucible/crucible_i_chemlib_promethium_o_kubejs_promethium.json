@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:promethium",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:promethium",
+        "amount": 100.0
+    },
+    "energy": 13150
+}

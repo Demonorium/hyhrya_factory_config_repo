@@ -1,0 +1,29 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:potassium_nitrite_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:potassium_permanganate",
+            "count": 2.0
+        }
+    ],
+    "energy": 61814.645,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:manganese_oxide_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:potassium_carbonate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "thermal:niter_dust",
+            "count": 3.0
+        }
+    ]
+}

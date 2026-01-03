@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:rhenium_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:rhenium",
+        "amount": 100.0
+    },
+    "energy": 25942
+}

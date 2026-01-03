@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:copper_chloride",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:copper_chloride",
+        "amount": 100.0
+    },
+    "energy": 9030
+}

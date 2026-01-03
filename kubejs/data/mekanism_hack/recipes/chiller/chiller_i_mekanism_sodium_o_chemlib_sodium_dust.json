@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "mekanism:sodium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:sodium_dust",
+            "count": 1
+        }
+    ],
+    "energy": 2782
+}

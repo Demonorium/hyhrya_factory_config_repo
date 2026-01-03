@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "mekanism:oxygen",
+        "amount": 1.0
+    },
+    "output": {
+        "gas": "kubejs:potassium_oxide",
+        "amount": 1.0
+    },
+    "rightInput": {
+        "gas": "kubejs:potassium",
+        "amount": 2.0
+    }
+}

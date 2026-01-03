@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+      "amount": 100,
+      "fluid": "kubejs:calcium_carbonate"
+    },
+    "gasInput": {
+      "amount": 1,
+      "gas": "mekanismelements:ammonia"
+    },
+    "itemInput": {
+      "amount": 2,
+      "ingredient": {
+        "item": "chemlib:sodium_chloride"
+      }
+    },
+    "itemOutput": {
+      "count": 1,
+      "item": "chemlib:sodium_carbonate"
+    },
+    "gasOutput": {
+      "amount": 100,
+      "gas": "kubejs:calcium_chloride"
+    }
+}

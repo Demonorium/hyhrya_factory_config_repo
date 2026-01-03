@@ -1,0 +1,22 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+        "item": "mekanism:dirty_dust_iron",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "chemlib:iron_oxide_dust",
+            "chance": 2.5
+        },
+        {
+            "item": "chemlib:iron_carbonate_dust",
+            "chance": 1.5
+        },
+        {
+            "item": "chemlib:magnetite_dust",
+            "chance": 0.6666666666666666
+        }
+    ],
+    "energy": 3000
+}

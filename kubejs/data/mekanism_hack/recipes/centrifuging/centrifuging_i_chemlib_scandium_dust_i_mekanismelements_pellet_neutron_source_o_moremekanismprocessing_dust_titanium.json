@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:scandium",
+        "amount": 22.0
+    },
+    "output": {
+        "gas": "kubejs:titanium",
+        "amount": 525.0,
+        "chemicalType": "gas"
+    }
+}

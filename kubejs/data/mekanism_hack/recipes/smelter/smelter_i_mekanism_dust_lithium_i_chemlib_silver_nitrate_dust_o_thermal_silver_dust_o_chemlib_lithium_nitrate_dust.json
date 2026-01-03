@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "thermal:silver_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:lithium_nitrate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 23414.800000000003,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "mekanism:dust_lithium",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:silver_nitrate_dust",
+            "count": 1.0
+        }
+    ]
+}

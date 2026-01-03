@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:silicon_dioxide",
+            "count": 5.0
+        },
+        {
+            "item": "chemlib:phosphorus_dust",
+            "count": 4.0
+        }
+    ],
+    "energy": 208602.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:phosphorus_pentoxide_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:silicon_dust",
+            "count": 5.0
+        }
+    ]
+}

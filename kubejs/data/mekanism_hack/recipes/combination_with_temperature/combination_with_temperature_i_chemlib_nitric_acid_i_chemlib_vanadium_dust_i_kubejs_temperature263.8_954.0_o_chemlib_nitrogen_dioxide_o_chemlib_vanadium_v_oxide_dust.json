@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 11.07090909090909,
+    "temperature": {
+        "min_temp": 263.8,
+        "max_temp": 954.0
+    },
+    "fluid_input": {
+        "fluid": "mekanismelements:nitric_acid",
+        "amount": 1000.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:vanadium_dust",
+        "count": 2.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:nitrogen_dioxide",
+        "amount": 1000.0
+    },
+    "item_output": {
+        "item": "chemlib:vanadium_v_oxide_dust",
+        "count": 1.0
+    }
+}

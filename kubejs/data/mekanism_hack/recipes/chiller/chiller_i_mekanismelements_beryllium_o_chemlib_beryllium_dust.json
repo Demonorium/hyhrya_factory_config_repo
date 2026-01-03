@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "mekanismelements:beryllium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:beryllium_dust",
+            "count": 1
+        }
+    ],
+    "energy": 11700
+}

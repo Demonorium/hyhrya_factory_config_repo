@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:irradiating",
+    "input": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "mekanism:dust_tin"
+        }
+    },
+    "output": {
+        "item": "chemlib:antimony_dust",
+        "count": 1.0
+    },
+    "ticks": 3640
+}

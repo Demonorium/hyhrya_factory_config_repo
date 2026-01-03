@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:yttrium_iii_sulfate_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:yttrium_iii_sulfate",
+        "amount": 100.0
+    },
+    "energy": 1748
+}

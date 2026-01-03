@@ -1,0 +1,24 @@
+{
+    "type": "thermal:refinery",
+    "ingredient": {
+        "fluid": "sgjourney:liquid_naquadah",
+        "amount": 100.0
+    },
+    "result": [
+        {
+            "item": "mekanism_extras:dirty_dust_naquadah",
+            "count": 1.0,
+            "chance": 0.5
+        },
+        {
+            "fluid": "mekanism_extras:silicon_tetrafluoride",
+            "amount": 10.0
+        },
+        {
+            "fluid": "sgjourney:heavy_liquid_naquadah",
+            "amount": 10.0
+        }
+    ],
+    "energy": 50000,
+    "experience": 0.2
+}

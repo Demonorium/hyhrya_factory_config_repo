@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 2000,
+    "energyRequired": 600,
+    "fluidInput": {
+        "amount": 200,
+        "fluid": "pneumaticcraft:kerosene"
+    },
+    "gasInput": {
+        "amount": 400,
+        "gas": "mekanism:sulfur_dioxide"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "tag": "kubejs:minecraft/red_sandstone_1"
+        }
+    },
+    "gasOutput": {
+        "amount": 200,
+        "gas": "kubejs:thorium_iv_sulfide"
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "chemlib:neodymium_iii_sulfate_dust"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_hydroxide_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:aluminum_nitrate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 44430.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:aluminum_hydroxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_nitrate_dust",
+            "count": 3.0
+        }
+    ]
+}

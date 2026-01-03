@@ -1,0 +1,69 @@
+{
+  "ID": "minecraft:pillager",
+  "Probability": 0.9,
+  "Guns": [
+    {
+      // Gun item's registry ID, MUST NOT be null and MUST be GunItem
+      "ID": "superbwarfare:rpg",
+      // Roll weight for this gun
+      "Weight": 2,
+      // Aim time in ticks for mobs to aim before shoot
+      "AimTime": 60,
+      // Clear aim time when lost sight, otherwise aim time will reduce by 1 per tick
+      "ClearAimTimeWhenLostSight": true,
+      // Extra cooldown in microseconds for semi and burst fire mode
+      "SemiFireInterval": 200,
+      // Backup ammo count for this gun
+      "BackupAmmo": 10,
+      // Should guns be loaded when mobs spawn
+      "SpawnWithLoadedAmmo": true,
+      "ShootDistance": 90,
+      // Will mobs be considered as zooming when shoot
+      "Zoom": true,
+      // Fire spread
+      "Spread": 5
+    },
+    {
+      // Gun item's registry ID, MUST NOT be null and MUST be GunItem
+      "ID": "superbwarfare:m_4",
+      // Roll weight for this gun
+      "Weight": 5,
+      // Aim time in ticks for mobs to aim before shoot
+      "AimTime": 30,
+      // Clear aim time when lost sight, otherwise aim time will reduce by 1 per tick
+      "ClearAimTimeWhenLostSight": true,
+      // Extra cooldown in microseconds for semi and burst fire mode
+      "SemiFireInterval": 200,
+      // Backup ammo count for this gun
+      "BackupAmmo": 1000,
+      // Should guns be loaded when mobs spawn
+      "SpawnWithLoadedAmmo": true,
+      "ShootDistance": 40,
+      // Will mobs be considered as zooming when shoot
+      "Zoom": true,
+      // Fire spread
+      "Spread": 10
+    },
+    {
+      // Gun item's registry ID, MUST NOT be null and MUST be GunItem
+      "ID": "superbwarfare:m_870",
+      // Roll weight for this gun
+      "Weight": 3,
+      // Aim time in ticks for mobs to aim before shoot
+      "AimTime": 30,
+      // Clear aim time when lost sight, otherwise aim time will reduce by 1 per tick
+      "ClearAimTimeWhenLostSight": true,
+      // Extra cooldown in microseconds for semi and burst fire mode
+      "SemiFireInterval": 200,
+      // Backup ammo count for this gun
+      "BackupAmmo": 2000,
+      // Should guns be loaded when mobs spawn
+      "SpawnWithLoadedAmmo": true,
+      "ShootDistance": 30,
+      // Will mobs be considered as zooming when shoot
+      "Zoom": true,
+      // Fire spread
+      "Spread": 5
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+        "tag": "kubejs:undergarden/depthrock_0_5",
+        "count": 2.0
+    },
+    "result": [
+        {
+            "item": "moremekanismprocessing:dust_boron",
+            "count": 1.0
+        },
+        {
+            "item": "biomancy:gem_fragment",
+            "count": 1.0,
+            "chance": 0.25
+        },
+        {
+            "item": "thermal:slag",
+            "count": 1.0,
+            "chance": 0.75
+        },
+        {
+            "fluid": "mekanism:hydrogen",
+            "amount": 100.0
+        }
+    ],
+    "energy": 7000,
+    "experience": 3.5
+}

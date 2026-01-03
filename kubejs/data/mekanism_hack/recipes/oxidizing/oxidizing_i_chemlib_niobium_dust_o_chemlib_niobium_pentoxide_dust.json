@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:oxidizing",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:niobium_dust"
+        }
+    },
+    "output": {
+        "gas": "kubejs:niobium_pentoxide",
+        "amount": 50.0
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crushing",
+    "input": {
+      "ingredient": {
+        "tag": "forge:dense_ores/copper"
+      }
+    },
+    "output": {
+      "count": 15,
+      "item": "chemlib:copper_nitrate"
+    }
+}

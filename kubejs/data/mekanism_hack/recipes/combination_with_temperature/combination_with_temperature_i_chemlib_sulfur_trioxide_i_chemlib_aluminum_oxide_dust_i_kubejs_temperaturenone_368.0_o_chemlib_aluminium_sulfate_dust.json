@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 0.95,
+    "temperature": {
+        "max_temp": 368.0
+    },
+    "fluid_input": {
+        "fluid": "mekanism:sulfur_trioxide",
+        "amount": 300.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:aluminum_oxide_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "chemlib:aluminium_sulfate_dust",
+        "count": 1.0
+    }
+}

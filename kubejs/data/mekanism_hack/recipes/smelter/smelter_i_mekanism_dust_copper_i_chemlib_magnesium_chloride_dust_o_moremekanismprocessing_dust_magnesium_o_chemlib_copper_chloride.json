@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "moremekanismprocessing:dust_magnesium",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:copper_chloride",
+            "count": 1.0
+        }
+    ],
+    "energy": 46060.2,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "mekanism:dust_copper",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:magnesium_chloride_dust",
+            "count": 1.0
+        }
+    ]
+}

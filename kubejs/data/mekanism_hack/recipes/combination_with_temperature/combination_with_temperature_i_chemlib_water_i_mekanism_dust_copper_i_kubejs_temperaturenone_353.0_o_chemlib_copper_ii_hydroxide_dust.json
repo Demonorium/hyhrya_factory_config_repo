@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 0.8,
+    "temperature": {
+        "max_temp": 353.0
+    },
+    "fluid_input": {
+        "fluid": "minecraft:water",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "mekanism:dust_copper",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "chemlib:copper_ii_hydroxide_dust",
+        "count": 1.0
+    }
+}

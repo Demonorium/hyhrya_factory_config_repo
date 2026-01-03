@@ -1,0 +1,27 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "chemlib:chitin_dust",
+        "count": 1.0
+    },
+    "nutrientsCost": 3,
+    "processingTime": 50,
+    "results": [
+        {
+            "item": "chemlib:aniline",
+            "countRange": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+            }
+        },
+        {
+            "item": "biomancy:nutrient_paste",
+            "countRange": {
+                "type": "uniform",
+                "min": 1,
+                "max": 3
+            }
+        }
+    ]
+}

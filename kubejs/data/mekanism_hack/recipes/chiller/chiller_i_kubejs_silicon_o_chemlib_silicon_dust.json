@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:silicon",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:silicon_dust",
+            "count": 1
+        }
+    ],
+    "energy": 12652
+}

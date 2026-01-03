@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:carboxylic_acid",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:carboxylic_acid",
+        "amount": 100.0
+    },
+    "energy": 256
+}

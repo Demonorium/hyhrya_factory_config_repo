@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:barium_carbonate",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:barium_carbonate_dust",
+            "count": 1
+        }
+    ],
+    "energy": 8130
+}

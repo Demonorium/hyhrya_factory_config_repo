@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "mekanismelements:hydrogen_cyanide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:hydrogen_cyanide",
+            "count": 1
+        }
+    ],
+    "energy": 2599
+}

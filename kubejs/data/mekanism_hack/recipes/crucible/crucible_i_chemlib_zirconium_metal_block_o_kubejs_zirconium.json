@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:zirconium_metal_block",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:zirconium",
+        "amount": 900.0
+    },
+    "energy": 191520.0
+}

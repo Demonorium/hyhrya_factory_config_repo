@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 8.836653386454183,
+    "temperature": {
+        "min_temp": 613.0
+    },
+    "fluid_input": {
+        "fluid": "kubejs:carbon_dioxide",
+        "amount": 500.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:phosphorus_dust",
+        "count": 4.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:phosphorus_pentoxide",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "chemlib:carbon_dust",
+        "count": 5.0
+    }
+}

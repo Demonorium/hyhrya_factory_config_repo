@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "moremekanismprocessing:platinum_ingot",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:platinum",
+        "amount": 100.0
+    },
+    "energy": 20414.0
+}

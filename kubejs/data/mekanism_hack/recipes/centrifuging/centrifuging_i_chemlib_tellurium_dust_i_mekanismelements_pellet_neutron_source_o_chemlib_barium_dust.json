@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:tellurium",
+        "amount": 14.0
+    },
+    "output": {
+        "gas": "kubejs:barium",
+        "amount": 325.0,
+        "chemicalType": "gas"
+    }
+}

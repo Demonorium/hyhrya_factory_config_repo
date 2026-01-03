@@ -1,0 +1,15 @@
+{
+    "type": "thermal:insolator",
+    "ingredient": {
+        "item": "undergarden:miserabell",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "undergarden:miserabell",
+            "chance": 2
+        }
+    ],
+    "energy_mod": 0.5,
+    "water_mod": 0.5
+}

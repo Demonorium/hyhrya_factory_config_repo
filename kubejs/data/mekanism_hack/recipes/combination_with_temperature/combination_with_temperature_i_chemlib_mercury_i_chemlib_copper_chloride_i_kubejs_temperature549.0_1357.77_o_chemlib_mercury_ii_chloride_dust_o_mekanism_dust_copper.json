@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 18.87891089108911,
+    "temperature": {
+        "min_temp": 549.0,
+        "max_temp": 1357.77
+    },
+    "fluid_input": {
+        "fluid": "kubejs:mercury",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:copper_chloride",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:mercury_ii_chloride",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "mekanism:dust_copper",
+        "count": 1.0
+    }
+}

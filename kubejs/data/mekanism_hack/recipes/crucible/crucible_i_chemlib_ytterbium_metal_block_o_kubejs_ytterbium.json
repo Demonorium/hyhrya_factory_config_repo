@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:ytterbium_metal_block",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:ytterbium",
+        "amount": 900.0
+    },
+    "energy": 98730.0
+}

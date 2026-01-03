@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:irradiating",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:oganesson"
+        }
+    },
+    "output": {
+        "item": "chemlib:stackoverflowium",
+        "count": 1.0
+    },
+    "ticks": 40
+}

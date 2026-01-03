@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:unknown",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:unknown",
+            "count": 1
+        }
+    ],
+    "energy": 10
+}

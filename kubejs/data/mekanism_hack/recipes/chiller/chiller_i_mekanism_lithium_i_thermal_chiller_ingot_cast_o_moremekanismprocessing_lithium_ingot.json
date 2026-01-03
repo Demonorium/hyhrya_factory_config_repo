@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "moremekanismprocessing:lithium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 4536.5,
+    "ingredients": [
+        {
+            "fluid": "mekanism:lithium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

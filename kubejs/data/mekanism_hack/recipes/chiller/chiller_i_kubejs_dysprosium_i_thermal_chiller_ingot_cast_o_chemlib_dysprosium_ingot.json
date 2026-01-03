@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:dysprosium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 16800.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:dysprosium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

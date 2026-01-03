@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:krypton",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:krypton",
+        "amount": 100.0
+    },
+    "energy": 1158
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:phosphate",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:phosphate_dust",
+            "count": 1
+        }
+    ],
+    "energy": 802
+}

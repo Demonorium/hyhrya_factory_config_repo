@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "mekanismelements:methane",
+        "amount": 100
+    },
+    "output": {
+        "item": "chemlib:methane",
+        "count": 1.0
+    }
+}

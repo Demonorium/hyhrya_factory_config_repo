@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "mekanism:salt",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:barium_sulfate",
+            "count": 1.0
+        }
+    ],
+    "energy": 63484.8,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:barium_chloride_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_sulfate_dust",
+            "count": 1.0
+        }
+    ]
+}

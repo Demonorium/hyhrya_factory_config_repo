@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:terbium_ingot",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:terbium",
+        "amount": 100.0
+    },
+    "energy": 16290.0
+}

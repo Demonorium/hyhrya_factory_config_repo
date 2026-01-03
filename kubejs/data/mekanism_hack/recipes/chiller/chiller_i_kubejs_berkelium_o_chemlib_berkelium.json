@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:berkelium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:berkelium",
+            "count": 1
+        }
+    ],
+    "energy": 12590
+}

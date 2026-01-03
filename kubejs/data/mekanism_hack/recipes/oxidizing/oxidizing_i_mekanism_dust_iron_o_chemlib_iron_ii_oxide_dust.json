@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:oxidizing",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:dust_iron"
+        }
+    },
+    "output": {
+        "gas": "kubejs:iron_ii_oxide",
+        "amount": 100.0
+    }
+}

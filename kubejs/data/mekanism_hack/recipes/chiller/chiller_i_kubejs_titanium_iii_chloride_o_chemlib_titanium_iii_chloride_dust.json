@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:titanium_iii_chloride",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:titanium_iii_chloride_dust",
+            "count": 1
+        }
+    ],
+    "energy": 5348
+}

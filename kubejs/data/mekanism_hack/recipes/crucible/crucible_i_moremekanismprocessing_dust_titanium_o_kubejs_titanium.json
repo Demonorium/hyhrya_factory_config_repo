@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "moremekanismprocessing:dust_titanium",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:titanium",
+        "amount": 100.0
+    },
+    "energy": 14558
+}

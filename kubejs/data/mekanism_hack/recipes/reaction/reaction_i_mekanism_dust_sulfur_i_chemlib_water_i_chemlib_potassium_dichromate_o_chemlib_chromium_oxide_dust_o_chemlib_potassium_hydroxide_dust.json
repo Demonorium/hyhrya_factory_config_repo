@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 300,
+        "fluid": "kubejs:sulfur"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "mekanism:water_vapor"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:potassium_dichromate"
+        }
+    },
+    "gasOutput": {
+        "amount": 400,
+        "gas": "mekanismelements:potassium_hydroxide"
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "chemlib:chromium_oxide_dust"
+    }
+}

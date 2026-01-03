@@ -1,0 +1,18 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+        "item": "undergarden:utherium_crystal",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "minecraft:redstone",
+            "count": 1.0
+        },
+        {
+            "fluid": "biomesoplenty:blood",
+            "amount": 100.0
+        }
+    ],
+    "energy": 4000
+}

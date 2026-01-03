@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:oxidizing",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dust_cobalt"
+        }
+    },
+    "output": {
+        "gas": "kubejs:cobalt_ii_oxide",
+        "amount": 100.0
+    }
+}

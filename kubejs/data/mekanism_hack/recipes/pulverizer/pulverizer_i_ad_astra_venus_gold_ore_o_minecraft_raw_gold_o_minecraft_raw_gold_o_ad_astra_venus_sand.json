@@ -1,0 +1,22 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "ad_astra:venus_gold_ore",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "minecraft:raw_gold",
+            "chance": 2.5
+        },
+        {
+            "item": "minecraft:raw_gold",
+            "chance": 0.5
+        },
+        {
+            "item": "ad_astra:venus_sand",
+            "chance": 0.25
+        }
+    ],
+    "experience": 1.0
+}

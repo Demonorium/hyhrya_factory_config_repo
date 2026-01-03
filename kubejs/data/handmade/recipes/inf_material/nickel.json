@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:infusion_conversion",
+    "input": {
+      "ingredient": [
+        {
+          "item": "moremekanismprocessing:dust_nickel"
+        }
+      ]
+    },
+    "output": {
+      "amount": 10,
+      "infuse_type": "kubejs:nickel"
+    }
+  }

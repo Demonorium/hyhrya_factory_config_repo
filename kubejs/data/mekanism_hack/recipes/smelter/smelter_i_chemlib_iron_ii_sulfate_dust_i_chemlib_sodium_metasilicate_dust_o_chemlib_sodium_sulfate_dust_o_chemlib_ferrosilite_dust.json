@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:ferrosilite_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 42032.16,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:iron_ii_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_metasilicate_dust",
+            "count": 1.0
+        }
+    ]
+}

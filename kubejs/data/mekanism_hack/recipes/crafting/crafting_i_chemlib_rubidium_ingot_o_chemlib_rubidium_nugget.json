@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "chemlib:rubidium_ingot",
+            "count": 1.0
+        }
+    ],
+    "result": {
+        "item": "chemlib:rubidium_nugget",
+        "count": 9.0
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:seaborgium",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:seaborgium",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:seaborgium",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:seaborgium",
+        "amount": 1.0
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 547,
+    "fluidInput": {
+        "amount": 200,
+        "fluid": "minecraft:water"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "mekanismelements:nitric_oxide"
+    },
+    "itemInput": {
+        "amount": 3.0,
+        "ingredient": {
+            "item": "chemlib:bromine"
+        }
+    },
+    "gasOutput": {
+        "amount": 300,
+        "gas": "kubejs:hydrogen_bromide"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:nitric_acid"
+    }
+}

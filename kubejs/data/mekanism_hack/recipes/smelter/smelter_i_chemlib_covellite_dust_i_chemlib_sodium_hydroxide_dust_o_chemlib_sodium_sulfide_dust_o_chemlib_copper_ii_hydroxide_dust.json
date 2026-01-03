@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_sulfide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:copper_ii_hydroxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 38670.65,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:covellite_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_hydroxide_dust",
+            "count": 2.0
+        }
+    ]
+}

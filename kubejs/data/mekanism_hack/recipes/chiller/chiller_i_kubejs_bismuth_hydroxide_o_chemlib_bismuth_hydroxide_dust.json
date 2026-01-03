@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:bismuth_hydroxide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:bismuth_hydroxide_dust",
+            "count": 1
+        }
+    ],
+    "energy": 693
+}

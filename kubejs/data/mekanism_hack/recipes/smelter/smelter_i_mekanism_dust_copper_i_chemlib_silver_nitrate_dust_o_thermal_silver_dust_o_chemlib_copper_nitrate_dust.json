@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "thermal:silver_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:copper_nitrate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 51802.3,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "mekanism:dust_copper",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:silver_nitrate_dust",
+            "count": 2.0
+        }
+    ]
+}

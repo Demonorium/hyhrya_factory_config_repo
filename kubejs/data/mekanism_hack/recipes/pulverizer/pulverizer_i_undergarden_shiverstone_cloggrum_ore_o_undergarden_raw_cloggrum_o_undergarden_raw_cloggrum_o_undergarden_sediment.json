@@ -1,0 +1,22 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "undergarden:shiverstone_cloggrum_ore",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "undergarden:raw_cloggrum",
+            "chance": 2.5
+        },
+        {
+            "item": "undergarden:raw_cloggrum",
+            "chance": 0.5
+        },
+        {
+            "item": "undergarden:sediment",
+            "chance": 0.25
+        }
+    ],
+    "experience": 1.0
+}

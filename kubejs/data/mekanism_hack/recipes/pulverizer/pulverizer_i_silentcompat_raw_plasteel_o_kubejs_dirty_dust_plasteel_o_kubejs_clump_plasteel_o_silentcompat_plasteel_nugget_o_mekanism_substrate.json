@@ -1,0 +1,28 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "silentcompat:raw_plasteel",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "kubejs:dirty_dust_plasteel",
+            "chance": 1.5
+        },
+        {
+            "item": "kubejs:clump_plasteel",
+            "chance": 1.0
+        },
+        {
+            "item": "silentcompat:plasteel_nugget",
+            "count": 1.0,
+            "chance": 40
+        },
+        {
+            "item": "mekanism:substrate",
+            "count": 1.0,
+            "chance": 3
+        }
+    ],
+    "experience": 1.0
+}

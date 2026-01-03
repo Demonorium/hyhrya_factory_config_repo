@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 1215,
+    "fluidInput": {
+        "amount": 200,
+        "fluid": "kubejs:sodium_hydroxide"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "kubejs:hydrogen_peroxide"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:potassium_permanganate"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "kubejs:sodium_oxide"
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "chemlib:potassium_hydroxide_dust"
+    }
+}

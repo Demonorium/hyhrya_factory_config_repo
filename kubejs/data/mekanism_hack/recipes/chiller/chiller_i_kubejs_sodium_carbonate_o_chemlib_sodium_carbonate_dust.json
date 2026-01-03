@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:sodium_carbonate",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:sodium_carbonate_dust",
+            "count": 1
+        }
+    ],
+    "energy": 8430
+}

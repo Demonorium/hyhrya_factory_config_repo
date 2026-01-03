@@ -1,0 +1,24 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 31.615148514851487,
+    "temperature": {},
+    "fluid_input": {
+        "fluid": "kubejs:carbon_dioxide",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "moremekanismprocessing:dust_magnesium",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:carbon_monoxide",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:magnesium_oxide_dust",
+        "count": 1.0
+    }
+}

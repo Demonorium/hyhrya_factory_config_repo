@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 13.512871287128712,
+    "temperature": {
+        "min_temp": 291.0,
+        "max_temp": 1073.8
+    },
+    "fluid_input": {
+        "fluid": "mekanism:chlorine",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:sodium_hydroxide_dust",
+        "count": 2.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:sodium_hypochlorite",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "mekanism:salt",
+        "count": 1.0
+    }
+}

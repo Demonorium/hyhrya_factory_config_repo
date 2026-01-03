@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:infusion_conversion",
+    "input": {
+      "ingredient": [
+        {
+          "item": "moremekanismprocessing:dust_zinc"
+        }
+      ]
+    },
+    "output": {
+      "amount": 10,
+      "infuse_type": "kubejs:zinc"
+    }
+  }

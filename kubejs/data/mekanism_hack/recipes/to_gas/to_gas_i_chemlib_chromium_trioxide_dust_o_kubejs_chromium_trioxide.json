@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:chromium_trioxide_dust"
+        }
+    },
+    "output": {
+        "gas": "kubejs:chromium_trioxide",
+        "amount": 100.0
+    }
+}

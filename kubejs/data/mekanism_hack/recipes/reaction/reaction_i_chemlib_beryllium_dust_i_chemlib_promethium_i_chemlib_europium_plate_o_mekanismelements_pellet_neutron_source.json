@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 600,
+    "fluidInput": {
+        "amount": 10000,
+        "fluid": "mekanismelements:beryllium"
+    },
+    "gasInput": {
+        "amount": 2,
+        "gas": "kubejs:promethium"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:europium_plate"
+        }
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "mekanismelements:pellet_neutron_source"
+    }
+}

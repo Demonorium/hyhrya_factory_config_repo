@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:ytterbium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 10970.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:ytterbium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:beryllium_hydroxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 37671.58,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:beryllium_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_hydroxide_dust",
+            "count": 2.0
+        }
+    ]
+}

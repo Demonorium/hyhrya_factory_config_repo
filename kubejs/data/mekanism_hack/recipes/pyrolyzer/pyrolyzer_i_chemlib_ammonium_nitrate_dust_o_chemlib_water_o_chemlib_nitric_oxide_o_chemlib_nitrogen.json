@@ -1,0 +1,23 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+        "item": "chemlib:ammonium_nitrate_dust",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "chemlib:water",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:nitric_oxide",
+            "count": 1.0
+        },
+        {
+            "fluid": "mekanismelements:nitrogen",
+            "amount": 100.0
+        }
+    ],
+    "energy": 4830.0,
+    "experience": 2.42
+}

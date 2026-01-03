@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "mekanism:dust_copper",
+            "count": 6.0
+        },
+        {
+            "item": "chemlib:aluminum_oxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 137688.64,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "moremekanismprocessing:dust_aluminum",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:copper_i_oxide_dust",
+            "count": 3.0
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:copper_nitrate",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:copper_nitrate_dust",
+            "count": 1
+        }
+    ],
+    "energy": 2902
+}

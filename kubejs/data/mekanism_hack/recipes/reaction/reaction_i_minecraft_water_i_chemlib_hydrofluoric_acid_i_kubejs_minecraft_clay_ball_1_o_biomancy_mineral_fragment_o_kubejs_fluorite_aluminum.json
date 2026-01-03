@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 600,
+    "fluidInput": {
+        "amount": 1000,
+        "fluid": "minecraft:water"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "mekanism:hydrofluoric_acid"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "tag": "kubejs:minecraft/clay_ball_1"
+        }
+    },
+    "gasOutput": {
+        "amount": 200,
+        "gas": "kubejs:fluorite_aluminum"
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "biomancy:mineral_fragment"
+    }
+}

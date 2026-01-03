@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "moremekanismprocessing:platinum_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 20414.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:platinum",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

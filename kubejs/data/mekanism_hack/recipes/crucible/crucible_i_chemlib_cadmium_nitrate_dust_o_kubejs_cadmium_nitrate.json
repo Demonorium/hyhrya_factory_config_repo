@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:cadmium_nitrate_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:cadmium_nitrate",
+        "amount": 100.0
+    },
+    "energy": 4748
+}

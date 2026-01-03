@@ -1,0 +1,14 @@
+{
+  "difficultyWeight": 0.1,
+  "genericScale": 0.136,
+  "affectHostiles": false,
+  "affectPeacefuls": false,
+  "modBlacklist": [],
+  "mode": "DIFFICULTY",
+  "damageScales": [
+    {
+      "damageTypes" : ["cactus"],
+      "scale" : 0
+    }
+  ]
+}

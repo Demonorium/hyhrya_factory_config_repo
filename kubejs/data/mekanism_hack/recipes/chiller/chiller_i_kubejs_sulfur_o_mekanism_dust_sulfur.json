@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:sulfur",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "mekanism:dust_sulfur",
+            "count": 1
+        }
+    ],
+    "energy": 2913
+}

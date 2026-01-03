@@ -1,0 +1,21 @@
+{
+    "type": "thermal:press",
+    "ingredients": [
+        {
+            "item": "opposing_force:cream_cap",
+            "count": 1.0
+        }
+    ],
+    "result": [
+        {
+            "item": "minecraft:slime_ball",
+            "count": 1.0
+        },
+        {
+            "fluid": "thermal:resin",
+            "amount": 1.0
+        }
+    ],
+    "energy": 500,
+    "experience": 0.15
+}

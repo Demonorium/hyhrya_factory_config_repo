@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:irradiating",
+    "input": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:thulium_dust"
+        }
+    },
+    "output": {
+        "item": "chemlib:ytterbium_dust",
+        "count": 1.0
+    },
+    "ticks": 2640
+}

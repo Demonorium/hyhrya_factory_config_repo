@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:scandium_ingot",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:scandium",
+        "amount": 100.0
+    },
+    "energy": 18140.0
+}

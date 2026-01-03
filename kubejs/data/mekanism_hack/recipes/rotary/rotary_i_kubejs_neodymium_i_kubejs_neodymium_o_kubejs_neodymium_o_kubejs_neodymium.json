@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:neodymium",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:neodymium",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:neodymium",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:neodymium",
+        "amount": 1.0
+    }
+}

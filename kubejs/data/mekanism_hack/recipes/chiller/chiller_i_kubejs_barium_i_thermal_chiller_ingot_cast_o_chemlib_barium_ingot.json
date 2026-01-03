@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:barium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 10000.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:barium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

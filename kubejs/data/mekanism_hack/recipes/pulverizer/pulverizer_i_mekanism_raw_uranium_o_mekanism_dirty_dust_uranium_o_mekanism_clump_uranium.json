@@ -1,0 +1,18 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "mekanism:raw_uranium",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "mekanism:dirty_dust_uranium",
+            "chance": 1.5
+        },
+        {
+            "item": "mekanism:clump_uranium",
+            "chance": 1.0
+        }
+    ],
+    "experience": 1.0
+}

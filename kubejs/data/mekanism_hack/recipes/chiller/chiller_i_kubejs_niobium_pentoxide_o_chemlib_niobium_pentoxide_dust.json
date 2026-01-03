@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:niobium_pentoxide",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:niobium_pentoxide_dust",
+            "count": 1
+        }
+    ],
+    "energy": 13388
+}

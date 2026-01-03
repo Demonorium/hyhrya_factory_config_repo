@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:zinc_hydroxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:copper_nitrate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 15210.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:copper_ii_hydroxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:zinc_nitrate_dust",
+            "count": 1.0
+        }
+    ]
+}

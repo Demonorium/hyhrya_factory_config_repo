@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:thulium",
+        "amount": 4.0
+    },
+    "output": {
+        "gas": "kubejs:uranium",
+        "amount": 75.0,
+        "chemicalType": "gas"
+    }
+}

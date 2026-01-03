@@ -1,0 +1,18 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+        "item": "moremekanismprocessing:dirty_dust_calorite",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "chemlib:tungsten_carbide_dust",
+            "chance": 2.5
+        },
+        {
+            "item": "chemlib:tin_oxide_dust",
+            "chance": 1.5
+        }
+    ],
+    "energy": 2000
+}

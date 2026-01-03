@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:cadmium_chloride_dust",
+            "count": 3.0
+        },
+        {
+            "item": "moremekanismprocessing:dust_aluminum",
+            "count": 2.0
+        }
+    ],
+    "energy": 73125.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:aluminium_chloride_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:cadmium_dust",
+            "count": 3.0
+        }
+    ]
+}

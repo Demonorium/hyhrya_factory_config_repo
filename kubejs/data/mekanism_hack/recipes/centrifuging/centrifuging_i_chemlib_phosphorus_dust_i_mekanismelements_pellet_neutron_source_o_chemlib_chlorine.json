@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:phosphorus",
+        "amount": 17.0
+    },
+    "output": {
+        "gas": "mekanism:chlorine",
+        "amount": 375.0,
+        "chemicalType": "gas"
+    }
+}

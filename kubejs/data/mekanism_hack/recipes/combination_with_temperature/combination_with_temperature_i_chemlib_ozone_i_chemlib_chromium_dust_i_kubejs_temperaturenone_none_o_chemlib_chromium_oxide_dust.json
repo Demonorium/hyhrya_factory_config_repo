@@ -1,0 +1,20 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 24.35,
+    "temperature": {},
+    "fluid_input": {
+        "fluid": "kubejs:ozone",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:chromium_dust",
+        "count": 2.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "chemlib:chromium_oxide_dust",
+        "count": 1.0
+    }
+}

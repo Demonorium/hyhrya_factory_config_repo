@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:ethylene",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:ethylene",
+            "count": 1
+        }
+    ],
+    "energy": 1040
+}

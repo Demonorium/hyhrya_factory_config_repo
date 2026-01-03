@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:magnesium_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:iron_hydroxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 57949.7,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:iron_ii_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:magnesium_hydroxide_dust",
+            "count": 1.0
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:plutonium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:plutonium",
+            "count": 1
+        }
+    ],
+    "energy": 9125
+}

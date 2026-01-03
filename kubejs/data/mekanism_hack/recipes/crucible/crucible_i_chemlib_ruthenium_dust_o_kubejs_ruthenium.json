@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:ruthenium_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:ruthenium",
+        "amount": 100.0
+    },
+    "energy": 19552
+}

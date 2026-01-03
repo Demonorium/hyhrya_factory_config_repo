@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:strontium_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:copper_nitrate_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 18889.666666666668,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:copper_ii_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:strontium_nitrate_dust",
+            "count": 1.0
+        }
+    ]
+}

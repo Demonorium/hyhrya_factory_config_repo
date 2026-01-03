@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:lutetium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 19250.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:lutetium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

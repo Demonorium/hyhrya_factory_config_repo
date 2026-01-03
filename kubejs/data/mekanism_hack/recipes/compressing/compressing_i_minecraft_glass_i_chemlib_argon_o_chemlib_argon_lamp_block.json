@@ -1,0 +1,17 @@
+{
+    "type": "mekanism:compressing",
+    "chemicalInput": {
+        "gas": "kubejs:argon",
+        "amount": 4.0
+    },
+    "itemInput": {
+        "amount": 4.0,
+        "ingredient": {
+            "item": "minecraft:glass"
+        }
+    },
+    "output": {
+        "item": "chemlib:argon_lamp_block",
+        "count": 1.0
+    }
+}

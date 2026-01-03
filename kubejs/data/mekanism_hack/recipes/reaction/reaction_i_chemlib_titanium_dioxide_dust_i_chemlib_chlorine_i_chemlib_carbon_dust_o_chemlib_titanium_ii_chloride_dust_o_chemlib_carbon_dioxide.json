@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 236,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "kubejs:titanium_dioxide"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "mekanism:chlorine"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:carbon_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "kubejs:carbon_dioxide"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:titanium_ii_chloride_dust"
+    }
+}

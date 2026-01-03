@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 600,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "kubejs:acetic_acid"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "kubejs:formic_acid"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "minecraft:milk_bucket"
+        }
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "pneumaticcraft:plastic_bucket"
+    }
+}

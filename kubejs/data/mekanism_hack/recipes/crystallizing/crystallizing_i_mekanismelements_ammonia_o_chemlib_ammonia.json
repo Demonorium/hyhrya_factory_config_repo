@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "mekanismelements:ammonia",
+        "amount": 100
+    },
+    "output": {
+        "item": "chemlib:ammonia",
+        "count": 1.0
+    }
+}

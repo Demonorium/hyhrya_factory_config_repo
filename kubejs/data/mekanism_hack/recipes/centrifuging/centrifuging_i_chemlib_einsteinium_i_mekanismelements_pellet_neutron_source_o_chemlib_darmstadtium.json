@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:einsteinium",
+        "amount": 10.0
+    },
+    "output": {
+        "gas": "kubejs:darmstadtium",
+        "amount": 225.0,
+        "chemicalType": "gas"
+    }
+}

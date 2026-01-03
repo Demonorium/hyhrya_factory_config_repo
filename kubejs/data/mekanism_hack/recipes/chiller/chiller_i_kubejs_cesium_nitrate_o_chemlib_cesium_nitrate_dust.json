@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:cesium_nitrate",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:cesium_nitrate_dust",
+            "count": 1
+        }
+    ],
+    "energy": 537
+}

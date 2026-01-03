@@ -1,0 +1,20 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 8.71,
+    "temperature": {},
+    "fluid_input": {
+        "fluid": "kubejs:ozone",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:calcium_dust",
+        "count": 3.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "mekanismelements:dust_calcium_oxide",
+        "count": 3.0
+    }
+}

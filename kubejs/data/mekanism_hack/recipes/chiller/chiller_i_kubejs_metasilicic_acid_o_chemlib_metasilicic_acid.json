@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:metasilicic_acid",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:metasilicic_acid",
+            "count": 1
+        }
+    ],
+    "energy": 3130
+}

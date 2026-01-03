@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:strontium_sulfate_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:strontium_sulfate",
+        "amount": 100.0
+    },
+    "energy": 2070
+}

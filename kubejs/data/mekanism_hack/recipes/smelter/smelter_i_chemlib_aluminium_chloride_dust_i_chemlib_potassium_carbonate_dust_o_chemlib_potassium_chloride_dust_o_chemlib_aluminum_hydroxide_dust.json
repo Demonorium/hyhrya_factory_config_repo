@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:potassium_chloride_dust",
+            "count": 6.0
+        },
+        {
+            "item": "chemlib:aluminum_hydroxide_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 111523.9,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:aluminium_chloride_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:potassium_carbonate_dust",
+            "count": 3.0
+        }
+    ]
+}

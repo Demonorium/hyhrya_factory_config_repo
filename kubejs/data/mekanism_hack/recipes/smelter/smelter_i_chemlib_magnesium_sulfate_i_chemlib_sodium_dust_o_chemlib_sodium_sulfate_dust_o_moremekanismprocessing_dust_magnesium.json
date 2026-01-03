@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "moremekanismprocessing:dust_magnesium",
+            "count": 1.0
+        }
+    ],
+    "energy": 40931.18,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:magnesium_sulfate",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_dust",
+            "count": 2.0
+        }
+    ]
+}

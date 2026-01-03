@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:separating",
+    "input": {
+        "fluid": "kubejs:niobium_pentoxide",
+        "amount": 1.0
+    },
+    "leftGasOutput": {
+        "gas": "kubejs:niobium",
+        "amount": 2.0
+    },
+    "rightGasOutput": {
+        "gas": "mekanism:oxygen",
+        "amount": 5.0
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:dysprosium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:dysprosium_dust",
+            "count": 1
+        }
+    ],
+    "energy": 12600
+}

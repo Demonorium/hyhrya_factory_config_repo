@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:carbon_monoxide",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:carbon_monoxide",
+        "amount": 100.0
+    },
+    "energy": 681
+}

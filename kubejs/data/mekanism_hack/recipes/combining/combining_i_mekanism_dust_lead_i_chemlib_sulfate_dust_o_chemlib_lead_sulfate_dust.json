@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:dust_lead"
+        }
+    },
+    "mainInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:sulfate_dust"
+        }
+    },
+    "output": {
+        "item": "chemlib:lead_sulfate_dust",
+        "count": 1.0
+    }
+}

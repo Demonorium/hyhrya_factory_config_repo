@@ -1,0 +1,22 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "opposing_force:copper_enoki",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "chemlib:covellite_dust",
+            "chance": 1
+        },
+        {
+            "item": "thermal:copper_nugget",
+            "chance": 0.5
+        },
+        {
+            "item": "chemlib:chitin_dust",
+            "chance": 0.5
+        }
+    ],
+    "experience": 1.0
+}

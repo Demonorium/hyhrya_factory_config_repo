@@ -1,0 +1,26 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+        "item": "moremekanismprocessing:dirty_dust_silver",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "thermal:silver_dust",
+            "chance": 2.0
+        },
+        {
+            "item": "chemlib:arsenic_dust",
+            "chance": 1.0
+        },
+        {
+            "item": "chemlib:calaverite_dust",
+            "chance": 0.5
+        },
+        {
+            "item": "thermal:cinnabar_dust",
+            "chance": 0.25
+        }
+    ],
+    "energy": 4000
+}

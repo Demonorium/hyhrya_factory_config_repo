@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:zinc_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "mekanism:dust_iron",
+            "count": 1.0
+        }
+    ],
+    "energy": 43550.8,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:iron_ii_sulfate_dust",
+            "count": 1.0
+        },
+        {
+            "item": "moremekanismprocessing:dust_zinc",
+            "count": 1.0
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:lead_iv_chloride",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:lead_iv_chloride",
+        "amount": 100.0
+    },
+    "energy": 7740
+}

@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 300,
+        "fluid": "mekanismelements:nitrogen_dioxide"
+    },
+    "gasInput": {
+        "amount": 600,
+        "gas": "mekanism:oxygen"
+    },
+    "itemInput": {
+        "amount": 3.0,
+        "ingredient": {
+            "item": "chemlib:ammonium_nitrate_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 500,
+        "gas": "mekanismelements:nitric_oxide"
+    },
+    "itemOutput": {
+        "count": 4,
+        "item": "chemlib:nitric_acid"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:aluminum",
+        "amount": 15.0
+    },
+    "output": {
+        "gas": "kubejs:phosphorus",
+        "amount": 325.0,
+        "chemicalType": "gas"
+    }
+}

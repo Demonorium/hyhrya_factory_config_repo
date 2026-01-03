@@ -1,0 +1,18 @@
+{
+    "type": "mekanismelements:adsorption",
+    "fluidInput": {
+        "fluid": "mekanismelements:seawater",
+        "amount": 1.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:maleic_anhydride_dust"
+        }
+    },
+    "output": {
+        "gas": "kubejs:molybdenum_disulphide",
+        "amount": 200,
+        "chemicalType": "gas"
+    }
+}

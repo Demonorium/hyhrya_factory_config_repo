@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:thallium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 5770.0,
+    "ingredients": [
+        {
+            "fluid": "kubejs:thallium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

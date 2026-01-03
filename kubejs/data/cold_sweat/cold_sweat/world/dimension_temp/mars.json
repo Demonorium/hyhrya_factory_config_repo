@@ -1,0 +1,15 @@
+{
+  "dimensions": [
+    "ad_astra:mars"
+  ],
+  // The dimension's temperature at midnight. "is_offset" makes this an offset
+  "min_temp": -65,
+  // The dimension's temperature at noon. "is_offset" makes this an offset
+  "max_temp": -35,
+  // The units being used for temperature. This example is in Fahrenheit
+  // Defaults to MC
+  "units": "C",
+  // Applies an offset to the dimension's base temperature
+  // If false, all biome temperatures are overridden to the specified value
+  "is_offset": true
+}

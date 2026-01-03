@@ -1,0 +1,30 @@
+{
+    "type": "thermal:crystallizer",
+    "ingredients": [
+        {
+            "fluid": "kubejs:titanium",
+            "amount": 250.0
+        },
+        {
+            "value": [
+                {
+                    "item": "moremekanismprocessing:cobalt_ingot"
+                },
+                {
+                    "item": "moremekanismprocessing:dust_cobalt"
+                }
+            ],
+            "count": 1.0
+        },
+        {
+            "item": "undergarden:utherium_crystal"
+        }
+    ],
+    "result": [
+        {
+            "item": "undergarden:froststeel_ingot",
+            "count": 2.0
+        }
+    ],
+    "energy": 17000
+}

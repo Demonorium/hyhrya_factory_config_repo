@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:thorium_dioxide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:thorium_dioxide",
+        "amount": 100.0
+    },
+    "energy": 27150
+}

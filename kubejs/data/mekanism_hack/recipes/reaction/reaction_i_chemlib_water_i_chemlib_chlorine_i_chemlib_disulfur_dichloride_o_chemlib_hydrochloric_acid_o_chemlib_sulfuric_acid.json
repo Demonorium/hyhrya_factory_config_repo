@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 800,
+        "fluid": "minecraft:water"
+    },
+    "gasInput": {
+        "amount": 1000,
+        "gas": "mekanism:chlorine"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:disulfur_dichloride"
+        }
+    },
+    "gasOutput": {
+        "amount": 200,
+        "gas": "mekanism:sulfuric_acid"
+    },
+    "itemOutput": {
+        "count": 12,
+        "item": "chemlib:hydrochloric_acid"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "mekanismelements:nitric_acid",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:nitric_acid",
+            "count": 1
+        }
+    ],
+    "energy": 2310
+}

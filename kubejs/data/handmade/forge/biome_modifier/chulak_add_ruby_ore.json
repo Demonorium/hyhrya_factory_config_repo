@@ -1,0 +1,6 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#sgjourney:is_chulak",
+    "features": "handmade:global_ruby_ore",
+    "step": "underground_ores"
+}

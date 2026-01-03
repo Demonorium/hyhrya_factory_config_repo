@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:nickel_oxide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:nickel_oxide",
+        "amount": 100.0
+    },
+    "energy": 16710
+}

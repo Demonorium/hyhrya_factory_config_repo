@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:sodium_sulfide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:barium_hydroxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 55043.899999999994,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:barium_sulfide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:sodium_hydroxide_dust",
+            "count": 2.0
+        }
+    ]
+}

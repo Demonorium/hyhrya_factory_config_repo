@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 31.5589644012945,
+    "temperature": {
+        "min_temp": 1310.5733333333333
+    },
+    "fluid_input": {
+        "fluid": "kubejs:phosphorus_pentoxide",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:calcium_carbonate_dust",
+        "count": 3.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:carbon_dioxide",
+        "amount": 300.0
+    },
+    "item_output": {
+        "item": "chemlib:tricalcium_phosphate_dust",
+        "count": 1.0
+    }
+}

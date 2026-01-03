@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:methane",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "mekanismelements:methane",
+        "amount": 100.0
+    },
+    "energy": 907
+}

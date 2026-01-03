@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:barium_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:aluminum_hydroxide_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 73460.40000000001,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "moremekanismprocessing:dust_aluminum",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:barium_hydroxide_dust",
+            "count": 3.0
+        }
+    ]
+}

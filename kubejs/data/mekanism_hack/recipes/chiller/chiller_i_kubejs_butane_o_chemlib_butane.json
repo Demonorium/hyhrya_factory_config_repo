@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:butane",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:butane",
+            "count": 1
+        }
+    ],
+    "energy": 1390
+}

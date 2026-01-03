@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:nickel_sulfate_dust"
+        }
+    },
+    "output": {
+        "gas": "kubejs:nickel_sulfate",
+        "amount": 100.0
+    }
+}

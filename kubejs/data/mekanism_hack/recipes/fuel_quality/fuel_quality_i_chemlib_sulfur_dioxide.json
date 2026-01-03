@@ -1,0 +1,10 @@
+{
+    "type": "pneumaticcraft:fuel_quality",
+    "air_per_bucket": 84056,
+    "burn_rate": 3.8522813688212927,
+    "fluid": {
+        "type": "pneumaticcraft:fluid",
+        "amount": 1000,
+        "fluid": "mekanism:sulfur_dioxide"
+    }
+}

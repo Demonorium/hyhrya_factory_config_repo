@@ -1,0 +1,13 @@
+#Whether to enable the screen darkening effect
+#是否启用屏幕黯淡效果
+darkening = true
+#Whether to enable the screen blur effect（Not realized）
+#是否启用屏幕模糊效果（未实现）
+blur = true
+#Always add a screen list for panoramic background (enter the screen class name)
+#始终添加全景图背景的屏幕列表（输入屏幕类名）
+"allow screen list" = ["net.minecraft.client.gui.screens.GenericDirtMessageScreen", "net.minecraft.client.gui.screens.LevelLoadingScreen", "net.minecraft.client.gui.screens.telemetry.TelemetryInfoScreen"]
+#Always exclude the screen list of panoramic background (enter the screen class name)
+#始终拒绝全景图背景的屏幕列表（输入屏幕类名）
+"exclude screen list" = []
+

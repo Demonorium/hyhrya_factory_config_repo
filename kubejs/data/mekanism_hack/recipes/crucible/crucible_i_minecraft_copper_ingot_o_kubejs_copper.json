@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "minecraft:copper_ingot",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:copper",
+        "amount": 100.0
+    },
+    "energy": 13577.7
+}

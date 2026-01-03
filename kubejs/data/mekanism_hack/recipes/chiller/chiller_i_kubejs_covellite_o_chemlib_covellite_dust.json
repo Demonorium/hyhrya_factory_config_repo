@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:covellite",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:covellite_dust",
+            "count": 1
+        }
+    ],
+    "energy": 6548
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:yttrium_iii_sulfate",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:yttrium_iii_sulfate_dust",
+            "count": 1
+        }
+    ],
+    "energy": 1748
+}

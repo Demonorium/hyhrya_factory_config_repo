@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:krypton",
+        "amount": 19.0
+    },
+    "output": {
+        "gas": "mekanismelements:strontium",
+        "amount": 450.0,
+        "chemicalType": "gas"
+    }
+}

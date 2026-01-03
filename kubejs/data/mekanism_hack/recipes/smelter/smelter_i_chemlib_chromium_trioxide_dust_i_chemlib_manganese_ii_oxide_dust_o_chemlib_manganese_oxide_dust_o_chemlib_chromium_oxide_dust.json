@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:manganese_oxide_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:chromium_oxide_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 123716.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:chromium_trioxide_dust",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:manganese_ii_oxide_dust",
+            "count": 3.0
+        }
+    ]
+}

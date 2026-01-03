@@ -1,0 +1,22 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "tag": "kubejs:biomesoplenty/brimstone_0_5",
+        "count": 2.0
+    },
+    "result": [
+        {
+            "item": "minecraft:sand",
+            "count": 1.0
+        },
+        {
+            "item": "mekanism:dust_sulfur",
+            "chance": 1.5
+        },
+        {
+            "item": "thermal:niter",
+            "chance": 0.3
+        }
+    ],
+    "experience": 1.0
+}

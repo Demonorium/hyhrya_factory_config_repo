@@ -1,0 +1,19 @@
+{
+    "type": "thermal:chiller",
+    "result": [
+        {
+            "item": "chemlib:palladium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 18280.5,
+    "ingredients": [
+        {
+            "fluid": "kubejs:palladium",
+            "amount": 100
+        },
+        {
+            "item": "thermal:chiller_ingot_cast"
+        }
+    ]
+}

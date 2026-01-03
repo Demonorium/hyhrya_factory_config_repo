@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:cesium_hydroxide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:cesium_hydroxide",
+        "amount": 100.0
+    },
+    "energy": 4088
+}

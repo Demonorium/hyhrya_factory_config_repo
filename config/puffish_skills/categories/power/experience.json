@@ -1,0 +1,142 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "(1 + level^3)*100"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:eat_food",
+			"data": {
+				"variables": {
+					"nutrition": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},							
+							{
+								"type": "get_item"
+							},
+							{
+								"type": "get_nutrition"
+							}
+						]
+					},
+					"saturation": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},							
+							{
+								"type": "get_item"
+							},
+							{
+								"type": "get_saturation_modifier"
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"expression": "nutrition + (saturation + 1)*nutrition"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:heal",
+			"data": {
+				"variables": {
+					"amount": {
+						"operations": [
+							{
+								"type": "get_heal_amount"
+							}
+						]
+					}
+				},
+				"experience": "amount * 3"
+			}
+		},
+		{
+			"type": "puffish_skills:eat_food",
+			"data": {
+				"variables": {
+					"is_stimulator": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "kubejs:stimulator_injection"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_stimulator",
+						"expression": "200000"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:eat_food",
+			"data": {
+				"variables": {
+					"is_nanomachines": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "kubejs:nanomachines_injection"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_nanomachines",
+						"expression": "700000"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:eat_food",
+			"data": {
+				"variables": {
+					"is_neural_nanomachines": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "kubejs:neural_nanomachines_injection"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_neural_nanomachines",
+						"expression": "11412500"
+					}
+				]
+			}
+		}
+	]
+
+}

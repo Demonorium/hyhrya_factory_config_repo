@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 1000,
+    "energyRequired": 1000,
+    "fluidInput": {
+      "amount": 100,
+      "fluid": "kubejs:yttrium_carbonate"
+    },
+    "gasInput": {
+      "amount": 400,
+      "gas": "kubejs:barium_carbonate"
+    },
+    "itemInput": {
+      "amount": 6,
+      "ingredient": {
+        "item": "chemlib:copper_carbonate_dust"
+      }
+    },
+    "itemOutput": {
+      "count": 2,
+      "item": "chemlib:yttrium_barium_copper_oxide"
+    }
+}

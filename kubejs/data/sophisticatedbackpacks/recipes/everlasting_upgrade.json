@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:everlasting_upgrade"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "C": {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    "S": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "D": {
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    }
+  },
+  "pattern": [
+    "CSC",
+    "SBS",
+    "CDC"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:everlasting_upgrade"
+  }
+}

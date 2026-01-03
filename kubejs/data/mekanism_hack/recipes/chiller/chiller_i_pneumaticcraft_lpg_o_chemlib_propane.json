@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "pneumaticcraft:lpg",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:propane",
+            "count": 1
+        }
+    ],
+    "energy": 855
+}

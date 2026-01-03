@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "kubejs:bismuth",
+        "amount": 2.0
+    },
+    "output": {
+        "gas": "kubejs:bismuth_iii_oxide",
+        "amount": 1.0
+    },
+    "rightInput": {
+        "gas": "mekanism:oxygen",
+        "amount": 3.0
+    }
+}

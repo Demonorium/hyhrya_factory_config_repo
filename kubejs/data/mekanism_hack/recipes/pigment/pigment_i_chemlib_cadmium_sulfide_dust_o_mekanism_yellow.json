@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:pigment_extracting",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:cadmium_sulfide_dust"
+        }
+    },
+    "output": {
+        "pigment": "mekanism:yellow",
+        "amount": 512.0
+    }
+}

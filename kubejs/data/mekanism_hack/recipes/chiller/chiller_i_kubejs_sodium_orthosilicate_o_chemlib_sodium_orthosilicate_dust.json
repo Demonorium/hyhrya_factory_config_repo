@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:sodium_orthosilicate",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:sodium_orthosilicate_dust",
+            "count": 1
+        }
+    ],
+    "energy": 9682
+}

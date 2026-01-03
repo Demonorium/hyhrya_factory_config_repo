@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:beryl_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:beryl",
+        "amount": 100.0
+    },
+    "energy": 4564
+}

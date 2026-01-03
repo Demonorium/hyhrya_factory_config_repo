@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 13.39,
+    "temperature": {
+        "max_temp": 1612.0
+    },
+    "fluid_input": {
+        "fluid": "kubejs:carbon_trioxide",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:calcium_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "chemlib:calcium_carbonate_dust",
+        "count": 1.0
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:sodium_hypochlorite",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:sodium_hypochlorite",
+            "count": 1
+        }
+    ],
+    "energy": 2910
+}

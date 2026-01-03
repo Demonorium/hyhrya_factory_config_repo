@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:palladium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:palladium_dust",
+            "count": 1
+        }
+    ],
+    "energy": 13710
+}

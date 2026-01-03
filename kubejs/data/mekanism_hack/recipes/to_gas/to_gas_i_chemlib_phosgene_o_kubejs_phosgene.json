@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:phosgene"
+        }
+    },
+    "output": {
+        "gas": "kubejs:phosgene",
+        "amount": 100.0
+    }
+}

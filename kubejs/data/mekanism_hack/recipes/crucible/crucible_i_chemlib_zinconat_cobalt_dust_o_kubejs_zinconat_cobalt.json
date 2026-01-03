@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:zinconat_cobalt_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:zinconat_cobalt",
+        "amount": 100.0
+    },
+    "energy": 16852
+}

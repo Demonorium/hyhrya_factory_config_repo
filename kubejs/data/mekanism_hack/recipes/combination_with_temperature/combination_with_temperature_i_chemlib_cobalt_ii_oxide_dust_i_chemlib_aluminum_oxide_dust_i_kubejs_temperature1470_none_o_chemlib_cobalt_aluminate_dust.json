@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 0.6,
+    "temperature": {
+        "min_temp": 1470
+    },
+    "fluid_input": {
+        "fluid": "kubejs:cobalt_ii_oxide",
+        "amount": 1.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:aluminum_oxide_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "chemlib:cobalt_aluminate_dust",
+        "count": 1.0
+    }
+}

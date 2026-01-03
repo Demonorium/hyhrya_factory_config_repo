@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "kubejs:silver"
+    },
+    "gasInput": {
+        "amount": 600,
+        "gas": "mekanismelements:nitric_acid"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:dust_copper"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "kubejs:silver_nitrate"
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "chemlib:copper_nitrate_dust"
+    }
+}

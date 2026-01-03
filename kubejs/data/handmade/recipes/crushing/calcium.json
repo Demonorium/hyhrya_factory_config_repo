@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crushing",
+    "input": {
+      "ingredient": {
+        "item": "minecraft:bone_meal"
+      }
+    },
+    "output": {
+      "count": 5,
+      "item": "chemlib:calcium"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:wollastonite_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:wollastonite",
+        "amount": 100.0
+    },
+    "energy": 4448
+}

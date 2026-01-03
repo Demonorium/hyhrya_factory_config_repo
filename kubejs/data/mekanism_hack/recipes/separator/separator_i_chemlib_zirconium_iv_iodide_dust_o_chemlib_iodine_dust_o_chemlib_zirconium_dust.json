@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:separating",
+    "input": {
+        "fluid": "kubejs:zirconium_iv_iodide",
+        "amount": 1.0
+    },
+    "leftGasOutput": {
+        "gas": "mekanismelements:iodine",
+        "amount": 4.0
+    },
+    "rightGasOutput": {
+        "gas": "kubejs:zirconium",
+        "amount": 1.0
+    }
+}

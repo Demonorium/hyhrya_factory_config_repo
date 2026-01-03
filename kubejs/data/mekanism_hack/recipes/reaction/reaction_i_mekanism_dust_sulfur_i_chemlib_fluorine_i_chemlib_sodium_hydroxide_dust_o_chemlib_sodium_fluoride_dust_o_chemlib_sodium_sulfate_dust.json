@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "kubejs:sulfur"
+    },
+    "gasInput": {
+        "amount": 600,
+        "gas": "kubejs:fluorine"
+    },
+    "itemInput": {
+        "amount": 8.0,
+        "ingredient": {
+            "item": "chemlib:sodium_hydroxide_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "kubejs:sodium_sulfate"
+    },
+    "itemOutput": {
+        "count": 6,
+        "item": "chemlib:sodium_fluoride_dust"
+    }
+}

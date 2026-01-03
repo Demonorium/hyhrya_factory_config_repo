@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:rutherfordium",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:rutherfordium",
+        "amount": 100.0
+    },
+    "energy": 24000
+}

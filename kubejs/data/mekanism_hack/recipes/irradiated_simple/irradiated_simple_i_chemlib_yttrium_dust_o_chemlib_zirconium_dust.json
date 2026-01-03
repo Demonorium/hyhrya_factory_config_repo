@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:irradiating",
+    "input": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:yttrium_dust"
+        }
+    },
+    "output": {
+        "item": "chemlib:zirconium_dust",
+        "count": 1.0
+    },
+    "ticks": 4240
+}

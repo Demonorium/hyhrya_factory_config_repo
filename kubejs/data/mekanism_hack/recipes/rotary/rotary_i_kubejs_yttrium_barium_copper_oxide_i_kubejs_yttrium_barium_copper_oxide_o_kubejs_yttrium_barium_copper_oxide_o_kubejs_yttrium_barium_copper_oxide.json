@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:yttrium_barium_copper_oxide",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:yttrium_barium_copper_oxide",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:yttrium_barium_copper_oxide",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:yttrium_barium_copper_oxide",
+        "amount": 1.0
+    }
+}

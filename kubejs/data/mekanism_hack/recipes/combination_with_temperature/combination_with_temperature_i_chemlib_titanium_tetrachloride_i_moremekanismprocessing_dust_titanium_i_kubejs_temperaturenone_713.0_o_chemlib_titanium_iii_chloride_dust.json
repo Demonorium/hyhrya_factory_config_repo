@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 1.1,
+    "temperature": {
+        "max_temp": 713.0
+    },
+    "fluid_input": {
+        "fluid": "kubejs:titanium_tetrachloride",
+        "amount": 300.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "moremekanismprocessing:dust_titanium",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "chemlib:titanium_iii_chloride_dust",
+        "count": 4.0
+    }
+}

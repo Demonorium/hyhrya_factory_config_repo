@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": true,
+	"title": "Эволюция",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "kubejs:neural_nanomachines_injection"
+		}
+	},
+	"spent_points_limit": 100,
+	"background": "biomancy:textures/block/flesh.png"
+}

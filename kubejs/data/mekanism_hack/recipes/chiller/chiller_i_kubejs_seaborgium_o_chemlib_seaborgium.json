@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:seaborgium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:seaborgium",
+            "count": 1
+        }
+    ],
+    "energy": 30000
+}

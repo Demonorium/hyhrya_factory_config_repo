@@ -1,0 +1,23 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "undergarden:raw_froststeel",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "kubejs:dirty_dust_froststeel",
+            "chance": 1.5
+        },
+        {
+            "item": "kubejs:clump_froststeel",
+            "chance": 1.0
+        },
+        {
+            "item": "undergarden:froststeel_nugget",
+            "count": 1.0,
+            "chance": 40
+        }
+    ],
+    "experience": 1.0
+}

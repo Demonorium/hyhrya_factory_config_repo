@@ -1,0 +1,21 @@
+{
+    "type": "thermal:press",
+    "ingredients": [
+        {
+            "item": "opposing_force:powder_gnome",
+            "count": 1.0
+        }
+    ],
+    "result": [
+        {
+            "item": "minecraft:gunpowder",
+            "count": 1.0
+        },
+        {
+            "fluid": "kubejs:nitrosyl_perchlorate",
+            "amount": 25.0
+        }
+    ],
+    "energy": 500,
+    "experience": 0.15
+}

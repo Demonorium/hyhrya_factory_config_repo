@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "moremekanismprocessing:dust_thorium",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:thorium",
+        "amount": 100.0
+    },
+    "energy": 15172
+}

@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:hafnium_metal_block",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:hafnium",
+        "amount": 900.0
+    },
+    "energy": 225540.0
+}

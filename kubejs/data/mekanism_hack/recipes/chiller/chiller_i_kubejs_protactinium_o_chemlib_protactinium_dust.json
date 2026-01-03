@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:protactinium",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:protactinium_dust",
+            "count": 1
+        }
+    ],
+    "energy": 13808
+}

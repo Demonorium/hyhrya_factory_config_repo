@@ -1,0 +1,14 @@
+{
+    "type": "thermal:chiller",
+    "ingredient": {
+        "fluid": "kubejs:aniline",
+        "amount": 100
+    },
+    "result": [
+        {
+            "item": "chemlib:aniline",
+            "count": 1
+        }
+    ],
+    "energy": 2668
+}

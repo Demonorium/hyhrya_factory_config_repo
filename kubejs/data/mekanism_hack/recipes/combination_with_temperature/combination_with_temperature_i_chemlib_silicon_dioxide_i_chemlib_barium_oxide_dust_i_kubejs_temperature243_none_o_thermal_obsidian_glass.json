@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 0.5,
+    "temperature": {
+        "min_temp": 243
+    },
+    "fluid_input": {
+        "fluid": "kubejs:silicon_dioxide",
+        "amount": 600.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:barium_oxide_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "thermal:obsidian_glass",
+        "count": 1.0
+    }
+}

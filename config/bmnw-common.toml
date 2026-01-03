@@ -1,0 +1,9 @@
+#Radioactivity of uranium in microsieverts per tick
+#Range: > 0
+uraniumMicroSievertsTick = 9
+#Radioactivity of thorium in microsieverts per tick
+#Range: > 0
+thoriumMicroSievertsTick = 5
+#Disable funny username thingies (aww)
+disableFunnyUsernameTomfoolery = false
+

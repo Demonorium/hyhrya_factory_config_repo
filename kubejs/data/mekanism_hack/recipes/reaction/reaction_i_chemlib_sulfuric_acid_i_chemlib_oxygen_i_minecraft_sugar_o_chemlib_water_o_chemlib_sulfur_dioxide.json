@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 1400,
+        "fluid": "mekanism:sulfuric_acid"
+    },
+    "gasInput": {
+        "amount": 1000,
+        "gas": "mekanism:oxygen"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "minecraft:sugar"
+        }
+    },
+    "gasOutput": {
+        "amount": 1400,
+        "gas": "mekanism:sulfur_dioxide"
+    },
+    "itemOutput": {
+        "count": 25,
+        "item": "chemlib:water"
+    }
+}

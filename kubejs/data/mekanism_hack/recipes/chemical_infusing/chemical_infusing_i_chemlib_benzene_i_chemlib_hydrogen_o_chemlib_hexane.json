@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "kubejs:benzene",
+        "amount": 1.0
+    },
+    "output": {
+        "gas": "kubejs:hexane",
+        "amount": 1.0
+    },
+    "rightInput": {
+        "gas": "mekanism:hydrogen",
+        "amount": 8.0
+    }
+}

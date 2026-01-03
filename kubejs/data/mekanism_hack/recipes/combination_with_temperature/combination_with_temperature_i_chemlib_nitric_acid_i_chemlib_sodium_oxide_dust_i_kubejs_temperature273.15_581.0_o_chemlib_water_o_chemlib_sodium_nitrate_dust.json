@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 4.2495024875621885,
+    "temperature": {
+        "min_temp": 273.15,
+        "max_temp": 581.0
+    },
+    "fluid_input": {
+        "fluid": "mekanismelements:nitric_acid",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:sodium_oxide_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "minecraft:water",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:sodium_nitrate_dust",
+        "count": 2.0
+    }
+}

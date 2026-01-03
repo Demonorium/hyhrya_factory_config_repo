@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:irradiating",
+    "input": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:seaborgium"
+        }
+    },
+    "output": {
+        "item": "chemlib:bohrium",
+        "count": 1.0
+    },
+    "ticks": 700
+}

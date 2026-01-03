@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:potassium_hydroxide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "mekanismelements:potassium_hydroxide",
+        "amount": 100.0
+    },
+    "energy": 5122
+}

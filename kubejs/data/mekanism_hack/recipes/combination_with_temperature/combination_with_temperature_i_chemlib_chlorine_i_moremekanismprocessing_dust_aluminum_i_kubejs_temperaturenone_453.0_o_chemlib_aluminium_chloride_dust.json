@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 1.8,
+    "temperature": {
+        "max_temp": 453.0
+    },
+    "fluid_input": {
+        "fluid": "mekanism:chlorine",
+        "amount": 300.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "moremekanismprocessing:dust_aluminum",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "item_output": {
+        "item": "chemlib:aluminium_chloride_dust",
+        "count": 1.0
+    }
+}

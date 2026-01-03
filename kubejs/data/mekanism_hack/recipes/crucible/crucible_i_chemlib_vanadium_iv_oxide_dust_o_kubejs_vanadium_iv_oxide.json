@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:vanadium_iv_oxide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:vanadium_iv_oxide",
+        "amount": 100.0
+    },
+    "energy": 16800
+}

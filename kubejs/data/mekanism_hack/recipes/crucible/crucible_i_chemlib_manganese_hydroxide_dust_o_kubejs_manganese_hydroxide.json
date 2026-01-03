@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:manganese_hydroxide_dust",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:manganese_hydroxide",
+        "amount": 100.0
+    },
+    "energy": 3098
+}

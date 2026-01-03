@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:irradiating",
+    "input": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "mekanism:dust_copper"
+        }
+    },
+    "output": {
+        "item": "moremekanismprocessing:dust_zinc",
+        "count": 1.0
+    },
+    "ticks": 4740
+}

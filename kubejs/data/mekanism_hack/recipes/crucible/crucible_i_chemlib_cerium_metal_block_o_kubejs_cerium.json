@@ -1,0 +1,12 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "chemlib:cerium_metal_block",
+        "count": 1.0
+    },
+    "result": {
+        "fluid": "kubejs:cerium",
+        "amount": 900.0
+    },
+    "energy": 96120.0
+}

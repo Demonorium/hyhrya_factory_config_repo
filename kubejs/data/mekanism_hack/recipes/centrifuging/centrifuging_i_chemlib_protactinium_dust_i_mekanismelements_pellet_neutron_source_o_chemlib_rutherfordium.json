@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:centrifuging",
+    "gasInput": {
+        "gas": "kubejs:protactinium",
+        "amount": 8.0
+    },
+    "output": {
+        "gas": "kubejs:rutherfordium",
+        "amount": 175.0,
+        "chemicalType": "gas"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "mekanismelements:nitrogen",
+        "amount": 1.0
+    },
+    "output": {
+        "gas": "mekanismelements:nitrogen_dioxide",
+        "amount": 1.0
+    },
+    "rightInput": {
+        "gas": "mekanism:oxygen",
+        "amount": 2.0
+    }
+}

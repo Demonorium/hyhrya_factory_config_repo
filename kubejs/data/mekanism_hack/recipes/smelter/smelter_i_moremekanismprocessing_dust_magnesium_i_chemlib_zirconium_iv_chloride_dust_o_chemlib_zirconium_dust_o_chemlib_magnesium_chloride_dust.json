@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:zirconium_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:magnesium_chloride_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 63563.2,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "moremekanismprocessing:dust_magnesium",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:zirconium_iv_chloride_dust",
+            "count": 1.0
+        }
+    ]
+}
