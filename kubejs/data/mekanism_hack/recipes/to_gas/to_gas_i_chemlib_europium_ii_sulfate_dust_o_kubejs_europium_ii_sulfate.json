@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:europium_ii_sulfate",
-        "amount": 100.0
+        "amount": 200
     }
 }

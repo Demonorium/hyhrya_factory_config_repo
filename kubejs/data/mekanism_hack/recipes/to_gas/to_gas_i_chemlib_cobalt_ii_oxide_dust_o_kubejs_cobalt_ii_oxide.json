@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:cobalt_ii_oxide",
-        "amount": 100.0
+        "amount": 200
     }
 }

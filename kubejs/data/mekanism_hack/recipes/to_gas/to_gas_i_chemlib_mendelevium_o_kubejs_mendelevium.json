@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:mendelevium",
-        "amount": 100.0
+        "amount": 200
     }
 }

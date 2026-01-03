@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:yttrium_iii_nitrate",
-        "amount": 100.0
+        "amount": 200
     }
 }

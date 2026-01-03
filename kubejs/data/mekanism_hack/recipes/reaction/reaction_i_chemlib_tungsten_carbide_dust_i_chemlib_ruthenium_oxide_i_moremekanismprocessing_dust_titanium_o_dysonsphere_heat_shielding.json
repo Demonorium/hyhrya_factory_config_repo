@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 600,
+    "fluidInput": {
+        "amount": 500,
+        "fluid": "kubejs:tungsten_carbide"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "kubejs:ruthenium_oxide"
+    },
+    "itemInput": {
+        "amount": 32.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dust_titanium"
+        }
+    },
+    "itemOutput": {
+        "count": 4,
+        "item": "dysonsphere:heat_shielding"
+    }
+}

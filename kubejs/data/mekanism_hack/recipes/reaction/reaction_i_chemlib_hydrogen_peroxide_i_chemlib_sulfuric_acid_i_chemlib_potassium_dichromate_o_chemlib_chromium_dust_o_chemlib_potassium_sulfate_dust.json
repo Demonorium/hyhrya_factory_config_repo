@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "kubejs:hydrogen_peroxide"
+    },
+    "gasInput": {
+        "amount": 100,
+        "gas": "mekanism:sulfuric_acid"
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:potassium_dichromate"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "kubejs:potassium_sulfate"
+    },
+    "itemOutput": {
+        "count": 2,
+        "item": "chemlib:chromium_dust"
+    }
+}

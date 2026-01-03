@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:europium_ii_iodide",
-        "amount": 100.0
+        "amount": 200
     }
 }

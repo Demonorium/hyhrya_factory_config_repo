@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 1.9610084033613446,
+    "temperature": {
+        "max_temp": 179.0
+    },
+    "fluid_input": {
+        "fluid": "kubejs:carbon_dioxide",
+        "amount": 600.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:water",
+        "count": 7.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanism:oxygen",
+        "amount": 1900.0
+    },
+    "item_output": {
+        "item": "chemlib:hexane",
+        "count": 1.0
+    }
+}

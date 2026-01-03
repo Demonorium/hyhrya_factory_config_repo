@@ -39,7 +39,7 @@ if os.path.exists('world'):
     if os.path.exists('world/serverconfig'):
         shutil.rmtree('world/serverconfig')
     shutil.copytree('defaultconfigs', 'world/serverconfig')
-    shutil.copytree('config', 'server_configs')
+    shutil.copytree('config', 'server_configs', dirs_exist_ok=True)
     print('server installation success...')
 
 print('update completed')

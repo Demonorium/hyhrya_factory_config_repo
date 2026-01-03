@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "mekanism:uranium_hexafluoride",
-        "amount": 100.0
+        "amount": 200
     }
 }

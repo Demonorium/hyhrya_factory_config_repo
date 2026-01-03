@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:gold_iii_chloride",
-        "amount": 100.0
+        "amount": 200
     }
 }

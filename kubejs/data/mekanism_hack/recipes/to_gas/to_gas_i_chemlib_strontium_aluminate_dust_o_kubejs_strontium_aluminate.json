@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:strontium_aluminate",
-        "amount": 100.0
+        "amount": 200
     }
 }

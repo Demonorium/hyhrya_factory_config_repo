@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "mekanism:oxygen",
+        "amount": 4.0
+    },
+    "output": {
+        "gas": "kubejs:phosphate",
+        "amount": 1.0
+    },
+    "rightInput": {
+        "gas": "kubejs:phosphorus",
+        "amount": 1.0
+    }
+}

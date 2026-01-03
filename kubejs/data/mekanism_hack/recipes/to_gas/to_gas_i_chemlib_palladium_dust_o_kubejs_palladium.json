@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:palladium",
-        "amount": 100.0
+        "amount": 200
     }
 }

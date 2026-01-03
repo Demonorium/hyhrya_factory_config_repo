@@ -1,0 +1,23 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+        "item": "chemlib:iron_ii_sulfate_dust",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "chemlib:iron_ii_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:oxygen",
+            "count": 1.0
+        },
+        {
+            "fluid": "mekanism:sulfur_dioxide",
+            "amount": 100.0
+        }
+    ],
+    "energy": 9530.0,
+    "experience": 4.76
+}

@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 3.9207920792079207,
+    "temperature": {
+        "max_temp": 683.0
+    },
+    "fluid_input": {
+        "fluid": "kubejs:hydrogen_peroxide",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:potassium_nitrite_dust",
+        "count": 2.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:nitric_oxide",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "chemlib:potassium_hydroxide_dust",
+        "count": 2.0
+    }
+}

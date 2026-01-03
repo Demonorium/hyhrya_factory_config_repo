@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:gold_iii_sulfide",
-        "amount": 100.0
+        "amount": 200
     }
 }

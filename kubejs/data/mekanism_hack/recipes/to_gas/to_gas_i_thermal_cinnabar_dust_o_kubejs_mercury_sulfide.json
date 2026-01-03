@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:mercury_sulfide",
-        "amount": 100.0
+        "amount": 200
     }
 }

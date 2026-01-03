@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:oxidizing",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:hydrogen_sulfide"
+        }
+    },
+    "output": {
+        "gas": "kubejs:sulfur",
+        "amount": 100.0
+    }
+}

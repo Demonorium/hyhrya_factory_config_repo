@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:starch",
-        "amount": 100.0
+        "amount": 200
     }
 }

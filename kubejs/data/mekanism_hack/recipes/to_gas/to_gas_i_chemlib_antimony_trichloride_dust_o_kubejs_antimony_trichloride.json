@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:antimony_trichloride",
-        "amount": 100.0
+        "amount": 200
     }
 }

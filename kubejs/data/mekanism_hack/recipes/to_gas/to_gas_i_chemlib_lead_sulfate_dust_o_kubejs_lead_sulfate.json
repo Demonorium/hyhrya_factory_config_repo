@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:lead_sulfate",
-        "amount": 100.0
+        "amount": 200
     }
 }

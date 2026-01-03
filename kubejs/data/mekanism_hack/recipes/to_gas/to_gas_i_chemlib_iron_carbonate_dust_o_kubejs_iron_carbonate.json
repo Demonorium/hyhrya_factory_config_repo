@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:iron_carbonate",
-        "amount": 100.0
+        "amount": 200
     }
 }

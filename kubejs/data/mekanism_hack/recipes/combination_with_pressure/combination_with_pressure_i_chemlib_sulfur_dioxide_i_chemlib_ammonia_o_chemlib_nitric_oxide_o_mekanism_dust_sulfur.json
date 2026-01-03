@@ -1,0 +1,23 @@
+{
+    "type": "pneumaticcraft:fluid_mixer",
+    "input1": {
+        "fluid": "mekanism:sulfur_dioxide",
+        "amount": 500.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "input2": {
+        "fluid": "mekanismelements:ammonia",
+        "amount": 400.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "pressure": 1.0,
+    "time": 9895,
+    "fluid_output": {
+        "fluid": "mekanismelements:nitric_oxide",
+        "amount": 400.0
+    },
+    "item_output": {
+        "item": "mekanism:dust_sulfur",
+        "count": 5.0
+    }
+}

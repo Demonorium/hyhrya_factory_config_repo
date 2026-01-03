@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:nitrosyl_perchlorate",
-        "amount": 100.0
+        "amount": 200
     }
 }

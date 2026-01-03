@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:titanium_carbide",
-        "amount": 100.0
+        "amount": 200
     }
 }

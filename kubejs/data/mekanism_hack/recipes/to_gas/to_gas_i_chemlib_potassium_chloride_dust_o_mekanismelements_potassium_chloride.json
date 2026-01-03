@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "mekanismelements:potassium_chloride",
-        "amount": 100.0
+        "amount": 200
     }
 }

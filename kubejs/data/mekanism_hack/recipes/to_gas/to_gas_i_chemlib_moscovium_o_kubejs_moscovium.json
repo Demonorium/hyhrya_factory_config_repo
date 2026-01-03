@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:moscovium",
-        "amount": 100.0
+        "amount": 200
     }
 }

@@ -1,0 +1,23 @@
+{
+    "type": "pneumaticcraft:fluid_mixer",
+    "input1": {
+        "fluid": "minecraft:water",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "input2": {
+        "fluid": "mekanismelements:bromine",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "pressure": 3,
+    "time": 1614,
+    "fluid_output": {
+        "fluid": "mekanismelements:bromine",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:sulfate_dust",
+        "count": 1.0
+    }
+}

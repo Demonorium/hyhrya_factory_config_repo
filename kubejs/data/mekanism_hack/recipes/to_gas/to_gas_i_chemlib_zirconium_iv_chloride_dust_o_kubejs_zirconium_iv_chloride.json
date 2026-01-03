@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:zirconium_iv_chloride",
-        "amount": 100.0
+        "amount": 200
     }
 }

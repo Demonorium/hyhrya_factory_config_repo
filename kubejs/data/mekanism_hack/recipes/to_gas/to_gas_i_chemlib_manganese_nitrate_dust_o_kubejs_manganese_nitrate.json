@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:manganese_nitrate",
-        "amount": 100.0
+        "amount": 200
     }
 }

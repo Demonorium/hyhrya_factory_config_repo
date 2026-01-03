@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:niobium_oxide",
-        "amount": 100.0
+        "amount": 200
     }
 }

@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "mekanism:sulfuric_acid",
-        "amount": 100.0
+        "amount": 200
     }
 }

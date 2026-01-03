@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:formic_acid",
-        "amount": 100.0
+        "amount": 200
     }
 }

@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 1.6058764940239043,
+    "temperature": {
+        "max_temp": 743.0
+    },
+    "fluid_input": {
+        "fluid": "mekanismelements:nitric_acid",
+        "amount": 1200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "mekanism:dust_lead",
+        "count": 5.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:nitrogen",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "chemlib:lead_nitrate_dust",
+        "count": 5.0
+    }
+}

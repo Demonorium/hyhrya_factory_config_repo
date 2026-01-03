@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:copper_i_sulfide",
-        "amount": 100.0
+        "amount": 200
     }
 }

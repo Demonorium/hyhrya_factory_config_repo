@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:californium",
-        "amount": 100.0
+        "amount": 200
     }
 }

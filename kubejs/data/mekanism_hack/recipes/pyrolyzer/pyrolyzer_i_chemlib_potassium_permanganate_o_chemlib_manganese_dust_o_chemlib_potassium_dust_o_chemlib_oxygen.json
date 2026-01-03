@@ -1,0 +1,23 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+        "item": "chemlib:potassium_permanganate",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "chemlib:manganese_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:potassium_dust",
+            "count": 1.0
+        },
+        {
+            "fluid": "mekanism:oxygen",
+            "amount": 400.0
+        }
+    ],
+    "energy": 5130.0,
+    "experience": 2.56
+}

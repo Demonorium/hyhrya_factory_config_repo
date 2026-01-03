@@ -1,0 +1,20 @@
+{
+    "type": "thermal:crystallizer",
+    "ingredients": [
+        {
+            "fluid": "kubejs:mercury",
+            "amount": 100.0
+        },
+        {
+            "item": "chemlib:silicon_dioxide",
+            "count": 1.0
+        }
+    ],
+    "result": [
+        {
+            "item": "mekanism:dust_quartz",
+            "count": 1.0
+        }
+    ],
+    "energy": 1000
+}

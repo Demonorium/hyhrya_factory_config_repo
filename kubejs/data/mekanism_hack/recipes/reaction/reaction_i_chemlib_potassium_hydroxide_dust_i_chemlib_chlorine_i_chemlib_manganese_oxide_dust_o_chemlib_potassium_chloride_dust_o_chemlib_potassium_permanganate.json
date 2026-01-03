@@ -3,11 +3,11 @@
     "duration": 400,
     "energyRequired": 200,
     "fluidInput": {
-        "amount": 200,
+        "amount": 400,
         "fluid": "mekanismelements:potassium_hydroxide"
     },
     "gasInput": {
-        "amount": 100,
+        "amount": 300,
         "gas": "mekanism:chlorine"
     },
     "itemInput": {
@@ -21,7 +21,7 @@
         "gas": "kubejs:potassium_permanganate"
     },
     "itemOutput": {
-        "count": 1,
+        "count": 3,
         "item": "chemlib:potassium_chloride_dust"
     }
 }

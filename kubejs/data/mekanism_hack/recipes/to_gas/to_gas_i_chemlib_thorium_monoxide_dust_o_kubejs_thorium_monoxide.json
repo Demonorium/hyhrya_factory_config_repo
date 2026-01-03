@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:thorium_monoxide",
-        "amount": 100.0
+        "amount": 200
     }
 }

@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "kubejs:carbon_monoxide"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "mekanism:hydrogen"
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:iron_oxide_dust"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "mekanism:water_vapor"
+    },
+    "itemOutput": {
+        "count": 4,
+        "item": "chemlib:iron_ii_oxide_dust"
+    }
+}

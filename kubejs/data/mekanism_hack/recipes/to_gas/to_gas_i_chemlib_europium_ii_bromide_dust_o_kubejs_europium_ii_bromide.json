@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:europium_ii_bromide",
-        "amount": 100.0
+        "amount": 200
     }
 }

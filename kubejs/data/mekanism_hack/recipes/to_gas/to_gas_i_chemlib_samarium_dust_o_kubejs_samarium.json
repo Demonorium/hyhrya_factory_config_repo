@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:samarium",
-        "amount": 100.0
+        "amount": 200
     }
 }

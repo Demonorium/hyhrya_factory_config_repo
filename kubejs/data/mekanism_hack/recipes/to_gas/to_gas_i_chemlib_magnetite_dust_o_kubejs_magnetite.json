@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:magnetite",
-        "amount": 100.0
+        "amount": 200
     }
 }

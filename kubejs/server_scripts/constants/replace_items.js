@@ -644,4 +644,12 @@ const ITEMS_TO_REPLACE = [
 		from: "ad_astra:wheel",
 		to: "superbwarfare:wheel",
 	},
+	{
+		from: "mffs:battery",
+		to: "mekanism:energy_tablet",
+	},
+	{
+		from: "superbwarfare:propeller",
+		to: "pneumaticcraft:turbine_motor",
+	},
 ]

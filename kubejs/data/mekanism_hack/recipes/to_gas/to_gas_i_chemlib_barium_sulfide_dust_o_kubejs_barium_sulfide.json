@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:barium_sulfide",
-        "amount": 100.0
+        "amount": 200
     }
 }

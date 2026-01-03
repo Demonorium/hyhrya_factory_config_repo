@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:beta_carotene",
-        "amount": 100.0
+        "amount": 200
     }
 }

@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:chemical_infusing",
+    "leftInput": {
+        "gas": "kubejs:hydrogen_sulfide",
+        "amount": 3.0
+    },
+    "output": {
+        "gas": "mekanism:sulfuric_acid",
+        "amount": 3.0
+    },
+    "rightInput": {
+        "gas": "kubejs:ozone",
+        "amount": 4.0
+    }
+}

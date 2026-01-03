@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 2.456953642384106,
+    "temperature": {
+        "max_temp": 633.0
+    },
+    "fluid_input": {
+        "fluid": "mekanismelements:nitric_acid",
+        "amount": 800.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:cadmium_dust",
+        "count": 3.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:nitric_oxide",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "chemlib:cadmium_nitrate_dust",
+        "count": 3.0
+    }
+}

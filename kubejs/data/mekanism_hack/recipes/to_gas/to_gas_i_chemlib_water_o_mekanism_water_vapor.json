@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "mekanism:water_vapor",
-        "amount": 100.0
+        "amount": 200
     }
 }

@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:ethane",
-        "amount": 100.0
+        "amount": 200
     }
 }

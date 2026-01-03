@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "mekanism:sodium",
-        "amount": 100.0
+        "amount": 200
     }
 }

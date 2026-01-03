@@ -579,8 +579,8 @@
 				type: "item"
 			}]
 			title: "Ручные слизни-убийцы"
-			x: -9.5d
-			y: -8.0d
+			x: -12.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2B70BC686164D44A"]
@@ -973,6 +973,11 @@
 				"2B70BC686164D44A"
 			]
 			id: "1768C8884082284E"
+			rewards: [{
+				id: "53405B52F85BAA38"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
 			tasks: [{
 				id: "64DEBCE40D288364"
 				item: "sophisticatedbackpacks:everlasting_upgrade"

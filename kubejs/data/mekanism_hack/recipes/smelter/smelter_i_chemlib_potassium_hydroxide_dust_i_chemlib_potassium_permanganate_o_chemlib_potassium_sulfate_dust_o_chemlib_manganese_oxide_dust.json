@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:potassium_sulfate_dust",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:manganese_oxide_dust",
+            "count": 2.0
+        }
+    ],
+    "energy": 94000.0,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:potassium_hydroxide_dust",
+            "count": 4.0
+        },
+        {
+            "item": "chemlib:potassium_permanganate",
+            "count": 2.0
+        }
+    ]
+}

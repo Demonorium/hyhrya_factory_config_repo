@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 1.194214463840399,
+    "temperature": {
+        "max_temp": 283.46
+    },
+    "fluid_input": {
+        "fluid": "mekanism:sulfur_dioxide",
+        "amount": 400.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:nitric_acid",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:ammonia",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:sulfuric_acid",
+        "count": 4.0
+    }
+}

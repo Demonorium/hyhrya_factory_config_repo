@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 1.0315789473684212,
+    "temperature": {
+        "max_temp": 204.6
+    },
+    "fluid_input": {
+        "fluid": "mekanismelements:nitric_acid",
+        "amount": 400.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "mekanism:dust_tin",
+        "count": 3.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:nitric_oxide",
+        "amount": 400.0
+    },
+    "item_output": {
+        "item": "chemlib:tin_oxide_dust",
+        "count": 3.0
+    }
+}

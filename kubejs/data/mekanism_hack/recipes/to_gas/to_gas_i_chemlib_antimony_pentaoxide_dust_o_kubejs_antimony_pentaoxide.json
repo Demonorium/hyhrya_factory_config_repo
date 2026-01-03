@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:antimony_pentaoxide",
-        "amount": 100.0
+        "amount": 200
     }
 }

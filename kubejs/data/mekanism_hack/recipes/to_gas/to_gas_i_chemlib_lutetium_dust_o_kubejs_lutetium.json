@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:lutetium",
-        "amount": 100.0
+        "amount": 200
     }
 }

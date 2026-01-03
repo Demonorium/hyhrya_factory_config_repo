@@ -96,6 +96,7 @@ ServerEvents.recipes(event => {
       "time": 300
     })
 
+    event.replaceInput({id: "pneumaticcraft:drone_interface"}, 'pneumaticcraft:printed_circuit_board', 'advancedperipherals:peripheral_casing')
     event.replaceInput({id: "pneumaticcraft:night_vision_upgrade"}, 'pneumaticcraft:pressure_chamber_glass', 'cataclysm:cursium_ingot')
     event.replaceInput({id: "pneumaticcraft:magnet_upgrade"}, MATERIALS.COMPRESSED_IRON.ingot, MATERIALS.NEODYMIUM.ingot)
     event.shaped("pneumaticcraft:magnet_upgrade",

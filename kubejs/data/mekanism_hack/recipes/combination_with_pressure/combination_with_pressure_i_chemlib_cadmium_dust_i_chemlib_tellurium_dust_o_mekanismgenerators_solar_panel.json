@@ -2,12 +2,12 @@
     "type": "pneumaticcraft:fluid_mixer",
     "input1": {
         "fluid": "kubejs:cadmium",
-        "amount": 1.0,
+        "amount": 200.0,
         "type": "pneumaticcraft:fluid"
     },
     "input2": {
         "fluid": "kubejs:tellurium",
-        "amount": 1.0,
+        "amount": 100.0,
         "type": "pneumaticcraft:fluid"
     },
     "pressure": 2,

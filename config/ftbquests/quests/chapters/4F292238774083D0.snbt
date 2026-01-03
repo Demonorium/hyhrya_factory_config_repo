@@ -3227,6 +3227,17 @@
 			x: 2.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["6FEADEA5F041CA90"]
+			id: "3E7BE128D473C93C"
+			tasks: [{
+				id: "000AF47BD71E604A"
+				item: "pneumaticcraft:drone_interface"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
 	]
 	title: "Глава 2. Автоматизация"
 }

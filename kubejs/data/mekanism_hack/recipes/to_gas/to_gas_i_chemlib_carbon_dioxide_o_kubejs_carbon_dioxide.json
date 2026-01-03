@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:carbon_dioxide",
-        "amount": 100.0
+        "amount": 200
     }
 }

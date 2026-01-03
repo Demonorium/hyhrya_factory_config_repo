@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:promethium",
-        "amount": 100.0
+        "amount": 200
     }
 }

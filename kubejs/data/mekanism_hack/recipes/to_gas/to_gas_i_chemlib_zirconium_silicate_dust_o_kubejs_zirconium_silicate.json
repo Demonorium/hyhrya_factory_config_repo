@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:zirconium_silicate",
-        "amount": 100.0
+        "amount": 200
     }
 }

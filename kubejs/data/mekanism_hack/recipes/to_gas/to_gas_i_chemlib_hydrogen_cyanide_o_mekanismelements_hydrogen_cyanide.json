@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "mekanismelements:hydrogen_cyanide",
-        "amount": 100.0
+        "amount": 200
     }
 }

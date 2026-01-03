@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 11.305533980582524,
+    "temperature": {
+        "min_temp": 231.0,
+        "max_temp": 933.47
+    },
+    "fluid_input": {
+        "fluid": "minecraft:water",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:aluminum_nitrate_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:nitric_acid",
+        "amount": 300.0
+    },
+    "item_output": {
+        "item": "moremekanismprocessing:dust_aluminum",
+        "count": 1.0
+    }
+}

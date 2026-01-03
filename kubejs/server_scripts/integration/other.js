@@ -18,5 +18,7 @@ ServerEvents.recipes(event => {
       }
     })
 
-    
+    event.replaceInput({mod: 'mffs'}, "diamond", 'mekanism:ultimate_control_circuit')
+    event.replaceInput({mod: 'mffs'}, "redstone", 'pncepcb:crystal_clear_finished_pcb')
+    event.replaceInput({mod: 'mffs'}, "ender_pearl", 'mekanism_extras:cosmic_control_circuit')
 })
