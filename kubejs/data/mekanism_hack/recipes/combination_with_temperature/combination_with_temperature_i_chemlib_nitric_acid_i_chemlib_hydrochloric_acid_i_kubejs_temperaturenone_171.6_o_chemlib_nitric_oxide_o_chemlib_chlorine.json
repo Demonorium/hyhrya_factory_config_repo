@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 0.9322259136212625,
+    "temperature": {
+        "max_temp": 171.6
+    },
+    "fluid_input": {
+        "fluid": "mekanismelements:nitric_acid",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:hydrochloric_acid",
+        "count": 3.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:nitric_oxide",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:chlorine",
+        "count": 3.0
+    }
+}

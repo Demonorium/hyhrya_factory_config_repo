@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 3.3299999999999996,
+    "temperature": {
+        "max_temp": 325.66999999999996
+    },
+    "fluid_input": {
+        "fluid": "minecraft:water",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:beryllium_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanism:hydrogen",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "chemlib:beryllium_hydroxide_dust",
+        "count": 1.0
+    }
+}

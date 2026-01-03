@@ -1,0 +1,23 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+        "item": "chemlib:lithium_hydroxide_dust",
+        "count": 2.0
+    },
+    "result": [
+        {
+            "item": "mekanism:dust_lithium",
+            "count": 2.0
+        },
+        {
+            "item": "chemlib:water",
+            "count": 1.0
+        },
+        {
+            "fluid": "mekanism:oxygen",
+            "amount": 100.0
+        }
+    ],
+    "energy": 11970.0,
+    "experience": 5.98
+}

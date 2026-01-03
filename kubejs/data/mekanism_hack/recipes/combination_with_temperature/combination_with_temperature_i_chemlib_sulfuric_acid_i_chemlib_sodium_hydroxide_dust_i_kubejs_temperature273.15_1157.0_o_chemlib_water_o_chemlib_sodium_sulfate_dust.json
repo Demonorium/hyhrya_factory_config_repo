@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 14.02107843137255,
+    "temperature": {
+        "min_temp": 273.15,
+        "max_temp": 1157.0
+    },
+    "fluid_input": {
+        "fluid": "mekanism:sulfuric_acid",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:sodium_hydroxide_dust",
+        "count": 2.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "minecraft:water",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "chemlib:sodium_sulfate_dust",
+        "count": 1.0
+    }
+}

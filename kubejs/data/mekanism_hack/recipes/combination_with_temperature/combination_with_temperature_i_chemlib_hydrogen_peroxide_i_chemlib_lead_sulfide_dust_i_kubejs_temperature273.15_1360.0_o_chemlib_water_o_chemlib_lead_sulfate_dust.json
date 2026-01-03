@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 15.703365384615385,
+    "temperature": {
+        "min_temp": 273.15,
+        "max_temp": 1360.0
+    },
+    "fluid_input": {
+        "fluid": "kubejs:hydrogen_peroxide",
+        "amount": 400.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:lead_sulfide_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "minecraft:water",
+        "amount": 400.0
+    },
+    "item_output": {
+        "item": "chemlib:lead_sulfate_dust",
+        "count": 1.0
+    }
+}

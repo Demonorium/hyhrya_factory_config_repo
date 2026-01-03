@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 100,
+        "fluid": "kubejs:carbon_disulfide"
+    },
+    "gasInput": {
+        "amount": 200,
+        "gas": "kubejs:hydrogen_sulfide"
+    },
+    "itemInput": {
+        "amount": 4.0,
+        "ingredient": {
+            "item": "mekanism:dust_copper"
+        }
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "mekanismelements:methane"
+    },
+    "itemOutput": {
+        "count": 4,
+        "item": "chemlib:covellite_dust"
+    }
+}

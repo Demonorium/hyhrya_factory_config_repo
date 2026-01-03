@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:iron_ii_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:barium_sulfate",
+            "count": 1.0
+        }
+    ],
+    "energy": 64223.600000000006,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "chemlib:barium_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:iron_ii_sulfate_dust",
+            "count": 1.0
+        }
+    ]
+}

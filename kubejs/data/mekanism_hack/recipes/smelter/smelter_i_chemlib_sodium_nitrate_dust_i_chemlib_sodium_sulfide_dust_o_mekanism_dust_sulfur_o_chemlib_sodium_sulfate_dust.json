@@ -3,14 +3,14 @@
     "result": [
         {
             "item": "mekanism:dust_sulfur",
-            "count": 7.0
+            "count": 1.0
         },
         {
             "item": "chemlib:sodium_sulfate_dust",
-            "count": 7.0
+            "count": 2.0
         }
     ],
-    "energy": 181359.80000000002,
+    "energy": 48282.799999999996,
     "experience": 2.0,
     "ingredients": [
         {
@@ -19,7 +19,7 @@
         },
         {
             "item": "chemlib:sodium_sulfide_dust",
-            "count": 6.0
+            "count": 1.0
         }
     ]
 }

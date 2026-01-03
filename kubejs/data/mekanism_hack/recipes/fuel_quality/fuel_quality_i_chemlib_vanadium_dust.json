@@ -1,6 +1,6 @@
 {
     "type": "pneumaticcraft:fuel_quality",
-    "air_per_bucket": 659005,
+    "air_per_bucket": 517990,
     "burn_rate": 0.3217391304347826,
     "fluid": {
         "type": "pneumaticcraft:fluid",

@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 2.331194029850746,
+    "temperature": {
+        "max_temp": 273.15
+    },
+    "fluid_input": {
+        "fluid": "mekanismelements:nitrogen_dioxide",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:hydrogen",
+        "count": 7.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:ammonia",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "chemlib:water",
+        "count": 2.0
+    }
+}

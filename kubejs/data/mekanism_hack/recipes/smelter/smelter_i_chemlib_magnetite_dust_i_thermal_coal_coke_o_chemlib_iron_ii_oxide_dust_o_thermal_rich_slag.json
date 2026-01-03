@@ -3,7 +3,7 @@
     "result": [
         {
             "item": "chemlib:iron_ii_oxide_dust",
-            "count": 12.0
+            "count": 24.0
         },
         {
             "item": "thermal:rich_slag",
@@ -15,7 +15,7 @@
     "ingredients": [
         {
             "item": "chemlib:magnetite_dust",
-            "count": 4.0
+            "count": 8.0
         },
         {
             "item": "thermal:coal_coke",

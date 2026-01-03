@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "speed": 27.054640522875815,
+    "temperature": {
+        "min_temp": 1310.5733333333333,
+        "max_temp": 1449.0
+    },
+    "fluid_input": {
+        "fluid": "kubejs:sodium_sulfate",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:carbon_dust",
+        "count": 2.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "kubejs:carbon_dioxide",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "chemlib:sodium_sulfide_dust",
+        "count": 1.0
+    }
+}

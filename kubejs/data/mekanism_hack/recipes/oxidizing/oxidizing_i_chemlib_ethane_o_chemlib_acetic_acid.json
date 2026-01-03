@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:oxidizing",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:ethane"
+        }
+    },
+    "output": {
+        "gas": "kubejs:acetic_acid",
+        "amount": 100.0
+    }
+}

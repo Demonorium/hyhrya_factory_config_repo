@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 3.2108823529411765,
+    "temperature": {
+        "max_temp": 273.15
+    },
+    "fluid_input": {
+        "fluid": "kubejs:ozone",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:hydrogen",
+        "count": 2.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanism:oxygen",
+        "amount": 200.0
+    },
+    "item_output": {
+        "item": "chemlib:water",
+        "count": 1.0
+    }
+}

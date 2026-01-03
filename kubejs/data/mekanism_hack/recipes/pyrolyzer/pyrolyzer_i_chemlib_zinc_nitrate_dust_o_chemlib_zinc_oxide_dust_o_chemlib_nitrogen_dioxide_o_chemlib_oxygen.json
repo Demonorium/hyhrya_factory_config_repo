@@ -1,0 +1,23 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+        "item": "chemlib:zinc_nitrate_dust",
+        "count": 1.0
+    },
+    "result": [
+        {
+            "item": "chemlib:zinc_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:nitrogen_dioxide",
+            "count": 2.0
+        },
+        {
+            "fluid": "mekanism:oxygen",
+            "amount": 100.0
+        }
+    ],
+    "energy": 3980.0,
+    "experience": 1.99
+}

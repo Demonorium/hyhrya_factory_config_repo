@@ -1,0 +1,27 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 800,
+        "fluid": "kubejs:sodium_nitrate"
+    },
+    "gasInput": {
+        "amount": 400,
+        "gas": "mekanism:sulfuric_acid"
+    },
+    "itemInput": {
+        "amount": 3.0,
+        "ingredient": {
+            "item": "mekanism:dust_copper"
+        }
+    },
+    "gasOutput": {
+        "amount": 400,
+        "gas": "kubejs:sodium_sulfate"
+    },
+    "itemOutput": {
+        "count": 3,
+        "item": "chemlib:copper_nitrate_dust"
+    }
+}

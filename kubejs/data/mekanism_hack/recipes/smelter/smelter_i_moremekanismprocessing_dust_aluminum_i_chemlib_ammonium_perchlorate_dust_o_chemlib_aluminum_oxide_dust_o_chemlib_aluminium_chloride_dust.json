@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "result": [
+        {
+            "item": "chemlib:aluminum_oxide_dust",
+            "count": 1.0
+        },
+        {
+            "item": "chemlib:aluminium_chloride_dust",
+            "count": 1.0
+        }
+    ],
+    "energy": 15999.740000000002,
+    "experience": 2.0,
+    "ingredients": [
+        {
+            "item": "moremekanismprocessing:dust_aluminum",
+            "count": 3.0
+        },
+        {
+            "item": "chemlib:ammonium_perchlorate_dust",
+            "count": 3.0
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 5.476581027667985,
+    "temperature": {},
+    "fluid_input": {
+        "fluid": "mekanismelements:nitric_acid",
+        "amount": 600.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:chromium_dust",
+        "count": 10.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanismelements:nitrogen",
+        "amount": 600.0
+    },
+    "item_output": {
+        "item": "chemlib:chromium_oxide_dust",
+        "count": 5.0
+    }
+}

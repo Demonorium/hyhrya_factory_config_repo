@@ -7,14 +7,14 @@
     },
     "input2": {
         "fluid": "kubejs:hydrogen_peroxide",
-        "amount": 200.0,
+        "amount": 100.0,
         "type": "pneumaticcraft:fluid"
     },
     "pressure": 1.0,
-    "time": 3076,
+    "time": 3061,
     "fluid_output": {
         "fluid": "minecraft:water",
-        "amount": 300.0
+        "amount": 200.0
     },
     "item_output": {
         "item": "chemlib:iodine_dust",

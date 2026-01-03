@@ -123,84 +123,16 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
-			amount: 2.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:calcium_dust",
-			},
-		},
-		output: {
-			item: "chemlib:calcium_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 2.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:chlorine",
-			},
-		},
-		output: {
-			item: "chemlib:chlorine",
-			count: 2.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:sulfur_trioxide",
-			},
-		},
-		output: {
-			item: "chemlib:sulfuric_acid",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
 			amount: 3.0,
 		},
 		itemInput: {
-			amount: 1.0,
+			amount: 2.0,
 			ingredient: {
-				item: "chemlib:gold_iii_oxide_dust",
+				item: "mekanism:dust_iron",
 			},
 		},
 		output: {
-			item: "chemlib:gold_iii_hydroxide_dust",
-			count: 2.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:sulfur_dioxide",
-			},
-		},
-		output: {
-			item: "chemlib:sulfur_trioxide",
+			item: "chemlib:iron_oxide_dust",
 			count: 1.0,
 		},
 	},
@@ -209,23 +141,6 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
 			amount: 2.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "moremekanismprocessing:dust_zinc",
-			},
-		},
-		output: {
-			item: "chemlib:zinc_hydroxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 3.0,
 		},
 		itemInput: {
 			amount: 2.0,
@@ -234,7 +149,7 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 			},
 		},
 		output: {
-			item: "chemlib:ethanol",
+			item: "chemlib:ethylene",
 			count: 1.0,
 		},
 	},
@@ -242,67 +157,101 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
-			amount: 1.0,
+			amount: 4.0,
 		},
 		itemInput: {
 			amount: 1.0,
-			ingredient: {
-				item: "chemlib:calcium_carbonate_dust",
-			},
-		},
-		output: {
-			item: "chemlib:calcium_hydroxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:manganese_ii_oxide_dust",
-			},
-		},
-		output: {
-			item: "chemlib:manganese_hydroxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 2.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "mekanism:dust_copper",
-			},
-		},
-		output: {
-			item: "chemlib:copper_ii_hydroxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 5.0,
-		},
-		itemInput: {
-			amount: 2.0,
 			ingredient: {
 				item: "chemlib:phosphorus_dust",
 			},
 		},
 		output: {
-			item: "chemlib:phosphorus_pentoxide_dust",
+			item: "chemlib:phosphoric_acid_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:potassium_carbonate_dust",
+			},
+		},
+		output: {
+			item: "chemlib:potassium_hydroxide_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:nitric_acid",
+			},
+		},
+		output: {
+			item: "chemlib:ammonia",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:carbon_monoxide",
+			},
+		},
+		output: {
+			item: "chemlib:methane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:potassium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:potassium_hydroxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanismelements:dust_calcium_oxide",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_dust",
 			count: 1.0,
 		},
 	},
@@ -320,6 +269,176 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		},
 		output: {
 			item: "chemlib:metasilicic_acid",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:gold_iii_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_gold",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:barium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:barium_oxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:iron_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:iron_oxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:barium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:barium_hydroxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism:dust_lead",
+			},
+		},
+		output: {
+			item: "chemlib:lead_oxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:beryllium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:beryllium_oxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:carbon_trioxide",
+			},
+		},
+		output: {
+			item: "chemlib:carbon_dioxide",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:cesium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:cesium_hydroxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:copper_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:copper_ii_hydroxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:chromium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:chromium_oxide_dust",
 			count: 1.0,
 		},
 	},
@@ -349,11 +468,28 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		itemInput: {
 			amount: 2.0,
 			ingredient: {
-				item: "moremekanismprocessing:dust_aluminum",
+				item: "chemlib:nitric_oxide",
 			},
 		},
 		output: {
-			item: "chemlib:aluminum_oxide_dust",
+			item: "chemlib:ammonia",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "mekanism:dust_lithium",
+			},
+		},
+		output: {
+			item: "chemlib:lithium_oxide_dust",
 			count: 1.0,
 		},
 	},
@@ -366,11 +502,11 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		itemInput: {
 			amount: 1.0,
 			ingredient: {
-				item: "mekanism:dust_lithium",
+				item: "chemlib:ozone",
 			},
 		},
 		output: {
-			item: "chemlib:lithium_hydroxide_dust",
+			item: "chemlib:hydrogen_peroxide",
 			count: 1.0,
 		},
 	},
@@ -388,6 +524,125 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		},
 		output: {
 			item: "chemlib:lead_sulfate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:chlorine",
+			},
+		},
+		output: {
+			item: "chemlib:chlorine",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:beryllium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:beryllium_hydroxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:ammonia",
+			},
+		},
+		output: {
+			item: "chemlib:ammonium",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:phosgene",
+			},
+		},
+		output: {
+			item: "chemlib:hydrochloric_acid",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "moremekanismprocessing:dust_cobalt",
+			},
+		},
+		output: {
+			item: "chemlib:cobalt_ii_hydroxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:carbon_disulfide",
+			},
+		},
+		output: {
+			item: "chemlib:hydrogen_sulfide",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:magnesium_carbonate_dust",
+			},
+		},
+		output: {
+			item: "chemlib:magnesium_hydroxide_dust",
 			count: 1.0,
 		},
 	},
@@ -429,142 +684,6 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
-			amount: 3.0,
-		},
-		itemInput: {
-			amount: 2.0,
-			ingredient: {
-				item: "moremekanismprocessing:dust_bismuth",
-			},
-		},
-		output: {
-			item: "chemlib:bismuth_iii_oxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 3.0,
-		},
-		itemInput: {
-			amount: 2.0,
-			ingredient: {
-				item: "chemlib:antimony_dust",
-			},
-		},
-		output: {
-			item: "chemlib:antimony_trioxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:rubidium_oxide_dust",
-			},
-		},
-		output: {
-			item: "chemlib:rubidium_hydroxide_dust",
-			count: 2.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:cesium_dust",
-			},
-		},
-		output: {
-			item: "chemlib:cesium_hydroxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:potassium_oxide_dust",
-			},
-		},
-		output: {
-			item: "chemlib:potassium_hydroxide_dust",
-			count: 2.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "mekanismelements:dust_calcium_oxide",
-			},
-		},
-		output: {
-			item: "chemlib:calcium_hydroxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:azanide",
-			},
-		},
-		output: {
-			item: "chemlib:ammonia",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 3.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:phosphorus_pentoxide_dust",
-			},
-		},
-		output: {
-			item: "chemlib:phosphoric_acid_dust",
-			count: 2.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
 			amount: 2.0,
 		},
 		itemInput: {
@@ -587,198 +706,11 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		itemInput: {
 			amount: 1.0,
 			ingredient: {
-				item: "chemlib:acetic_anhydride",
+				item: "chemlib:manganese_ii_oxide_dust",
 			},
 		},
 		output: {
-			item: "chemlib:acetic_acid",
-			count: 2.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 2.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:barium_dust",
-			},
-		},
-		output: {
-			item: "chemlib:barium_hydroxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:sodium_hydroxide_dust",
-			},
-		},
-		output: {
-			item: "chemlib:sodium_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 2.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:sodium_dust",
-			},
-		},
-		output: {
-			item: "chemlib:sodium_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 2.0,
-			ingredient: {
-				item: "chemlib:bromine",
-			},
-		},
-		output: {
-			item: "chemlib:hydrogen_bromide",
-			count: 2.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "minecraft:sugar",
-			},
-		},
-		output: {
-			item: "chemlib:ethanol",
-			count: 4.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 3.0,
-		},
-		itemInput: {
-			amount: 2.0,
-			ingredient: {
-				item: "chemlib:nitrogen_dioxide",
-			},
-		},
-		output: {
-			item: "chemlib:ammonia",
-			count: 2.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 2.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:strontium_dust",
-			},
-		},
-		output: {
-			item: "chemlib:strontium_hydroxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:nitric_oxide",
-			},
-		},
-		output: {
-			item: "chemlib:nitrogen_dioxide",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "moremekanismprocessing:dust_cobalt",
-			},
-		},
-		output: {
-			item: "chemlib:cobalt_ii_oxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:urea_dust",
-			},
-		},
-		output: {
-			item: "chemlib:ammonia",
-			count: 2.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 3.0,
-			ingredient: {
-				item: "chemlib:iron_ii_oxide_dust",
-			},
-		},
-		output: {
-			item: "chemlib:magnetite_dust",
+			item: "chemlib:manganese_hydroxide_dust",
 			count: 1.0,
 		},
 	},
@@ -808,23 +740,6 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		itemInput: {
 			amount: 1.0,
 			ingredient: {
-				item: "chemlib:sodium_oxide_dust",
-			},
-		},
-		output: {
-			item: "chemlib:sodium_hydroxide_dust",
-			count: 2.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
 				item: "chemlib:manganese_dust",
 			},
 		},
@@ -837,16 +752,16 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
-			amount: 1.0,
+			amount: 3.0,
 		},
 		itemInput: {
 			amount: 1.0,
 			ingredient: {
-				item: "chemlib:phosgene",
+				item: "chemlib:phosphorus_pentoxide_dust",
 			},
 		},
 		output: {
-			item: "chemlib:hydrochloric_acid",
+			item: "chemlib:phosphoric_acid_dust",
 			count: 2.0,
 		},
 	},
@@ -854,16 +769,16 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
-			amount: 2.0,
+			amount: 1.0,
 		},
 		itemInput: {
 			amount: 1.0,
 			ingredient: {
-				item: "moremekanismprocessing:dust_magnesium",
+				item: "chemlib:cobalt_ii_oxide_dust",
 			},
 		},
 		output: {
-			item: "chemlib:magnesium_hydroxide_dust",
+			item: "chemlib:cobalt_ii_hydroxide_dust",
 			count: 1.0,
 		},
 	},
@@ -876,62 +791,11 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		itemInput: {
 			amount: 1.0,
 			ingredient: {
-				item: "chemlib:beryllium_oxide_dust",
+				item: "chemlib:azanide",
 			},
 		},
 		output: {
-			item: "chemlib:beryllium_hydroxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 4.0,
-		},
-		itemInput: {
-			amount: 3.0,
-			ingredient: {
-				item: "mekanism:dust_iron",
-			},
-		},
-		output: {
-			item: "chemlib:magnetite_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 2.0,
-			ingredient: {
-				item: "chemlib:potassium_dust",
-			},
-		},
-		output: {
-			item: "chemlib:potassium_oxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:barium_oxide_dust",
-			},
-		},
-		output: {
-			item: "chemlib:barium_dust",
+			item: "chemlib:ammonia",
 			count: 1.0,
 		},
 	},
@@ -956,169 +820,16 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
-			amount: 2.0,
+			amount: 3.0,
 		},
 		itemInput: {
 			amount: 1.0,
 			ingredient: {
-				item: "chemlib:beryllium_dust",
+				item: "moremekanismprocessing:dust_aluminum",
 			},
 		},
 		output: {
-			item: "chemlib:beryllium_hydroxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:copper_ii_oxide_dust",
-			},
-		},
-		output: {
-			item: "mekanism:dust_copper",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:lithium_oxide_dust",
-			},
-		},
-		output: {
-			item: "chemlib:lithium_hydroxide_dust",
-			count: 2.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:nitric_acid",
-			},
-		},
-		output: {
-			item: "chemlib:ammonia",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 2.0,
-			ingredient: {
-				item: "chemlib:fluorine",
-			},
-		},
-		output: {
-			item: "chemlib:hydrofluoric_acid",
-			count: 2.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 2.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:acetylene",
-			},
-		},
-		output: {
-			item: "chemlib:ethane",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:magnesium_carbonate_dust",
-			},
-		},
-		output: {
-			item: "chemlib:magnesium_hydroxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:carbon_trioxide",
-			},
-		},
-		output: {
-			item: "chemlib:carbon_dioxide",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 2.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "mekanism:dust_tin",
-			},
-		},
-		output: {
-			item: "chemlib:tin_oxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:rubidium_dust",
-			},
-		},
-		output: {
-			item: "chemlib:rubidium_hydroxide_dust",
+			item: "chemlib:aluminum_hydroxide_dust",
 			count: 1.0,
 		},
 	},
@@ -1148,62 +859,28 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		itemInput: {
 			amount: 1.0,
 			ingredient: {
-				item: "chemlib:zinc_oxide_dust",
+				item: "minecraft:sugar",
 			},
 		},
 		output: {
-			item: "chemlib:zinc_hydroxide_dust",
-			count: 1.0,
+			item: "chemlib:ethanol",
+			count: 4.0,
 		},
 	},
 	{
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
-			amount: 1.0,
+			amount: 2.0,
 		},
 		itemInput: {
 			amount: 1.0,
 			ingredient: {
-				item: "chemlib:ammonia",
+				item: "chemlib:acetylene",
 			},
 		},
 		output: {
-			item: "chemlib:ammonium",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:ozone",
-			},
-		},
-		output: {
-			item: "chemlib:hydrogen_peroxide",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:carbon_monoxide",
-			},
-		},
-		output: {
-			item: "chemlib:formic_acid",
+			item: "chemlib:ethane",
 			count: 1.0,
 		},
 	},
@@ -1216,11 +893,130 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		itemInput: {
 			amount: 1.0,
 			ingredient: {
-				item: "chemlib:carbon_disulfide",
+				item: "mekanism:dust_tin",
 			},
 		},
 		output: {
-			item: "chemlib:hydrogen_sulfide",
+			item: "chemlib:tin_oxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism:dust_copper",
+			},
+		},
+		output: {
+			item: "chemlib:copper_ii_hydroxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:acetic_anhydride",
+			},
+		},
+		output: {
+			item: "chemlib:acetic_acid",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:carbon_dust",
+			},
+		},
+		output: {
+			item: "chemlib:methane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "moremekanismprocessing:dust_zinc",
+			},
+		},
+		output: {
+			item: "chemlib:zinc_oxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_dust",
+			},
+		},
+		output: {
+			item: "mekanismelements:dust_calcium_oxide",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "moremekanismprocessing:dust_bismuth",
+			},
+		},
+		output: {
+			item: "chemlib:bismuth_iii_oxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lithium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lithium_hydroxide_dust",
 			count: 2.0,
 		},
 	},
@@ -1233,7 +1029,24 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		itemInput: {
 			amount: 1.0,
 			ingredient: {
-				item: "chemlib:potassium_carbonate_dust",
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:potassium_oxide_dust",
 			},
 		},
 		output: {
@@ -1245,17 +1058,51 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:antimony_dust",
+			},
+		},
+		output: {
+			item: "chemlib:antimony_trioxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
 			amount: 1.0,
 		},
 		itemInput: {
 			amount: 1.0,
 			ingredient: {
-				item: "mekanism:dust_lead",
+				item: "chemlib:sodium_carbonate_dust",
 			},
 		},
 		output: {
-			item: "chemlib:lead_oxide_dust",
-			count: 1.0,
+			item: "chemlib:sodium_hydroxide_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:bromine",
+			},
+		},
+		output: {
+			item: "chemlib:hydrogen_bromide",
+			count: 2.0,
 		},
 	},
 	{
@@ -1284,12 +1131,97 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		itemInput: {
 			amount: 1.0,
 			ingredient: {
-				item: "chemlib:sodium_carbonate_dust",
+				item: "chemlib:urea_dust",
+			},
+		},
+		output: {
+			item: "chemlib:ammonia",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_oxide_dust",
 			},
 		},
 		output: {
 			item: "chemlib:sodium_hydroxide_dust",
 			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "moremekanismprocessing:dust_magnesium",
+			},
+		},
+		output: {
+			item: "chemlib:magnesium_oxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:rubidium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:rubidium_hydroxide_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:nitrogen",
+			},
+		},
+		output: {
+			item: "chemlib:ammonia",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:rubidium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:rubidium_hydroxide_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -1313,17 +1245,17 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
-			amount: 3.0,
+			amount: 1.0,
 		},
 		itemInput: {
 			amount: 2.0,
 			ingredient: {
-				item: "chemlib:chromium_dust",
+				item: "chemlib:fluorine",
 			},
 		},
 		output: {
-			item: "chemlib:chromium_oxide_dust",
-			count: 1.0,
+			item: "chemlib:hydrofluoric_acid",
+			count: 2.0,
 		},
 	},
 	{
@@ -1335,28 +1267,11 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		itemInput: {
 			amount: 1.0,
 			ingredient: {
-				item: "chemlib:cobalt_ii_oxide_dust",
+				item: "chemlib:sodium_dust",
 			},
 		},
 		output: {
-			item: "chemlib:cobalt_ii_hydroxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 2.0,
-		},
-		itemInput: {
-			amount: 2.0,
-			ingredient: {
-				item: "chemlib:carbon_dust",
-			},
-		},
-		output: {
-			item: "chemlib:methane",
+			item: "chemlib:sodium_hydroxide_dust",
 			count: 1.0,
 		},
 	},
@@ -1369,12 +1284,97 @@ const CUSTOM_RECIPES_FIX_INJECTIONS = [
 		itemInput: {
 			amount: 2.0,
 			ingredient: {
-				item: "chemlib:nitrogen",
+				item: "chemlib:nitrogen_dioxide",
 			},
 		},
 		output: {
 			item: "chemlib:ammonia",
 			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:zinc_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:zinc_hydroxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sulfur_trioxide",
+			},
+		},
+		output: {
+			item: "chemlib:sulfuric_acid",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sulfur_dioxide",
+			},
+		},
+		output: {
+			item: "chemlib:sulfur_trioxide",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_carbonate_dust",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_hydroxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:strontium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:strontium_hydroxide_dust",
+			count: 1.0,
 		},
 	},
 	{

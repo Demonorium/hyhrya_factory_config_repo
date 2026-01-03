@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 400,
+    "energyRequired": 200,
+    "fluidInput": {
+        "amount": 2200,
+        "fluid": "mekanism:hydrogen"
+    },
+    "gasInput": {
+        "amount": 1100,
+        "gas": "mekanism:oxygen"
+    },
+    "itemInput": {
+        "amount": 12.0,
+        "ingredient": {
+            "item": "chemlib:carbon_dust"
+        }
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "minecraft:sugar"
+    }
+}

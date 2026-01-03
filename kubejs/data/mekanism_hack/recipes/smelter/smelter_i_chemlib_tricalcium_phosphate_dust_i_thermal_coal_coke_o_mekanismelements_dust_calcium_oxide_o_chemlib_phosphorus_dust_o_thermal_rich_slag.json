@@ -3,11 +3,11 @@
     "result": [
         {
             "item": "mekanismelements:dust_calcium_oxide",
-            "count": 24.0
+            "count": 12.0
         },
         {
             "item": "chemlib:phosphorus_dust",
-            "count": 16.0
+            "count": 8.0
         },
         {
             "item": "thermal:rich_slag",
@@ -19,7 +19,7 @@
     "ingredients": [
         {
             "item": "chemlib:tricalcium_phosphate_dust",
-            "count": 8.0
+            "count": 4.0
         },
         {
             "item": "thermal:coal_coke",

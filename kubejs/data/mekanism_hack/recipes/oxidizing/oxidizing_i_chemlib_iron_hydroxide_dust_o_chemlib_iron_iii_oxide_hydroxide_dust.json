@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:oxidizing",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:iron_hydroxide_dust"
+        }
+    },
+    "output": {
+        "gas": "kubejs:iron_iii_oxide_hydroxide",
+        "amount": 100.0
+    }
+}

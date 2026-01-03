@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": true,
+    "speed": 8.848316831683167,
+    "temperature": {
+        "min_temp": 201.0,
+        "max_temp": 692.68
+    },
+    "fluid_input": {
+        "fluid": "mekanism:oxygen",
+        "amount": 200.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "item_input": {
+        "item": "chemlib:zinc_sulfide_dust",
+        "count": 1.0,
+        "type": "pneumaticcraft:stacked_item"
+    },
+    "fluid_output": {
+        "fluid": "mekanism:sulfur_dioxide",
+        "amount": 100.0
+    },
+    "item_output": {
+        "item": "moremekanismprocessing:dust_zinc",
+        "count": 1.0
+    }
+}

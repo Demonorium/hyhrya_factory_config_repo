@@ -11,11 +11,11 @@
     "ingredients": [
         {
             "item": "chemlib:ozone",
-            "count": 8.0
+            "count": 4.0
         },
         {
             "item": "thermal:coal_coke",
-            "count": 3.0
+            "count": 1.0
         }
     ]
 }
