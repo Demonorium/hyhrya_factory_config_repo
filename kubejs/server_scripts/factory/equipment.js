@@ -126,8 +126,8 @@ ServerEvents.recipes(event => {
     simple_update(Item.of('pneumaticcraft:radiation_shielding_upgrade'), Item.of('mekanism:module_radiation_shielding_unit'))
     simple_update(Item.of('pneumaticcraft:magnet_upgrade'), Item.of('mekanism:module_magnetic_attraction_unit'))
     simple_update(Item.of('thermal:rf_coil_storage_augment'), Item.of('mekanism:module_energy_unit'))
-    simple_update(Item.of(''), Item.of('mekanism:module_vision_enhancement_unit'))
-    
+    simple_update(Item.of('pneumaticcraft:night_vision_upgrade'), Item.of('mekanism:module_vision_enhancement_unit'))
+  
     event.remove({id: 'mekanism:module_attack_amplification_unit'})
     event.remove({id: 'mekaweapons:module_attackamplification_unit'})
     event.remove({id: 'mekaweapons:module_attackamplification_unit_reverse'})

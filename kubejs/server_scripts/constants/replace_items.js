@@ -650,6 +650,6 @@ const ITEMS_TO_REPLACE = [
 	},
 	{
 		from: "superbwarfare:propeller",
-		to: "pneumaticcraft:turbine_motor",
+		to: "pneumaticcraft:turbine_rotor",
 	},
 ]

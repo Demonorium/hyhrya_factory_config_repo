@@ -238,7 +238,7 @@
 	[Machines.Press]
 		#This sets the base power consumption (RF/t) for the Multiservo Press.
 		#Range: 1 ~ 32000
-		"Base Power" = 350
+		"Base Power" = 80
 
 	[Machines.Crucible]
 		#This sets the base power consumption (RF/t) for the Magma Crucible.

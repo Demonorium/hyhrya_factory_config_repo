@@ -148,6 +148,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'ad_astra_giselle_addon:compat/pneumaticcraft/crafting/space_breathing_upgrade'})
     event.remove({id: 'ad_astra_giselle_addon:compat/pneumaticcraft/crafting/space_fire_proof_upgrade'})
     event.remove({id: 'ad_astra_giselle_addon:compat/pneumaticcraft/crafting/gravity_normalizing_upgrade'})
+    event.remove({id: 'pneumaticcraft:radiation_shield_mekanism'})
 
     event.shaped(Item.of('ad_astra_giselle_addon:pneumatic_space_breathing_upgrade'), [
             'ABA',

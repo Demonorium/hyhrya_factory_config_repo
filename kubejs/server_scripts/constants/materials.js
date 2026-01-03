@@ -753,7 +753,6 @@ const MATERIALS = {
 		normal_ores: [
 			"thermal_and_space:glacio_sapphire_ore",
 			"thermal:sapphire_ore",
-			"thermal:deepslate_sapphire_ore",
 		],
 		ingot: "thermal:sapphire",
 		block: "thermal:sapphire_block",

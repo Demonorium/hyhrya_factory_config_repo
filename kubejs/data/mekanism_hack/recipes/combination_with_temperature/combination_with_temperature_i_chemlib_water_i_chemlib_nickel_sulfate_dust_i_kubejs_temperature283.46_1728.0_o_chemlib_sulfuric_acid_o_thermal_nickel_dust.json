@@ -8,7 +8,7 @@
     },
     "fluid_input": {
         "fluid": "minecraft:water",
-        "amount": 100.0,
+        "amount": 200.0,
         "type": "pneumaticcraft:fluid"
     },
     "item_input": {

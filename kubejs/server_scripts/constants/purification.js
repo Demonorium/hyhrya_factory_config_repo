@@ -68,4 +68,21 @@ const CUSTOM_RECIPES_FIX_PURIFICATION = [
 			count: 1.0,
 		},
 	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "thermal:tar",
+			},
+		},
+		output: {
+			item: "chemlib:carbonic_acid",
+			count: 1.0,
+		},
+	},
 ]

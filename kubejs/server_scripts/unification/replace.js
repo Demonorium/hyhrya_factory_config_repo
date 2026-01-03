@@ -32,7 +32,9 @@ LootJS.modifiers((event) => {
         mod.replaceLoot(element.from, element.to)
     })
 	ITEMS_TO_HIDE.forEach(element => {
-       	mod.removeLoot(element)
+        if (!(element.endsWith('_bucket'))) {
+       	    mod.removeLoot(element)
+        }
     })
     mod.replaceLoot(item => item.id.endsWith('_blueprint') && item.id.startsWith("superb"), Item.of('thermal:bronze_coin', 3))
 
@@ -41,7 +43,9 @@ LootJS.modifiers((event) => {
         mod.replaceLoot(element.from, element.to)
     })
 	ITEMS_TO_HIDE.forEach(element => {
-       	mod.removeLoot(element)
+        if (!(element.endsWith('_bucket'))) {
+       	    mod.removeLoot(element)
+        }
     })
     mod.replaceLoot(item => item.id.endsWith('_blueprint') && item.id.startsWith("superb"), Item.of('thermal:bronze_coin', 6))
 

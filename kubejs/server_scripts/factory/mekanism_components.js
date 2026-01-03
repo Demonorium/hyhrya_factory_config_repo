@@ -252,7 +252,7 @@ ServerEvents.recipes(event => {
             B: Item.of('mekanism:advanced_control_circuit'),
             D: Item.of(MATERIALS.PLASTIC.plate),
             C: Item.of(MATERIALS.CESIUM.dust),
-            C: Item.of(MATERIALS.ALUMINUM.dust),
+            E: Item.of(MATERIALS.ALUMINUM.dust),
         }
     )
 
@@ -280,7 +280,7 @@ ServerEvents.recipes(event => {
             B: Item.of('mekanism:elite_control_circuit'),
             D: Item.of(MATERIALS.PLASTIC.plate),
             C: Item.of(MATERIALS.CESIUM.dust),
-            C: Item.of(MATERIALS.ALUMINUM.dust),
+            E: Item.of(MATERIALS.ALUMINUM.dust),
         }
     )
 

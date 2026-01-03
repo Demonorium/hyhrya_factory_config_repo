@@ -88,7 +88,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 553.0799999999999,
 		matter_state: "solid",
-		combustion: 296.81,
+		combustion: 395.7,
 	},
 	{
 		id: "argon",
@@ -688,7 +688,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1311.305,
 		matter_state: "solid",
-		combustion: 274.47,
+		combustion: 219.41,
 	},
 	{
 		id: "bismuth",
@@ -1858,7 +1858,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 200.64999999999998,
 		matter_state: "gas",
-		combustion: 264.83,
+		combustion: 463.61,
 	},
 	{
 		id: "acetylene",
@@ -2738,7 +2738,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1229.4966666666667,
 		matter_state: "solid",
-		combustion: 346.7099999999999,
+		combustion: 1021.4599999999999,
 	},
 	{
 		id: "azanide",
@@ -3478,7 +3478,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2381.9333333333334,
 		matter_state: "solid",
-		combustion: 1301.4,
+		combustion: 1103.6200000000001,
 	},
 	{
 		id: "molybdenum_trioxide",
