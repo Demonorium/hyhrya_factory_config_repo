@@ -258,7 +258,7 @@
 	[Machines.Pyrolyzer]
 		#This sets the base power consumption (RF/t) for the Pyrolyzer.
 		#Range: 1 ~ 32000
-		"Base Power" = 500
+		"Base Power" = 100
 
 	[Machines.Bottler]
 		#This sets the base power consumption (RF/t) for the Fluid Encapsulator.

@@ -3140,6 +3140,28 @@
 			x: -7.5d
 			y: 23.0d
 		}
+		{
+			dependencies: ["25F7EAEACC8AA072"]
+			id: "16D71D7E1273B7B5"
+			tasks: [{
+				id: "7270727C9F3208A1"
+				item: "mekanism_extras:upgrade_stack"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25F7EAEACC8AA072"]
+			id: "79E883A74D6ACE2E"
+			tasks: [{
+				id: "1FFD3B68DE4A8992"
+				item: "thermalendergy:endergy_upgrade_1"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
 	]
 	title: "Главы 3. Продвинутая химия"
 }
