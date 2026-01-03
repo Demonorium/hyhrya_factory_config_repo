@@ -26,6 +26,7 @@ repo.index.add('kubejs/startup_scripts/*')
 repo.index.add('defaultconfigs/*')
 repo.index.add('keybinding presets/*')
 repo.index.add('minemenu/*')
+repo.index.add('server_configs/*')
 
 print('commit...')
 repo.index.commit('version: ' + str(version))
