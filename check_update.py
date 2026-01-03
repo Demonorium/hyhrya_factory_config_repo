@@ -24,7 +24,8 @@ if version >= upsteam_version:
     exit(0)
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-f", "--force", help="always update")
+parser.add_argument("-f", "--force", help="always update", default=False, required=False)
+parser.add_argument("-s", "--skip", help="skip install", default=False, required=False)
 args = parser.parse_args()
 
 text = '_'
@@ -68,4 +69,5 @@ if os.path.exists('./install_update.py'):
 shutil.copy(target_path + 'install_update.py', 'install_update.py')
 print('Подготовка завершена, начало обновления...')
 
-os.system('python install_update.py')
+if not args.skip:
+    os.system('python install_update.py')

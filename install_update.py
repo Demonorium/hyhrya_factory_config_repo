@@ -2,6 +2,9 @@ import os
 import shutil
 
 source_path = './update/hyhrya_factory_config_repo-master/'
+if not os.path.exists(source_path):
+    print('no install packet detected...')
+    continue
 
 def rm_if_ex_copy(p):
     if os.path.exists(p):
