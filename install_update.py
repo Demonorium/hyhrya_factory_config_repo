@@ -1,6 +1,7 @@
 import os
 import shutil
 
+print('installer started...')
 source_path = './update/hyhrya_factory_config_repo-master/'
 if not os.path.exists(source_path):
     print('no install packet detected...')

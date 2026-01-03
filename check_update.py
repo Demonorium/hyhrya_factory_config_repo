@@ -2,8 +2,12 @@ import requests
 import os
 import shutil
 import zipfile
-import sys
 import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-f", "--force", help="always update", default=False, required=False)
+parser.add_argument("-s", "--skip", help="skip install", default=False, required=False)
+args = parser.parse_args()
 
 with open('modpack_version.txt', mode='r', encoding='utf-8') as f:
     version = int(f.readline())
@@ -15,18 +19,18 @@ version_rq = requests.get('https://raw.githubusercontent.com/Demonorium/hyhrya_f
 if version_rq.status_code != 200:
     print('Критическая ошибка при получении информации о версии, код:', version_rq.status_code)
     print('Текст', version_rq.text)
+    if not args.force:
+        input('Нажмите enter чтобы завершить...')
     exit(-1)
 
 upsteam_version = int(version_rq.text)
 if version >= upsteam_version:
     print('Версия репозитория:', upsteam_version)
     print('Текущая версия актуальна, обновление не требуется')
+    if not args.force:
+        input('Нажмите enter чтобы завершить...')
     exit(0)
 
-parser = argparse.ArgumentParser()
-parser.add_argument("-f", "--force", help="always update", default=False, required=False)
-parser.add_argument("-s", "--skip", help="skip install", default=False, required=False)
-args = parser.parse_args()
 
 text = '_'
 if args.force:
