@@ -106,7 +106,7 @@
 		"Default Furnace-Based Recipes" = false
 		#This sets the recipe energy multiplier for the Induction Smelter. This scales all recipe energy requirements.
 		#Range: 0.0625 ~ 16.0
-		"Energy Multiplier" = 10.0
+		"Energy Multiplier" = 12.0
 
 	[Recipes.Insolator]
 		#This sets the recipe energy multiplier for the Phytogenic Insolator. This scales all recipe energy requirements.
@@ -141,7 +141,7 @@
 	[Recipes.Pyrolyzer]
 		#This sets the recipe energy multiplier for the Pyrolyzer. This scales all recipe energy requirements.
 		#Range: 0.0625 ~ 16.0
-		"Energy Multiplier" = 6.0
+		"Energy Multiplier" = 10.0
 
 	[Recipes.Bottler]
 		#If TRUE, Bucket filling recipes will be automatically created for the Fluid Encapsulator.
@@ -213,65 +213,65 @@
 	[Machines.Sawmill]
 		#This sets the base power consumption (RF/t) for the Sawmill.
 		#Range: 1 ~ 32000
-		"Base Power" = 500
+		"Base Power" = 200
 
 	[Machines.Pulverizer]
 		#This sets the base power consumption (RF/t) for the Pulverizer.
 		#Range: 1 ~ 32000
-		"Base Power" = 800
+		"Base Power" = 200
 
 	[Machines.Smelter]
 		#This sets the base power consumption (RF/t) for the Induction Smelter.
 		#Range: 1 ~ 32000
-		"Base Power" = 10000
+		"Base Power" = 2000
 
 	[Machines.Insolator]
 		#This sets the base power consumption (RF/t) for the Phytogenic Insolator.
 		#Range: 1 ~ 32000
-		"Base Power" = 1500
+		"Base Power" = 50
 
 	[Machines.Centrifuge]
 		#This sets the base power consumption (RF/t) for the Centrifugal Separator.
 		#Range: 1 ~ 32000
-		"Base Power" = 1500
+		"Base Power" = 500
 
 	[Machines.Press]
 		#This sets the base power consumption (RF/t) for the Multiservo Press.
 		#Range: 1 ~ 32000
-		"Base Power" = 900
+		"Base Power" = 350
 
 	[Machines.Crucible]
 		#This sets the base power consumption (RF/t) for the Magma Crucible.
 		#Range: 1 ~ 32000
-		"Base Power" = 3000
+		"Base Power" = 1000
 
 	[Machines.Chiller]
 		#This sets the base power consumption (RF/t) for the Blast Chiller.
 		#Range: 1 ~ 32000
-		"Base Power" = 3000
+		"Base Power" = 1000
 
 	[Machines.Refinery]
 		#This sets the base power consumption (RF/t) for the Fractionating Still.
 		#Range: 1 ~ 32000
-		"Base Power" = 800
+		"Base Power" = 500
 
 	[Machines.Pyrolyzer]
 		#This sets the base power consumption (RF/t) for the Pyrolyzer.
 		#Range: 1 ~ 32000
-		"Base Power" = 1000
+		"Base Power" = 500
 
 	[Machines.Bottler]
 		#This sets the base power consumption (RF/t) for the Fluid Encapsulator.
 		#Range: 1 ~ 32000
-		"Base Power" = 800
+		"Base Power" = 500
 
 	[Machines.Brewer]
 		#This sets the base power consumption (RF/t) for the Crystallizer.
 		#Range: 1 ~ 32000
-		"Base Power" = 1500
+		"Base Power" = 750
 
 	[Machines.Crafter]
 		#This sets the base power consumption (RF/t) for the Sequential Fabricator.
 		#Range: 1 ~ 32000
-		"Base Power" = 300
+		"Base Power" = 200
 

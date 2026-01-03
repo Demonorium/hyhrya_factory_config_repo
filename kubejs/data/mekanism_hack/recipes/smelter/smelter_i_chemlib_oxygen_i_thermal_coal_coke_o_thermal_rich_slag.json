@@ -11,7 +11,7 @@
     "ingredients": [
         {
             "item": "chemlib:oxygen",
-            "count": 8.0
+            "count": 4.0
         },
         {
             "item": "thermal:coal_coke",

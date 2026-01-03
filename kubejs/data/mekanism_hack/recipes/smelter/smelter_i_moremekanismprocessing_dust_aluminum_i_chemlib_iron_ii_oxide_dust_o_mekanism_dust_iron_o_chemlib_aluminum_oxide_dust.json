@@ -3,14 +3,14 @@
     "result": [
         {
             "item": "mekanism:dust_iron",
-            "count": 3.0
+            "count": 4.0
         },
         {
             "item": "chemlib:aluminum_oxide_dust",
             "count": 1.0
         }
     ],
-    "energy": 117963.64000000001,
+    "energy": 155294.03999999998,
     "experience": 2.0,
     "ingredients": [
         {
@@ -19,7 +19,7 @@
         },
         {
             "item": "chemlib:iron_ii_oxide_dust",
-            "count": 3.0
+            "count": 4.0
         }
     ]
 }

@@ -8,6 +8,6 @@
     },
     "output": {
         "gas": "kubejs:carbon",
-        "amount": 550.0
+        "amount": 600.0
     }
 }

@@ -7,6 +7,9 @@ const mekanism_extras_levels = ['absolute', 'supreme', 'cosmic', 'infinite']
 ServerEvents.recipes(event => {
   console.log("meka recipes loading...")
 
+  event.replaceInput({id: 'mekanism:upgrade/'}, 'glass_pane', '#pneumaticcraft:upgrade_components')
+
+
   event.remove({id: 'thermal:machines/pulverizer/pulverizer_cobblestone'})
   event.remove({id: 'thermal:machines/pulverizer/pulverizer_venus_sandstone'})
   event.remove({id: 'thermal:machines/pulverizer/pulverizer_venus_sandstone_slab'})

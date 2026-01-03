@@ -499,6 +499,7 @@
 			tasks: [{
 				id: "46ABAF247D8D5592"
 				item: "sophisticatedbackpacks:backpack"
+				match_nbt: false
 				type: "item"
 			}]
 			x: -6.0d

@@ -14,6 +14,7 @@
 				"70E5B972F195C885"
 				"47C1AFD9A32CBD7A"
 			]
+			hide_until_deps_visible: true
 			id: "07D13F1DD12D4DDC"
 			tasks: [{
 				id: "39641DE41BE3E268"
@@ -30,6 +31,7 @@
 				"66004C7C1B68BC4B"
 			]
 			dependency_requirement: "one_completed"
+			hide_until_deps_visible: true
 			id: "67342BFD3A7C5724"
 			shape: "diamond"
 			size: 1.5d
@@ -61,6 +63,7 @@
 				"52C20E6141324906"
 			]
 			dependency_requirement: "one_completed"
+			hide_until_deps_visible: true
 			id: "1D5AAF52FBE0B7D3"
 			tasks: [{
 				id: "5455B4F1655F073D"
@@ -202,6 +205,7 @@
 				"70E5B972F195C885"
 				"77C7E6613637A144"
 			]
+			hide_until_deps_visible: true
 			id: "2B4E37B38F80BF86"
 			tasks: [{
 				id: "528489165F3F9BB4"
@@ -552,10 +556,7 @@
 			y: -10.5d
 		}
 		{
-			dependencies: [
-				"3372163AC827ED34"
-				"00C310358F452A99"
-			]
+			dependencies: ["00C310358F452A99"]
 			hide_dependency_lines: true
 			id: "44AC4A8D115A9532"
 			tasks: [{
@@ -620,6 +621,7 @@
 		{
 			dependencies: ["18E437A6007A7821"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "7A3DB281A5386FE9"
 			tasks: [{
 				id: "4AE9A34BB3D696C6"
@@ -1020,10 +1022,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"318D11881F2EA09D"
-				"004DCE2563970C33"
-			]
+			dependencies: ["004DCE2563970C33"]
 			id: "18E437A6007A7821"
 			shape: "square"
 			size: 1.0d
@@ -1090,7 +1089,6 @@
 		}
 		{
 			dependencies: [
-				"40303EB3A89F8CAF"
 				"0EA9F0848E4AB121"
 				"1C9235D189085204"
 			]
@@ -1199,10 +1197,10 @@
 		}
 		{
 			dependencies: [
-				"18213DD3A7187903"
 				"55E4888E30A7C9F2"
 				"27F2B5B54451AB0F"
 			]
+			hide_until_deps_complete: true
 			id: "00C310358F452A99"
 			rewards: [{
 				count: 3
@@ -1238,6 +1236,7 @@
 				"22D245EE63939938"
 				"335C9B73E9C1FC5C"
 			]
+			hide_until_deps_visible: true
 			id: "77FC7968D277B4BF"
 			shape: "square"
 			tasks: [{
@@ -1382,6 +1381,7 @@
 				"412FFFFA9AB6E363"
 				"1862C9D367926544"
 			]
+			hide_until_deps_visible: true
 			id: "6715E28C7A6DCD4E"
 			tasks: [{
 				id: "678850E6BF6FDDB0"
@@ -1396,6 +1396,7 @@
 				"412FFFFA9AB6E363"
 				"4884C92A0FFF9B86"
 			]
+			hide_until_deps_visible: true
 			id: "522EE076E60B3500"
 			tasks: [{
 				id: "1F286B83BCDFEFD6"
@@ -1540,6 +1541,7 @@
 		}
 		{
 			dependencies: ["637FE3D421036958"]
+			hide_until_deps_complete: true
 			id: "1862C9D367926544"
 			tasks: [{
 				id: "1F158C05A0842800"
@@ -1587,6 +1589,7 @@
 				"0874D51F0FB0A24C"
 				"07C0404AA2A0C067"
 			]
+			hide_until_deps_complete: true
 			id: "637FE3D421036958"
 			tasks: [{
 				dimension: "ad_astra:moon"
@@ -1743,10 +1746,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"0E36516AB2341A4A"
-				"4806E1986B68739B"
-			]
+			dependencies: ["4806E1986B68739B"]
 			id: "4926F06D1EF6324E"
 			shape: "square"
 			subtitle: "Грядки это не технологично"
@@ -1765,6 +1765,8 @@
 				"18E437A6007A7821"
 			]
 			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "1E9570F175351E2E"
 			tasks: [{
 				id: "6894F68C49714763"
@@ -1792,6 +1794,7 @@
 				"18E437A6007A7821"
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "4A3B9A53AF1E4376"
 			tasks: [{
 				id: "56EBC350C25F6BD6"
@@ -1828,6 +1831,7 @@
 				"4884C92A0FFF9B86"
 				"44FCF6EA7E5DF03D"
 			]
+			hide_until_deps_visible: true
 			id: "71EE01C51E673370"
 			tasks: [{
 				id: "33BE91F45BF4CF31"
@@ -1929,7 +1933,7 @@
 				}
 			]
 			title: "Незеритовый скафандр"
-			x: -3.0d
+			x: -1.0d
 			y: -1.5d
 		}
 		{
@@ -1957,7 +1961,13 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["064AC01B6A8EA987"]
+			dependencies: [
+				"064AC01B6A8EA987"
+				"40C1930754F57115"
+				"3974FF1CB397EC6E"
+				"0E29AFC234E69DAC"
+			]
+			hide_until_deps_visible: true
 			id: "239F1743BC842ABE"
 			tasks: [{
 				dimension: "sgjourney:cavum_tenebrae"
@@ -1970,11 +1980,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"239F1743BC842ABE"
-				"3974FF1CB397EC6E"
-				"0E29AFC234E69DAC"
-			]
+			dependencies: ["239F1743BC842ABE"]
 			id: "026406E57858AB34"
 			tasks: [{
 				id: "542ADFC8FCB544E0"
@@ -1987,7 +1993,6 @@
 		{
 			dependencies: [
 				"7A36A93CB4952816"
-				"40C1930754F57115"
 				"026406E57858AB34"
 			]
 			id: "2317A8F2D3FC606B"
@@ -2000,10 +2005,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"318D11881F2EA09D"
-				"1862C9D367926544"
-			]
+			dependencies: ["1862C9D367926544"]
 			id: "40C1930754F57115"
 			tasks: [
 				{
@@ -2072,7 +2074,7 @@
 				}
 			]
 			title: "Пневмоброня"
-			x: -4.5d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -2083,7 +2085,7 @@
 				item: "ad_astra_giselle_addon:pneumatic_space_breathing_upgrade"
 				type: "item"
 			}]
-			x: -4.5d
+			x: 3.0d
 			y: -0.5d
 		}
 		{
@@ -2097,7 +2099,7 @@
 				item: "ad_astra_giselle_addon:pneumatic_space_fire_proof_upgrade"
 				type: "item"
 			}]
-			x: -4.5d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -2278,8 +2280,12 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["18E437A6007A7821"]
+			dependencies: [
+				"18E437A6007A7821"
+				"4EFD88B9FC2A55AB"
+			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "0DCFE0192BF01630"
 			tasks: [{
 				id: "0822476AFCD08F32"
@@ -2290,8 +2296,12 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["18E437A6007A7821"]
+			dependencies: [
+				"18E437A6007A7821"
+				"4EFD88B9FC2A55AB"
+			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "5D39231AFEA60DD9"
 			tasks: [{
 				id: "6BD93FC8A9B4FDC2"
@@ -2314,8 +2324,12 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["18E437A6007A7821"]
+			dependencies: [
+				"18E437A6007A7821"
+				"5C4071E659E7783F"
+			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "35482B4E1108D289"
 			tasks: [{
 				id: "4B91AF2CEF9CC1F6"
@@ -2326,8 +2340,12 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["18E437A6007A7821"]
+			dependencies: [
+				"18E437A6007A7821"
+				"5C4071E659E7783F"
+			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "6581A026BAC66A5D"
 			tasks: [{
 				id: "10EAD859596BF565"
@@ -2435,8 +2453,12 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["18E437A6007A7821"]
+			dependencies: [
+				"18E437A6007A7821"
+				"5C4071E659E7783F"
+			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "7586A221F8833650"
 			tasks: [{
 				id: "55EC5C66364E38A7"
@@ -2569,6 +2591,7 @@
 				"35482B4E1108D289"
 				"6581A026BAC66A5D"
 			]
+			hide_until_deps_visible: true
 			id: "18677CFF41F6479E"
 			tasks: [{
 				id: "0C18A6F101810026"
@@ -2737,7 +2760,6 @@
 		{
 			dependencies: ["44AC4A8D115A9532"]
 			id: "1BBEBDD1EF4BFFD2"
-			invisible: true
 			tasks: [{
 				id: "4A156E0F5E7A4640"
 				item: "minecraft:end_stone"
@@ -2946,6 +2968,7 @@
 		}
 		{
 			dependencies: ["073681958FA85BA6"]
+			hide_until_deps_complete: true
 			id: "5B16438AB2BFD293"
 			subtitle: "Убейте Пустого"
 			tasks: [{
@@ -3047,8 +3070,12 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["00C310358F452A99"]
+			dependencies: [
+				"00C310358F452A99"
+				"5B16438AB2BFD293"
+			]
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "13F4544EE2E79DDA"
 			tasks: [{
 				id: "4AC711463E6ADCA5"

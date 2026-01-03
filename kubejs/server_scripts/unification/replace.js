@@ -23,10 +23,6 @@ ServerEvents.recipes(event => {
     ITEMS_TO_REPLACE.forEach(element => {
         event.replaceInput({}, element.from, element.to)
     })
-
-    ITEMS_TO_HIDE.forEach(element => {
-        event.remove({output: element})
-    })
 })
 
 

@@ -18,7 +18,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 4061.5,
 		matter_state: "solid",
-		combustion: 110.5,
+		combustion: 393.5,
 	},
 	{
 		id: "fluorine",
@@ -88,7 +88,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 553.0799999999999,
 		matter_state: "solid",
-		combustion: 395.7,
+		combustion: 296.81,
 	},
 	{
 		id: "argon",
@@ -158,7 +158,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2562.0,
 		matter_state: "solid",
-		combustion: 564.0,
+		combustion: 589.3,
 	},
 	{
 		id: "manganese",
@@ -208,7 +208,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2096.385,
 		matter_state: "solid",
-		combustion: 85.0,
+		combustion: 156.0,
 	},
 	{
 		id: "zinc",
@@ -298,7 +298,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 3883.5,
 		matter_state: "solid",
-		combustion: 949.77,
+		combustion: 794.96,
 	},
 	{
 		id: "molybdenum",
@@ -688,7 +688,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1311.305,
 		matter_state: "solid",
-		combustion: 219.41,
+		combustion: 274.47,
 	},
 	{
 		id: "bismuth",
@@ -1068,7 +1068,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 136.75,
 		matter_state: "gas",
-		combustion: 1403.1899999999998,
+		combustion: 519.1899999999999,
 	},
 	{
 		id: "cellulose",
@@ -1468,7 +1468,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2017.7,
 		matter_state: "solid",
-		combustion: 959.79,
+		combustion: 458.59999999999997,
 	},
 	{
 		id: "potassium_dichromate",
@@ -1858,7 +1858,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 200.64999999999998,
 		matter_state: "gas",
-		combustion: 561.64,
+		combustion: 264.83,
 	},
 	{
 		id: "acetylene",
@@ -2668,7 +2668,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1962.95,
 		matter_state: "solid",
-		combustion: 1001.4100000000001,
+		combustion: 415.21999999999997,
 	},
 	{
 		id: "aluminum_carbonate",
@@ -3478,7 +3478,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2381.9333333333334,
 		matter_state: "solid",
-		combustion: 1103.6200000000001,
+		combustion: 1301.4,
 	},
 	{
 		id: "molybdenum_trioxide",

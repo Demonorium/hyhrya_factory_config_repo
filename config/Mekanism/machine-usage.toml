@@ -6,7 +6,7 @@
 	#Energy per operation tick (Joules).
 	osmiumCompressor = "150"
 	#Energy per operation tick (Joules).
-	combiner = "100"
+	combiner = "200"
 	#Energy per operation tick (Joules).
 	crusher = "200"
 	#Energy per operation tick (Joules).
@@ -24,19 +24,19 @@
 	#Energy per operation tick (Joules).
 	rotaryCondensentrator = "25"
 	#Energy per operation tick (Joules).
-	oxidationChamber = "250"
+	oxidationChamber = "150"
 	#Energy per operation tick (Joules).
 	chemicalInfuser = "250"
 	#Energy per operation tick (Joules).
-	chemicalInjectionChamber = "400"
+	chemicalInjectionChamber = "200"
 	#Energy per operation tick (Joules).
 	precisionSawmill = "50"
 	#Energy per operation tick (Joules).
-	chemicalDissolutionChamber = "300"
+	chemicalDissolutionChamber = "200"
 	#Energy per operation tick (Joules).
-	chemicalWasher = "200"
+	chemicalWasher = "100"
 	#Energy per operation tick (Joules).
-	chemicalCrystallizer = "100"
+	chemicalCrystallizer = "200"
 	#Energy per operation tick (Joules).
 	seismicVibrator = "50"
 	#Energy per operation tick (Joules).
@@ -50,7 +50,7 @@
 	#Energy per operation tick (Joules).
 	modificationStation = "10000"
 	#Energy per operation tick (Joules).
-	isotopicCentrifuge = "500"
+	isotopicCentrifuge = "1000"
 	#Energy per operation tick (Joules).
 	nutritionalLiquifier = "200"
 	#Energy per operation tick (Joules).
@@ -69,7 +69,7 @@
 		#Base Joules cost for a teleportation.
 		teleporterBase = "100000"
 		#Joules per unit of distance travelled during teleportation - sqrt(xDiff^2 + yDiff^2 + zDiff^2).
-		teleporterDistance = "100"
+		teleporterDistance = "1000"
 		#Flat additional cost for interdimensional teleportation. Distance is still taken into account minimizing energy cost based on dimension scales.
 		teleporterDimensionPenalty = "1000000000"
 
