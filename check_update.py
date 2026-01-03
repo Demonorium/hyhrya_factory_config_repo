@@ -3,6 +3,7 @@ import os
 import shutil
 import zipfile
 import sys
+import argparse
 
 with open('modpack_version.txt', mode='r', encoding='utf-8') as f:
     version = int(f.readline())
@@ -22,8 +23,12 @@ if version >= upsteam_version:
     print('Текущая версия актуальна, обновление не требуется')
     exit(0)
 
+parser = argparse.ArgumentParser()
+parser.add_argument("-f", "--force", help="always update")
+args = parser.parse_args()
+
 text = '_'
-if len(sys.argv) > 0 and sys.argv[0] == 'force':
+if args.force:
     text = 'y'
 
 while text != 'y' and text != 'n' and len(text) > 0:
