@@ -21,6 +21,9 @@ def rm_rf_if_ex_copy(p):
     shutil.copytree(source_path + p, p)
     print('install ', source_path + p, 'to', p)
 
+if os.path.exists('./mods/Explosion-Overhaul-0.2.0.0-a Forge 1.20.1.jar'):
+    os.remove('./mods/Explosion-Overhaul-0.2.0.0-a Forge 1.20.1.jar')
+
 rm_if_ex_copy('modpack_version.txt')
 rm_if_ex_copy('push_update.py')
 rm_if_ex_copy('check_update.py')
