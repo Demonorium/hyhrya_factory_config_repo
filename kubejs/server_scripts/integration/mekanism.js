@@ -102,11 +102,6 @@ ServerEvents.recipes(event => {
   event.remove({ id: "thermal_and_space:machine/centrifuge/centrifuge_moon_oil_sand" })
   event.remove({ id: "thermal:machines/pyrolyzer/pyrolyzer_bitumen" })
 
-  COMPOUND_ITEMS.forEach(item => {
-    event.remove({ type: 'thermal:smelter', output: item, mod: 'thermal' })
-    event.remove({ type: 'thermal:smelter', output: item, mod: 'thermalendergy' })
-    event.remove({ type: 'mekanism:metallurgic_infusing', output: item, mod: 'mekanism' })
-  })
   console.log("meka recipes loaded")
 })
 

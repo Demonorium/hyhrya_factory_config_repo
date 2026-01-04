@@ -24,5 +24,5 @@
 		#Radius of Explosion (default 4 - TNT size)
 		reactor_explosion_radius = 96.0
 		#List of fluids that can be used as coolants in the fusion reactor (; separated)
-		fusion_coolants = ["water;mekanism:steam", "mekanism:sodium;mekanism:superheated_sodium"]
+		fusion_coolants = ["water;mekanism:steam", "mekanism:sodium;mekanism:superheated_sodium", "mekanismelements:helium;mekanismelements:superheated_helium"]
 

@@ -3152,7 +3152,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["25F7EAEACC8AA072"]
+			dependencies: [
+				"25F7EAEACC8AA072"
+				"67342BFD3A7C5724"
+			]
 			id: "79E883A74D6ACE2E"
 			tasks: [{
 				id: "1FFD3B68DE4A8992"
@@ -3160,7 +3163,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 3.0d
+			y: 1.0d
 		}
 	]
 	title: "Главы 3. Продвинутая химия"
