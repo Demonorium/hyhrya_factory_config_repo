@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:p_phenylenediamine",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:p_phenylenediamine",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:p_phenylenediamine",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:p_phenylenediamine",
+        "amount": 1.0
+    }
+}

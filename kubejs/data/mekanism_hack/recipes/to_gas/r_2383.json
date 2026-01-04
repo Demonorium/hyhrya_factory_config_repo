@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:ethane"
+        }
+    },
+    "output": {
+        "gas": "kubejs:ethane",
+        "amount": 200
+    }
+}

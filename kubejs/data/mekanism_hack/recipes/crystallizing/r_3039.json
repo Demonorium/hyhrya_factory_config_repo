@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:salicylic_acid",
+        "amount": 100
+    },
+    "output": {
+        "item": "chemlib:salicylic_acid",
+        "count": 1.0
+    }
+}

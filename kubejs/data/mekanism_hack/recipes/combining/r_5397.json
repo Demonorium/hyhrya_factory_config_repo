@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:iodine_dust"
+        }
+    },
+    "mainInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:dust_lead"
+        }
+    },
+    "output": {
+        "item": "chemlib:lead_iodide",
+        "count": 1.0
+    }
+}

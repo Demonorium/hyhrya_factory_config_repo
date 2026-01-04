@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "minecraft:stone"
+        }
+    },
+    "mainInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:livingstonite_dust"
+        }
+    },
+    "output": {
+        "item": "minecraft:netherrack",
+        "count": 1.0
+    }
+}

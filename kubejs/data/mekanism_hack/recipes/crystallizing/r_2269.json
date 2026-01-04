@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "mekanism:water_vapor",
+        "amount": 100
+    },
+    "output": {
+        "item": "chemlib:water",
+        "count": 1.0
+    }
+}

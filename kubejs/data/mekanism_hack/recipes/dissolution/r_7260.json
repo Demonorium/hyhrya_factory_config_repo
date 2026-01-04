@@ -1,0 +1,18 @@
+{
+    "type": "mekanism:dissolution",
+    "gasInput": {
+        "gas": "mekanismelements:aqua_regia",
+        "amount": 5.0
+    },
+    "itemInput": {
+        "amount": 3.0,
+        "ingredient": {
+            "item": "ad_astra:raw_calorite"
+        }
+    },
+    "output": {
+        "slurry": "moremekanismprocessing:dirty_calorite",
+        "amount": 2000.0,
+        "chemicalType": "slurry"
+    }
+}

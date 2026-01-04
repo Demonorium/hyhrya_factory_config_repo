@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:einsteinium",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:einsteinium",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:einsteinium",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:einsteinium",
+        "amount": 1.0
+    }
+}

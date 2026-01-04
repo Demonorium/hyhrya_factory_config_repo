@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:thallium",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:thallium",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:thallium",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:thallium",
+        "amount": 1.0
+    }
+}

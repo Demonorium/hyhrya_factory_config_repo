@@ -18,7 +18,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 4061.5,
 		matter_state: "solid",
-		combustion: 393.5,
+		combustion: 110.5,
 	},
 	{
 		id: "fluorine",
@@ -138,7 +138,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2750.5,
 		matter_state: "solid",
-		combustion: 945.0,
+		combustion: 760.44,
 	},
 	{
 		id: "vanadium",
@@ -168,7 +168,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1926.5,
 		matter_state: "solid",
-		combustion: 520.0,
+		combustion: 385.0,
 	},
 	{
 		id: "iron",
@@ -298,7 +298,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 3883.5,
 		matter_state: "solid",
-		combustion: 794.96,
+		combustion: 949.77,
 	},
 	{
 		id: "molybdenum",
@@ -688,7 +688,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1311.305,
 		matter_state: "solid",
-		combustion: 219.41,
+		combustion: 274.47,
 	},
 	{
 		id: "bismuth",
@@ -1068,7 +1068,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 136.75,
 		matter_state: "gas",
-		combustion: 1306.1899999999998,
+		combustion: 519.1899999999999,
 	},
 	{
 		id: "cellulose",
@@ -1728,7 +1728,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1470.0,
 		matter_state: "solid",
-		combustion: 470.88,
+		combustion: 119.00999999999999,
 	},
 	{
 		id: "zinc_sulfide",
@@ -1738,7 +1738,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1534.45,
 		matter_state: "solid",
-		combustion: 92.47999999999999,
+		combustion: 92.21000000000001,
 	},
 	{
 		id: "iron_disulfide",

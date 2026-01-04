@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:hexane",
+        "amount": 100
+    },
+    "output": {
+        "item": "chemlib:hexane",
+        "count": 1.0
+    }
+}

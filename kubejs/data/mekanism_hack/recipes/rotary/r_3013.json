@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:aniline",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:aniline",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:aniline",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:aniline",
+        "amount": 1.0
+    }
+}

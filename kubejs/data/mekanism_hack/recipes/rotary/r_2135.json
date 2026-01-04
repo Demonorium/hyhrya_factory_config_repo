@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:californium",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:californium",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:californium",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:californium",
+        "amount": 1.0
+    }
+}

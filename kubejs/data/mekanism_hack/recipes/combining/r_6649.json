@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:chromium_oxide_dust"
+        }
+    },
+    "mainInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "minecraft:white_dye"
+        }
+    },
+    "output": {
+        "item": "minecraft:green_dye",
+        "count": 2.0
+    }
+}

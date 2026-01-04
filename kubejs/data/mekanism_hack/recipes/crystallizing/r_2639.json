@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:carbon_monoxide",
+        "amount": 100
+    },
+    "output": {
+        "item": "chemlib:carbon_monoxide",
+        "count": 1.0
+    }
+}

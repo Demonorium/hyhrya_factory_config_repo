@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:mercury_sulfide",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:mercury_sulfide",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:mercury_sulfide",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:mercury_sulfide",
+        "amount": 1.0
+    }
+}

@@ -791,7 +791,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3D7AD04288204175"]
@@ -1685,7 +1685,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2C737A50E47A28FB"]
@@ -1944,6 +1944,81 @@
 			}]
 			x: 4.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["0CA6E0735563B8A6"]
+			id: "2404970F72731D15"
+			tasks: [{
+				id: "37B85352404E042A"
+				item: "buildinggadgets2:template_manager"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A63DAB3C15C5DB2"]
+			id: "7A00B2DD0E481B1A"
+			tasks: [{
+				id: "0569861DB6881D73"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4305E67FC0511133"]
+			id: "58B828B709803D5E"
+			tasks: [{
+				id: "5BA25CB636FA7D9E"
+				item: {
+					Count: 1
+					id: "buildinggadgets2:gadget_cut_paste"
+					tag: {
+						pastereplace: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4305E67FC0511133"]
+			id: "28AD664D3880A413"
+			tasks: [{
+				id: "60C036E3B7D67BB7"
+				item: "buildinggadgets2:gadget_destruction"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7A00B2DD0E481B1A"
+				"52469F247D8FF2F1"
+			]
+			id: "77741965F65CCF1F"
+			tasks: [{
+				id: "7B2EF69810D191B9"
+				item: "buildinggadgets2:gadget_exchanging"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7A00B2DD0E481B1A"]
+			id: "41A58B61472AFDA0"
+			tasks: [{
+				id: "7703A3F0FD9AC7BD"
+				item: "buildinggadgets2:gadget_copy_paste"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
 		}
 	]
 	title: "Глава 4. Доминирование над природой"

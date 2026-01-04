@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:phosphorus_pentoxide",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:phosphorus_pentoxide",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:phosphorus_pentoxide",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:phosphorus_pentoxide",
+        "amount": 1.0
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:potassium_nitrate",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:potassium_nitrate",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:potassium_nitrate",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:potassium_nitrate",
+        "amount": 1.0
+    }
+}

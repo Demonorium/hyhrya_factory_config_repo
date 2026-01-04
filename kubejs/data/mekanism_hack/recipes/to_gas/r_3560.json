@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:hydrogen_bromide"
+        }
+    },
+    "output": {
+        "gas": "kubejs:hydrogen_bromide",
+        "amount": 200
+    }
+}

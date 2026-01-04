@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "amount": 4.0,
+        "ingredient": {
+            "item": "chemlib:iodine_dust"
+        }
+    },
+    "mainInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:zirconium_dust"
+        }
+    },
+    "output": {
+        "item": "chemlib:zirconium_iv_iodide_dust",
+        "count": 1.0
+    }
+}

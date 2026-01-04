@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:bismuth",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:bismuth",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:bismuth",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:bismuth",
+        "amount": 1.0
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "pneumaticcraft:lpg",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "pneumaticcraft:lpg",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:propane",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:propane",
+        "amount": 1.0
+    }
+}

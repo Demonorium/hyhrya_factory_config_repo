@@ -30,7 +30,7 @@
       "AmmoSlot": "Default",
       "Projectile": "superbwarfare:projectile",
       "Override": {
-        "Damage": 13,
+        "Damage": 15,
         "Headshot": 1.75,
         "BypassesArmor": 0.025,
         "ExplosionDamage": 0,

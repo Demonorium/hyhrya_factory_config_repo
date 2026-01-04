@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:cadmium_sulfide_dust"
+        }
+    },
+    "mainInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:dye_base"
+        }
+    },
+    "output": {
+        "item": "minecraft:yellow_dye",
+        "count": 4.0
+    }
+}

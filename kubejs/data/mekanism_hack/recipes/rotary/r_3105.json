@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:livingstonite",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:livingstonite",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:livingstonite",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:livingstonite",
+        "amount": 1.0
+    }
+}

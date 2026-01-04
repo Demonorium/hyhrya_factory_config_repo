@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "chemlib:antimony_dust"
+        }
+    },
+    "mainInput": {
+        "amount": 3.0,
+        "ingredient": {
+            "item": "mekanism:dust_sulfur"
+        }
+    },
+    "output": {
+        "item": "chemlib:antimony_trisulfide_dust",
+        "count": 1.0
+    }
+}

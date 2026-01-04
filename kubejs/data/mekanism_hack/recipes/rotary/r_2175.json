@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:hassium",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:hassium",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:hassium",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:hassium",
+        "amount": 1.0
+    }
+}

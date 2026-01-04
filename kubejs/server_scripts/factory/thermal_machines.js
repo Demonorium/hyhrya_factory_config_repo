@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: 'thermal:machine_brewer' }, 'glass', 'mekanism:advanced_control_circuit')
 
     event.replaceInput({ id: 'thermal:machine_chiller' }, 'minecraft:packed_ice', 'undergarden:froststeel_nugget')
-    event.replaceInput({ id: 'thermal:machine_chiller' }, 'minecraft:packed_ice', 'undergarden:froststeel_nugget')
+    event.replaceInput({ id: 'thermal:machine_chiller' }, 'glass', 'mekanism:advanced_control_circuit')
     event.replaceInput({ id: 'thermal:machine_chiller' }, 'thermal:rf_coil', 'pncepcb:high_temp_finished_pcb')
 
     event.replaceInput({ id: 'thermal:machine_crucible' }, 'minecraft:nether_bricks', MATERIALS.GLOWSTONE.ingot)
@@ -70,6 +70,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: 'thermal:machine_crafter' }, MATERIALS.TIN.ingot, 'mekanism:elite_control_circuit')
     event.replaceInput({ id: 'thermal:machine_crafter' }, MATERIALS.COPPER.gear, MATERIALS.BRONZE.gear)
 
+    event.replaceInput({ id: 'thermal:machine_crystallizer' }, '#thermal:glass/hardened', 'mekanism:enrichment_chamber')
     event.replaceInput({ id: 'thermal:machine_crystallizer' }, MATERIALS.SIGNALUM.plate, 'mekanism:elite_control_circuit')
     event.remove({ id: "thermal:machine_smelter" })
     event.shaped(

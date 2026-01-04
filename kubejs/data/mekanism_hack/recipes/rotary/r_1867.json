@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:dysprosium",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:dysprosium",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:dysprosium",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:dysprosium",
+        "amount": 1.0
+    }
+}

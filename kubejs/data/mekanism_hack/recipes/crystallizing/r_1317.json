@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "mekanism:hydrogen",
+        "amount": 100
+    },
+    "output": {
+        "item": "chemlib:hydrogen",
+        "count": 1.0
+    }
+}
