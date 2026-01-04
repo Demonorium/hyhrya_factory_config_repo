@@ -61,18 +61,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'thermal:rubber_from_dandelion'})
   event.remove({id: 'thermal:rubber_from_vine'})
 
-
-  console.log("chem recipes injections...")
-  CUSTOM_RECIPES_FIX_INJECTIONS.forEach(element => {
-    console.log("recipes loading: " + JSON.stringify(element))
-    event.custom(element)
-  })  
-  console.log("chem recipes purification...")
-  CUSTOM_RECIPES_FIX_PURIFICATION.forEach(element => {
-    console.log("recipes loading: " + JSON.stringify(element))
-    event.custom(element)
-  })
-
   console.log("chem recipes loaded...")
 })
 

@@ -7,7 +7,7 @@
         "fluid": "kubejs:sodium_sulfite"
     },
     "gasInput": {
-        "amount": 400,
+        "amount": 200,
         "gas": "mekanism:sulfuric_acid"
     },
     "itemInput": {
@@ -21,7 +21,7 @@
         "gas": "kubejs:sulfur"
     },
     "itemOutput": {
-        "count": 4,
+        "count": 3,
         "item": "chemlib:sodium_sulfate_dust"
     }
 }

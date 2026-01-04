@@ -6,7 +6,7 @@ const mekanism_extras_levels = ['absolute', 'supreme', 'cosmic', 'infinite']
 
 ServerEvents.recipes(event => {
   console.log("meka recipes loading...")
-
+  
   event.replaceInput({id: 'mekanism:upgrade/anchor'}, 'glass', '#pneumaticcraft:upgrade_components')
   event.replaceInput({id: 'mekanism:upgrade/energy'}, 'glass', '#pneumaticcraft:upgrade_components')
   event.replaceInput({id: 'mekanism:upgrade/energy'}, MATERIALS.GOLD.dust, 'superbwarfare:cell')
@@ -102,178 +102,13 @@ ServerEvents.recipes(event => {
   event.remove({ id: "thermal_and_space:machine/centrifuge/centrifuge_moon_oil_sand" })
   event.remove({ id: "thermal:machines/pyrolyzer/pyrolyzer_bitumen" })
 
-  
-  event.remove({ id: 'mekanismelements:radiation_irradiating/americium' })
-  event.remove({ id: 'mekanismelements:radiation_irradiating/californium' })
-  event.remove({ id: 'mekanismelements:radiation_irradiating/nuclear_waste' })
-  event.remove({ id: 'mekanismelements:radiation_irradiating/polonium' })
-  event.remove({ id: 'mekanismelements:radiation_irradiating/strontium' })
-  event.remove({ id: 'mekanismelements:radiation_irradiating/tritium' })
-
   COMPOUND_ITEMS.forEach(item => {
-    event.remove({ type: 'crafting_shaped', output: item })
-    event.remove({ type: 'crafting_shapeless', output: item })
     event.remove({ type: 'thermal:smelter', output: item, mod: 'thermal' })
     event.remove({ type: 'thermal:smelter', output: item, mod: 'thermalendergy' })
     event.remove({ type: 'mekanism:metallurgic_infusing', output: item, mod: 'mekanism' })
   })
-
-  for (const [key, value] of Object.entries(MATERIALS)) {
-    console.log('material processing recipes: ' + key)
-    if (value.plate && value.ingot) {
-      console.log('plate <-> ingot')
-      event.remove({ input: value.ingot, output: value.plate })
-      event.remove({ input: value.plate, output: value.ingot })
-
-      event.custom({
-        "type": "thermal:press",
-        "ingredient": {
-          "item": value.ingot
-        },
-        "result": [
-          {
-            "item": value.plate
-          }
-        ]
-      })
-
-      event.smelting(value.ingot, value.plate)
-      event.blasting(value.ingot, value.plate)
-    }
-
-    if (value.gear && value.ingot) {
-      console.log('gear <-> ingot')
-      event.remove({ input: value.ingot, output: value.gear })
-
-      event.shaped(value.gear,
-        [
-          " A ",
-          "ABA",
-          " A "
-        ],
-        {
-          "A": value.ingot,
-          "B": MATERIALS.IRON.nugget
-        }
-      )
-
-      event.custom({
-        "type": "thermal:press",
-        'energy': 3000,
-        "ingredients": [{
-          "item": value.ingot,
-          'count': 3
-        },
-        {
-          "item": "thermal:press_gear_die"
-        }],
-        "result": [
-          {
-            "item": value.gear
-          }
-        ],
-      })
-
-      event.smelting("2x " + value.ingot, value.gear)
-      event.blasting("2x " + value.ingot, value.gear)
-    }
-
-
-    if (value.plate && value.gear) {
-      console.log('plate <-> gear')
-      event.custom({
-        energy: 2000,
-        "type": "thermal:press",
-        "ingredients": [{
-          "item": value.plate,
-          'count': 2
-        },
-        {
-          "item": "thermal:press_gear_die"
-        }],
-        "result": [
-          {
-            "item": value.gear
-          }
-        ]
-      })
-    }
-
-    if (value.dust && value.plate) {
-      console.log('dust <- plate')
-      event.custom({
-        "type": "mekanism:crushing",
-        "input": {
-          "ingredient": {
-            "item": value.plate
-          },
-        },
-        "output": {
-          "item": value.dust
-        }
-      })
-    }
-
-    if (value.dust && value.gear) {
-      console.log('dust <- gear')
-      event.custom({
-        "type": "mekanism:crushing",
-        "input": {
-          "ingredient": {
-            "item": value.gear
-          },
-        },
-        "output": {
-          "item": value.dust,
-          "count": 2
-        }
-      })
-    }
-
-    if (value.dust && value.ingot) {
-      console.log('dust <-> ingot')
-      event.remove({ input: value.dust, output: value.ingot })
-      event.remove({ input: value.ingot, output: value.dust })
-      if (key != 'NAQUADAH' && key != 'CALORITE') {
-        event.custom({
-          "type": "mekanism:crushing",
-          "input": {
-            "ingredient": {
-              "item": value.ingot
-            },
-          },
-          "output": {
-            "item": value.dust
-          }
-        })
-        if (value.metal) {
-          event.smelting(value.ingot, value.dust)
-          event.blasting(value.ingot, value.dust)
-        } else {
-          event.custom({
-            "type": "thermal:crystallizer",
-            "ingredients": [
-              {
-                "fluid": "minecraft:water",
-                "amount": 2000
-              },
-              {
-                "item": value.dust
-              }
-            ],
-            "result": [
-              {
-                "item": value.ingot
-              }
-            ]
-          })
-        }
-      }
-    }
-  }
   console.log("meka recipes loaded")
 })
-
 
 function _mekanism_components(event) {
   event.remove({id: "thermal:fire_charge/"})

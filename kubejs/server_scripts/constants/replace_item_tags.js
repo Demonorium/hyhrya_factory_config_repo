@@ -1538,7 +1538,7 @@ const TAGS_TO_FIX = [
 	},
 	{
 		tag: "forge:ingots/amethyst",
-		item: "amethyst_shard",
+		item: "minecraft:amethyst_shard",
 	},
 	{
 		tag: "forge:nuggets/amethyst",

@@ -11,6 +11,10 @@ ServerEvents.tags("item", event => {
         })
         
     })
+    for (const [key, value] of Object.entries(MATERIALS)) {
+        event.removeAll(value.normal_ores_tag.substring(1))
+        event.add(value.normal_ores_tag.substring(1), value.normal_ores)
+    }
 })
 
 ServerEvents.tags("fluid", event => {

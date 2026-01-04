@@ -17,3 +17,4 @@
 //     JsonIO.write('kubejs/exported/lootTables.json', {big_list: filteredList})
     
 // })
+

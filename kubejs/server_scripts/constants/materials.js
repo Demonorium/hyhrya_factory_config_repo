@@ -1179,7 +1179,7 @@ const MATERIALS = {
 		normal_ores: [
 		],
 		color: "dbc6f1",
-		ingot: "amethyst_shard",
+		ingot: "minecraft:amethyst_shard",
 		nugget: "minecraft:amethyst_shard",
 		block: "minecraft:amethyst_block",
 		dust: "moremekanismprocessing:dust_amethyst",
