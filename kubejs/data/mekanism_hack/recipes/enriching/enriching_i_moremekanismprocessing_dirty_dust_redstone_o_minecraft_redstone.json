@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dirty_dust_redstone"
+        }
+    },
+    "output": {
+        "item": "minecraft:redstone",
+        "count": 1.0
+    }
+}

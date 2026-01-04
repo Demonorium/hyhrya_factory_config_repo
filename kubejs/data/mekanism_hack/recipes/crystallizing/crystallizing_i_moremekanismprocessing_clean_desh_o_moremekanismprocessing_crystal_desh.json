@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "slurry",
+    "input": {
+        "slurry": "moremekanismprocessing:clean_desh",
+        "amount": 200
+    },
+    "output": {
+        "item": "moremekanismprocessing:crystal_desh",
+        "count": 1.0
+    }
+}

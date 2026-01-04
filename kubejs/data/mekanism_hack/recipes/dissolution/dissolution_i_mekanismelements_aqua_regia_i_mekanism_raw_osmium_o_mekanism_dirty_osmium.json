@@ -1,0 +1,18 @@
+{
+    "type": "mekanism:dissolution",
+    "gasInput": {
+        "gas": "mekanismelements:aqua_regia",
+        "amount": 3.0
+    },
+    "itemInput": {
+        "amount": 3.0,
+        "ingredient": {
+            "item": "mekanism:raw_osmium"
+        }
+    },
+    "output": {
+        "slurry": "mekanism:dirty_osmium",
+        "amount": 3000.0,
+        "chemicalType": "slurry"
+    }
+}

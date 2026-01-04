@@ -1,0 +1,18 @@
+{
+    "type": "mekanism:dissolution",
+    "gasInput": {
+        "gas": "mekanism:sulfuric_acid",
+        "amount": 2.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "tag": "forge:ores/ostrum"
+        }
+    },
+    "output": {
+        "slurry": "moremekanismprocessing:dirty_ostrum",
+        "amount": 1200.0,
+        "chemicalType": "slurry"
+    }
+}

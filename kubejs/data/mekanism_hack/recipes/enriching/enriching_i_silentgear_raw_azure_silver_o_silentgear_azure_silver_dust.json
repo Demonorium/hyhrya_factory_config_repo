@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "silentgear:raw_azure_silver"
+        }
+    },
+    "output": {
+        "item": "silentgear:azure_silver_dust",
+        "count": 12.0
+    }
+}

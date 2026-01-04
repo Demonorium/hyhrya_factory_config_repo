@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "slurry",
+    "input": {
+        "slurry": "moremekanismprocessing:clean_sapphire",
+        "amount": 200
+    },
+    "output": {
+        "item": "moremekanismprocessing:crystal_sapphire",
+        "count": 1.0
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "mekanism:dissolution",
+    "gasInput": {
+        "gas": "mekanismelements:aqua_regia",
+        "amount": 9.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "silentgear:raw_azure_silver_block"
+        }
+    },
+    "output": {
+        "slurry": "moremekanismprocessing:dirty_azure_silver",
+        "amount": 9000.0,
+        "chemicalType": "slurry"
+    }
+}

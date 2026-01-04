@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dirty_dust_nickel"
+        }
+    },
+    "output": {
+        "item": "thermal:nickel_dust",
+        "count": 1.0
+    }
+}

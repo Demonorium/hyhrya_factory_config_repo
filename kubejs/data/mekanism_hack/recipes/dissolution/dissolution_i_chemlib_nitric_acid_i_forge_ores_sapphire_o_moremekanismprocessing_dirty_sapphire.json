@@ -1,0 +1,18 @@
+{
+    "type": "mekanism:dissolution",
+    "gasInput": {
+        "gas": "mekanismelements:nitric_acid",
+        "amount": 2.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "tag": "forge:ores/sapphire"
+        }
+    },
+    "output": {
+        "slurry": "moremekanismprocessing:dirty_sapphire",
+        "amount": 1200.0,
+        "chemicalType": "slurry"
+    }
+}

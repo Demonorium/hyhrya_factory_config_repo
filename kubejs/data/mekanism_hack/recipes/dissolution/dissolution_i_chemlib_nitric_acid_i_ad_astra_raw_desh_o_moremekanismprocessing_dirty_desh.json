@@ -1,0 +1,18 @@
+{
+    "type": "mekanism:dissolution",
+    "gasInput": {
+        "gas": "mekanismelements:nitric_acid",
+        "amount": 6.0
+    },
+    "itemInput": {
+        "amount": 3.0,
+        "ingredient": {
+            "item": "ad_astra:raw_desh"
+        }
+    },
+    "output": {
+        "slurry": "moremekanismprocessing:dirty_desh",
+        "amount": 2000.0,
+        "chemicalType": "slurry"
+    }
+}

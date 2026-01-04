@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dirty_dust_desh"
+        }
+    },
+    "output": {
+        "item": "moremekanismprocessing:dust_desh",
+        "count": 1.0
+    }
+}

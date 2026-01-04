@@ -1,0 +1,18 @@
+{
+    "type": "mekanism:dissolution",
+    "gasInput": {
+        "gas": "mekanismelements:aqua_regia",
+        "amount": 9.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "silentgear:raw_crimson_iron_block"
+        }
+    },
+    "output": {
+        "slurry": "moremekanismprocessing:dirty_crimson_iron",
+        "amount": 9000.0,
+        "chemicalType": "slurry"
+    }
+}

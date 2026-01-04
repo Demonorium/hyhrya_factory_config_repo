@@ -13,6 +13,7 @@ print('repo initiated:', repo.common_dir)
 print('index...')
 
 
+repo.git.add(".")
 repo.git.add("-u")
 # repo.index.add('modpack_version.txt')
 # repo.index.add('push_update.py')

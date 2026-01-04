@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "slurry",
+    "input": {
+        "slurry": "moremekanismprocessing:clean_emerald",
+        "amount": 200
+    },
+    "output": {
+        "item": "moremekanismprocessing:crystal_emerald",
+        "count": 1.0
+    }
+}

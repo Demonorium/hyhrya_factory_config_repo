@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "slurry",
+    "input": {
+        "slurry": "moremekanismprocessing:clean_azure_silver",
+        "amount": 200
+    },
+    "output": {
+        "item": "moremekanismprocessing:crystal_azure_silver",
+        "count": 1.0
+    }
+}

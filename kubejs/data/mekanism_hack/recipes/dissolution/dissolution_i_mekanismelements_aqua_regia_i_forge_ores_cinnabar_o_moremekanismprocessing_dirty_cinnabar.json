@@ -1,0 +1,18 @@
+{
+    "type": "mekanism:dissolution",
+    "gasInput": {
+        "gas": "mekanismelements:aqua_regia",
+        "amount": 1.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "tag": "forge:ores/cinnabar"
+        }
+    },
+    "output": {
+        "slurry": "moremekanismprocessing:dirty_cinnabar",
+        "amount": 1800.0,
+        "chemicalType": "slurry"
+    }
+}

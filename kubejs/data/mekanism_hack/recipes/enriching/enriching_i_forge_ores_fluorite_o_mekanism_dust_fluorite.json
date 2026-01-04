@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "tag": "forge:ores/fluorite"
+        }
+    },
+    "output": {
+        "item": "mekanism:dust_fluorite",
+        "count": 3.0
+    }
+}

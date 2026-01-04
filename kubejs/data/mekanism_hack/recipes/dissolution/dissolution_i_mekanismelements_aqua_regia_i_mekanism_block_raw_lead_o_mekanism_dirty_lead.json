@@ -1,0 +1,18 @@
+{
+    "type": "mekanism:dissolution",
+    "gasInput": {
+        "gas": "mekanismelements:aqua_regia",
+        "amount": 9.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:block_raw_lead"
+        }
+    },
+    "output": {
+        "slurry": "mekanism:dirty_lead",
+        "amount": 9000.0,
+        "chemicalType": "slurry"
+    }
+}

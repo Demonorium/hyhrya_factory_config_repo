@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:carbon_dust"
+        }
+    },
+    "mainInput": {
+        "amount": 6.0,
+        "ingredient": {
+            "item": "chemlib:copper_ii_oxide_dust"
+        }
+    },
+    "output": {
+        "item": "chemlib:copper_i_oxide_dust",
+        "count": 3.0
+    }
+}

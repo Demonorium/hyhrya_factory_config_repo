@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "tag": "forge:ores/ruby"
+        }
+    },
+    "output": {
+        "item": "thermal:ruby_dust",
+        "count": 3.0
+    }
+}
