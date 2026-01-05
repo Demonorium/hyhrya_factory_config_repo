@@ -173,7 +173,7 @@ ColdSweatEvents.registries(event =>
          .maxEffect(35)
          .range(5),
          (level, entity, state, pos, distance) => {
-            return 10;
+            return 20;
          }
    )
 
@@ -195,8 +195,7 @@ ColdSweatEvents.registries(event =>
                return 0
             }
             
-            console.log(bentity)
-            return 10;
+            return 0;
          }
    )
 })
