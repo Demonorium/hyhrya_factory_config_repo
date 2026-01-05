@@ -1,7 +1,7 @@
 {
-    "entity": "aquaculture:tambaqui",
+    "entity": "aquaculture:piranha",
     "variants": [],
-    "name": "entity.aquaculture.tambaqui",
+    "name": "entity.aquaculture.piranha",
     "name_color": "#6992D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
@@ -16,11 +16,15 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.tambaqui",
+    "trivia": "hostilenetworks.trivia.piranha",
     "fabricator_drops": [
         {
-            "item": "aquaculture:tambaqui",
-            "count": 1.0
+            "item": "aquaculture:piranha",
+            "count": 32.0
+        },
+        {
+            "item": "minecraft:bone_meal",
+            "count": 2.0
         }
     ],
     "tier_data": [

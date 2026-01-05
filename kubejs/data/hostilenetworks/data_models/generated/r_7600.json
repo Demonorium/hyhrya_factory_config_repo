@@ -1,7 +1,7 @@
 {
-    "entity": "aquaculture:arapaima",
+    "entity": "aquaculture:perch",
     "variants": [],
-    "name": "entity.aquaculture.arapaima",
+    "name": "entity.aquaculture.perch",
     "name_color": "#6992D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
@@ -16,11 +16,15 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.arapaima",
+    "trivia": "hostilenetworks.trivia.perch",
     "fabricator_drops": [
         {
-            "item": "aquaculture:arapaima",
-            "count": 1.0
+            "item": "aquaculture:perch",
+            "count": 32.0
+        },
+        {
+            "item": "minecraft:bone_meal",
+            "count": 2.0
         }
     ],
     "tier_data": [

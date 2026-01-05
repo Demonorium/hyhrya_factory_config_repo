@@ -1,7 +1,7 @@
 {
-    "entity": "aquaculture:smallmouth_bass",
+    "entity": "aquaculture:synodontis",
     "variants": [],
-    "name": "entity.aquaculture.smallmouth_bass",
+    "name": "entity.aquaculture.synodontis",
     "name_color": "#6992D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
@@ -16,11 +16,15 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.smallmouth_bass",
+    "trivia": "hostilenetworks.trivia.synodontis",
     "fabricator_drops": [
         {
-            "item": "aquaculture:smallmouth_bass",
-            "count": 1.0
+            "item": "aquaculture:synodontis",
+            "count": 32.0
+        },
+        {
+            "item": "minecraft:bone_meal",
+            "count": 2.0
         }
     ],
     "tier_data": [

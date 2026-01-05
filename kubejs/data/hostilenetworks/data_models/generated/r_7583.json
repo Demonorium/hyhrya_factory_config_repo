@@ -1,7 +1,7 @@
 {
-    "entity": "aquaculture:atlantic_herring",
+    "entity": "aquaculture:atlantic_halibut",
     "variants": [],
-    "name": "entity.aquaculture.atlantic_herring",
+    "name": "entity.aquaculture.atlantic_halibut",
     "name_color": "#6992D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
@@ -16,11 +16,15 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.atlantic_herring",
+    "trivia": "hostilenetworks.trivia.atlantic_halibut",
     "fabricator_drops": [
         {
-            "item": "aquaculture:atlantic_herring",
-            "count": 1.0
+            "item": "aquaculture:atlantic_halibut",
+            "count": 32.0
+        },
+        {
+            "item": "minecraft:bone_meal",
+            "count": 2.0
         }
     ],
     "tier_data": [

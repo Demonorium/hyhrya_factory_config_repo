@@ -1,7 +1,7 @@
 {
-    "entity": "aquaculture:bluegill",
+    "entity": "aquaculture:smallmouth_bass",
     "variants": [],
-    "name": "entity.aquaculture.bluegill",
+    "name": "entity.aquaculture.smallmouth_bass",
     "name_color": "#6992D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
@@ -16,11 +16,15 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.bluegill",
+    "trivia": "hostilenetworks.trivia.smallmouth_bass",
     "fabricator_drops": [
         {
-            "item": "aquaculture:bluegill",
-            "count": 1.0
+            "item": "aquaculture:smallmouth_bass",
+            "count": 32.0
+        },
+        {
+            "item": "minecraft:bone_meal",
+            "count": 2.0
         }
     ],
     "tier_data": [
