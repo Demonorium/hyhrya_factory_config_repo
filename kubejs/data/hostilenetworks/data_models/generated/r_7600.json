@@ -1,7 +1,7 @@
 {
-    "entity": "aquaculture:perch",
+    "entity": "aquaculture:muskellunge",
     "variants": [],
-    "name": "entity.aquaculture.perch",
+    "name": "entity.aquaculture.muskellunge",
     "name_color": "#6992D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.perch",
+    "trivia": "hostilenetworks.trivia.muskellunge",
     "fabricator_drops": [
         {
-            "item": "aquaculture:perch",
+            "item": "aquaculture:muskellunge",
             "count": 32.0
         },
         {

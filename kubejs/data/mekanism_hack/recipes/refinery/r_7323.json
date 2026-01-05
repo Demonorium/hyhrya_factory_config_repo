@@ -15,12 +15,16 @@
             "amount": 30.0
         },
         {
+            "fluid": "mekanism:sulfuric_acid",
+            "amount": 20.0
+        },
+        {
             "fluid": "pneumaticcraft:lpg",
             "amount": 20.0
         }
     ],
     "temperature": {
         "min_temp": 473,
-        "max_temp": 773
+        "max_temp": 623
     }
 }

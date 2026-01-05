@@ -1,0 +1,18 @@
+{
+    "type": "mekanism:dissolution",
+    "gasInput": {
+        "gas": "mekanism:sulfuric_acid",
+        "amount": 50.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "opposing_force:chicken_of_the_caves"
+        }
+    },
+    "output": {
+        "slurry": "moremekanismprocessing:dirty_nickel",
+        "amount": 400.0,
+        "chemicalType": "slurry"
+    }
+}

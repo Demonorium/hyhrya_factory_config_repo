@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:refinery",
+    "input": {
+        "fluid": "undergarden:virulent_mix_source",
+        "amount": 1000.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "results": [
+        {
+            "fluid": "minecraft:lava",
+            "amount": 500.0
+        },
+        {
+            "fluid": "biomesoplenty:blood",
+            "amount": 200.0
+        }
+    ],
+    "temperature": {
+        "min_temp": 100,
+        "max_temp": 350
+    }
+}

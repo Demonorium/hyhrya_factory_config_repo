@@ -1,7 +1,7 @@
 {
-    "entity": "aquaculture:blackfish",
+    "entity": "aquaculture:atlantic_cod",
     "variants": [],
-    "name": "entity.aquaculture.blackfish",
+    "name": "entity.aquaculture.atlantic_cod",
     "name_color": "#6992D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.blackfish",
+    "trivia": "hostilenetworks.trivia.atlantic_cod",
     "fabricator_drops": [
         {
-            "item": "aquaculture:blackfish",
+            "item": "aquaculture:atlantic_cod",
             "count": 32.0
         },
         {

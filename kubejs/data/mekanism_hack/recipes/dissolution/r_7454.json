@@ -7,11 +7,11 @@
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "biomesoplenty:toadstool"
+            "item": "biomesoplenty:glowshroom"
         }
     },
     "output": {
-        "gas": "kubejs:phosphoric_acid",
+        "gas": "kubejs:strontium_sulfate",
         "amount": 100.0,
         "chemicalType": "gas"
     }

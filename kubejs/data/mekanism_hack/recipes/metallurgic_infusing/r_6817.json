@@ -1,0 +1,17 @@
+{
+    "type": "mekanism:metallurgic_infusing",
+    "chemicalInput": {
+        "infuse_type": "kubejs:nickel",
+        "amount": 10
+    },
+    "itemInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "mekanism:dust_iron"
+        }
+    },
+    "output": {
+        "item": "thermal:invar_dust",
+        "count": 2.0
+    }
+}

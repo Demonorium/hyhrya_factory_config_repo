@@ -1,7 +1,7 @@
 {
-    "entity": "aquaculture:red_shrooma",
+    "entity": "aquaculture:brown_shrooma",
     "variants": [],
-    "name": "entity.aquaculture.red_shrooma",
+    "name": "entity.aquaculture.brown_shrooma",
     "name_color": "#6992D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.red_shrooma",
+    "trivia": "hostilenetworks.trivia.brown_shrooma",
     "fabricator_drops": [
         {
-            "item": "aquaculture:red_shrooma",
+            "item": "aquaculture:brown_shrooma",
             "count": 32.0
         },
         {

@@ -1,7 +1,7 @@
 {
-    "entity": "aquaculture:red_grouper",
+    "entity": "aquaculture:jellyfish",
     "variants": [],
-    "name": "entity.aquaculture.red_grouper",
+    "name": "entity.aquaculture.jellyfish",
     "name_color": "#6992D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.red_grouper",
+    "trivia": "hostilenetworks.trivia.jellyfish",
     "fabricator_drops": [
         {
-            "item": "aquaculture:red_grouper",
+            "item": "aquaculture:jellyfish",
             "count": 32.0
         },
         {
