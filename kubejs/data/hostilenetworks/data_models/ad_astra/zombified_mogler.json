@@ -17,7 +17,7 @@
     "trivia": "kubejs.trivia.zombified_mogler",
     "fabricator_drops": [
         {
-            "item": "alexsdelight:rotten_flesh",
+            "item": "minecraft:rotten_flesh",
             "count": 48
         },
         {
