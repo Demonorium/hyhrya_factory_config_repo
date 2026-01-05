@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:glucose_dust"
+            "item": "chemlib:villamaninite_dust"
         }
     },
     "output": {
-        "gas": "kubejs:glucose",
+        "gas": "kubejs:villamaninite",
         "amount": 200
     }
 }

@@ -74,59 +74,18 @@ ServerEvents.recipes(event => {
         event.shapeless(Item.of(PRICE_LIST[i-1][1].getId(), 64), [Item.of(PRICE_LIST[i][1].getId(), 1)])
     }
 
-
-    create_amadron_recipe(event, weapon_price(50, 60), Item.of("superbwarfare:glock_17_blueprint"), true)
-    create_amadron_recipe(event, weapon_price(50, 34), Item.of("superbwarfare:marlin_blueprint"),   true)
-    create_amadron_recipe(event, weapon_price(50, 60), Item.of("superbwarfare:mp_443_blueprint"),   false)
-    create_amadron_recipe(event, weapon_price(50, 42), Item.of("superbwarfare:m_1911_blueprint"),   false)
-    create_amadron_recipe(event, weapon_price(50, 42), Item.of("superbwarfare:taser_blueprint"),    false)
-
-    create_amadron_recipe(event, weapon_price(70, 95), Item.of("superbwarfare:ak_12_blueprint"),    false)
-    create_amadron_recipe(event, weapon_price(70, 75), Item.of("superbwarfare:ak_47_blueprint"),    false)
-    create_amadron_recipe(event, weapon_price(70, 63), Item.of("superbwarfare:glock_18_blueprint"), false)
-    create_amadron_recipe(event, weapon_price(70, 81), Item.of("superbwarfare:hk_416_blueprint"),   false)
-    create_amadron_recipe(event, weapon_price(70, 36), Item.of("superbwarfare:k_98_blueprint"),     true)
-    create_amadron_recipe(event, weapon_price(70, 71), Item.of("superbwarfare:mosin_nagant_blueprint"),true)
-    create_amadron_recipe(event, weapon_price(70, 91), Item.of("superbwarfare:mp_5_blueprint"),     false)
-    create_amadron_recipe(event, weapon_price(70, 64), Item.of("superbwarfare:m_2_hb_blueprint"),   false)
-    create_amadron_recipe(event, weapon_price(70, 82), Item.of("superbwarfare:m_4_blueprint"),      false)
-    create_amadron_recipe(event, weapon_price(70, 32), Item.of("superbwarfare:m_79_blueprint"),     false)
-    create_amadron_recipe(event, weapon_price(70, 79), Item.of("superbwarfare:m_870_blueprint"),    false)
-    create_amadron_recipe(event, weapon_price(70, 80), Item.of("superbwarfare:qbz_95_blueprint"),   false)
-    create_amadron_recipe(event, weapon_price(70, 67), Item.of("superbwarfare:rpg_blueprint"),      true)
-    create_amadron_recipe(event, weapon_price(70, 70), Item.of("superbwarfare:sks_blueprint"),      true)
+    WEAPONS.forEach(weapon => {
+      create_amadron_recipe(event, price_val(weapon.price_mod, weapon.price), Item.of(weapon.id), weapon.static_trade)
+    })
     
-    create_amadron_recipe(event, weapon_price(100, 106), Item.of("superbwarfare:awm_blueprint"),     true)
-    create_amadron_recipe(event, weapon_price(100, 112), Item.of("superbwarfare:bocek_blueprint"),   false)
-    create_amadron_recipe(event, weapon_price(100, 112), Item.of("superbwarfare:devotion_blueprint"),false)
-    create_amadron_recipe(event, weapon_price(100, 68), Item.of("superbwarfare:hunting_rifle_blueprint"),false)
-    create_amadron_recipe(event, weapon_price(100, 109), Item.of("superbwarfare:igla_9k38_blueprint"), false)
-    create_amadron_recipe(event, weapon_price(100, 121), Item.of("superbwarfare:insidious_blueprint"), false)
-    create_amadron_recipe(event, weapon_price(100, 104), Item.of("superbwarfare:mk_14_blueprint"),     false)
-    create_amadron_recipe(event, weapon_price(100, 129), Item.of("superbwarfare:m_60_blueprint"),      false)
-    create_amadron_recipe(event, weapon_price(100, 97), Item.of("superbwarfare:m_98b_blueprint"),      true)
-    create_amadron_recipe(event, weapon_price(100, 112), Item.of("superbwarfare:qbz_191_blueprint"),   false)
-    create_amadron_recipe(event, weapon_price(100, 117), Item.of("superbwarfare:rpk_blueprint"),       false)
-    create_amadron_recipe(event, weapon_price(100, 130), Item.of("superbwarfare:svd_blueprint"),       false)
-    create_amadron_recipe(event, weapon_price(100, 91), Item.of("superbwarfare:trachelium_blueprint"), false)
-    create_amadron_recipe(event, weapon_price(100, 81), Item.of("superbwarfare:vector_blueprint"),     true)
-    
-    create_amadron_recipe(event, weapon_price(140, 548), Item.of("superbwarfare:aa_12_blueprint"),              false)
-    create_amadron_recipe(event, weapon_price(140, 220), Item.of("superbwarfare:aurelia_sceptre_blueprint"),    false)
-    create_amadron_recipe(event, weapon_price(140, 197), Item.of("superbwarfare:javelin_blueprint"),            true)
-    create_amadron_recipe(event, weapon_price(140, 182), Item.of("superbwarfare:minigun_blueprint"),            true)
-    create_amadron_recipe(event, weapon_price(140, 149), Item.of("superbwarfare:ntw_20_blueprint"),             false)
-    create_amadron_recipe(event, weapon_price(140, 115), Item.of("superbwarfare:secondary_cataclysm_blueprint"),true)
-    create_amadron_recipe(event, weapon_price(140, 425), Item.of("superbwarfare:sentinel_blueprint"),           false)
-
     create_amadron_recipe(event, price_val(17, 64), Item.of("orbital_railgun:orbital_railgun"), true)
 
     create_amadron_recipe(event, price_val(17, 1), Item.of("superbwarfare:annihilator_blueprint"),      false)
-    create_amadron_recipe(event, price_val(16, 11), Item.of("superbwarfare:hpj_11_blueprint"),          false)
-    create_amadron_recipe(event, price_val(15, 22), Item.of("superbwarfare:bl_132_blueprint"),          false)
+    create_amadron_recipe(event, price_val(16, 14), Item.of("superbwarfare:hpj_11_blueprint"),          false)
+    create_amadron_recipe(event, price_val(15, 21), Item.of("superbwarfare:bl_132_blueprint"),          false)
     create_amadron_recipe(event, price_val(14, 34), Item.of("superbwarfare:mle_1934_blueprint"),        false)
     create_amadron_recipe(event, price_val(13, 15), Item.of("superbwarfare:mk_42_blueprint"),           false)
-
+    
     // НОРМАЛЬНАЯ ТОРГОВЛЯ
     // t0
     create_amadron_recipe(event, Item.of("gunpowder"), price_val(0, 32), true)
@@ -212,25 +171,6 @@ ServerEvents.recipes(event => {
 
 function price_val(power, amount) {
     return Item.of(PRICE_LIST[power][1].getId(), amount)
-}
-
-function weapon_price(norm, eff) {
-    const v = Math.round(norm / 10)
-    let offset = eff - norm
-
-    offset = Math.round(offset * Math.abs(offset))
-
-    let price_module = Math.floor(Math.abs(offset) / 64) * Math.sign(offset)
-    offset = offset - price_module * 64
-    if (offset < 1) offset = 1
-    else if (offset > 63) offset = 63
-    if (price_module < -3) {
-        price_module = -3
-    } else if (price_module > 3) {
-        price_module = 3
-    }
-    
-    return price_val(Math.ceil(v + price_module/2), offset)
 }
 
 function create_amadron_recipe(event, price, output_item, static_trade) {

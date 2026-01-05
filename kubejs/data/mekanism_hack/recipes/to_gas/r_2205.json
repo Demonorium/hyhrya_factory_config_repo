@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:moscovium"
+            "item": "chemlib:seaborgium"
         }
     },
     "output": {
-        "gas": "kubejs:moscovium",
+        "gas": "kubejs:seaborgium",
         "amount": 200
     }
 }

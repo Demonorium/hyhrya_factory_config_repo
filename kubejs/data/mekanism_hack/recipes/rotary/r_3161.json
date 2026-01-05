@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:glutaric_acid",
+        "fluid": "kubejs:iron_iii_oxide_hydroxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:glutaric_acid",
+        "fluid": "kubejs:iron_iii_oxide_hydroxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:glutaric_acid",
+        "gas": "kubejs:iron_iii_oxide_hydroxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:glutaric_acid",
+        "gas": "kubejs:iron_iii_oxide_hydroxide",
         "amount": 1.0
     }
 }

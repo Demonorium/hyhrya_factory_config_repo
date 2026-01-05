@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:benzene",
+        "fluid": "kubejs:titanium_carbide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:benzene",
+        "fluid": "kubejs:titanium_carbide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:benzene",
+        "gas": "kubejs:titanium_carbide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:benzene",
+        "gas": "kubejs:titanium_carbide",
         "amount": 1.0
     }
 }

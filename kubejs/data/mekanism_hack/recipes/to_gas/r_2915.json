@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:nickel_nitrate_dust"
+            "item": "chemlib:cesium_nitrate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:nickel_nitrate",
+        "gas": "kubejs:cesium_nitrate",
         "amount": 200
     }
 }

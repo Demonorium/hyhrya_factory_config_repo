@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:manganese_hydroxide_dust"
+            "item": "chemlib:potassium_hydroxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:manganese_hydroxide",
+        "gas": "mekanismelements:potassium_hydroxide",
         "amount": 200
     }
 }

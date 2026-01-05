@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:bismuth_iii_sulfate_dust"
+            "item": "chemlib:neodymium_iii_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:bismuth_iii_sulfate",
+        "gas": "kubejs:neodymium_iii_oxide",
         "amount": 200
     }
 }

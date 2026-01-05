@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:sodium_metasilicate_dust"
+            "item": "mekanism:dust_fluorite"
         }
     },
     "output": {
-        "gas": "kubejs:sodium_metasilicate",
+        "gas": "kubejs:calcium_fluoride",
         "amount": 200
     }
 }

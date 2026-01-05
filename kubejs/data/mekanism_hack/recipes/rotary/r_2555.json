@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:strontium_oxide",
+        "fluid": "kubejs:magnesium_carbonate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:strontium_oxide",
+        "fluid": "kubejs:magnesium_carbonate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:strontium_oxide",
+        "gas": "kubejs:magnesium_carbonate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:strontium_oxide",
+        "gas": "kubejs:magnesium_carbonate",
         "amount": 1.0
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:iron_hydroxide_dust"
+            "item": "chemlib:orthoclase_dust"
         }
     },
     "output": {
-        "gas": "kubejs:iron_hydroxide",
+        "gas": "kubejs:orthoclase",
         "amount": 200
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:glutaric_acid_dust"
+            "item": "chemlib:iron_iii_oxide_hydroxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:glutaric_acid",
+        "gas": "kubejs:iron_iii_oxide_hydroxide",
         "amount": 200
     }
 }

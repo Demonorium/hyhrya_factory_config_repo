@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:vanadium_iv_oxide",
+        "fluid": "kubejs:osmium_tetroxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:vanadium_iv_oxide",
+        "fluid": "kubejs:osmium_tetroxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:vanadium_iv_oxide",
+        "gas": "kubejs:osmium_tetroxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:vanadium_iv_oxide",
+        "gas": "kubejs:osmium_tetroxide",
         "amount": 1.0
     }
 }

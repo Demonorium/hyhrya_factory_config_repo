@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:zirconium_silicate_dust"
+            "item": "chemlib:livingstonite_dust"
         }
     },
     "output": {
-        "gas": "kubejs:zirconium_silicate",
+        "gas": "kubejs:livingstonite",
         "amount": 200
     }
 }

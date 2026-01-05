@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:barium_sulfide",
+        "fluid": "kubejs:zinc_nitrate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:barium_sulfide",
+        "fluid": "kubejs:zinc_nitrate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:barium_sulfide",
+        "gas": "kubejs:zinc_nitrate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:barium_sulfide",
+        "gas": "kubejs:zinc_nitrate",
         "amount": 1.0
     }
 }

@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:iridium",
+        "fluid": "kubejs:tantalum",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:iridium",
+        "fluid": "kubejs:tantalum",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:iridium",
+        "gas": "kubejs:tantalum",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:iridium",
+        "gas": "kubejs:tantalum",
         "amount": 1.0
     }
 }

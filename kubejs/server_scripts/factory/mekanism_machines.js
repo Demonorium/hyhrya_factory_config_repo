@@ -3,6 +3,65 @@
 ServerEvents.recipes(event => {
     event.replaceInput({ id: "mekanism:chemical_dissolution_chamber" }, "mekanism:ultimate_control_circuit", "mekanism:elite_control_circuit")
     event.replaceInput({ id: "mekanism:chemical_washer" }, "mekanism:ultimate_control_circuit", "mekanism:elite_control_circuit")
+    
+    event.remove({id: 'mekanism:chemical_washer'})
+    event.custom({
+      "type": "mekanism:mek_data",
+      "key": {
+        "B": {
+          "item": Item.of('pneumaticcraft:small_tank').getId()
+        },
+        "C": {
+          "tag": "forge:circuits/ultimate"
+        },
+        "I": {
+          "tag": "forge:ingots/refined_obsidian"
+        },
+        "T": {
+          "item": "mekanism:basic_chemical_tank"
+        },
+        "X": {
+          "item": "mekanism:steel_casing"
+        }
+      },
+      "pattern": [
+        "IBI",
+        "CXC",
+        "ITI"
+      ],
+      "result": {
+        "item": "mekanism:chemical_washer"
+      }
+    })
+    event.remove({id: 'mekanism:rotary_condensentrator'})
+    event.custom({
+      "type": "mekanism:mek_data",
+      "key": {
+        "#": {
+          "item": Item.of('pncepcb:high_temp_finished_pcb').getId()
+        },
+        "C": {
+          "tag": "forge:circuits/basic"
+        },
+        "E": {
+          "item": "mekanism:energy_tablet"
+        },
+        "G": {
+          "tag": "forge:glass/silica"
+        },
+        "T": {
+          "item": "mekanism:basic_chemical_tank"
+        }
+      },
+      "pattern": [
+        "GCG",
+        "TE#",
+        "GCG"
+      ],
+      "result": {
+        "item": "mekanism:rotary_condensentrator"
+      }
+    })
 
     event.remove({ id: "mekanism:pressurized_reaction_chamber" })
     event.shaped(

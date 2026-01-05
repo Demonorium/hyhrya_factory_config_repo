@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:copernicium",
+        "fluid": "kubejs:lawrencium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:copernicium",
+        "fluid": "kubejs:lawrencium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:copernicium",
+        "gas": "kubejs:lawrencium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:copernicium",
+        "gas": "kubejs:lawrencium",
         "amount": 1.0
     }
 }

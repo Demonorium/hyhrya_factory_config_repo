@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:einsteinium"
+            "item": "chemlib:protactinium_dust"
         }
     },
     "output": {
-        "gas": "kubejs:einsteinium",
+        "gas": "kubejs:protactinium",
         "amount": 200
     }
 }

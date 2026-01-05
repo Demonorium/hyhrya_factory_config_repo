@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:raw_tin"
+            "item": "moremekanismprocessing:dirty_dust_silver"
         }
     },
     "output": {
-        "item": "mekanism:dust_tin",
-        "count": 12.0
+        "item": "thermal:silver_dust",
+        "count": 1.0
     }
 }

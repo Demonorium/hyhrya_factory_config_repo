@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:sulfur_dichloride"
+            "item": "chemlib:magnesium_perchlorate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:sulfur_dichloride",
+        "gas": "kubejs:magnesium_perchlorate",
         "amount": 200
     }
 }

@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:disulfur_dichloride",
+        "fluid": "kubejs:cadmium_chloride",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:disulfur_dichloride",
+        "fluid": "kubejs:cadmium_chloride",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:disulfur_dichloride",
+        "gas": "kubejs:cadmium_chloride",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:disulfur_dichloride",
+        "gas": "kubejs:cadmium_chloride",
         "amount": 1.0
     }
 }

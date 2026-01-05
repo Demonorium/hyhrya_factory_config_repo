@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:molybdenum_dust"
+            "item": "chemlib:yttrium_dust"
         }
     },
     "output": {
-        "gas": "kubejs:molybdenum",
+        "gas": "mekanismelements:yttrium",
         "amount": 200
     }
 }

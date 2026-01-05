@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:epinephrine",
+        "fluid": "kubejs:chromium_oxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:epinephrine",
+        "fluid": "kubejs:chromium_oxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:epinephrine",
+        "gas": "kubejs:chromium_oxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:epinephrine",
+        "gas": "kubejs:chromium_oxide",
         "amount": 1.0
     }
 }

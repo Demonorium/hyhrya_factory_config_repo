@@ -5,18 +5,6 @@ const ITEMS_TO_REPLACE = [
 		to: "thermal:lapis_dust",
 	},
 	{
-		from: "thermal:diamond_dust",
-		to: "mekanism:dust_diamond",
-	},
-	{
-		from: "thermal:emerald_dust",
-		to: "mekanism:dust_emerald",
-	},
-	{
-		from: "thermal:netherite_dust",
-		to: "mekanism:dust_netherite",
-	},
-	{
 		from: "sgjourney:naquadah_block",
 		to: "mekanism_extras:block_naquadah",
 	},
@@ -101,10 +89,6 @@ const ITEMS_TO_REPLACE = [
 		to: "ad_astra:calorite_nugget",
 	},
 	{
-		from: "moremekanismprocessing:gem_bort",
-		to: "silentgear:bort",
-	},
-	{
 		from: "moremekanismprocessing:crimson_iron_ingot",
 		to: "silentgear:crimson_iron_ingot",
 	},
@@ -113,20 +97,12 @@ const ITEMS_TO_REPLACE = [
 		to: "silentgear:crimson_iron_nugget",
 	},
 	{
-		from: "moremekanismprocessing:dust_crimson_iron",
-		to: "silentgear:crimson_iron_dust",
-	},
-	{
 		from: "moremekanismprocessing:azure_silver_ingot",
 		to: "silentgear:azure_silver_ingot",
 	},
 	{
 		from: "moremekanismprocessing:azure_silver_nugget",
 		to: "silentgear:azure_silver_nugget",
-	},
-	{
-		from: "moremekanismprocessing:dust_azure_silver",
-		to: "silentgear:azure_silver_dust",
 	},
 	{
 		from: "silentgear:bronze_ingot",
@@ -143,10 +119,6 @@ const ITEMS_TO_REPLACE = [
 	{
 		from: "thermal:bronze_block",
 		to: "mekanism:block_bronze",
-	},
-	{
-		from: "thermal:bronze_dust",
-		to: "mekanism:dust_bronze",
 	},
 	{
 		from: "moremekanismprocessing:dust_ruby",
@@ -225,14 +197,6 @@ const ITEMS_TO_REPLACE = [
 		to: "thermal:nickel_block",
 	},
 	{
-		from: "chemlib:nickel_plate",
-		to: "thermal:nickel_plate",
-	},
-	{
-		from: "moremekanismprocessing:dust_nickel",
-		to: "thermal:nickel_dust",
-	},
-	{
 		from: "chemlib:nickel_dust",
 		to: "thermal:nickel_dust",
 	},
@@ -251,10 +215,6 @@ const ITEMS_TO_REPLACE = [
 	{
 		from: "moremekanismprocessing:dust_apatite",
 		to: "thermal:apatite_dust",
-	},
-	{
-		from: "moremekanismprocessing:gem_cinnabar",
-		to: "thermal:cinnabar",
 	},
 	{
 		from: "moremekanismprocessing:dust_cinnabar",
@@ -285,10 +245,6 @@ const ITEMS_TO_REPLACE = [
 		to: "chemlib:beryllium_nugget",
 	},
 	{
-		from: "chemlib:boron_dust",
-		to: "moremekanismprocessing:dust_boron",
-	},
-	{
 		from: "chemlib:calcium_nugget",
 		to: "chemlib:calcium_nugget",
 	},
@@ -309,14 +265,6 @@ const ITEMS_TO_REPLACE = [
 		to: "thermal:iron_plate",
 	},
 	{
-		from: "chemlib:iron_plate",
-		to: "thermal:iron_plate",
-	},
-	{
-		from: "thermal:iron_dust",
-		to: "mekanism:dust_iron",
-	},
-	{
 		from: "chemlib:iron_dust",
 		to: "mekanism:dust_iron",
 	},
@@ -327,14 +275,6 @@ const ITEMS_TO_REPLACE = [
 	{
 		from: "superbwarfare:copper_plate",
 		to: "thermal:copper_plate",
-	},
-	{
-		from: "chemlib:copper_plate",
-		to: "thermal:copper_plate",
-	},
-	{
-		from: "thermal:copper_dust",
-		to: "mekanism:dust_copper",
 	},
 	{
 		from: "chemlib:copper_dust",
@@ -405,14 +345,6 @@ const ITEMS_TO_REPLACE = [
 		to: "thermal:raw_silver",
 	},
 	{
-		from: "chemlib:silver_plate",
-		to: "thermal:silver_plate",
-	},
-	{
-		from: "moremekanismprocessing:dust_silver",
-		to: "thermal:silver_dust",
-	},
-	{
 		from: "chemlib:silver_dust",
 		to: "thermal:silver_dust",
 	},
@@ -451,14 +383,6 @@ const ITEMS_TO_REPLACE = [
 	{
 		from: "thermal:raw_tin_block",
 		to: "mekanism:block_raw_tin",
-	},
-	{
-		from: "chemlib:tin_plate",
-		to: "thermal:tin_plate",
-	},
-	{
-		from: "thermal:tin_dust",
-		to: "mekanism:dust_tin",
 	},
 	{
 		from: "chemlib:tin_dust",
@@ -525,14 +449,6 @@ const ITEMS_TO_REPLACE = [
 		to: "moremekanismprocessing:dust_platinum",
 	},
 	{
-		from: "chemlib:gold_plate",
-		to: "thermal:gold_plate",
-	},
-	{
-		from: "thermal:gold_dust",
-		to: "mekanism:dust_gold",
-	},
-	{
 		from: "chemlib:gold_dust",
 		to: "mekanism:dust_gold",
 	},
@@ -577,14 +493,6 @@ const ITEMS_TO_REPLACE = [
 		to: "mekanism:block_raw_lead",
 	},
 	{
-		from: "chemlib:lead_plate",
-		to: "thermal:lead_plate",
-	},
-	{
-		from: "thermal:lead_dust",
-		to: "mekanism:dust_lead",
-	},
-	{
 		from: "chemlib:lead_dust",
 		to: "mekanism:dust_lead",
 	},
@@ -595,14 +503,6 @@ const ITEMS_TO_REPLACE = [
 	{
 		from: "chemlib:actinium_dust",
 		to: "chemlib:actinium_dust",
-	},
-	{
-		from: "superbwarfare:coal_powder",
-		to: "mekanism:dust_coal",
-	},
-	{
-		from: "chemlib:sulfur_dust",
-		to: "mekanism:dust_sulfur",
 	},
 	{
 		from: "thermal:sulfur_dust",
@@ -621,16 +521,8 @@ const ITEMS_TO_REPLACE = [
 		to: "mekanismgenerators:turbine_blade",
 	},
 	{
-		from: "mekanism:basic_fluid_tank",
-		to: "pneumaticcraft:small_tank",
-	},
-	{
 		from: "superbwarfare:mortar_barrel",
 		to: "pneumaticcraft:cannon_barrel",
-	},
-	{
-		from: "moremekanismprocessing:gem_niter",
-		to: "thermal:niter",
 	},
 	{
 		from: "moremekanismprocessing:dust_niter",

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:gold_iii_chloride_dust"
+            "item": "chemlib:iron_hydroxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:gold_iii_chloride",
+        "gas": "kubejs:iron_hydroxide",
         "amount": 200
     }
 }

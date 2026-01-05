@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:sodium_sulfite_dust"
+            "item": "chemlib:zirconium_iv_chloride_dust"
         }
     },
     "output": {
-        "gas": "kubejs:sodium_sulfite",
+        "gas": "kubejs:zirconium_iv_chloride",
         "amount": 200
     }
 }

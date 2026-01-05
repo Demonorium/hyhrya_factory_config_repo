@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:lawrencium"
+            "item": "chemlib:plutonium"
         }
     },
     "output": {
-        "gas": "kubejs:lawrencium",
+        "gas": "mekanism:plutonium",
         "amount": 200
     }
 }

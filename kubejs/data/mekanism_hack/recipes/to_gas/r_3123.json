@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:monochloramine"
+            "item": "chemlib:niobium_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:monochloramine",
+        "gas": "kubejs:niobium_oxide",
         "amount": 200
     }
 }

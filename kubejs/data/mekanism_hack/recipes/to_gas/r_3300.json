@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:vanadium_v_oxide_dust"
+            "item": "chemlib:titanium_tetrachloride"
         }
     },
     "output": {
-        "gas": "kubejs:vanadium_v_oxide",
+        "gas": "kubejs:titanium_tetrachloride",
         "amount": 200
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:lead_sulfate_dust"
+            "item": "chemlib:beryllium_sulfate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:lead_sulfate",
+        "gas": "kubejs:beryllium_sulfate",
         "amount": 200
     }
 }

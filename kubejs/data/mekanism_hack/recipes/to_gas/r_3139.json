@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:potassium_aluminate_dust"
+            "item": "chemlib:bismuth_iii_sulfide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:potassium_aluminate",
+        "gas": "kubejs:bismuth_iii_sulfide",
         "amount": 200
     }
 }

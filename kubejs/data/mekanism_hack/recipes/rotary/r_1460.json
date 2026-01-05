@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:scandium",
+        "fluid": "kubejs:argon",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:scandium",
+        "fluid": "kubejs:argon",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:scandium",
+        "gas": "kubejs:argon",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:scandium",
+        "gas": "kubejs:argon",
         "amount": 1.0
     }
 }

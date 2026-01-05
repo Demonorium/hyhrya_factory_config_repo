@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "tag": "forge:ores/niter"
+            "item": "moremekanismprocessing:dirty_dust_apatite"
         }
     },
     "output": {
-        "item": "thermal:niter_dust",
-        "count": 3.0
+        "item": "thermal:apatite_dust",
+        "count": 1.0
     }
 }

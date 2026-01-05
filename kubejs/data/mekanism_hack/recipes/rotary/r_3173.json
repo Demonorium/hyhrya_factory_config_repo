@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:copper_ii_oxide",
+        "fluid": "kubejs:potassium_aluminate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:copper_ii_oxide",
+        "fluid": "kubejs:potassium_aluminate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:copper_ii_oxide",
+        "gas": "kubejs:potassium_aluminate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:copper_ii_oxide",
+        "gas": "kubejs:potassium_aluminate",
         "amount": 1.0
     }
 }

@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:iron_iii_oxide_hydroxide",
+        "fluid": "kubejs:niobium_pentoxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:iron_iii_oxide_hydroxide",
+        "fluid": "kubejs:niobium_pentoxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:iron_iii_oxide_hydroxide",
+        "gas": "kubejs:niobium_pentoxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:iron_iii_oxide_hydroxide",
+        "gas": "kubejs:niobium_pentoxide",
         "amount": 1.0
     }
 }

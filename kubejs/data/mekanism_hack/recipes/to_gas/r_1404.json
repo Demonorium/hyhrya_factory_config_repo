@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "moremekanismprocessing:dust_aluminum"
+            "item": "chemlib:fluorine"
         }
     },
     "output": {
-        "gas": "kubejs:aluminum",
+        "gas": "kubejs:fluorine",
         "amount": 200
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:covellite_dust"
+            "item": "chemlib:zirconium_silicate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:covellite",
+        "gas": "kubejs:zirconium_silicate",
         "amount": 200
     }
 }

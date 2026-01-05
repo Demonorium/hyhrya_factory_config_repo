@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:tin_oxide",
+        "fluid": "kubejs:sodium_carbonate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:tin_oxide",
+        "fluid": "kubejs:sodium_carbonate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:tin_oxide",
+        "gas": "kubejs:sodium_carbonate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:tin_oxide",
+        "gas": "kubejs:sodium_carbonate",
         "amount": 1.0
     }
 }

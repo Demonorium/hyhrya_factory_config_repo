@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:rubidium_chloride_dust"
+            "item": "chemlib:magnesium_hydroxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:rubidium_chloride",
+        "gas": "kubejs:magnesium_hydroxide",
         "amount": 200
     }
 }

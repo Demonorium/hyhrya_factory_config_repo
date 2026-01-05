@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:cobalt_sulfate_dust"
+            "item": "chemlib:lead_carbonate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:cobalt_sulfate",
+        "gas": "kubejs:lead_carbonate",
         "amount": 200
     }
 }

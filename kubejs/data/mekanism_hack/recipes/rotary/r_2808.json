@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:potassium_sulfate",
+        "fluid": "kubejs:iron_carbonate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:potassium_sulfate",
+        "fluid": "kubejs:iron_carbonate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:potassium_sulfate",
+        "gas": "kubejs:iron_carbonate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:potassium_sulfate",
+        "gas": "kubejs:iron_carbonate",
         "amount": 1.0
     }
 }

@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:mercury",
+        "fluid": "kubejs:rhenium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:mercury",
+        "fluid": "kubejs:rhenium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:mercury",
+        "gas": "kubejs:rhenium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:mercury",
+        "gas": "kubejs:rhenium",
         "amount": 1.0
     }
 }

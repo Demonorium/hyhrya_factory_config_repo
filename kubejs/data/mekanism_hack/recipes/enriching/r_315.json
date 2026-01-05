@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "silentgear:raw_crimson_iron"
+            "item": "moremekanismprocessing:dirty_dust_bort"
         }
     },
     "output": {
-        "item": "silentgear:crimson_iron_dust",
-        "count": 12.0
+        "item": "moremekanismprocessing:dust_bort",
+        "count": 1.0
     }
 }

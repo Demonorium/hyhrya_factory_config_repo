@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:meitnerium",
+        "fluid": "kubejs:fermium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:meitnerium",
+        "fluid": "kubejs:fermium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:meitnerium",
+        "gas": "kubejs:fermium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:meitnerium",
+        "gas": "kubejs:fermium",
         "amount": 1.0
     }
 }

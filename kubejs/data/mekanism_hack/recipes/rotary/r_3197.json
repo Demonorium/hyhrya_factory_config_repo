@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:gold_iii_sulfide",
+        "fluid": "kubejs:glutaric_acid",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:gold_iii_sulfide",
+        "fluid": "kubejs:glutaric_acid",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:gold_iii_sulfide",
+        "gas": "kubejs:glutaric_acid",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:gold_iii_sulfide",
+        "gas": "kubejs:glutaric_acid",
         "amount": 1.0
     }
 }

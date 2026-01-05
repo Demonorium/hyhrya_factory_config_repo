@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:maleic_anhydride_dust"
+            "item": "chemlib:ruthenium_iv_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:maleic_anhydride",
+        "gas": "kubejs:ruthenium_iv_oxide",
         "amount": 200
     }
 }

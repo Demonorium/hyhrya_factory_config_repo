@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:tin_sulfate_dust"
+            "item": "chemlib:strontium_sulfate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:tin_sulfate",
+        "gas": "kubejs:strontium_sulfate",
         "amount": 200
     }
 }

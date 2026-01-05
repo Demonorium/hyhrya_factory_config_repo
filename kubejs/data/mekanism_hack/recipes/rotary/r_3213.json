@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:wollastonite",
+        "fluid": "kubejs:covellite",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:wollastonite",
+        "fluid": "kubejs:covellite",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:wollastonite",
+        "gas": "kubejs:covellite",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:wollastonite",
+        "gas": "kubejs:covellite",
         "amount": 1.0
     }
 }

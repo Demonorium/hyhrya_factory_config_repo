@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:silicon_dust"
+            "item": "chemlib:neon"
         }
     },
     "output": {
-        "gas": "kubejs:silicon",
+        "gas": "kubejs:neon",
         "amount": 200
     }
 }

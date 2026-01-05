@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:rubidium_sulfate_dust"
+            "item": "chemlib:cobalt_carbonate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:rubidium_sulfate",
+        "gas": "kubejs:cobalt_carbonate",
         "amount": 200
     }
 }

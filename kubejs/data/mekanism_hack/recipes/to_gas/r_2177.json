@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:hassium"
+            "item": "chemlib:einsteinium"
         }
     },
     "output": {
-        "gas": "kubejs:hassium",
+        "gas": "kubejs:einsteinium",
         "amount": 200
     }
 }

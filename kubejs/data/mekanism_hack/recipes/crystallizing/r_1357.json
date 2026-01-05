@@ -2,11 +2,11 @@
     "type": "mekanism:crystallizing",
     "chemicalType": "gas",
     "input": {
-        "gas": "mekanismelements:nitrogen",
+        "gas": "mekanismelements:helium",
         "amount": 100
     },
     "output": {
-        "item": "chemlib:nitrogen",
+        "item": "chemlib:helium",
         "count": 1.0
     }
 }

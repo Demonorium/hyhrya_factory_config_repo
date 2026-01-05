@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:potassium_aluminate",
+        "fluid": "kubejs:bismuth_iii_sulfide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:potassium_aluminate",
+        "fluid": "kubejs:bismuth_iii_sulfide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:potassium_aluminate",
+        "gas": "kubejs:bismuth_iii_sulfide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:potassium_aluminate",
+        "gas": "kubejs:bismuth_iii_sulfide",
         "amount": 1.0
     }
 }

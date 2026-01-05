@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:carbon_dioxide",
+        "fluid": "kubejs:darmstadtium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:carbon_dioxide",
+        "fluid": "kubejs:darmstadtium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:carbon_dioxide",
+        "gas": "kubejs:darmstadtium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:carbon_dioxide",
+        "gas": "kubejs:darmstadtium",
         "amount": 1.0
     }
 }

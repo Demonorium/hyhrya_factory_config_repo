@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:manganese_nitrate_dust"
+            "item": "chemlib:lithium_nitrate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:manganese_nitrate",
+        "gas": "kubejs:lithium_nitrate",
         "amount": 200
     }
 }

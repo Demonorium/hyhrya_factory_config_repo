@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:carboxylic_acid"
+            "item": "chemlib:p_phenylenediamine_dust"
         }
     },
     "output": {
-        "gas": "kubejs:carboxylic_acid",
+        "gas": "kubejs:p_phenylenediamine",
         "amount": 200
     }
 }

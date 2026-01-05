@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:lead_nitrate_dust"
+            "item": "chemlib:calcium_nitrate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:lead_nitrate",
+        "gas": "kubejs:calcium_nitrate",
         "amount": 200
     }
 }

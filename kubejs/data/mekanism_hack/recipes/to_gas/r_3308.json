@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:vanadium_iv_oxide_dust"
+            "item": "chemlib:osmium_tetroxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:vanadium_iv_oxide",
+        "gas": "kubejs:osmium_tetroxide",
         "amount": 200
     }
 }

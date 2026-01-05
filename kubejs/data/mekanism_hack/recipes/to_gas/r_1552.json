@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "moremekanismprocessing:dust_zinc"
+            "item": "mekanism:dust_iron"
         }
     },
     "output": {
-        "gas": "kubejs:zinc",
+        "gas": "kubejs:iron",
         "amount": 200
     }
 }

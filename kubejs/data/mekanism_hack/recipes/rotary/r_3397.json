@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:phosgene",
+        "fluid": "kubejs:copper_ii_perchlorate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:phosgene",
+        "fluid": "kubejs:copper_ii_perchlorate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:phosgene",
+        "gas": "kubejs:copper_ii_perchlorate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:phosgene",
+        "gas": "kubejs:copper_ii_perchlorate",
         "amount": 1.0
     }
 }

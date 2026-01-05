@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
 
 LootJS.modifiers((event) => {
 	let mod = event.addLootTypeModifier(LootType.CHEST)
-    ITEMS_TO_REPLACE.forEach(element => {
+    LOOT_TO_REPLACE.forEach(element => {
         mod.replaceLoot(element.from, element.to)
     })
 	ITEMS_TO_HIDE.forEach(element => {
@@ -40,23 +40,29 @@ LootJS.modifiers((event) => {
        	    mod.removeLoot(element)
         }
     })
-    mod.replaceLoot(item => item.id.endsWith('_blueprint') && item.id.startsWith("superb"), Item.of('thermal:bronze_coin', 3))
-
-	mod = event.addLootTypeModifier(LootType.ENTITY)
-    ITEMS_TO_REPLACE.forEach(element => {
-        mod.replaceLoot(element.from, element.to)
-    })
-	ITEMS_TO_HIDE.forEach(element => {
+    LOOT_TO_HIDE.forEach(element => {
         if (!(element.endsWith('_bucket'))) {
        	    mod.removeLoot(element)
         }
     })
-    mod.replaceLoot(item => item.id.endsWith('_blueprint') && item.id.startsWith("superb"), Item.of('thermal:bronze_coin', 6))
-
-	mod = event.addLootTypeModifier(LootType.BLOCK)
-    ITEMS_TO_REPLACE.forEach(element => {
-        mod.replaceLoot(element.from, element.to)
-    })
-
     
+	mod = event.addLootTypeModifier(LootType.ENTITY)
+    LOOT_TO_REPLACE.forEach(element => {
+        mod.replaceLoot(element.from, element.to)
+    })
+	ITEMS_TO_HIDE.forEach(element => {
+        if (!(element.endsWith('_bucket'))) {
+       	    mod.removeLoot(element)
+        }
+    })
+    LOOT_TO_HIDE.forEach(element => {
+        if (!(element.endsWith('_bucket'))) {
+       	    mod.removeLoot(element)
+        }
+    })
+    
+	mod = event.addLootTypeModifier(LootType.BLOCK)
+    LOOT_TO_REPLACE.forEach(element => {
+        mod.replaceLoot(element.from, element.to)
+    })
 });

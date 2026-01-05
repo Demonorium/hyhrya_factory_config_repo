@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:strontium_sulfate_dust"
+            "item": "minecraft:prismarine_shard"
         }
     },
     "output": {
-        "gas": "kubejs:strontium_sulfate",
+        "gas": "kubejs:zinc_carbonate",
         "amount": 200
     }
 }

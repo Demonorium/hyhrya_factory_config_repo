@@ -1,18 +1,18 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "mekanismelements:nitric_acid",
-        "amount": 18.0
+        "gas": "mekanism:sulfuric_acid",
+        "amount": 6.0
     },
     "itemInput": {
-        "amount": 1.0,
+        "amount": 3.0,
         "ingredient": {
-            "item": "mekanism:block_raw_uranium"
+            "item": "mekanism:raw_uranium"
         }
     },
     "output": {
         "slurry": "mekanism:dirty_uranium",
-        "amount": 6000.0,
+        "amount": 2000.0,
         "chemicalType": "slurry"
     }
 }

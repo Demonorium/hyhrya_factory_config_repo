@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "moremekanismprocessing:dust_platinum"
+            "item": "moremekanismprocessing:dust_tungsten"
         }
     },
     "output": {
-        "gas": "kubejs:platinum",
+        "gas": "kubejs:tungsten",
         "amount": 200
     }
 }

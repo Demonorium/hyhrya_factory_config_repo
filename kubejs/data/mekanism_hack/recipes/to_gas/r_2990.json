@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:sodium_sulfide_dust"
+            "item": "chemlib:sulfur_trioxide"
         }
     },
     "output": {
-        "gas": "kubejs:sodium_sulfide",
+        "gas": "mekanism:sulfur_trioxide",
         "amount": 200
     }
 }

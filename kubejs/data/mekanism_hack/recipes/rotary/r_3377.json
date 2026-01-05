@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:silver_perchlorate",
+        "fluid": "kubejs:barium_perchlorate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:silver_perchlorate",
+        "fluid": "kubejs:barium_perchlorate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:silver_perchlorate",
+        "gas": "kubejs:barium_perchlorate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:silver_perchlorate",
+        "gas": "kubejs:barium_perchlorate",
         "amount": 1.0
     }
 }

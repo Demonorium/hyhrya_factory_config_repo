@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:methane"
+            "item": "chemlib:lead_iodide"
         }
     },
     "output": {
-        "gas": "mekanismelements:methane",
+        "gas": "kubejs:lead_iodide",
         "amount": 200
     }
 }

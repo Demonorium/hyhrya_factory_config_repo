@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:rutherfordium"
+            "item": "chemlib:americium"
         }
     },
     "output": {
-        "gas": "kubejs:rutherfordium",
+        "gas": "mekanismelements:americium",
         "amount": 200
     }
 }

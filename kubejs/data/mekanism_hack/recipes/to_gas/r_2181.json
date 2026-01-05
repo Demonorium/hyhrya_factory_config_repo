@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:meitnerium"
+            "item": "chemlib:fermium"
         }
     },
     "output": {
-        "gas": "kubejs:meitnerium",
+        "gas": "kubejs:fermium",
         "amount": 200
     }
 }

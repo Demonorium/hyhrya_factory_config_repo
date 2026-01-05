@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:iron_ii_sulfate_dust"
+            "item": "chemlib:sodium_sulfate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:iron_ii_sulfate",
+        "gas": "kubejs:sodium_sulfate",
         "amount": 200
     }
 }

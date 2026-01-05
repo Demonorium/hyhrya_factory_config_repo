@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:platinum",
+        "fluid": "kubejs:tungsten",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:platinum",
+        "fluid": "kubejs:tungsten",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:platinum",
+        "gas": "kubejs:tungsten",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:platinum",
+        "gas": "kubejs:tungsten",
         "amount": 1.0
     }
 }

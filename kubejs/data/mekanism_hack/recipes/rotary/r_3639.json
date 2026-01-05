@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:stackunderflowium",
+        "fluid": "kubejs:tellurium_dioxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:stackunderflowium",
+        "fluid": "kubejs:tellurium_dioxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:stackunderflowium",
+        "gas": "kubejs:tellurium_dioxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:stackunderflowium",
+        "gas": "kubejs:tellurium_dioxide",
         "amount": 1.0
     }
 }

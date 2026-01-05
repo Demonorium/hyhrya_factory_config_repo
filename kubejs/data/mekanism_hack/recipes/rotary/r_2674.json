@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:aluminum_hydroxide",
+        "fluid": "kubejs:carbon_monoxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:aluminum_hydroxide",
+        "fluid": "kubejs:carbon_monoxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:aluminum_hydroxide",
+        "gas": "kubejs:carbon_monoxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:aluminum_hydroxide",
+        "gas": "kubejs:carbon_monoxide",
         "amount": 1.0
     }
 }

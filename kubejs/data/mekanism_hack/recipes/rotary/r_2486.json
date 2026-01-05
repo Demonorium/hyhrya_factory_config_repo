@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:caffeine",
+        "fluid": "kubejs:titanium_oxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:caffeine",
+        "fluid": "kubejs:titanium_oxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:caffeine",
+        "gas": "kubejs:titanium_oxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:caffeine",
+        "gas": "kubejs:titanium_oxide",
         "amount": 1.0
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:oganesson"
+            "item": "chemlib:meitnerium"
         }
     },
     "output": {
-        "gas": "kubejs:oganesson",
+        "gas": "kubejs:meitnerium",
         "amount": 200
     }
 }

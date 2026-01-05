@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:barium_carbonate_dust"
+            "item": "chemlib:sodium_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:barium_carbonate",
+        "gas": "kubejs:sodium_oxide",
         "amount": 200
     }
 }

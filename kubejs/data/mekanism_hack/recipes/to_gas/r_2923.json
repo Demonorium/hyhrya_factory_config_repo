@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:zinc_nitrate_dust"
+            "item": "chemlib:magnesium_nitrate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:zinc_nitrate",
+        "gas": "kubejs:magnesium_nitrate",
         "amount": 200
     }
 }

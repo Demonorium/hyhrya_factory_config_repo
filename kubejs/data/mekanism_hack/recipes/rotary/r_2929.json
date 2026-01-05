@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:cadmium_nitrate",
+        "fluid": "kubejs:strontium_nitrate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:cadmium_nitrate",
+        "fluid": "kubejs:strontium_nitrate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:cadmium_nitrate",
+        "gas": "kubejs:strontium_nitrate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:cadmium_nitrate",
+        "gas": "kubejs:strontium_nitrate",
         "amount": 1.0
     }
 }

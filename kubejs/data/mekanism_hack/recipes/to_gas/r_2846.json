@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:copper_ii_sulfate_dust"
+            "item": "chemlib:potassium_sulfate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:copper_ii_sulfate",
+        "gas": "kubejs:potassium_sulfate",
         "amount": 200
     }
 }

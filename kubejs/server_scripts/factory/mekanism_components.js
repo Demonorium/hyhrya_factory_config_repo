@@ -250,12 +250,11 @@ ServerEvents.recipes(event => {
         {
             A: Item.of("mekanism:alloy_infused"),
             B: Item.of('mekanism:advanced_control_circuit'),
-            D: Item.of(MATERIALS.PLASTIC.plate),
+            D: Item.of(MATERIALS.PLASTIC.ingot),
             C: Item.of(MATERIALS.CESIUM.dust),
             E: Item.of(MATERIALS.ALUMINUM.dust),
         }
     )
-
 
     event.shaped(
         Item.of('superbwarfare:medium_battery_pack', 1),
@@ -278,7 +277,7 @@ ServerEvents.recipes(event => {
         {
             A: Item.of("mekanism:alloy_reinforced"),
             B: Item.of('mekanism:elite_control_circuit'),
-            D: Item.of(MATERIALS.PLASTIC.plate),
+            D: Item.of(MATERIALS.PLASTIC.ingot),
             C: Item.of(MATERIALS.CESIUM.dust),
             E: Item.of(MATERIALS.ALUMINUM.dust),
         }

@@ -57,6 +57,16 @@ ColdSweatEvents.registries(event =>
                .attribute("minecraft:generic.max_health", 2.0, "addition")
                .attribute("puffish_attributes:player.healing", 0.25, "addition")
                .hideIfUnmet(false))
+   event.addInsulator(insulator =>
+      insulator.items("clanginghowl:chunk_of_technoflesh")
+               // Insulation that the item provides (cold, heat)
+               .insulation(2, 2)
+               // Insulation type (item, armor, or curio)
+               .slot("item")
+               .attribute("minecraft:generic.armor", 1.0, "addition")
+               .attribute("minecraft:generic.max_health", 3.0, "addition")
+               .attribute("puffish_attributes:player.healing", 0.4, "addition")
+               .hideIfUnmet(false))
 
    event.addInsulator(insulator =>
       insulator.items("deeperdarker:resonarium_plate")
@@ -155,4 +165,38 @@ ColdSweatEvents.registries(event =>
                .attribute("minecraft:generic.armor", -1.0, "addition")
                .hideIfUnmet(false))
 
+   event.addBlockTemperature(block => 
+      block.blocks("burnt:sulphur_block")
+         .units("c")
+         .maxTemperature(40)
+         .minTemperature(0)
+         .maxEffect(35)
+         .range(5),
+         (level, entity, state, pos, distance) => {
+            return 10;
+         }
+   )
+
+   event.addBlockTemperature(block => 
+      block.blocks(
+         "mekanismgenerators:heat_generator",
+      "mekanism:resistive_heater",
+      "mekanism:fuelfood_heater"
+   )
+         .units("c")
+         .maxTemperature(300)
+         .minTemperature(0)
+         .maxEffect(300)
+         .range(5),
+         (level, entity, state, pos, distance) => {
+
+            const bentity = level.getBlockEntity().orElse(null)
+            if (bentity == null) {
+               return 0
+            }
+            
+            console.log(bentity)
+            return 10;
+         }
+   )
 })

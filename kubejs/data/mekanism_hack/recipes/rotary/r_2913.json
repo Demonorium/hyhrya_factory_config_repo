@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:nickel_nitrate",
+        "fluid": "kubejs:cesium_nitrate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:nickel_nitrate",
+        "fluid": "kubejs:cesium_nitrate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:nickel_nitrate",
+        "gas": "kubejs:cesium_nitrate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:nickel_nitrate",
+        "gas": "kubejs:cesium_nitrate",
         "amount": 1.0
     }
 }

@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:covellite",
+        "fluid": "kubejs:zirconium_silicate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:covellite",
+        "fluid": "kubejs:zirconium_silicate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:covellite",
+        "gas": "kubejs:zirconium_silicate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:covellite",
+        "gas": "kubejs:zirconium_silicate",
         "amount": 1.0
     }
 }

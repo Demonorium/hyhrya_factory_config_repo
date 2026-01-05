@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:silver_perchlorate_dust"
+            "item": "chemlib:barium_perchlorate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:silver_perchlorate",
+        "gas": "kubejs:barium_perchlorate",
         "amount": 200
     }
 }

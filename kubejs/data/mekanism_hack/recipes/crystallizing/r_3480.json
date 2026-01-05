@@ -2,11 +2,11 @@
     "type": "mekanism:crystallizing",
     "chemicalType": "gas",
     "input": {
-        "gas": "kubejs:hydrogen_iodide",
+        "gas": "mekanismelements:hydrogen_cyanide",
         "amount": 100
     },
     "output": {
-        "item": "chemlib:hydrogen_iodide",
+        "item": "chemlib:hydrogen_cyanide",
         "count": 1.0
     }
 }

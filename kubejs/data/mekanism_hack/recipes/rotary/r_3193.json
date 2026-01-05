@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:gold_i_sulfide",
+        "fluid": "kubejs:magnetite",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:gold_i_sulfide",
+        "fluid": "kubejs:magnetite",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:gold_i_sulfide",
+        "gas": "kubejs:magnetite",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:gold_i_sulfide",
+        "gas": "kubejs:magnetite",
         "amount": 1.0
     }
 }

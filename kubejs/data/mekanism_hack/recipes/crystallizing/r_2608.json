@@ -2,11 +2,11 @@
     "type": "mekanism:crystallizing",
     "chemicalType": "gas",
     "input": {
-        "gas": "kubejs:hydrogen_sulfide",
+        "gas": "mekanismelements:nitrogen_dioxide",
         "amount": 100
     },
     "output": {
-        "item": "chemlib:hydrogen_sulfide",
+        "item": "chemlib:nitrogen_dioxide",
         "count": 1.0
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:hydrogen_iodide"
+            "item": "chemlib:hydrogen_cyanide"
         }
     },
     "output": {
-        "gas": "kubejs:hydrogen_iodide",
+        "gas": "mekanismelements:hydrogen_cyanide",
         "amount": 200
     }
 }

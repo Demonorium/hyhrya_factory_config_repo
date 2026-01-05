@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "moremekanismprocessing:dust_iridium"
+            "item": "chemlib:tantalum_dust"
         }
     },
     "output": {
-        "gas": "kubejs:iridium",
+        "gas": "kubejs:tantalum",
         "amount": 200
     }
 }

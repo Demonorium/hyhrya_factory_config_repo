@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:roentgenium"
+            "item": "chemlib:nobelium"
         }
     },
     "output": {
-        "gas": "kubejs:roentgenium",
+        "gas": "kubejs:nobelium",
         "amount": 200
     }
 }

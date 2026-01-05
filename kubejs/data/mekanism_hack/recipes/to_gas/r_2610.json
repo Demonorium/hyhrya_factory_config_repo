@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:hydrogen_sulfide"
+            "item": "chemlib:nitrogen_dioxide"
         }
     },
     "output": {
-        "gas": "kubejs:hydrogen_sulfide",
+        "gas": "mekanismelements:nitrogen_dioxide",
         "amount": 200
     }
 }

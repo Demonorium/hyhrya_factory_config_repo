@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:gold_iii_sulfide_dust"
+            "item": "chemlib:glutaric_acid_dust"
         }
     },
     "output": {
-        "gas": "kubejs:gold_iii_sulfide",
+        "gas": "kubejs:glutaric_acid",
         "amount": 200
     }
 }

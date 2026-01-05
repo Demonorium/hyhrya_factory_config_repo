@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:tennessine"
+            "item": "chemlib:hassium"
         }
     },
     "output": {
-        "gas": "kubejs:tennessine",
+        "gas": "kubejs:hassium",
         "amount": 200
     }
 }

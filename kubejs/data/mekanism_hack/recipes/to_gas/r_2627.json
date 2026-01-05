@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:nickel_sulfide_dust"
+            "item": "chemlib:phosphoric_acid_dust"
         }
     },
     "output": {
-        "gas": "kubejs:nickel_sulfide",
+        "gas": "kubejs:phosphoric_acid",
         "amount": 200
     }
 }

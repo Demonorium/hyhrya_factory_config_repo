@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:mendelevium"
+            "item": "mekanism:dust_uranium"
         }
     },
     "output": {
-        "gas": "kubejs:mendelevium",
+        "gas": "kubejs:uranium",
         "amount": 200
     }
 }

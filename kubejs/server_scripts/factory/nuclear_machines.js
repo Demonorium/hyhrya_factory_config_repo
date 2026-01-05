@@ -68,6 +68,13 @@ ServerEvents.recipes(event => {
 
     event.replaceInput({ id: 'mekanismgenerators:fission_reactor/port' }, 'mekanism:elite_control_circuit', 'mekanism_extras:absolute_control_circuit')
     event.replaceInput({ id: 'bfr:irradiator' }, 'mekanism:ultimate_control_circuit', 'mekanism_extras:absolute_control_circuit')
+    event.replaceInput({ id: 'bfr:reactor/controller' }, 'mekanism:ultimate_control_circuit', 'mekanism_extras:absolute_control_circuit')
+    event.replaceInput({ id: 'bfr:reactor/controller' }, 'glass_pane', 'computercraft:computer_advanced')
+    event.replaceInput({ id: 'bfr:reactor/frame' }, 'mekanism:steel_casing', 'mekanismgenerators:fission_reactor_casing')
+    event.replaceInput({ id: 'bfr:reactor/frame' }, 'mekanism:alloy_atomic', 'mekanism_extras:alloy_radiance')
+    event.replaceInput({ id: 'bfr:reactor/port' }, 'mekanism:ultimate_control_circuit', 'mekanism_extras:absolute_control_circuit')
+    event.replaceInput({ id: 'bfr:laser_focus_matrix' }, 'redstone_block', 'mffs:focus_matrix')
+
     event.replaceInput({ id: 'mekanismelements:crafting/radiation_irradiator' }, 'mekanism:ultimate_control_circuit', 'mekanism_extras:absolute_control_circuit')
 
     event.remove({ id: 'mekanism:supercharged_coil' })
@@ -104,7 +111,7 @@ ServerEvents.recipes(event => {
     )
 
     event.replaceInput({ id: 'mekanism:sps_port' }, 'mekanism:ultimate_control_circuit', 'mekanism_extras:supreme_control_circuit')
-    
+
     event.remove({ id: 'mekanism:antiprotonic_nucleosynthesizer' })
     event.shaped(
         Item.of('mekanism:antiprotonic_nucleosynthesizer', 1),
@@ -136,22 +143,22 @@ ServerEvents.recipes(event => {
             D: Item.of(MATERIALS.LEAD.plate),
         }
     )
-    
-    event.remove({id: 'mekanism_extras:naquadah_reactor/casing'})
+
+    event.remove({ id: 'mekanism_extras:naquadah_reactor/casing' })
     event.custom({
-      "type": "mekanism:nucleosynthesizing",
-      "duration": 3000,
-      "gasInput": {
-        "amount": 1,
-        "gas": "mekanism:antimatter"
-      },
-      "itemInput": {
-        "ingredient": {
-          "item": "bfr:fusion_reactor_frame"
+        "type": "mekanism:nucleosynthesizing",
+        "duration": 3000,
+        "gasInput": {
+            "amount": 1,
+            "gas": "mekanism:antimatter"
+        },
+        "itemInput": {
+            "ingredient": {
+                "item": "bfr:fusion_reactor_frame"
+            }
+        },
+        "output": {
+            "item": "mekanism_extras:naquadah_reactor_casing"
         }
-      },
-      "output": {
-        "item": "mekanism_extras:naquadah_reactor_casing"
-      }
     })
 })

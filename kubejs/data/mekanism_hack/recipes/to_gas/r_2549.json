@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:tin_oxide_dust"
+            "item": "chemlib:sodium_carbonate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:tin_oxide",
+        "gas": "kubejs:sodium_carbonate",
         "amount": 200
     }
 }

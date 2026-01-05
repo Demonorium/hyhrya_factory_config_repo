@@ -1,6 +1,35 @@
 // priority: 0
 
 ServerEvents.recipes(event => {
+
+    event.custom({
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "C": {
+          "type": "pneumaticcraft:fluid",
+          "amount": 1000,
+          "tag": "forge:lubricant"
+        },
+        "L": {
+          "tag": "pneumaticcraft:upgrade_components"
+        },
+        "X": {
+          "item": Item.of('thermal:cured_rubber').getId()
+        }
+      },
+      "pattern": [
+        "LXL",
+        "XCX",
+        "LXL"
+      ],
+      "result": {
+        "count": 2,
+        "item": "pneumaticcraft:speed_upgrade"
+      },
+      "show_notification": true
+    })
+
     event.remove({id: "pneumaticcraft:thermopneumatic_processing_plant"})
     event.shaped("pneumaticcraft:thermopneumatic_processing_plant",
         [

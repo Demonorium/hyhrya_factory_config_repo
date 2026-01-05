@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:zinc_sulfate_dust"
+            "item": "chemlib:rubidium_sulfate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:zinc_sulfate",
+        "gas": "kubejs:rubidium_sulfate",
         "amount": 200
     }
 }

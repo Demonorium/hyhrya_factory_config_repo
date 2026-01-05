@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:carbon_monoxide",
+        "fluid": "kubejs:copper_i_sulfide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:carbon_monoxide",
+        "fluid": "kubejs:copper_i_sulfide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:carbon_monoxide",
+        "gas": "kubejs:copper_i_sulfide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:carbon_monoxide",
+        "gas": "kubejs:copper_i_sulfide",
         "amount": 1.0
     }
 }

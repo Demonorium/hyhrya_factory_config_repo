@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:gold_iii_chloride",
+        "fluid": "kubejs:iron_hydroxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:gold_iii_chloride",
+        "fluid": "kubejs:iron_hydroxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:gold_iii_chloride",
+        "gas": "kubejs:iron_hydroxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:gold_iii_chloride",
+        "gas": "kubejs:iron_hydroxide",
         "amount": 1.0
     }
 }

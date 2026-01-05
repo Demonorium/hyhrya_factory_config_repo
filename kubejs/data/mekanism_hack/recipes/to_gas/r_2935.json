@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:aluminum_nitrate_dust"
+            "item": "chemlib:barium_nitrate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:aluminum_nitrate",
+        "gas": "kubejs:barium_nitrate",
         "amount": 200
     }
 }

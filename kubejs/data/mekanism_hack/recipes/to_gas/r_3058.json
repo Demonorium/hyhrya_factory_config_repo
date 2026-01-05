@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:antimony_acid_dust"
+            "item": "chemlib:benzene"
         }
     },
     "output": {
-        "gas": "kubejs:antimony_acid",
+        "gas": "kubejs:benzene",
         "amount": 200
     }
 }

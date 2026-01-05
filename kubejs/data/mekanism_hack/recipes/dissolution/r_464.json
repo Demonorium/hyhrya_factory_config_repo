@@ -7,12 +7,12 @@
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "tag": "forge:ores/sapphire"
+            "item": "moremekanismprocessing:clump_ruby"
         }
     },
     "output": {
-        "slurry": "moremekanismprocessing:dirty_sapphire",
-        "amount": 1800.0,
+        "slurry": "moremekanismprocessing:dirty_ruby",
+        "amount": 900.0,
         "chemicalType": "slurry"
     }
 }

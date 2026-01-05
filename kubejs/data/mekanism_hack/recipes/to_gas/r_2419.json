@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:potassium_dichromate"
+            "item": "chemlib:ethane"
         }
     },
     "output": {
-        "gas": "kubejs:potassium_dichromate",
+        "gas": "kubejs:ethane",
         "amount": 200
     }
 }

@@ -2,17 +2,17 @@
     "type": "mekanism:dissolution",
     "gasInput": {
         "gas": "mekanismelements:aqua_regia",
-        "amount": 9.0
+        "amount": 1.0
     },
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "ad_astra:raw_desh_block"
+            "tag": "forge:ores/desh"
         }
     },
     "output": {
         "slurry": "moremekanismprocessing:dirty_desh",
-        "amount": 9000.0,
+        "amount": 1800.0,
         "chemicalType": "slurry"
     }
 }

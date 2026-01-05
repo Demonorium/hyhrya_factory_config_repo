@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:gold_i_sulfide_dust"
+        }
+    },
+    "output": {
+        "gas": "kubejs:gold_i_sulfide",
+        "amount": 200
+    }
+}

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:copper_ii_hydroxide_dust"
+            "item": "chemlib:cesium_hydroxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:copper_ii_hydroxide",
+        "gas": "kubejs:cesium_hydroxide",
         "amount": 200
     }
 }

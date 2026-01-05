@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:lithium_carbonate_dust"
+            "item": "chemlib:magnesium_chloride_dust"
         }
     },
     "output": {
-        "gas": "kubejs:lithium_carbonate",
+        "gas": "kubejs:magnesium_chloride",
         "amount": 200
     }
 }

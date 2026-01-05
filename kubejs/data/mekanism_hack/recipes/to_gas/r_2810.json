@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:potassium_sulfate_dust"
+            "item": "chemlib:iron_carbonate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:potassium_sulfate",
+        "gas": "kubejs:iron_carbonate",
         "amount": 200
     }
 }

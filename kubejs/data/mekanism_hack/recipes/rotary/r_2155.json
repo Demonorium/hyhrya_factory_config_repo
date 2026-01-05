@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:lawrencium",
+        "fluid": "kubejs:plutonium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:lawrencium",
+        "fluid": "kubejs:plutonium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:lawrencium",
+        "gas": "mekanism:plutonium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:lawrencium",
+        "gas": "mekanism:plutonium",
         "amount": 1.0
     }
 }

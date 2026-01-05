@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:vanadium_iii_oxide_dust"
+            "item": "chemlib:osmium_dioxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:vanadium_iii_oxide",
+        "gas": "kubejs:osmium_dioxide",
         "amount": 200
     }
 }

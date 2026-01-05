@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:barium_sulfide_dust"
+            "item": "chemlib:zinc_nitrate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:barium_sulfide",
+        "gas": "kubejs:zinc_nitrate",
         "amount": 200
     }
 }

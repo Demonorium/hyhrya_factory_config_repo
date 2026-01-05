@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:europium_ii_oxide_dust"
+            "item": "chemlib:hydrogen_peroxide"
         }
     },
     "output": {
-        "gas": "kubejs:europium_ii_oxide",
+        "gas": "kubejs:hydrogen_peroxide",
         "amount": 200
     }
 }

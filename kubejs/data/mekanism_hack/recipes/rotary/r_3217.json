@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:glucose",
+        "fluid": "kubejs:villamaninite",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:glucose",
+        "fluid": "kubejs:villamaninite",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:glucose",
+        "gas": "kubejs:villamaninite",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:glucose",
+        "gas": "kubejs:villamaninite",
         "amount": 1.0
     }
 }

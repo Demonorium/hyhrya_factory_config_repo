@@ -456,6 +456,12 @@ const CUSTOM_TAGS = [
 		],
 	],
 	[
+		"kubejs:burnt/sulphur_block_1",
+		[
+			"burnt:sulphur_block",
+		],
+	],
+	[
 		"kubejs:ad_astra/venus_sand_1",
 		[
 			"ad_astra:venus_sandstone_bricks",

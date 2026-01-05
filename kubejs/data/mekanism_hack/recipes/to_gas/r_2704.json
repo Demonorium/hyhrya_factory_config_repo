@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:cesium_chloride_dust"
+            "item": "chemlib:strontium_hydroxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:cesium_chloride",
+        "gas": "kubejs:strontium_hydroxide",
         "amount": 200
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:caffeine_dust"
+            "item": "chemlib:titanium_oxide"
         }
     },
     "output": {
-        "gas": "kubejs:caffeine",
+        "gas": "kubejs:titanium_oxide",
         "amount": 200
     }
 }

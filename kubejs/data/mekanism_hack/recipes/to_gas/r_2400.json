@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:pentane"
+            "item": "chemlib:diammonium_phosphate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:pentane",
+        "gas": "kubejs:diammonium_phosphate",
         "amount": 200
     }
 }

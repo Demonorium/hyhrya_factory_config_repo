@@ -18,7 +18,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 4061.5,
 		matter_state: "solid",
-		combustion: 110.5,
+		combustion: 393.5,
 	},
 	{
 		id: "fluorine",
@@ -148,7 +148,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2931.5,
 		matter_state: "solid",
-		combustion: 609.4,
+		combustion: 775.3,
 	},
 	{
 		id: "chromium",
@@ -168,7 +168,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1926.5,
 		matter_state: "solid",
-		combustion: 385.0,
+		combustion: 520.0,
 	},
 	{
 		id: "iron",
@@ -1068,7 +1068,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 136.75,
 		matter_state: "gas",
-		combustion: 519.1899999999999,
+		combustion: 1403.1899999999998,
 	},
 	{
 		id: "cellulose",
@@ -1468,7 +1468,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2017.7,
 		matter_state: "solid",
-		combustion: 959.79,
+		combustion: 458.59999999999997,
 	},
 	{
 		id: "potassium_dichromate",
@@ -1738,7 +1738,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1534.45,
 		matter_state: "solid",
-		combustion: 92.21000000000001,
+		combustion: 191.36999999999998,
 	},
 	{
 		id: "iron_disulfide",
@@ -1858,7 +1858,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 200.64999999999998,
 		matter_state: "gas",
-		combustion: 793.0,
+		combustion: 264.83,
 	},
 	{
 		id: "acetylene",
@@ -2668,7 +2668,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1962.95,
 		matter_state: "solid",
-		combustion: 415.21999999999997,
+		combustion: 1001.4100000000001,
 	},
 	{
 		id: "aluminum_carbonate",
@@ -2738,7 +2738,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1229.4966666666667,
 		matter_state: "solid",
-		combustion: 346.7099999999999,
+		combustion: 1021.4599999999999,
 	},
 	{
 		id: "azanide",

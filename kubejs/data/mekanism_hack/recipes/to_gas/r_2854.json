@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:cadmium_sulfate_dust"
+            "item": "chemlib:cesium_sulfate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:cadmium_sulfate",
+        "gas": "kubejs:cesium_sulfate",
         "amount": 200
     }
 }

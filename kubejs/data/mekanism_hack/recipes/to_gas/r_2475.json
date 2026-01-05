@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:potassium_cyanide_dust"
+            "item": "chemlib:cadmium_sulfide_dust"
         }
     },
     "output": {
-        "gas": "mekanismelements:potassium_cyanide",
+        "gas": "kubejs:cadmium_sulfide",
         "amount": 200
     }
 }

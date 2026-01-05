@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:copper_nitrate_dust"
+            "item": "chemlib:beryllium_nitrate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:copper_nitrate",
+        "gas": "kubejs:beryllium_nitrate",
         "amount": 200
     }
 }

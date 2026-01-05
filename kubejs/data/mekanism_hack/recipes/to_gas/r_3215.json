@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:wollastonite_dust"
+            "item": "chemlib:covellite_dust"
         }
     },
     "output": {
-        "gas": "kubejs:wollastonite",
+        "gas": "kubejs:covellite",
         "amount": 200
     }
 }

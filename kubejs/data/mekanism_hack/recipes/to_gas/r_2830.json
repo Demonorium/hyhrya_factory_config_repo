@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:manganese_sulfate_dust"
+            "item": "chemlib:cadmium_carbonate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:manganese_sulfate",
+        "gas": "kubejs:cadmium_carbonate",
         "amount": 200
     }
 }

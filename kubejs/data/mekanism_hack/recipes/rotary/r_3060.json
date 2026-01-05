@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:antimonate",
+        "fluid": "kubejs:ozone",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:antimonate",
+        "fluid": "kubejs:ozone",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:antimonate",
+        "gas": "kubejs:ozone",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:antimonate",
+        "gas": "kubejs:ozone",
         "amount": 1.0
     }
 }

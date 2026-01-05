@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:magnesium_orthosilicate_dust"
+            "item": "chemlib:ferrosilite_dust"
         }
     },
     "output": {
-        "gas": "kubejs:magnesium_orthosilicate",
+        "gas": "kubejs:ferrosilite",
         "amount": 200
     }
 }

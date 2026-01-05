@@ -1,8 +1,8 @@
 // priority: 1
 
 const meka_levels = ['basic', 'advanced', 'elite', 'ultimate']
+const alloy_levels = {'basic': Item.of('mekanism:alloy_infused'), 'advanced': Item.of('mekanism:alloy_infused'), 'elite': Item.of('mekanism:alloy_reinforced'), 'ultimate': Item.of('mekanism:alloy_atomic'), 'absolute': Item.of('mekanism_extras:alloy_radiance'), 'supreme': Item.of('mekanism_extras:alloy_thermonuclear'), 'cosmic': Item.of('mekanism_extras:alloy_shining'), 'infinite': Item.of('mekanism_extras:alloy_spectrum')}
 const mekanism_extras_levels = ['absolute', 'supreme', 'cosmic', 'infinite']
-
 
 ServerEvents.recipes(event => {
   console.log("meka recipes loading...")
@@ -18,33 +18,16 @@ ServerEvents.recipes(event => {
   event.replaceInput({id: 'mekanism_extras:upgrade/filter'}, 'glass', '#pneumaticcraft:upgrade_components')
   event.replaceInput({id: 'mekanism_extras:upgrade/stack'}, 'glass', 'thermal:upgrade_augment_3')
 
-
   event.remove({id: 'thermal:machines/pulverizer/pulverizer_cobblestone'})
   event.remove({id: 'thermal:machines/pulverizer/pulverizer_venus_sandstone'})
   event.remove({id: 'thermal:machines/pulverizer/pulverizer_venus_sandstone_slab'})
   
- 
   event.replaceInput({ id: 'mekanism_extras:metallurgic_infusing/alloy/radiance' }, 'mekanism:alloy_atomic', 'chemlib:yttrium_barium_copper_oxide')
 
   _mekanism_components(event)
   
-  event.shapeless(
-    Item.of('mekanism:elite_thermodynamic_conductor', 8),
-    [
-      Item.of(MATERIALS.CADMIUM.ingot),
-      Item.of('mekanism:alloy_infused')
-    ]
-  )
-  
   event.remove({id: 'mekanism_extras:processing/enriched_spectrum/from_enriched_shining'})
   event.remove({id: 'mekanism_extras:metallurgic_infusing/alloy/spectrum'})
-  
-  event.replaceInput({id: 'bfr:reactor/controller'}, 'mekanism:ultimate_control_circuit', 'mekanism_extras:absolute_control_circuit')
-  event.replaceInput({id: 'bfr:reactor/controller'}, 'glass_pane', 'computercraft:computer_advanced')
-  event.replaceInput({id: 'bfr:reactor/frame'}, 'mekanism:steel_casing', 'mekanismgenerators:fission_reactor_casing')
-  event.replaceInput({id: 'bfr:reactor/frame'}, 'mekanism:alloy_atomic', 'mekanism_extras:alloy_radiance')
-  event.replaceInput({id: 'bfr:reactor/port'}, 'mekanism:ultimate_control_circuit', 'mekanism_extras:absolute_control_circuit')
-  event.replaceInput({id: 'bfr:laser_focus_matrix'}, 'redstone_block', 'mffs:focus_matrix')
 
   event.replaceInput({id: "thermal:augments/upgrade_augment_1"}, "glass", "mekanism:upgrade_speed")
   event.replaceInput({id: "thermal:augments/upgrade_augment_2"}, "thermal:signalum_gear", "mekanism:advanced_control_circuit")
@@ -89,9 +72,7 @@ ServerEvents.recipes(event => {
     }
   })
 
-
   event.remove({ type: 'thermal:furnace' })
-  event.remove({ type: 'thermal:sawmill' })
   event.remove({ id: "thermal:machines/centrifuge/centrifuge_oil_red_sand" })
   event.remove({ id: "thermal:machines/centrifuge/centrifuge_oil_sand" })
   event.remove({ id: "thermal:machines/refinery/refinery_crude_oil" })
@@ -106,8 +87,6 @@ ServerEvents.recipes(event => {
 })
 
 function _mekanism_components(event) {
-  event.remove({id: "thermal:fire_charge/"})
-
   event.replaceInput({id: "thermal:redstone_servo"}, "iron_ingot", "mekanism:basic_control_circuit")
   
   

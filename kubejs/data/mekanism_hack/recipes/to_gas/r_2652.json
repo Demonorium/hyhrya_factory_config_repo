@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:rubidium_hydroxide_dust"
+            "item": "chemlib:acetylene"
         }
     },
     "output": {
-        "gas": "kubejs:rubidium_hydroxide",
+        "gas": "kubejs:acetylene",
         "amount": 200
     }
 }
