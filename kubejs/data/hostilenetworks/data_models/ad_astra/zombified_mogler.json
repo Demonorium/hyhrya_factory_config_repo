@@ -1,0 +1,40 @@
+{
+    "entity": "ad_astra:zombified_mogler",
+    "variants": [],
+    "name": "entity.ad_astra.zombified_mogler",
+    "name_color": "#75B6BE",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 1280,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "kubejs:sky_prediction"
+    },
+    "trivia": "kubejs.trivia.zombified_mogler",
+    "fabricator_drops": [
+        {
+            "item": "alexsdelight:rotten_flesh",
+            "count": 48
+        },
+        {
+            "item": "minecraft:magma_block",
+            "count": 32
+        }
+    ],
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
+    ]
+}

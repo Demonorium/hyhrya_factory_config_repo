@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: "hostilenetworks:prediction_matrix"}, "clay_ball", 'biomancy:gem_fragments')
     event.replaceInput({id: "hostilenetworks:prediction_matrix"}, "gold", 'biomancy:mineral_fragment')
     event.replaceInput({id: "hostilenetworks:prediction_matrix"}, "glass_pane", 'ae2:certus_quartz_crystal')
-
+    
     console.log("hnn recipes loaded")
 
 })

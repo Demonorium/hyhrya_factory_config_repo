@@ -1,0 +1,40 @@
+{
+    "entity": "ad_astra:mogler",
+    "variants": [],
+    "name": "entity.ad_astra.mogler",
+    "name_color": "#7596BE",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 1280,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "kubejs:sky_prediction"
+    },
+    "trivia": "kubejs.trivia.mogler",
+    "fabricator_drops": [
+        {
+            "item": "alexsdelight:raw_bison",
+            "count": 48
+        },
+        {
+            "item": "minecraft:magma_block",
+            "count": 32
+        }
+    ],
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
+    ]
+}

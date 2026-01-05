@@ -26,5 +26,9 @@ StartupEvents.registry("item", event => {
     }).displayName('Инъекция стимулирующая развитие генома')
 
     event.create('empty_injection').displayName('Шприц для инъекции')
+    event.create('sky_prediction').displayName('Предвычисление звёздного неба')
+    event.create('flesh_prediction').displayName('Предвычисление плоти')
+    event.create('sculk_prediction').displayName('Предвычисление скалка')
+    event.create('undergarden_prediction').displayName('Предвычисление подземного сада')
 
 })

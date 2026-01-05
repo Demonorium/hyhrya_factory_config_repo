@@ -1,0 +1,28 @@
+{
+    "entity": "ad_astra:zombified_pygro",
+    "variants": [],
+    "name": "entity.ad_astra.zombified_pygro",
+    "name_color": "##25B6BE",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 10240,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "kubejs:sky_prediction"
+    },
+    "trivia": "kubejs.trivia.zombified_pygro",
+    "fabricator_drops": [
+        {
+            "item": "spidermod:golden_string",
+            "count": 32
+        },
+        {
+            "item": "minecraft:rotten_flesh",
+            "count": 32
+        }
+    ]
+}

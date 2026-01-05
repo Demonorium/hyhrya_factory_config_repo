@@ -1,0 +1,28 @@
+{
+    "entity": "ad_astra:corrupted_lunarian",
+    "variants": [],
+    "name": "entity.ad_astra.corrupted_lunarian",
+    "name_color": "#3B4043",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 2560,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "kubejs:sky_prediction"
+    },
+    "trivia": "kubejs.trivia.corrupted_lunarian",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:emerald",
+            "count": 32
+        },
+        {
+            "item": "ad_astra:cheese",
+            "count": 8
+        }
+    ]
+}

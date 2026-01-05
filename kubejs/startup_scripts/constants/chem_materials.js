@@ -18,7 +18,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 4061.5,
 		matter_state: "solid",
-		combustion: 393.5,
+		combustion: 110.5,
 	},
 	{
 		id: "fluorine",
@@ -138,7 +138,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2750.5,
 		matter_state: "solid",
-		combustion: 760.44,
+		combustion: 945.0,
 	},
 	{
 		id: "vanadium",
@@ -168,7 +168,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1926.5,
 		matter_state: "solid",
-		combustion: 520.0,
+		combustion: 385.0,
 	},
 	{
 		id: "iron",
@@ -208,7 +208,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2096.385,
 		matter_state: "solid",
-		combustion: 156.0,
+		combustion: 85.0,
 	},
 	{
 		id: "zinc",
@@ -1068,7 +1068,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 136.75,
 		matter_state: "gas",
-		combustion: 1403.1899999999998,
+		combustion: 1306.1899999999998,
 	},
 	{
 		id: "cellulose",
@@ -1468,7 +1468,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2017.7,
 		matter_state: "solid",
-		combustion: 458.59999999999997,
+		combustion: 959.79,
 	},
 	{
 		id: "potassium_dichromate",
@@ -1728,7 +1728,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1470.0,
 		matter_state: "solid",
-		combustion: 119.00999999999999,
+		combustion: 196.41,
 	},
 	{
 		id: "zinc_sulfide",
@@ -1738,7 +1738,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1534.45,
 		matter_state: "solid",
-		combustion: 191.36999999999998,
+		combustion: 778.4,
 	},
 	{
 		id: "iron_disulfide",
@@ -1858,7 +1858,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 200.64999999999998,
 		matter_state: "gas",
-		combustion: 264.83,
+		combustion: 463.61,
 	},
 	{
 		id: "acetylene",
@@ -1888,7 +1888,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1365.5,
 		matter_state: "solid",
-		combustion: 448.94999999999993,
+		combustion: 208.95,
 	},
 	{
 		id: "antimony_trisulfide",
@@ -2668,7 +2668,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1962.95,
 		matter_state: "solid",
-		combustion: 1001.4100000000001,
+		combustion: 415.21999999999997,
 	},
 	{
 		id: "aluminum_carbonate",
@@ -2738,7 +2738,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1229.4966666666667,
 		matter_state: "solid",
-		combustion: 1021.4599999999999,
+		combustion: 445.6,
 	},
 	{
 		id: "azanide",
@@ -3478,7 +3478,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2381.9333333333334,
 		matter_state: "solid",
-		combustion: 1103.6200000000001,
+		combustion: 946.37,
 	},
 	{
 		id: "molybdenum_trioxide",

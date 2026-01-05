@@ -1,0 +1,28 @@
+{
+    "entity": "ad_astra:star_crawler",
+    "variants": [],
+    "name": "entity.ad_astra.star_crawler",
+    "name_color": "#2B3033",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 10240,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "kubejs:sky_prediction"
+    },
+    "trivia": "kubejs.trivia.star_crawler",
+    "fabricator_drops": [
+        {
+            "item": "ad_astra:desh_nugget",
+            "count": 32
+        },
+        {
+            "item": "macabre:raw_ferrum",
+            "count": 8
+        }
+    ]
+}

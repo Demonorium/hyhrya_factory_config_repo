@@ -1,0 +1,59 @@
+{
+    "entity": "minecraft:spider",
+    "variants": [
+        "minecraft:cave_spider",
+        "spidermod:funnel_web",
+        "spidermod:black_widow",
+        "spidermod:wandering_spider",
+        "spidermod:wolf_spider",
+        "spidermod:tarantula",
+        "spidermod:orbweaver",
+        "spidermod:old_huntsman",
+        "spidermod:baby_huntsman",
+        "spidermod:house_spider"
+    ],
+    "name": "entity.minecraft.spider",
+    "name_color": "#322B26",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 10240,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.spider",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:string",
+            "count": 32
+        },
+        {
+            "item": "minecraft:spider_eye",
+            "count": 16
+        },
+        {
+            "item": "minecraft:cobweb",
+            "count": 4
+        },
+        {
+            "item": "spidermod:funnel_web_carapace",
+            "count": 1
+        },
+        {
+            "item": "spidermod:black_widow_fang",
+            "count": 1
+        },
+        {
+            "item": "spidermod:tarantula_hair",
+            "count": 1
+        },
+        {
+            "item": "spidermod:golden_string",
+            "count": 1
+        }
+    ]
+}

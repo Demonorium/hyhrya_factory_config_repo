@@ -101,7 +101,7 @@ ServerEvents.recipes(event => {
         "type": "biomancy:bio_brewing",
         "ingredients": [
             {
-                "item": MATERIALS.PLASTEEL.nugget
+                "item": MATERIALS.NAQUADAH.dust
             },
             {
                 "item": 'biomancy:genetic_compound'

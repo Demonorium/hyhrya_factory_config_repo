@@ -1292,6 +1292,28 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["2F5A5B6AABC855F9"]
+			id: "04729721E3EF7CCF"
+			tasks: [{
+				id: "716E9EDD04194423"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			id: "2F5A5B6AABC855F9"
+			tasks: [{
+				icon: "cataclysm:cursed_eye"
+				id: "09A96231A9F71F9B"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
 			dependencies: [
 				"04729721E3EF7CCF"
 				"40C1930754F57115"
@@ -1302,30 +1324,8 @@
 				item: "pneumaticcraft:night_vision_upgrade"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["2F5A5B6AABC855F9"]
-			id: "04729721E3EF7CCF"
-			tasks: [{
-				id: "716E9EDD04194423"
-				item: "cataclysm:cursium_ingot"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 7.5d
-		}
-		{
-			id: "2F5A5B6AABC855F9"
-			tasks: [{
-				icon: "cataclysm:cursed_eye"
-				id: "09A96231A9F71F9B"
-				structure: "cataclysm:frosted_prison"
-				type: "structure"
-			}]
-			x: 8.5d
-			y: 8.5d
+			x: 13.0d
+			y: 4.5d
 		}
 	]
 	title: "Глава 0. Путешествие"

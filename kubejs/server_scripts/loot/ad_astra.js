@@ -1,0 +1,41 @@
+// priority: 0
+
+LootJS.modifiers((event) => {
+    event.addEntityLootModifier("ad_astra:corrupted_lunarian")
+        .addLoot("minecraft:emerald")
+        .randomChanceWithEnchantment("minecraft:looting", [0, 0.1, 0.5, 1])
+        .addLoot("ad_astra:cheese")
+    event.addEntityLootModifier("ad_astra:lunarian", 'ad_astra:lunarian_wandering_trader')
+        .addLoot("minecraft:emerald")
+    event.addEntityLootModifier("ad_astra:star_crawler")
+        .addLoot("ad_astra:desh_nugget")
+        .randomChanceWithEnchantment("minecraft:looting", [0, 0.1, 0.5, 1])
+        .addLoot("macabre:raw_ferrum")
+
+    event.addEntityLootModifier("ad_astra:martian_raptor")
+        .addLoot("ad_astra:ostrum_nugget")
+        .randomChanceWithEnchantment("minecraft:looting", [0, 0.1, 0.5, 1])
+        .addLoot("biomancy:mob_fang")
+
+    event.addEntityLootModifier("ad_astra:pygro", 'ad_astra:pygro_brute')
+        .addLoot("ad_astra:ostrum_nugget")
+        .addLoot("minecraft:gold_nugget")
+        .randomChanceWithEnchantment("minecraft:looting", [0, 0.1, 0.5, 1])
+        .addLoot("minecraft:raw_gold")
+        .randomChanceWithEnchantment("minecraft:looting", [0, 0.1, 0.5, 1])
+        .addLoot("minecraft:blaze_powder")
+
+    event.addEntityLootModifier("ad_astra:zombified_pygro")
+        .addLoot(LootEntry.of("minecraft:rotten_flesh").applyLootingBonus([1, 3]))
+        .addLoot("spidermod:golden_string")
+    event.addEntityLootModifier("ad_astra:mogler")
+        .addLoot(LootEntry.of("alexsdelight:raw_bison").applyLootingBonus([1, 3]))
+        .addLoot(LootEntry.of('magma_block'))
+    event.addEntityLootModifier("ad_astra:zombified_mogler")
+        .addLoot(LootEntry.of("minecraft:rotten_flesh").applyLootingBonus([1, 3]))
+        .addLoot(LootEntry.of('magma_block'))
+    event.addEntityLootModifier("ad_astra:glacian_ram")
+        .addLoot(LootEntry.of("ad_astra:glacian_fur").applyLootingBonus([0, 2]))
+        .addLoot(LootEntry.of("minecraft:mutton").applyLootingBonus([1, 3]))
+
+})

@@ -1,0 +1,40 @@
+{
+    "entity": "ad_astra:glacian_ram",
+    "variants": [],
+    "name": "entity.ad_astra.glacian_ram",
+    "name_color": "#3E632B",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 2560,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "kubejs:sky_prediction"
+    },
+    "trivia": "kubejs.trivia.glacian_ram",
+    "fabricator_drops": [
+        {
+            "item": "ad_astra:glacian_fur",
+            "count": 16
+        },
+        {
+            "item": "minecraft:mutton",
+            "count": 32
+        }
+    ],
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
+    ]
+}

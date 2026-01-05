@@ -1,19 +1,19 @@
 {
     "type": "mekanism:combining",
     "extraInput": {
-        "amount": 1.0,
+        "amount": 5.0,
         "ingredient": {
-            "item": "chemlib:iron_ii_oxide_dust"
+            "item": "chemlib:phosphate_dust"
         }
     },
     "mainInput": {
-        "amount": 1.0,
+        "amount": 3.0,
         "ingredient": {
-            "item": "chemlib:iron_oxide_dust"
+            "item": "chemlib:phosphorus_dust"
         }
     },
     "output": {
-        "item": "chemlib:magnetite_dust",
-        "count": 1.0
+        "item": "chemlib:phosphorus_pentoxide_dust",
+        "count": 4.0
     }
 }
