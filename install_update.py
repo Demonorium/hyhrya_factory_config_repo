@@ -24,9 +24,13 @@ def rm_rf_if_ex_copy(p):
 if os.path.exists('./mods/Explosion-Overhaul-0.2.0.0-a Forge 1.20.1.jar'):
     os.remove('./mods/Explosion-Overhaul-0.2.0.0-a Forge 1.20.1.jar')
 
+if os.path.exists('./mods/betterfog-2.3-1.20.1.jar'):
+    os.remove('./mods/betterfog-2.3-1.20.1.jar')
+
 rm_if_ex_copy('modpack_version.txt')
 rm_if_ex_copy('push_update.py')
 rm_if_ex_copy('check_update.py')
+rm_if_ex_copy('settings.py')
 
 rm_rf_if_ex_copy('config')
 rm_rf_if_ex_copy('kubejs')
@@ -49,3 +53,6 @@ print('update completed')
 print('cleaning...')
 shutil.rmtree('./update')
 print('success')
+
+print('update check...')
+os.system('python check_update.py')
