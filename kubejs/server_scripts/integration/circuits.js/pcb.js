@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
         "tag": "pneumaticcraft:wiring"
       },
       {
-        "item": Item.of('chemlib:niobium_oxide_dust')
+        "item": Item.of('chemlib:niobium_oxide_dust').getId()
       },
     ],
     "pressure": 1.0,
@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
         "tag": "pneumaticcraft:wiring"
       },
       {
-        "item": Item.of('chemlib:tantalum_nugget', 9)
+        "item": Item.of('chemlib:tantalum_nugget', 9).getId()
       },
     ],
     "pressure": 1.0,

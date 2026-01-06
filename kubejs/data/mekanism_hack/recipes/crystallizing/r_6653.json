@@ -2,7 +2,7 @@
     "type": "mekanism:crystallizing",
     "chemicalType": "gas",
     "input": {
-        "gas": "kubejs:barium_sulfate",
+        "gas": "kubejs:antimony_trioxide",
         "amount": 100
     },
     "output": {

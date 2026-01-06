@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "moremekanismprocessing:dust_bort"
+            "item": "chemlib:silicon_dust"
         }
     },
     "output": {
-        "item": "mekanism:dust_diamond",
+        "item": "ae2:silicon",
         "count": 1.0
     }
 }

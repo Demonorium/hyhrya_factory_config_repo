@@ -54,7 +54,7 @@
 	#Base energy storage (Joules).
 	formulaicAssemblicator = "40000"
 	#Base energy storage (Joules).
-	teleporter = "5000000"
+	teleporter = "1000000000"
 	#Base energy storage (Joules).
 	modificationStation = "40000"
 	#Base energy storage (Joules).

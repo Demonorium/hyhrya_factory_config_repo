@@ -1,7 +1,7 @@
 {
-    "entity": "aquaculture:jellyfish",
+    "entity": "aquaculture:tambaqui",
     "variants": [],
-    "name": "entity.aquaculture.jellyfish",
+    "name": "entity.aquaculture.tambaqui",
     "name_color": "#6992D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.jellyfish",
+    "trivia": "hostilenetworks.trivia.tambaqui",
     "fabricator_drops": [
         {
-            "item": "aquaculture:jellyfish",
+            "item": "aquaculture:tambaqui",
             "count": 32.0
         },
         {

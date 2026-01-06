@@ -1754,6 +1754,30 @@
 		{
 			dependencies: ["366BA1FC49324430"]
 			id: "5773C97D9222A019"
+			rewards: [
+				{
+					id: "0C28F7E32403A1E9"
+					item: {
+						Count: 1
+						id: "superbwarfare:homemade_shotgun"
+						tag: {
+							Attachments: { }
+							GunData: { }
+							Perks: {
+								Ammo: { }
+								Damage: { }
+								Functional: { }
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22B5AB8AD07EA591"
+					item: "superbwarfare:shotgun_ammo_box"
+					type: "item"
+				}
+			]
 			subtitle: "Компас катастроф"
 			tasks: [{
 				id: "1F4D49D969B7191A"
@@ -1783,6 +1807,12 @@
 		{
 			dependencies: ["5773C97D9222A019"]
 			id: "5BC814FF3C30EC78"
+			rewards: [{
+				count: 2
+				id: "674C8C8DA8CE4964"
+				item: "superbwarfare:hand_grenade"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FE266BF1FF4D013"
 				item: "naturescompass:naturescompass"
@@ -1794,6 +1824,11 @@
 		{
 			dependencies: ["5773C97D9222A019"]
 			id: "58926EC89AEAFC6D"
+			rewards: [{
+				id: "343207BE5A698930"
+				item: "superbwarfare:sniper_ammo_box"
+				type: "item"
+			}]
 			tasks: [{
 				id: "580924C1C168D4F0"
 				item: "explorerscompass:explorerscompass"
@@ -1955,6 +1990,12 @@
 				"1A520D70554B37DF"
 			]
 			id: "4A0C6AC77FC73C13"
+			rewards: [{
+				count: 2
+				id: "79F4B99B54F9F702"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Выделение углерода"
 			tasks: [{

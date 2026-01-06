@@ -3,17 +3,17 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:dust_copper"
+            "item": "mekanism_extras:alloy_radiance"
         }
     },
     "mainInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:dust_sulfur"
+            "item": "sgjourney:crystal_base"
         }
     },
     "output": {
-        "item": "chemlib:covellite_dust",
+        "item": "sgjourney:transfer_crystal",
         "count": 1.0
     }
 }

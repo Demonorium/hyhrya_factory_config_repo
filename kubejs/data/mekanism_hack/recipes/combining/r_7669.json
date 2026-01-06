@@ -3,17 +3,17 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:magnesium_oxide_dust"
+            "item": "mekanism_extras:cosmic_control_circuit"
         }
     },
     "mainInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:silicon_dioxide"
+            "item": "sgjourney:advanced_crystal_base"
         }
     },
     "output": {
-        "item": "chemlib:enstatite_dust",
+        "item": "sgjourney:advanced_control_crystal",
         "count": 1.0
     }
 }

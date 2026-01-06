@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "mekanism:dust_copper"
+        }
+    },
+    "mainInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:dust_sulfur"
+        }
+    },
+    "output": {
+        "item": "chemlib:copper_i_sulfide_dust",
+        "count": 1.0
+    }
+}

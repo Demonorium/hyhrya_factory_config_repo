@@ -1,7 +1,15 @@
 ServerEvents.recipes(event => {
     // event.remove({type: 'sgjourney:crystallizing'})
     // event.remove({type: 'sgjourney:advanced_crystallizing'})
-    
+
+    event.replaceInput({id: 'sgjourney:basic_interface'}, 'copper_ingot', 'superbwarfare:medium_battery_pack')
+    event.replaceInput({id: 'sgjourney:basic_interface'}, 'redstone', 'mekanism:elite_control_circuit')
+    event.replaceInput({id: 'sgjourney:gdo'}, 'quartz', 'pneumaticcraft:remote')
+    event.replaceInput({id: 'sgjourney:gdo'}, 'iron_ingot', MATERIALS.ALUMINUM.plate)
+    event.replaceInput({id: 'sgjourney:classic_stargate_base_block'}, 'sgjourney:refined_naquadah', 'mekanism:teleporter')
+    event.replaceInput({id: 'sgjourney:classic_stargate_chevron_block'}, 'sgjourney:refined_naquadah', 'mekanism:teleporter')
+    event.replaceInput({id: 'sgjourney:classic_stargate_ring_block'}, 'sgjourney:refined_naquadah', 'mekanism:teleporter_frame')
+
     event.remove({id: 'sgjourney:reaction_chamber'})
     event.shaped(
         Item.of('sgjourney:reaction_chamber', 4),
@@ -16,6 +24,42 @@ ServerEvents.recipes(event => {
             D: Item.of(MATERIALS.GADOLINIUM.block)
         }
     )
+    
+    event.shaped(Item.of('sgjourney:naquadah_wire'), [
+        "AAA",
+        "CCC",
+        "AAA",
+    ], {
+        A: Item.of('sgjourney:naquadah_alloy_nugget'),
+        C: Item.of('mekanism_extras:alloy_radiance')
+    })
+    event.shaped(Item.of('sgjourney:small_naquadah_cable'), [
+        "AAA",
+        "CCC",
+        "AAA",
+    ], {
+        A: Item.of('sgjourney:naquadah_wire'),
+        C: Item.of('mekanism_extras:alloy_thermonuclear')
+    })
+    event.shaped(Item.of('sgjourney:medium_naquadah_cable'), [
+        "AAA",
+        "CCC",
+        "AAA",
+    ], {
+        A: Item.of('sgjourney:naquadah'),
+        C: Item.of('sgjourney:small_naquadah_cable')
+    })
+    event.shaped(Item.of('sgjourney:large_naquadah_cable'), [
+        "AAA",
+        "CCC",
+        "AAA",
+    ], {
+        A: Item.of('sgjourney:naquadah_alloy'),
+        C: Item.of('sgjourney:medium_naquadah_cable')
+    })
 
+})
 
+ServerEvents.tags("item", event => {
+    event.remove("sgjourney:naquadah", "mekanism_extras:ingot_naquadah")
 })

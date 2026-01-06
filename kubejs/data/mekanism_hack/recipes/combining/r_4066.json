@@ -3,17 +3,17 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:zinconat_cobalt_dust"
+            "item": "mekanism:dust_iron"
         }
     },
     "mainInput": {
-        "amount": 1.0,
+        "amount": 2.0,
         "ingredient": {
-            "item": "mekanism:dye_base"
+            "item": "mekanism:dust_sulfur"
         }
     },
     "output": {
-        "item": "minecraft:lime_dye",
-        "count": 4.0
+        "item": "chemlib:iron_disulfide_dust",
+        "count": 1.0
     }
 }

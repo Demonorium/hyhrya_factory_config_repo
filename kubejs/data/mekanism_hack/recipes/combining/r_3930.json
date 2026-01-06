@@ -1,19 +1,19 @@
 {
     "type": "mekanism:combining",
     "extraInput": {
-        "amount": 1.0,
+        "amount": 3.0,
         "ingredient": {
-            "item": "mekanism:dust_iron"
+            "item": "mekanismelements:dust_calcium_oxide"
         }
     },
     "mainInput": {
-        "amount": 2.0,
+        "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:dust_sulfur"
+            "item": "chemlib:phosphorus_pentoxide_dust"
         }
     },
     "output": {
-        "item": "chemlib:iron_disulfide_dust",
+        "item": "chemlib:tricalcium_phosphate_dust",
         "count": 1.0
     }
 }

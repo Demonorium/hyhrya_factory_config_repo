@@ -1,7 +1,7 @@
 {
-    "entity": "aquaculture:gar",
+    "entity": "aquaculture:brown_trout",
     "variants": [],
-    "name": "entity.aquaculture.gar",
+    "name": "entity.aquaculture.brown_trout",
     "name_color": "#6992D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.gar",
+    "trivia": "hostilenetworks.trivia.brown_trout",
     "fabricator_drops": [
         {
-            "item": "aquaculture:gar",
+            "item": "aquaculture:brown_trout",
             "count": 32.0
         },
         {

@@ -595,6 +595,12 @@
 		{
 			dependencies: ["7E77BD53F6031203"]
 			id: "09F0BB27C28E58FE"
+			rewards: [{
+				count: 64
+				id: "5E9503B837B301BC"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "58E6F9CC9460F8A4"
 				item: "pneumaticcraft:advanced_pressure_tube"
@@ -776,6 +782,30 @@
 				"7E77BD53F6031203"
 			]
 			id: "0391D657A89F56DA"
+			rewards: [
+				{
+					count: 22
+					id: "13F1CDF237F2DDAA"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					id: "69C0E86A720F5B81"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					id: "3D2C6ED797FFF9FF"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "71E2789436780CF0"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "Глава 2"
@@ -1116,6 +1146,12 @@
 		{
 			dependencies: ["60A36F6DF23753D1"]
 			id: "556CB23E41611059"
+			rewards: [{
+				count: 16
+				id: "18869243E1D24AC2"
+				item: "minecraft:paper"
+				type: "item"
+			}]
 			size: 1.5d
 			subtitle: "Путь к электричеству"
 			tasks: [{

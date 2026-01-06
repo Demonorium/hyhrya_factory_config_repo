@@ -1,0 +1,25 @@
+{
+    "type": "pneumaticcraft:refinery",
+    "input": {
+        "fluid": "pneumaticcraft:gasoline",
+        "amount": 100.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "results": [
+        {
+            "fluid": "pneumaticcraft:plastic",
+            "amount": 30.0
+        },
+        {
+            "fluid": "pneumaticcraft:lpg",
+            "amount": 40.0
+        },
+        {
+            "fluid": "kubejs:benzene",
+            "amount": 30.0
+        }
+    ],
+    "temperature": {
+        "min_temp": 473
+    }
+}

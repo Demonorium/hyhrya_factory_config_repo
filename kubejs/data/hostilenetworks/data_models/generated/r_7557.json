@@ -1,7 +1,7 @@
 {
-    "entity": "aquaculture:minnow",
+    "entity": "aquaculture:carp",
     "variants": [],
-    "name": "entity.aquaculture.minnow",
+    "name": "entity.aquaculture.carp",
     "name_color": "#6992D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.minnow",
+    "trivia": "hostilenetworks.trivia.carp",
     "fabricator_drops": [
         {
-            "item": "aquaculture:minnow",
+            "item": "aquaculture:carp",
             "count": 32.0
         },
         {

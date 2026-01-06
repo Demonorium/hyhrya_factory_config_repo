@@ -1,18 +1,18 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "kubejs:ozone",
-        "amount": 2.0
+        "gas": "mekanism:hydrogen",
+        "amount": 8.0
     },
     "itemInput": {
         "amount": 3.0,
         "ingredient": {
-            "item": "mekanism:dust_sulfur"
+            "item": "chemlib:carbon_dust"
         }
     },
     "output": {
-        "gas": "mekanism:sulfur_dioxide",
-        "amount": 3.0,
+        "gas": "kubejs:propane",
+        "amount": 1.0,
         "chemicalType": "gas"
     }
 }

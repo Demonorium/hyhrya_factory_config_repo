@@ -1,7 +1,7 @@
 {
-    "entity": "aquaculture:rainbow_trout",
+    "entity": "aquaculture:atlantic_herring",
     "variants": [],
-    "name": "entity.aquaculture.rainbow_trout",
+    "name": "entity.aquaculture.atlantic_herring",
     "name_color": "#6992D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.rainbow_trout",
+    "trivia": "hostilenetworks.trivia.atlantic_herring",
     "fabricator_drops": [
         {
-            "item": "aquaculture:rainbow_trout",
+            "item": "aquaculture:atlantic_herring",
             "count": 32.0
         },
         {

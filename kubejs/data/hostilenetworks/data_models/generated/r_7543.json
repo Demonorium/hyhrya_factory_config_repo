@@ -1,7 +1,7 @@
 {
-    "entity": "aquaculture:atlantic_herring",
+    "entity": "aquaculture:blackfish",
     "variants": [],
-    "name": "entity.aquaculture.atlantic_herring",
+    "name": "entity.aquaculture.blackfish",
     "name_color": "#6992D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.atlantic_herring",
+    "trivia": "hostilenetworks.trivia.blackfish",
     "fabricator_drops": [
         {
-            "item": "aquaculture:atlantic_herring",
+            "item": "aquaculture:blackfish",
             "count": 32.0
         },
         {

@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "ae2:cell_component_1k"
+        }
+    },
+    "mainInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "sgjourney:crystal_base"
+        }
+    },
+    "output": {
+        "item": "sgjourney:memory_crystal",
+        "count": 1.0
+    }
+}

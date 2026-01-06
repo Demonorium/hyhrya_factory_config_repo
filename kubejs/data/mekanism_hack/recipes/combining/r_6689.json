@@ -3,17 +3,17 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:dust_lead"
+            "item": "chemlib:p_phenylenediamine_dust"
         }
     },
     "mainInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:sulfate_dust"
+            "item": "minecraft:white_dye"
         }
     },
     "output": {
-        "item": "chemlib:lead_sulfate_dust",
-        "count": 1.0
+        "item": "minecraft:brown_dye",
+        "count": 2.0
     }
 }

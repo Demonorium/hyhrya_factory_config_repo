@@ -3,7 +3,7 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:barium_sulfate"
+            "item": "chemlib:antimony_trioxide_dust"
         }
     },
     "mainInput": {
