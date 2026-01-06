@@ -37,7 +37,7 @@ visial_mod_data = [
    
     {
         "mod_name": "ChatNotify (Уведомления когда кто-то упомянул вас в сообщении)",
-        "mod_file": "mods/halohud-forge-5.0+1.20.1.jar"
+        "mod_file": "mods/chatnotify-forge-2.6.2+1.20.1.jar"
     },
     {
         "mod_name": "StargateEarlyLoading (Загрузочный экран из Звёздных Врат)",

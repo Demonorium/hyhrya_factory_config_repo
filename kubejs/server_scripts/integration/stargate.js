@@ -9,6 +9,24 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'sgjourney:classic_stargate_base_block'}, 'sgjourney:refined_naquadah', 'mekanism:teleporter')
     event.replaceInput({id: 'sgjourney:classic_stargate_chevron_block'}, 'sgjourney:refined_naquadah', 'mekanism:teleporter')
     event.replaceInput({id: 'sgjourney:classic_stargate_ring_block'}, 'sgjourney:refined_naquadah', 'mekanism:teleporter_frame')
+    event.replaceInput({id: 'sgjourney:stargate_shielding_ring'}, '#sgjourney:naquadah_alloy_nugget', MATERIALS.STEEL.nugget)
+    event.replaceInput({id: 'sgjourney:naquadah_generator_mark_i'}, 'sgjourney:naquadah_slab', MATERIALS.GADOLINIUM.plate)
+    
+    event.remove({id: 'sgjourney:naquadah_fuel_rod'})
+    event.shaped(
+        Item.of('sgjourney:naquadah_fuel_rod', 1),
+        [
+            "ABA",
+            "ABA",
+            "DCD"
+        ],
+        {
+            A: Item.of(MATERIALS.GADOLINIUM.plate),
+            B: Item.of('sgjourney:refined_naquadah'),
+            D: Item.of('sgjourney:naquadah_alloy'),
+            C: Item.of('mekanism:ultimate_control_circuit')
+        }
+    )
 
     event.remove({id: 'sgjourney:reaction_chamber'})
     event.shaped(
