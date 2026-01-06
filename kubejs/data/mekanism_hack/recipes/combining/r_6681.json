@@ -3,7 +3,7 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "thermal:cinnabar_dust"
+            "item": "chemlib:iron_oxide_dust"
         }
     },
     "mainInput": {

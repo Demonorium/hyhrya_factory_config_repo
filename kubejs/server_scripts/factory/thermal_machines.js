@@ -58,6 +58,7 @@ ServerEvents.recipes(event => {
 
     event.replaceInput({id: "thermal:device_tree_extractor"}, "glass", "mekanism:basic_control_circuit")
     event.replaceInput({ id: 'thermal:machine_brewer' }, 'glass', 'mekanism:advanced_control_circuit')
+    event.replaceInput({ id: 'thermal:device_rock_gen' }, 'glass', 'mekanism:upgrade_stone_generator')
 
     event.replaceInput({ id: 'thermal:machine_chiller' }, 'minecraft:packed_ice', 'undergarden:froststeel_nugget')
     event.replaceInput({ id: 'thermal:machine_chiller' }, 'glass', 'mekanism:advanced_control_circuit')

@@ -1029,7 +1029,7 @@ ServerEvents.recipes(event => {
         "a_10a",
         "aircraft",
         [
-            Item.of(MATERIALS.EXTRATERRESTRIAL_STEEL.block, 2),
+            Item.of(MATERIALS.NIOBIUM.block, 2),
             Item.of(MATERIALS.ALUMINUM.block, 12),
             Item.of('superbwarfare:large_battery_pack'),
             Item.of('superbwarfare:large_propeller', 2),
@@ -1071,6 +1071,7 @@ ServerEvents.recipes(event => {
         "defense",
         [
             Item.of(MATERIALS.EXTRATERRESTRIAL_STEEL.ingot, 10),
+            Item.of(MATERIALS.NIOBIUM.ingot, 10),
             Item.of('superbwarfare:small_battery_pack'),
             Item.of('mekanism_turrets:advanced_laser_turret', 2),
             Item.of('superbwarfare:cannon_core', 1),

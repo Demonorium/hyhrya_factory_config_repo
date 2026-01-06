@@ -7,12 +7,12 @@
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "minecraft:seagrass"
+            "item": "biomesoplenty:dried_salt"
         }
     },
     "output": {
         "gas": "mekanism:hydrogen_chloride",
-        "amount": 20.0,
+        "amount": 50.0,
         "chemicalType": "gas"
     }
 }

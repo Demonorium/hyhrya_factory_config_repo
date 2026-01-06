@@ -110,7 +110,7 @@ ColdSweatEvents.registries(event => {
    event.addInsulator(insulator =>
       insulator.items(MATERIALS.FROSTSTEEL.ingot)
          .slot("item")
-         .insulation(0, 5)
+         .insulation(0, 6)
          .attribute("minecraft:generic.armor", 1.0, "addition")
          .attribute("minecraft:generic.movement_speed", -0.02, "multiply_total")
          .hideIfUnmet(false))

@@ -1,6 +1,7 @@
 // priority: 0
 
 ServerEvents.recipes(event => {
+    event.remove({ id: 'mekanismelements:reaction/pellet_neutron_source' })
     event.remove({ id: 'mekanism:isotopic_centrifuge' })
     event.shaped(
         Item.of('mekanism:isotopic_centrifuge', 1),
@@ -65,15 +66,39 @@ ServerEvents.recipes(event => {
             D: Item.of(MATERIALS.EUROPIUM.plate),
         }
     )
+    event.shaped(
+        Item.of('mekanismgenerators:fission_reactor_casing', 1),
+        [
+            'ADA',
+            'CBC',
+            'ADA'
+        ],
+        {
+            A: Item.of('mekanismelements:high_quality_concrete'),
+            B: Item.of('thermal:machine_frame'),
+            C: Item.of(MATERIALS.VANADIUM.block),
+            D: Item.of(MATERIALS.EUROPIUM.plate),
+        }
+    )
 
     event.replaceInput({ id: 'mekanismgenerators:fission_reactor/port' }, 'mekanism:elite_control_circuit', 'mekanism_extras:absolute_control_circuit')
     event.replaceInput({ id: 'bfr:irradiator' }, 'mekanism:ultimate_control_circuit', 'mekanism_extras:absolute_control_circuit')
     event.replaceInput({ id: 'bfr:reactor/controller' }, 'mekanism:ultimate_control_circuit', 'mekanism_extras:absolute_control_circuit')
     event.replaceInput({ id: 'bfr:reactor/controller' }, 'glass_pane', 'computercraft:computer_advanced')
-    event.replaceInput({ id: 'bfr:reactor/frame' }, 'mekanism:steel_casing', 'mekanismgenerators:fission_reactor_casing')
-    event.replaceInput({ id: 'bfr:reactor/frame' }, 'mekanism:alloy_atomic', 'mekanism_extras:alloy_radiance')
     event.replaceInput({ id: 'bfr:reactor/port' }, 'mekanism:ultimate_control_circuit', 'mekanism_extras:absolute_control_circuit')
     event.replaceInput({ id: 'bfr:laser_focus_matrix' }, 'redstone_block', 'mffs:focus_matrix')
+
+    event.remove({ id: 'bfr:reactor/frame' })
+    event.shaped(Item.of('bfr:fusion_reactor_frame'), [
+        "ACD",
+        "DBD",
+        "DCA",
+    ], {
+        A: MATERIALS.CHROMIUM.plate,
+        B: 'mekanismgenerators:fission_reactor_casing',
+        C: Item.of('mekanism:pellet_polonium'),
+        D: 'mekanism_extras:alloy_radiance'
+    })
 
     event.replaceInput({ id: 'mekanismelements:crafting/radiation_irradiator' }, 'mekanism:ultimate_control_circuit', 'mekanism_extras:absolute_control_circuit')
 

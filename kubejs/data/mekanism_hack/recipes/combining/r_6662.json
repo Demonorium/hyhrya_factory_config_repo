@@ -3,7 +3,7 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:han_purple"
+            "item": "chemlib:cadmium_sulfide_dust"
         }
     },
     "mainInput": {
@@ -13,7 +13,7 @@
         }
     },
     "output": {
-        "item": "minecraft:magenta_dye",
+        "item": "minecraft:yellow_dye",
         "count": 2.0
     }
 }

@@ -1,100 +1,6 @@
 // priority: 0
 
 ServerEvents.recipes(event => {
-
-    event.custom({
-      "type": "minecraft:crafting_shaped",
-      "category": "misc",
-      "key": {
-        "C": {
-          "type": "pneumaticcraft:fluid",
-          "amount": 1000,
-          "tag": "forge:lubricant"
-        },
-        "L": {
-          "tag": "pneumaticcraft:upgrade_components"
-        },
-        "X": {
-          "item": Item.of('thermal:cured_rubber').getId()
-        }
-      },
-      "pattern": [
-        "LXL",
-        "XCX",
-        "LXL"
-      ],
-      "result": {
-        "count": 2,
-        "item": "pneumaticcraft:speed_upgrade"
-      },
-      "show_notification": true
-    })
-
-    event.remove({id: "pneumaticcraft:thermopneumatic_processing_plant"})
-    event.shaped("pneumaticcraft:thermopneumatic_processing_plant",
-        [
-            'ADA',
-            'BCB',
-            'FDF'
-        ],
-        {
-            A: Item.of(MATERIALS.COMPRESSED_IRON.ingot),
-            B: Item.of('pneumaticcraft:small_tank'),
-            C: Item.of("pneumaticcraft:pressure_tube"),
-            D: MATERIALS.IRON.gear,
-            F: Item.of("pneumaticcraft:reinforced_stone_slab")
-        }
-    )
-
-    event.replaceInput({id: 'pneumaticcraft:thermal_compressor'}, 'heavy_weighted_pressure_plate', MATERIALS.TIN.gear)
-    event.remove({id: "pneumaticcraft:pressure_gauge"})
-    event.shaped("pneumaticcraft:pressure_gauge",
-        [
-            ' C ',
-            'ABA',
-            '   '
-        ],
-        {
-            A: Item.of(MATERIALS.COPPER.gear),
-            B: Item.of(MATERIALS.COMPRESSED_IRON.ingot),
-            C: Item.of(MATERIALS.REDSTONE.ingot)
-        }
-    )
-
-    event.replaceInput({id: 'pneumaticcraft:liquid_compressor'}, 'leather', MATERIALS.TIN.gear)
-    event.remove({id: "pneumaticcraft:gas_lift"})
-    event.shaped("pneumaticcraft:gas_lift",
-        [
-            'ABA',
-            'DCD',
-            ' C '
-        ],
-        {
-            A: Item.of(MATERIALS.COMPRESSED_IRON.ingot),
-            B: Item.of('pneumaticcraft:small_tank'),
-            C: Item.of("pneumaticcraft:pressure_tube"),
-            D: MATERIALS.IRON.gear
-        }
-    )
-
-    event.remove({id: "pneumaticcraft:logistics_core"})
-    event.shaped("pneumaticcraft:logistics_core",
-        [
-            'BAB',
-            'BDA',
-            'ABD'
-        ],
-        {
-            A: Item.of(MATERIALS.IRON.gear),
-            B: Item.of('pneumaticcraft:compressed_stone'),
-            D: MATERIALS.REDSTONE.ingot
-        }
-    )
-
-    event.remove({mod: 'pncepcb', type: 'crafting_shaped'})
-    event.remove({mod: 'pncepcb', type: 'pneumaticcraft:pressure_chamber'})
-    
-    
     event.remove({id: 'pneumaticcraft:refinery/oil_2'})
     event.remove({id: 'pneumaticcraft:refinery/oil_3'})
     event.remove({id: 'pneumaticcraft:refinery/oil_4'})
@@ -125,7 +31,35 @@ ServerEvents.recipes(event => {
       "time": 300
     })
 
-    event.replaceInput({id: "pneumaticcraft:drone_interface"}, 'pneumaticcraft:printed_circuit_board', 'advancedperipherals:peripheral_casing')
+
+    event.custom({
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "C": {
+          "type": "pneumaticcraft:fluid",
+          "amount": 1000,
+          "tag": "forge:lubricant"
+        },
+        "L": {
+          "tag": "pneumaticcraft:upgrade_components"
+        },
+        "X": {
+          "item": Item.of('thermal:cured_rubber').getId()
+        }
+      },
+      "pattern": [
+        "LXL",
+        "XCX",
+        "LXL"
+      ],
+      "result": {
+        "count": 2,
+        "item": "pneumaticcraft:speed_upgrade"
+      },
+      "show_notification": true
+    })
+
     event.replaceInput({id: "pneumaticcraft:night_vision_upgrade"}, 'pneumaticcraft:pressure_chamber_glass', 'cataclysm:cursium_ingot')
     event.replaceInput({id: "pneumaticcraft:magnet_upgrade"}, MATERIALS.COMPRESSED_IRON.ingot, MATERIALS.NEODYMIUM.ingot)
     event.shaped("pneumaticcraft:magnet_upgrade",
@@ -276,41 +210,13 @@ ServerEvents.recipes(event => {
             C: Item.of('minecraft:piston'),
             D: Item.of('thermal:bronze_gear'),
     })
-
-    event.shapeless(
-        Item.of('pneumaticcraft:heat_pipe', 8),
-        [
-        Item.of(MATERIALS.CADMIUM.ingot),
-        '#minecraft:wool'
-        ]
-    )
-
 })
 
 ServerEvents.tags("item", event => {
     event.removeAll('pneumaticcraft:upgrade_components')
     event.add('pneumaticcraft:upgrade_components', 'pneumaticcraft:upgrade_matrix')
-
-    event.removeAll('forge:sawdust')
-    event.add('forge:sawdust', 'mekanism:sawdust')
 })
 
-MoreJSEvents.playerStartTrading((event) => {
-    event.forEachOffers((o, i) => {
-        if (o.output.id.toString().startsWith('superb')) {
-            o.disabled = true;
-        }
-        else if (o.output.id.toString().startsWith('computercraft')) {
-            o.disabled = true;
-        } 
-        else if (o.output.id.toString().endsWith('circuit_board')) {
-            o.disabled = true;
-        }
-        else if (o.output.id.toString().endsWith('pcb_blueprint')) {
-            o.disabled = true;
-        }
-    });
-});
 
 
 

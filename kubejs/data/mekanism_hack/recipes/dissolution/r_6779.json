@@ -1,0 +1,18 @@
+{
+    "type": "mekanism:dissolution",
+    "gasInput": {
+        "gas": "mekanism:water_vapor",
+        "amount": 1.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "minecraft:seagrass"
+        }
+    },
+    "output": {
+        "gas": "mekanism:hydrogen_chloride",
+        "amount": 20.0,
+        "chemicalType": "gas"
+    }
+}

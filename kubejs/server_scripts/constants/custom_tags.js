@@ -462,73 +462,6 @@ const CUSTOM_TAGS = [
 		],
 	],
 	[
-		"kubejs:ad_astra/venus_sand_1",
-		[
-			"ad_astra:venus_sandstone_bricks",
-			"ad_astra:venus_sandstone_brick_stairs",
-			"ad_astra:cracked_venus_sandstone_bricks",
-			"ad_astra:venus_sand",
-		],
-	],
-	[
-		"kubejs:ad_astra/venus_sand_0_5",
-		[
-			"ad_astra:venus_sandstone_brick_slab",
-		],
-	],
-	[
-		"kubejs:ad_astra/venus_sandstone_1",
-		[
-			"ad_astra:venus_sandstone_bricks",
-			"ad_astra:venus_sandstone_brick_stairs",
-			"ad_astra:cracked_venus_sandstone_bricks",
-			"ad_astra:venus_sandstone",
-		],
-	],
-	[
-		"kubejs:ad_astra/venus_sandstone_0_5",
-		[
-			"ad_astra:venus_sandstone_brick_slab",
-		],
-	],
-	[
-		"kubejs:ad_astra/venus_stone_1",
-		[
-			"ad_astra:venus_stone_stairs",
-			"ad_astra:venus_stone_bricks",
-			"ad_astra:venus_stone_brick_stairs",
-			"ad_astra:cracked_venus_stone_bricks",
-			"ad_astra:chiseled_venus_stone_bricks",
-			"ad_astra:chiseled_venus_stone_stairs",
-			"ad_astra:polished_venus_stone",
-			"ad_astra:polished_venus_stone_stairs",
-			"ad_astra:venus_stone_brick_wall",
-			"ad_astra:venus_stone",
-		],
-	],
-	[
-		"kubejs:ad_astra/venus_stone_0_5",
-		[
-			"ad_astra:venus_stone_slab",
-			"ad_astra:venus_stone_brick_slab",
-			"ad_astra:chiseled_venus_stone_slab",
-			"ad_astra:polished_venus_stone_slab",
-		],
-	],
-	[
-		"kubejs:ad_astra/venus_cobblestone_1",
-		[
-			"ad_astra:venus_cobblestone_stairs",
-			"ad_astra:venus_cobblestone",
-		],
-	],
-	[
-		"kubejs:ad_astra/venus_cobblestone_0_5",
-		[
-			"ad_astra:venus_cobblestone_slab",
-		],
-	],
-	[
 		"kubejs:minecraft/netherrack_1",
 		[
 			"rechiseled:netherrack_brick_pattern",
@@ -786,43 +719,6 @@ const CUSTOM_TAGS = [
 		],
 	],
 	[
-		"kubejs:ad_astra/mars_cobblestone_1",
-		[
-			"ad_astra:mars_cobblestone_stairs",
-			"ad_astra:mars_cobblestone",
-		],
-	],
-	[
-		"kubejs:ad_astra/mars_cobblestone_0_5",
-		[
-			"ad_astra:mars_cobblestone_slab",
-		],
-	],
-	[
-		"kubejs:ad_astra/mars_stone_1",
-		[
-			"ad_astra:mars_stone_stairs",
-			"ad_astra:mars_stone_bricks",
-			"ad_astra:mars_stone_brick_stairs",
-			"ad_astra:cracked_mars_stone_bricks",
-			"ad_astra:chiseled_mars_stone_bricks",
-			"ad_astra:chiseled_mars_stone_stairs",
-			"ad_astra:polished_mars_stone",
-			"ad_astra:polished_mars_stone_stairs",
-			"ad_astra:mars_stone_brick_wall",
-			"ad_astra:mars_stone",
-		],
-	],
-	[
-		"kubejs:ad_astra/mars_stone_0_5",
-		[
-			"ad_astra:mars_stone_slab",
-			"ad_astra:mars_stone_brick_slab",
-			"ad_astra:chiseled_mars_stone_slab",
-			"ad_astra:polished_mars_stone_slab",
-		],
-	],
-	[
 		"kubejs:minecraft/basalt_1",
 		[
 			"minecraft:polished_basalt",
@@ -849,12 +745,6 @@ const CUSTOM_TAGS = [
 			"mekanism:dust_lapis_lazuli",
 			"mekanismtools:lapis_lazuli_chestplate",
 			"minecraft:lapis_lazuli",
-		],
-	],
-	[
-		"kubejs:ad_astra/mars_sand_1",
-		[
-			"ad_astra:mars_sand",
 		],
 	],
 	[
@@ -1013,30 +903,6 @@ const CUSTOM_TAGS = [
 		],
 	],
 	[
-		"kubejs:ad_astra/mercury_sand_1",
-		[
-			"ad_astra:mercury_sand",
-		],
-	],
-	[
-		"kubejs:ad_astra/mercury_sandstone_1",
-		[
-			"ad_astra:mercury_sandstone",
-		],
-	],
-	[
-		"kubejs:ad_astra/moon_sand_1",
-		[
-			"ad_astra:moon_sand",
-		],
-	],
-	[
-		"kubejs:ad_astra/moon_sandstone_1",
-		[
-			"ad_astra:moon_sandstone",
-		],
-	],
-	[
 		"kubejs:minecraft/dripstone_block_1",
 		[
 			"minecraft:dripstone_block",
@@ -1049,37 +915,9 @@ const CUSTOM_TAGS = [
 		],
 	],
 	[
-		"kubejs:undergarden/sediment_1",
-		[
-			"undergarden:sediment",
-		],
-	],
-	[
 		"kubejs:undergarden/deepsoil_1",
 		[
 			"undergarden:deepsoil",
-		],
-	],
-	[
-		"kubejs:undergarden/shiverstone_1",
-		[
-			"undergarden:shiverstone_bricks",
-			"undergarden:cracked_shiverstone_bricks",
-			"undergarden:chiseled_shiverstone_bricks",
-			"undergarden:shiverstone_stairs",
-			"undergarden:shiverstone_brick_stairs",
-			"undergarden:shiverstone_wall",
-			"undergarden:shiverstone_brick_wall",
-			"undergarden:shiverstone_button",
-			"undergarden:shiverstone",
-		],
-	],
-	[
-		"kubejs:undergarden/shiverstone_0_5",
-		[
-			"undergarden:shiverstone_slab",
-			"undergarden:shiverstone_brick_slab",
-			"undergarden:shiverstone_pressure_plate",
 		],
 	],
 	[
@@ -1112,6 +950,34 @@ const CUSTOM_TAGS = [
 		],
 	],
 	[
+		"kubejs:undergarden/sediment_1",
+		[
+			"undergarden:sediment",
+		],
+	],
+	[
+		"kubejs:undergarden/shiverstone_1",
+		[
+			"undergarden:shiverstone_bricks",
+			"undergarden:cracked_shiverstone_bricks",
+			"undergarden:chiseled_shiverstone_bricks",
+			"undergarden:shiverstone_stairs",
+			"undergarden:shiverstone_brick_stairs",
+			"undergarden:shiverstone_wall",
+			"undergarden:shiverstone_brick_wall",
+			"undergarden:shiverstone_button",
+			"undergarden:shiverstone",
+		],
+	],
+	[
+		"kubejs:undergarden/shiverstone_0_5",
+		[
+			"undergarden:shiverstone_slab",
+			"undergarden:shiverstone_brick_slab",
+			"undergarden:shiverstone_pressure_plate",
+		],
+	],
+	[
 		"kubejs:undergarden/depthrock_pebble_1",
 		[
 			"undergarden:depthrock_pebble",
@@ -1121,6 +987,245 @@ const CUSTOM_TAGS = [
 		"kubejs:undergarden/frozen_deepturf_block_1",
 		[
 			"undergarden:frozen_deepturf_block",
+		],
+	],
+	[
+		"kubejs:ad_astra/moon_sand_1",
+		[
+			"ad_astra:moon_sand",
+		],
+	],
+	[
+		"kubejs:ad_astra/moon_cobblestone_1",
+		[
+			"ad_astra:moon_cobblestone_stairs",
+			"ad_astra:moon_cobblestone",
+		],
+	],
+	[
+		"kubejs:ad_astra/moon_cobblestone_0_5",
+		[
+			"ad_astra:moon_cobblestone_slab",
+		],
+	],
+	[
+		"kubejs:ad_astra/moon_stone_1",
+		[
+			"ad_astra:moon_stone_stairs",
+			"ad_astra:moon_stone_bricks",
+			"ad_astra:moon_stone_brick_stairs",
+			"ad_astra:cracked_moon_stone_bricks",
+			"ad_astra:chiseled_moon_stone_bricks",
+			"ad_astra:chiseled_moon_stone_stairs",
+			"ad_astra:polished_moon_stone",
+			"ad_astra:polished_moon_stone_stairs",
+			"ad_astra:moon_stone_brick_wall",
+			"ad_astra:moon_stone",
+		],
+	],
+	[
+		"kubejs:ad_astra/moon_stone_0_5",
+		[
+			"ad_astra:moon_stone_slab",
+			"ad_astra:moon_stone_brick_slab",
+			"ad_astra:chiseled_moon_stone_slab",
+			"ad_astra:polished_moon_stone_slab",
+		],
+	],
+	[
+		"kubejs:ad_astra/mars_sand_1",
+		[
+			"ad_astra:mars_sand",
+		],
+	],
+	[
+		"kubejs:ad_astra/mars_cobblestone_1",
+		[
+			"ad_astra:mars_cobblestone_stairs",
+			"ad_astra:mars_cobblestone",
+		],
+	],
+	[
+		"kubejs:ad_astra/mars_cobblestone_0_5",
+		[
+			"ad_astra:mars_cobblestone_slab",
+		],
+	],
+	[
+		"kubejs:ad_astra/mars_stone_1",
+		[
+			"ad_astra:mars_stone_stairs",
+			"ad_astra:mars_stone_bricks",
+			"ad_astra:mars_stone_brick_stairs",
+			"ad_astra:cracked_mars_stone_bricks",
+			"ad_astra:chiseled_mars_stone_bricks",
+			"ad_astra:chiseled_mars_stone_stairs",
+			"ad_astra:polished_mars_stone",
+			"ad_astra:polished_mars_stone_stairs",
+			"ad_astra:mars_stone_brick_wall",
+			"ad_astra:mars_stone",
+		],
+	],
+	[
+		"kubejs:ad_astra/mars_stone_0_5",
+		[
+			"ad_astra:mars_stone_slab",
+			"ad_astra:mars_stone_brick_slab",
+			"ad_astra:chiseled_mars_stone_slab",
+			"ad_astra:polished_mars_stone_slab",
+		],
+	],
+	[
+		"kubejs:ad_astra/venus_sand_1",
+		[
+			"ad_astra:venus_sandstone_bricks",
+			"ad_astra:venus_sandstone_brick_stairs",
+			"ad_astra:cracked_venus_sandstone_bricks",
+			"ad_astra:venus_sand",
+		],
+	],
+	[
+		"kubejs:ad_astra/venus_sand_0_5",
+		[
+			"ad_astra:venus_sandstone_brick_slab",
+		],
+	],
+	[
+		"kubejs:ad_astra/venus_cobblestone_1",
+		[
+			"ad_astra:venus_cobblestone_stairs",
+			"ad_astra:venus_cobblestone",
+		],
+	],
+	[
+		"kubejs:ad_astra/venus_cobblestone_0_5",
+		[
+			"ad_astra:venus_cobblestone_slab",
+		],
+	],
+	[
+		"kubejs:ad_astra/venus_sandstone_1",
+		[
+			"ad_astra:venus_sandstone_bricks",
+			"ad_astra:venus_sandstone_brick_stairs",
+			"ad_astra:cracked_venus_sandstone_bricks",
+			"ad_astra:venus_sandstone",
+		],
+	],
+	[
+		"kubejs:ad_astra/venus_sandstone_0_5",
+		[
+			"ad_astra:venus_sandstone_brick_slab",
+		],
+	],
+	[
+		"kubejs:ad_astra/venus_stone_1",
+		[
+			"ad_astra:venus_stone_stairs",
+			"ad_astra:venus_stone_bricks",
+			"ad_astra:venus_stone_brick_stairs",
+			"ad_astra:cracked_venus_stone_bricks",
+			"ad_astra:chiseled_venus_stone_bricks",
+			"ad_astra:chiseled_venus_stone_stairs",
+			"ad_astra:polished_venus_stone",
+			"ad_astra:polished_venus_stone_stairs",
+			"ad_astra:venus_stone_brick_wall",
+			"ad_astra:venus_stone",
+		],
+	],
+	[
+		"kubejs:ad_astra/venus_stone_0_5",
+		[
+			"ad_astra:venus_stone_slab",
+			"ad_astra:venus_stone_brick_slab",
+			"ad_astra:chiseled_venus_stone_slab",
+			"ad_astra:polished_venus_stone_slab",
+		],
+	],
+	[
+		"kubejs:ad_astra/mercury_cobblestone_1",
+		[
+			"ad_astra:mercury_cobblestone_stairs",
+			"ad_astra:mercury_cobblestone",
+		],
+	],
+	[
+		"kubejs:ad_astra/mercury_cobblestone_0_5",
+		[
+			"ad_astra:mercury_cobblestone_slab",
+		],
+	],
+	[
+		"kubejs:ad_astra/mercury_stone_1",
+		[
+			"ad_astra:mercury_stone_stairs",
+			"ad_astra:mercury_stone_bricks",
+			"ad_astra:mercury_stone_brick_stairs",
+			"ad_astra:cracked_mercury_stone_bricks",
+			"ad_astra:chiseled_mercury_stone_bricks",
+			"ad_astra:chiseled_mercury_stone_stairs",
+			"ad_astra:polished_mercury_stone",
+			"ad_astra:polished_mercury_stone_stairs",
+			"ad_astra:mercury_stone_brick_wall",
+			"ad_astra:mercury_stone",
+		],
+	],
+	[
+		"kubejs:ad_astra/mercury_stone_0_5",
+		[
+			"ad_astra:mercury_stone_slab",
+			"ad_astra:mercury_stone_brick_slab",
+			"ad_astra:chiseled_mercury_stone_slab",
+			"ad_astra:polished_mercury_stone_slab",
+		],
+	],
+	[
+		"kubejs:ad_astra/mercury_sand_1",
+		[
+			"ad_astra:mercury_sand",
+		],
+	],
+	[
+		"kubejs:ad_astra/mercury_sandstone_1",
+		[
+			"ad_astra:mercury_sandstone",
+		],
+	],
+	[
+		"kubejs:ad_astra/glacio_cobblestone_1",
+		[
+			"ad_astra:glacio_cobblestone_stairs",
+			"ad_astra:glacio_cobblestone",
+		],
+	],
+	[
+		"kubejs:ad_astra/glacio_cobblestone_0_5",
+		[
+			"ad_astra:glacio_cobblestone_slab",
+		],
+	],
+	[
+		"kubejs:ad_astra/glacio_stone_1",
+		[
+			"ad_astra:glacio_stone_stairs",
+			"ad_astra:glacio_stone_bricks",
+			"ad_astra:glacio_stone_brick_stairs",
+			"ad_astra:cracked_glacio_stone_bricks",
+			"ad_astra:chiseled_glacio_stone_bricks",
+			"ad_astra:chiseled_glacio_stone_stairs",
+			"ad_astra:polished_glacio_stone",
+			"ad_astra:polished_glacio_stone_stairs",
+			"ad_astra:glacio_stone_brick_wall",
+			"ad_astra:glacio_stone",
+		],
+	],
+	[
+		"kubejs:ad_astra/glacio_stone_0_5",
+		[
+			"ad_astra:glacio_stone_slab",
+			"ad_astra:glacio_stone_brick_slab",
+			"ad_astra:chiseled_glacio_stone_slab",
+			"ad_astra:polished_glacio_stone_slab",
 		],
 	],
 ]

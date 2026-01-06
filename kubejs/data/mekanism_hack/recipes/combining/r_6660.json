@@ -3,7 +3,7 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:beta_carotene_dust"
+            "item": "chemlib:han_purple"
         }
     },
     "mainInput": {
@@ -13,7 +13,7 @@
         }
     },
     "output": {
-        "item": "minecraft:orange_dye",
+        "item": "minecraft:magenta_dye",
         "count": 4.0
     }
 }

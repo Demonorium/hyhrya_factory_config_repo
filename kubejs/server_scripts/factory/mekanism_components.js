@@ -1,47 +1,33 @@
 // priority: 0
 
 ServerEvents.recipes(event => {
-    event.remove({ id: 'mekanismelements:reaction/pellet_neutron_source' })
+    
 
-    event.remove({ id: 'mekanism:steel_casing' })
-    event.shaped(
-        Item.of('mekanism:steel_casing', 1),
-        [
-            'ACA',
-            'C C',
-            'ACA'
-        ],
-        {
-            A: Item.of("pneumaticcraft:compressed_iron_gear"),
-            C: Item.of("mekanism:ingot_steel"),
+    event.custom({
+        "type": "pneumaticcraft:thermo_plant",
+        "air_use_multiplier": 3.0,
+        "exothermic": false,
+        "fluid_input": {
+            "type": "pneumaticcraft:fluid",
+            "amount": 1000,
+            "fluid": "mekanism:chlorine"
+        },
+        "item_input": {
+            "item": MATERIALS.PLASTIC.ingot
+        },
+        "item_output": {
+            "item": "mekanism:hdpe_pellet"
+        },
+        "pressure": 4.0,
+        "speed": 0.8,
+        "temperature": {
+            "min_temp": 573
         }
-    )
+    })
 
-    event.shaped(
-        Item.of('mekanism:steel_casing', 4),
-        [
-            'ABA',
-            'B B',
-            'ABA'
-        ],
-        {
-            A: Item.of("thermal:invar_gear"),
-            B: Item.of("mekanism:ingot_steel")
-        }
-    )
+    
 
-    event.shaped(
-        Item.of('mekanism:steel_casing', 8),
-        [
-            'ABA',
-            'B B',
-            'ABA'
-        ],
-        {
-            A: Item.of("thermal:invar_gear"),
-            B: Item.of(MATERIALS.EXTRATERRESTRIAL_STEEL.plate)
-        }
-    )
+    
 
     event.replaceInput({ id: 'mekanismgenerators:turbine/blade' }, 'mekanism:alloy_infused', 'mekanism_weaponry:steel_rod')
     event.replaceInput({ id: 'mekanismgenerators:turbine/blade' }, 'mekanism:ingot_steel', 'pneumaticcraft:turbine_blade')
@@ -416,3 +402,83 @@ ServerEvents.recipes(event => {
     )
 
 })
+
+
+function steel_casing_recipes(event) {
+    event.remove({ id: 'mekanism:steel_casing' })
+    event.shaped(
+        Item.of('mekanism:steel_casing', 1),
+        [
+            'ACA',
+            'C C',
+            'ACA'
+        ],
+        {
+            A: Item.of("pneumaticcraft:compressed_iron_gear"),
+            C: Item.of("mekanism:ingot_steel"),
+        }
+    )
+    event.shaped(
+        Item.of('mekanism:steel_casing', 1),
+        [
+            'BCA',
+            'C C',
+            'ACB'
+        ],
+        {
+            A: Item.of("pneumaticcraft:compressed_iron_gear"),
+            C: Item.of("mekanism:ingot_steel"),
+            B: Item.of(MATERIALS.CHROMIUM.ingot)
+        }
+    )
+    event.shaped(
+        Item.of('mekanism:steel_casing', 4),
+        [
+            'ABA',
+            'B B',
+            'ABA'
+        ],
+        {
+            A: Item.of("thermal:invar_gear"),
+            B: Item.of("mekanism:ingot_steel")
+        }
+    )
+    event.shaped(
+        Item.of('mekanism:steel_casing', 4),
+        [
+            'CBA',
+            'B B',
+            'ABC'
+        ],
+        {
+            A: Item.of("thermal:invar_gear"),
+            B: Item.of("mekanism:ingot_steel"),
+            C: Item.of(MATERIALS.CHROMIUM.ingot)
+        }
+    )
+    event.shaped(
+        Item.of('mekanism:steel_casing', 8),
+        [
+            'ABA',
+            'B B',
+            'ABA'
+        ],
+        {
+            A: Item.of("thermal:invar_gear"),
+            B: Item.of(MATERIALS.EXTRATERRESTRIAL_STEEL.plate)
+        }
+    )
+    event.shaped(
+        Item.of('mekanism:steel_casing', 8),
+        [
+            'CBA',
+            'B B',
+            'ABC'
+        ],
+        {
+            A: Item.of("thermal:invar_gear"),
+            B: Item.of(MATERIALS.EXTRATERRESTRIAL_STEEL.plate),
+            C: Item.of(MATERIALS.CHROMIUM.ingot)
+        }
+    )
+}

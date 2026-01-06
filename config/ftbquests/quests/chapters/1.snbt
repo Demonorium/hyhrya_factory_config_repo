@@ -341,6 +341,7 @@
 		}
 		{
 			dependencies: ["2FB7C6C46911D512"]
+			description: ["Если поместить ведро пластика в контейнер с фреймом или просто вылить в мир - оно превратится в кусок пластика."]
 			id: "7586B756AF0DAC06"
 			rewards: [{
 				count: 10
@@ -349,6 +350,7 @@
 				type: "item"
 			}]
 			size: 1.5d
+			subtitle: "Охлаждение"
 			tasks: [{
 				id: "7FE6DD8107372413"
 				item: "pneumaticcraft:plastic"
@@ -367,6 +369,7 @@
 				type: "item"
 			}]
 			size: 1.5d
+			subtitle: "Абсолютно точно мирная корпорация"
 			tasks: [{
 				id: "18BC7D4B91690C85"
 				item: "pneumaticcraft:amadron_tablet"
@@ -739,6 +742,7 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
+			shape: "gear"
 			subtitle: "Продвинутая добыча"
 			tasks: [{
 				id: "1A645267A97D1451"
@@ -997,11 +1001,18 @@
 				type: "item"
 			}]
 			subtitle: "Выкачиванием души"
-			tasks: [{
-				id: "3E4E2436BFEEF1F1"
-				item: "pneumaticcraft:spawner_extractor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3E4E2436BFEEF1F1"
+					item: "pneumaticcraft:spawner_extractor"
+					type: "item"
+				}
+				{
+					id: "45623AB565D97945"
+					item: "pneumaticcraft:vacuum_pump"
+					type: "item"
+				}
+			]
 			x: 25.0d
 			y: 0.0d
 		}
@@ -1483,6 +1494,12 @@
 		{
 			dependencies: ["2D0B0211C6CD6D9F"]
 			id: "596D1B734ECF4412"
+			rewards: [{
+				count: 4
+				id: "10D4471D6E30C5E0"
+				item: "superbwarfare:mortar_shell"
+				type: "item"
+			}]
 			subtitle: "Начало войны"
 			tasks: [{
 				id: "27D6A8CB14B0744C"
@@ -1490,7 +1507,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3B91C0CA28F41872"]

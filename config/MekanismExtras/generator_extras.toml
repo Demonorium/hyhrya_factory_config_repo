@@ -2,16 +2,16 @@
 #Mekanism Extras(generator part) Config. This config is synced between server and client.
 [generators_extras]
 	#Affects the Injection Rate, Max Temp, and Ignition Temp.
-	energyPerFusionFuel = "10000000"
+	energyPerFusionFuel = "1000000000"
 
 #Reactor Settings
 [naquadah_reactor]
 	#The fraction of the heat dissipated from the case that is converted to Joules.
 	#Range: 0.0 ~ 1.0
-	thermocoupleEfficiency = 0.1
+	thermocoupleEfficiency = 0.3
 	#The fraction of heat from the casing that can be transferred to all sources that are not water. Will impact max heat, heat transfer to thermodynamic conductors, and power generation.
 	#Range: 0.001 ~ 1.0
-	casingThermalConductivity = 0.1
+	casingThermalConductivity = 0.5
 	#The fraction of the heat from the casing that is dissipated to water when water medium is in use. Will impact max heat, and polonium generation.
 	#Range: 0.0 ~ 1.0
 	waterHeatingRatio = 0.3
@@ -19,7 +19,7 @@
 	#Range: 2 ~ 1000000
 	fuelCapacity = 1000
 	#Amount of energy (J) the naquadah reactor can store.
-	energyCapacity = "10000000000"
+	energyCapacity = "1000000000000"
 	#Amount of water (mB) per injection rate that the naquadah reactor can store. Max = injectionRate * waterPerInjection
 	#Range: 1 ~ 21913098
 	waterPerInjection = 1000000

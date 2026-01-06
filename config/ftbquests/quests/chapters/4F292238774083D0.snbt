@@ -812,10 +812,7 @@
 		}
 		{
 			dependencies: ["3C27B412271DBF29"]
-			description: [
-				"Долго анализируя местную природу, я пришёл к выводу, что можно использовать материалы одного из миров, для ещё большей прогрессии."
-				"Узериум - кристал заражающий миры, вызывающий безумие и производящий редстоун реакции. Хороший материал для улучшения компонентов."
-			]
+			description: ["Узериум - кристал заражающий миры, вызывающий безумие и производящий редстоун реакции. Хороший материал для улучшения компонентов."]
 			hide_dependency_lines: true
 			id: "46AF5A9119A75A33"
 			subtitle: "Подземные технологии"
@@ -1638,6 +1635,12 @@
 		{
 			dependencies: ["3C27B412271DBF29"]
 			id: "5BA3C2936FFE72D7"
+			rewards: [{
+				count: 2
+				id: "6523D006D7441653"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4AD1F39E36BCA135"
 				item: "thermal:rf_coil"
@@ -2128,7 +2131,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["76C7C4377637AFB2"]
+			dependencies: ["7FBC222A3F99A434"]
 			id: "2E54D0A3918630CA"
 			rewards: [{
 				count: 4
@@ -2142,8 +2145,8 @@
 				item: "ballistix:incendiary"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 2.0d
+			x: -12.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -2435,6 +2438,12 @@
 			dependencies: ["3C27B412271DBF29"]
 			description: ["Автоматически поставляет булыгу в механизмы, если та нужна для рецепта."]
 			id: "753E3B37E8200D28"
+			rewards: [{
+				count: 8
+				id: "752122DD6476D0CC"
+				item: "pneumaticcraft:upgrade_matrix"
+				type: "item"
+			}]
 			subtitle: "Если вам нужен булыжник - вам не нужен булыжник"
 			tasks: [{
 				id: "4342E06A9A75F573"

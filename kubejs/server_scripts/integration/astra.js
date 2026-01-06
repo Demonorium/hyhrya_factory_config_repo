@@ -359,7 +359,6 @@ ServerEvents.recipes(event => {
         }
     )
 
-
     event.custom({
         "type": "ad_astra:oxygen_loading",
         "cookingtime": 1,

@@ -47,11 +47,11 @@ ServerEvents.recipes(event => {
   event.remove({id: 'mekanism:infusion_conversion/carbon/from_coal'})
   event.remove({id: 'mekanism:infusion_conversion/carbon/from_coal_block'})
   event.remove({id: 'mekanism_hack:separator/separator_i_chemlib_water_o_chemlib_hydrogen_o_chemlib_oxygen'})
-
   event.remove({id: 'thermal:machines/pulverizer/pulverizer_andesite'})
   event.remove({id: 'thermal:machines/pulverizer/pulverizer_diorite'})
   event.remove({id: 'thermal:machines/pulverizer/pulverizer_granite'})
   event.remove({id: 'ad_astra_giselle_addon:compat/thermal/pulverizer/to_venus_sand'})
+  event.remove({id: 'ad_astra_giselle_addon:compat/mekanism/crushing/to_venus_sand'})
   event.remove({id: 'mekanism:processing/uranium/yellow_cake_uranium'})
   event.remove({id: 'mekanism:processing/uranium/sulfuric_acid'})
   event.remove({id: 'mekanism_extras:processing/naquadah/silicon_tetrafluoride'})

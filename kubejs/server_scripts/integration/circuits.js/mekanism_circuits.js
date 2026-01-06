@@ -133,6 +133,39 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [
+            {
+                "type": "pneumaticcraft:stacked_item",
+                "count": 2,
+                "item": "mekanism:ultimate_control_circuit"
+            },
+            {
+                "type": "pneumaticcraft:stacked_item",
+                "count": 2,
+                "item": Item.of("mekanism_extras:alloy_radiance").id
+            },
+            {
+                "item": Item.of("ae2:engineering_processor").id
+            },
+            {
+                "item": Item.of("pncepcb:high_power_finished_pcb").id
+            },
+            {
+                "type": "pneumaticcraft:stacked_item",
+                "item": Item.of(MATERIALS.NIOBIUM.plate).id,
+                "count": 4
+            }
+        ],
+        "pressure": 5.0,
+        "results": [
+            {
+                "item": Item.of('mekanism_extras:absolute_control_circuit').id,
+                "count": 2
+            }
+        ]
+    })
 
     event.remove({ id: 'mekanism_extras:control_circuit/supreme' })
     event.custom({

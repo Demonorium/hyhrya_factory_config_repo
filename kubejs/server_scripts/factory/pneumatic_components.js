@@ -1,0 +1,38 @@
+// priority: 0
+
+ServerEvents.recipes(event => {
+    event.remove({id: "pneumaticcraft:logistics_core"})
+    event.shaped("pneumaticcraft:logistics_core",
+        [
+            'BAB',
+            'BDA',
+            'ABD'
+        ],
+        {
+            A: Item.of(MATERIALS.IRON.gear),
+            B: Item.of('pneumaticcraft:compressed_stone'),
+            D: MATERIALS.REDSTONE.ingot
+        }
+    )
+
+    event.shaped(Item.of("pneumaticcraft:logistics_core", 8),
+        [
+            'BAB',
+            'BDA',
+            'ABD'
+        ],
+        {
+            A: Item.of(MATERIALS.BRONZE.gear),
+            B: Item.of(MATERIALS.CHROMIUM.plate),
+            D: Item.of('mekanism:alloy_infused')
+        }
+    )
+
+    event.shapeless(
+        Item.of('pneumaticcraft:heat_pipe', 8),
+        [
+        Item.of(MATERIALS.CADMIUM.ingot),
+        '#minecraft:wool'
+        ]
+    )
+})
