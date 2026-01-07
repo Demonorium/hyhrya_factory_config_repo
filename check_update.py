@@ -5,8 +5,8 @@ import zipfile
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("force", "-f",  help="always update", default=False, required=False)
-parser.add_argument("skip", "-s",  help="skip install", default=False, required=False)
+parser.add_argument("--force", "-f",  help="always update", default=False, required=False)
+parser.add_argument("--skip", "-s",  help="skip install", default=False, required=False)
 args = parser.parse_args()
 
 with open('modpack_version.txt', mode='r', encoding='utf-8') as f:
