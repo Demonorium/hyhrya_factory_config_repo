@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:potassium_cyanide_dust"
+            "item": "chemlib:beta_carotene_dust"
         }
     },
     "output": {
-        "gas": "mekanismelements:potassium_cyanide",
+        "gas": "kubejs:beta_carotene",
         "amount": 200
     }
 }

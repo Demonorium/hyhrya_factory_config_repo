@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:xenon"
+            "item": "chemlib:tellurium_dust"
         }
     },
     "output": {
-        "gas": "mekanismelements:xenon",
+        "gas": "kubejs:tellurium",
         "amount": 200
     }
 }

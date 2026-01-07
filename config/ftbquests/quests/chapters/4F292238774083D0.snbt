@@ -408,6 +408,11 @@
 		{
 			dependencies: ["7FBC222A3F99A434"]
 			id: "1326C0FFD89B6CFE"
+			rewards: [{
+				id: "08D93DBD5254D9B1"
+				item: "mekanism:dust_diamond"
+				type: "item"
+			}]
 			subtitle: "Не такой красивый, но полезный"
 			tasks: [{
 				id: "0E4B14436A49ADDA"
@@ -420,6 +425,12 @@
 		{
 			dependencies: ["1326C0FFD89B6CFE"]
 			id: "08F7D854AA93BF69"
+			rewards: [{
+				count: 3
+				id: "15A9FA785BFC14DE"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
 			subtitle: "Снова красивый"
 			tasks: [{
 				id: "60647A9F2A0D94BD"
@@ -832,6 +843,12 @@
 				"Более эффективен в горах"
 			]
 			id: "4E90F560BD71AC3A"
+			rewards: [{
+				count: 4
+				id: "1392E02A5BD183DA"
+				item: "pneumaticcraft:turbine_blade"
+				type: "item"
+			}]
 			subtitle: "Обратный вентилятор"
 			tasks: [{
 				id: "0B5E62D849DB8504"
@@ -1138,6 +1155,23 @@
 				"Но требует энергию."
 			]
 			id: "5AE9F6FB9C4B1E9B"
+			rewards: [{
+				count: 8
+				id: "094CB98EFC436030"
+				item: {
+					Count: 1
+					id: "mekanism:energy_tablet"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "1000000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Абсолютная кирка"
 			tasks: [{
@@ -1460,6 +1494,12 @@
 		{
 			dependencies: ["79DF6D50052115A9"]
 			id: "2535D747D99042D6"
+			rewards: [{
+				count: 2
+				id: "2739C58BF76AD0D6"
+				item: "chemlib:lithium_perchlorate_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C2A1DCA6FEC4658"
 				item: "superbwarfare:battery"
@@ -1475,6 +1515,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "6C91DE23AE708A95"
+			rewards: [{
+				count: 16
+				id: "3BA538D78AACB6B6"
+				item: "chemlib:lithium_perchlorate_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "44917202B4ECDDDD"
 				item: "superbwarfare:small_battery_pack"
@@ -1489,6 +1535,12 @@
 				"0E36516AB2341A4A"
 			]
 			id: "4A3065FC2443C6AB"
+			rewards: [{
+				count: 32
+				id: "1E914991B88C6472"
+				item: "chemlib:lithium_perchlorate_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "67CEBFC818790D6F"
 				item: "superbwarfare:medium_battery_pack"
@@ -1503,6 +1555,12 @@
 				"3CAF5E9098666D9D"
 			]
 			id: "4E5FFB567EC0A819"
+			rewards: [{
+				count: 32
+				id: "4A8BD108B69AEB42"
+				item: "mekanism:advanced_universal_cable"
+				type: "item"
+			}]
 			tasks: [{
 				id: "23ABE0A32282D597"
 				item: "mekanism:advanced_energy_cube"
@@ -1517,6 +1575,12 @@
 				"318D11881F2EA09D"
 			]
 			id: "67F6E88804325098"
+			rewards: [{
+				count: 64
+				id: "17CEFB0DFEC70C4A"
+				item: "chemlib:lithium_perchlorate_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B8AD90C9C6B5DDC"
 				item: "superbwarfare:large_battery_pack"
@@ -1531,6 +1595,12 @@
 				"4E5FFB567EC0A819"
 			]
 			id: "5C6B2546B868B323"
+			rewards: [{
+				count: 32
+				id: "78CDEC6695317339"
+				item: "mekanism:elite_universal_cable"
+				type: "item"
+			}]
 			tasks: [{
 				id: "390FCECE5F94F9D4"
 				item: "mekanism:elite_energy_cube"
@@ -1545,6 +1615,12 @@
 				"5C6B2546B868B323"
 			]
 			id: "5157C93690A097F2"
+			rewards: [{
+				count: 32
+				id: "4AA1FB80FE6C6202"
+				item: "mekanism:ultimate_universal_cable"
+				type: "item"
+			}]
 			tasks: [{
 				id: "20ED55D307197FEC"
 				item: "mekanism:ultimate_energy_cube"
@@ -1559,6 +1635,12 @@
 				"5157C93690A097F2"
 			]
 			id: "3C2782C51C573EAB"
+			rewards: [{
+				count: 32
+				id: "1751C8684CBDC818"
+				item: "mekanism_extras:absolute_universal_cable"
+				type: "item"
+			}]
 			tasks: [{
 				id: "54AA5C9335CA1BB0"
 				item: "mekanism_extras:absolute_energy_cube"
@@ -1573,6 +1655,12 @@
 				"67F6E88804325098"
 			]
 			id: "79FA65BAB3C6815B"
+			rewards: [{
+				count: 32
+				id: "2BCC7A670D478909"
+				item: "mekanism_extras:supreme_universal_cable"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A967F9AB6A95BEB"
 				item: "mekanism_extras:supreme_energy_cube"
@@ -1587,6 +1675,12 @@
 				"67F6E88804325098"
 			]
 			id: "0DFE43F277464A97"
+			rewards: [{
+				count: 32
+				id: "08F4FFF092C1D9D3"
+				item: "mekanism_extras:cosmic_universal_cable"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3652DB482BABD477"
 				item: "mekanism_extras:cosmic_energy_cube"
@@ -1601,6 +1695,12 @@
 				"67F6E88804325098"
 			]
 			id: "40438E31CFE93B92"
+			rewards: [{
+				count: 32
+				id: "7B06A9A54A0A4647"
+				item: "mekanism_extras:infinite_universal_cable"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3FC4FC37DD21C5C4"
 				item: "mekanism_extras:infinite_energy_cube"
@@ -1672,6 +1772,12 @@
 				"1A520D70554B37DF"
 			]
 			id: "76C7C4377637AFB2"
+			rewards: [{
+				count: 16
+				id: "2493BD04D0E5EB4E"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "x4 руда"
 			tasks: [{
@@ -1954,13 +2060,22 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["1AA2A590F998DAB2"]
+			dependencies: [
+				"1AA2A590F998DAB2"
+				"2F67A4BFDDE4A86A"
+			]
 			description: [
 				"Перчатки являются самым эффективным средством борьбы с быстрыми противниками."
 				""
 				"Ведь они могут отправить их в полёт."
 			]
 			id: "6B3277C768351C53"
+			rewards: [{
+				count: 8
+				id: "1EB95CF76C46C1F9"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Хороший удар"
 			tasks: [{
@@ -2057,6 +2172,20 @@
 		{
 			dependencies: ["40303EB3A89F8CAF"]
 			id: "14287BA1FC1B2186"
+			rewards: [
+				{
+					count: 4
+					id: "5C7A965CF2EA4ACB"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6E33879FB0F4C56E"
+					item: "mekanism:advanced_universal_cable"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "14432163025F7C77"
@@ -2428,6 +2557,11 @@
 		{
 			dependencies: ["7FBC222A3F99A434"]
 			id: "66A2AEA9CD6066FB"
+			rewards: [{
+				id: "69620B5068D575E3"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7662A6DCCAAE2D9E"
 				item: "mekanism:upgrade_speed"
@@ -2467,6 +2601,12 @@
 		{
 			dependencies: ["18213DD3A7187903"]
 			id: "7636CBC312F17F53"
+			rewards: [{
+				count: 16
+				id: "14ADB72093EE0A7C"
+				item: "pneumaticcraft:upgrade_matrix"
+				type: "item"
+			}]
 			tasks: [{
 				id: "38B0064ECBE57FB0"
 				item: "mekanism:upgrade_gas"

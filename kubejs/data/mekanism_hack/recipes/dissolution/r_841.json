@@ -1,18 +1,18 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "mekanismelements:aqua_regia",
-        "amount": 1.0
+        "gas": "mekanismelements:nitric_acid",
+        "amount": 6.0
     },
     "itemInput": {
-        "amount": 1.0,
+        "amount": 3.0,
         "ingredient": {
-            "item": "mekanism:clump_iron"
+            "item": "minecraft:raw_iron"
         }
     },
     "output": {
         "slurry": "mekanism:dirty_iron",
-        "amount": 900.0,
+        "amount": 2000.0,
         "chemicalType": "slurry"
     }
 }

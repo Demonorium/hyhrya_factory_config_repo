@@ -1,18 +1,18 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "mekanismelements:nitric_acid",
-        "amount": 18.0
+        "gas": "mekanism:sulfuric_acid",
+        "amount": 2.0
     },
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "thermal:raw_silver_block"
+            "tag": "forge:ores/silver"
         }
     },
     "output": {
         "slurry": "moremekanismprocessing:dirty_silver",
-        "amount": 6000.0,
+        "amount": 1200.0,
         "chemicalType": "slurry"
     }
 }

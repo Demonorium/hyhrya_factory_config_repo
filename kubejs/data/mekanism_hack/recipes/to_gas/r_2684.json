@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:potassium_hydroxide_dust"
+            "item": "chemlib:carbon_monoxide"
         }
     },
     "output": {
-        "gas": "mekanismelements:potassium_hydroxide",
+        "gas": "kubejs:carbon_monoxide",
         "amount": 200
     }
 }

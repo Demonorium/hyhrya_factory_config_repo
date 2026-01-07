@@ -79,5 +79,6 @@ ServerEvents.recipes(event => {
 })
 
 ServerEvents.tags("item", event => {
-    event.remove("sgjourney:naquadah", "mekanism_extras:ingot_naquadah")
+    event.remove("sgjourney:naquadah")
+    event.add("sgjourney:naquadah", "mekanism_extras:ingot_naquadah")
 })

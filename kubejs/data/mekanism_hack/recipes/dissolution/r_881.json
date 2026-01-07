@@ -1,18 +1,18 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "mekanism:sulfuric_acid",
-        "amount": 2.0
+        "gas": "mekanismelements:aqua_regia",
+        "amount": 1.0
     },
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:clump_copper"
+            "tag": "forge:ores/copper"
         }
     },
     "output": {
         "slurry": "mekanism:dirty_copper",
-        "amount": 600.0,
+        "amount": 1800.0,
         "chemicalType": "slurry"
     }
 }

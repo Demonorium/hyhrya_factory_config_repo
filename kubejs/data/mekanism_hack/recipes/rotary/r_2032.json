@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:gold",
+        "fluid": "kubejs:platinum",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:gold",
+        "fluid": "kubejs:platinum",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:gold",
+        "gas": "kubejs:platinum",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:gold",
+        "gas": "kubejs:platinum",
         "amount": 1.0
     }
 }

@@ -1,0 +1,26 @@
+{
+    "entity": "undergarden:forgotten_guardian",
+    "variants": [],
+    "name": "entity.undergarden.forgotten_guardian",
+    "name_color": "#63CE98",
+    "gui_scale": 1.0,
+    "gui_x_offset": 0.0,
+    "gui_y_offset": 0.0,
+    "gui_z_offset": 0.0,
+    "sim_cost": 16384,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "kubejs:undergarden_prediction",
+        "count": 1.0
+    },
+    "trivia": "hostilenetworks.trivia.forgotten_guardian",
+    "fabricator_drops": [
+        {
+            "item": "undergarden:utheric_shard",
+            "count": 48.0
+        }
+    ]
+}

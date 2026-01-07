@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:epinephrine",
+        "fluid": "kubejs:polyvinyl_chloride",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:epinephrine",
+        "fluid": "kubejs:polyvinyl_chloride",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:epinephrine",
+        "gas": "kubejs:polyvinyl_chloride",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:epinephrine",
+        "gas": "kubejs:polyvinyl_chloride",
         "amount": 1.0
     }
 }

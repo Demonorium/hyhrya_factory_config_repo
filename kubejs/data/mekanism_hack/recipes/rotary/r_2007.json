@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:osmium",
+        "fluid": "kubejs:rhenium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:osmium",
+        "fluid": "kubejs:rhenium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "mekanism:osmium",
+        "gas": "kubejs:rhenium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "mekanism:osmium",
+        "gas": "kubejs:rhenium",
         "amount": 1.0
     }
 }

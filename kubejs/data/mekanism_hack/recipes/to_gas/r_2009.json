@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:dust_osmium"
+            "item": "chemlib:rhenium_dust"
         }
     },
     "output": {
-        "gas": "mekanism:osmium",
-        "amount": 400
+        "gas": "kubejs:rhenium",
+        "amount": 200
     }
 }

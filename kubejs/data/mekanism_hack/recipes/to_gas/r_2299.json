@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:potassium_chloride_dust"
+            "item": "chemlib:aluminum_oxide_dust"
         }
     },
     "output": {
-        "gas": "mekanismelements:potassium_chloride",
+        "gas": "kubejs:aluminum_oxide",
         "amount": 200
     }
 }

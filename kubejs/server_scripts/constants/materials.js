@@ -1281,6 +1281,40 @@ const MATERIALS = {
 		normal_ores: [
 		],
 	},
+	FERRUM: {
+		name: "ferrum",
+		amount: 1.0,
+		metal: true,
+		normal_ores_tag: "#forge:ores/ferrum",
+		normal_ores: [
+			"macabre:ferrum_ore",
+		],
+		ingot: "macabre:ferrum_ingot",
+		block: "macabre:ferrum_block",
+		raw: "macabre:raw_ferrum",
+	},
+	PLASMA: {
+		name: "plasma",
+		amount: 1.0,
+		metal: false,
+		normal_ores_tag: "#forge:ores/plasma",
+		normal_ores: [
+			"macabre:plasma_ore",
+		],
+		ingot: "macabre:plasma",
+		raw: "macabre:raw_plasma",
+	},
+	FAT: {
+		name: "fat",
+		amount: 1.0,
+		metal: false,
+		normal_ores_tag: "#forge:ores/fat",
+		normal_ores: [
+			"macabre:fat_ore",
+		],
+		ingot: "macabre:fat",
+		block: "macabre:fat_block",
+	},
 	LITHIUM: {
 		name: "lithium",
 		amount: 1.0,

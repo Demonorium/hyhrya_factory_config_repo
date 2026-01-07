@@ -752,6 +752,25 @@
 		{
 			dependencies: ["397377DDC2D2886B"]
 			id: "7F4329882FCDE180"
+			rewards: [
+				{
+					count: 64
+					id: "0C1B8B934D609AAB"
+					item: "clanginghowl:blaze_fuel_cylinder"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3B445808ED3187CA"
+					item: "clanginghowl:extraterrestrial_energy_crystal"
+					type: "item"
+				}
+				{
+					id: "0F688500BB16ACAE"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "18FA610D1A61AEB3"
 				item: "cataclysm:ignitium_ingot"
@@ -763,6 +782,11 @@
 		{
 			dependencies: ["770C62F791CF0080"]
 			id: "5425552E48D05FE4"
+			rewards: [{
+				id: "5D9E0E51ED774A47"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E60A6B3F0F59F9C"
 				item: "cataclysm:witherite_ingot"
@@ -886,6 +910,12 @@
 		{
 			dependencies: ["71AB2F206D2D8554"]
 			id: "4BBFE96F67264FDE"
+			rewards: [{
+				count: 3
+				id: "7BA759D1EAF06BBA"
+				item: "silentcompat:arcmetal_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1BFADC050E772F97"
 				item: "cataclysm:essence_of_the_storm"
@@ -913,6 +943,11 @@
 		{
 			dependencies: ["466A6AA597BEC6F0"]
 			id: "72755ECBB3748D8B"
+			rewards: [{
+				id: "4E4575B9D1D2B830"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "73887E64DF1BB67A"
 				item: "cataclysm:monstrous_horn"
@@ -949,6 +984,12 @@
 		{
 			dependencies: ["46085F82488B1DA1"]
 			id: "6806EDD7791E8647"
+			rewards: [{
+				count: 64
+				id: "018BEAF524070094"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "687EFEAE39DF090D"
 				item: "bosses_of_mass_destruction:obsidian_heart"
@@ -1001,6 +1042,11 @@
 		{
 			dependencies: ["6F3EACF626BDDA3C"]
 			id: "7C68F32D23568384"
+			rewards: [{
+				id: "7F15BEE81AD0FD92"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "628C6CD611C0F1E4"
 				item: "bosses_of_mass_destruction:ancient_anima"
@@ -1012,6 +1058,12 @@
 		{
 			dependencies: ["52AE73B1EE88CE26"]
 			id: "7C916CAF2FB34C9A"
+			rewards: [{
+				count: 64
+				id: "491EC94CCE34A955"
+				item: "thermal:tin_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "178C9847871C4E73"
 				item: "meetyourfight:phantoplasm"
@@ -1086,6 +1138,12 @@
 		{
 			dependencies: ["3D28627BD6068472"]
 			id: "280BD84AC99D4E0B"
+			rewards: [{
+				count: 16
+				id: "5A267FFDBCBA192E"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "79ED8F27C69B82A2"
 				item: "cataclysm:void_core"
@@ -1130,6 +1188,12 @@
 		{
 			dependencies: ["0CCB1F6024716B5D"]
 			id: "3C6FE5E0F2E4D594"
+			rewards: [{
+				count: 64
+				id: "5B13EB3839D60A93"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "714348CD08F8162D"
 				item: "bosses_of_mass_destruction:crystal_fruit"
@@ -1294,6 +1358,12 @@
 		{
 			dependencies: ["2F5A5B6AABC855F9"]
 			id: "04729721E3EF7CCF"
+			rewards: [{
+				count: 32
+				id: "71A1FE53D0539544"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "716E9EDD04194423"
 				item: "cataclysm:cursium_ingot"

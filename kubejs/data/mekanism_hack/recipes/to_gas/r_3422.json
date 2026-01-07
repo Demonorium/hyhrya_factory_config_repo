@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:aluminium_chloride_dust"
+            "item": "chemlib:silver_perchlorate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:aluminium_chloride",
+        "gas": "kubejs:silver_perchlorate",
         "amount": 200
     }
 }

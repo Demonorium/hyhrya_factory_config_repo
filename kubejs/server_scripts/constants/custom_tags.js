@@ -144,59 +144,6 @@ const CUSTOM_TAGS = [
 		],
 	],
 	[
-		"kubejs:minecraft/calcite_1",
-		[
-			"clanginghowl:calcite_tiles",
-			"clanginghowl:calcite_tile_stairs",
-			"clanginghowl:cracked_calcite_tiles",
-			"minecraft:calcite",
-		],
-	],
-	[
-		"kubejs:minecraft/calcite_0_5",
-		[
-			"clanginghowl:calcite_tile_slab",
-		],
-	],
-	[
-		"kubejs:biomesoplenty/white_sand_1",
-		[
-			"biomesoplenty:white_sandstone_stairs",
-			"biomesoplenty:white_sandstone_wall",
-			"biomesoplenty:smooth_white_sandstone",
-			"biomesoplenty:smooth_white_sandstone_stairs",
-			"biomesoplenty:chiseled_white_sandstone",
-			"biomesoplenty:white_sand",
-		],
-	],
-	[
-		"kubejs:biomesoplenty/white_sand_0_5",
-		[
-			"biomesoplenty:white_sandstone_slab",
-			"biomesoplenty:smooth_white_sandstone_slab",
-			"biomesoplenty:cut_white_sandstone_slab",
-		],
-	],
-	[
-		"kubejs:biomesoplenty/white_sandstone_1",
-		[
-			"biomesoplenty:white_sandstone_stairs",
-			"biomesoplenty:white_sandstone_wall",
-			"biomesoplenty:smooth_white_sandstone",
-			"biomesoplenty:smooth_white_sandstone_stairs",
-			"biomesoplenty:chiseled_white_sandstone",
-			"biomesoplenty:white_sandstone",
-		],
-	],
-	[
-		"kubejs:biomesoplenty/white_sandstone_0_5",
-		[
-			"biomesoplenty:white_sandstone_slab",
-			"biomesoplenty:smooth_white_sandstone_slab",
-			"biomesoplenty:cut_white_sandstone_slab",
-		],
-	],
-	[
 		"kubejs:biomesoplenty/thermal_calcite_1",
 		[
 			"biomesoplenty:thermal_calcite",
@@ -748,6 +695,71 @@ const CUSTOM_TAGS = [
 		],
 	],
 	[
+		"kubejs:biomesoplenty/white_sandstone_1",
+		[
+			"biomesoplenty:white_sandstone_stairs",
+			"biomesoplenty:white_sandstone_wall",
+			"biomesoplenty:smooth_white_sandstone",
+			"biomesoplenty:smooth_white_sandstone_stairs",
+			"biomesoplenty:chiseled_white_sandstone",
+			"biomesoplenty:white_sandstone",
+		],
+	],
+	[
+		"kubejs:biomesoplenty/white_sandstone_0_5",
+		[
+			"biomesoplenty:white_sandstone_slab",
+			"biomesoplenty:smooth_white_sandstone_slab",
+			"biomesoplenty:cut_white_sandstone_slab",
+		],
+	],
+	[
+		"kubejs:biomesoplenty/white_sand_1",
+		[
+			"biomesoplenty:white_sandstone_stairs",
+			"biomesoplenty:white_sandstone_wall",
+			"biomesoplenty:smooth_white_sandstone",
+			"biomesoplenty:smooth_white_sandstone_stairs",
+			"biomesoplenty:chiseled_white_sandstone",
+			"biomesoplenty:white_sand",
+		],
+	],
+	[
+		"kubejs:biomesoplenty/white_sand_0_5",
+		[
+			"biomesoplenty:white_sandstone_slab",
+			"biomesoplenty:smooth_white_sandstone_slab",
+			"biomesoplenty:cut_white_sandstone_slab",
+		],
+	],
+	[
+		"kubejs:minecraft/dripstone_block_1",
+		[
+			"minecraft:dripstone_block",
+		],
+	],
+	[
+		"kubejs:legendary_monsters/ancient_dripstone_block_1",
+		[
+			"legendary_monsters:ancient_dripstone_block",
+		],
+	],
+	[
+		"kubejs:minecraft/calcite_1",
+		[
+			"clanginghowl:calcite_tiles",
+			"clanginghowl:calcite_tile_stairs",
+			"clanginghowl:cracked_calcite_tiles",
+			"minecraft:calcite",
+		],
+	],
+	[
+		"kubejs:minecraft/calcite_0_5",
+		[
+			"clanginghowl:calcite_tile_slab",
+		],
+	],
+	[
 		"kubejs:minecraft/red_sand_0_5",
 		[
 			"minecraft:red_sandstone_slab",
@@ -903,15 +915,81 @@ const CUSTOM_TAGS = [
 		],
 	],
 	[
-		"kubejs:minecraft/dripstone_block_1",
+		"kubejs:biomesoplenty/black_sand_1",
 		[
-			"minecraft:dripstone_block",
+			"biomesoplenty:mossy_black_sand",
+			"biomesoplenty:black_sandstone_stairs",
+			"biomesoplenty:black_sandstone_wall",
+			"biomesoplenty:smooth_black_sandstone",
+			"biomesoplenty:smooth_black_sandstone_stairs",
+			"biomesoplenty:chiseled_black_sandstone",
+			"biomesoplenty:black_sand",
 		],
 	],
 	[
-		"kubejs:legendary_monsters/ancient_dripstone_block_1",
+		"kubejs:biomesoplenty/black_sand_0_5",
 		[
-			"legendary_monsters:ancient_dripstone_block",
+			"biomesoplenty:black_sandstone_slab",
+			"biomesoplenty:smooth_black_sandstone_slab",
+			"biomesoplenty:cut_black_sandstone_slab",
+		],
+	],
+	[
+		"kubejs:biomesoplenty/black_sandstone_1",
+		[
+			"biomesoplenty:black_sandstone_stairs",
+			"biomesoplenty:black_sandstone_wall",
+			"biomesoplenty:smooth_black_sandstone",
+			"biomesoplenty:smooth_black_sandstone_stairs",
+			"biomesoplenty:chiseled_black_sandstone",
+			"biomesoplenty:black_sandstone",
+		],
+	],
+	[
+		"kubejs:biomesoplenty/black_sandstone_0_5",
+		[
+			"biomesoplenty:black_sandstone_slab",
+			"biomesoplenty:smooth_black_sandstone_slab",
+			"biomesoplenty:cut_black_sandstone_slab",
+		],
+	],
+	[
+		"kubejs:minecraft/black_sand_1",
+		[
+			"biomesoplenty:mossy_black_sand",
+			"biomesoplenty:black_sandstone_stairs",
+			"biomesoplenty:black_sandstone_wall",
+			"biomesoplenty:smooth_black_sandstone",
+			"biomesoplenty:smooth_black_sandstone_stairs",
+			"biomesoplenty:chiseled_black_sandstone",
+			"minecraft:black_sand",
+		],
+	],
+	[
+		"kubejs:minecraft/black_sand_0_5",
+		[
+			"biomesoplenty:black_sandstone_slab",
+			"biomesoplenty:smooth_black_sandstone_slab",
+			"biomesoplenty:cut_black_sandstone_slab",
+		],
+	],
+	[
+		"kubejs:minecraft/black_sandstone_1",
+		[
+			"biomesoplenty:black_sandstone_stairs",
+			"biomesoplenty:black_sandstone_wall",
+			"biomesoplenty:smooth_black_sandstone",
+			"biomesoplenty:smooth_black_sandstone_stairs",
+			"biomesoplenty:chiseled_black_sandstone",
+			"minecraft:black_sandstone",
+		],
+	],
+	[
+		"kubejs:minecraft/black_sandstone_0_5",
+		[
+			"biomesoplenty:black_sandstone_slab",
+			"biomesoplenty:smooth_black_sandstone_slab",
+			"biomesoplenty:cut_black_sandstone_slab",
 		],
 	],
 	[

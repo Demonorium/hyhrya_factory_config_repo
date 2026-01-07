@@ -1,17 +1,17 @@
 {
     "type": "mekanism:metallurgic_infusing",
     "chemicalInput": {
-        "infuse_type": "mekanism:tin",
+        "infuse_type": "kubejs:nickel",
         "amount": 10
     },
     "itemInput": {
-        "amount": 3.0,
+        "amount": 1.0,
         "ingredient": {
             "item": "mekanism:dust_copper"
         }
     },
     "output": {
-        "item": "mekanism:dust_bronze",
-        "count": 4.0
+        "item": "thermal:constantan_dust",
+        "count": 2.0
     }
 }

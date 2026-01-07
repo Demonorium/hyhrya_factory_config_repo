@@ -1,18 +1,18 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "mekanismelements:nitric_acid",
-        "amount": 18.0
+        "gas": "mekanism:sulfuric_acid",
+        "amount": 2.0
     },
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "minecraft:raw_iron_block"
+            "tag": "forge:ores/iron"
         }
     },
     "output": {
         "slurry": "mekanism:dirty_iron",
-        "amount": 6000.0,
+        "amount": 1200.0,
         "chemicalType": "slurry"
     }
 }

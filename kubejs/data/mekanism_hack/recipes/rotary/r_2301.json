@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:sodium_chloride",
+        "fluid": "kubejs:magnesium_oxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:sodium_chloride",
+        "fluid": "kubejs:magnesium_oxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:sodium_chloride",
+        "gas": "kubejs:magnesium_oxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:sodium_chloride",
+        "gas": "kubejs:magnesium_oxide",
         "amount": 1.0
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:salt"
+            "item": "chemlib:magnesium_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:sodium_chloride",
+        "gas": "kubejs:magnesium_oxide",
         "amount": 200
     }
 }

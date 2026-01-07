@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "thermal:silver_dust"
+            "item": "chemlib:palladium_dust"
         }
     },
     "output": {
-        "gas": "kubejs:silver",
+        "gas": "kubejs:palladium",
         "amount": 200
     }
 }

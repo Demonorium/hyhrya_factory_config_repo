@@ -1,0 +1,42 @@
+{
+    "entity": "aquaculture:red_grouper",
+    "variants": [],
+    "name": "entity.aquaculture.red_grouper",
+    "name_color": "#6792D3",
+    "gui_scale": 1.0,
+    "gui_x_offset": 0.0,
+    "gui_y_offset": 0.0,
+    "gui_z_offset": 0.0,
+    "sim_cost": 320,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction",
+        "count": 1.0
+    },
+    "trivia": "hostilenetworks.trivia.red_grouper",
+    "fabricator_drops": [
+        {
+            "item": "aquaculture:red_grouper",
+            "count": 32.0
+        },
+        {
+            "item": "minecraft:bone_meal",
+            "count": 2.0
+        }
+    ],
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
+    ]
+}

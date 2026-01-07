@@ -1657,6 +1657,34 @@ const TAGS_TO_FIX = [
 		item: "moremekanismprocessing:shard_niter",
 	},
 	{
+		tag: "forge:ingots/ferrum",
+		item: "macabre:ferrum_ingot",
+	},
+	{
+		tag: "forge:storage_blocks/ferrum",
+		item: "macabre:ferrum_block",
+	},
+	{
+		tag: "forge:raw_materials/ferrum",
+		item: "macabre:raw_ferrum",
+	},
+	{
+		tag: "forge:ingots/plasma",
+		item: "macabre:plasma",
+	},
+	{
+		tag: "forge:raw_materials/plasma",
+		item: "macabre:raw_plasma",
+	},
+	{
+		tag: "forge:ingots/fat",
+		item: "macabre:fat",
+	},
+	{
+		tag: "forge:storage_blocks/fat",
+		item: "macabre:fat_block",
+	},
+	{
 		tag: "forge:ingots/lithium",
 		item: "moremekanismprocessing:lithium_ingot",
 	},

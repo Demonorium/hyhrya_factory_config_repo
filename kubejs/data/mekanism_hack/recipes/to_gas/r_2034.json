@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:dust_gold"
+            "item": "moremekanismprocessing:dust_platinum"
         }
     },
     "output": {
-        "gas": "kubejs:gold",
+        "gas": "kubejs:platinum",
         "amount": 200
     }
 }

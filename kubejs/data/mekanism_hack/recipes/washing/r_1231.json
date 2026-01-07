@@ -5,11 +5,11 @@
         "amount": 5.0
     },
     "output": {
-        "slurry": "moremekanismprocessing:clean_platinum",
+        "slurry": "moremekanismprocessing:clean_iridium",
         "amount": 7.0
     },
     "slurryInput": {
-        "slurry": "moremekanismprocessing:dirty_platinum",
+        "slurry": "moremekanismprocessing:dirty_iridium",
         "amount": 5.0
     }
 }

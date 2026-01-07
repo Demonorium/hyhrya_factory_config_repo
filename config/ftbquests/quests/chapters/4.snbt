@@ -2020,6 +2020,235 @@
 			x: -2.0d
 			y: -8.5d
 		}
+		{
+			dependencies: ["52469F247D8FF2F1"]
+			id: "2B810B12311B5CC2"
+			subtitle: "Путь ко всеми мирам"
+			tasks: [
+				{
+					id: "654E7B7F291038EE"
+					item: "sgjourney:classic_stargate_base_block"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "5E166FC198A932BD"
+					item: { Count: 7, id: "sgjourney:classic_stargate_chevron_block" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "171A0F0056F1DE5B"
+					item: { Count: 14, id: "sgjourney:classic_stargate_ring_block" }
+					type: "item"
+				}
+			]
+			title: "Строительство Звёздных врат"
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2B810B12311B5CC2"]
+			id: "1FBDCF02B49870DF"
+			subtitle: "Консоль управления"
+			tasks: [{
+				id: "21CF6AAB73801605"
+				item: "sgjourney:classic_dhd"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2B810B12311B5CC2"]
+			id: "1CD2EEF82597FA1A"
+			tasks: [{
+				id: "5457A09A0BA01183"
+				item: {
+					Count: 1
+					id: "sgjourney:milky_way_dhd"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0L
+							Inventory: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 0
+										id: "sgjourney:large_control_crystal"
+									}
+									{
+										Count: 1b
+										Slot: 1
+										id: "sgjourney:energy_crystal"
+										tag: {
+											Energy: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 2
+										id: "sgjourney:communication_crystal"
+										tag: {
+											Frequency: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 3
+										id: "sgjourney:energy_crystal"
+										tag: {
+											Energy: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 5
+										id: "sgjourney:energy_crystal"
+										tag: {
+											Energy: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 7
+										id: "sgjourney:transfer_crystal"
+										tag: {
+											TransferLimit: 150000L
+										}
+									}
+								]
+								Size: 9
+							}
+							energy_inventory: {
+								Items: [{
+									Count: 1b
+									Slot: 0
+									id: "sgjourney:fusion_core"
+								}]
+								Size: 2
+							}
+							id: "sgjourney:milky_way_dhd"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2B810B12311B5CC2"]
+			id: "4D12564C69E0B8B9"
+			tasks: [{
+				id: "6408059F4903732A"
+				item: {
+					Count: 1
+					id: "sgjourney:pegasus_dhd"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0L
+							Inventory: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 0
+										id: "sgjourney:large_control_crystal"
+									}
+									{
+										Count: 1b
+										Slot: 1
+										id: "sgjourney:advanced_energy_crystal"
+										tag: {
+											Energy: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 2
+										id: "sgjourney:advanced_communication_crystal"
+										tag: {
+											Frequency: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 3
+										id: "sgjourney:advanced_energy_crystal"
+										tag: {
+											Energy: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 6
+										id: "sgjourney:advanced_communication_crystal"
+										tag: {
+											Frequency: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 7
+										id: "sgjourney:advanced_transfer_crystal"
+										tag: {
+											TransferLimit: 2500000L
+										}
+									}
+								]
+								Size: 9
+							}
+							energy_inventory: {
+								Items: [{
+									Count: 1b
+									Slot: 0
+									id: "sgjourney:fusion_core"
+								}]
+								Size: 2
+							}
+							id: "sgjourney:pegasus_dhd"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2B810B12311B5CC2"]
+			id: "0E24767D77057208"
+			subtitle: "Автоматическое управление"
+			tasks: [{
+				id: "00EA6123F86F2847"
+				item: "sgjourney:basic_interface"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0E24767D77057208"]
+			id: "41CD2BCB360EF099"
+			tasks: [{
+				id: "74EEAAC28F5455D7"
+				item: "sgjourney:crystal_interface"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["41CD2BCB360EF099"]
+			id: "200087F6D4161898"
+			tasks: [{
+				id: "56FD83A4AC86ACB1"
+				item: "sgjourney:advanced_crystal_interface"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -9.0d
+		}
 	]
 	title: "Глава 4. Доминирование над природой"
 }
