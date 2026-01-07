@@ -1,5 +1,11 @@
 import os
 import shutil
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--skip", "-s",  help="skip check", default=False, required=False)
+args = parser.parse_args()
+
 
 print('installer started...')
 source_path = './update/hyhrya_factory_config_repo-master/'
@@ -55,4 +61,6 @@ shutil.rmtree('./update')
 print('success')
 
 print('update check...')
-os.system('python check_update.py')
+
+if not args.skip:
+    os.system('python check_update.py')
