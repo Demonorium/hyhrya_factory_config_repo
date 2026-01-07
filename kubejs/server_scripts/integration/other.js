@@ -22,6 +22,10 @@ ServerEvents.recipes(event => {
   event.replaceInput({ mod: 'mffs' }, "redstone", 'pncepcb:crystal_clear_finished_pcb')
   event.replaceInput({ mod: 'mffs' }, "ender_pearl", 'mekanism_extras:cosmic_control_circuit')
   event.replaceInput({ id: 'undergarden:catalyst' }, 'dimaond', 'meetyourfight:phantoplasm')
+  event.replaceInput({ mod: 'wirelesschargers' }, 'iron_ingot', MATERIALS.STEEL.plate)
+  event.replaceInput({ mod: 'wirelesschargers' }, 'blaze_powder', 'mekanism:advanced_control_circuit')
+  event.replaceInput({ mod: 'wirelesschargers' }, 'redstone_block', 'thermal:machine_frame')
+  event.replaceInput({ mod: 'wirelesschargers' }, 'gold_ingot', 'mekanism:ultimate_control_circuit')
 
 })
 
