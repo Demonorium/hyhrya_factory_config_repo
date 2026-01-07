@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:metasilicic_acid",
+        "fluid": "kubejs:niobium_carbide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:metasilicic_acid",
+        "fluid": "kubejs:niobium_carbide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:metasilicic_acid",
+        "gas": "kubejs:niobium_carbide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:metasilicic_acid",
+        "gas": "kubejs:niobium_carbide",
         "amount": 1.0
     }
 }

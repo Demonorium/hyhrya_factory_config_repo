@@ -7,11 +7,11 @@
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "moremekanismprocessing:clump_silver"
+            "item": "moremekanismprocessing:clump_apatite"
         }
     },
     "output": {
-        "slurry": "moremekanismprocessing:dirty_silver",
+        "slurry": "moremekanismprocessing:dirty_apatite",
         "amount": 900.0,
         "chemicalType": "slurry"
     }

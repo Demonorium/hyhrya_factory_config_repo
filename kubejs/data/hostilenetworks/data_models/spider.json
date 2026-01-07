@@ -10,7 +10,8 @@
         "spidermod:orbweaver",
         "spidermod:old_huntsman",
         "spidermod:baby_huntsman",
-        "spidermod:house_spider"
+        "spidermod:house_spider",
+        "opposing_force:pale_spider"
     ],
     "name": "entity.minecraft.spider",
     "name_color": "#322B26",
@@ -18,7 +19,7 @@
     "gui_x_offset": 0,
     "gui_y_offset": 0,
     "gui_z_offset": 0,
-    "sim_cost": 10240,
+    "sim_cost": 4096,
     "input": {
         "item": "hostilenetworks:prediction_matrix"
     },
@@ -54,6 +55,10 @@
         {
             "item": "spidermod:golden_string",
             "count": 1
+        },
+        {
+            "item": "silentgear:fine_silk",
+            "count": 3
         }
     ]
 }

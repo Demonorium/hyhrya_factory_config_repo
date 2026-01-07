@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:livermorium",
+        "fluid": "kubejs:rhodium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:livermorium",
+        "fluid": "kubejs:rhodium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:livermorium",
+        "gas": "kubejs:rhodium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:livermorium",
+        "gas": "kubejs:rhodium",
         "amount": 1.0
     }
 }

@@ -1,0 +1,63 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "cataclysm"
+		}
+	],
+    "entity": "cataclysm:deepling_priest",
+	"variants": [
+		"cataclysm:deepling_priest",
+		"cataclysm:deepling_warlock",
+		"cataclysm:deepling_angler",
+		"cataclysm:deepling_brute"
+		],
+    "name": "entity.cataclysm.deepling_priest",
+    "name_color": "#A21dA2",
+    "gui_scale": 0.6,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 2880,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.coral_golem_cataclysm",
+    "fabricator_drops": [
+		{
+            "item": "cataclysm:athame",
+            "count": 1
+        },
+		{
+            "item": "cataclysm:coral_spear",
+            "count": 1
+        },
+		{
+            "item": "cataclysm:coral_bardiche",
+            "count": 1
+        },
+		{
+            "item": "minecraft:nautilus_shell",
+            "count": 4
+        },
+		{
+            "item": "cataclysm:lionfish",
+            "count": 16
+        }
+    ],
+	"tier_data": [
+		96,
+        384,
+        1536,
+        6144
+    ],
+    "data_per_kill": [
+        24,
+        48,
+        96,
+        192
+    ]
+}

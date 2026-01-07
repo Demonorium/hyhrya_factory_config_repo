@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:livermorium"
+            "item": "chemlib:rhodium_dust"
         }
     },
     "output": {
-        "gas": "kubejs:livermorium",
+        "gas": "kubejs:rhodium",
         "amount": 200
     }
 }

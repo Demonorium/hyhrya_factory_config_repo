@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:cobalt_carbonate_dust"
+            "item": "chemlib:nitrate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:cobalt_carbonate",
+        "gas": "kubejs:nitrate",
         "amount": 200
     }
 }

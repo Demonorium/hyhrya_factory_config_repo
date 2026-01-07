@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:propane"
+            "item": "chemlib:terbium_dust"
         }
     },
     "output": {
-        "gas": "kubejs:propane",
+        "gas": "kubejs:terbium",
         "amount": 200
     }
 }

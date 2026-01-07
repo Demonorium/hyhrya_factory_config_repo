@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:cesium_sulfate_dust"
+            "item": "minecraft:sugar"
         }
     },
     "output": {
-        "gas": "kubejs:cesium_sulfate",
+        "gas": "kubejs:sucrose",
         "amount": 200
     }
 }

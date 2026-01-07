@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:urea",
+        "fluid": "kubejs:samarium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:urea",
+        "fluid": "kubejs:samarium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:urea",
+        "gas": "kubejs:samarium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:urea",
+        "gas": "kubejs:samarium",
         "amount": 1.0
     }
 }

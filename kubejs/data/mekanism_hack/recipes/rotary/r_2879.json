@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:nickel_sulfate",
+        "fluid": "kubejs:hydroxylapatite",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:nickel_sulfate",
+        "fluid": "kubejs:hydroxylapatite",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:nickel_sulfate",
+        "gas": "kubejs:hydroxylapatite",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:nickel_sulfate",
+        "gas": "kubejs:hydroxylapatite",
         "amount": 1.0
     }
 }

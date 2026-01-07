@@ -7,12 +7,6 @@ const WEAPONS = [
 		static_trade: false,
 	},
 	{
-		id: "superbwarfare:homemade_shotgun_blueprint",
-		price: 64,
-		price_mod: 5,
-		static_trade: false,
-	},
-	{
 		id: "superbwarfare:marlin_blueprint",
 		price: 64,
 		price_mod: 3,

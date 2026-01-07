@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:nitric_oxide"
+            "item": "chemlib:graphite_dust"
         }
     },
     "output": {
-        "gas": "mekanismelements:nitric_oxide",
+        "gas": "kubejs:graphite",
         "amount": 200
     }
 }

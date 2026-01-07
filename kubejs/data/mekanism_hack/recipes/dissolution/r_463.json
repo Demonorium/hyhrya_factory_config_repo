@@ -2,17 +2,17 @@
     "type": "mekanism:dissolution",
     "gasInput": {
         "gas": "mekanismelements:nitric_acid",
-        "amount": 2.0
+        "amount": 18.0
     },
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "moremekanismprocessing:clump_ruby"
+            "item": "silentgear:raw_crimson_iron_block"
         }
     },
     "output": {
-        "slurry": "moremekanismprocessing:dirty_ruby",
-        "amount": 600.0,
+        "slurry": "moremekanismprocessing:dirty_crimson_iron",
+        "amount": 6000.0,
         "chemicalType": "slurry"
     }
 }

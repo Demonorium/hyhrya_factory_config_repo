@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:unknown",
+        "fluid": "kubejs:sodium_hypochlorite",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:unknown",
+        "fluid": "kubejs:sodium_hypochlorite",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:unknown",
+        "gas": "kubejs:sodium_hypochlorite",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:unknown",
+        "gas": "kubejs:sodium_hypochlorite",
         "amount": 1.0
     }
 }

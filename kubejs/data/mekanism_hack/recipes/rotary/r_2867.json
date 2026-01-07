@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:strontium_sulfate",
+        "fluid": "kubejs:calcium_carbonate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:strontium_sulfate",
+        "fluid": "kubejs:calcium_carbonate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:strontium_sulfate",
+        "gas": "kubejs:calcium_carbonate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:strontium_sulfate",
+        "gas": "kubejs:calcium_carbonate",
         "amount": 1.0
     }
 }

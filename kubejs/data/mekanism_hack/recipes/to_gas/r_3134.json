@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:niobium_pentoxide_dust"
+            "item": "chemlib:iron_ii_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:niobium_pentoxide",
+        "gas": "kubejs:iron_ii_oxide",
         "amount": 200
     }
 }

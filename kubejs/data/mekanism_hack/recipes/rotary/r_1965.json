@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:lutetium",
+        "fluid": "kubejs:magnesium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:lutetium",
+        "fluid": "kubejs:magnesium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:lutetium",
+        "gas": "kubejs:magnesium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:lutetium",
+        "gas": "kubejs:magnesium",
         "amount": 1.0
     }
 }

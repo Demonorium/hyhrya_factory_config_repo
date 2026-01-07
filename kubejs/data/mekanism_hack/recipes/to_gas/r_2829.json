@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:copper_carbonate_dust"
+            "item": "chemlib:aluminum_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:copper_carbonate",
+        "gas": "kubejs:aluminum_oxide",
         "amount": 200
     }
 }

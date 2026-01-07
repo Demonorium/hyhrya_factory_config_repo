@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:acetic_anhydride"
+            "item": "chemlib:iron_disulfide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:acetic_anhydride",
+        "gas": "kubejs:iron_disulfide",
         "amount": 200
     }
 }

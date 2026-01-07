@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:beryllium_sulfate_dust"
+            "item": "chemlib:carbonate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:beryllium_sulfate",
+        "gas": "kubejs:carbonate",
         "amount": 200
     }
 }

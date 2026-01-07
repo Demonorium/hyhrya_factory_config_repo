@@ -19,8 +19,6 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: 'biomancy:bio_forging/digester' }, 'biomancy:bone_fragments', 'pncepcb:bio_compatible_finished_pcb')
     event.replaceInput({ id: 'biomancy:bio_forging/bio_lab' }, 'c:fangs', 'pncepcb:bio_compatible_finished_pcb')
 
-
-
     event.shaped(
         Item.of("kubejs:empty_injection"),
         [
@@ -34,7 +32,7 @@ ServerEvents.recipes(event => {
             C: MATERIALS.PALLADIUM.nugget
         }
     )
-
+    
     event.custom({
         "type": "biomancy:bio_brewing",
         "ingredients": [
@@ -76,7 +74,7 @@ ServerEvents.recipes(event => {
             "item": 'kubejs:nanomachines'
         }
     })
-
+    
     event.custom({
         "type": "biomancy:bio_brewing",
         "ingredients": [

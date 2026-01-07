@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:dust_fluorite"
+            "item": "chemlib:nitric_acid"
         }
     },
     "output": {
-        "gas": "kubejs:calcium_fluoride",
+        "gas": "mekanismelements:nitric_acid",
         "amount": 200
     }
 }

@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:maleic_anhydride",
+        "fluid": "kubejs:nickel_carbonate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:maleic_anhydride",
+        "fluid": "kubejs:nickel_carbonate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:maleic_anhydride",
+        "gas": "kubejs:nickel_carbonate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:maleic_anhydride",
+        "gas": "kubejs:nickel_carbonate",
         "amount": 1.0
     }
 }

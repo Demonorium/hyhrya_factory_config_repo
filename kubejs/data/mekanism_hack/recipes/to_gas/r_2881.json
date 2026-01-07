@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:nickel_sulfate_dust"
+            "item": "chemlib:hydroxylapatite"
         }
     },
     "output": {
-        "gas": "kubejs:nickel_sulfate",
+        "gas": "kubejs:hydroxylapatite",
         "amount": 200
     }
 }

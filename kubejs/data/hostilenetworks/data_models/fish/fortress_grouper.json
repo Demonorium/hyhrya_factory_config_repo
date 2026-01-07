@@ -3,7 +3,7 @@
     "variants": [],
     "name": "entity.netherdepthsupgrade.fortressgrouper",
     "name_color": "#1D0D10",
-    "gui_scale": 1.0,
+    "gui_scale": 0.5,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,

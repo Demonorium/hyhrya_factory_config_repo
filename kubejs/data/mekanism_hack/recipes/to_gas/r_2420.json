@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:methane"
+            "item": "chemlib:gadolinium_dust"
         }
     },
     "output": {
-        "gas": "mekanismelements:methane",
+        "gas": "kubejs:gadolinium",
         "amount": 200
     }
 }

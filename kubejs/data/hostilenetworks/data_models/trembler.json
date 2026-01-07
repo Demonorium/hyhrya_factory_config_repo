@@ -1,0 +1,37 @@
+{
+  "entity": "opposing_force:trembler",
+  "name": "entity.opposing_force.trembler",
+  "name_color": "#2F4F4F",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 5120,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix",
+    "count": 1
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction",
+    "count": 1
+  },
+  "trivia": "hnn_opposing_force.trivia.trembler",
+  "fabricator_drops": [
+    {
+      "item": "opposing_force:trembler_shell",
+      "count": 8
+    }
+  ],
+  "tier_data": [
+    6,
+    54,
+    354,
+    1254
+  ],
+  "data_per_kill": [
+    1,
+    4,
+    10,
+    18
+  ]
+}

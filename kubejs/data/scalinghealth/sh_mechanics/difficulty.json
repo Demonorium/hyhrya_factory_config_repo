@@ -67,7 +67,13 @@
 	    {
         "scale" : 4.0,
         "dimensions" : [
-          "macabre:the_pit", "macabre:limbo", "deeperdarker:otherside"
+          "deeperdarker:otherside"
+        ]
+      },
+	    {
+        "scale" : 6.5,
+        "dimensions" : [
+          "macabre:the_pit", "macabre:limbo"
         ]
       }
     ]

@@ -138,7 +138,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2750.5,
 		matter_state: "solid",
-		combustion: 760.44,
+		combustion: 945.0,
 	},
 	{
 		id: "vanadium",
@@ -148,7 +148,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2931.5,
 		matter_state: "solid",
-		combustion: 775.3,
+		combustion: 609.4,
 	},
 	{
 		id: "chromium",
@@ -158,7 +158,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2562.0,
 		matter_state: "solid",
-		combustion: 589.3,
+		combustion: 564.0,
 	},
 	{
 		id: "manganese",
@@ -1068,7 +1068,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 136.75,
 		matter_state: "gas",
-		combustion: 740.1899999999999,
+		combustion: 519.1899999999999,
 	},
 	{
 		id: "cellulose",
@@ -1728,7 +1728,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1470.0,
 		matter_state: "solid",
-		combustion: 196.41,
+		combustion: 819.6,
 	},
 	{
 		id: "zinc_sulfide",
@@ -1738,7 +1738,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1534.45,
 		matter_state: "solid",
-		combustion: 92.21000000000001,
+		combustion: 778.4,
 	},
 	{
 		id: "iron_disulfide",
@@ -1858,7 +1858,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 200.64999999999998,
 		matter_state: "gas",
-		combustion: 660.53,
+		combustion: 264.83,
 	},
 	{
 		id: "acetylene",
@@ -1888,7 +1888,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1365.5,
 		matter_state: "solid",
-		combustion: 448.94999999999993,
+		combustion: 208.95,
 	},
 	{
 		id: "antimony_trisulfide",

@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:sodium_sulfite",
+        "fluid": "kubejs:thallium_iii_oxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:sodium_sulfite",
+        "fluid": "kubejs:thallium_iii_oxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:sodium_sulfite",
+        "gas": "kubejs:thallium_iii_oxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:sodium_sulfite",
+        "gas": "kubejs:thallium_iii_oxide",
         "amount": 1.0
     }
 }

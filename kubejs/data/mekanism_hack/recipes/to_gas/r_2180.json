@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:californium"
+            "item": "chemlib:strontium_dust"
         }
     },
     "output": {
-        "gas": "kubejs:californium",
+        "gas": "mekanismelements:strontium",
         "amount": 200
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:chalcopyrite_dust"
+            "item": "chemlib:carbon_monoxide"
         }
     },
     "output": {
-        "gas": "kubejs:chalcopyrite",
+        "gas": "kubejs:carbon_monoxide",
         "amount": 200
     }
 }

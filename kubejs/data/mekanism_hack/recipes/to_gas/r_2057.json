@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:thallium_dust"
+            "item": "chemlib:vanadium_dust"
         }
     },
     "output": {
-        "gas": "kubejs:thallium",
+        "gas": "kubejs:vanadium",
         "amount": 200
     }
 }

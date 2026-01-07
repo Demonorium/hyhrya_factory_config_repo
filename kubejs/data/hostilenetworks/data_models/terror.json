@@ -1,0 +1,41 @@
+{
+  "entity": "opposing_force:terror",
+  "name": "entity.opposing_force.terror",
+  "name_color": "#270A20",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.2,
+  "gui_z_offset": 0.0,
+  "sim_cost": 8196,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix",
+    "count": 1
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction",
+    "count": 1
+  },
+  "trivia": "hnn_opposing_force.trivia.terror",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:cod",
+      "count": 32
+    },
+    {
+      "item": "minecraft:prismarine_crystals",
+      "count": 4
+    }
+  ],
+  "tier_data": [
+    6,
+    54,
+    354,
+    1254
+  ],
+  "data_per_kill": [
+    1,
+    4,
+    10,
+    18
+  ]
+}

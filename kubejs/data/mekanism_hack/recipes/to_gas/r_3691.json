@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:unknown"
+            "item": "chemlib:sodium_hypochlorite"
         }
     },
     "output": {
-        "gas": "kubejs:unknown",
+        "gas": "kubejs:sodium_hypochlorite",
         "amount": 200
     }
 }

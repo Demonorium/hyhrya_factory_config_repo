@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:lutetium_dust"
+            "item": "moremekanismprocessing:dust_magnesium"
         }
     },
     "output": {
-        "gas": "kubejs:lutetium",
+        "gas": "kubejs:magnesium",
         "amount": 200
     }
 }

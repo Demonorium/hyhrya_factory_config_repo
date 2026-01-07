@@ -1,18 +1,18 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "mekanismelements:aqua_regia",
-        "amount": 3.0
+        "gas": "mekanism:sulfuric_acid",
+        "amount": 2.0
     },
     "itemInput": {
-        "amount": 3.0,
+        "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:raw_tin"
+            "item": "moremekanismprocessing:clump_niter"
         }
     },
     "output": {
-        "slurry": "mekanism:dirty_tin",
-        "amount": 3000.0,
+        "slurry": "moremekanismprocessing:dirty_niter",
+        "amount": 600.0,
         "chemicalType": "slurry"
     }
 }

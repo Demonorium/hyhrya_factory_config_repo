@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:potassium_nitrite",
+        "fluid": "kubejs:calcium_oxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:potassium_nitrite",
+        "fluid": "kubejs:calcium_oxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:potassium_nitrite",
+        "gas": "kubejs:calcium_oxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:potassium_nitrite",
+        "gas": "kubejs:calcium_oxide",
         "amount": 1.0
     }
 }

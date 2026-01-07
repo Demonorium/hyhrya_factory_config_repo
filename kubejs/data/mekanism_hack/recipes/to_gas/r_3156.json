@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:hydrazine"
+            "item": "chemlib:ammonia"
         }
     },
     "output": {
-        "gas": "kubejs:hydrazine",
+        "gas": "mekanismelements:ammonia",
         "amount": 200
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "minecraft:prismarine_shard"
+            "item": "chemlib:magnesium_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:zinc_carbonate",
+        "gas": "kubejs:magnesium_oxide",
         "amount": 200
     }
 }

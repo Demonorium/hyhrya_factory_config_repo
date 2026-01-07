@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:bismuth_hydroxide",
+        "fluid": "kubejs:niobium_oxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:bismuth_hydroxide",
+        "fluid": "kubejs:niobium_oxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:bismuth_hydroxide",
+        "gas": "kubejs:niobium_oxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:bismuth_hydroxide",
+        "gas": "kubejs:niobium_oxide",
         "amount": 1.0
     }
 }

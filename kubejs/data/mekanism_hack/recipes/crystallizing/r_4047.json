@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:antimony_pentachloride",
+        "amount": 100
+    },
+    "output": {
+        "item": "chemlib:antimony_pentachloride",
+        "count": 1.0
+    }
+}

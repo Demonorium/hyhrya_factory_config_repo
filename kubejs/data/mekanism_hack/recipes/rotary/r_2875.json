@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:cobalt_sulfate",
+        "fluid": "kubejs:hydroxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:cobalt_sulfate",
+        "fluid": "kubejs:hydroxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:cobalt_sulfate",
+        "gas": "kubejs:hydroxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:cobalt_sulfate",
+        "gas": "kubejs:hydroxide",
         "amount": 1.0
     }
 }

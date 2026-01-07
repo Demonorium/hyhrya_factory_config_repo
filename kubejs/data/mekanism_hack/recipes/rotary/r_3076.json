@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:lead_dioxide",
+        "fluid": "kubejs:calcium_hydroxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:lead_dioxide",
+        "fluid": "kubejs:calcium_hydroxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:lead_dioxide",
+        "gas": "kubejs:calcium_hydroxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:lead_dioxide",
+        "gas": "kubejs:calcium_hydroxide",
         "amount": 1.0
     }
 }

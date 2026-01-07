@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:antimony_pentachloride"
+            "item": "chemlib:carbon_disulfide"
         }
     },
     "output": {
-        "gas": "kubejs:antimony_pentachloride",
+        "gas": "kubejs:carbon_disulfide",
         "amount": 200
     }
 }

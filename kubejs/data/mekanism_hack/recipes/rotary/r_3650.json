@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:bismuth_iii_oxide",
+        "fluid": "kubejs:tungsten_carbide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:bismuth_iii_oxide",
+        "fluid": "kubejs:tungsten_carbide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:bismuth_iii_oxide",
+        "gas": "kubejs:tungsten_carbide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:bismuth_iii_oxide",
+        "gas": "kubejs:tungsten_carbide",
         "amount": 1.0
     }
 }

@@ -2,11 +2,11 @@
     "type": "mekanism:crystallizing",
     "chemicalType": "slurry",
     "input": {
-        "slurry": "moremekanismprocessing:clean_silver",
+        "slurry": "moremekanismprocessing:clean_apatite",
         "amount": 200
     },
     "output": {
-        "item": "moremekanismprocessing:crystal_silver",
+        "item": "moremekanismprocessing:crystal_apatite",
         "count": 1.0
     }
 }

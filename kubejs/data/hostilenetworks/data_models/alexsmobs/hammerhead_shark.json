@@ -1,0 +1,29 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "alexsmobs"
+		}
+	],
+    "entity": "alexsmobs:hammerhead_shark",
+    "name": "entity.alexsmobs.hammerhead_shark",
+    "name_color": "#434554",
+    "gui_scale": 0.7,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 960,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.hammerhead_shark",
+    "fabricator_drops": [
+        {
+            "item": "alexsmobs:shark_tooth",
+            "count": 1
+        }
+    ]
+}

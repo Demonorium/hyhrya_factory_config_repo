@@ -2,11 +2,11 @@
     "type": "mekanism:crystallizing",
     "chemicalType": "gas",
     "input": {
-        "gas": "kubejs:hydrazine",
+        "gas": "mekanismelements:ammonia",
         "amount": 100
     },
     "output": {
-        "item": "chemlib:hydrazine",
+        "item": "chemlib:ammonia",
         "count": 1.0
     }
 }

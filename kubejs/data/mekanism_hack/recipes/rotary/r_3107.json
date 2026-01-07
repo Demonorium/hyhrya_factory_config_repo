@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:lead_antimonate",
+        "fluid": "kubejs:lead_sulfide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:lead_antimonate",
+        "fluid": "kubejs:lead_sulfide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:lead_antimonate",
+        "gas": "kubejs:lead_sulfide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:lead_antimonate",
+        "gas": "kubejs:lead_sulfide",
         "amount": 1.0
     }
 }

@@ -1,12 +1,12 @@
 {
     "type": "mekanism:crystallizing",
-    "chemicalType": "gas",
+    "chemicalType": "slurry",
     "input": {
-        "gas": "kubejs:argon",
-        "amount": 100
+        "slurry": "mekanism:clean_tin",
+        "amount": 200
     },
     "output": {
-        "item": "chemlib:argon",
+        "item": "mekanism:crystal_tin",
         "count": 1.0
     }
 }

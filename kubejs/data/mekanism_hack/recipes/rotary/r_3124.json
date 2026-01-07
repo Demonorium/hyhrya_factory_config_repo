@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:thallium_iii_oxide",
+        "fluid": "kubejs:manganese_oxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:thallium_iii_oxide",
+        "fluid": "kubejs:manganese_oxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:thallium_iii_oxide",
+        "gas": "kubejs:manganese_oxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:thallium_iii_oxide",
+        "gas": "kubejs:manganese_oxide",
         "amount": 1.0
     }
 }

@@ -1,18 +1,18 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "mekanismelements:aqua_regia",
-        "amount": 3.0
+        "gas": "mekanismelements:nitric_acid",
+        "amount": 2.0
     },
     "itemInput": {
-        "amount": 3.0,
+        "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:raw_uranium"
+            "tag": "forge:ores/coal"
         }
     },
     "output": {
-        "slurry": "mekanism:dirty_uranium",
-        "amount": 3000.0,
+        "slurry": "moremekanismprocessing:dirty_coal",
+        "amount": 1200.0,
         "chemicalType": "slurry"
     }
 }

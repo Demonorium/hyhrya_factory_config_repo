@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:bismuth_hydroxide_dust"
+        }
+    },
+    "output": {
+        "gas": "kubejs:bismuth_hydroxide",
+        "amount": 200
+    }
+}

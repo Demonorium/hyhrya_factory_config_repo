@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:titanium_tetrachloride",
+        "fluid": "kubejs:potassium_oxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:titanium_tetrachloride",
+        "fluid": "kubejs:potassium_oxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:titanium_tetrachloride",
+        "gas": "kubejs:potassium_oxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:titanium_tetrachloride",
+        "gas": "kubejs:potassium_oxide",
         "amount": 1.0
     }
 }

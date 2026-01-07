@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:yttrium_iii_oxide_dust"
+            "item": "chemlib:iron_iii_nitrate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:yttrium_iii_oxide",
+        "gas": "kubejs:iron_iii_nitrate",
         "amount": 200
     }
 }

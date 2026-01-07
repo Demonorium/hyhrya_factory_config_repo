@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:nickel_carbonate_dust"
+            "item": "thermal:niter_dust"
         }
     },
     "output": {
-        "gas": "kubejs:nickel_carbonate",
+        "gas": "kubejs:potassium_nitrate",
         "amount": 200
     }
 }

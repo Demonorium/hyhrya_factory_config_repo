@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:vanadium_carbide",
+        "fluid": "kubejs:aluminum_carbonate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:vanadium_carbide",
+        "fluid": "kubejs:aluminum_carbonate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:vanadium_carbide",
+        "gas": "kubejs:aluminum_carbonate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:vanadium_carbide",
+        "gas": "kubejs:aluminum_carbonate",
         "amount": 1.0
     }
 }

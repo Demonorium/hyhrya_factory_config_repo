@@ -170,6 +170,21 @@ ServerEvents.recipes(event => {
     )
 
     event.remove({ id: 'mekanism_extras:naquadah_reactor/casing' })
+    event.remove({ id: 'mekanism:antiprotonic_nucleosynthesizer' })
+    event.shaped(
+        Item.of('mekanism_extras:naquadah_reactor_casing', 1),
+        [
+            'ACA',
+            'CBC',
+            'ACA'
+        ],
+        {
+            A: Item.of('mekanism:pellet_antimatter'),
+            B: Item.of('bfr:fusion_reactor_frame'),
+            C: Item.of('sgjourney:naquadah_alloy')
+        }
+    )
+
     event.custom({
         "type": "mekanism:nucleosynthesizing",
         "duration": 3000,

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:urea_dust"
+            "item": "chemlib:samarium_dust"
         }
     },
     "output": {
-        "gas": "kubejs:urea",
+        "gas": "kubejs:samarium",
         "amount": 200
     }
 }

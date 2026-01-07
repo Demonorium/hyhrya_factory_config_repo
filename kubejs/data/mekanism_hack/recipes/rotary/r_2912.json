@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:sodium_nitrate",
+        "fluid": "kubejs:lead_iodide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:sodium_nitrate",
+        "fluid": "kubejs:lead_iodide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:sodium_nitrate",
+        "gas": "kubejs:lead_iodide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:sodium_nitrate",
+        "gas": "kubejs:lead_iodide",
         "amount": 1.0
     }
 }

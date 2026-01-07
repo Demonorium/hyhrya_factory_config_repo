@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:astatine",
+        "fluid": "kubejs:iron",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:astatine",
+        "fluid": "kubejs:iron",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:astatine",
+        "gas": "kubejs:iron",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:astatine",
+        "gas": "kubejs:iron",
         "amount": 1.0
     }
 }

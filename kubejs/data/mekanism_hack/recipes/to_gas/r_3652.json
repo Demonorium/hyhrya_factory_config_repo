@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:bismuth_iii_oxide_dust"
+            "item": "chemlib:tungsten_carbide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:bismuth_iii_oxide",
+        "gas": "kubejs:tungsten_carbide",
         "amount": 200
     }
 }

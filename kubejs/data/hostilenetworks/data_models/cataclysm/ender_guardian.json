@@ -1,0 +1,41 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "cataclysm"
+		}
+	],
+    "entity": "cataclysm:ender_guardian",
+    "name": "entity.cataclysm.ender_guardian",
+    "name_color": "#FF20FF",
+    "gui_scale": 0.2,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 2880,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:end_prediction"
+    },
+	"trivia": "custom.trivia.the_leviathan",
+    "fabricator_drops": [
+		{
+            "item": "cataclysm:gauntlet_of_guard",
+            "count": 1
+        }
+    ],
+	"tier_data": [
+		120,
+        384,
+        1536,
+        6144
+    ],
+    "data_per_kill": [
+        120,
+        192,
+        96,
+        48
+    ]
+}

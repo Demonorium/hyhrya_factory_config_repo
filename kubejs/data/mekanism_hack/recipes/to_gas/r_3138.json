@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:niobium_carbide_dust"
+            "item": "chemlib:sulfuric_acid"
         }
     },
     "output": {
-        "gas": "kubejs:niobium_carbide",
+        "gas": "mekanism:sulfuric_acid",
         "amount": 200
     }
 }

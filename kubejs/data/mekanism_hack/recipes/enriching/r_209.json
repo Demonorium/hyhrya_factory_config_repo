@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "ad_astra:raw_ostrum"
+            "item": "mekanism:dirty_dust_uranium"
         }
     },
     "output": {
-        "item": "moremekanismprocessing:dust_ostrum",
-        "count": 12.0
+        "item": "mekanism:dust_uranium",
+        "count": 1.0
     }
 }

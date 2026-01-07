@@ -1,0 +1,26 @@
+{
+    "entity": "undergarden:rotbeast",
+    "variants": [],
+    "name": "entity.undergarden.rotbeast",
+    "name_color": "#AD4343",
+    "gui_scale": 0.8,
+    "gui_x_offset": 0.0,
+    "gui_y_offset": 0.0,
+    "gui_z_offset": 0.0,
+    "sim_cost": 4096,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "kubejs:undergarden_prediction",
+        "count": 1.0
+    },
+    "trivia": "hostilenetworks.trivia.rotbeast",
+    "fabricator_drops": [
+        {
+            "item": "undergarden:utheric_shard",
+            "count": 64.0
+        }
+    ]
+}

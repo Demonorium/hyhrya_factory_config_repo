@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:yttrium_iii_nitrate_dust"
+            "item": "chemlib:manganese_nitrate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:yttrium_iii_nitrate",
+        "gas": "kubejs:manganese_nitrate",
         "amount": 200
     }
 }

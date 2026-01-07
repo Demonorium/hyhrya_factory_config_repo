@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:ferrosilite",
+        "fluid": "kubejs:acetic_acid",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:ferrosilite",
+        "fluid": "kubejs:acetic_acid",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:ferrosilite",
+        "gas": "kubejs:acetic_acid",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:ferrosilite",
+        "gas": "kubejs:acetic_acid",
         "amount": 1.0
     }
 }

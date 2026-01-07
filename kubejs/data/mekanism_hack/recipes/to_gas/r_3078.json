@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:lead_dioxide_dust"
+            "item": "chemlib:calcium_hydroxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:lead_dioxide",
+        "gas": "kubejs:calcium_hydroxide",
         "amount": 200
     }
 }

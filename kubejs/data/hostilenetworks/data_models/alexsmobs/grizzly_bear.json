@@ -1,0 +1,37 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "alexsmobs"
+		}
+	],
+    "entity": "alexsmobs:grizzly_bear",
+	"variants": [
+		"buzzier_bees:grizzly_bear"
+	],
+    "name": "entity.alexsmobs.grizzly_bear",
+    "name_color": "#523727",
+    "gui_scale": 0.7,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 1280,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.grizzly_bear",
+    "fabricator_drops": [
+        {
+            "item": "alexsmobs:bear_fur",
+            "count": 16
+        },
+        {
+            "optional": true,
+            "item": "hexerei:animal_fat",
+            "count": 24
+        }
+    ]
+}

@@ -544,4 +544,8 @@ const ITEMS_TO_REPLACE = [
 		from: "superbwarfare:propeller",
 		to: "pneumaticcraft:turbine_rotor",
 	},
+	{
+		from: "philipsruins:broken_bone",
+		to: "macabre:cracking_bone",
+	},
 ]
