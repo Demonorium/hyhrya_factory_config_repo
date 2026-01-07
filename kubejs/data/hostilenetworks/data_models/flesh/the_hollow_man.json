@@ -1,0 +1,71 @@
+{
+    "entity": "macabre:the_hollow_man",
+    "variants": [
+    ],
+    "name": "entity.macabre.the_hollow_man",
+    "name_color": "#DF879A",
+    "gui_scale": 0.7,
+    "gui_x_offset": 0.0,
+    "gui_y_offset": 0.0,
+    "gui_z_offset": 0.0,
+    "sim_cost": 128536,
+    "input": {
+        "item": "biomancy:living_flesh",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "kubejs:flesh_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.the_hollow_man",
+    "fabricator_drops": [
+        {
+            "item": "macabre:rootofinfestation",
+            "count": 8
+        },
+        {
+            "item": "macabre:heart",
+            "count": 24
+        },
+        {
+            "item": "macabre:kidneys",
+            "count": 24
+        },
+        {
+            "item": "macabre:lungs",
+            "count": 24
+        },
+        {
+            "item": "macabre:raw_blood_clot",
+            "count": 12
+        },
+        {
+            "item": "macabre:intestines",
+            "count": 16
+        },
+        {
+            "item": "macabre:skin_tissue",
+            "count": 16
+        },
+        {
+            "item": "macabre:bone",
+            "count": 16
+        },
+        {
+            "item": "macabre:brain",
+            "count": 8
+        },
+        {
+            "item": "macabre:liver",
+            "count": 8
+        },
+        {
+            "item": "macabre:flesh",
+            "count": 8
+        },
+        {
+            "item": "macabre:intestines",
+            "count": 3
+        }
+    ]
+}

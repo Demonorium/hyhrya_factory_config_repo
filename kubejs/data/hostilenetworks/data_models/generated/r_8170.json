@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:minnow",
+    "entity": "aquaculture:gar",
     "variants": [],
-    "name": "entity.aquaculture.minnow",
-    "name_color": "#5892D3",
+    "name": "entity.aquaculture.gar",
+    "name_color": "#5792D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.minnow",
+    "trivia": "hostilenetworks.trivia.gar",
     "fabricator_drops": [
         {
-            "item": "aquaculture:minnow",
+            "item": "aquaculture:gar",
             "count": 32.0
         },
         {

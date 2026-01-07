@@ -546,6 +546,6 @@ const ITEMS_TO_REPLACE = [
 	},
 	{
 		from: "philipsruins:broken_bone",
-		to: "macabre:cracking_bone",
+		to: "macabre:bone",
 	},
 ]

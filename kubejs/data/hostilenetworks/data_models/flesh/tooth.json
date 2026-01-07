@@ -1,0 +1,29 @@
+{
+    "entity": "macabre:canine",
+    "variants": [
+        "macabre:molar",
+        "macabre:incisor"
+    ],
+    "name": "entity.macabre.observer",
+    "name_color": "#FFFFFF",
+    "gui_scale": 1.0,
+    "gui_x_offset": 0.0,
+    "gui_y_offset": 0.0,
+    "gui_z_offset": 0.0,
+    "sim_cost": 5120,
+    "input": {
+        "item": "biomancy:living_flesh",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "kubejs:flesh_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.observer",
+    "fabricator_drops": [
+        {
+            "item": "macabre:tooth",
+            "count": 32
+        }
+    ]
+}

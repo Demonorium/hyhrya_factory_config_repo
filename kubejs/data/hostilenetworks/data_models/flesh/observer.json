@@ -1,0 +1,36 @@
+{
+    "entity": "macabre:observer",
+    "variants": [
+        "macabre:veintree_mid",
+        "macabre:eyetree",
+        "macabre:eyebaloon",
+        "macabre:baloon_eye",
+        "macabre:witness"
+    ],
+    "name": "entity.macabre.observer",
+    "name_color": "#BAB7B8",
+    "gui_scale": 1.0,
+    "gui_x_offset": 0.0,
+    "gui_y_offset": 0.0,
+    "gui_z_offset": 0.0,
+    "sim_cost": 10256,
+    "input": {
+        "item": "biomancy:living_flesh",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "kubejs:flesh_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.observer",
+    "fabricator_drops": [
+        {
+            "item": "macabre:eye",
+            "count": 32
+        },
+        {
+            "item": "macabre:flesh",
+            "count": 8
+        }
+    ]
+}

@@ -3,17 +3,17 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism_extras:cosmic_control_circuit"
+            "item": "minecraft:redstone"
         }
     },
     "mainInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "sgjourney:advanced_crystal_base"
+            "item": "sgjourney:control_crystal"
         }
     },
     "output": {
-        "item": "sgjourney:advanced_control_crystal",
+        "item": "sgjourney:stargate_variant_crystal",
         "count": 1.0
     }
 }

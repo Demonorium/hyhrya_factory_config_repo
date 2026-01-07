@@ -8,19 +8,23 @@
     "results": [
         {
             "fluid": "thermal:heavy_oil",
-            "amount": 50.0
-        },
-        {
-            "fluid": "thermal:light_oil",
             "amount": 40.0
         },
         {
+            "fluid": "pneumaticcraft:diesel",
+            "amount": 20.0
+        },
+        {
+            "fluid": "thermal:light_oil",
+            "amount": 36.0
+        },
+        {
             "fluid": "pneumaticcraft:lpg",
-            "amount": 10.0
+            "amount": 4.0
         }
     ],
     "temperature": {
-        "min_temp": 373,
-        "max_temp": 773
+        "min_temp": 473,
+        "max_temp": 623
     }
 }

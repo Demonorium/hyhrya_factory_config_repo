@@ -1,0 +1,69 @@
+{
+    "entity": "macabre:stinger",
+    "variants": [
+        "macabre:crack",
+        "macabre:marauder"
+    ],
+    "name": "entity.macabre.observer",
+    "name_color": "#7E606C",
+    "gui_scale": 1.0,
+    "gui_x_offset": 0.0,
+    "gui_y_offset": 0.0,
+    "gui_z_offset": 0.0,
+    "sim_cost": 25664,
+    "input": {
+        "item": "biomancy:living_flesh",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "kubejs:flesh_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.observer",
+    "fabricator_drops": [
+        {
+            "item": "macabre:eye",
+            "count": 8
+        },
+        {
+            "item": "macabre:flesh",
+            "count": 16
+        },
+        {
+            "item": "macabre:kidneys",
+            "count": 16
+        },
+        {
+            "item": "macabre:skin_tissue",
+            "count": 8
+        },
+        {
+            "item": "macabre:liver",
+            "count": 16
+        },
+        {
+            "item": "macabre:bone",
+            "count": 32
+        },
+        {
+            "item": "macabre:lungs",
+            "count": 32
+        },
+        {
+            "item": "macabre:raw_blood_clot",
+            "count": 8
+        },
+        {
+            "item": "macabre:intestines",
+            "count": 8
+        },
+        {
+            "item": "macabre:gums_item",
+            "count": 8
+        },
+        {
+            "item": "macabre:brain",
+            "count": 8
+        }
+    ]
+}

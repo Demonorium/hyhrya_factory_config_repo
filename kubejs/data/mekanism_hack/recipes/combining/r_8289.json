@@ -3,7 +3,7 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism_extras:alloy_radiance"
+            "item": "ae2:spatial_cell_component_2"
         }
     },
     "mainInput": {
@@ -13,7 +13,7 @@
         }
     },
     "output": {
-        "item": "sgjourney:transfer_crystal",
+        "item": "sgjourney:materialization_crystal",
         "count": 1.0
     }
 }

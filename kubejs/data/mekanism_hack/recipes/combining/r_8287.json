@@ -3,7 +3,7 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "ae2:cell_component_1k"
+            "item": "mekanism_extras:supreme_control_circuit"
         }
     },
     "mainInput": {
@@ -13,7 +13,7 @@
         }
     },
     "output": {
-        "item": "sgjourney:memory_crystal",
+        "item": "sgjourney:control_crystal",
         "count": 1.0
     }
 }

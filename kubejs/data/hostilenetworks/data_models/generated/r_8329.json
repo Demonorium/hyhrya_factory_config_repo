@@ -1,8 +1,8 @@
 {
-    "entity": "alexsmobs:skreecher",
+    "entity": "deeperdarker:shattered",
     "variants": [],
-    "name": "entity.alexsmobs.skreecher",
-    "name_color": "#0BB5AC",
+    "name": "entity.deeperdarker.shattered",
+    "name_color": "#505F54",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "kubejs:sculk_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.skreecher",
+    "trivia": "hostilenetworks.trivia.shattered",
     "fabricator_drops": [
         {
-            "item": "alexsmobs:skreecher_soul",
+            "item": "deeperdarker:sculk_bone",
             "count": 32.0
         }
     ]

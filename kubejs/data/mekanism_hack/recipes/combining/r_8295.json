@@ -3,7 +3,7 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "sgjourney:materialization_crystal"
+            "item": "sgjourney:memory_crystal"
         }
     },
     "mainInput": {
@@ -13,7 +13,7 @@
         }
     },
     "output": {
-        "item": "sgjourney:advanced_materialization_crystal",
+        "item": "sgjourney:advanced_memory_crystal",
         "count": 1.0
     }
 }

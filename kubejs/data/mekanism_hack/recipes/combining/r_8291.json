@@ -3,17 +3,17 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism_extras:supreme_control_circuit"
+            "item": "ae2:charged_certus_quartz_crystal"
         }
     },
     "mainInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "sgjourney:control_crystal"
+            "item": "sgjourney:crystal_base"
         }
     },
     "output": {
-        "item": "sgjourney:large_control_crystal",
+        "item": "sgjourney:communication_crystal",
         "count": 1.0
     }
 }

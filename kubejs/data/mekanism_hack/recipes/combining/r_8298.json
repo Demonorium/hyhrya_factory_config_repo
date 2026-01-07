@@ -3,7 +3,7 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "ae2:charged_staff"
+            "item": "mekanism_extras:alloy_radiance"
         }
     },
     "mainInput": {
@@ -13,7 +13,7 @@
         }
     },
     "output": {
-        "item": "sgjourney:advanced_communication_crystal",
+        "item": "sgjourney:advanced_transfer_crystal",
         "count": 1.0
     }
 }
