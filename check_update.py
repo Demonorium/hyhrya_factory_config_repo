@@ -5,8 +5,8 @@ import zipfile
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-f", "--force", help="always update", default=False, required=False)
-parser.add_argument("-s", "--skip", help="skip install", default=False, required=False)
+parser.add_argument("force", "-f",  help="always update", default=False, required=False)
+parser.add_argument("skip", "-s",  help="skip install", default=False, required=False)
 args = parser.parse_args()
 
 with open('modpack_version.txt', mode='r', encoding='utf-8') as f:
@@ -35,7 +35,7 @@ upsteam_version = int(version_rq.text)
 if version >= upsteam_version:
     print('Версия репозитория:', upsteam_version)
     print('Текущая версия актуальна, обновление не требуется')
-    if not args.force or not args.skip:
+    if not args.force and not args.skip:
         if os.path.exists('settings.py') and not os.path.exists("modpack_settings.json"):
             print('Похоже это первый запуск с момента установки системы настройки сборки')
             text = '_'
