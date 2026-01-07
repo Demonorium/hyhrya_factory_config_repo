@@ -5,7 +5,7 @@
     ],
     "name": "entity.macabre.stagnant",
     "name_color": "#1B272E",
-    "gui_scale": 1.0,
+    "gui_scale": 0.6,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,

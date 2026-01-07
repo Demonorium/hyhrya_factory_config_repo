@@ -4,7 +4,7 @@
         "macabre:crack",
         "macabre:marauder"
     ],
-    "name": "entity.macabre.observer",
+    "name": "entity.macabre.stinger",
     "name_color": "#7E606C",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
@@ -19,7 +19,7 @@
         "item": "kubejs:flesh_prediction",
         "count": 1
     },
-    "trivia": "hostilenetworks.trivia.observer",
+    "trivia": "hostilenetworks.trivia.stinger",
     "fabricator_drops": [
         {
             "item": "macabre:eye",

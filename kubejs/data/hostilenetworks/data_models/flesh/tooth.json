@@ -4,9 +4,9 @@
         "macabre:molar",
         "macabre:incisor"
     ],
-    "name": "entity.macabre.observer",
+    "name": "entity.macabre.canine",
     "name_color": "#FFFFFF",
-    "gui_scale": 1.0,
+    "gui_scale": 0.6,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
@@ -19,7 +19,7 @@
         "item": "kubejs:flesh_prediction",
         "count": 1
     },
-    "trivia": "hostilenetworks.trivia.observer",
+    "trivia": "hostilenetworks.trivia.canine",
     "fabricator_drops": [
         {
             "item": "macabre:tooth",

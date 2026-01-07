@@ -9,7 +9,7 @@
     ],
     "name": "entity.macabre.observer",
     "name_color": "#BAB7B8",
-    "gui_scale": 1.0,
+    "gui_scale": 0.7,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
