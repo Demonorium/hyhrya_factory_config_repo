@@ -3,7 +3,7 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism_extras:alloy_radiance"
+            "item": "mekanism_extras:cosmic_control_circuit"
         }
     },
     "mainInput": {
@@ -13,7 +13,7 @@
         }
     },
     "output": {
-        "item": "sgjourney:advanced_transfer_crystal",
+        "item": "sgjourney:advanced_control_crystal",
         "count": 1.0
     }
 }

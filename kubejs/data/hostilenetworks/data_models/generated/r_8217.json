@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:tambaqui",
+    "entity": "aquaculture:muskellunge",
     "variants": [],
-    "name": "entity.aquaculture.tambaqui",
-    "name_color": "#6392D3",
+    "name": "entity.aquaculture.muskellunge",
+    "name_color": "#5992D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.tambaqui",
+    "trivia": "hostilenetworks.trivia.muskellunge",
     "fabricator_drops": [
         {
-            "item": "aquaculture:tambaqui",
+            "item": "aquaculture:muskellunge",
             "count": 32.0
         },
         {

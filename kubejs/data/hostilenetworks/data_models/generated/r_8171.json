@@ -1,13 +1,13 @@
 {
-    "entity": "undergarden:rotwalker",
+    "entity": "undergarden:gloomper",
     "variants": [],
-    "name": "entity.undergarden.rotwalker",
-    "name_color": "#AE4943",
+    "name": "entity.undergarden.gloomper",
+    "name_color": "#2E2330",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 3072,
+    "sim_cost": 960,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
@@ -16,11 +16,15 @@
         "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.rotwalker",
+    "trivia": "hostilenetworks.trivia.gloomper",
     "fabricator_drops": [
         {
-            "item": "undergarden:utheric_shard",
-            "count": 48.0
+            "item": "undergarden:raw_gloomper_leg",
+            "count": 64.0
+        },
+        {
+            "item": "minecraft:leather",
+            "count": 32.0
         }
     ]
 }

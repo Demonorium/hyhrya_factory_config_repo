@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:pink_salmon",
+    "entity": "aquaculture:blackfish",
     "variants": [],
-    "name": "entity.aquaculture.pink_salmon",
-    "name_color": "#4592D3",
+    "name": "entity.aquaculture.blackfish",
+    "name_color": "#4192D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.pink_salmon",
+    "trivia": "hostilenetworks.trivia.blackfish",
     "fabricator_drops": [
         {
-            "item": "aquaculture:pink_salmon",
+            "item": "aquaculture:blackfish",
             "count": 32.0
         },
         {

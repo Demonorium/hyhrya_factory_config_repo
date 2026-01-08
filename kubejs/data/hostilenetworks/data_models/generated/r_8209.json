@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:carp",
+    "entity": "aquaculture:synodontis",
     "variants": [],
-    "name": "entity.aquaculture.carp",
-    "name_color": "#5592D3",
+    "name": "entity.aquaculture.synodontis",
+    "name_color": "#5192D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.carp",
+    "trivia": "hostilenetworks.trivia.synodontis",
     "fabricator_drops": [
         {
-            "item": "aquaculture:carp",
+            "item": "aquaculture:synodontis",
             "count": 32.0
         },
         {

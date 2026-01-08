@@ -1,21 +1,30 @@
 {
     "type": "pneumaticcraft:refinery",
     "input": {
-        "fluid": "pneumaticcraft:gasoline",
+        "fluid": "thermal:light_oil",
         "amount": 100.0,
         "type": "pneumaticcraft:fluid"
     },
     "results": [
         {
-            "fluid": "pneumaticcraft:plastic",
+            "fluid": "pneumaticcraft:kerosene",
             "amount": 30.0
         },
         {
+            "fluid": "pneumaticcraft:gasoline",
+            "amount": 30.0
+        },
+        {
+            "fluid": "mekanism:sulfuric_acid",
+            "amount": 20.0
+        },
+        {
             "fluid": "pneumaticcraft:lpg",
-            "amount": 40.0
+            "amount": 20.0
         }
     ],
     "temperature": {
-        "min_temp": 373
+        "min_temp": 473,
+        "max_temp": 623
     }
 }

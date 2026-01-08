@@ -3,17 +3,17 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:iron_oxide_dust"
+            "item": "thermal:cinnabar_dust"
         }
     },
     "mainInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:dye_base"
+            "item": "minecraft:white_dye"
         }
     },
     "output": {
         "item": "minecraft:red_dye",
-        "count": 4.0
+        "count": 2.0
     }
 }

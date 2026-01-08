@@ -1,8 +1,8 @@
 {
-    "entity": "deeperdarker:shattered",
+    "entity": "deeperdarker:sludge",
     "variants": [],
-    "name": "entity.deeperdarker.shattered",
-    "name_color": "#505F54",
+    "name": "entity.deeperdarker.sludge",
+    "name_color": "#4B8E86",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,11 +16,11 @@
         "item": "kubejs:sculk_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.shattered",
+    "trivia": "hostilenetworks.trivia.sludge",
     "fabricator_drops": [
         {
-            "item": "deeperdarker:sculk_bone",
-            "count": 32.0
+            "item": "deeperdarker:resonarium",
+            "count": 8.0
         }
     ]
 }

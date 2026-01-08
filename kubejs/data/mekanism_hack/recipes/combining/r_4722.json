@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "amount": 2.0,
+        "ingredient": {
+            "item": "mekanism:dust_gold"
+        }
+    },
+    "mainInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:dust_sulfur"
+        }
+    },
+    "output": {
+        "item": "chemlib:gold_i_sulfide_dust",
+        "count": 1.0
+    }
+}

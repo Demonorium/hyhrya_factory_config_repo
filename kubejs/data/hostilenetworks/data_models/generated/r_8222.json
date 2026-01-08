@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:tuna",
+    "entity": "aquaculture:brown_shrooma",
     "variants": [],
-    "name": "entity.aquaculture.tuna",
-    "name_color": "#6892D3",
+    "name": "entity.aquaculture.brown_shrooma",
+    "name_color": "#6492D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.tuna",
+    "trivia": "hostilenetworks.trivia.brown_shrooma",
     "fabricator_drops": [
         {
-            "item": "aquaculture:tuna",
+            "item": "aquaculture:brown_shrooma",
             "count": 32.0
         },
         {

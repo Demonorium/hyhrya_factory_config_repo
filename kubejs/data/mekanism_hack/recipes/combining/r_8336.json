@@ -3,17 +3,17 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "sgjourney:memory_crystal"
+            "item": "ae2:charged_certus_quartz_crystal"
         }
     },
     "mainInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "sgjourney:advanced_crystal_base"
+            "item": "sgjourney:crystal_base"
         }
     },
     "output": {
-        "item": "sgjourney:advanced_memory_crystal",
+        "item": "sgjourney:communication_crystal",
         "count": 1.0
     }
 }

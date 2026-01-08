@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:catfish",
+    "entity": "aquaculture:smallmouth_bass",
     "variants": [],
-    "name": "entity.aquaculture.catfish",
-    "name_color": "#5692D3",
+    "name": "entity.aquaculture.smallmouth_bass",
+    "name_color": "#5292D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.catfish",
+    "trivia": "hostilenetworks.trivia.smallmouth_bass",
     "fabricator_drops": [
         {
-            "item": "aquaculture:catfish",
+            "item": "aquaculture:smallmouth_bass",
             "count": 32.0
         },
         {

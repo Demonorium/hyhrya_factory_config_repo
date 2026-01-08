@@ -3,17 +3,17 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "minecraft:redstone"
+            "item": "ae2:spatial_cell_component_2"
         }
     },
     "mainInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "sgjourney:control_crystal"
+            "item": "sgjourney:crystal_base"
         }
     },
     "output": {
-        "item": "sgjourney:stargate_variant_crystal",
+        "item": "sgjourney:materialization_crystal",
         "count": 1.0
     }
 }

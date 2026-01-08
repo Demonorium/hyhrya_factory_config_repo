@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:bluegill",
+    "entity": "aquaculture:boulti",
     "variants": [],
-    "name": "entity.aquaculture.bluegill",
-    "name_color": "#5392D3",
+    "name": "entity.aquaculture.boulti",
+    "name_color": "#4992D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.bluegill",
+    "trivia": "hostilenetworks.trivia.boulti",
     "fabricator_drops": [
         {
-            "item": "aquaculture:bluegill",
+            "item": "aquaculture:boulti",
             "count": 32.0
         },
         {

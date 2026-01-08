@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:muskellunge",
+    "entity": "aquaculture:carp",
     "variants": [],
-    "name": "entity.aquaculture.muskellunge",
-    "name_color": "#5992D3",
+    "name": "entity.aquaculture.carp",
+    "name_color": "#5592D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.muskellunge",
+    "trivia": "hostilenetworks.trivia.carp",
     "fabricator_drops": [
         {
-            "item": "aquaculture:muskellunge",
+            "item": "aquaculture:carp",
             "count": 32.0
         },
         {

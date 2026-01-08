@@ -3,17 +3,17 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:lead_sulfide_dust"
+            "item": "chemlib:lead_iodide"
         }
     },
     "mainInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:dye_base"
+            "item": "minecraft:white_dye"
         }
     },
     "output": {
-        "item": "minecraft:black_dye",
-        "count": 4.0
+        "item": "minecraft:yellow_dye",
+        "count": 2.0
     }
 }

@@ -3,17 +3,17 @@
     "extraInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "sgjourney:materialization_crystal"
+            "item": "mekanism_extras:supreme_control_circuit"
         }
     },
     "mainInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "sgjourney:advanced_crystal_base"
+            "item": "sgjourney:control_crystal"
         }
     },
     "output": {
-        "item": "sgjourney:advanced_materialization_crystal",
+        "item": "sgjourney:large_control_crystal",
         "count": 1.0
     }
 }
