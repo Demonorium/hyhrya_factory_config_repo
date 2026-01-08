@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:ammonium_nitrate_dust"
+            "item": "chemlib:copper_ii_perchlorate_dust"
         }
     },
     "output": {
-        "gas": "mekanismelements:ammonium_nitrate",
+        "gas": "kubejs:copper_ii_perchlorate",
         "amount": 200
     }
 }

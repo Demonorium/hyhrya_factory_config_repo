@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:darmstadtium"
+            "item": "chemlib:seaborgium"
         }
     },
     "output": {
-        "gas": "kubejs:darmstadtium",
+        "gas": "kubejs:seaborgium",
         "amount": 200
     }
 }

@@ -11,8 +11,21 @@ StartupEvents.registry("item", event => {
             }
         })
     }).displayName('Активированный абсорбент')
+
 })
 
+ItemEvents.modification(event => {
+  event.modify('chemlib:uranium_hexafluoride', mod => {
+    mod.setFoodProperties(food => {
+      food.alwaysEdible()
+      food.fastToEat()
+      food.meat(false)
+      food.hunger(40)
+      food.saturation(2)
+      food.effect("voltaic:radiation", 600*20, 5, 1)
+    })
+  })
+})
 
 MoreJSEvents.registerPotionBrewing(event => {
   event.addPotionBrewing(

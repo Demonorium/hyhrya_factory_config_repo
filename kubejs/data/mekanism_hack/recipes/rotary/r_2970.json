@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:pentane",
+        "fluid": "kubejs:ethane",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:pentane",
+        "fluid": "kubejs:ethane",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:pentane",
+        "gas": "kubejs:ethane",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:pentane",
+        "gas": "kubejs:ethane",
         "amount": 1.0
     }
 }

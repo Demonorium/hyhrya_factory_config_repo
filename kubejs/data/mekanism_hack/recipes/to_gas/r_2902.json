@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:zinc_oxide_dust"
+            "item": "chemlib:strontium_carbonate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:zinc_oxide",
+        "gas": "kubejs:strontium_carbonate",
         "amount": 200
     }
 }

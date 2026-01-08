@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:ethanol"
+            "item": "chemlib:zinc_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:ethanol",
+        "gas": "kubejs:zinc_oxide",
         "amount": 200
     }
 }

@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:mullite",
+        "fluid": "kubejs:urea",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:mullite",
+        "fluid": "kubejs:urea",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:mullite",
+        "gas": "kubejs:urea",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:mullite",
+        "gas": "kubejs:urea",
         "amount": 1.0
     }
 }

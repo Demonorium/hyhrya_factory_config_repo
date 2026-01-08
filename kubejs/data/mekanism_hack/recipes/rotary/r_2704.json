@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:berkelium",
+        "fluid": "kubejs:neptunium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:berkelium",
+        "fluid": "kubejs:neptunium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:berkelium",
+        "gas": "kubejs:neptunium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:berkelium",
+        "gas": "kubejs:neptunium",
         "amount": 1.0
     }
 }

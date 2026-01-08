@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:flerovium"
+            "item": "chemlib:darmstadtium"
         }
     },
     "output": {
-        "gas": "kubejs:flerovium",
+        "gas": "kubejs:darmstadtium",
         "amount": 200
     }
 }

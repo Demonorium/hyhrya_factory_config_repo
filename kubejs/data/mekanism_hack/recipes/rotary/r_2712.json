@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:einsteinium",
+        "fluid": "kubejs:americium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:einsteinium",
+        "fluid": "kubejs:americium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:einsteinium",
+        "gas": "mekanismelements:americium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:einsteinium",
+        "gas": "mekanismelements:americium",
         "amount": 1.0
     }
 }

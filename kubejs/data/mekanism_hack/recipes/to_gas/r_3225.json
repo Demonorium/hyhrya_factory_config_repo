@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:rubidium_hydroxide_dust"
+            "item": "chemlib:nickel_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:rubidium_hydroxide",
+        "gas": "kubejs:nickel_oxide",
         "amount": 200
     }
 }

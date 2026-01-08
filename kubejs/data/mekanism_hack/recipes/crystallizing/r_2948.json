@@ -2,11 +2,11 @@
     "type": "mekanism:crystallizing",
     "chemicalType": "gas",
     "input": {
-        "gas": "mekanismelements:methane",
+        "gas": "kubejs:ammonium",
         "amount": 100
     },
     "output": {
-        "item": "chemlib:methane",
+        "item": "chemlib:ammonium",
         "count": 1.0
     }
 }

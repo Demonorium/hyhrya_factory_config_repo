@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:carbonate_dust"
+            "item": "chemlib:kaolinite"
         }
     },
     "output": {
-        "gas": "kubejs:carbonate",
+        "gas": "kubejs:kaolinite",
         "amount": 200
     }
 }

@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:fluid_coolant",
+    "input": {
+        "fluid": "kubejs:rubidium",
+        "amount": 1.0
+    },
+    "output": {
+        "gas": "kubejs:superheated_rubidium",
+        "amount": 1.0
+    },
+    "thermalEnthalpy": 5.22038821824056,
+    "conductivity": 0.6559808894656128,
+    "efficiency": 1.0331127885658493
+}

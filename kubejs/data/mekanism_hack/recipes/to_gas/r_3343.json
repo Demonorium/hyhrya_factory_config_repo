@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:manganese_carbonate_dust"
+            "item": "chemlib:rubidium_carbonate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:manganese_carbonate",
+        "gas": "kubejs:rubidium_carbonate",
         "amount": 200
     }
 }

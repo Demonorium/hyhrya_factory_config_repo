@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:formic_acid"
+        }
+    },
+    "output": {
+        "gas": "kubejs:formic_acid",
+        "amount": 200
+    }
+}

@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:arsenic_sulfide",
+        "fluid": "kubejs:chromium_oxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:arsenic_sulfide",
+        "fluid": "kubejs:chromium_oxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:arsenic_sulfide",
+        "gas": "kubejs:chromium_oxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:arsenic_sulfide",
+        "gas": "kubejs:chromium_oxide",
         "amount": 1.0
     }
 }

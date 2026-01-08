@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:copper_i_oxide_dust"
+            "item": "chemlib:ammonia"
         }
     },
     "output": {
-        "gas": "kubejs:copper_i_oxide",
+        "gas": "mekanismelements:ammonia",
         "amount": 200
     }
 }

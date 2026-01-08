@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:fluid_coolant",
+    "input": {
+        "fluid": "kubejs:gallium",
+        "amount": 1.0
+    },
+    "output": {
+        "gas": "kubejs:superheated_gallium",
+        "amount": 1.0
+    },
+    "thermalEnthalpy": 4.567381144261049,
+    "conductivity": 1.2629984074554677,
+    "efficiency": 0.5264740043575397
+}

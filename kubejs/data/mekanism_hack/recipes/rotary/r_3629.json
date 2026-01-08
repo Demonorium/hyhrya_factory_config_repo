@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:antimony_acid",
+        "fluid": "kubejs:salicylic_acid",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:antimony_acid",
+        "fluid": "kubejs:salicylic_acid",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:antimony_acid",
+        "gas": "kubejs:salicylic_acid",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:antimony_acid",
+        "gas": "kubejs:salicylic_acid",
         "amount": 1.0
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "minecraft:sugar"
+            "item": "chemlib:water"
         }
     },
     "output": {
-        "gas": "kubejs:sucrose",
+        "gas": "mekanism:water_vapor",
         "amount": 200
     }
 }

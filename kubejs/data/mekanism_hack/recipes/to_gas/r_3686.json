@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:hydrazine"
+            "item": "chemlib:niobium_carbide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:hydrazine",
+        "gas": "kubejs:niobium_carbide",
         "amount": 200
     }
 }

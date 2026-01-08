@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:sodium_hypochlorite",
+        "fluid": "kubejs:calcium_fluoride",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:sodium_hypochlorite",
+        "fluid": "kubejs:calcium_fluoride",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:sodium_hypochlorite",
+        "gas": "kubejs:calcium_fluoride",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:sodium_hypochlorite",
+        "gas": "kubejs:calcium_fluoride",
         "amount": 1.0
     }
 }

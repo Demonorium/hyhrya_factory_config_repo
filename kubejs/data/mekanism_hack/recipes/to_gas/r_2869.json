@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:calcium_carbonate_dust"
+            "item": "chemlib:protein"
         }
     },
     "output": {
-        "gas": "kubejs:calcium_carbonate",
+        "gas": "kubejs:protein",
         "amount": 200
     }
 }

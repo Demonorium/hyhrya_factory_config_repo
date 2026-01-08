@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:sodium_hydroxide_dust"
+            "item": "chemlib:epinephrine"
         }
     },
     "output": {
-        "gas": "kubejs:sodium_hydroxide",
+        "gas": "kubejs:epinephrine",
         "amount": 200
     }
 }

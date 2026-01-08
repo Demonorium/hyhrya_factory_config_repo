@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:cobalt_carbonate_dust"
+            "item": "chemlib:beryllium_carbonate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:cobalt_carbonate",
+        "gas": "kubejs:beryllium_carbonate",
         "amount": 200
     }
 }

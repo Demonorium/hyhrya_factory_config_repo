@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:magnesium_chloride",
+        "fluid": "kubejs:lithium_chloride",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:magnesium_chloride",
+        "fluid": "kubejs:lithium_chloride",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:magnesium_chloride",
+        "gas": "kubejs:lithium_chloride",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:magnesium_chloride",
+        "gas": "kubejs:lithium_chloride",
         "amount": 1.0
     }
 }

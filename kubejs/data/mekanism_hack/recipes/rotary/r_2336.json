@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:barium",
+        "fluid": "kubejs:cesium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:barium",
+        "fluid": "kubejs:cesium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:barium",
+        "gas": "kubejs:cesium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:barium",
+        "gas": "kubejs:cesium",
         "amount": 1.0
     }
 }

@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:roentgenium",
+        "fluid": "kubejs:bohrium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:roentgenium",
+        "fluid": "kubejs:bohrium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:roentgenium",
+        "gas": "kubejs:bohrium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:roentgenium",
+        "gas": "kubejs:bohrium",
         "amount": 1.0
     }
 }

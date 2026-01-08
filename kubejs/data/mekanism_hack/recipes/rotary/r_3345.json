@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:iron_carbonate",
+        "fluid": "kubejs:cesium_carbonate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:iron_carbonate",
+        "fluid": "kubejs:cesium_carbonate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:iron_carbonate",
+        "gas": "kubejs:cesium_carbonate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:iron_carbonate",
+        "gas": "kubejs:cesium_carbonate",
         "amount": 1.0
     }
 }

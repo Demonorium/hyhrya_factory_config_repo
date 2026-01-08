@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:barium_sulfate",
+        "fluid": "kubejs:antimony_trioxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:barium_sulfate",
+        "fluid": "kubejs:antimony_trioxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:barium_sulfate",
+        "gas": "kubejs:antimony_trioxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:barium_sulfate",
+        "gas": "kubejs:antimony_trioxide",
         "amount": 1.0
     }
 }

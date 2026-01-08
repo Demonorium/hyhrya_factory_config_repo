@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:francium_dust"
+            "item": "chemlib:astatine_dust"
         }
     },
     "output": {
-        "gas": "kubejs:francium",
+        "gas": "kubejs:astatine",
         "amount": 200
     }
 }

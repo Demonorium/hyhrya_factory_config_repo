@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:arsenic_sulfide"
+            "item": "chemlib:chromium_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:arsenic_sulfide",
+        "gas": "kubejs:chromium_oxide",
         "amount": 200
     }
 }

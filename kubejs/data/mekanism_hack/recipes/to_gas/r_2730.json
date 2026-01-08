@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:lawrencium"
+            "item": "chemlib:einsteinium"
         }
     },
     "output": {
-        "gas": "kubejs:lawrencium",
+        "gas": "kubejs:einsteinium",
         "amount": 200
     }
 }

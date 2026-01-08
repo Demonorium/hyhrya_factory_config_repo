@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:nickel_carbonate_dust"
+            "item": "chemlib:barium_carbonate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:nickel_carbonate",
+        "gas": "kubejs:barium_carbonate",
         "amount": 200
     }
 }

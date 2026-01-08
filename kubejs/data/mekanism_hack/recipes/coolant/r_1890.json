@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:gas_coolant",
+    "input": {
+        "gas": "mekanism:hydrogen",
+        "amount": 1.0
+    },
+    "output": {
+        "gas": "kubejs:superheated_hydrogen",
+        "amount": 1.0
+    },
+    "thermalEnthalpy": 5.168318786548435,
+    "conductivity": 1.3308068892296803,
+    "efficiency": 0.9842763839491427
+}

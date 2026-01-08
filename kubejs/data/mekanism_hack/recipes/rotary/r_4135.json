@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:niobium_v_chloride",
+        "fluid": "kubejs:europium_iii_oxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:niobium_v_chloride",
+        "fluid": "kubejs:europium_iii_oxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:niobium_v_chloride",
+        "gas": "kubejs:europium_iii_oxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:niobium_v_chloride",
+        "gas": "kubejs:europium_iii_oxide",
         "amount": 1.0
     }
 }

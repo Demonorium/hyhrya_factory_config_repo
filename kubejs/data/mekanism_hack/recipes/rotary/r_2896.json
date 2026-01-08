@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:cucurbitacin",
+        "fluid": "kubejs:hydroxylapatite",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:cucurbitacin",
+        "fluid": "kubejs:hydroxylapatite",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:cucurbitacin",
+        "gas": "kubejs:hydroxylapatite",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:cucurbitacin",
+        "gas": "kubejs:hydroxylapatite",
         "amount": 1.0
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:lead_oxide_dust"
+            "item": "chemlib:calcium_chloride_dust"
         }
     },
     "output": {
-        "gas": "kubejs:lead_oxide",
+        "gas": "kubejs:calcium_chloride",
         "amount": 200
     }
 }

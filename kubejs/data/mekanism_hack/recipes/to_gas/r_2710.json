@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:californium"
+            "item": "chemlib:plutonium"
         }
     },
     "output": {
-        "gas": "kubejs:californium",
+        "gas": "mekanism:plutonium",
         "amount": 200
     }
 }

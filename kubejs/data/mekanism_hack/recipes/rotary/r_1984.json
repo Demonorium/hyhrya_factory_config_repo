@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:phosphorus",
+        "fluid": "kubejs:silicon",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:phosphorus",
+        "fluid": "kubejs:silicon",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:phosphorus",
+        "gas": "kubejs:silicon",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:phosphorus",
+        "gas": "kubejs:silicon",
         "amount": 1.0
     }
 }

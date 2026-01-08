@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:nihonium"
+            "item": "chemlib:meitnerium"
         }
     },
     "output": {
-        "gas": "kubejs:nihonium",
+        "gas": "kubejs:meitnerium",
         "amount": 200
     }
 }

@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:krypton",
+        "fluid": "kubejs:selenium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:krypton",
+        "fluid": "kubejs:selenium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:krypton",
+        "gas": "kubejs:selenium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:krypton",
+        "gas": "kubejs:selenium",
         "amount": 1.0
     }
 }

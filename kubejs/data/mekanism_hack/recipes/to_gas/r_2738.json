@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:dubnium"
+            "item": "chemlib:mendelevium"
         }
     },
     "output": {
-        "gas": "kubejs:dubnium",
+        "gas": "kubejs:mendelevium",
         "amount": 200
     }
 }

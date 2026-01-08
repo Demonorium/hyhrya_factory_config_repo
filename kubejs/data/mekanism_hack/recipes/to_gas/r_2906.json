@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:cobalt_aluminate_dust"
+            "item": "chemlib:beryl_dust"
         }
     },
     "output": {
-        "gas": "kubejs:cobalt_aluminate",
+        "gas": "kubejs:beryl",
         "amount": 200
     }
 }

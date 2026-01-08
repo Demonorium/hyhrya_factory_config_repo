@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:phosphorus_pentoxide_dust"
+            "item": "chemlib:wollastonite_dust"
         }
     },
     "output": {
-        "gas": "kubejs:phosphorus_pentoxide",
+        "gas": "kubejs:wollastonite",
         "amount": 200
     }
 }

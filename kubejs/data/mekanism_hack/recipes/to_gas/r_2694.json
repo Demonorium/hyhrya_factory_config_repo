@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:plutonium"
+            "item": "chemlib:protactinium_dust"
         }
     },
     "output": {
-        "gas": "mekanism:plutonium",
+        "gas": "kubejs:protactinium",
         "amount": 200
     }
 }

@@ -2,11 +2,11 @@
     "type": "mekanism:crystallizing",
     "chemicalType": "gas",
     "input": {
-        "gas": "kubejs:pentane",
+        "gas": "kubejs:ethane",
         "amount": 100
     },
     "output": {
-        "item": "chemlib:pentane",
+        "item": "chemlib:ethane",
         "count": 1.0
     }
 }

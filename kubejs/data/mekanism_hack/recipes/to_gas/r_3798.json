@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:formic_acid"
+            "item": "chemlib:gold_iii_hydroxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:formic_acid",
+        "gas": "kubejs:gold_iii_hydroxide",
         "amount": 200
     }
 }

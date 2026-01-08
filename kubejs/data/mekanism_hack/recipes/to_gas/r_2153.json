@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:bromine"
+            "item": "chemlib:arsenic_dust"
         }
     },
     "output": {
-        "gas": "mekanismelements:bromine",
+        "gas": "kubejs:arsenic",
         "amount": 200
     }
 }

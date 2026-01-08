@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:phosphate",
+        "fluid": "kubejs:iron_oxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:phosphate",
+        "fluid": "kubejs:iron_oxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:phosphate",
+        "gas": "kubejs:iron_oxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:phosphate",
+        "gas": "kubejs:iron_oxide",
         "amount": 1.0
     }
 }

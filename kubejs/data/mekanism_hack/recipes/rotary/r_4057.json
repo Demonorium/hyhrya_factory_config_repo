@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:silver_nitrate",
+        "fluid": "kubejs:antimony_trichloride",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:silver_nitrate",
+        "fluid": "kubejs:antimony_trichloride",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:silver_nitrate",
+        "gas": "kubejs:antimony_trichloride",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:silver_nitrate",
+        "gas": "kubejs:antimony_trichloride",
         "amount": 1.0
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:han_purple"
+            "item": "chemlib:cadmium_sulfide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:han_purple",
+        "gas": "kubejs:cadmium_sulfide",
         "amount": 200
     }
 }

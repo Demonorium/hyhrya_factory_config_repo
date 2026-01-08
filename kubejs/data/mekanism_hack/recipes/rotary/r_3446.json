@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:rubidium_nitrate",
+        "fluid": "kubejs:lead_sulfate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:rubidium_nitrate",
+        "fluid": "kubejs:lead_sulfate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:rubidium_nitrate",
+        "gas": "kubejs:lead_sulfate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:rubidium_nitrate",
+        "gas": "kubejs:lead_sulfate",
         "amount": 1.0
     }
 }

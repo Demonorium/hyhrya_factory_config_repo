@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:hydrogen_peroxide"
+            "item": "chemlib:vanadium_carbide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:hydrogen_peroxide",
+        "gas": "kubejs:vanadium_carbide",
         "amount": 200
     }
 }

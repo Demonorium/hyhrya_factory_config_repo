@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:nobelium"
+            "item": "chemlib:californium"
         }
     },
     "output": {
-        "gas": "kubejs:nobelium",
+        "gas": "kubejs:californium",
         "amount": 200
     }
 }

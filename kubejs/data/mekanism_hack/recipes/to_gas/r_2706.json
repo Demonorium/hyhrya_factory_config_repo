@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:berkelium"
+            "item": "chemlib:neptunium"
         }
     },
     "output": {
-        "gas": "kubejs:berkelium",
+        "gas": "kubejs:neptunium",
         "amount": 200
     }
 }

@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:nihonium",
+        "fluid": "kubejs:meitnerium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:nihonium",
+        "fluid": "kubejs:meitnerium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:nihonium",
+        "gas": "kubejs:meitnerium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:nihonium",
+        "gas": "kubejs:meitnerium",
         "amount": 1.0
     }
 }

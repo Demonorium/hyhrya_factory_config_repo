@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:yttrium_dust"
+            "item": "chemlib:strontium_dust"
         }
     },
     "output": {
-        "gas": "mekanismelements:yttrium",
+        "gas": "mekanismelements:strontium",
         "amount": 200
     }
 }

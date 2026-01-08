@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:fermium"
+            "item": "chemlib:curium"
         }
     },
     "output": {
-        "gas": "kubejs:fermium",
+        "gas": "kubejs:curium",
         "amount": 200
     }
 }

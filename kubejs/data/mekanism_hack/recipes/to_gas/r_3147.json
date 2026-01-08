@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:nitrogen_dioxide"
+            "item": "chemlib:strontium_oxide_dust"
         }
     },
     "output": {
-        "gas": "mekanismelements:nitrogen_dioxide",
+        "gas": "kubejs:strontium_oxide",
         "amount": 200
     }
 }

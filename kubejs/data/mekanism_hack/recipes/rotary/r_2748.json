@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:hassium",
+        "fluid": "kubejs:rutherfordium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:hassium",
+        "fluid": "kubejs:rutherfordium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:hassium",
+        "gas": "kubejs:rutherfordium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:hassium",
+        "gas": "kubejs:rutherfordium",
         "amount": 1.0
     }
 }

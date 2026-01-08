@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:manganese_carbonate",
+        "fluid": "kubejs:rubidium_carbonate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:manganese_carbonate",
+        "fluid": "kubejs:rubidium_carbonate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:manganese_carbonate",
+        "gas": "kubejs:rubidium_carbonate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:manganese_carbonate",
+        "gas": "kubejs:rubidium_carbonate",
         "amount": 1.0
     }
 }

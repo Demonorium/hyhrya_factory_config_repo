@@ -3479,6 +3479,44 @@
                     "count": 4
                 }
             ]
+        },
+        {
+            "name": "methanol",
+            "display_name": "Methanol",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e7e7e7",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 1
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 3
+                },
+                {
+                    "name": "hydroxide",
+                    "count": 1
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
         }
     ]
 }

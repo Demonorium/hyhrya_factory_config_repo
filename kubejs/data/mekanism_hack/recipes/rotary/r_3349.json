@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:cobalt_carbonate",
+        "fluid": "kubejs:beryllium_carbonate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:cobalt_carbonate",
+        "fluid": "kubejs:beryllium_carbonate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:cobalt_carbonate",
+        "gas": "kubejs:beryllium_carbonate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:cobalt_carbonate",
+        "gas": "kubejs:beryllium_carbonate",
         "amount": 1.0
     }
 }

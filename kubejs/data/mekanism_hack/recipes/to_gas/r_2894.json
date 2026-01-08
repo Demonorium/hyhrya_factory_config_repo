@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:starch_dust"
+            "item": "chemlib:hydroxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:starch",
+        "gas": "kubejs:hydroxide",
         "amount": 200
     }
 }

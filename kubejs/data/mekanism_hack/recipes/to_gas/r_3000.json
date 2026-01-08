@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:potassium_permanganate"
+            "item": "chemlib:graphite_dust"
         }
     },
     "output": {
-        "gas": "kubejs:potassium_permanganate",
+        "gas": "kubejs:graphite",
         "amount": 200
     }
 }

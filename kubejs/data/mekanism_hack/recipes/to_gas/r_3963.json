@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:chromium_trioxide_dust"
+            "item": "chemlib:nitrosyl_perchlorate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:chromium_trioxide",
+        "gas": "kubejs:nitrosyl_perchlorate",
         "amount": 200
     }
 }

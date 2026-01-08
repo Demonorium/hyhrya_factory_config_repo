@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:chromium_trioxide",
+        "fluid": "kubejs:nitrosyl_perchlorate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:chromium_trioxide",
+        "fluid": "kubejs:nitrosyl_perchlorate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:chromium_trioxide",
+        "gas": "kubejs:nitrosyl_perchlorate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:chromium_trioxide",
+        "gas": "kubejs:nitrosyl_perchlorate",
         "amount": 1.0
     }
 }

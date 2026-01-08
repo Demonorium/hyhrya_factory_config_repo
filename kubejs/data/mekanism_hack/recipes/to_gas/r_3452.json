@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:cesium_nitrate_dust"
+            "item": "chemlib:tin_sulfate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:cesium_nitrate",
+        "gas": "kubejs:tin_sulfate",
         "amount": 200
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:bohrium"
+            "item": "chemlib:lawrencium"
         }
     },
     "output": {
-        "gas": "kubejs:bohrium",
+        "gas": "kubejs:lawrencium",
         "amount": 200
     }
 }

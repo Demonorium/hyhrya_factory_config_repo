@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:rutherfordium"
+            "item": "chemlib:fermium"
         }
     },
     "output": {
-        "gas": "kubejs:rutherfordium",
+        "gas": "kubejs:fermium",
         "amount": 200
     }
 }

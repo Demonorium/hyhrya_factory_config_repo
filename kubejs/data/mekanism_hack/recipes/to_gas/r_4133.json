@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:hydrogen_bromide"
+            "item": "chemlib:europium_iii_hydroxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:hydrogen_bromide",
+        "gas": "kubejs:europium_iii_hydroxide",
         "amount": 200
     }
 }

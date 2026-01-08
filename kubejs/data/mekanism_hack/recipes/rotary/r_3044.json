@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:han_purple",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:han_purple",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:han_purple",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:han_purple",
+        "amount": 1.0
+    }
+}

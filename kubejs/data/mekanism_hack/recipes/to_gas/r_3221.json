@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:potassium_hydroxide_dust"
+            "item": "chemlib:antimony_trisulfide_dust"
         }
     },
     "output": {
-        "gas": "mekanismelements:potassium_hydroxide",
+        "gas": "kubejs:antimony_trisulfide",
         "amount": 200
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:antimony_dust"
+            "item": "chemlib:indium_dust"
         }
     },
     "output": {
-        "gas": "kubejs:antimony",
+        "gas": "kubejs:indium",
         "amount": 200
     }
 }

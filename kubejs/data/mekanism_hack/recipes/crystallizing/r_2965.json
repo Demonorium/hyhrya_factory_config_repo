@@ -2,11 +2,11 @@
     "type": "mekanism:crystallizing",
     "chemicalType": "gas",
     "input": {
-        "gas": "kubejs:butane",
+        "gas": "mekanismelements:methane",
         "amount": 100
     },
     "output": {
-        "item": "chemlib:butane",
+        "item": "chemlib:methane",
         "count": 1.0
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:orthoclase_dust"
+            "item": "chemlib:hydrazine"
         }
     },
     "output": {
-        "gas": "kubejs:orthoclase",
+        "gas": "kubejs:hydrazine",
         "amount": 200
     }
 }

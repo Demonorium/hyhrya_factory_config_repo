@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:fluid_coolant",
+    "input": {
+        "fluid": "mekanism:lithium",
+        "amount": 2.0
+    },
+    "output": {
+        "gas": "kubejs:superheated_lithium",
+        "amount": 2.0
+    },
+    "thermalEnthalpy": 1.0326071877699905,
+    "conductivity": 0.3342795210569777,
+    "efficiency": 1.751999232972423
+}

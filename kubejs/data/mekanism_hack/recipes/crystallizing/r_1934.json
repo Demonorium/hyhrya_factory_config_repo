@@ -2,11 +2,11 @@
     "type": "mekanism:crystallizing",
     "chemicalType": "gas",
     "input": {
-        "gas": "mekanism:oxygen",
+        "gas": "mekanismelements:nitrogen",
         "amount": 100
     },
     "output": {
-        "item": "chemlib:oxygen",
+        "item": "chemlib:nitrogen",
         "count": 1.0
     }
 }

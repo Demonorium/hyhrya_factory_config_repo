@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:p_phenylenediamine_dust"
+            "item": "chemlib:uranium_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:p_phenylenediamine",
+        "gas": "mekanism:uranium_oxide",
         "amount": 200
     }
 }

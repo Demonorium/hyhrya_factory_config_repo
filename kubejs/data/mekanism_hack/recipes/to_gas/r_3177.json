@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:copper_i_sulfide_dust"
+            "item": "chemlib:ammonium_chloride_dust"
         }
     },
     "output": {
-        "gas": "kubejs:copper_i_sulfide",
+        "gas": "kubejs:ammonium_chloride",
         "amount": 200
     }
 }

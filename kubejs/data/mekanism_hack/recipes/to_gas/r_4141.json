@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:zirconium_dioxide_dust"
+            "item": "chemlib:europium_ii_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:zirconium_dioxide",
+        "gas": "kubejs:europium_ii_oxide",
         "amount": 200
     }
 }

@@ -489,6 +489,12 @@
 				"40303EB3A89F8CAF"
 			]
 			id: "0E36516AB2341A4A"
+			rewards: [{
+				count: 3
+				id: "7C32FD2FA8F19638"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			tasks: [{
 				id: "702C57213CC6BA56"
 				item: "mekanism:elite_control_circuit"
@@ -782,14 +788,23 @@
 				"556CB23E41611059"
 				"0391D657A89F56DA"
 			]
+			description: ["Помещённый в левый слот обогащающий материал преобразует основной слот в новый предмет."]
 			hide_until_deps_complete: true
 			id: "3C27B412271DBF29"
-			rewards: [{
-				count: 8
-				id: "66D7CA8993F4D030"
-				item: "minecraft:coal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "66D7CA8993F4D030"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0D5B253AC4CB8FA6"
+					item: "pneumaticcraft:transistor"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "Наполнение"
 			tasks: [{
@@ -2135,8 +2150,16 @@
 		}
 		{
 			dependencies: ["40303EB3A89F8CAF"]
+			description: ["Использование пресовочной машины для создания шестерней позволяет экономить ресурсы на 25%. Если перед созданием шестерни создать пластину, то экономия составит 50%."]
 			id: "710296F3C0C083E4"
+			rewards: [{
+				count: 8
+				id: "24B2F4F980519571"
+				item: "mekanism:ingot_bronze"
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Экономное создание"
 			tasks: [{
 				id: "49765A8937CDD092"
 				item: "thermal:machine_press"
@@ -2150,6 +2173,7 @@
 			id: "30849B9039989494"
 			rewards: [
 				{
+					count: 2
 					id: "4B3D35F784EE3F25"
 					item: "thermal:wrench"
 					type: "item"
@@ -3270,6 +3294,7 @@
 			dependencies: ["0E36516AB2341A4A"]
 			id: "342A94A83BBB9E3F"
 			shape: "square"
+			subtitle: "Бесконечные алмазы"
 			tasks: [{
 				id: "7E0552BD0CB88227"
 				item: "thermal:machine_crystallizer"
