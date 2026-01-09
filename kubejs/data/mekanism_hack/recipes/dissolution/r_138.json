@@ -1,18 +1,18 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "mekanismelements:aqua_regia",
-        "amount": 1.0
+        "gas": "mekanismelements:nitric_acid",
+        "amount": 2.0
     },
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "moremekanismprocessing:clump_coal"
+            "tag": "forge:ores/coal"
         }
     },
     "output": {
         "slurry": "moremekanismprocessing:dirty_coal",
-        "amount": 900.0,
+        "amount": 1200.0,
         "chemicalType": "slurry"
     }
 }

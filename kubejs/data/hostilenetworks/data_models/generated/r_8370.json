@@ -1,9 +1,9 @@
 {
-    "entity": "deeperdarker:sludge",
+    "entity": "undergarden:rotbeast",
     "variants": [],
-    "name": "entity.deeperdarker.sludge",
-    "name_color": "#4B8E86",
-    "gui_scale": 1.0,
+    "name": "entity.undergarden.rotbeast",
+    "name_color": "#AD4343",
+    "gui_scale": 0.8,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
@@ -13,14 +13,14 @@
         "count": 1
     },
     "base_drop": {
-        "item": "kubejs:sculk_prediction",
+        "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.sludge",
+    "trivia": "hostilenetworks.trivia.rotbeast",
     "fabricator_drops": [
         {
-            "item": "deeperdarker:resonarium",
-            "count": 8.0
+            "item": "undergarden:utheric_shard",
+            "count": 64.0
         }
     ]
 }

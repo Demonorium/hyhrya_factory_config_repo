@@ -1,18 +1,18 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "mekanism:sulfuric_acid",
+        "gas": "mekanismelements:nitric_acid",
         "amount": 2.0
     },
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "moremekanismprocessing:clump_diamond"
+            "tag": "forge:ores/diamond"
         }
     },
     "output": {
         "slurry": "moremekanismprocessing:dirty_diamond",
-        "amount": 600.0,
+        "amount": 1200.0,
         "chemicalType": "slurry"
     }
 }

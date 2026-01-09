@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:acetylsalicylic_acid",
+        "fluid": "kubejs:cobalt_aluminate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:acetylsalicylic_acid",
+        "fluid": "kubejs:cobalt_aluminate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:acetylsalicylic_acid",
+        "gas": "kubejs:cobalt_aluminate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:acetylsalicylic_acid",
+        "gas": "kubejs:cobalt_aluminate",
         "amount": 1.0
     }
 }

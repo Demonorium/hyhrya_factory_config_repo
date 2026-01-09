@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:francium_dust"
+            "item": "chemlib:ytterbium_dust"
         }
     },
     "output": {
-        "gas": "kubejs:francium",
+        "gas": "kubejs:ytterbium",
         "amount": 200
     }
 }

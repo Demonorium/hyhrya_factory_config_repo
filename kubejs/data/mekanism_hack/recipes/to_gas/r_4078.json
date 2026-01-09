@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:silver_nitrate_dust"
+            "item": "chemlib:perchloric_acid"
         }
     },
     "output": {
-        "gas": "kubejs:silver_nitrate",
+        "gas": "kubejs:perchloric_acid",
         "amount": 200
     }
 }

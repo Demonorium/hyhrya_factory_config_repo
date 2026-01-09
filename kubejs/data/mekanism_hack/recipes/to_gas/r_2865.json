@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:kaolinite"
+            "item": "chemlib:americium"
         }
     },
     "output": {
-        "gas": "kubejs:kaolinite",
+        "gas": "mekanismelements:americium",
         "amount": 200
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:radium_dust"
+            "item": "chemlib:lutetium_dust"
         }
     },
     "output": {
-        "gas": "kubejs:radium",
+        "gas": "kubejs:lutetium",
         "amount": 200
     }
 }

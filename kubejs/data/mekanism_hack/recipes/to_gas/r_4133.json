@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:europium_iii_hydroxide_dust"
+            "item": "chemlib:chromium_trioxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:europium_iii_hydroxide",
+        "gas": "kubejs:chromium_trioxide",
         "amount": 200
     }
 }

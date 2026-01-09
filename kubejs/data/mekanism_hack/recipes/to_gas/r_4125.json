@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:europium_ii_iodide_dust"
+            "item": "chemlib:ammonium_nitrate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:europium_ii_iodide",
+        "gas": "mekanismelements:ammonium_nitrate",
         "amount": 200
     }
 }

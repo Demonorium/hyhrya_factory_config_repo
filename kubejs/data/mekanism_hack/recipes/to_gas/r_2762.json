@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:bohrium"
+            "item": "mekanism:dust_lead"
         }
     },
     "output": {
-        "gas": "kubejs:bohrium",
+        "gas": "kubejs:lead",
         "amount": 200
     }
 }

@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:nobelium",
+        "fluid": "kubejs:superheated_mercury",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:nobelium",
+        "fluid": "kubejs:superheated_mercury",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:nobelium",
+        "gas": "kubejs:superheated_mercury",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:nobelium",
+        "gas": "kubejs:superheated_mercury",
         "amount": 1.0
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:salt"
+            "item": "chemlib:neptunium"
         }
     },
     "output": {
-        "gas": "kubejs:sodium_chloride",
+        "gas": "kubejs:neptunium",
         "amount": 200
     }
 }

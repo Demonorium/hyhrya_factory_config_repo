@@ -2,11 +2,11 @@
     "type": "mekanism:crystallizing",
     "chemicalType": "gas",
     "input": {
-        "gas": "kubejs:formic_acid",
+        "gas": "kubejs:acetic_anhydride",
         "amount": 100
     },
     "output": {
-        "item": "chemlib:formic_acid",
+        "item": "chemlib:acetic_anhydride",
         "count": 1.0
     }
 }

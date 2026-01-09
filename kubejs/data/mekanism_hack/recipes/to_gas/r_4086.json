@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:vanadium_carbide_dust"
+            "item": "chemlib:barium_perchlorate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:vanadium_carbide",
+        "gas": "kubejs:barium_perchlorate",
         "amount": 200
     }
 }

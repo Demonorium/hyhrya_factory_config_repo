@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:zirconium_silicate_dust"
+            "item": "chemlib:uranium_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:zirconium_silicate",
+        "gas": "mekanism:uranium_oxide",
         "amount": 200
     }
 }

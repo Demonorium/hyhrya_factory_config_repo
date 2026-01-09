@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:silver_sulfate",
+        "fluid": "kubejs:ammonium_perchlorate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:silver_sulfate",
+        "fluid": "kubejs:ammonium_perchlorate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:silver_sulfate",
+        "gas": "kubejs:ammonium_perchlorate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:silver_sulfate",
+        "gas": "kubejs:ammonium_perchlorate",
         "amount": 1.0
     }
 }

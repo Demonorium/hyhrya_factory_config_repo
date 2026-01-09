@@ -7,12 +7,12 @@
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "moremekanismprocessing:clump_sapphire"
+            "tag": "forge:ores/utherium"
         }
     },
     "output": {
-        "slurry": "moremekanismprocessing:dirty_sapphire",
-        "amount": 600.0,
+        "slurry": "kubejs:dirty_utherium",
+        "amount": 1200.0,
         "chemicalType": "slurry"
     }
 }

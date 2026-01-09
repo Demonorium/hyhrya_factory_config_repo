@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "thermal:raw_nickel"
+            "item": "kubejs:dirty_dust_extraterrestrial_steel"
         }
     },
     "output": {
-        "item": "thermal:nickel_dust",
-        "count": 12.0
+        "item": "clanginghowl:extraterrestrial_steel_ingot",
+        "count": 1.0
     }
 }

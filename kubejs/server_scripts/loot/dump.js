@@ -10,8 +10,8 @@
     
 //     // filter it for only stuff that contains chest
 //     let filteredList = allTables.stream()
-//         .filter(id => !id.path.contains('chest') && !id.path.contains('block'))
-//         .map(id => [id.toString(), JSON.stringify(lootData.getElement($LootDataType.TABLE, id))])
+//         .filter(id => id.path.contains('chest') && !id.path.contains('block'))
+//         .map(id => id.toString())
 //         .toList()
     
 //     JsonIO.write('kubejs/exported/lootTables.json', {big_list: filteredList})

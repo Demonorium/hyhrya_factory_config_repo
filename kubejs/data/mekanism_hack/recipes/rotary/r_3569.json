@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:yttrium_hydroxide",
+        "fluid": "kubejs:manganese_sulfate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:yttrium_hydroxide",
+        "fluid": "kubejs:manganese_sulfate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:yttrium_hydroxide",
+        "gas": "kubejs:manganese_sulfate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:yttrium_hydroxide",
+        "gas": "kubejs:manganese_sulfate",
         "amount": 1.0
     }
 }

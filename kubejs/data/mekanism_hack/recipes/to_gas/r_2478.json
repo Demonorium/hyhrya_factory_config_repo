@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:erbium_dust"
+            "item": "chemlib:xenon"
         }
     },
     "output": {
-        "gas": "kubejs:erbium",
+        "gas": "mekanismelements:xenon",
         "amount": 200
     }
 }

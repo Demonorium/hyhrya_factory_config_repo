@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:molybdenum_trioxide",
+        "fluid": "kubejs:chalcopyrite",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:molybdenum_trioxide",
+        "fluid": "kubejs:chalcopyrite",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:molybdenum_trioxide",
+        "gas": "kubejs:chalcopyrite",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:molybdenum_trioxide",
+        "gas": "kubejs:chalcopyrite",
         "amount": 1.0
     }
 }

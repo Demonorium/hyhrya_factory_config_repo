@@ -1,0 +1,18 @@
+{
+    "type": "mekanism:dissolution",
+    "gasInput": {
+        "gas": "mekanismelements:aqua_regia",
+        "amount": 1.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:clump_emerald"
+        }
+    },
+    "output": {
+        "slurry": "moremekanismprocessing:dirty_emerald",
+        "amount": 900.0,
+        "chemicalType": "slurry"
+    }
+}

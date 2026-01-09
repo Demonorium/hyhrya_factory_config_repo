@@ -29,22 +29,6 @@ const LOOT_TO_REPLACE = [
 		to: "mekanism_extras:block_raw_naquadah",
 	},
 	{
-		from: "chemlib:uranium_ingot",
-		to: "mekanism:ingot_uranium",
-	},
-	{
-		from: "chemlib:uranium_nugget",
-		to: "mekanism:nugget_uranium",
-	},
-	{
-		from: "chemlib:uranium_metal_block",
-		to: "mekanism:block_uranium",
-	},
-	{
-		from: "chemlib:uranium_dust",
-		to: "mekanism:dust_uranium",
-	},
-	{
 		from: "mffs:steel_ingot",
 		to: "mekanism:ingot_steel",
 	},
@@ -157,54 +141,6 @@ const LOOT_TO_REPLACE = [
 		to: "thermal:sapphire_dust",
 	},
 	{
-		from: "chemlib:thorium_ingot",
-		to: "moremekanismprocessing:thorium_ingot",
-	},
-	{
-		from: "chemlib:thorium_nugget",
-		to: "moremekanismprocessing:thorium_nugget",
-	},
-	{
-		from: "chemlib:thorium_dust",
-		to: "moremekanismprocessing:dust_thorium",
-	},
-	{
-		from: "chemlib:magnesium_ingot",
-		to: "moremekanismprocessing:magnesium_ingot",
-	},
-	{
-		from: "chemlib:magnesium_nugget",
-		to: "moremekanismprocessing:magnesium_nugget",
-	},
-	{
-		from: "chemlib:magnesium_dust",
-		to: "moremekanismprocessing:dust_magnesium",
-	},
-	{
-		from: "chemlib:aluminum_ingot",
-		to: "moremekanismprocessing:aluminum_ingot",
-	},
-	{
-		from: "chemlib:aluminum_nugget",
-		to: "moremekanismprocessing:aluminum_nugget",
-	},
-	{
-		from: "chemlib:aluminum_dust",
-		to: "moremekanismprocessing:dust_aluminum",
-	},
-	{
-		from: "chemlib:cobalt_ingot",
-		to: "moremekanismprocessing:cobalt_ingot",
-	},
-	{
-		from: "chemlib:cobalt_nugget",
-		to: "moremekanismprocessing:cobalt_nugget",
-	},
-	{
-		from: "chemlib:cobalt_dust",
-		to: "moremekanismprocessing:dust_cobalt",
-	},
-	{
 		from: "moremekanismprocessing:nickel_ingot",
 		to: "thermal:nickel_ingot",
 	},
@@ -289,6 +225,30 @@ const LOOT_TO_REPLACE = [
 		to: "moremekanismprocessing:dust_boron",
 	},
 	{
+		from: "chemlib:magnesium_ingot",
+		to: "moremekanismprocessing:magnesium_ingot",
+	},
+	{
+		from: "chemlib:magnesium_nugget",
+		to: "moremekanismprocessing:magnesium_nugget",
+	},
+	{
+		from: "chemlib:magnesium_dust",
+		to: "moremekanismprocessing:dust_magnesium",
+	},
+	{
+		from: "chemlib:aluminum_ingot",
+		to: "moremekanismprocessing:aluminum_ingot",
+	},
+	{
+		from: "chemlib:aluminum_nugget",
+		to: "moremekanismprocessing:aluminum_nugget",
+	},
+	{
+		from: "chemlib:aluminum_dust",
+		to: "moremekanismprocessing:dust_aluminum",
+	},
+	{
 		from: "chemlib:calcium_nugget",
 		to: "chemlib:calcium_nugget",
 	},
@@ -319,6 +279,18 @@ const LOOT_TO_REPLACE = [
 	{
 		from: "chemlib:iron_dust",
 		to: "mekanism:dust_iron",
+	},
+	{
+		from: "chemlib:cobalt_ingot",
+		to: "moremekanismprocessing:cobalt_ingot",
+	},
+	{
+		from: "chemlib:cobalt_nugget",
+		to: "moremekanismprocessing:cobalt_nugget",
+	},
+	{
+		from: "chemlib:cobalt_dust",
+		to: "moremekanismprocessing:dust_cobalt",
 	},
 	{
 		from: "pneumaticcraft:copper_nugget",
@@ -595,6 +567,34 @@ const LOOT_TO_REPLACE = [
 	{
 		from: "chemlib:actinium_dust",
 		to: "chemlib:actinium_dust",
+	},
+	{
+		from: "chemlib:thorium_ingot",
+		to: "moremekanismprocessing:thorium_ingot",
+	},
+	{
+		from: "chemlib:thorium_nugget",
+		to: "moremekanismprocessing:thorium_nugget",
+	},
+	{
+		from: "chemlib:thorium_dust",
+		to: "moremekanismprocessing:dust_thorium",
+	},
+	{
+		from: "chemlib:uranium_ingot",
+		to: "mekanism:ingot_uranium",
+	},
+	{
+		from: "chemlib:uranium_nugget",
+		to: "mekanism:nugget_uranium",
+	},
+	{
+		from: "chemlib:uranium_metal_block",
+		to: "mekanism:block_uranium",
+	},
+	{
+		from: "chemlib:uranium_dust",
+		to: "mekanism:dust_uranium",
 	},
 	{
 		from: "superbwarfare:coal_powder",

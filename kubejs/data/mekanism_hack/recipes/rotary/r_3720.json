@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:orthoclase",
+        "fluid": "kubejs:yttrium_hydroxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:orthoclase",
+        "fluid": "kubejs:yttrium_hydroxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:orthoclase",
+        "gas": "kubejs:yttrium_hydroxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:orthoclase",
+        "gas": "kubejs:yttrium_hydroxide",
         "amount": 1.0
     }
 }

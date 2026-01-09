@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "slurry",
+    "input": {
+        "slurry": "kubejs:clean_utherium",
+        "amount": 200
+    },
+    "output": {
+        "item": "kubejs:crystal_utherium",
+        "count": 1.0
+    }
+}

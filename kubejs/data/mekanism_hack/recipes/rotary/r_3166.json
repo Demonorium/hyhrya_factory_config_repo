@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:sodium_bisulfate",
+        "fluid": "kubejs:potassium_permanganate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:sodium_bisulfate",
+        "fluid": "kubejs:potassium_permanganate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:sodium_bisulfate",
+        "gas": "kubejs:potassium_permanganate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:sodium_bisulfate",
+        "gas": "kubejs:potassium_permanganate",
         "amount": 1.0
     }
 }

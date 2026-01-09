@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:lithium_oxide_dust"
+            "item": "chemlib:nitrogen_dioxide"
         }
     },
     "output": {
-        "gas": "kubejs:lithium_oxide",
+        "gas": "mekanismelements:nitrogen_dioxide",
         "amount": 200
     }
 }

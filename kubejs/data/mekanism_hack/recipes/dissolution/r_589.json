@@ -1,0 +1,18 @@
+{
+    "type": "mekanism:dissolution",
+    "gasInput": {
+        "gas": "mekanismelements:nitric_acid",
+        "amount": 2.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "kubejs:clump_regalium"
+        }
+    },
+    "output": {
+        "slurry": "kubejs:dirty_regalium",
+        "amount": 600.0,
+        "chemicalType": "slurry"
+    }
+}

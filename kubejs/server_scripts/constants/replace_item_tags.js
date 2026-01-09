@@ -265,50 +265,6 @@ const TAGS_TO_FIX = [
 		item: "mekanism_extras:shard_naquadah",
 	},
 	{
-		tag: "forge:ingots/uranium",
-		item: "mekanism:ingot_uranium",
-	},
-	{
-		tag: "forge:nuggets/uranium",
-		item: "mekanism:nugget_uranium",
-	},
-	{
-		tag: "forge:storage_blocks/uranium",
-		item: "mekanism:block_uranium",
-	},
-	{
-		tag: "forge:raw_materials/uranium",
-		item: "mekanism:raw_uranium",
-	},
-	{
-		tag: "forge:storage_blocks/raw_uranium",
-		item: "mekanism:block_raw_uranium",
-	},
-	{
-		tag: "forge:plates/uranium",
-		item: "chemlib:uranium_plate",
-	},
-	{
-		tag: "forge:dusts/uranium",
-		item: "mekanism:dust_uranium",
-	},
-	{
-		tag: "mekanism:crystals/uranium",
-		item: "mekanism:crystal_uranium",
-	},
-	{
-		tag: "mekanism:dirty_dusts/uranium",
-		item: "mekanism:dirty_dust_uranium",
-	},
-	{
-		tag: "mekanism:clumps/uranium",
-		item: "mekanism:clump_uranium",
-	},
-	{
-		tag: "mekanism:shards/uranium",
-		item: "mekanism:shard_uranium",
-	},
-	{
 		tag: "forge:ingots/steel",
 		item: "mekanism:ingot_steel",
 	},
@@ -1209,126 +1165,6 @@ const TAGS_TO_FIX = [
 		item: "kubejs:shard_extraterrestrial_steel",
 	},
 	{
-		tag: "forge:ingots/thorium",
-		item: "moremekanismprocessing:thorium_ingot",
-	},
-	{
-		tag: "forge:nuggets/thorium",
-		item: "moremekanismprocessing:thorium_nugget",
-	},
-	{
-		tag: "forge:storage_blocks/thorium",
-		item: "chemlib:thorium_metal_block",
-	},
-	{
-		tag: "forge:plates/thorium",
-		item: "chemlib:thorium_plate",
-	},
-	{
-		tag: "forge:dusts/thorium",
-		item: "moremekanismprocessing:dust_thorium",
-	},
-	{
-		tag: "forge:ingots/magnesium",
-		item: "moremekanismprocessing:magnesium_ingot",
-	},
-	{
-		tag: "forge:nuggets/magnesium",
-		item: "moremekanismprocessing:magnesium_nugget",
-	},
-	{
-		tag: "forge:storage_blocks/magnesium",
-		item: "chemlib:magnesium_metal_block",
-	},
-	{
-		tag: "forge:plates/magnesium",
-		item: "chemlib:magnesium_plate",
-	},
-	{
-		tag: "forge:dusts/magnesium",
-		item: "moremekanismprocessing:dust_magnesium",
-	},
-	{
-		tag: "forge:ingots/aluminum",
-		item: "moremekanismprocessing:aluminum_ingot",
-	},
-	{
-		tag: "forge:nuggets/aluminum",
-		item: "moremekanismprocessing:aluminum_nugget",
-	},
-	{
-		tag: "forge:storage_blocks/aluminum",
-		item: "chemlib:aluminum_metal_block",
-	},
-	{
-		tag: "forge:plates/aluminum",
-		item: "chemlib:aluminum_plate",
-	},
-	{
-		tag: "forge:dusts/aluminum",
-		item: "moremekanismprocessing:dust_aluminum",
-	},
-	{
-		tag: "forge:ingots/scandium",
-		item: "chemlib:scandium_ingot",
-	},
-	{
-		tag: "forge:nuggets/scandium",
-		item: "chemlib:scandium_nugget",
-	},
-	{
-		tag: "forge:storage_blocks/scandium",
-		item: "chemlib:scandium_metal_block",
-	},
-	{
-		tag: "forge:plates/scandium",
-		item: "chemlib:scandium_plate",
-	},
-	{
-		tag: "forge:dusts/scandium",
-		item: "chemlib:scandium_dust",
-	},
-	{
-		tag: "forge:ingots/chromium",
-		item: "chemlib:chromium_ingot",
-	},
-	{
-		tag: "forge:nuggets/chromium",
-		item: "chemlib:chromium_nugget",
-	},
-	{
-		tag: "forge:storage_blocks/chromium",
-		item: "chemlib:chromium_metal_block",
-	},
-	{
-		tag: "forge:plates/chromium",
-		item: "chemlib:chromium_plate",
-	},
-	{
-		tag: "forge:dusts/chromium",
-		item: "chemlib:chromium_dust",
-	},
-	{
-		tag: "forge:ingots/cobalt",
-		item: "moremekanismprocessing:cobalt_ingot",
-	},
-	{
-		tag: "forge:nuggets/cobalt",
-		item: "moremekanismprocessing:cobalt_nugget",
-	},
-	{
-		tag: "forge:storage_blocks/cobalt",
-		item: "chemlib:cobalt_metal_block",
-	},
-	{
-		tag: "forge:plates/cobalt",
-		item: "chemlib:cobalt_plate",
-	},
-	{
-		tag: "forge:dusts/cobalt",
-		item: "moremekanismprocessing:dust_cobalt",
-	},
-	{
 		tag: "forge:ingots/nickel",
 		item: "thermal:nickel_ingot",
 	},
@@ -1757,6 +1593,46 @@ const TAGS_TO_FIX = [
 		item: "chemlib:sodium_dust",
 	},
 	{
+		tag: "forge:ingots/magnesium",
+		item: "moremekanismprocessing:magnesium_ingot",
+	},
+	{
+		tag: "forge:nuggets/magnesium",
+		item: "moremekanismprocessing:magnesium_nugget",
+	},
+	{
+		tag: "forge:storage_blocks/magnesium",
+		item: "chemlib:magnesium_metal_block",
+	},
+	{
+		tag: "forge:plates/magnesium",
+		item: "chemlib:magnesium_plate",
+	},
+	{
+		tag: "forge:dusts/magnesium",
+		item: "moremekanismprocessing:dust_magnesium",
+	},
+	{
+		tag: "forge:ingots/aluminum",
+		item: "moremekanismprocessing:aluminum_ingot",
+	},
+	{
+		tag: "forge:nuggets/aluminum",
+		item: "moremekanismprocessing:aluminum_nugget",
+	},
+	{
+		tag: "forge:storage_blocks/aluminum",
+		item: "chemlib:aluminum_metal_block",
+	},
+	{
+		tag: "forge:plates/aluminum",
+		item: "chemlib:aluminum_plate",
+	},
+	{
+		tag: "forge:dusts/aluminum",
+		item: "moremekanismprocessing:dust_aluminum",
+	},
+	{
 		tag: "forge:ingots/potassium",
 		item: "chemlib:potassium_ingot",
 	},
@@ -1797,6 +1673,26 @@ const TAGS_TO_FIX = [
 		item: "chemlib:calcium_dust",
 	},
 	{
+		tag: "forge:ingots/scandium",
+		item: "chemlib:scandium_ingot",
+	},
+	{
+		tag: "forge:nuggets/scandium",
+		item: "chemlib:scandium_nugget",
+	},
+	{
+		tag: "forge:storage_blocks/scandium",
+		item: "chemlib:scandium_metal_block",
+	},
+	{
+		tag: "forge:plates/scandium",
+		item: "chemlib:scandium_plate",
+	},
+	{
+		tag: "forge:dusts/scandium",
+		item: "chemlib:scandium_dust",
+	},
+	{
 		tag: "forge:ingots/titanium",
 		item: "moremekanismprocessing:titanium_ingot",
 	},
@@ -1835,6 +1731,26 @@ const TAGS_TO_FIX = [
 	{
 		tag: "forge:dusts/vanadium",
 		item: "chemlib:vanadium_dust",
+	},
+	{
+		tag: "forge:ingots/chromium",
+		item: "chemlib:chromium_ingot",
+	},
+	{
+		tag: "forge:nuggets/chromium",
+		item: "chemlib:chromium_nugget",
+	},
+	{
+		tag: "forge:storage_blocks/chromium",
+		item: "chemlib:chromium_metal_block",
+	},
+	{
+		tag: "forge:plates/chromium",
+		item: "chemlib:chromium_plate",
+	},
+	{
+		tag: "forge:dusts/chromium",
+		item: "chemlib:chromium_dust",
 	},
 	{
 		tag: "forge:ingots/manganese",
@@ -1907,6 +1823,26 @@ const TAGS_TO_FIX = [
 	{
 		tag: "mekanism:shards/iron",
 		item: "mekanism:shard_iron",
+	},
+	{
+		tag: "forge:ingots/cobalt",
+		item: "moremekanismprocessing:cobalt_ingot",
+	},
+	{
+		tag: "forge:nuggets/cobalt",
+		item: "moremekanismprocessing:cobalt_nugget",
+	},
+	{
+		tag: "forge:storage_blocks/cobalt",
+		item: "chemlib:cobalt_metal_block",
+	},
+	{
+		tag: "forge:plates/cobalt",
+		item: "chemlib:cobalt_plate",
+	},
+	{
+		tag: "forge:dusts/cobalt",
+		item: "moremekanismprocessing:dust_cobalt",
 	},
 	{
 		tag: "forge:ingots/copper",
@@ -3009,6 +2945,26 @@ const TAGS_TO_FIX = [
 		item: "chemlib:actinium_dust",
 	},
 	{
+		tag: "forge:ingots/thorium",
+		item: "moremekanismprocessing:thorium_ingot",
+	},
+	{
+		tag: "forge:nuggets/thorium",
+		item: "moremekanismprocessing:thorium_nugget",
+	},
+	{
+		tag: "forge:storage_blocks/thorium",
+		item: "chemlib:thorium_metal_block",
+	},
+	{
+		tag: "forge:plates/thorium",
+		item: "chemlib:thorium_plate",
+	},
+	{
+		tag: "forge:dusts/thorium",
+		item: "moremekanismprocessing:dust_thorium",
+	},
+	{
 		tag: "forge:ingots/protactinium",
 		item: "chemlib:protactinium_ingot",
 	},
@@ -3027,6 +2983,50 @@ const TAGS_TO_FIX = [
 	{
 		tag: "forge:dusts/protactinium",
 		item: "chemlib:protactinium_dust",
+	},
+	{
+		tag: "forge:ingots/uranium",
+		item: "mekanism:ingot_uranium",
+	},
+	{
+		tag: "forge:nuggets/uranium",
+		item: "mekanism:nugget_uranium",
+	},
+	{
+		tag: "forge:storage_blocks/uranium",
+		item: "mekanism:block_uranium",
+	},
+	{
+		tag: "forge:raw_materials/uranium",
+		item: "mekanism:raw_uranium",
+	},
+	{
+		tag: "forge:storage_blocks/raw_uranium",
+		item: "mekanism:block_raw_uranium",
+	},
+	{
+		tag: "forge:plates/uranium",
+		item: "chemlib:uranium_plate",
+	},
+	{
+		tag: "forge:dusts/uranium",
+		item: "mekanism:dust_uranium",
+	},
+	{
+		tag: "mekanism:crystals/uranium",
+		item: "mekanism:crystal_uranium",
+	},
+	{
+		tag: "mekanism:dirty_dusts/uranium",
+		item: "mekanism:dirty_dust_uranium",
+	},
+	{
+		tag: "mekanism:clumps/uranium",
+		item: "mekanism:clump_uranium",
+	},
+	{
+		tag: "mekanism:shards/uranium",
+		item: "mekanism:shard_uranium",
 	},
 	{
 		tag: "forge:dusts/coal",

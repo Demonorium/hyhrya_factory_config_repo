@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:molybdenum_disulphide",
+        "fluid": "kubejs:iron_hydroxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:molybdenum_disulphide",
+        "fluid": "kubejs:iron_hydroxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:molybdenum_disulphide",
+        "gas": "kubejs:iron_hydroxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:molybdenum_disulphide",
+        "gas": "kubejs:iron_hydroxide",
         "amount": 1.0
     }
 }

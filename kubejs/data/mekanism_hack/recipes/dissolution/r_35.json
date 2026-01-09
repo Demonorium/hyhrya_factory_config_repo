@@ -1,7 +1,7 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "mekanismelements:nitric_acid",
+        "gas": "mekanism:sulfuric_acid",
         "amount": 2.0
     },
     "itemInput": {

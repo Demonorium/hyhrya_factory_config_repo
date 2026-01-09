@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:tellurium_dioxide",
+        "fluid": "kubejs:sulfur_hexafluoride",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:tellurium_dioxide",
+        "fluid": "kubejs:sulfur_hexafluoride",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:tellurium_dioxide",
+        "gas": "kubejs:sulfur_hexafluoride",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:tellurium_dioxide",
+        "gas": "kubejs:sulfur_hexafluoride",
         "amount": 1.0
     }
 }

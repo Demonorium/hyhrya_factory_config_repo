@@ -1,25 +1,25 @@
 {
-    "entity": "deeperdarker:sculk_snapper",
+    "entity": "undergarden:rotling",
     "variants": [],
-    "name": "entity.deeperdarker.sculk_snapper",
-    "name_color": "#606B5E",
+    "name": "entity.undergarden.rotling",
+    "name_color": "#AD4643",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 6144,
+    "sim_cost": 2048,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
     },
     "base_drop": {
-        "item": "kubejs:sculk_prediction",
+        "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.sculk_snapper",
+    "trivia": "hostilenetworks.trivia.rotling",
     "fabricator_drops": [
         {
-            "item": "deeperdarker:soul_dust",
+            "item": "undergarden:utheric_shard",
             "count": 32.0
         }
     ]

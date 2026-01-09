@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:carboxylic_acid",
+        "fluid": "kubejs:strontium_nitrate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:carboxylic_acid",
+        "fluid": "kubejs:strontium_nitrate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:carboxylic_acid",
+        "gas": "kubejs:strontium_nitrate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:carboxylic_acid",
+        "gas": "kubejs:strontium_nitrate",
         "amount": 1.0
     }
 }

@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:lanthanum",
+        "fluid": "kubejs:zirconium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:lanthanum",
+        "fluid": "kubejs:zirconium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:lanthanum",
+        "gas": "kubejs:zirconium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:lanthanum",
+        "gas": "kubejs:zirconium",
         "amount": 1.0
     }
 }

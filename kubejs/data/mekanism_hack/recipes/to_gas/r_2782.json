@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:copernicium"
+            "item": "chemlib:polonium_dust"
         }
     },
     "output": {
-        "gas": "kubejs:copernicium",
+        "gas": "mekanism:polonium",
         "amount": 200
     }
 }

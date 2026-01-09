@@ -2,17 +2,17 @@
     "type": "mekanism:dissolution",
     "gasInput": {
         "gas": "mekanismelements:nitric_acid",
-        "amount": 2.0
+        "amount": 6.0
     },
     "itemInput": {
-        "amount": 1.0,
+        "amount": 3.0,
         "ingredient": {
-            "item": "moremekanismprocessing:clump_ruby"
+            "item": "undergarden:raw_froststeel"
         }
     },
     "output": {
-        "slurry": "moremekanismprocessing:dirty_ruby",
-        "amount": 600.0,
+        "slurry": "kubejs:dirty_froststeel",
+        "amount": 2000.0,
         "chemicalType": "slurry"
     }
 }

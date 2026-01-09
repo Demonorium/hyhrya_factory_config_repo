@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:manganese_dust"
+            "item": "chemlib:nitrogen"
         }
     },
     "output": {
-        "gas": "kubejs:manganese",
+        "gas": "mekanismelements:nitrogen",
         "amount": 200
     }
 }

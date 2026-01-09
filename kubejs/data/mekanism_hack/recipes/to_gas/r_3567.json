@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:yttrium_carbonate_dust"
+            "item": "chemlib:strontium_sulfate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:yttrium_carbonate",
+        "gas": "kubejs:strontium_sulfate",
         "amount": 200
     }
 }

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:dust_tin"
+            "item": "chemlib:bromine"
         }
     },
     "output": {
-        "gas": "kubejs:tin",
+        "gas": "mekanismelements:bromine",
         "amount": 200
     }
 }

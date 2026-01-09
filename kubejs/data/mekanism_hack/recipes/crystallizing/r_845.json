@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "slurry",
+    "input": {
+        "slurry": "kubejs:clean_extraterrestrial_steel",
+        "amount": 200
+    },
+    "output": {
+        "item": "kubejs:crystal_extraterrestrial_steel",
+        "count": 1.0
+    }
+}

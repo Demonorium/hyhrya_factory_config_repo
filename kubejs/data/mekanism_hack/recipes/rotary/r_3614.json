@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:ozone",
+        "fluid": "kubejs:rubidium_nitrate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:ozone",
+        "fluid": "kubejs:rubidium_nitrate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:ozone",
+        "gas": "kubejs:rubidium_nitrate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:ozone",
+        "gas": "kubejs:rubidium_nitrate",
         "amount": 1.0
     }
 }

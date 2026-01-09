@@ -1,0 +1,18 @@
+{
+    "type": "mekanism:dissolution",
+    "gasInput": {
+        "gas": "mekanismelements:nitric_acid",
+        "amount": 18.0
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "undergarden:raw_cloggrum_block"
+        }
+    },
+    "output": {
+        "slurry": "kubejs:dirty_cloggrum",
+        "amount": 6000.0,
+        "chemicalType": "slurry"
+    }
+}

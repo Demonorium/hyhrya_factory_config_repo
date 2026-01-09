@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:caffeine_dust"
+            "item": "chemlib:triglyceride_dust"
         }
     },
     "output": {
-        "gas": "kubejs:caffeine",
+        "gas": "kubejs:triglyceride",
         "amount": 200
     }
 }

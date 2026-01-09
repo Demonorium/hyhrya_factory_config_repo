@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:actinium",
+        "fluid": "kubejs:hafnium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:actinium",
+        "fluid": "kubejs:hafnium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:actinium",
+        "gas": "kubejs:hafnium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:actinium",
+        "gas": "kubejs:hafnium",
         "amount": 1.0
     }
 }

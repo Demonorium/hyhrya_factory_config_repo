@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:iron_ii_oxide_dust"
+            "item": "chemlib:graphite_dust"
         }
     },
     "output": {
-        "gas": "kubejs:iron_ii_oxide",
+        "gas": "kubejs:graphite",
         "amount": 200
     }
 }

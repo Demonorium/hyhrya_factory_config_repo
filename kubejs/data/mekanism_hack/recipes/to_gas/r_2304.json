@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:indium_dust"
+            "item": "chemlib:arsenic_dust"
         }
     },
     "output": {
-        "gas": "kubejs:indium",
+        "gas": "kubejs:arsenic",
         "amount": 200
     }
 }

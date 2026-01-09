@@ -9,7 +9,7 @@
       "action": {
         "key": {
           "key": "key.ftbquests.quests",
-          "toggle": true
+          "toggle": false
         }
       }
     },
@@ -30,7 +30,7 @@
       "action": {
         "key": {
           "key": "key.tempad.shortcut",
-          "toggle": true
+          "toggle": false
         }
       }
     },
@@ -42,7 +42,7 @@
       "action": {
         "key": {
           "key": "gui.xaero_waypoints_key",
-          "toggle": true
+          "toggle": false
         }
       }
     },
@@ -54,7 +54,7 @@
       "action": {
         "key": {
           "key": "gui.xaero_new_waypoint",
-          "toggle": true
+          "toggle": false
         }
       }
     },
@@ -66,7 +66,7 @@
       "action": {
         "key": {
           "key": "keybind.sophisticatedbackpacks.open_backpack",
-          "toggle": true
+          "toggle": false
         }
       }
     },
@@ -78,7 +78,7 @@
       "action": {
         "key": {
           "key": "key.ae2.wireless_terminal",
-          "toggle": true
+          "toggle": false
         }
       }
     },
@@ -90,7 +90,7 @@
       "action": {
         "key": {
           "key": "key.diet.open.desc",
-          "toggle": true
+          "toggle": false
         }
       }
     },
@@ -102,7 +102,7 @@
       "action": {
         "key": {
           "key": "key.puffish_skills.open",
-          "toggle": true
+          "toggle": false
         }
       }
     }
@@ -116,7 +116,19 @@
       "action": {
         "key": {
           "key": "key.mekanism.key_hud",
-          "toggle": true
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Настройка Пневмоброни",
+      "icon": {
+        "stack": "{Count:1b,id:\"pneumaticcraft:pneumatic_helmet\",tag:{Damage:0}}"
+      },
+      "action": {
+        "key": {
+          "key": "pneumaticcraft.armor.options",
+          "toggle": false
         }
       }
     },
@@ -128,7 +140,7 @@
       "action": {
         "key": {
           "key": "key.mekanism.feet_mode",
-          "toggle": true
+          "toggle": false
         }
       }
     },
@@ -140,7 +152,7 @@
       "action": {
         "key": {
           "key": "key.mekanism.legs_mode",
-          "toggle": true
+          "toggle": false
         }
       }
     },
@@ -152,7 +164,7 @@
       "action": {
         "key": {
           "key": "key.mekanism.chest_mode",
-          "toggle": true
+          "toggle": false
         }
       }
     },
@@ -164,7 +176,7 @@
       "action": {
         "key": {
           "key": "key.mekanism.head_mode",
-          "toggle": true
+          "toggle": false
         }
       }
     },
@@ -176,7 +188,7 @@
       "action": {
         "key": {
           "key": "key.mekanism.module_tweaker",
-          "toggle": true
+          "toggle": false
         }
       }
     }

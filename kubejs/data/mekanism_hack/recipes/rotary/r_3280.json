@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:copper_ii_hydroxide",
+        "fluid": "kubejs:zinc_sulfide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:copper_ii_hydroxide",
+        "fluid": "kubejs:zinc_sulfide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:copper_ii_hydroxide",
+        "gas": "kubejs:zinc_sulfide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:copper_ii_hydroxide",
+        "gas": "kubejs:zinc_sulfide",
         "amount": 1.0
     }
 }

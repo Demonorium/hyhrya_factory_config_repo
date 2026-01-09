@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:actinium_dust"
+            "item": "chemlib:hafnium_dust"
         }
     },
     "output": {
-        "gas": "kubejs:actinium",
+        "gas": "kubejs:hafnium",
         "amount": 200
     }
 }

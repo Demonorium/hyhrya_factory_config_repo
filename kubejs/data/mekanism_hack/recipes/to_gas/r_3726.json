@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:sodium_metasilicate_dust"
+            "item": "chemlib:titanium_carbide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:sodium_metasilicate",
+        "gas": "kubejs:titanium_carbide",
         "amount": 200
     }
 }

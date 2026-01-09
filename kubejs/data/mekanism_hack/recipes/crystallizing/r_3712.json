@@ -2,11 +2,11 @@
     "type": "mekanism:crystallizing",
     "chemicalType": "gas",
     "input": {
-        "gas": "kubejs:monochloramine",
+        "gas": "kubejs:carbon_trioxide",
         "amount": 100
     },
     "output": {
-        "item": "chemlib:monochloramine",
+        "item": "chemlib:carbon_trioxide",
         "count": 1.0
     }
 }

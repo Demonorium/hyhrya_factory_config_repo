@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:chalcopyrite",
+        "fluid": "kubejs:benzene",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:chalcopyrite",
+        "fluid": "kubejs:benzene",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:chalcopyrite",
+        "gas": "kubejs:benzene",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:chalcopyrite",
+        "gas": "kubejs:benzene",
         "amount": 1.0
     }
 }

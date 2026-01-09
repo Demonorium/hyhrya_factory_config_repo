@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:molybdenum_disulphide_dust"
+            "item": "chemlib:iron_hydroxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:molybdenum_disulphide",
+        "gas": "kubejs:iron_hydroxide",
         "amount": 200
     }
 }

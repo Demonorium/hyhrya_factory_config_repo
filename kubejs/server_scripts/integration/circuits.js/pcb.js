@@ -132,6 +132,26 @@ ServerEvents.recipes(event => {
       }
     ]
   })
+  event.custom({
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 2,
+        "item": MATERIALS.COPPER.nugget
+      },
+      {
+        "item": "chemlib:zinc_oxide_dust"
+      }
+    ],
+    "pressure": 1.0,
+    "results": [
+      {
+        "item": "pneumaticcraft:transistor",
+        "count": 1
+      }
+    ]
+  })
 
   event.replaceInput({ id: 'pneumaticcraft:pneumatic_dynamo' }, 'pneumaticcraft:printed_circuit_board', 'pncepcb:primitive_finished_pcb')
   event.replaceInput({ id: 'pneumaticcraft:pneumatic_dynamo' }, 'pneumaticcraft:advanced_pressure_tube', 'pneumaticcraft:reinforced_pressure_tube')
@@ -143,7 +163,8 @@ ServerEvents.recipes(event => {
   assembly_laser(event, Item.of('chemlib:germanium_dust'), Item.of('pncepcb:smd_transistor', 9))
   assembly_laser(event, Item.of('chemlib:tellurium_dust'), Item.of('pncepcb:smd_transistor', 4))
   assembly_laser(event, Item.of('chemlib:phosphorus_dust'), Item.of('pncepcb:smd_transistor', 1))
-  
+  assembly_laser(event, Item.of('chemlib:zinc_oxide_dust', 3), Item.of('pncepcb:smd_transistor', 1))
+
   assembly_laser(event, Item.of('chemlib:cesium_sulfate_dust'), Item.of('pncepcb:smd_capacitor', 1))
   assembly_laser(event, Item.of('chemlib:tantalum_nugget'), Item.of('pncepcb:smd_capacitor', 1))
   assembly_laser(event, Item.of('chemlib:niobium_nugget'), Item.of('pncepcb:smd_capacitor', 2))

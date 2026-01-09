@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:hydrogen_bromide",
+        "fluid": "kubejs:neodymium_iii_sulfate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:hydrogen_bromide",
+        "fluid": "kubejs:neodymium_iii_sulfate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:hydrogen_bromide",
+        "gas": "kubejs:neodymium_iii_sulfate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:hydrogen_bromide",
+        "gas": "kubejs:neodymium_iii_sulfate",
         "amount": 1.0
     }
 }

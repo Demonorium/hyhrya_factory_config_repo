@@ -1,7 +1,9 @@
 // priority: 0
 
 ServerEvents.recipes(event => {
-    
+    event.replaceInput({id: 'mekanism_weaponry:fire_rate_chip_1'}, 'green_dye', 'pneumaticcraft:unassembled_pcb')
+    event.replaceInput({id: 'mekanism_weaponry:energy_usage_chip_1'}, 'green_dye', 'pneumaticcraft:unassembled_pcb')
+    event.replaceInput({id: 'mekanism_weaponry:heat_per_shot_chip_1'}, 'green_dye', 'pneumaticcraft:unassembled_pcb')
 
     event.custom({
         "type": "pneumaticcraft:thermo_plant",
@@ -24,10 +26,6 @@ ServerEvents.recipes(event => {
             "min_temp": 573
         }
     })
-
-    
-
-    
 
     event.replaceInput({ id: 'mekanismgenerators:turbine/blade' }, 'mekanism:alloy_infused', 'mekanism_weaponry:steel_rod')
     event.replaceInput({ id: 'mekanismgenerators:turbine/blade' }, 'mekanism:ingot_steel', 'pneumaticcraft:turbine_blade')

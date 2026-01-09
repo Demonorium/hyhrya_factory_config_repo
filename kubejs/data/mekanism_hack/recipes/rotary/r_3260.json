@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:barium_hydroxide",
+        "fluid": "kubejs:magnesium_carbonate",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:barium_hydroxide",
+        "fluid": "kubejs:magnesium_carbonate",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:barium_hydroxide",
+        "gas": "kubejs:magnesium_carbonate",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:barium_hydroxide",
+        "gas": "kubejs:magnesium_carbonate",
         "amount": 1.0
     }
 }

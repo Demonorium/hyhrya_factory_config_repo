@@ -1,0 +1,9 @@
+{
+  "icon": "chemlib:zinc_dust",
+  "color": "#bcbaa1",
+  "order": 6,
+  "default_value": 0.0,
+  "gain_multiplier": 0.05,
+  "decay_multiplier": 0.01,
+  "beneficial": false
+}

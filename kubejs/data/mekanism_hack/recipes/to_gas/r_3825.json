@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:phosphorus_pentoxide_dust"
+            "item": "chemlib:thallium_iii_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:phosphorus_pentoxide",
+        "gas": "kubejs:thallium_iii_oxide",
         "amount": 200
     }
 }

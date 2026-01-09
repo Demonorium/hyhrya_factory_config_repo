@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:potassium_chloride_dust"
+            "item": "mekanism:dust_uranium"
         }
     },
     "output": {
-        "gas": "mekanismelements:potassium_chloride",
+        "gas": "kubejs:uranium",
         "amount": 200
     }
 }

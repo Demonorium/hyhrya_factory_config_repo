@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:orthoclase_dust"
+            "item": "chemlib:yttrium_hydroxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:orthoclase",
+        "gas": "kubejs:yttrium_hydroxide",
         "amount": 200
     }
 }

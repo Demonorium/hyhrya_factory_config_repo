@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:iron_ii_oxide",
+        "fluid": "kubejs:graphite",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:iron_ii_oxide",
+        "fluid": "kubejs:graphite",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:iron_ii_oxide",
+        "gas": "kubejs:graphite",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:iron_ii_oxide",
+        "gas": "kubejs:graphite",
         "amount": 1.0
     }
 }

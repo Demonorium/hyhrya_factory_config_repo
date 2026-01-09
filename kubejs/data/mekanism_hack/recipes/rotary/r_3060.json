@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:polyvinyl_chloride",
+        "fluid": "kubejs:starch",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:polyvinyl_chloride",
+        "fluid": "kubejs:starch",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:polyvinyl_chloride",
+        "gas": "kubejs:starch",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:polyvinyl_chloride",
+        "gas": "kubejs:starch",
         "amount": 1.0
     }
 }

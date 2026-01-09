@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:beryllium_hydroxide_dust"
+            "item": "chemlib:calcium_chloride_dust"
         }
     },
     "output": {
-        "gas": "kubejs:beryllium_hydroxide",
+        "gas": "kubejs:calcium_chloride",
         "amount": 200
     }
 }

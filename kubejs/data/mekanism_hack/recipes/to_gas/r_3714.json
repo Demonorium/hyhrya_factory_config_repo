@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:monochloramine"
+            "item": "chemlib:carbon_trioxide"
         }
     },
     "output": {
-        "gas": "kubejs:monochloramine",
+        "gas": "kubejs:carbon_trioxide",
         "amount": 200
     }
 }

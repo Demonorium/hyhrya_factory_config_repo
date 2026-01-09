@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:urea_dust"
+            "item": "chemlib:moscovium"
         }
     },
     "output": {
-        "gas": "kubejs:urea",
+        "gas": "kubejs:moscovium",
         "amount": 200
     }
 }

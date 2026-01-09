@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:radon"
+            "item": "chemlib:thulium_dust"
         }
     },
     "output": {
-        "gas": "kubejs:radon",
+        "gas": "kubejs:thulium",
         "amount": 200
     }
 }

@@ -1,18 +1,18 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "mekanismelements:aqua_regia",
-        "amount": 1.0
+        "gas": "mekanism:sulfuric_acid",
+        "amount": 2.0
     },
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "moremekanismprocessing:clump_desh"
+            "tag": "forge:ores/ostrum"
         }
     },
     "output": {
-        "slurry": "moremekanismprocessing:dirty_desh",
-        "amount": 900.0,
+        "slurry": "moremekanismprocessing:dirty_ostrum",
+        "amount": 1200.0,
         "chemicalType": "slurry"
     }
 }

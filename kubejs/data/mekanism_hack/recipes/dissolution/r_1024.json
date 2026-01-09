@@ -7,12 +7,12 @@
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "moremekanismprocessing:clump_cinnabar"
+            "tag": "forge:ores/apatite"
         }
     },
     "output": {
-        "slurry": "moremekanismprocessing:dirty_cinnabar",
-        "amount": 900.0,
+        "slurry": "moremekanismprocessing:dirty_apatite",
+        "amount": 1800.0,
         "chemicalType": "slurry"
     }
 }

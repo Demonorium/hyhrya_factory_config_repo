@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:kaolinite",
+        "fluid": "kubejs:americium",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:kaolinite",
+        "fluid": "kubejs:americium",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:kaolinite",
+        "gas": "mekanismelements:americium",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:kaolinite",
+        "gas": "mekanismelements:americium",
         "amount": 1.0
     }
 }

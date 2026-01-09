@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:tricalcium_phosphate_dust"
+            "item": "chemlib:tungsten_carbide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:tricalcium_phosphate",
+        "gas": "kubejs:tungsten_carbide",
         "amount": 200
     }
 }

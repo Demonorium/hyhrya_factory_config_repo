@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:strontium_aluminate_dust"
+            "item": "chemlib:niobium_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:strontium_aluminate",
+        "gas": "kubejs:niobium_oxide",
         "amount": 200
     }
 }

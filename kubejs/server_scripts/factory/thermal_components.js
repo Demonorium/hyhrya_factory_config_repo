@@ -72,26 +72,10 @@ ServerEvents.recipes(event => {
     })
 
     event.remove({ id: "thermal:machine_frame" })
-    event.custom({
-        "type": "pneumaticcraft:pressure_chamber",
-        "inputs": [
-            {
-                "type": "pneumaticcraft:stacked_item",
-                "count": 4,
-                "tag": "pneumaticcraft:wiring"
-            },
-            {
-                "item": "mekanism:steel_casing"
-            }
-        ],
-        "pressure": 3.0,
-        "results": [
-            {
-                "item": "thermal:machine_frame",
-                "count": 1
-            }
-        ]
-    })
+    assembly_drill(event, Item.of("mekanism:steel_casing"), Item.of("thermal:machine_frame"))
+    assembly_drill(event, Item.of(MATERIALS.ALUMINUM.block), Item.of("thermal:machine_frame", 2))
+    assembly_laser(event, Item.of(MATERIALS.SIGNALUM.ingot), Item.of("thermal:rf_coil", 5))
+
     event.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [

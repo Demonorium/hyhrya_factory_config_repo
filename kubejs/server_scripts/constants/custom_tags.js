@@ -144,6 +144,13 @@ const CUSTOM_TAGS = [
 		],
 	],
 	[
+		"kubejs:endlessbiomes/slipstone_1",
+		[
+			"endlessbiomes:slipstone_bricks",
+			"endlessbiomes:slipstone",
+		],
+	],
+	[
 		"kubejs:biomesoplenty/thermal_calcite_1",
 		[
 			"biomesoplenty:thermal_calcite",
@@ -690,8 +697,25 @@ const CUSTOM_TAGS = [
 		"kubejs:minecraft/lapis_lazuli_1",
 		[
 			"mekanism:dust_lapis_lazuli",
-			"mekanismtools:lapis_lazuli_chestplate",
 			"minecraft:lapis_lazuli",
+		],
+	],
+	[
+		"kubejs:minecraft/lapis_lazuli_8",
+		[
+			"mekanismtools:lapis_lazuli_chestplate",
+		],
+	],
+	[
+		"kubejs:minecraft/lapis_lazuli_7",
+		[
+			"mekanismtools:lapis_lazuli_leggings",
+		],
+	],
+	[
+		"kubejs:minecraft/lapis_lazuli_4",
+		[
+			"mekanismtools:lapis_lazuli_boots",
 		],
 	],
 	[

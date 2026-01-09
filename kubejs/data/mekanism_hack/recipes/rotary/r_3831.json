@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:dolomite",
+        "fluid": "kubejs:niobium_pentoxide",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:dolomite",
+        "fluid": "kubejs:niobium_pentoxide",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:dolomite",
+        "gas": "kubejs:niobium_pentoxide",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:dolomite",
+        "gas": "kubejs:niobium_pentoxide",
         "amount": 1.0
     }
 }

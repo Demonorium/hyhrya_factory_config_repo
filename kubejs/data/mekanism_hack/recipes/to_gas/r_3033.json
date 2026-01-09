@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:chromium_oxide_dust"
+            "item": "chemlib:carbonate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:chromium_oxide",
+        "gas": "kubejs:carbonate",
         "amount": 200
     }
 }

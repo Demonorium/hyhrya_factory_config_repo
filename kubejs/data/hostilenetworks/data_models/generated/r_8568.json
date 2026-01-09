@@ -1,0 +1,26 @@
+{
+    "entity": "deeperdarker:sculk_snapper",
+    "variants": [],
+    "name": "entity.deeperdarker.sculk_snapper",
+    "name_color": "#606B5E",
+    "gui_scale": 1.0,
+    "gui_x_offset": 0.0,
+    "gui_y_offset": 0.0,
+    "gui_z_offset": 0.0,
+    "sim_cost": 6144,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "kubejs:sculk_prediction",
+        "count": 1.0
+    },
+    "trivia": "hostilenetworks.trivia.sculk_snapper",
+    "fabricator_drops": [
+        {
+            "item": "deeperdarker:soul_dust",
+            "count": 32.0
+        }
+    ]
+}

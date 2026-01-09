@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:dust_gold"
+            "item": "chemlib:gadolinium_dust"
         }
     },
     "output": {
-        "gas": "kubejs:gold",
+        "gas": "kubejs:gadolinium",
         "amount": 200
     }
 }

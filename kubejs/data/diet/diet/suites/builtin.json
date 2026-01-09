@@ -1,0 +1,621 @@
+{
+  "replace": false,
+  "groups": [
+    "fruits",
+    "grains",
+    "proteins",
+    "sugars",
+    "vegetables",
+    "vitamins",
+    "metals",
+    "radiation"
+  ],
+  "effects": [
+    {
+      "status_effects": [
+        {
+          "name": "voltaic:radiation",
+          "power": 2
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["radiation"],
+          "match": "all",
+          "above": 0.85,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "status_effects": [
+        {
+          "name": "voltaic:radiation",
+          "power": 1
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["radiation"],
+          "match": "all",
+          "above": 0.7,
+          "below": 0.85
+        }
+      ]
+    },
+    {
+      "status_effects": [
+        {
+          "name": "minecraft:poison",
+          "power": 2
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["metals"],
+          "match": "all",
+          "above": 0.85,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "status_effects": [
+        {
+          "name": "minecraft:poison",
+          "power": 1
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["metals"],
+          "match": "all",
+          "above": 0.7,
+          "below": 0.85
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": -2.0
+        },
+        {
+          "name": "puffish_attributes:player.stamina",
+          "operation": "add",
+          "amount": -0.05
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["radiation", "metals"],
+          "match": "every",
+          "above": 0.2,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": -2.0
+        },
+        {
+          "name": "puffish_attributes:player.stamina",
+          "operation": "add",
+          "amount": -0.05
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["radiation", "metals"],
+          "match": "every",
+          "above": 0.45,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": -2.0
+        },
+        {
+          "name": "puffish_attributes:player.stamina",
+          "operation": "add",
+          "amount": -0.05
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["radiation", "metals"],
+          "match": "every",
+          "above": 0.63,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": -2.0
+        },
+        {
+          "name": "puffish_attributes:player.stamina",
+          "operation": "add",
+          "amount": -0.05
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["radiation", "metals"],
+          "match": "every",
+          "above": 0.7,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": -2.0
+        },
+        {
+          "name": "puffish_attributes:player.stamina",
+          "operation": "add",
+          "amount": -0.05
+        }
+      ],
+      "status_effects": [
+        {
+          "name": "minecraft:blindness",
+          "power": 1
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["radiation", "metals"],
+          "match": "every",
+          "above": 0.9,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": 2.0
+        },
+        {
+          "name": "puffish_attributes:player.stamina",
+          "operation": "add",
+          "amount": 0.05
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins", "fruits", "vegetables", "grains"],
+          "match": "every",
+          "above": 0.5,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": 2.0
+        },
+        {
+          "name": "puffish_attributes:player.stamina",
+          "operation": "add",
+          "amount": 0.1
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins", "fruits", "vegetables", "grains"],
+          "match": "every",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "puffish_attributes:player.mining_speed",
+          "operation": "multiply_base",
+          "amount": 0.2
+        },
+        {
+          "name": "puffish_attributes:player.sprinting_speed",
+          "operation": "multiply_base",
+          "amount": 0.2
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["fruits", "vegetables"],
+          "match": "every",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "puffish_attributes:player.mining_speed",
+          "operation": "multiply_base",
+          "amount": 0.1
+        },
+        {
+          "name": "puffish_attributes:player.sprinting_speed",
+          "operation": "multiply_base",
+          "amount": 0.1
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["fruits", "vegetables"],
+          "match": "every",
+          "above": 0.4,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "puffish_attributes:player.mining_speed",
+          "operation": "multiply_base",
+          "amount": 0.1
+        },
+        {
+          "name": "puffish_attributes:player.sprinting_speed",
+          "operation": "multiply_base",
+          "amount": 0.1
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["fruits", "vegetables"],
+          "match": "every",
+          "above": 0.6,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": 1.0
+        },
+        {
+          "name": "minecraft:generic.knockback_resistance",
+          "operation": "add",
+          "amount": 0.10
+        },
+        {
+          "name": "minecraft:generic.armor_toughness",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins", "grains"],
+          "match": "every",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": 1.0
+        },
+        {
+          "name": "minecraft:generic.knockback_resistance",
+          "operation": "add",
+          "amount": 0.05
+        },
+        {
+          "name": "minecraft:generic.armor_toughness",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins", "grains"],
+          "match": "every",
+          "above": 0.5,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.armor",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["grains"],
+          "match": "every",
+          "above": 0.3,
+          "below": 1.0
+        }
+      ]
+    },{
+      "attributes": [
+        {
+          "name": "minecraft:generic.armor",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["grains"],
+          "match": "every",
+          "above": 0.5,
+          "below": 1.0
+        }
+      ]
+    },{
+      "attributes": [
+        {
+          "name": "minecraft:generic.armor",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["grains"],
+          "match": "every",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.attack_speed",
+          "operation": "multiply_base",
+          "amount": 0.1
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins"],
+          "match": "every",
+          "above": 0.3,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.attack_speed",
+          "operation": "multiply_base",
+          "amount": 0.1
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins"],
+          "match": "every",
+          "above": 0.5,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.attack_speed",
+          "operation": "multiply_base",
+          "amount": 0.1
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins"],
+          "match": "every",
+          "above": 0.85,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.movement_speed",
+          "operation": "multiply_base",
+          "amount": 0.05
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["sugars"],
+          "match": "every",
+          "above": 0.2,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.movement_speed",
+          "operation": "multiply_base",
+          "amount": 0.05
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["sugars", "vitamins"],
+          "match": "every",
+          "above": 0.4,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.movement_speed",
+          "operation": "multiply_base",
+          "amount": 0.1
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["sugars", "vitamins"],
+          "match": "every",
+          "above": 0.6,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.movement_speed",
+          "operation": "multiply_base",
+          "amount": 0.05
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["sugars", "vitamins"],
+          "match": "every",
+          "above": 0.7,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.movement_speed",
+          "operation": "multiply_base",
+          "amount": 0.2
+        }
+      ],
+      "status_effects": [
+        {
+          "name": "minecraft:hunger",
+          "power": 3
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["sugars"],
+          "match": "every",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "obscure_api:regeneration",
+          "operation": "multiply_base",
+          "amount": 0.2
+        },
+        {
+          "name": "diet:natural_regeneration",
+          "operation": "multiply_base",
+          "amount": 0.2
+        },
+        {
+          "name": "obscure_api:critical_hit",
+          "operation": "multiply_base",
+          "amount": 0.2
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["vitamins"],
+          "match": "every",
+          "above": 0.4,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "obscure_api:regeneration",
+          "operation": "multiply_base",
+          "amount": 0.2
+        },
+        {
+          "name": "diet:natural_regeneration",
+          "operation": "multiply_base",
+          "amount": 0.2
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["vitamins"],
+          "match": "every",
+          "above": 0.7,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.movement_speed",
+          "operation": "multiply_base",
+          "amount": 0.2
+        },
+        {
+          "name": "obscure_api:critical_hit",
+          "operation": "multiply_base",
+          "amount": 0.2
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["vitamins"],
+          "match": "every",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    }
+  ]
+}

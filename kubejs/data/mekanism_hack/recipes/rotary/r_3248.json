@@ -1,19 +1,19 @@
 {
     "type": "mekanism:rotary",
     "fluidInput": {
-        "fluid": "kubejs:beryllium_hydroxide",
+        "fluid": "kubejs:calcium_chloride",
         "amount": 1.0
     },
     "fluidOutput": {
-        "fluid": "kubejs:beryllium_hydroxide",
+        "fluid": "kubejs:calcium_chloride",
         "amount": 1.0
     },
     "gasInput": {
-        "gas": "kubejs:beryllium_hydroxide",
+        "gas": "kubejs:calcium_chloride",
         "amount": 1.0
     },
     "gasOutput": {
-        "gas": "kubejs:beryllium_hydroxide",
+        "gas": "kubejs:calcium_chloride",
         "amount": 1.0
     }
 }

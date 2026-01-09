@@ -1397,6 +1397,18 @@
 			x: 13.0d
 			y: 4.5d
 		}
+		{
+			dependencies: ["4FF4A0934BEDEA7E"]
+			id: "376F34D3C055D46A"
+			subtitle: "Продвинутые чары"
+			tasks: [{
+				id: "13210FE77CAFCE22"
+				item: "enchantinginfuser:enchanting_infuser"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
 	]
 	title: "Глава 0. Путешествие"
 }

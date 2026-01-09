@@ -23,6 +23,7 @@ ServerEvents.recipes(event => {
   event.replaceInput({ id: 'mekanism:upgrade/energy' }, 'glass', '#pneumaticcraft:upgrade_components')
   event.replaceInput({ id: 'mekanism:upgrade/energy' }, MATERIALS.GOLD.dust, 'superbwarfare:cell')
   event.replaceInput({ id: 'mekanism:upgrade/filter' }, 'glass', '#pneumaticcraft:upgrade_components')
+  event.replaceInput({ id: 'mekanism:upgrade/filter' }, 'mekanism:tin_dust', MATERIALS.RUTHENIUM.dust)
   event.replaceInput({ id: 'mekanism:upgrade/gas' }, 'glass', 'pneumaticcraft:volume_upgrade')
   event.replaceInput({ id: 'mekanism:upgrade/muffling' }, 'glass', '#pneumaticcraft:upgrade_components')
   event.replaceInput({ id: 'mekanism:upgrade/speed' }, 'glass', 'pneumaticcraft:speed_upgrade')

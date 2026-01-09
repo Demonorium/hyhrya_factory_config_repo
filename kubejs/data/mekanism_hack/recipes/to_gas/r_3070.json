@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:epinephrine"
+            "item": "chemlib:zinc_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:epinephrine",
+        "gas": "kubejs:zinc_oxide",
         "amount": 200
     }
 }

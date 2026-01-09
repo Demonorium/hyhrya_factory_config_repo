@@ -1,0 +1,9 @@
+{
+  "icon": "pneumaticcraft:radiation_shielding_upgrade",
+  "color": "#ffd764",
+  "order": 5,
+  "default_value": 0.0,
+  "gain_multiplier": 0.2,
+  "decay_multiplier": 0.01,
+  "beneficial": false
+}

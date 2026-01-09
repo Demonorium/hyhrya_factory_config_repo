@@ -1,0 +1,18 @@
+{
+    "type": "mekanism:dissolution",
+    "gasInput": {
+        "gas": "mekanismelements:aqua_regia",
+        "amount": 3.0
+    },
+    "itemInput": {
+        "amount": 3.0,
+        "ingredient": {
+            "item": "undergarden:raw_cloggrum"
+        }
+    },
+    "output": {
+        "slurry": "kubejs:dirty_cloggrum",
+        "amount": 3000.0,
+        "chemicalType": "slurry"
+    }
+}

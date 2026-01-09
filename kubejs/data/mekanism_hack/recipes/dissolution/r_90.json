@@ -7,12 +7,12 @@
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "moremekanismprocessing:clump_emerald"
+            "tag": "forge:ores/emerald"
         }
     },
     "output": {
         "slurry": "moremekanismprocessing:dirty_emerald",
-        "amount": 600.0,
+        "amount": 1200.0,
         "chemicalType": "slurry"
     }
 }

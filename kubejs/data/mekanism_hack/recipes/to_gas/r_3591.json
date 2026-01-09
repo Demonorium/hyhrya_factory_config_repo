@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:hydrofluoric_acid"
+            "item": "chemlib:zinc_sulfate_dust"
         }
     },
     "output": {
-        "gas": "mekanism:hydrofluoric_acid",
+        "gas": "kubejs:zinc_sulfate",
         "amount": 200
     }
 }

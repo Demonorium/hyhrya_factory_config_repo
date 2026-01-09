@@ -1,26 +1,42 @@
 {
-    "entity": "deeperdarker:shattered",
+    "entity": "undergarden:smog_mog",
     "variants": [],
-    "name": "entity.deeperdarker.shattered",
-    "name_color": "#505F54",
+    "name": "entity.undergarden.smog_mog",
+    "name_color": "#173C3B",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 4096,
+    "sim_cost": 1024,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
     },
     "base_drop": {
-        "item": "kubejs:sculk_prediction",
+        "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.shattered",
+    "trivia": "hostilenetworks.trivia.smog_mog",
     "fabricator_drops": [
         {
-            "item": "deeperdarker:sculk_bone",
-            "count": 32.0
+            "item": "undergarden:depthrock_pebble",
+            "count": 48.0
+        },
+        {
+            "item": "undergarden:blue_mogmoss",
+            "count": 16.0
         }
+    ],
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
     ]
 }

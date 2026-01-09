@@ -1,0 +1,18 @@
+{
+    "type": "mekanism:dissolution",
+    "gasInput": {
+        "gas": "mekanismelements:nitric_acid",
+        "amount": 6.0
+    },
+    "itemInput": {
+        "amount": 3.0,
+        "ingredient": {
+            "item": "silentcompat:raw_arcmetal"
+        }
+    },
+    "output": {
+        "slurry": "kubejs:dirty_arcmetal",
+        "amount": 2000.0,
+        "chemicalType": "slurry"
+    }
+}

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:sodium_oxide_dust"
+            "item": "chemlib:sodium_bisulfate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:sodium_oxide",
+        "gas": "kubejs:sodium_bisulfate",
         "amount": 200
     }
 }

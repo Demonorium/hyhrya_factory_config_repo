@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:cesium_hydroxide",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:cesium_hydroxide",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:cesium_hydroxide",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:cesium_hydroxide",
+        "amount": 1.0
+    }
+}

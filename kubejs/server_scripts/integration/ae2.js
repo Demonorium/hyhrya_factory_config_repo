@@ -2,6 +2,7 @@
 
 
 ServerEvents.recipes(event => {
+    event.remove({id: 'megacells:transform/sky_steel_ingot'})
     event.remove({id: 'ae2:network/blocks/crystal_processing_charger'})
     event.shaped(
         Item.of('ae2:charger', 1), 

@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:sulfur_hexafluoride"
+            "item": "chemlib:vanadium_iii_oxide_dust"
         }
     },
     "output": {
-        "gas": "kubejs:sulfur_hexafluoride",
+        "gas": "kubejs:vanadium_iii_oxide",
         "amount": 200
     }
 }

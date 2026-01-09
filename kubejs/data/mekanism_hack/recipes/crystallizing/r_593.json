@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "slurry",
+    "input": {
+        "slurry": "kubejs:clean_regalium",
+        "amount": 200
+    },
+    "output": {
+        "item": "kubejs:crystal_regalium",
+        "count": 1.0
+    }
+}

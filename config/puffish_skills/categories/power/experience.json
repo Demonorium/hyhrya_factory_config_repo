@@ -115,6 +115,32 @@
 			"type": "puffish_skills:eat_food",
 			"data": {
 				"variables": {
+					"is_uranium_hexafluoride": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "chemlib:uranium_hexafluoride"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_uranium_hexafluoride",
+						"expression": "200000"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:eat_food",
+			"data": {
+				"variables": {
 					"is_neural_nanomachines": {
 						"operations": [
 							{

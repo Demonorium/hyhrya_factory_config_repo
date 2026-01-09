@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:magnesium_hydroxide_dust"
+            "item": "chemlib:sodium_carbonate_dust"
         }
     },
     "output": {
-        "gas": "kubejs:magnesium_hydroxide",
+        "gas": "kubejs:sodium_carbonate",
         "amount": 200
     }
 }

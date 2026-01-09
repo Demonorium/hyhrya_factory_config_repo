@@ -1,26 +1,26 @@
 {
-    "entity": "deeperdarker:sculk_leech",
+    "entity": "undergarden:rotwalker",
     "variants": [],
-    "name": "entity.deeperdarker.sculk_leech",
-    "name_color": "#005E60",
+    "name": "entity.undergarden.rotwalker",
+    "name_color": "#AE4943",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 4096,
+    "sim_cost": 3072,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
     },
     "base_drop": {
-        "item": "kubejs:sculk_prediction",
+        "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.sculk_leech",
+    "trivia": "hostilenetworks.trivia.rotwalker",
     "fabricator_drops": [
         {
-            "item": "deeperdarker:soul_dust",
-            "count": 8.0
+            "item": "undergarden:utheric_shard",
+            "count": 48.0
         }
     ]
 }

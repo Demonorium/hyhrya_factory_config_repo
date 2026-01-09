@@ -51,7 +51,7 @@
 	max_jet_boots_roll = 35
 	#Which component initialisation messages to display when armor is booting up
 	#Allowed Values: ALL, ENABLED_ONLY, NONE
-	component_init_messages = "ALL"
+	component_init_messages = "NONE"
 
 [sound]
 	#Volume level of the Elevator while running

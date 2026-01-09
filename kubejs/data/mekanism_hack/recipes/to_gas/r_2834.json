@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:silicon_dioxide"
+            "item": "moremekanismprocessing:dust_thorium"
         }
     },
     "output": {
-        "gas": "kubejs:silicon_dioxide",
+        "gas": "kubejs:thorium",
         "amount": 200
     }
 }
