@@ -1,13 +1,13 @@
 {
-    "entity": "alexsmobs:skreecher",
+    "entity": "deeperdarker:stalker",
     "variants": [],
-    "name": "entity.alexsmobs.skreecher",
-    "name_color": "#0BB5AC",
-    "gui_scale": 1.0,
+    "name": "entity.deeperdarker.stalker",
+    "name_color": "#02262F",
+    "gui_scale": 0.8,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 4096,
+    "sim_cost": 16384,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
@@ -16,11 +16,11 @@
         "item": "kubejs:sculk_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.skreecher",
+    "trivia": "hostilenetworks.trivia.stalker",
     "fabricator_drops": [
         {
-            "item": "alexsmobs:skreecher_soul",
-            "count": 32.0
+            "item": "deeperdarker:soul_crystal",
+            "count": 8.0
         }
     ]
 }

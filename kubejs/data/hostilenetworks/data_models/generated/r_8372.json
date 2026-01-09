@@ -1,13 +1,13 @@
 {
-    "entity": "undergarden:rotling",
+    "entity": "undergarden:dweller",
     "variants": [],
-    "name": "entity.undergarden.rotling",
-    "name_color": "#AD4643",
+    "name": "entity.undergarden.dweller",
+    "name_color": "#313726",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 2048,
+    "sim_cost": 960,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
@@ -16,11 +16,15 @@
         "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.rotling",
+    "trivia": "hostilenetworks.trivia.dweller",
     "fabricator_drops": [
         {
-            "item": "undergarden:utheric_shard",
+            "item": "undergarden:raw_dweller_meat",
             "count": 32.0
+        },
+        {
+            "item": "minecraft:leather",
+            "count": 24.0
         }
     ]
 }

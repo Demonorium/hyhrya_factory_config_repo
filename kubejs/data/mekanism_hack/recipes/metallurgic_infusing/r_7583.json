@@ -5,13 +5,13 @@
         "amount": 10
     },
     "itemInput": {
-        "amount": 2.0,
+        "amount": 1.0,
         "ingredient": {
-            "item": "minecraft:raw_iron"
+            "item": "minecraft:raw_copper"
         }
     },
     "output": {
-        "item": "thermal:invar_dust",
+        "item": "thermal:constantan_dust",
         "count": 2.0
     }
 }

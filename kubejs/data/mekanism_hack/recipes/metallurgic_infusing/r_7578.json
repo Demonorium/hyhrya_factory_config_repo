@@ -5,13 +5,13 @@
         "amount": 10
     },
     "itemInput": {
-        "amount": 1.0,
+        "amount": 2.0,
         "ingredient": {
-            "item": "mekanism:dust_copper"
+            "item": "mekanism:dust_iron"
         }
     },
     "output": {
-        "item": "thermal:constantan_dust",
+        "item": "thermal:invar_dust",
         "count": 2.0
     }
 }

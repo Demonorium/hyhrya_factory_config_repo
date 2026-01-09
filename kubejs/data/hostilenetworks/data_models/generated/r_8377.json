@@ -1,13 +1,13 @@
 {
-    "entity": "undergarden:stoneborn",
+    "entity": "undergarden:rotwalker",
     "variants": [],
-    "name": "entity.undergarden.stoneborn",
-    "name_color": "#857161",
+    "name": "entity.undergarden.rotwalker",
+    "name_color": "#AE4943",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 960,
+    "sim_cost": 3072,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
@@ -16,23 +16,11 @@
         "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.stoneborn",
+    "trivia": "hostilenetworks.trivia.rotwalker",
     "fabricator_drops": [
         {
-            "item": "undergarden:depthrock_pebble",
-            "count": 64.0
+            "item": "undergarden:utheric_shard",
+            "count": 48.0
         }
-    ],
-    "tier_data": [
-        6,
-        54,
-        354,
-        1254
-    ],
-    "data_per_kill": [
-        1,
-        4,
-        10,
-        18
     ]
 }

@@ -1,17 +1,17 @@
 {
     "type": "mekanism:metallurgic_infusing",
     "chemicalInput": {
-        "amount": 10,
-        "tag": "mekanism:carbon"
+        "infuse_type": "kubejs:nickel",
+        "amount": 10
     },
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "minecraft:raw_iron"
+            "item": "mekanism:dust_copper"
         }
     },
     "output": {
-        "item": "mekanism:enriched_iron",
-        "count": 1.0
+        "item": "thermal:constantan_dust",
+        "count": 2.0
     }
 }

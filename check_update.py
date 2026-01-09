@@ -1,8 +1,12 @@
-import requests
 import os
 import shutil
 import zipfile
 import argparse
+
+import urllib.error as error
+import urllib.parse
+import urllib.request
+from urllib.request import urlretrieve
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--force", "-f",  help="always update", default=False, required=False)
@@ -16,22 +20,22 @@ print('Текущая версия:', version)
 
 print('Проверка на актуальность')
 try:
-    version_rq = requests.get('https://raw.githubusercontent.com/Demonorium/hyhrya_factory_config_repo/refs/heads/master/modpack_version.txt')
-    if version_rq.status_code != 200:
-        print('Критическая ошибка при получении информации о версии, код:', version_rq.status_code)
-        print('Текст', version_rq.text)
+    version_rq = urllib.request.urlopen('https://raw.githubusercontent.com/Demonorium/hyhrya_factory_config_repo/refs/heads/master/modpack_version.txt')
+    charset = version_rq.headers.get_content_charset() or "utf-8"
+    if version_rq.status != 200:
+        print('Критическая ошибка при получении информации о версии, код:', version_rq.status)
+        print('Текст', version_rq.read().decode(charset))
         if not args.force:
             input('Нажмите enter чтобы завершить...')
         exit(-1)
-except requests.exceptions.RequestException as e:
+except error.HTTPError as e:
     print('Критическая ошибка при получении информации о версии:', e)
     
     if not args.force:
         input('Нажмите enter чтобы завершить...')
     exit(-1)
 
-
-upsteam_version = int(version_rq.text)
+upsteam_version = int(version_rq.read().decode(charset))
 if version >= upsteam_version:
     print('Версия репозитория:', upsteam_version)
     print('Текущая версия актуальна, обновление не требуется')
@@ -75,11 +79,9 @@ os.mkdir('./update')
 print('Загрузка...')
 
 try:
-    response = requests.get('https://github.com/Demonorium/hyhrya_factory_config_repo/archive/refs/heads/master.zip', stream=True)
-    with open('./update/downloaded.zip', 'wb') as out_file:
-        shutil.copyfileobj(response.raw, out_file)
+    urllib.request.urlretrieve('https://github.com/Demonorium/hyhrya_factory_config_repo/archive/refs/heads/master.zip', './update/downloaded.zip')
     print("Успешная загрузка файла обновления")
-except requests.exceptions.RequestException as e:
+except error.HTTPError as e:
     print("Ошибка при скачивании файла:", e)
     if not args.force:
         input('Нажмите enter чтобы завершить...')

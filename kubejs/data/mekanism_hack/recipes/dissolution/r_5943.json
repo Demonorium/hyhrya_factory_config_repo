@@ -1,8 +1,8 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "mekanismelements:methane",
-        "amount": 1.0
+        "gas": "kubejs:ozone",
+        "amount": 2.0
     },
     "itemInput": {
         "amount": 3.0,
@@ -11,8 +11,8 @@
         }
     },
     "output": {
-        "gas": "kubejs:acetylene",
-        "amount": 2.0,
+        "gas": "kubejs:carbon_dioxide",
+        "amount": 3.0,
         "chemicalType": "gas"
     }
 }

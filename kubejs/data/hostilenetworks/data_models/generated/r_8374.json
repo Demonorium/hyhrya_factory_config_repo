@@ -1,13 +1,13 @@
 {
-    "entity": "undergarden:smog_mog",
+    "entity": "undergarden:nargoyle",
     "variants": [],
-    "name": "entity.undergarden.smog_mog",
-    "name_color": "#173C3B",
+    "name": "entity.undergarden.nargoyle",
+    "name_color": "#2E2330",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 1024,
+    "sim_cost": 3072,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
@@ -16,27 +16,15 @@
         "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.smog_mog",
+    "trivia": "hostilenetworks.trivia.nargoyle",
     "fabricator_drops": [
         {
-            "item": "undergarden:depthrock_pebble",
-            "count": 48.0
+            "item": "undergarden:blood_globule",
+            "count": 32.0
         },
         {
-            "item": "undergarden:blue_mogmoss",
-            "count": 16.0
+            "item": "minecraft:leather",
+            "count": 32.0
         }
-    ],
-    "tier_data": [
-        6,
-        54,
-        354,
-        1254
-    ],
-    "data_per_kill": [
-        1,
-        4,
-        10,
-        18
     ]
 }

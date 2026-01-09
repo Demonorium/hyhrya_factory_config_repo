@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:perch",
+    "entity": "aquaculture:brown_trout",
     "variants": [],
-    "name": "entity.aquaculture.perch",
-    "name_color": "#6092D3",
+    "name": "entity.aquaculture.brown_trout",
+    "name_color": "#5492D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.perch",
+    "trivia": "hostilenetworks.trivia.brown_trout",
     "fabricator_drops": [
         {
-            "item": "aquaculture:perch",
+            "item": "aquaculture:brown_trout",
             "count": 32.0
         },
         {

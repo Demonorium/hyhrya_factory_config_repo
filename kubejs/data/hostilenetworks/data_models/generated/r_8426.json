@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:atlantic_halibut",
+    "entity": "aquaculture:jellyfish",
     "variants": [],
-    "name": "entity.aquaculture.atlantic_halibut",
-    "name_color": "#4392D3",
+    "name": "entity.aquaculture.jellyfish",
+    "name_color": "#6692D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.atlantic_halibut",
+    "trivia": "hostilenetworks.trivia.jellyfish",
     "fabricator_drops": [
         {
-            "item": "aquaculture:atlantic_halibut",
+            "item": "aquaculture:jellyfish",
             "count": 32.0
         },
         {

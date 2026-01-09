@@ -3,11 +3,11 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "minecraft:glowstone_dust"
+            "item": "chemlib:hydroxylapatite"
         }
     },
     "output": {
-        "item": "chemlib:manganese_oxide_dust",
+        "item": "macabre:bone",
         "count": 1.0
     }
 }

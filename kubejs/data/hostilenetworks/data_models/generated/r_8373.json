@@ -1,13 +1,13 @@
 {
-    "entity": "undergarden:mog",
+    "entity": "undergarden:gloomper",
     "variants": [],
-    "name": "entity.undergarden.mog",
-    "name_color": "#2E4118",
+    "name": "entity.undergarden.gloomper",
+    "name_color": "#2E2330",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 1024,
+    "sim_cost": 960,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
@@ -16,27 +16,15 @@
         "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.mog",
+    "trivia": "hostilenetworks.trivia.gloomper",
     "fabricator_drops": [
         {
-            "item": "undergarden:depthrock_pebble",
-            "count": 48.0
+            "item": "undergarden:raw_gloomper_leg",
+            "count": 64.0
         },
         {
-            "item": "undergarden:mogmoss",
-            "count": 16.0
+            "item": "minecraft:leather",
+            "count": 32.0
         }
-    ],
-    "tier_data": [
-        6,
-        54,
-        354,
-        1254
-    ],
-    "data_per_kill": [
-        1,
-        4,
-        10,
-        18
     ]
 }
