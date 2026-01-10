@@ -70,7 +70,7 @@ print('Запуск процедуры обновления')
 print('Сохранение номера версии')
 if os.path.exists('old_version.txt'):
     os.remove('old_version.txt')
-    shutil.copy('modpack_version.txt', 'old_version.txt')
+shutil.copy('modpack_version.txt', 'old_version.txt')
 
 print('Очистка директории обновления')
 if os.path.exists('./update'):
