@@ -47,7 +47,7 @@ for script_name in os.listdir('update_scripts'):
 scripts_to_run.sort(key=lambda x: x[0])
 for (index, script) in scripts_to_run:
     print('Исполнение ', script)
-    with open(script, 'r') as f:
+    with open(script, 'r', encoding='utf-8') as f:
         exec(''.join(f.readlines()))
 
 print('Импорт конфигурации')
