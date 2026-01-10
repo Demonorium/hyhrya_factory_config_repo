@@ -1,4 +1,91 @@
 {
+  "pneumatic": {
+    "0": {
+      "title": "Ховер-режим",
+      "icon": {
+        "stack": "{Count:1b,id:\"pneumaticcraft:jet_boots_upgrade_5\"}"
+      },
+      "action": {
+        "key": {
+          "key": "pneumaticcraft.armor.upgrade.jet_boots.module.hover",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Открыть меню пневматика",
+      "icon": {
+        "stack": "{Count:1b,id:\"pneumaticcraft:pneumatic_helmet\",tag:{Damage:0}}"
+      },
+      "action": {
+        "key": {
+          "key": "pneumaticcraft.armor.options",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "Ботинки",
+      "icon": {
+        "stack": "{Count:1b,id:\"pneumaticcraft:pneumatic_boots\",tag:{Damage:0}}"
+      },
+      "action": {
+        "category": "pneumatic_boots"
+      }
+    },
+    "9": {
+      "title": "Элитры",
+      "icon": {
+        "stack": "{Count:1b,id:\"pneumaticcraft:elytra_upgrade\"}"
+      },
+      "action": {
+        "key": {
+          "key": "pneumaticcraft.armor.upgrade.elytra",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "settings": {
+    "5": {
+      "title": "Миникарта",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:filled_map\"}"
+      },
+      "action": {
+        "key": {
+          "key": "gui.xaero_minimap_settings",
+          "toggle": false
+        }
+      }
+    },
+    "6": {
+      "title": "Голосовой чат",
+      "icon": {
+        "stack": "{Count:1b,id:\"ducky-periphs:sculkophone_block\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.voice_chat",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "pneumatic_boots": {
+    "2": {
+      "title": "Помощник-шага (бегунки)",
+      "icon": {
+        "stack": "{Count:1b,id:\"mekanism:free_runners\"}"
+      },
+      "action": {
+        "key": {
+          "key": "pneumaticcraft.armor.upgrade.step_assist",
+          "toggle": false
+        }
+      }
+    }
+  },
   "Аксессуары": {},
   "main": {
     "0": {
@@ -13,8 +100,17 @@
         }
       }
     },
+    "1": {
+      "title": "Настройкаи",
+      "icon": {
+        "stack": "{Count:1b,id:\"pneumaticcraft:compressed_iron_gear\"}"
+      },
+      "action": {
+        "category": "settings"
+      }
+    },
     "2": {
-      "title": "Импланты и броня Mekanism",
+      "title": "Настройка брони и рюкзака",
       "icon": {
         "stack": "{Count:1b,id:\"mekanism:mekasuit_helmet\"}"
       },
@@ -109,7 +205,7 @@
   },
   "Компоненты": {
     "0": {
-      "title": "Перключить HUD Mekanism",
+      "title": "Переключить HUD Mekanism",
       "icon": {
         "stack": "{Count:1b,id:\"ftbquests:task_screen_configurator\"}"
       },
@@ -121,7 +217,7 @@
       }
     },
     "1": {
-      "title": "Настройка Пневмоброни",
+      "title": "Настройка пневмоброни",
       "icon": {
         "stack": "{Count:1b,id:\"pneumaticcraft:pneumatic_helmet\",tag:{Damage:0}}"
       },
@@ -176,6 +272,18 @@
       "action": {
         "key": {
           "key": "key.mekanism.head_mode",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "Меню настройки гаджетов",
+      "icon": {
+        "stack": "{Count:1b,id:\"buildinggadgets2:gadget_building\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.buildinggadgets2.settings_menu",
           "toggle": false
         }
       }

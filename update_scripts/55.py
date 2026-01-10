@@ -9,5 +9,6 @@ if os.path.exists('./mods/betterfog-2.3-1.20.1.jar'):
     print('Удаление мода betterfog-2.3-1.20.1.jar')
     os.remove('./mods/betterfog-2.3-1.20.1.jar')
 
+print('Замещение конфигурации')
 shutil.rmtree('./config')
 shutil.copytree('./update/hyhrya_factory_config_repo-master/config', 'config', dirs_exist_ok=True)
