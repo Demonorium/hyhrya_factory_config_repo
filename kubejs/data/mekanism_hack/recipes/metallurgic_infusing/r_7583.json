@@ -7,7 +7,7 @@
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "minecraft:raw_copper"
+            "item": "mekanism:dust_copper"
         }
     },
     "output": {

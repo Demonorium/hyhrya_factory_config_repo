@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:pollock",
+    "entity": "aquaculture:rainbow_trout",
     "variants": [],
-    "name": "entity.aquaculture.pollock",
-    "name_color": "#4692D3",
+    "name": "entity.aquaculture.rainbow_trout",
+    "name_color": "#4792D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.pollock",
+    "trivia": "hostilenetworks.trivia.rainbow_trout",
     "fabricator_drops": [
         {
-            "item": "aquaculture:pollock",
+            "item": "aquaculture:rainbow_trout",
             "count": 32.0
         },
         {

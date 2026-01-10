@@ -1,13 +1,13 @@
 {
-    "entity": "undergarden:smog_mog",
+    "entity": "undergarden:scintling",
     "variants": [],
-    "name": "entity.undergarden.smog_mog",
-    "name_color": "#173C3B",
+    "name": "entity.undergarden.scintling",
+    "name_color": "#5A5A47",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 1024,
+    "sim_cost": 640,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
@@ -16,15 +16,11 @@
         "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.smog_mog",
+    "trivia": "hostilenetworks.trivia.scintling",
     "fabricator_drops": [
         {
-            "item": "undergarden:depthrock_pebble",
-            "count": 48.0
-        },
-        {
-            "item": "undergarden:blue_mogmoss",
-            "count": 16.0
+            "item": "undergarden:goo_ball",
+            "count": 32.0
         }
     ],
     "tier_data": [

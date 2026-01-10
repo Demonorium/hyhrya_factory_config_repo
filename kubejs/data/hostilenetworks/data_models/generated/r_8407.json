@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:rainbow_trout",
+    "entity": "aquaculture:bayad",
     "variants": [],
-    "name": "entity.aquaculture.rainbow_trout",
-    "name_color": "#4792D3",
+    "name": "entity.aquaculture.bayad",
+    "name_color": "#4892D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.rainbow_trout",
+    "trivia": "hostilenetworks.trivia.bayad",
     "fabricator_drops": [
         {
-            "item": "aquaculture:rainbow_trout",
+            "item": "aquaculture:bayad",
             "count": 32.0
         },
         {

@@ -1,8 +1,8 @@
 {
-    "entity": "deeperdarker:sludge",
+    "entity": "deeperdarker:sculk_leech",
     "variants": [],
-    "name": "entity.deeperdarker.sludge",
-    "name_color": "#4B8E86",
+    "name": "entity.deeperdarker.sculk_leech",
+    "name_color": "#005E60",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "kubejs:sculk_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.sludge",
+    "trivia": "hostilenetworks.trivia.sculk_leech",
     "fabricator_drops": [
         {
-            "item": "deeperdarker:resonarium",
+            "item": "deeperdarker:soul_dust",
             "count": 8.0
         }
     ]

@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:red_grouper",
+    "entity": "aquaculture:tuna",
     "variants": [],
-    "name": "entity.aquaculture.red_grouper",
-    "name_color": "#6792D3",
+    "name": "entity.aquaculture.tuna",
+    "name_color": "#6892D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.red_grouper",
+    "trivia": "hostilenetworks.trivia.tuna",
     "fabricator_drops": [
         {
-            "item": "aquaculture:red_grouper",
+            "item": "aquaculture:tuna",
             "count": 32.0
         },
         {

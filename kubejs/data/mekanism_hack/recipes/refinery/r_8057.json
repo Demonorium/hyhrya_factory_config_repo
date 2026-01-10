@@ -1,25 +1,25 @@
 {
     "type": "pneumaticcraft:refinery",
     "input": {
-        "fluid": "pneumaticcraft:gasoline",
+        "fluid": "minecraft:lava",
         "amount": 100.0,
         "type": "pneumaticcraft:fluid"
     },
     "results": [
         {
-            "fluid": "pneumaticcraft:plastic",
+            "fluid": "burnt:liquid_magma",
             "amount": 30.0
         },
         {
-            "fluid": "pneumaticcraft:lpg",
-            "amount": 40.0
+            "fluid": "kubejs:silicon_dioxide",
+            "amount": 60.0
         },
         {
-            "fluid": "kubejs:benzene",
-            "amount": 30.0
+            "fluid": "kubejs:iron_ii_oxide",
+            "amount": 10.0
         }
     ],
     "temperature": {
-        "min_temp": 473
+        "min_temp": 623
     }
 }

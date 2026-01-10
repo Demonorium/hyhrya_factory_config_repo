@@ -7,7 +7,7 @@
     "itemInput": {
         "amount": 4.0,
         "ingredient": {
-            "item": "silentgear:azure_silver_dust"
+            "item": "silentgear:raw_azure_silver"
         }
     },
     "output": {

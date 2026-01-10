@@ -1,13 +1,13 @@
 {
-    "entity": "deeperdarker:stalker",
+    "entity": "deeperdarker:sludge",
     "variants": [],
-    "name": "entity.deeperdarker.stalker",
-    "name_color": "#02262F",
-    "gui_scale": 0.8,
+    "name": "entity.deeperdarker.sludge",
+    "name_color": "#4B8E86",
+    "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 16384,
+    "sim_cost": 4096,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
@@ -16,10 +16,10 @@
         "item": "kubejs:sculk_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.stalker",
+    "trivia": "hostilenetworks.trivia.sludge",
     "fabricator_drops": [
         {
-            "item": "deeperdarker:soul_crystal",
+            "item": "deeperdarker:resonarium",
             "count": 8.0
         }
     ]

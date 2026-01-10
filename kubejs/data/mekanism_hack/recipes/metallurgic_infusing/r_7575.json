@@ -1,17 +1,17 @@
 {
     "type": "mekanism:metallurgic_infusing",
     "chemicalInput": {
-        "infuse_type": "mekanism:tin",
+        "infuse_type": "mekanism:redstone",
         "amount": 10
     },
     "itemInput": {
         "amount": 3.0,
         "ingredient": {
-            "item": "mekanism:dust_copper"
+            "item": "kubejs:zinc_ingot"
         }
     },
     "output": {
-        "item": "mekanism:dust_bronze",
+        "item": "mekanism:alloy_infused",
         "count": 4.0
     }
 }

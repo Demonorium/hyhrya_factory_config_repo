@@ -286,9 +286,9 @@ ServerEvents.recipes(event => {
 
     event.remove({id: 'superbwarfare:heavy_ammo'})
     event.shapeless(
-        Item.of('superbwarfare:heavy_ammo', 6), 
+        Item.of('superbwarfare:heavy_ammo', 4), 
         [
-            Item.of(MATERIALS.COMPRESSED_IRON.ingot),
+            Item.of(MATERIALS.OSMIUM.ingot),
             Item.of('superbwarfare:grain')
         ]
     )

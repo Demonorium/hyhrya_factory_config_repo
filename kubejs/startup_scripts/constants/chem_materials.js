@@ -103,7 +103,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 70.2525,
 		matter_state: "gas",
-		combustion: 33.2,
+		combustion: 90.29,
 		cooling: null,
 	},
 	{
@@ -317,7 +317,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2750.5,
 		matter_state: "solid",
-		combustion: 760.44,
+		combustion: 945.0,
 		cooling: null,
 	},
 	{
@@ -1709,7 +1709,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 136.75,
 		matter_state: "gas",
-		combustion: 519.1899999999999,
+		combustion: 1403.1899999999998,
 		cooling: null,
 	},
 	{
@@ -2311,7 +2311,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2017.7,
 		matter_state: "solid",
-		combustion: 959.79,
+		combustion: 458.59999999999997,
 		cooling: null,
 	},
 	{
@@ -2717,7 +2717,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1470.0,
 		matter_state: "solid",
-		combustion: 415.82000000000005,
+		combustion: 196.41,
 		cooling: null,
 	},
 	{
@@ -2731,7 +2731,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1534.45,
 		matter_state: "solid",
-		combustion: 92.21000000000001,
+		combustion: 294.265,
 		cooling: null,
 	},
 	{
@@ -2955,7 +2955,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 200.64999999999998,
 		matter_state: "gas",
-		combustion: 264.83,
+		combustion: 660.53,
 		cooling: null,
 	},
 	{
@@ -4131,7 +4131,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1962.95,
 		matter_state: "solid",
-		combustion: 1001.4100000000001,
+		combustion: 415.21999999999997,
 		cooling: null,
 	},
 	{
@@ -4229,7 +4229,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1229.4966666666667,
 		matter_state: "solid",
-		combustion: 346.7099999999999,
+		combustion: 1021.4599999999999,
 		cooling: null,
 	},
 	{
@@ -4985,7 +4985,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 763.3412500000001,
 		matter_state: "solid",
-		combustion: 2804.98,
+		combustion: 1106.98,
 		cooling: null,
 	},
 	{

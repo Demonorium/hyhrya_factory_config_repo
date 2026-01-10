@@ -2,11 +2,11 @@
     "type": "mekanism:crystallizing",
     "chemicalType": "slurry",
     "input": {
-        "slurry": "mekanism_extras:clean_naquadah",
+        "slurry": "moremekanismprocessing:clean_calorite",
         "amount": 200
     },
     "output": {
-        "item": "mekanism_extras:crystal_naquadah",
+        "item": "moremekanismprocessing:crystal_calorite",
         "count": 1.0
     }
 }

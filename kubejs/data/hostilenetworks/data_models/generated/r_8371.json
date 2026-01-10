@@ -1,13 +1,13 @@
 {
-    "entity": "undergarden:sploogie",
+    "entity": "undergarden:dweller",
     "variants": [],
-    "name": "entity.undergarden.sploogie",
-    "name_color": "#857161",
+    "name": "entity.undergarden.dweller",
+    "name_color": "#313726",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 640,
+    "sim_cost": 960,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
@@ -16,23 +16,15 @@
         "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.sploogie",
+    "trivia": "hostilenetworks.trivia.dweller",
     "fabricator_drops": [
         {
-            "item": "undergarden:depthrock_pebble",
+            "item": "undergarden:raw_dweller_meat",
             "count": 32.0
+        },
+        {
+            "item": "minecraft:leather",
+            "count": 24.0
         }
-    ],
-    "tier_data": [
-        6,
-        54,
-        354,
-        1254
-    ],
-    "data_per_kill": [
-        1,
-        4,
-        10,
-        18
     ]
 }

@@ -5,11 +5,11 @@
         "amount": 5.0
     },
     "output": {
-        "slurry": "moremekanismprocessing:clean_calorite",
+        "slurry": "mekanism_extras:clean_naquadah",
         "amount": 1.0
     },
     "slurryInput": {
-        "slurry": "moremekanismprocessing:dirty_calorite",
+        "slurry": "mekanism_extras:dirty_naquadah",
         "amount": 1.0
     }
 }
