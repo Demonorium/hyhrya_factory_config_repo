@@ -4,9 +4,7 @@ import zipfile
 import argparse
 
 import urllib.error as error
-import urllib.parse
 import urllib.request
-from urllib.request import urlretrieve
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--force", "-f",  help="always update", default=False, required=False)
@@ -17,7 +15,6 @@ with open('modpack_version.txt', mode='r', encoding='utf-8') as f:
     version = int(f.readline())
 
 print('Текущая версия:', version)
-
 print('Проверка на актуальность')
 try:
     version_rq = urllib.request.urlopen('https://raw.githubusercontent.com/Demonorium/hyhrya_factory_config_repo/refs/heads/master/modpack_version.txt')
@@ -70,6 +67,10 @@ if text == 'n':
     exit(0)
 
 print('Запуск процедуры обновления')
+print('Сохранение номера версии')
+if os.path.exists('old_version.txt'):
+    os.remove('old_version.txt')
+    shutil.copy('modpack_version.txt', 'old_version.txt')
 
 print('Очистка директории обновления')
 if os.path.exists('./update'):

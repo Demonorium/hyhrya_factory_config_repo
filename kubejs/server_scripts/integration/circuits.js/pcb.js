@@ -320,18 +320,14 @@ function _primitive_pcb(event) {
       Item.of(MATERIALS.COPPER.nugget)
     ]
   )
-
-  event.shaped(
+  
+  event.shapeless(
     Item.of('pncepcb:primitive_finished_pcb', 1),
     [
-      'B C',
-      ' A '
-    ],
-    {
-      A: Item.of('pncepcb:primitive_unassembled_pcb'),
-      B: Item.of('pneumaticcraft:capacitor'),
-      C: Item.of('pneumaticcraft:transistor')
-    }
+      Item.of('pncepcb:primitive_unassembled_pcb'),
+      Item.of('pneumaticcraft:capacitor'),
+      Item.of('pneumaticcraft:transistor')
+    ]
   )
 }
 

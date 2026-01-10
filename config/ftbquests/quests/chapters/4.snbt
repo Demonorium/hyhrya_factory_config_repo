@@ -578,6 +578,7 @@
 				item: "mekanismelements:radiation_irradiator"
 				type: "item"
 			}]
+			title: "Дешёвые ядерные преобразования"
 			x: -4.0d
 			y: -1.5d
 		}
@@ -2248,6 +2249,18 @@
 			}]
 			x: 13.0d
 			y: -9.0d
+		}
+		{
+			dependencies: ["1E0318C6FBDB9DDB"]
+			id: "0D035D94DC3C5AD2"
+			tasks: [{
+				id: "7D1E60C7BFFD9FF7"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			title: "Бесплатные ядерные преобразования"
+			x: -5.0d
+			y: -1.5d
 		}
 	]
 	title: "Глава 4. Доминирование над природой"
