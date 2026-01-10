@@ -53,6 +53,9 @@ for (index, script) in scripts_to_run:
 print('Импорт конфигурации')
 def configuration_filter(src: str, names: list[str]):
     ingored = []
+    if 'presencefootsteps' in src:
+        return names
+    
     for name in names:
         if 'client' in name:
             ingored.append(name)
@@ -60,10 +63,7 @@ def configuration_filter(src: str, names: list[str]):
             ingored.append(name)
         elif 'autohud' in name:
             ingored.append(name)
-        elif 'presencefootsteps' in name:
-            ingored.append(name)
 
-    print('ignore configs', ingored)
     return ingored
 
 shutil.copytree(source_path + 'config', 'config', ignore=configuration_filter, dirs_exist_ok=True)
