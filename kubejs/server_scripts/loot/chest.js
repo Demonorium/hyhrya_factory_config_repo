@@ -59,7 +59,7 @@ LootJS.modifiers((event) => {
     })
 
     const tressure_chest = [
-        LootEntry.of("thermal:tin_coint", 15).withChance(0.1),
+        LootEntry.of("thermal:tin_coin", 15).withChance(0.1),
         LootEntry.of("thermal:iron_coin", 1).withChance(0.1),
         LootEntry.of("thermal:copper_coin", 15).withChance(0.3),
         LootEntry.of("thermal:nickel_coin", 40).withChance(0.7),
@@ -164,6 +164,87 @@ LootJS.modifiers((event) => {
                 LootEntry.of('superbwarfare:ancient_cpu').withChance(0.01),
                 LootEntry.of(MATERIALS.CLOGGRUM.ingot).withChance(0.3),
                 LootEntry.of(MATERIALS.LITHIUM.ingot).withChance(0.3)
+            ]
+        )
+
+    event.addLootTableModifier("illagerinvasion:chests/labyrinth")
+        .addWeightedLoot(
+            [0, 3],
+            [
+                LootEntry.of('superbwarfare:glock_17_blueprint').withChance(0.05),
+                LootEntry.of('superbwarfare:m_79_blueprint').withChance(0.05),
+                LootEntry.of(MATERIALS.GOLD.gear, 5).withChance(0.3),
+                LootEntry.of(MATERIALS.DIAMOND.gear, 2).withChance(0.3),
+                LootEntry.of(MATERIALS.STEEL.ingot, 5).withChance(0.3)
+            ]
+        )
+    
+    event.addLootTableModifier("illagerinvasion:chests/labyrinth")
+        .addWeightedLoot(
+            [0, 3],
+            [
+                LootEntry.of('superbwarfare:glock_17_blueprint').withChance(0.05),
+                LootEntry.of('superbwarfare:m_79_blueprint').withChance(0.05),
+                LootEntry.of(MATERIALS.GOLD.gear, 5).withChance(0.3),
+                LootEntry.of(MATERIALS.DIAMOND.gear, 2).withChance(0.3),
+                LootEntry.of(MATERIALS.STEEL.ingot, 5).withChance(0.3),
+                LootEntry.of("thermal:tin_coin", 15).withChance(0.1),
+                LootEntry.of("thermal:iron_coin", 1).withChance(0.1),
+                LootEntry.of("thermal:copper_coin", 15).withChance(0.3),
+                LootEntry.of("thermal:nickel_coin", 40).withChance(0.1),
+            ]
+        )    
+    event.addLootTableModifier("illagerinvasion:chests/illusioner_tower_entrance")
+        .addWeightedLoot(
+            [0, 3],
+            [
+                LootEntry.of('mekanism:crafting_formula').withChance(0.2),
+                LootEntry.of('superbwarfare:shotgun_ammo_box').withChance(0.05),
+                LootEntry.of('superbwarfare:handgun_ammo_box').withChance(0.05),
+                LootEntry.of("thermal:tin_coin", 15).withChance(0.1),
+                LootEntry.of("thermal:iron_coin", 1).withChance(0.1),
+                LootEntry.of("thermal:copper_coin", 15).withChance(0.3),
+                LootEntry.of("thermal:nickel_coin", 40).withChance(0.1),
+            ]
+        ) 
+    event.addLootTableModifier("illagerinvasion:chests/illusioner_tower_stairs")
+        .addWeightedLoot(
+            [0, 3],
+            [
+                LootEntry.of("thermal:tin_coin", 15).withChance(0.1),
+                LootEntry.of("thermal:iron_coin", 1).withChance(0.1),
+                LootEntry.of("thermal:copper_coin", 15).withChance(0.3),
+                LootEntry.of("thermal:nickel_coin", 40).withChance(0.6),
+            ]
+        )
+    event.addLootTableModifier("illagerinvasion:chests/illager_fort_ground")
+        .addWeightedLoot(
+            [0, 3],
+            [
+                LootEntry.of("thermal:tin_coin", 15).withChance(0.1),
+                LootEntry.of("thermal:iron_coin", 1).withChance(0.1),
+                LootEntry.of("thermal:copper_coin", 15).withChance(0.3),
+                LootEntry.of("thermal:nickel_coin", 40).withChance(0.6),
+            ]
+        )
+    event.addLootTableModifier("illagerinvasion:chests/illager_fort_tower")
+        .addWeightedLoot(
+            [0, 3],
+            [
+                LootEntry.of("thermal:tin_coin", 15).withChance(0.1),
+                LootEntry.of("thermal:iron_coin", 1).withChance(0.1),
+                LootEntry.of("thermal:copper_coin", 15).withChance(0.3),
+                LootEntry.of("thermal:nickel_coin", 40).withChance(0.6),
+            ]
+        )
+    event.addLootTableModifier("illagerinvasion:chests/labyrinth_map")
+        .addWeightedLoot(
+            [0, 3],
+            [
+                LootEntry.of("thermal:tin_coin", 15).withChance(0.1),
+                LootEntry.of("thermal:iron_coin", 1).withChance(0.1),
+                LootEntry.of("thermal:copper_coin", 15).withChance(0.3),
+                LootEntry.of("thermal:nickel_coin", 40).withChance(0.6),
             ]
         )
 })

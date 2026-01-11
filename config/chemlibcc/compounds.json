@@ -3517,6 +3517,24 @@
                 "supports_boating": false,
                 "can_convert_to_source": false
             }
+        },
+        {
+            "name": "potassium_iodide",
+            "display_name": "Potassium iodide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "cd19ff",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "potassium",
+                    "count": 1
+                },
+                {
+                    "name": "iodine",
+                    "count": 1
+                }
+            ]
         }
     ]
 }

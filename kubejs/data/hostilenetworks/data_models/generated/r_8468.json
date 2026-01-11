@@ -1,26 +1,30 @@
 {
-    "entity": "undergarden:scintling",
+    "entity": "aquaculture:red_grouper",
     "variants": [],
-    "name": "entity.undergarden.scintling",
-    "name_color": "#5A5A47",
+    "name": "entity.aquaculture.red_grouper",
+    "name_color": "#6792D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 640,
+    "sim_cost": 320,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
     },
     "base_drop": {
-        "item": "kubejs:undergarden_prediction",
+        "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.scintling",
+    "trivia": "hostilenetworks.trivia.red_grouper",
     "fabricator_drops": [
         {
-            "item": "undergarden:goo_ball",
+            "item": "aquaculture:red_grouper",
             "count": 32.0
+        },
+        {
+            "item": "minecraft:bone_meal",
+            "count": 2.0
         }
     ],
     "tier_data": [

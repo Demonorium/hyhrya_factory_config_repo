@@ -46,6 +46,20 @@ ServerEvents.recipes(event => {
             E: Item.of("thermal:rf_coil")
         }
     )
+    event.shaped(
+        Item.of('mekanism:electrolytic_core', 2),
+        [
+            'A A',
+            'BEB',
+            'A A'
+        ],
+        {
+            A: Item.of("mekanism:alloy_infused"),
+            B: Item.of(MATERIALS.RUTHENIUM.nugget),
+            E: Item.of("thermal:rf_coil")
+        }
+    )
+
 
     event.remove({ id: 'superbwarfare:motor' })
     event.shaped(

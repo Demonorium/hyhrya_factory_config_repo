@@ -1,26 +1,30 @@
 {
-    "entity": "undergarden:sploogie",
+    "entity": "aquaculture:tambaqui",
     "variants": [],
-    "name": "entity.undergarden.sploogie",
-    "name_color": "#857161",
+    "name": "entity.aquaculture.tambaqui",
+    "name_color": "#6392D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 640,
+    "sim_cost": 320,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
     },
     "base_drop": {
-        "item": "kubejs:undergarden_prediction",
+        "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.sploogie",
+    "trivia": "hostilenetworks.trivia.tambaqui",
     "fabricator_drops": [
         {
-            "item": "undergarden:depthrock_pebble",
+            "item": "aquaculture:tambaqui",
             "count": 32.0
+        },
+        {
+            "item": "minecraft:bone_meal",
+            "count": 2.0
         }
     ],
     "tier_data": [

@@ -1,42 +1,30 @@
 {
-    "entity": "aquaculture:gar",
+    "entity": "undergarden:muncher",
     "variants": [],
-    "name": "entity.aquaculture.gar",
-    "name_color": "#5792D3",
+    "name": "entity.undergarden.muncher",
+    "name_color": "#8994A3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 320,
+    "sim_cost": 4096,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
     },
     "base_drop": {
-        "item": "hostilenetworks:overworld_prediction",
+        "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.gar",
+    "trivia": "hostilenetworks.trivia.muncher",
     "fabricator_drops": [
         {
-            "item": "aquaculture:gar",
+            "item": "undergarden:cloggrum_nugget",
             "count": 32.0
         },
         {
-            "item": "minecraft:bone_meal",
-            "count": 2.0
+            "item": "undergarden:froststeel_nugget",
+            "count": 24.0
         }
-    ],
-    "tier_data": [
-        6,
-        54,
-        354,
-        1254
-    ],
-    "data_per_kill": [
-        1,
-        4,
-        10,
-        18
     ]
 }

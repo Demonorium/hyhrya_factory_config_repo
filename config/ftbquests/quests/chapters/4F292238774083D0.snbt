@@ -2138,8 +2138,16 @@
 		}
 		{
 			dependencies: ["40303EB3A89F8CAF"]
+			description: ["Этот механизм позволяет разделить многие вещи на составляющие: например очистить пыль, извлечь химические элементы из марсианского песка или некоторых растений."]
 			id: "410E1E1E7BE3B126"
+			rewards: [{
+				count: 3
+				id: "039FFF37C8D07449"
+				item: "kubejs:dirty_dust_cloggrum"
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Разделение на компоненты"
 			tasks: [{
 				id: "5A4CA1D56D3B37F8"
 				item: "thermal:machine_centrifuge"

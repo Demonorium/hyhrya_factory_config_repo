@@ -103,7 +103,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 70.2525,
 		matter_state: "gas",
-		combustion: 90.29,
+		combustion: 33.2,
 		cooling: null,
 	},
 	{
@@ -229,7 +229,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 553.0799999999999,
 		matter_state: "solid",
-		combustion: 296.81,
+		combustion: 395.7,
 		cooling: null,
 	},
 	{
@@ -317,7 +317,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2750.5,
 		matter_state: "solid",
-		combustion: 945.0,
+		combustion: 760.44,
 		cooling: null,
 	},
 	{
@@ -331,7 +331,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2931.5,
 		matter_state: "solid",
-		combustion: 775.3,
+		combustion: 609.4,
 		cooling: null,
 	},
 	{
@@ -345,7 +345,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2562.0,
 		matter_state: "solid",
-		combustion: 564.0,
+		combustion: 589.3,
 		cooling: null,
 	},
 	{
@@ -415,7 +415,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2096.385,
 		matter_state: "solid",
-		combustion: 156.0,
+		combustion: 85.0,
 		cooling: null,
 	},
 	{
@@ -2311,7 +2311,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2017.7,
 		matter_state: "solid",
-		combustion: 458.59999999999997,
+		combustion: 959.79,
 		cooling: null,
 	},
 	{
@@ -2717,7 +2717,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1470.0,
 		matter_state: "solid",
-		combustion: 196.41,
+		combustion: 119.00999999999999,
 		cooling: null,
 	},
 	{
@@ -2731,7 +2731,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1534.45,
 		matter_state: "solid",
-		combustion: 294.265,
+		combustion: 442.66999999999996,
 		cooling: null,
 	},
 	{
@@ -2955,7 +2955,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 200.64999999999998,
 		matter_state: "gas",
-		combustion: 660.53,
+		combustion: 793.0,
 		cooling: null,
 	},
 	{
@@ -4229,7 +4229,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1229.4966666666667,
 		matter_state: "solid",
-		combustion: 1021.4599999999999,
+		combustion: 346.7099999999999,
 		cooling: null,
 	},
 	{
@@ -5307,7 +5307,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2381.9333333333334,
 		matter_state: "solid",
-		combustion: 946.37,
+		combustion: 1103.6200000000001,
 		cooling: null,
 	},
 	{
@@ -6358,6 +6358,20 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		temperature: 303,
 		matter_state: "liquid",
 		combustion: 726.0,
+		cooling: null,
+	},
+	{
+		id: "potassium_iodide",
+		color: 13441535,
+		need_gas: false,
+		need_fluid: false,
+		gas_id: "mekanismelements:potassium_iodide",
+		fluid_id: "mekanismelements:potassium_iodide",
+		need_superheated: false,
+		radiation: 0,
+		temperature: 1278.5,
+		matter_state: "solid",
+		combustion: null,
 		cooling: null,
 	},
 	{

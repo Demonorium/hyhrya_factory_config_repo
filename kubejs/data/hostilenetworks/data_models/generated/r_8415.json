@@ -1,42 +1,30 @@
 {
-    "entity": "aquaculture:catfish",
+    "entity": "undergarden:nargoyle",
     "variants": [],
-    "name": "entity.aquaculture.catfish",
-    "name_color": "#5692D3",
+    "name": "entity.undergarden.nargoyle",
+    "name_color": "#2E2330",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 320,
+    "sim_cost": 3072,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
     },
     "base_drop": {
-        "item": "hostilenetworks:overworld_prediction",
+        "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.catfish",
+    "trivia": "hostilenetworks.trivia.nargoyle",
     "fabricator_drops": [
         {
-            "item": "aquaculture:catfish",
+            "item": "undergarden:blood_globule",
             "count": 32.0
         },
         {
-            "item": "minecraft:bone_meal",
-            "count": 2.0
+            "item": "minecraft:leather",
+            "count": 32.0
         }
-    ],
-    "tier_data": [
-        6,
-        54,
-        354,
-        1254
-    ],
-    "data_per_kill": [
-        1,
-        4,
-        10,
-        18
     ]
 }

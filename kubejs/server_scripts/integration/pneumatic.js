@@ -151,6 +151,18 @@ ServerEvents.recipes(event => {
             E: Item.of('mekanism:hazmat_pants'),
             F: Item.of('mekanism:hazmat_boots')
     })
+    event.shaped(Item.of('ad_astra_giselle_addon:pneumatic_gravity_normalizing_upgrade'), [
+            'ABA',
+            'BDB',
+            'ACA',
+        ], {
+            A: Item.of('pneumaticcraft:upgrade_matrix'),
+            B: Item.of('mekanism_extras:alloy_radiance'),
+            C: Item.of('thermal:ruby'),
+            D: Item.of('mekanism_extras:absolute_control_circuit'),
+    })
+    
+    event.replaceInput({id: 'ad_astra_giselle_addon:crafting/enchanted_book_gravity_normalizing'}, 'ad_astra:space_boots', 'mekanism_extras:absolute_control_circuit')
 
     event.remove({id : 'pneumaticcraft:armor_upgrade'})
     event.remove({id : 'pneumaticcraft:ender_visor_upgrade'})

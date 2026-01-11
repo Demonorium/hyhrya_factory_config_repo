@@ -1,30 +1,30 @@
 {
-    "entity": "undergarden:mog",
+    "entity": "aquaculture:jellyfish",
     "variants": [],
-    "name": "entity.undergarden.mog",
-    "name_color": "#2E4118",
+    "name": "entity.aquaculture.jellyfish",
+    "name_color": "#6692D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 1024,
+    "sim_cost": 320,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
     },
     "base_drop": {
-        "item": "kubejs:undergarden_prediction",
+        "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.mog",
+    "trivia": "hostilenetworks.trivia.jellyfish",
     "fabricator_drops": [
         {
-            "item": "undergarden:depthrock_pebble",
-            "count": 48.0
+            "item": "aquaculture:jellyfish",
+            "count": 32.0
         },
         {
-            "item": "undergarden:mogmoss",
-            "count": 16.0
+            "item": "minecraft:bone_meal",
+            "count": 2.0
         }
     ],
     "tier_data": [
