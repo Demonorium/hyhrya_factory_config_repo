@@ -1,18 +1,18 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "mekanism:water_vapor",
-        "amount": 1.0
+        "gas": "mekanism:sulfuric_acid",
+        "amount": 100.0
     },
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "biomesoplenty:dried_salt"
+            "item": "mekanism:dust_emerald"
         }
     },
     "output": {
-        "gas": "mekanism:hydrogen_chloride",
-        "amount": 50.0,
+        "gas": "kubejs:beryllium_sulfate",
+        "amount": 100.0,
         "chemicalType": "gas"
     }
 }

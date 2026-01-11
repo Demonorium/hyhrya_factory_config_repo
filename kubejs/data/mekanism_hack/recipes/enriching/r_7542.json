@@ -3,11 +3,11 @@
     "input": {
         "amount": 3.0,
         "ingredient": {
-            "item": "moremekanismprocessing:dust_thorium"
+            "item": "chemlib:thorium_dioxide_dust"
         }
     },
     "output": {
-        "item": "mekanism:dust_uranium",
+        "item": "chemlib:uranium_oxide_dust",
         "count": 2.0
     }
 }

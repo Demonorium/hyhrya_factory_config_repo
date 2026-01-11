@@ -8,19 +8,11 @@
     "results": [
         {
             "fluid": "minecraft:lava",
-            "amount": 190.0
-        },
-        {
-            "fluid": "thermal:heavy_oil",
-            "amount": 300.0
-        },
-        {
-            "fluid": "burnt:liquid_magma",
-            "amount": 210.0
+            "amount": 500.0
         },
         {
             "fluid": "biomesoplenty:blood",
-            "amount": 300.0
+            "amount": 200.0
         }
     ],
     "temperature": {

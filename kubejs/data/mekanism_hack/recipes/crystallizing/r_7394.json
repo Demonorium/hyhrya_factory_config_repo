@@ -2,8 +2,8 @@
     "type": "mekanism:crystallizing",
     "chemicalType": "gas",
     "input": {
-        "gas": "kubejs:silicon_dioxide",
-        "amount": 1000
+        "gas": "kubejs:aluminum_oxide",
+        "amount": 100
     },
     "output": {
         "item": "minecraft:glass",

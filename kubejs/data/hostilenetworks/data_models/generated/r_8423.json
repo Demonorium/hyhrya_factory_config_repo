@@ -1,8 +1,8 @@
 {
-    "entity": "undergarden:sploogie",
+    "entity": "undergarden:scintling",
     "variants": [],
-    "name": "entity.undergarden.sploogie",
-    "name_color": "#857161",
+    "name": "entity.undergarden.scintling",
+    "name_color": "#5A5A47",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.sploogie",
+    "trivia": "hostilenetworks.trivia.scintling",
     "fabricator_drops": [
         {
-            "item": "undergarden:depthrock_pebble",
+            "item": "undergarden:goo_ball",
             "count": 32.0
         }
     ],

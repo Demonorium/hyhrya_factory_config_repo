@@ -11,12 +11,16 @@
             "amount": 50.0
         },
         {
+            "fluid": "thermal:light_oil",
+            "amount": 40.0
+        },
+        {
             "fluid": "pneumaticcraft:lpg",
-            "amount": 30.0
+            "amount": 10.0
         }
     ],
     "temperature": {
         "min_temp": 373,
-        "max_temp": 873
+        "max_temp": 773
     }
 }

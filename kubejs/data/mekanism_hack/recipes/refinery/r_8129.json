@@ -13,9 +13,13 @@
         {
             "fluid": "pneumaticcraft:lpg",
             "amount": 40.0
+        },
+        {
+            "fluid": "kubejs:benzene",
+            "amount": 30.0
         }
     ],
     "temperature": {
-        "min_temp": 373
+        "min_temp": 473
     }
 }

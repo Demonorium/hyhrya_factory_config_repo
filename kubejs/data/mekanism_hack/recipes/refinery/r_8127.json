@@ -8,15 +8,19 @@
     "results": [
         {
             "fluid": "pneumaticcraft:kerosene",
-            "amount": 40.0
+            "amount": 30.0
+        },
+        {
+            "fluid": "pneumaticcraft:gasoline",
+            "amount": 30.0
         },
         {
             "fluid": "pneumaticcraft:lpg",
-            "amount": 35.0
+            "amount": 20.0
         }
     ],
     "temperature": {
-        "min_temp": 373,
+        "min_temp": 473,
         "max_temp": 773
     }
 }

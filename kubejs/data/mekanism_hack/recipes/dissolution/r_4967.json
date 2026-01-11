@@ -2,16 +2,16 @@
     "type": "mekanism:dissolution",
     "gasInput": {
         "gas": "mekanism:hydrogen",
-        "amount": 4.0
+        "amount": 2.0
     },
     "itemInput": {
-        "amount": 1.0,
+        "amount": 2.0,
         "ingredient": {
             "item": "chemlib:carbon_dust"
         }
     },
     "output": {
-        "gas": "mekanismelements:methane",
+        "gas": "kubejs:acetylene",
         "amount": 1.0,
         "chemicalType": "gas"
     }

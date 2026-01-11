@@ -103,7 +103,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 70.2525,
 		matter_state: "gas",
-		combustion: 33.2,
+		combustion: 90.29,
 		cooling: null,
 	},
 	{
@@ -229,7 +229,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 553.0799999999999,
 		matter_state: "solid",
-		combustion: 395.7,
+		combustion: 296.81,
 		cooling: null,
 	},
 	{
@@ -317,7 +317,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2750.5,
 		matter_state: "solid",
-		combustion: 760.44,
+		combustion: 945.0,
 		cooling: null,
 	},
 	{
@@ -359,7 +359,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1926.5,
 		matter_state: "solid",
-		combustion: 385.0,
+		combustion: 520.0,
 		cooling: null,
 	},
 	{
@@ -415,7 +415,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2096.385,
 		matter_state: "solid",
-		combustion: 85.0,
+		combustion: 156.0,
 		cooling: null,
 	},
 	{
@@ -591,7 +591,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 3883.5,
 		matter_state: "solid",
-		combustion: 794.96,
+		combustion: 949.77,
 		cooling: null,
 	},
 	{
@@ -1709,7 +1709,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 136.75,
 		matter_state: "gas",
-		combustion: 1403.1899999999998,
+		combustion: 740.1899999999999,
 		cooling: null,
 	},
 	{
@@ -2717,7 +2717,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1470.0,
 		matter_state: "solid",
-		combustion: 119.00999999999999,
+		combustion: 196.41,
 		cooling: null,
 	},
 	{
@@ -2731,7 +2731,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1534.45,
 		matter_state: "solid",
-		combustion: 442.66999999999996,
+		combustion: 145.85999999999999,
 		cooling: null,
 	},
 	{
@@ -2955,7 +2955,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 200.64999999999998,
 		matter_state: "gas",
-		combustion: 793.0,
+		combustion: 463.61,
 		cooling: null,
 	},
 	{
@@ -4229,7 +4229,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1229.4966666666667,
 		matter_state: "solid",
-		combustion: 346.7099999999999,
+		combustion: 1021.4599999999999,
 		cooling: null,
 	},
 	{
@@ -5307,7 +5307,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2381.9333333333334,
 		matter_state: "solid",
-		combustion: 1103.6200000000001,
+		combustion: 946.37,
 		cooling: null,
 	},
 	{
