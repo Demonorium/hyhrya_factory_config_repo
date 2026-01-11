@@ -34,7 +34,7 @@
 	[explosion."Mortar Shell"]
 		#The explosion damage of Mortar shell
 		#Range: 1 ~ 10000000
-		mortar_shell_explosion_damage = 160
+		mortar_shell_explosion_damage = 70
 		#The explosion radius of Mortar shell
 		#Range: 1 ~ 50
 		mortar_shell_explosion_radius = 9
@@ -42,26 +42,26 @@
 	[explosion."Drone Kamikaze"]
 		#The explosion damage of Drone Kamikaze
 		#Range: 1 ~ 10000000
-		drone_kamikaze_explosion_damage = 160
+		drone_kamikaze_explosion_damage = 70
 		#The explosion radius of Drone Kamikaze
 		#Range: 1 ~ 50
-		drone_kamikaze_explosion_radius = 9
+		drone_kamikaze_explosion_radius = 15
 
 	[explosion.C4]
 		#The explosion damage of C4
 		#Range: > 1
-		c4_explosion_damage = 300
+		c4_explosion_damage = 70
 		#The explosion countdown of C4
 		#Range: > 1
 		c4_explosion_countdown = 514
 		#The explosion radius of C4
 		#Range: > 1
-		c4_explosion_radius = 10
+		c4_explosion_radius = 15
 
 	[explosion.Claymore]
 		#The explosion damage of Claymore
 		#Range: > 1
-		claymore_explosion_damage = 140
+		claymore_explosion_damage = 70
 		#The explosion radius of Claymore
 		#Range: > 1
 		claymore_explosion_radius = 4
@@ -69,10 +69,10 @@
 	[explosion."Wire Guide Missile"]
 		#The damage of wire guide missile
 		#Range: > 1
-		wire_guide_missile_damage = 700
+		wire_guide_missile_damage = 50
 		#The explosion damage of wire guide missile
 		#Range: > 1
-		wire_guide_missile_explosion_damage = 60
+		wire_guide_missile_explosion_damage = 120
 		#The explosion radius of wire guide missile
 		#Range: > 1
 		wire_guide_missile_explosion_radius = 6
@@ -80,15 +80,15 @@
 	[explosion.RPG]
 		#The explosion damage of RPG in the drone
 		#Range: > 1
-		rpg_explosion_damage = 130
+		rpg_explosion_damage = 100
 		#The explosion radius of RPG in the drone
 		#Range: > 1
-		rpg_explosion_radius = 10
+		rpg_explosion_radius = 15
 
 	[explosion.AGM-65]
 		#The damage of AGM-65
 		#Range: > 1
-		agm_65_damage = 1100
+		agm_65_damage = 200
 		#The explosion damage of AGM-65
 		#Range: > 1
 		agm_65_explosion_damage = 150
@@ -99,7 +99,7 @@
 	[explosion.MK-82]
 		#The explosion damage of MK-82
 		#Range: > 1
-		mk_82_explosion_damage = 650
+		mk_82_explosion_damage = 200
 		#The explosion radius of MK-82
 		#Range: 1.0 ~ 2.147483647E9
 		mk_82_explosion_radius = 22.0
@@ -117,13 +117,13 @@
 	self_explosion_damage = 114514
 	#The damage count of self explosion when a vehicle is destroyed
 	#Range: 0 ~ 100
-	self_explosion_count = 5
+	self_explosion_count = 1
 	#The air crash damage when an aircraft is destroyed
 	#Range: > 0
 	air_crash_explosion_damage = 114514
 	#The air crash damage count when an aircraft is destroyed
 	#Range: 0 ~ 100
-	air_crash_explosion_count = 5
+	air_crash_explosion_count = 3
 
 	[vehicle.collision]
 		#Allows vehicles to destroy soft blocks via collision
@@ -148,19 +148,19 @@
 	[vehicle.MK-42]
 		#The AP shell damage of MK-42
 		#Range: 1 ~ 10000000
-		mk_42_ap_damage = 450
+		mk_42_ap_damage = 110
 		#The AP shell explosion damage of MK-42
 		#Range: 1 ~ 10000000
-		mk_42_ap_explosion_damage = 120
+		mk_42_ap_explosion_damage = 80
 		#The AP shell explosion radius of MK-42
 		#Range: 1 ~ 50
 		mk_42_ap_explosion_radius = 3
 		#The HE shell damage of MK-42
 		#Range: 1 ~ 10000000
-		mk_42_he_damage = 150
+		mk_42_he_damage = 70
 		#The HE shell explosion damage of MK-42
 		#Range: 1 ~ 10000000
-		mk_42_he_explosion_damage = 200
+		mk_42_he_explosion_damage = 120
 		#The HE shell explosion radius of MK-42
 		#Range: 1 ~ 50
 		mk_42_he_explosion_radius = 10
@@ -168,7 +168,7 @@
 	[vehicle.MLE-1934]
 		#The AP shell damage of MLE-1934
 		#Range: 1 ~ 10000000
-		mle_1934_ap_damage = 500
+		mle_1934_ap_damage = 100
 		#The AP shell explosion damage of MLE-1934
 		#Range: 1 ~ 10000000
 		mle_1934_ap_explosion_damage = 150
@@ -177,10 +177,10 @@
 		mle_1934_ap_explosion_radius = 4
 		#The HE shell damage of MLE-1934
 		#Range: 1 ~ 10000000
-		mle_1934_he_damage = 180
+		mle_1934_he_damage = 90
 		#The HE shell explosion damage of MLE-1934
 		#Range: 1 ~ 10000000
-		mle_1934_he_explosion_damage = 240
+		mle_1934_he_explosion_damage = 140
 		#The HE shell explosion radius of MLE-1934
 		#Range: 1 ~ 50
 		mle_1934_he_explosion_radius = 12
@@ -188,7 +188,7 @@
 	[vehicle."Heavy Machine Gun"]
 		#The gun damage of 12.7mm HMG
 		#Range: 1 ~ 10000000
-		heavy_machine_gun_damage = 40
+		heavy_machine_gun_damage = 20
 
 	[vehicle.Annihilator]
 		#The energy cost of Annihilator per shoot
@@ -204,7 +204,7 @@
 		laser_tower_cooldown = 40
 		#The energy cost of Laser Tower per shoot
 		#Range: > 0
-		laser_tower_shoot_cost = 5000
+		laser_tower_shoot_cost = 50000
 
 	[vehicle.Speedboat]
 		#The energy cost of Speedboat per tick
@@ -228,7 +228,7 @@
 		ah_6_max_energy_cost = 128
 		#The cannon damage of AH-6
 		#Range: 1.0 ~ 1.0E7
-		ah_6_cannon_damage = 25.0
+		ah_6_cannon_damage = 18.0
 		#The cannon explosion damage of AH-6
 		#Range: 1.0 ~ 1.0E7
 		ah_6_cannon_explosion_damage = 12.0
@@ -237,10 +237,10 @@
 		ah_6_cannon_explosion_radius = 3.5
 		#The rocket damage of AH-6
 		#Range: 1.0 ~ 1.0E7
-		ah_6_rocket_damage = 80.0
+		ah_6_rocket_damage = 30.0
 		#The rocket explosion damage of AH-6
 		#Range: 1.0 ~ 1.0E7
-		ah_6_rocket_explosion_damage = 40.0
+		ah_6_rocket_explosion_damage = 50.0
 		#The rocket explosion radius of AH-6
 		#Range: 1.0 ~ 1.0E7
 		ah_6_rocket_explosion_radius = 5.0
@@ -253,16 +253,16 @@
 		lav_150_energy_cost = 64
 		#The cannon damage of LAV-150
 		#Range: 1 ~ 10000000
-		lav_150_cannon_damage = 45
+		lav_150_cannon_damage = 30
 		#The cannon explosion damage of LAV-150
 		#Range: 1 ~ 10000000
-		lav_150_cannon_explosion_damage = 12
+		lav_150_cannon_explosion_damage = 15
 		#The cannon explosion radius of LAV-150
 		#Range: 1.0 ~ 1.0E7
 		lav_150_cannon_explosion_radius = 4.0
 		#The machine gun damage of LAV-150
 		#Range: 1.0 ~ 1.0E7
-		lav_150_machine_gun_damage = 9.5
+		lav_150_machine_gun_damage = 11.5
 
 	[vehicle.Tom-6]
 		#The energy cost of Tom-6 per tick
@@ -270,10 +270,10 @@
 		tom_6_energy_cost = 16
 		#The Melon Bomb explosion damage of Tom-6
 		#Range: 1 ~ 10000000
-		tom_6_bomb_explosion_damage = 500
+		tom_6_bomb_explosion_damage = 300
 		#The Melon Bomb explosion radius of Tom-6
 		#Range: 1.0 ~ 1.0E7
-		tom_6_bomb_explosion_radius = 10.0
+		tom_6_bomb_explosion_radius = 25.0
 
 	[vehicle.BMP-2]
 		#The energy cost of BMP-2 per tick
@@ -281,10 +281,10 @@
 		bmp_2_energy_cost = 64
 		#The cannon damage of BMP-2
 		#Range: 1 ~ 10000000
-		bmp_2_cannon_damage = 55
+		bmp_2_cannon_damage = 25
 		#The cannon explosion damage of BMP-2
 		#Range: 1 ~ 10000000
-		bmp_2_cannon_explosion_damage = 15
+		bmp_2_cannon_explosion_damage = 30
 		#The cannon explosion radius of BMP-2
 		#Range: 1.0 ~ 1.0E7
 		bmp_2_cannon_explosion_radius = 4.0
@@ -298,19 +298,19 @@
 		yx_100_shoot_cost = 24000
 		#The cannon damage of YX-100
 		#Range: 1 ~ 10000000
-		yx_100_ap_cannon_damage = 500
+		yx_100_ap_cannon_damage = 300
 		#The cannon explosion damage of YX-100
 		#Range: 1 ~ 10000000
-		yx_100_ap_cannon_explosion_damage = 100
+		yx_100_ap_cannon_explosion_damage = 200
 		#The cannon explosion radius of YX-100
 		#Range: 1.0 ~ 1.0E7
 		yx_100_ap_cannon_explosion_radius = 4.0
 		#The cannon damage of YX-100
 		#Range: 1 ~ 10000000
-		yx_100_he_cannon_damage = 150
+		yx_100_he_cannon_damage = 75
 		#The cannon explosion damage of YX-100
 		#Range: 1 ~ 10000000
-		yx_100_he_cannon_explosion_damage = 150
+		yx_100_he_cannon_explosion_damage = 300
 		#The cannon explosion radius of YX-100
 		#Range: 1.0 ~ 1.0E7
 		yx_100_he_cannon_explosion_radius = 10.0
@@ -327,7 +327,7 @@
 		prism_tank_energy_cost = 96
 		#The Laser Damage of Prism Tank Mode 1
 		#Range: > 0
-		prism_tank_damage_mode_1 = 350
+		prism_tank_damage_mode_1 = 120
 		#The energy cost of Prism Tank Mode 1
 		#Range: 1 ~ 10000000
 		prism_tank_shoot_cost_mode_1 = 100000
@@ -339,7 +339,7 @@
 		prism_tank_aoe_radius = 12
 		#The Laser Damage of Prism Tank Mode 2 per tick
 		#Range: 1 ~ 10000000
-		prism_tank_damage_mode_2 = 15
+		prism_tank_damage_mode_2 = 14
 		#The energy cost of Prism Tank Mode 2 per tick
 		#Range: 1 ~ 10000000
 		prism_tank_shoot_cost_mode_2 = 5000
@@ -396,10 +396,10 @@
 	default_armor_level = 1
 	#The maximum armor level for armors with superbwarfare:military_armor tag
 	#Range: 0 ~ 10000000
-	military_armor_level = 2
+	military_armor_level = 3
 	#The maximum armor level for armors with superbwarfare:military_armor_heavy tag(will override superbwarfare:military_armor tag!)
 	#Range: 0 ~ 10000000
-	heavy_military_armor_level = 3
+	heavy_military_armor_level = 5
 	#The points per level for armor plate
 	#Range: 0 ~ 10000000
 	armor_point_per_level = 15
@@ -420,7 +420,7 @@
 	charging_station_default_fuel_time = 1
 	#The max size of artillery indicator binding list
 	#Range: > 1
-	artillery_indicator_list_size = 32
+	artillery_indicator_list_size = 64
 
 [seek]
 	#List of entities that can NOT be sought

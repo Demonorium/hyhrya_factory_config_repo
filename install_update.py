@@ -55,6 +55,8 @@ def configuration_filter(src: str, names: list[str]):
     ingored = []
     if 'presencefootsteps' in src:
         return names
+    if 'jei' in src:
+        return names
     
     for name in names:
         if 'client' in name:
