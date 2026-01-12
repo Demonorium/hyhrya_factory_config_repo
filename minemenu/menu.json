@@ -1,17 +1,5 @@
 {
   "pneumatic": {
-    "0": {
-      "title": "Ховер-режим",
-      "icon": {
-        "stack": "{Count:1b,id:\"pneumaticcraft:jet_boots_upgrade_5\"}"
-      },
-      "action": {
-        "key": {
-          "key": "pneumaticcraft.armor.upgrade.jet_boots.module.hover",
-          "toggle": false
-        }
-      }
-    },
     "1": {
       "title": "Открыть меню пневматика",
       "icon": {
@@ -20,7 +8,7 @@
       "action": {
         "key": {
           "key": "pneumaticcraft.armor.options",
-          "toggle": false
+          "toggle": true
         }
       }
     },
@@ -31,18 +19,6 @@
       },
       "action": {
         "category": "pneumatic_boots"
-      }
-    },
-    "9": {
-      "title": "Элитры",
-      "icon": {
-        "stack": "{Count:1b,id:\"pneumaticcraft:elytra_upgrade\"}"
-      },
-      "action": {
-        "key": {
-          "key": "pneumaticcraft.armor.upgrade.elytra",
-          "toggle": false
-        }
       }
     }
   },
@@ -55,7 +31,7 @@
       "action": {
         "key": {
           "key": "gui.xaero_minimap_settings",
-          "toggle": false
+          "toggle": true
         }
       }
     },
@@ -67,25 +43,12 @@
       "action": {
         "key": {
           "key": "key.voice_chat",
-          "toggle": false
+          "toggle": true
         }
       }
     }
   },
-  "pneumatic_boots": {
-    "2": {
-      "title": "Помощник-шага (бегунки)",
-      "icon": {
-        "stack": "{Count:1b,id:\"mekanism:free_runners\"}"
-      },
-      "action": {
-        "key": {
-          "key": "pneumaticcraft.armor.upgrade.step_assist",
-          "toggle": false
-        }
-      }
-    }
-  },
+  "pneumatic_boots": {},
   "Аксессуары": {},
   "main": {
     "0": {
@@ -96,7 +59,7 @@
       "action": {
         "key": {
           "key": "key.ftbquests.quests",
-          "toggle": false
+          "toggle": true
         }
       }
     },
@@ -126,7 +89,7 @@
       "action": {
         "key": {
           "key": "key.tempad.shortcut",
-          "toggle": false
+          "toggle": true
         }
       }
     },
@@ -138,7 +101,7 @@
       "action": {
         "key": {
           "key": "gui.xaero_waypoints_key",
-          "toggle": false
+          "toggle": true
         }
       }
     },
@@ -150,7 +113,7 @@
       "action": {
         "key": {
           "key": "gui.xaero_new_waypoint",
-          "toggle": false
+          "toggle": true
         }
       }
     },
@@ -162,7 +125,7 @@
       "action": {
         "key": {
           "key": "keybind.sophisticatedbackpacks.open_backpack",
-          "toggle": false
+          "toggle": true
         }
       }
     },
@@ -174,7 +137,7 @@
       "action": {
         "key": {
           "key": "key.ae2.wireless_terminal",
-          "toggle": false
+          "toggle": true
         }
       }
     },
@@ -186,7 +149,7 @@
       "action": {
         "key": {
           "key": "key.diet.open.desc",
-          "toggle": false
+          "toggle": true
         }
       }
     },
@@ -198,7 +161,7 @@
       "action": {
         "key": {
           "key": "key.puffish_skills.open",
-          "toggle": false
+          "toggle": true
         }
       }
     }
@@ -212,7 +175,7 @@
       "action": {
         "key": {
           "key": "key.mekanism.key_hud",
-          "toggle": false
+          "toggle": true
         }
       }
     },
@@ -224,7 +187,7 @@
       "action": {
         "key": {
           "key": "pneumaticcraft.armor.options",
-          "toggle": false
+          "toggle": true
         }
       }
     },
@@ -236,7 +199,7 @@
       "action": {
         "key": {
           "key": "key.mekanism.feet_mode",
-          "toggle": false
+          "toggle": true
         }
       }
     },
@@ -248,7 +211,7 @@
       "action": {
         "key": {
           "key": "key.mekanism.legs_mode",
-          "toggle": false
+          "toggle": true
         }
       }
     },
@@ -260,7 +223,7 @@
       "action": {
         "key": {
           "key": "key.mekanism.chest_mode",
-          "toggle": false
+          "toggle": true
         }
       }
     },
@@ -272,7 +235,7 @@
       "action": {
         "key": {
           "key": "key.mekanism.head_mode",
-          "toggle": false
+          "toggle": true
         }
       }
     },
@@ -284,7 +247,7 @@
       "action": {
         "key": {
           "key": "key.buildinggadgets2.settings_menu",
-          "toggle": false
+          "toggle": true
         }
       }
     },
@@ -296,7 +259,7 @@
       "action": {
         "key": {
           "key": "key.mekanism.module_tweaker",
-          "toggle": false
+          "toggle": true
         }
       }
     }
