@@ -1,0 +1,25 @@
+{
+    "type": "pneumaticcraft:refinery",
+    "input": {
+        "fluid": "burnt:liquid_magma",
+        "amount": 30.0,
+        "type": "pneumaticcraft:fluid"
+    },
+    "results": [
+        {
+            "fluid": "kubejs:potassium_carbonate",
+            "amount": 15.0
+        },
+        {
+            "fluid": "kubejs:calcium_oxide",
+            "amount": 10.0
+        },
+        {
+            "fluid": "kubejs:vanadium_v_oxide",
+            "amount": 5.0
+        }
+    ],
+    "temperature": {
+        "min_temp": 623
+    }
+}

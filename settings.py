@@ -55,6 +55,10 @@ visial_mod_data = [
         "mod_name": "EuphoriaPatcher (Расширение для комплементарок)",
         "mod_file": "mods/EuphoriaPatcher-1.7.8-r5.6.1-forge.jar"
     },
+    {
+        "mod_name": "HyhryaSplashUpdater (Вместо сплеша выводится информация об обновлении майнкрафта)",
+        "mod_file": "mods/hyhryasplashupdater-1.0-SNAPSHOT.jar"
+    },
 ]
 
 

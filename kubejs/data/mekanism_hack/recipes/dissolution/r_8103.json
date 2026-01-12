@@ -7,11 +7,11 @@
     "itemInput": {
         "amount": 3.0,
         "ingredient": {
-            "item": "ad_astra:raw_calorite"
+            "item": "mekanism_extras:raw_naquadah"
         }
     },
     "output": {
-        "slurry": "moremekanismprocessing:dirty_calorite",
+        "slurry": "mekanism_extras:dirty_naquadah",
         "amount": 2000.0,
         "chemicalType": "slurry"
     }

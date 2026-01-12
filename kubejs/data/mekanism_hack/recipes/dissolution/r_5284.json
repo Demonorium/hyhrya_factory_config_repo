@@ -1,18 +1,18 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "mekanism:sulfuric_acid",
-        "amount": 100.0
+        "gas": "mekanismelements:methane",
+        "amount": 1.0
     },
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:dust_emerald"
+            "item": "chemlib:carbon_dust"
         }
     },
     "output": {
-        "gas": "kubejs:beryllium_sulfate",
-        "amount": 100.0,
+        "gas": "mekanism:ethene",
+        "amount": 1.0,
         "chemicalType": "gas"
     }
 }

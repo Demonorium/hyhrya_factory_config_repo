@@ -1,13 +1,13 @@
 {
-    "entity": "undergarden:forgotten_guardian",
+    "entity": "undergarden:brute",
     "variants": [],
-    "name": "entity.undergarden.forgotten_guardian",
-    "name_color": "#63CE98",
-    "gui_scale": 0.8,
+    "name": "entity.undergarden.brute",
+    "name_color": "#826855",
+    "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 16384,
+    "sim_cost": 1024,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
@@ -16,11 +16,11 @@
         "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.forgotten_guardian",
+    "trivia": "hostilenetworks.trivia.brute",
     "fabricator_drops": [
         {
-            "item": "undergarden:forgotten_nugget",
-            "count": 16.0
+            "item": "undergarden:brute_tusk",
+            "count": 32.0
         }
     ]
 }

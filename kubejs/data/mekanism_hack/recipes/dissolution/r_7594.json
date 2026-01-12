@@ -1,18 +1,18 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "kubejs:ozone",
+        "gas": "kubejs:sodium_hydroxide",
         "amount": 2.0
     },
     "itemInput": {
-        "amount": 3.0,
+        "amount": 2.0,
         "ingredient": {
-            "item": "mekanism:dust_sulfur"
+            "item": "mekanism:sawdust"
         }
     },
     "output": {
-        "gas": "mekanism:sulfur_dioxide",
-        "amount": 3.0,
+        "gas": "kubejs:cellulose",
+        "amount": 4.0,
         "chemicalType": "gas"
     }
 }

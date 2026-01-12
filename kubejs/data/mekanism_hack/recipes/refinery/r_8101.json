@@ -1,22 +1,22 @@
 {
     "type": "pneumaticcraft:refinery",
     "input": {
-        "fluid": "burnt:liquid_magma",
-        "amount": 30.0,
+        "fluid": "minecraft:lava",
+        "amount": 100.0,
         "type": "pneumaticcraft:fluid"
     },
     "results": [
         {
-            "fluid": "kubejs:potassium_carbonate",
-            "amount": 15.0
+            "fluid": "burnt:liquid_magma",
+            "amount": 30.0
         },
         {
-            "fluid": "kubejs:calcium_oxide",
+            "fluid": "kubejs:silicon_dioxide",
+            "amount": 60.0
+        },
+        {
+            "fluid": "kubejs:iron_ii_oxide",
             "amount": 10.0
-        },
-        {
-            "fluid": "kubejs:vanadium_v_oxide",
-            "amount": 5.0
         }
     ],
     "temperature": {

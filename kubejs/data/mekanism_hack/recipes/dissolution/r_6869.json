@@ -1,17 +1,17 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "mekanism:sulfuric_acid",
-        "amount": 1.0
+        "gas": "kubejs:ozone",
+        "amount": 2.0
     },
     "itemInput": {
-        "amount": 1.0,
+        "amount": 3.0,
         "ingredient": {
-            "item": "mekanism:sawdust"
+            "item": "chemlib:carbon_dust"
         }
     },
     "output": {
-        "gas": "kubejs:cellulose",
+        "gas": "kubejs:carbon_dioxide",
         "amount": 3.0,
         "chemicalType": "gas"
     }
