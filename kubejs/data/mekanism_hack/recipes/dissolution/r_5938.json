@@ -2,16 +2,16 @@
     "type": "mekanism:dissolution",
     "gasInput": {
         "gas": "mekanism:hydrogen",
-        "amount": 10.0
+        "amount": 1.0
     },
     "itemInput": {
-        "amount": 4.0,
+        "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:carbon_dust"
+            "item": "chemlib:iodine_dust"
         }
     },
     "output": {
-        "gas": "kubejs:butane",
+        "gas": "kubejs:hydrogen_iodide",
         "amount": 1.0,
         "chemicalType": "gas"
     }

@@ -1,18 +1,18 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "kubejs:fluorine",
-        "amount": 6.0
+        "gas": "mekanism:sulfuric_acid",
+        "amount": 1.0
     },
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:dust_sulfur"
+            "item": "mekanism:sawdust"
         }
     },
     "output": {
-        "gas": "kubejs:sulfur_hexafluoride",
-        "amount": 1.0,
+        "gas": "kubejs:cellulose",
+        "amount": 3.0,
         "chemicalType": "gas"
     }
 }

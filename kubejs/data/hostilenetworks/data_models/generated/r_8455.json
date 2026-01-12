@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:smallmouth_bass",
+    "entity": "aquaculture:capitaine",
     "variants": [],
-    "name": "entity.aquaculture.smallmouth_bass",
-    "name_color": "#5292D3",
+    "name": "entity.aquaculture.capitaine",
+    "name_color": "#5092D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.smallmouth_bass",
+    "trivia": "hostilenetworks.trivia.capitaine",
     "fabricator_drops": [
         {
-            "item": "aquaculture:smallmouth_bass",
+            "item": "aquaculture:capitaine",
             "count": 32.0
         },
         {

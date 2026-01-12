@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:blackfish",
+    "entity": "aquaculture:red_grouper",
     "variants": [],
-    "name": "entity.aquaculture.blackfish",
-    "name_color": "#4192D3",
+    "name": "entity.aquaculture.red_grouper",
+    "name_color": "#6792D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.blackfish",
+    "trivia": "hostilenetworks.trivia.red_grouper",
     "fabricator_drops": [
         {
-            "item": "aquaculture:blackfish",
+            "item": "aquaculture:red_grouper",
             "count": 32.0
         },
         {

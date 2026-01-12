@@ -1,8 +1,8 @@
 {
-    "entity": "deeperdarker:stalker",
+    "entity": "undergarden:forgotten_guardian",
     "variants": [],
-    "name": "entity.deeperdarker.stalker",
-    "name_color": "#02262F",
+    "name": "entity.undergarden.forgotten_guardian",
+    "name_color": "#63CE98",
     "gui_scale": 0.8,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -13,14 +13,14 @@
         "count": 1
     },
     "base_drop": {
-        "item": "kubejs:sculk_prediction",
+        "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.stalker",
+    "trivia": "hostilenetworks.trivia.forgotten_guardian",
     "fabricator_drops": [
         {
-            "item": "deeperdarker:soul_crystal",
-            "count": 8.0
+            "item": "undergarden:forgotten_nugget",
+            "count": 16.0
         }
     ]
 }

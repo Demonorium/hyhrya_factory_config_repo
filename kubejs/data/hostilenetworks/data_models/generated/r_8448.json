@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:pink_salmon",
+    "entity": "aquaculture:atlantic_halibut",
     "variants": [],
-    "name": "entity.aquaculture.pink_salmon",
-    "name_color": "#4592D3",
+    "name": "entity.aquaculture.atlantic_halibut",
+    "name_color": "#4392D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.pink_salmon",
+    "trivia": "hostilenetworks.trivia.atlantic_halibut",
     "fabricator_drops": [
         {
-            "item": "aquaculture:pink_salmon",
+            "item": "aquaculture:atlantic_halibut",
             "count": 32.0
         },
         {

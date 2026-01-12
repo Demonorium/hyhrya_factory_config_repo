@@ -1,17 +1,17 @@
 {
     "type": "mekanism:dissolution",
     "gasInput": {
-        "gas": "mekanism:hydrogen",
-        "amount": 1.0
+        "gas": "kubejs:fluorine",
+        "amount": 6.0
     },
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:iodine_dust"
+            "item": "mekanism:dust_sulfur"
         }
     },
     "output": {
-        "gas": "kubejs:hydrogen_iodide",
+        "gas": "kubejs:sulfur_hexafluoride",
         "amount": 1.0,
         "chemicalType": "gas"
     }

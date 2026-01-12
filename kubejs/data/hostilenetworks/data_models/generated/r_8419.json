@@ -1,13 +1,13 @@
 {
-    "entity": "undergarden:rotbeast",
+    "entity": "undergarden:nargoyle",
     "variants": [],
-    "name": "entity.undergarden.rotbeast",
-    "name_color": "#AD4343",
-    "gui_scale": 0.8,
+    "name": "entity.undergarden.nargoyle",
+    "name_color": "#2E2330",
+    "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 4096,
+    "sim_cost": 3072,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
@@ -16,11 +16,15 @@
         "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.rotbeast",
+    "trivia": "hostilenetworks.trivia.nargoyle",
     "fabricator_drops": [
         {
-            "item": "undergarden:utheric_shard",
-            "count": 64.0
+            "item": "undergarden:blood_globule",
+            "count": 32.0
+        },
+        {
+            "item": "minecraft:leather",
+            "count": 32.0
         }
     ]
 }

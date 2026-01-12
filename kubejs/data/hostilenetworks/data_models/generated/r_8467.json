@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:brown_shrooma",
+    "entity": "aquaculture:piranha",
     "variants": [],
-    "name": "entity.aquaculture.brown_shrooma",
-    "name_color": "#6492D3",
+    "name": "entity.aquaculture.piranha",
+    "name_color": "#6292D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.brown_shrooma",
+    "trivia": "hostilenetworks.trivia.piranha",
     "fabricator_drops": [
         {
-            "item": "aquaculture:brown_shrooma",
+            "item": "aquaculture:piranha",
             "count": 32.0
         },
         {

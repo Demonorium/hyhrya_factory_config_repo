@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:piranha",
+    "entity": "aquaculture:perch",
     "variants": [],
-    "name": "entity.aquaculture.piranha",
-    "name_color": "#6292D3",
+    "name": "entity.aquaculture.perch",
+    "name_color": "#6092D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.piranha",
+    "trivia": "hostilenetworks.trivia.perch",
     "fabricator_drops": [
         {
-            "item": "aquaculture:piranha",
+            "item": "aquaculture:perch",
             "count": 32.0
         },
         {
