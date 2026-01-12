@@ -2,9 +2,9 @@
 #Config for the black widow entity
 #Percentage based chance that a black widow will spawn when breaking accepted block in accepted biomes
 #Range: 0 ~ 100
-widow_p_chance = 1
+widow_p_chance = 30
 #List of accepted biomes for black widow to spawn in
-widow_biomes = ["minecraft:windswept_savanna", "minecraft:savanna_plateau", "minecraft:wooded_badlands", "minecraft:eroded_badlands", "minecraft:sparse_jungle", "minecraft:jagged_peaks", "minecraft:bamboo_jungle", "minecraft:savanna", "minecraft:badlands", "minecraft:jungle", "minecraft:desert"]
+widow_biomes = ["sgjourney:chulak_forest", "sgjourney:chulak_plains"]
 #List of accepted blocks for house spider to spawn from
 widow_blocks = ["minecraft:oak_planks", "minecraft:spruce_planks", "minecraft:birch_planks", "minecraft:dark_oak_planks", "minecraft:jungle_planks", "minecraft:acacia_planks", "minecraft:bamboo_planks", "minecraft:cherry_planks", "minecraft:mangrove_planks", "minecraft:warped_planks", "minecraft:crimson_planks", "minecraft:cobblestone"]
 #Whether the black widow venom is lethal or not
@@ -15,9 +15,9 @@ widow_venom_p = 20
 #Config gor the house spider entity
 #Percentage based chance that a house spider will spawn when breaking accepted block in accepted biomes
 #Range: 0 ~ 100
-house_p_chance = 1
+house_p_chance = 30
 #List of accepted biomes for house spider to spawn in
-house_biomes = ["minecraft:plains", "minecraft:sunflower_plains", "minecraft:birch_forest", "minecraft:taiga", "minecraft:forest", "minecraft:flower_forest", "minecraft:meadow"]
+house_biomes = ["sgjourney:athos_forest", "sgjourney:chulak_forest", "sgjourney:chulak_plains"]
 #Config for the funnel web entity
 #Whether the funnel web venom is lethal or not
 funnel_venom_d = true

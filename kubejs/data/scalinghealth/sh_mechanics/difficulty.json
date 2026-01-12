@@ -20,7 +20,7 @@
   "timeBeforeAfk" : 120,
   "sleepWarningMessage": false,
   "multipliers" : {
-    "lunarMultipliers" : [1.25, 1.125, 1.075, 1.0, 0.8, 1.0, 1.05, 1.075],
+    "lunarMultipliers" : [1.1, 1.05, 1.025, 1.0, 0.8, 1.0, 1.025, 1.05],
     "locationMultipliers" : [
       {
         "scale" : 2.0,
@@ -36,14 +36,9 @@
         "biomes" : ["#forge:is_swamp", "#c:deep_ocean"]
       },
       {
-        "scale" : 1.2,
+        "scale" : 1.1,
         "dimensions" : ["minecraft:overworld"],
-        "biomes" : ["#forge:is_cold"]
-      },
-      {
-        "scale" : 1.5,
-        "dimensions" : ["minecraft:overworld"],
-        "biomes" : ["#forge:is_underground", "#forge:is_cave", "minecraft:deep_dark"]
+        "biomes" : ["#forge:is_underground", "#forge:is_cave", "minecraft:deep_dark", "#forge:is_cold"]
       },
 	    {
         "scale" : 0,
