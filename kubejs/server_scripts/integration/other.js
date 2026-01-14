@@ -57,4 +57,5 @@ function _blueprint_recipes(event) {
 
   event.replaceInput({ mod: 'buildinggadgets2' }, 'iron_ingot', MATERIALS.SILVER.plate)
   event.replaceInput({ mod: 'buildinggadgets2' }, 'redstone', 'ae2:semi_dark_monitor')
+
 }
