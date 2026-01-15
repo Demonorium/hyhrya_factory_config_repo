@@ -8,7 +8,7 @@
     {
         "mob": "ophidiophobia:bone_snake",
         "when": "onjoin",
-        "biome": "#forge:is_mushroom",
+        "biometags": "forge:is_mushroom",
         "result": "deny"
     }
 ]

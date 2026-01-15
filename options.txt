@@ -354,8 +354,8 @@ key_pneumaticcraft.armor.upgrade.block_tracker.module.hackables:key.keyboard.unk
 key_pneumaticcraft.armor.upgrade.scuba:key.keyboard.keypad.4:CONTROL
 key_pneumaticcraft.armor.upgrade.block_tracker.module.end_portal:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.jet_boots.module.builder_mode:key.keyboard.keypad.9:ALT
-soundCategory_master:0.03702977637422568
-soundCategory_music:0.0
+soundCategory_master:0.21168839485354157
+soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

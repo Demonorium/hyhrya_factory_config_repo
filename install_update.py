@@ -65,6 +65,10 @@ def configuration_filter(src: str, names: list[str]):
             ingored.append(name)
         elif 'autohud' in name:
             ingored.append(name)
+        elif 'skinlayers' in name:
+            ingored.append(name)
+        elif 'oculus' in name:
+            ingored.append(name)
 
     return ingored
 
