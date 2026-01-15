@@ -39,7 +39,7 @@
 				},
 				"experience": [
 					{
-						"expression": "nutrition + (saturation + 1)*nutrition*3"
+						"expression": "nutrition*3 + (saturation + 1)*nutrition*5"
 					}
 				]
 			}
@@ -56,7 +56,7 @@
 						]
 					}
 				},
-				"experience": "amount * 3"
+				"experience": "amount * 5"
 			}
 		},
 		{
