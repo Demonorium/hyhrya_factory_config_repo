@@ -26,5 +26,5 @@
 	#Range: 1 ~ 1024
 	MaxHostileMobsPerServer = 320
 	#List of hostile Mobs to optimize in the format ["minecraft:blaze", "minecraft:cave_spider", ..]
-	HostileMobsList = ["spidermod:funnel_web", "spidermod:black_widow", "spidermod:wandering_spider", "spidermod:wolf_spider", "spidermod:tarantula", "spidermod:orbweaver", "spidermod:old_huntsman", "spidermod:baby_huntsman", "spidermod:house_spider", "ophidiophobia:european_adder", "ophidiophobia:eyelash_viper", "ophidiophobia:rattlesnake", "ophidiophobia:green_tree_snake", "ophidiophobia:sand_viper", "ophidiophobia:coral_snake", "ophidiophobia:black_mamba", "ophidiophobia:rainbow_snake", "ophidiophobia:boomslang", "ophidiophobia:gaboon_viper", "ophidiophobia:king_cobra", "ophidiophobia:inland_taipan", "ophidiophobia:bone_snake", "ophidiophobia:tiger_python", "ophidiophobia:anaconda", "ophidiophobia:titanoboa", "ophidiophobia:projectile_snake_spit", "ophidiophobia:green_tree_snake_spawn", "ophidiophobia:sand_viper_burrow"]
+	HostileMobsList = []
 
