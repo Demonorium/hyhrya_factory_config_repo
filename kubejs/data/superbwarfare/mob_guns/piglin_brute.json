@@ -8,7 +8,7 @@
       // Roll weight for this gun
       "Weight": 2,
       // Aim time in ticks for mobs to aim before shoot
-      "AimTime": 60,
+      "AimTime": 180,
       // Clear aim time when lost sight, otherwise aim time will reduce by 1 per tick
       "ClearAimTimeWhenLostSight": true,
       // Extra cooldown in microseconds for semi and burst fire mode
@@ -42,7 +42,7 @@
       // Will mobs be considered as zooming when shoot
       "Zoom": true,
       // Fire spread
-      "Spread": 5,
+      "Spread": 10,
       // Gun property override, check out GunProp.java for more info
       "Override": {
         "Damage": 2

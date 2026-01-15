@@ -1,3 +1,4 @@
+
 {
   "ID": "minecraft:skeleton",
   "Probability": 0.8,
@@ -8,7 +9,7 @@
       // Roll weight for this gun
       "Weight": 10,
       // Aim time in ticks for mobs to aim before shoot
-      "AimTime": 40,
+      "AimTime": 90,
       // Clear aim time when lost sight, otherwise aim time will reduce by 1 per tick
       "ClearAimTimeWhenLostSight": false,
       // Extra cooldown in microseconds for semi and burst fire mode
@@ -21,7 +22,7 @@
       // Will mobs be considered as zooming when shoot
       "Zoom": true,
       // Fire spread
-      "Spread": 3,
+      "Spread": 30,
       // Gun property override, check out GunProp.java for more info
       "Override": {
         "Damage": 10,
@@ -35,7 +36,7 @@
       // Roll weight for this gun
       "Weight": 100,
       // Aim time in ticks for mobs to aim before shoot
-      "AimTime": 40,
+      "AimTime": 60,
       // Clear aim time when lost sight, otherwise aim time will reduce by 1 per tick
       "ClearAimTimeWhenLostSight": true,
       // Extra cooldown in microseconds for semi and burst fire mode
@@ -48,7 +49,7 @@
       // Will mobs be considered as zooming when shoot
       "Zoom": true,
       // Fire spread
-      "Spread": 1,
+      "Spread": 30,
       "Override": {
         "Damage": 6.5,
         "Headshot": 1
@@ -60,7 +61,7 @@
       // Roll weight for this gun
       "Weight": 1,
       // Aim time in ticks for mobs to aim before shoot
-      "AimTime": 60,
+      "AimTime": 80,
       // Clear aim time when lost sight, otherwise aim time will reduce by 1 per tick
       "ClearAimTimeWhenLostSight": true,
       // Extra cooldown in microseconds for semi and burst fire mode
@@ -73,7 +74,7 @@
       // Will mobs be considered as zooming when shoot
       "Zoom": true,
       // Fire spread
-      "Spread": 30,
+      "Spread": 50,
       "Override": {
         "Damage": 3.5,
         "Headshot": 1

@@ -21,7 +21,7 @@
       // Will mobs be considered as zooming when shoot
       "Zoom": true,
       // Fire spread
-      "Spread": 1
+      "Spread": 15
     },
     {
       // Gun item's registry ID, MUST NOT be null and MUST be GunItem
@@ -42,7 +42,7 @@
       // Will mobs be considered as zooming when shoot
       "Zoom": false,
       // Fire spread
-      "Spread": 5
+      "Spread": 15
     }
   ]
 }

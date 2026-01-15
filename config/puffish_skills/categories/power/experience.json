@@ -2,7 +2,7 @@
 	"experience_per_level": {
 		"type": "expression",
 		"data": {
-			"expression": "(1 + level^3)*100"
+			"expression": "100*(level^min(2.5, log(max(1.0, level+7)/7.0)))"
 		}
 	},
 	"sources": [
@@ -39,7 +39,7 @@
 				},
 				"experience": [
 					{
-						"expression": "nutrition*3 + (saturation + 1)*nutrition*5"
+						"expression": "nutrition*2 + (saturation + 1)*nutrition*5"
 					}
 				]
 			}
@@ -56,7 +56,7 @@
 						]
 					}
 				},
-				"experience": "amount * 5"
+				"experience": "amount * 4"
 			}
 		},
 		{
@@ -80,7 +80,7 @@
 				"experience": [
 					{
 						"condition": "is_stimulator",
-						"expression": "200000"
+						"expression": "50000"
 					}
 				]
 			}
@@ -106,7 +106,7 @@
 				"experience": [
 					{
 						"condition": "is_nanomachines",
-						"expression": "700000"
+						"expression": "100000"
 					}
 				]
 			}
@@ -158,7 +158,7 @@
 				"experience": [
 					{
 						"condition": "is_neural_nanomachines",
-						"expression": "11412500"
+						"expression": "3512000"
 					}
 				]
 			}

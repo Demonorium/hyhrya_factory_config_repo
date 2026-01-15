@@ -21,7 +21,7 @@
       // Will mobs be considered as zooming when shoot
       "Zoom": true,
       // Fire spread
-      "Spread": 5,
+      "Spread": 50,
       // Gun property override, check out GunProp.java for more info
       "Override": {
         "Damage": 2
@@ -46,7 +46,7 @@
       // Will mobs be considered as zooming when shoot
       "Zoom": true,
       // Fire spread
-      "Spread": 5,
+      "Spread": 30,
       // Gun property override, check out GunProp.java for more info
       "Override": {
         "Damage": 3
