@@ -1,10 +1,7 @@
 {
   "block_names": {
     "minecraft:dead_bush": {
-      "chance": 0.01
-    },
-    "minecraft:cactus": {
-      "chance": 0.01
+      "chance": 0.001
     }
   },
   "block_tags": {},

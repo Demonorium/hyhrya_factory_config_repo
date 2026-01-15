@@ -4,5 +4,11 @@
         "when": "onjoin",
         "spawntype": ["mob_summoned", "spawn_egg"],
         "result": "default"
+    },
+    {
+        "mob": "ophidiophobia:bone_snake",
+        "when": "onjoin",
+        "biome": "#forge:is_mushroom",
+        "result": "deny"
     }
 ]

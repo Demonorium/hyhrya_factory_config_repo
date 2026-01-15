@@ -5,11 +5,11 @@
 [MobSpawning]
 
 	[MobSpawning.desert_mojo]
-		"Desert Mojo Breaking Block Spawn " = false
+		"Desert Mojo Breaking Block Spawn " = true
 		"Desert Mojo Killing Entity Spawn " = false
 
 	[MobSpawning.forest_mojo]
-		"Forest Mojo Breaking Block Spawn " = false
+		"Forest Mojo Breaking Block Spawn " = true
 		"Forest Mojo Killing Entity Spawn " = false
 
 	[MobSpawning.hound]
@@ -45,7 +45,7 @@
 
 	[MobSpawning.corpse_eater]
 		"Corpse Eater Breaking Block Spawn " = false
-		"Corpse Eater Killing Entity Spawn " = false
+		"Corpse Eater Killing Entity Spawn " = true
 
 	[MobSpawning.peacock_spider]
 		"Peacock Spider Breaking Block Spawn " = false
