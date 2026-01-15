@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'ad_astra:photovoltaic_etrium_cell'})
   event.remove({id: 'dysonsphere:solar_foil'})
   event.shaped(
-    Item.of('dysonsphere:solar_foil', 6),
+    Item.of('dysonsphere:solar_foil', 3),
     [
       'AAA',
       'BCB',
@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
 
   event.remove({id: 'mekanismgenerators:solar_panel'})
   event.shaped(
-    Item.of('mekanismgenerators:solar_panel', 1),
+    Item.of('mekanismgenerators:solar_panel', 3),
     [
       'AAA',
       'FCF',
