@@ -2559,10 +2559,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"049AE9E4A801DFDF"
-				"0D8ABA969298E47F"
-			]
+			dependencies: ["0D8ABA969298E47F"]
 			id: "1AECCEDAB57F10A5"
 			rewards: [{
 				count: 5
