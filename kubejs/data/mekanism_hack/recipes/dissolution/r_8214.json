@@ -2,17 +2,17 @@
     "type": "mekanism:dissolution",
     "gasInput": {
         "gas": "mekanism:sulfuric_acid",
-        "amount": 50.0
+        "amount": 200.0
     },
     "itemInput": {
         "amount": 1.0,
         "ingredient": {
-            "item": "opposing_force:chicken_of_the_caves"
+            "item": "biomesoplenty:glowshroom"
         }
     },
     "output": {
-        "slurry": "moremekanismprocessing:dirty_nickel",
-        "amount": 400.0,
-        "chemicalType": "slurry"
+        "gas": "kubejs:strontium_sulfate",
+        "amount": 100.0,
+        "chemicalType": "gas"
     }
 }

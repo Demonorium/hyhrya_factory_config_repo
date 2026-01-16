@@ -173,18 +173,6 @@ const LOOT_TO_REPLACE = [
 		to: "thermal:nickel_dust",
 	},
 	{
-		from: "chemlib:bismuth_ingot",
-		to: "moremekanismprocessing:bismuth_ingot",
-	},
-	{
-		from: "chemlib:bismuth_nugget",
-		to: "moremekanismprocessing:bismuth_nugget",
-	},
-	{
-		from: "chemlib:bismuth_dust",
-		to: "moremekanismprocessing:dust_bismuth",
-	},
-	{
 		from: "moremekanismprocessing:dust_apatite",
 		to: "thermal:apatite_dust",
 	},
@@ -559,6 +547,18 @@ const LOOT_TO_REPLACE = [
 	{
 		from: "chemlib:lead_dust",
 		to: "mekanism:dust_lead",
+	},
+	{
+		from: "chemlib:bismuth_ingot",
+		to: "moremekanismprocessing:bismuth_ingot",
+	},
+	{
+		from: "chemlib:bismuth_nugget",
+		to: "moremekanismprocessing:bismuth_nugget",
+	},
+	{
+		from: "chemlib:bismuth_dust",
+		to: "moremekanismprocessing:dust_bismuth",
 	},
 	{
 		from: "chemlib:radium_metal_block",

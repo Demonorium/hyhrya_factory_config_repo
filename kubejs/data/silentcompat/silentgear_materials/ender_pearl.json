@@ -1,0 +1,105 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+      "tier": 2,
+      "categories": [
+        "organic",
+        "gem"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    "name": {
+      "translate": "Ender Pearl"
+    },
+    "stats": {
+      "main": {
+        "armor_durability": 15.0,
+        "enchantment_value": 10.0,
+        "rarity": 10.0,
+        "charging_value": 1.2,
+        "armor": 18.0,
+        "armor/helmet": 3.0,
+        "armor/chestplate": 7.0,
+        "armor/leggings": 5.0,
+        "armor/boots": 3.0,
+        "armor_toughness": 2.0,
+        "magic_armor": 8.0,
+        "projectile_speed": 1.5,
+        "projectile_accuracy": 0.6
+      },
+      "adornment": {}
+    },
+    "traits": {
+      "main": [
+        {
+          "name": "silentgear:brittle",
+          "level": 5
+        },
+        {
+          "name": "silentcompat:devouring",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+            "name": "silentgear:moonwalker",
+            "level": 1
+        }
+      ],
+      "adornment": [
+        {
+          "name": "silentcompat:mana_regen",
+          "level": 1
+        },
+        {
+          "name": "silentcompat:mana_boost",
+          "level": 1
+        }
+      ]
+    },
+    "model": {
+      "main/all": [
+        {
+          "texture": "silentgear:main_generic_lc",
+          "color": "#1f472a"
+        }
+      ],
+      "main/fragment": [
+        {
+          "texture": "silentgear:metal",
+          "color": "#1f472a"
+        }
+      ],
+      "adornment/all": [
+        {
+          "texture": "silentgear:adornment_generic",
+          "color": "#1f472a"
+        },
+        {
+          "texture": "silentgear:adornment_highlight",
+          "color": "#1f472a"
+        }
+      ],
+      "adornment/part": [
+        {
+          "texture": "silentgear:adornment",
+          "color": "#1f472a"
+        },
+        {
+          "texture": "silentgear:adornment_highlight"
+        }
+      ]
+    }
+  }

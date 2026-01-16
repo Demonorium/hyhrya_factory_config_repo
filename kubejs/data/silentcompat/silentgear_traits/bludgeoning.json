@@ -1,0 +1,29 @@
+{
+    "type": "silentgear:attribute",
+    "max_level": 3,
+    "conditions": [
+      {
+        "type": "silentgear:gear_type",
+        "gear_type": "weapon"
+      }
+    ],
+    "name": {
+      "text": "Bludgeoning"
+    },
+    "description": {
+      "translate": "Attacks deal more knockback"
+    },
+    "attribute_modifiers": {
+      "all": [
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "operation": 0,
+          "value": [
+            0.5,
+            1.0,
+            1.5
+          ]
+        }
+      ]
+    }
+  }

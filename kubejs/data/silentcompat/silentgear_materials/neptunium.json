@@ -1,0 +1,123 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+      "tier": 3,
+      "categories": [
+        "metal"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "tag": "forge:ingots/neptunium"
+      }
+    },
+    "name": {
+      "translate": "Neptunium"
+    },
+    "stats": {
+      "main": {
+        "durability": 1796.0,
+        "armor_durability": 35.0,
+        "repair_value": 0.15,
+        "enchantment_value": 20.0,
+        "harvest_level": 3.0,
+        "harvest_speed": 8.0,
+        "melee_damage": 3.5,
+        "magic_damage": 4.0,
+        "attack_speed": 0.0,
+        "attack_speed/axe": -0.1,
+        "armor": 20.0,
+        "armor/helmet": 3.0,
+        "armor/chestplate": 8.0,
+        "armor/leggings": 6.0,
+        "armor/boots": 3.0,
+        "armor_toughness": 8.0,
+        "magic_armor": 6.0,
+        "ranged_damage": 1.0,
+        "ranged_speed": 0.5,
+        "rarity": 40.0,
+        "charging_value": 1.0
+      },
+      "rod": {
+        "durability": {
+          "mul2": 0.23
+        },
+        "rarity": 20.0
+      }
+    },
+    "traits": {
+      "main": [
+        {
+          "name": "silentgear:malleable",
+          "level": 2
+        },
+        {
+          "name": "silentcompat:neptunes_might",
+          "level": 1
+        },
+        {
+            "name": "silentgear:aquatic",
+            "level": 5,
+            "conditions": [
+              {
+                "type": "silentgear:gear_type",
+                "gear_type": "armor"
+              }
+            ]
+        },
+        {
+          "name": "silentgear:swift_swim",
+          "level": 5,
+          "conditions": [
+            {
+              "type": "silentgear:gear_type",
+              "gear_type": "boots"
+            }
+          ]
+        }
+      ],
+      "rod": [
+        {
+            "name": "silentgear:lucky",
+            "level": 1
+        },
+        {
+          "name": "silentcompat:aqua_affinity",
+          "level": 1
+        }
+      ]
+    },
+    "model": {
+      "main/all": [
+        {
+          "texture": "silentgear:main_generic_hc",
+          "color": "#35e6a5"
+        },
+        {
+          "texture": "silentgear:_highlight"
+        }
+      ],
+      "main/fragment": [
+        {
+          "texture": "silentgear:metal",
+          "color": "#35e6a5"
+        }
+      ],
+      "rod/all": [
+        {
+          "texture": "silentgear:rod_generic_hc",
+          "color": "#35e6a5"
+        }
+      ],
+      "rod/part": [
+        {
+          "texture": "silentgear:rod",
+          "color": "#35e6a5"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,152 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+      "tier": 2,
+      "categories": [
+        "metal"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "tag": "forge:ingots/boron"
+      }
+    },
+    "name": {
+      "text": "Boron"
+    },
+    "stats": {
+      "main": {
+        "durability": 250.0,
+        "armor_durability": 15.0,
+        "enchantment_value": 14.0,
+        "rarity": 20.0,
+        "charging_value": 0.8,
+        "harvest_level": 2.0,
+        "harvest_speed": 6.0,
+        "melee_damage": 2.0,
+        "magic_damage": 3.0,
+        "attack_speed": 0.1,
+        "attack_speed/axe": -0.1,
+        "attack_speed/sword": -0.1,
+        "ranged_damage": 1.0,
+        "ranged_speed": 0.2,
+        "projectile_speed": 1.2,
+        "projectile_accuracy": 1.0,
+        "armor": 15.0,
+        "armor/helmet": 2.0,
+        "armor/chestplate": 6.0,
+        "armor/leggings": 5.0,
+        "armor/boots": 2.0,
+        "magic_armor": 8.0
+      },
+      "rod": {},
+      "tip": {
+        "durability": {
+          "add": 28.0
+        },
+        "armor_durability": {
+          "add": 4.0
+        },
+        "harvest_level": {
+          "max": 2.0
+        },
+        "harvest_speed": {
+          "add": 1.0
+        },
+        "melee_damage": {
+          "add": 0.5
+        },
+        "ranged_speed": {
+          "add": 0.3
+        },
+        "rarity": {
+          "add": 8.0
+        }
+      }
+    },
+    "traits": {
+      "main": [
+        {
+          "name": "silentgear:brittle",
+          "level": 1
+        },
+        {
+            "name": "silentgear:light",
+            "level": 1
+        },
+        {
+          "name": "silentgear:magnetic",
+          "level": 2,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.66
+            }
+          ]
+        }
+      ],
+      "rod": [
+        {
+            "name": "silentgear:brittle",
+            "level": 1
+        }
+      ],
+      "tip": [
+        {
+            "name": "silentgear:brittle",
+            "level": 1
+        }
+      ]
+    },
+    "model": {
+      "main/all": [
+        {
+          "texture": "silentgear:main_generic_hc",
+          "color": "#53788f"
+        },
+        {
+          "texture": "silentgear:_highlight"
+        }
+      ],
+      "main/fragment": [
+        {
+          "texture": "silentgear:metal",
+          "color": "#53788f"
+        }
+      ],
+      "rod/all": [
+        {
+          "texture": "silentgear:rod_generic_lc",
+          "color": "#53788f"
+        }
+      ],
+      "rod/part": [
+        {
+          "texture": "silentgear:rod",
+          "color": "#53788f"
+        }
+      ],
+      "tip/all": [
+        {
+          "texture": "silentgear:tip_sharp",
+          "color": "#53788f"
+        }
+      ],
+      "tip/part": [
+        {
+          "texture": "silentgear:tip_base"
+        },
+        {
+          "texture": "silentgear:tip",
+          "color": "#53788f"
+        },
+        {
+          "texture": "silentgear:tip_shine"
+        }
+      ]
+    }
+  }

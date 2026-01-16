@@ -1,6 +1,15 @@
 // priority: 3
 const ITEMS_TO_CREATE = [
 	{
+		name: "naquadah_plate",
+	},
+	{
+		name: "naquadah_gear",
+	},
+	{
+		name: "steel_gear",
+	},
+	{
 		name: "crystal_arcmetal",
 	},
 	{
@@ -11,6 +20,15 @@ const ITEMS_TO_CREATE = [
 	},
 	{
 		name: "shard_arcmetal",
+	},
+	{
+		name: "arcmetal_plate",
+	},
+	{
+		name: "arcmetal_gear",
+	},
+	{
+		name: "arcmetal_dust",
 	},
 	{
 		name: "crystal_voidmetal",
@@ -25,6 +43,15 @@ const ITEMS_TO_CREATE = [
 		name: "shard_voidmetal",
 	},
 	{
+		name: "voidmetal_plate",
+	},
+	{
+		name: "voidmetal_gear",
+	},
+	{
+		name: "voidmetal_dust",
+	},
+	{
 		name: "crystal_solarmetal",
 	},
 	{
@@ -37,6 +64,15 @@ const ITEMS_TO_CREATE = [
 		name: "shard_solarmetal",
 	},
 	{
+		name: "solarmetal_plate",
+	},
+	{
+		name: "solarmetal_gear",
+	},
+	{
+		name: "solarmetal_dust",
+	},
+	{
 		name: "crystal_plasteel",
 	},
 	{
@@ -47,6 +83,15 @@ const ITEMS_TO_CREATE = [
 	},
 	{
 		name: "shard_plasteel",
+	},
+	{
+		name: "plasteel_plate",
+	},
+	{
+		name: "plasteel_gear",
+	},
+	{
+		name: "plasteel_dust",
 	},
 	{
 		name: "crystal_regalium",
@@ -73,6 +118,15 @@ const ITEMS_TO_CREATE = [
 		name: "shard_cloggrum",
 	},
 	{
+		name: "cloggrum_plate",
+	},
+	{
+		name: "cloggrum_gear",
+	},
+	{
+		name: "cloggrum_dust",
+	},
+	{
 		name: "crystal_froststeel",
 	},
 	{
@@ -83,6 +137,15 @@ const ITEMS_TO_CREATE = [
 	},
 	{
 		name: "shard_froststeel",
+	},
+	{
+		name: "froststeel_plate",
+	},
+	{
+		name: "froststeel_gear",
+	},
+	{
+		name: "froststeel_dust",
 	},
 	{
 		name: "crystal_utherium",
@@ -107,5 +170,17 @@ const ITEMS_TO_CREATE = [
 	},
 	{
 		name: "shard_extraterrestrial_steel",
+	},
+	{
+		name: "extraterrestrial_steel_gear",
+	},
+	{
+		name: "extraterrestrial_steel_dust",
+	},
+	{
+		name: "azure_electrum_plate",
+	},
+	{
+		name: "azure_electrum_gear",
 	},
 ]

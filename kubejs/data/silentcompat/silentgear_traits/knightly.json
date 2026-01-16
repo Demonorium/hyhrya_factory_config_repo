@@ -1,0 +1,16 @@
+{
+    "type": "silentcompat:knightly",
+    "max_level": 1,
+    "conditions": [
+      {
+        "type": "silentgear:gear_type",
+        "gear_type": "weapon"
+      }
+    ],
+    "name": {
+      "translate": "trait.silentcompat.knightly"
+    },
+    "description": {
+      "translate": "trait.silentcompat.knightly.desc"
+    }
+  }

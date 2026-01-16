@@ -59,9 +59,9 @@ ServerEvents.recipes(event => {
             "BDC"
         ],
         {
-            A: Item.of(MATERIALS.PLASTEEL.ingot),
+            A: Item.of(MATERIALS.PLASTEEL.plate),
             B: Item.of(MATERIALS.PLATINUM.plate),
-            C: Item.of(MATERIALS.CLOGGRUM.ingot),
+            C: Item.of(MATERIALS.CLOGGRUM.plate),
             D: Item.of(MATERIALS.OSTRUM.plate)
         }
     )
@@ -75,9 +75,9 @@ ServerEvents.recipes(event => {
             "BDC"
         ],
         {
-            A: Item.of(MATERIALS.PLASTEEL.ingot),
+            A: Item.of(MATERIALS.PLASTEEL.plate),
             B: Item.of(MATERIALS.PLATINUM.plate),
-            C: Item.of(MATERIALS.CLOGGRUM.ingot),
+            C: Item.of(MATERIALS.CLOGGRUM.plate),
             D: Item.of(MATERIALS.CALORITE.plate)
         }
     )
@@ -93,7 +93,7 @@ ServerEvents.recipes(event => {
         ],
         {
             B: Item.of(MATERIALS.EXTRATERRESTRIAL_STEEL.plate),
-            C: Item.of(MATERIALS.CLOGGRUM.ingot),
+            C: Item.of(MATERIALS.CLOGGRUM.plate),
             D: Item.of(MATERIALS.CHROMIUM.plate)
         }
     )
@@ -326,6 +326,43 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'ad_astra:cable_duct'}, 'ad_astra:steel_cable', 'mekanism:basic_universal_cable')
     event.replaceInput({id: 'ad_astra:fluid_pipe_duct'}, 'ad_astra:desh_fluid_pipe', 'mekanism:basic_mechanical_pipe')
     
+    event.remove({id: 'ad_astra:cryo_freezing/cryo_fuel_from_cryo_freezing_blue_ice'})
+    event.remove({id: 'ad_astra:cryo_freezing/cryo_fuel_from_cryo_freezing_ice'})
+    event.remove({id: 'ad_astra:cryo_freezing/cryo_fuel_from_cryo_freezing_ice_shard'})
+    event.remove({id: 'ad_astra:cryo_freezing/cryo_fuel_from_cryo_freezing_packed_ice'})
+
+    event.custom(
+      {
+        "type": "ad_astra:cryo_freezing",
+        "cookingtime": 120,
+        "energy": 40,
+        "ingredient": {
+          "item": Item.of('clanginghowl:extraterrestrial_energy_crystal').getId()
+        },
+        "result": {
+          "fluid": "ad_astra:cryo_fuel",
+          "millibuckets": 80
+        }
+      }
+    )
+
+    event.custom(
+      {
+        "type": "thermal:chiller",
+        "ingredient": {
+          "fluid": "ad_astra:cryo_fuel",
+          "amount": 10
+        },
+        "result": [
+          {
+            "item": Item.of('clanginghowl:cryogenic_fuel').getId(),
+            "count": 1
+          }
+        ],
+        "energy": 100
+      }
+    )
+
     event.remove({id: 'ad_astra:cryo_freezer'})
     event.shaped(
         Item.of('ad_astra:cryo_freezer', 1), 

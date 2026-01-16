@@ -1,0 +1,28 @@
+{
+    "type": "silentgear:enchantment",
+    "max_level": 3,
+    "conditions": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "tool"
+        }
+      ],
+    "name": {
+      "text": "Looting"
+    },
+    "description": {
+      "text": "Applies Looting"
+    },
+    "enchantments": {
+      "tool": [
+        {
+          "enchantment": "minecraft:looting",
+          "level": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  }

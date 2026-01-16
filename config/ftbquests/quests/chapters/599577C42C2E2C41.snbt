@@ -3165,6 +3165,28 @@
 			x: -10.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["1862C9D367926544"]
+			id: "251BF3065F52CBD9"
+			tasks: [{
+				id: "2E4E4D6BBE84B59A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "dysonsphere:grappling_hook_harness"
+					tag: {
+						inventory: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
 	]
 	title: "Главы 3. Продвинутая химия"
 }

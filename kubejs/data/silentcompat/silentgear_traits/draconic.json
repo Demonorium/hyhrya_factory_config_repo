@@ -1,0 +1,36 @@
+{
+    "type": "silentgear:wielder_effect",
+    "max_level": 4,
+    "name": {
+      "text": "Draconic"
+    },
+    "description": {
+      "text": "Grants Regeneration"
+    },
+    "potion_effects": {
+      "curio": [
+        {
+          "type": "trait_level",
+          "effect": "minecraft:regeneration",
+          "level": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "armor": [
+        {
+          "type": "trait_level",
+          "effect": "minecraft:regeneration",
+          "level": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    }
+  }

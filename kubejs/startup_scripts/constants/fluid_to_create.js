@@ -2,7 +2,7 @@
 const FLUID_TO_CREATE = [
 	{
 		id: "steel",
-		color: 1118481,
+		color: 8487554,
 		temperature: 1323,
 	},
 	{
@@ -36,6 +36,26 @@ const FLUID_TO_CREATE = [
 		temperature: 9273,
 	},
 	{
+		id: "utherium",
+		color: 16545640,
+		temperature: 973,
+	},
+	{
+		id: "enderium",
+		color: 12252913,
+		temperature: 6273,
+	},
+	{
+		id: "melodium",
+		color: 15322872,
+		temperature: 9273,
+	},
+	{
+		id: "stellarium",
+		color: 16645843,
+		temperature: 26273,
+	},
+	{
 		id: "extraterrestrial_steel",
 		color: 11184810,
 		temperature: 2573,
@@ -52,7 +72,7 @@ const FLUID_TO_CREATE = [
 	},
 	{
 		id: "azure_electrum",
-		color: 12490724,
+		color: 10664688,
 		temperature: 1673,
 	},
 	{
@@ -74,5 +94,10 @@ const FLUID_TO_CREATE = [
 		id: "lumium",
 		color: 16709065,
 		temperature: 1073,
+	},
+	{
+		id: "amethyst",
+		color: 14403313,
+		temperature: 1698,
 	},
 ]

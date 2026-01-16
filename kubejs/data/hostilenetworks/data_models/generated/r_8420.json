@@ -1,13 +1,13 @@
 {
-    "entity": "undergarden:muncher",
+    "entity": "undergarden:gloomper",
     "variants": [],
-    "name": "entity.undergarden.muncher",
-    "name_color": "#8994A3",
+    "name": "entity.undergarden.gloomper",
+    "name_color": "#2E2330",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 4096,
+    "sim_cost": 960,
     "input": {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
@@ -16,15 +16,15 @@
         "item": "kubejs:undergarden_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.muncher",
+    "trivia": "hostilenetworks.trivia.gloomper",
     "fabricator_drops": [
         {
-            "item": "undergarden:cloggrum_nugget",
-            "count": 32.0
+            "item": "undergarden:raw_gloomper_leg",
+            "count": 64.0
         },
         {
-            "item": "undergarden:froststeel_nugget",
-            "count": 24.0
+            "item": "minecraft:leather",
+            "count": 32.0
         }
     ]
 }

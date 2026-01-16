@@ -1,0 +1,52 @@
+{
+    "type": "silentcompat:inverse_dimensional_effect",
+    "max_level": 2,
+    "name": {
+      "text": "End-Bound"
+    },
+    "description": {
+      "text": "Adds debilitating effects when outside of the End"
+    },
+    "potion_effects": {
+      "armor": [
+        {
+          "type": "trait_level",
+          "effect": "minecraft:slowness",
+          "dimension": "minecraft:the_end",
+          "level": [
+            1,
+            2
+          ]
+        },
+        {
+          "type": "trait_level",
+          "effect": "minecraft:unluck",
+          "dimension": "minecraft:the_end",
+          "level": [
+            3,
+            4
+          ]
+        }
+      ],
+      "tool": [
+        {
+          "type": "trait_level",
+          "effect": "minecraft:mining_fatigue",
+          "dimension": "minecraft:the_end",
+          "level": [
+            1,
+            3
+          ]
+        },
+        {
+          "type": "trait_level",
+          "effect": "minecraft:weakness",
+          "dimension": "minecraft:the_end",
+          "level": [
+            2,
+            2
+          ]
+        }
+      ]
+    }
+  }

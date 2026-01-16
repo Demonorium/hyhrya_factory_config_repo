@@ -1,17 +1,17 @@
 {
     "type": "mekanism:metallurgic_infusing",
     "chemicalInput": {
-        "infuse_type": "kubejs:nickel",
+        "infuse_type": "mekanism:redstone",
         "amount": 10
     },
     "itemInput": {
-        "amount": 2.0,
+        "amount": 3.0,
         "ingredient": {
-            "item": "mekanism:dust_iron"
+            "item": "chemlib:zinc_ingot"
         }
     },
     "output": {
-        "item": "thermal:invar_dust",
-        "count": 2.0
+        "item": "mekanism:alloy_infused",
+        "count": 4.0
     }
 }

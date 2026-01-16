@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 3.0,
+        "ingredient": {
+            "item": "silentcompat:raw_plasteel"
+        }
+    },
+    "output": {
+        "item": "kubejs:plasteel_dust",
+        "count": 4.0
+    }
+}

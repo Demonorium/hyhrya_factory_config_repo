@@ -1,0 +1,108 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+      "tier": 3,
+      "categories": [
+        "metal"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "tag": "forge:ingots/rhodium"
+      }
+    },
+    "name": {
+      "text": "Rhodium"
+    },
+    "stats": {
+      "main": {
+        "durability": 900.0,
+        "armor_durability": 21.0,
+        "enchantment_value": 14.0,
+        "harvest_level": 4.0,
+        "harvest_speed": 6.0,
+        "melee_damage": 4.0,
+        "magic_damage": 4.0,
+        "attack_speed": 0.0,
+        "armor": 18.0,
+        "armor/helmet": 2.0,
+        "armor/chestplate": 8.0,
+        "armor/leggings": 6.0,
+        "armor/boots": 2.0,
+        "armor_toughness": 2.0,
+        "magic_armor": 12.0,
+        "ranged_damage": 1.0,
+        "ranged_speed": 0.0,
+        "rarity": 50.0,
+        "charging_value": 1.2
+      },
+      "rod": {
+        "durability": {
+          "mul2": -0.1
+        },
+        "repair_efficiency": {
+          "mul2": 0.1
+        },
+        "rarity": 20.0
+      }
+    },
+    "traits": {
+      "main": [
+        {
+          "name": "silentgear:malleable",
+          "level": 2
+        },
+        {
+          "name": "silentgear:hard",
+          "level": 2
+        },
+        {
+            "name": "silentgear:lustrous",
+            "level": 1
+        }
+      ],
+      "rod": [
+        {
+          "name": "silentgear:malleable",
+          "level": 1
+        },
+        {
+          "name": "silentgear:hard",
+          "level": 1
+        }
+      ]
+    },
+    "model": {
+      "main/all": [
+        {
+          "texture": "silentgear:main_generic_hc",
+          "color": "#c2a389"
+        },
+        {
+          "texture": "silentgear:_highlight"
+        }
+      ],
+      "main/fragment": [
+        {
+          "texture": "silentgear:metal",
+          "color": "#c2a389"
+        }
+      ],
+      "rod/all": [
+        {
+          "texture": "silentgear:rod_generic_hc",
+          "color": "#c2a389"
+        }
+      ],
+      "rod/part": [
+        {
+          "texture": "silentgear:rod",
+          "color": "#c2a389"
+        }
+      ]
+    }
+  }

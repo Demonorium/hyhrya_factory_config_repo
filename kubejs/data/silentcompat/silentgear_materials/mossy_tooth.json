@@ -1,0 +1,114 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+      "tier": 4,
+      "categories": [
+        "organic"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "tag": "silentcompat:mossy_tooth"
+      }
+    },
+    "name": {
+      "text": "Mossy Tooth"
+    },
+    "stats": {
+      "main": {
+        "durability": 693.0,
+        "armor_durability": 25.0,
+        "enchantment_value": 0.0,
+        "harvest_level": 2.0,
+        "harvest_speed": 4.0,
+        "melee_damage": 5.0,
+        "magic_damage": 0.0,
+        "attack_speed": -0.2,
+        "attack_speed/axe": -0.3,
+        "armor": 20.0,
+        "armor_toughness": 8.0,
+        "magic_armor": 0.0,
+        "ranged_damage": 1.2,
+        "ranged_speed": 0.05,
+        "rarity": 30.0,
+        "charging_value": 1.0
+      },
+      "rod": {
+        "durability": {
+          "add": 300
+        },
+        "melee_damage": {
+          "mul2": 0.15
+        },
+        "repair_efficiency": {
+          "mul1": -0.15
+        },
+        "rarity": 10.0
+      },
+      "tip": {
+        "durability": {
+            "add": 200
+          },
+          "melee_damage": {
+            "mul2": 0.15
+          },
+          "repair_efficiency": {
+            "mul1": -0.15
+          }
+      }
+    },
+    "traits": {
+      "main": [
+        {
+          "name": "silentcompat:knockout",
+          "level": 1
+        },
+        {
+            "name": "silentgear:jagged",
+            "level": 4
+        },
+        {
+            "name": "silentgear:brittle",
+            "level": 1
+        }
+      ],
+      "rod": [
+        {
+            "name": "silentgear:jagged",
+            "level": 1
+        },
+        {
+          "name": "silentgear:chipping",
+          "level": 2
+        }
+      ],
+      "tip": [
+        {
+            "name": "silentgear:mighty",
+            "level": 1
+        },
+        {
+            "name": "silentgear:jagged",
+            "level": 1
+        }
+      ]
+    },
+    "model": {
+      "main/all": [
+        {
+          "texture": "silentgear:main_generic_lc",
+          "color": "#7fb089"
+        }
+      ],
+      "main/fragment": [
+        {
+          "texture": "silentgear:cloth",
+          "color": "#7fb089"
+        }
+      ]
+    }
+  }

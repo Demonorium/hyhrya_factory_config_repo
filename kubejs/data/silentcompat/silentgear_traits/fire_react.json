@@ -1,0 +1,16 @@
+{
+    "type": "silentcompat:fire_react",
+    "max_level": 1,
+    "conditions": [
+      {
+        "type": "silentgear:gear_type",
+        "gear_type": "armor"
+      }
+    ],
+    "name": {
+      "translate": "trait.silentcompat.fire_react"
+    },
+    "description": {
+      "translate": "trait.silentcompat.fire_react.desc"
+    }
+  }

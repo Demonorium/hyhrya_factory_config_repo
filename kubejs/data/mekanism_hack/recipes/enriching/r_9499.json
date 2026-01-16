@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "kubejs:dirty_dust_extraterrestrial_steel"
+        }
+    },
+    "output": {
+        "item": "kubejs:extraterrestrial_steel_dust",
+        "count": 1.0
+    }
+}

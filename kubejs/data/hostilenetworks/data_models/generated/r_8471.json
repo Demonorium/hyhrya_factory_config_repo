@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:jellyfish",
+    "entity": "aquaculture:brown_shrooma",
     "variants": [],
-    "name": "entity.aquaculture.jellyfish",
-    "name_color": "#6692D3",
+    "name": "entity.aquaculture.brown_shrooma",
+    "name_color": "#6492D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.jellyfish",
+    "trivia": "hostilenetworks.trivia.brown_shrooma",
     "fabricator_drops": [
         {
-            "item": "aquaculture:jellyfish",
+            "item": "aquaculture:brown_shrooma",
             "count": 32.0
         },
         {

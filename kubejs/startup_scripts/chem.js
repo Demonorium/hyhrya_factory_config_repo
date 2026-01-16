@@ -25,6 +25,9 @@ ItemEvents.modification(event => {
       food.effect("voltaic:radiation", 600*20, 5, 1)
     })
   })
+  event.modify('clanginghowl:cryogenic_fuel', mod => {
+    mod.setBurnTime(500*20)
+  })
 })
 
 MoreJSEvents.registerPotionBrewing(event => {

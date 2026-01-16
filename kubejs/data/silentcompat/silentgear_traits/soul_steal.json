@@ -1,0 +1,20 @@
+{
+    "type": "silentcompat:on_hit_effect",
+    "max_level": 1,
+    "conditions": [
+      {
+        "type": "silentgear:gear_type",
+        "gear_type": "tool"
+      }
+    ],
+    "name": {
+      "translate": "trait.silentcompat.soul_steal"
+    },
+    "description": {
+      "translate": "trait.silentcompat.soul_steal.desc"
+    },
+
+    "effect": "alexsmobs:soul_steal",
+    "duration": 100,
+    "chance": 4
+  }

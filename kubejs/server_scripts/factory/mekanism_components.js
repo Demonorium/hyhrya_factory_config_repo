@@ -493,4 +493,17 @@ function steel_casing_recipes(event) {
             C: Item.of(MATERIALS.CHROMIUM.ingot)
         }
     )
+
+    event.shaped(
+        Item.of('dysonsphere:thermopile', 3),
+        [
+            'ABA',
+            'ABA',
+            'ABA'
+        ],
+        {
+            A: Item.of(MATERIALS.HAFNIUM.ingot),
+            B: Item.of(MATERIALS.CADMIUM.ingot)
+        }
+    )
 }

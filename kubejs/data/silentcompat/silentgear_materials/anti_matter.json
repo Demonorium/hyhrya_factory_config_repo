@@ -1,0 +1,70 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+      "tier": 4,
+      "categories": [
+        "metal"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "tag": "forge:pellets/antimatter"
+      }
+    },
+    "name": {
+      "text": "Antimatter"
+    },
+    "stats": {
+      "rod": {
+        "durability": {
+          "mul1": 1.2
+        },
+        "harvest_speed": {
+          "mul2": 0.666
+        },
+        "melee_damage": {
+          "mul2": 0.666
+        },
+        "ranged_damage": {
+          "mul2": 0.666
+        },
+        "rarity": 150.0
+      }
+    },
+    "traits": {
+      "rod": [
+        {
+          "name": "silentgear:stellar",
+          "level": 1
+        },
+        {
+          "name": "silentcompat:umbral_blast",
+          "level": 2,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "model": {
+      "rod/all": [
+        {
+          "texture": "silentgear:rod_generic_lc",
+          "color": "#7f4391"
+        }
+      ],
+      "rod/part": [
+        {
+          "texture": "silentgear:rod",
+          "color": "#7f4391"
+        }
+      ]
+    }
+  }

@@ -4,6 +4,9 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: "mekanism:chemical_dissolution_chamber" }, "mekanism:ultimate_control_circuit", "mekanism:elite_control_circuit")
     event.replaceInput({ id: "mekanism:chemical_washer" }, "mekanism:ultimate_control_circuit", "mekanism:elite_control_circuit")
     
+    event.replaceInput({id: 'mekanism:energized_smelter'}, 'glass', 'dysonsphere:thermopile')
+    event.replaceInput({id: 'mekanism:energized_smelter'}, 'mekanism:steel_casing', 'furnace')
+
     event.remove({id: 'mekanism:chemical_washer'})
     event.custom({
       "type": "mekanism:mek_data",

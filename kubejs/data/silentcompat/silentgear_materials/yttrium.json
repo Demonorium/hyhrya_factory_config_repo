@@ -1,0 +1,150 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+      "tier": 2,
+      "categories": [
+        "metal"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "tag": "forge:ingots/yttrium"
+      },
+      "subs": {
+        "rod": {
+          "tag": "forge:rods/yttrium"
+        }
+      }
+    },
+    "name": {
+      "text": "Yttrium"
+    },
+    "stats": {
+      "main": {
+        "durability": 265.0,
+        "armor_durability": 16.0,
+        "enchantment_value": 15.0,
+        "rarity": 23.0,
+        "charging_value": 0.7,
+        "harvest_level": 2.0,
+        "harvest_speed": 6.5,
+        "melee_damage": 2.0,
+        "magic_damage": 1.0,
+        "attack_speed": 0.0,
+        "attack_speed/axe": -0.1,
+        "ranged_damage": 1.0,
+        "ranged_speed": 0.2,
+        "projectile_speed": 2.0,
+        "projectile_accuracy": 1.0,
+        "armor": 15.0,
+        "armor/helmet": 2.0,
+        "armor/chestplate": 6.0,
+        "armor/leggings": 5.0,
+        "armor/boots": 2.0,
+        "magic_armor": 6.0
+      },
+      "rod": {},
+      "tip": {
+        "durability": {
+          "add": 132.0
+        },
+        "armor_durability": {
+          "add": 5.0
+        },
+        "harvest_level": {
+          "max": 2.0
+        },
+        "harvest_speed": {
+          "add": 1.5
+        },
+        "melee_damage": {
+          "add": 1.0
+        },
+        "ranged_speed": {
+          "add": 0.4
+        },
+        "rarity": {
+          "add": 9.0
+        }
+      }
+    },
+    "traits": {
+      "main": [
+        {
+          "name": "silentcompat:jolt_hit",
+          "level": 1
+        },
+        {
+            "name": "silentgear:lustrous",
+            "level": 2,
+            "conditions": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.5
+              }
+            ]
+        }
+      ],
+      "rod": [
+        {
+          "name": "silentgear:soft",
+          "level": 2
+        }
+      ],
+      "tip": [
+        {
+          "name": "silentgear:soft",
+          "level": 1
+        }
+      ]
+    },
+    "model": {
+      "main/all": [
+        {
+          "texture": "silentgear:main_generic_hc",
+          "color": "#fce9b5"
+        },
+        {
+          "texture": "silentgear:_highlight"
+        }
+      ],
+      "main/fragment": [
+        {
+          "texture": "silentgear:metal",
+          "color": "#fce9b5"
+        }
+      ],
+      "rod/all": [
+        {
+          "texture": "silentgear:rod_generic_lc",
+          "color": "#fce9b5"
+        }
+      ],
+      "rod/part": [
+        {
+          "texture": "silentgear:rod",
+          "color": "#fce9b5"
+        }
+      ],
+      "tip/all": [
+        {
+          "texture": "silentgear:tip_sharp"
+        }
+      ],
+      "tip/part": [
+        {
+          "texture": "silentgear:tip_base"
+        },
+        {
+          "texture": "silentgear:tip"
+        },
+        {
+          "texture": "silentgear:tip_shine"
+        }
+      ]
+    }
+  }

@@ -18,23 +18,6 @@ ServerEvents.recipes(event => {
             F: Item.of("mekanism:basic_control_circuit")
         }
     )
-    event.shaped(
-        Item.of('thermal:machine_pyrolyzer', 1),
-        [
-            'FDF',
-            'ABA',
-            'CEC'
-        ],
-        {
-            A: Item.of(MATERIALS.HAFNIUM.plate),
-            B: Item.of("furnace"),
-            C: Item.of("thermal:constantan_gear"),
-            D: Item.of("pncepcb:high_temp_finished_pcb"),
-            E: Item.of("thermal:rf_coil"),
-            F: Item.of("mekanism:basic_control_circuit")
-        }
-    )
-
 
     event.replaceInput({ id: 'thermal:machine_press' }, MATERIALS.CONSTANTAN.gear, 'superbwarfare:motor')
 
@@ -87,21 +70,6 @@ ServerEvents.recipes(event => {
             C: MATERIALS.TITANIUM.plate,
             D: Item.of("thermal:machine_frame"),
             E: Item.of('dysonsphere:thermopile')
-        }
-    )
-    event.shaped(
-        Item.of("thermal:machine_smelter"),
-        [
-            "ABA",
-            "CDC",
-            "ECE"
-        ],
-        {
-            A: Item.of("mekanism:ultimate_control_circuit"),
-            B: Item.of('minecraft:blast_furnace'),
-            C: MATERIALS.TITANIUM.plate,
-            D: Item.of("thermal:machine_frame"),
-            E: Item.of(MATERIALS.HAFNIUM.plate)
         }
     )
 

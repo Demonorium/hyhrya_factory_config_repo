@@ -1,0 +1,11 @@
+{
+  "type": "silentcompat:nocturnal",
+  "max_level": 1,
+  "cancels_with": ["silentcompat:diurnal"],
+  "name": {
+    "translate": "trait.silentcompat.nocturnal"
+  },
+  "description": {
+    "translate": "trait.silentcompat.nocturnal.desc"
+  }
+}

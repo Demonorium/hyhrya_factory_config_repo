@@ -1389,26 +1389,6 @@ const TAGS_TO_FIX = [
 		item: "moremekanismprocessing:dust_amethyst",
 	},
 	{
-		tag: "forge:ingots/bismuth",
-		item: "moremekanismprocessing:bismuth_ingot",
-	},
-	{
-		tag: "forge:nuggets/bismuth",
-		item: "moremekanismprocessing:bismuth_nugget",
-	},
-	{
-		tag: "forge:storage_blocks/bismuth",
-		item: "chemlib:bismuth_metal_block",
-	},
-	{
-		tag: "forge:plates/bismuth",
-		item: "chemlib:bismuth_plate",
-	},
-	{
-		tag: "forge:dusts/bismuth",
-		item: "moremekanismprocessing:dust_bismuth",
-	},
-	{
 		tag: "forge:ingots/apatite",
 		item: "thermal:apatite",
 	},
@@ -2863,6 +2843,26 @@ const TAGS_TO_FIX = [
 	{
 		tag: "mekanism:shards/lead",
 		item: "mekanism:shard_lead",
+	},
+	{
+		tag: "forge:ingots/bismuth",
+		item: "moremekanismprocessing:bismuth_ingot",
+	},
+	{
+		tag: "forge:nuggets/bismuth",
+		item: "moremekanismprocessing:bismuth_nugget",
+	},
+	{
+		tag: "forge:storage_blocks/bismuth",
+		item: "chemlib:bismuth_metal_block",
+	},
+	{
+		tag: "forge:plates/bismuth",
+		item: "chemlib:bismuth_plate",
+	},
+	{
+		tag: "forge:dusts/bismuth",
+		item: "moremekanismprocessing:dust_bismuth",
 	},
 	{
 		tag: "forge:ingots/polonium",

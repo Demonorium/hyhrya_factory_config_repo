@@ -1,8 +1,8 @@
 {
-    "entity": "aquaculture:red_shrooma",
+    "entity": "aquaculture:tambaqui",
     "variants": [],
-    "name": "entity.aquaculture.red_shrooma",
-    "name_color": "#6592D3",
+    "name": "entity.aquaculture.tambaqui",
+    "name_color": "#6392D3",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -16,10 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1.0
     },
-    "trivia": "hostilenetworks.trivia.red_shrooma",
+    "trivia": "hostilenetworks.trivia.tambaqui",
     "fabricator_drops": [
         {
-            "item": "aquaculture:red_shrooma",
+            "item": "aquaculture:tambaqui",
             "count": 32.0
         },
         {
