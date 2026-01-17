@@ -88,7 +88,7 @@
 		#Format must be like 'examplemod:entity'. Example: "minecraft:zombie"
 		#You can use the /summon command to scroll through and find the IDs for mobs you want!
 		#Requires game restart
-		spiritcaller_stealableMobs = ["minecraft:villager", "minecraft:wandering_trader", "minecraft:pig", "minecraft:cow", "minecraft:sheep", "minecraft:chicken", "minecraft:cat", "minecraft:zombie", "minecraft:husk", "minecraft:skeleton", "minecraft:stray", "minecraft:creeper", "minecraft:spider", "minecraft:enderman"]
+		spiritcaller_stealableMobs = ["minecraft:wandering_trader", "minecraft:zombie", "minecraft:husk", "minecraft:skeleton", "minecraft:stray", "minecraft:creeper", "minecraft:spider", "minecraft:enderman"]
 		#Mobs put in this list won't be attacked by mobs attacking the Spiritcaller, when their souls are taken.
 		#Format must be like 'examplemod:entity'. Example: "minecraft:zombie"
 		#You can use the /summon command to scroll through and find the IDs for mobs you want!

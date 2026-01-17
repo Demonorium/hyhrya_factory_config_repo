@@ -11,7 +11,7 @@
 	#Range: 1 ~ 1024
 	MaxPassiveMobsPerServer = 640
 	#List of passive Mobs to optimize in the format ["minecraft:bat", "minecraft:cat", ..]
-	PassiveMobsList = ["minecraft:allay", "minecraft:axolotl", "minecraft:bat", "minecraft:cat", "minecraft:chicken", "minecraft:cow", "minecraft:donkey", "minecraft:fox", "minecraft:frog", "minecraft:horse", "minecraft:mooshroom", "minecraft:mule", "minecraft:ocelot", "minecraft:parrot", "minecraft:pig", "minecraft:rabbit", "minecraft:sheep", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:turtle"]
+	PassiveMobsList = ["minecraft:allay", "minecraft:axolotl", "minecraft:bat", "minecraft:frog", "minecraft:horse", "minecraft:mooshroom", "minecraft:mule", "minecraft:ocelot", "minecraft:parrot",  "minecraft:rabbit", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:turtle"]
 	#e.g. mobs which will attack under certain conditions ...
 	#Range: 1 ~ 64
 	MaxNeutralMobsPerPlayer = 8
@@ -38,7 +38,7 @@
 	#Range: 1 ~ 1024
 	MaxWaterPassiveMobsPerServer = 320
 	#List of passive water Mobs to optimize
-	WaterPassiveMobsList = ["minecraft:axolotl", "minecraft:cod", "minecraft:pufferfish", "minecraft:salmon", "minecraft:tropical_fish"]
+	WaterPassiveMobsList = ["minecraft:axolotl", "minecraft:cod", "minecraft:pufferfish", "minecraft:salmon", "minecraft:tropical_fish", "crittersandcompanions:otter"]
 	#e.g. squid, dolphin, ...
 	#Range: 1 ~ 64
 	MaxWaterNeutralMobsPerPlayer = 6
