@@ -3,7 +3,7 @@
     "chemicalType": "gas",
     "input": {
         "gas": "mekanism:ethene",
-        "amount": 100
+        "amount": 100.0
     },
     "output": {
         "item": "chemlib:ethylene",

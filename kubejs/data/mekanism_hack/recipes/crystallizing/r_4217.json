@@ -3,7 +3,7 @@
     "chemicalType": "gas",
     "input": {
         "gas": "kubejs:antimony_pentachloride",
-        "amount": 100
+        "amount": 100.0
     },
     "output": {
         "item": "chemlib:antimony_pentachloride",

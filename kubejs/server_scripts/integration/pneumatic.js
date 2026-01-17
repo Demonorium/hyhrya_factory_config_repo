@@ -6,32 +6,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'pneumaticcraft:refinery/oil_4'})
     event.remove({id: 'pneumaticcraft:thermo_plant/plastic_from_lpg'})
     event.remove({id: 'pneumaticcraft:thermo_plant/plastic_from_biodiesel'})
-
     event.remove({id: 'pneumaticcraft:thermo_plant/upgrade_matrix'})
-    event.custom({
-      "type": "pneumaticcraft:fluid_mixer",
-      "fluid_output": {
-        "amount": 25,
-        "fluid": "pneumaticcraft:plastic"
-      },
-      "input1": {
-        "type": "pneumaticcraft:fluid",
-        "amount": 25,
-        "fluid": "pneumaticcraft:lubricant"
-      },
-      "input2": {
-        "type": "pneumaticcraft:fluid",
-        "amount": 25,
-        "fluid": "pneumaticcraft:lpg"
-      },
-      "item_output": {
-        "item": "pneumaticcraft:upgrade_matrix"
-      },
-      "pressure": 3.0,
-      "time": 300
-    })
-
-
     event.custom({
       "type": "minecraft:crafting_shaped",
       "category": "misc",
@@ -59,7 +34,7 @@ ServerEvents.recipes(event => {
       },
       "show_notification": true
     })
-
+    
     event.replaceInput({id: "pneumaticcraft:night_vision_upgrade"}, 'pneumaticcraft:pressure_chamber_glass', 'cataclysm:cursium_ingot')
     event.replaceInput({id: "pneumaticcraft:magnet_upgrade"}, MATERIALS.COMPRESSED_IRON.ingot, MATERIALS.NEODYMIUM.ingot)
     event.shaped("pneumaticcraft:magnet_upgrade",

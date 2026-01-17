@@ -3,7 +3,7 @@
     "chemicalType": "gas",
     "input": {
         "gas": "kubejs:sodium_hypochlorite",
-        "amount": 100
+        "amount": 100.0
     },
     "output": {
         "item": "chemlib:sodium_hypochlorite",

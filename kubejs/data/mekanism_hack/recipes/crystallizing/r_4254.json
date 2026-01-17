@@ -3,7 +3,7 @@
     "chemicalType": "gas",
     "input": {
         "gas": "kubejs:hydrogen_peroxide",
-        "amount": 100
+        "amount": 100.0
     },
     "output": {
         "item": "chemlib:hydrogen_peroxide",
