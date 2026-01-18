@@ -2,15 +2,15 @@
 #All SH features can be disabled here. False to disable.
 [features]
 	#Enable player bonus hp by crystals.
-	crystalsAddHealth = true
+	crystalsAddHealth = false
 	#Enable player bonus hp by xp.
 	xpAddHealth = true
 	#Enable player regen hp by crystals.
-	crystalsRegenHealth = true
+	crystalsRegenHealth = false
 	#Enable pet add hp by crystals.
 	crystalsAddPetHealth = true
 	#Enable player add damage by crystals.
-	crystalsAddDamage = true
+	crystalsAddDamage = false
 	#Enable ore gen of health crystals. Still drops as loot.
 	hpCrystalsOreGen = false
 	#Enable ore gen of power crystals. Still drops as loot.

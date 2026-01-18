@@ -1,13 +1,13 @@
 {
     "type": "mekanism:enriching",
     "input": {
-        "amount": 3.0,
+        "amount": 1.0,
         "ingredient": {
-            "item": "silentgear:raw_crimson_iron"
+            "item": "silentgear:raw_crimson_iron_block"
         }
     },
     "output": {
         "item": "silentgear:crimson_iron_dust",
-        "count": 4.0
+        "count": 12.0
     }
 }

@@ -1,13 +1,13 @@
 {
     "type": "mekanism:enriching",
     "input": {
-        "amount": 3.0,
+        "amount": 1.0,
         "ingredient": {
-            "item": "mekanism:raw_lead"
+            "item": "mekanism:block_raw_lead"
         }
     },
     "output": {
         "item": "mekanism:dust_lead",
-        "count": 4.0
+        "count": 12.0
     }
 }

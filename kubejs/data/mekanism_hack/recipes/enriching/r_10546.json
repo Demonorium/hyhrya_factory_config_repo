@@ -1,13 +1,13 @@
 {
     "type": "mekanism:enriching",
     "input": {
-        "amount": 3.0,
+        "amount": 1.0,
         "ingredient": {
-            "item": "ad_astra:raw_desh"
+            "item": "ad_astra:raw_desh_block"
         }
     },
     "output": {
         "item": "moremekanismprocessing:dust_desh",
-        "count": 4.0
+        "count": 12.0
     }
 }

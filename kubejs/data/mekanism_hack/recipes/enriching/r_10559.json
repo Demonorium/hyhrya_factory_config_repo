@@ -1,13 +1,13 @@
 {
     "type": "mekanism:enriching",
     "input": {
-        "amount": 3.0,
+        "amount": 1.0,
         "ingredient": {
-            "item": "minecraft:raw_gold"
+            "item": "minecraft:raw_gold_block"
         }
     },
     "output": {
         "item": "mekanism:dust_gold",
-        "count": 4.0
+        "count": 12.0
     }
 }
