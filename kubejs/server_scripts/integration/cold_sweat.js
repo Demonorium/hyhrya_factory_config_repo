@@ -175,4 +175,16 @@ ColdSweatEvents.registries(event => {
          return 15 / distance;
       }
    )
+
+   event.addBlockTemperature(block =>
+      block.blocks("farmersdelight:stove")
+         .units("c")
+         .maxTemperature(35)
+         .minTemperature(0)
+         .maxEffect(25)
+         .range(7),
+      (level, entity, state, pos, distance) => {
+         return 20 / distance;
+      }
+   )
 })

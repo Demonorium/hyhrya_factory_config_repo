@@ -26,20 +26,23 @@
 				item: "pneumaticcraft:ingot_iron_compressed"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: 0.75d
 		}
 		{
-			dependencies: ["2EEEFB943B3FE706"]
+			dependencies: [
+				"32D16658A69FB526"
+				"153178EDA9F067B0"
+				"6B92C8AB518CC9B0"
+			]
 			description: [
+				"Закройте верхнюю часть барокамеры барокамерными блоками."
+				"Если всё сделано правильно - структура соберётся."
+				""
+				"Подключите к синему интерфейсу воронку, поставьте напротив жёлтой стороны сундук."
+				""
 				"Барокамера позволяет крафтить железо и прочие компоненты без потерь."
-				""
-				"Постройте куб 3х3 с пустотой внутри из стенок барокамеры."
-				""
-				"Поместите два интерфейса барокамеры разными сторонами на боковые грани."
-				"Поместите два клапана для газа."
-				""
-				"ВНИМАНИЕ: Клапан не заканчивающийся трубой является утечкой газа!"
+				"Необходимый уровень давления отображается в интерфейсе барокамеры, когда в неё положены предметы."
 			]
 			id: "23ECACD8C491F36F"
 			rewards: [
@@ -54,43 +57,43 @@
 					item: "minecraft:hopper"
 					type: "item"
 				}
+				{
+					count: 16
+					id: "73DB821EEC0C39E7"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
 			]
 			size: 1.5d
 			subtitle: "Первая машина"
-			tasks: [
-				{
-					count: 2L
-					id: "5A82BAB2A31276B9"
-					item: { Count: 2, id: "pneumaticcraft:pressure_chamber_interface" }
-					type: "item"
-				}
-				{
-					count: 22L
-					id: "4C3913E9D6D3F32D"
-					item: { Count: 16, id: "pneumaticcraft:pressure_chamber_wall" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "6292D6A8F721251E"
-					item: "pneumaticcraft:pressure_chamber_valve"
-					type: "item"
-				}
-			]
+			tasks: [{
+				advancement: "pneumaticcraft:pressure_chamber"
+				criterion: ""
+				id: "50FE6B803540BCB7"
+				type: "advancement"
+			}]
 			title: "Барокамера"
 			x: 1.5d
 			y: 0.75d
 		}
 		{
-			dependencies: ["2EEEFB943B3FE706"]
+			dependencies: ["153178EDA9F067B0"]
 			description: ["Пока у вас нет более продвинутых способов нагнетать воздух - постройте ручной насос."]
 			id: "2AB51DD23EE1386E"
-			rewards: [{
-				count: 5
-				id: "4121408A2BD1208D"
-				item: "pneumaticcraft:pressure_tube"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "4121408A2BD1208D"
+					item: "pneumaticcraft:pressure_tube"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "16A10967A65E50F1"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
 			subtitle: "Ручной труд не одобряется"
 			tasks: [{
 				id: "717822BA9D03744B"
@@ -98,15 +101,15 @@
 				type: "item"
 			}]
 			title: "Ручной насос"
-			x: -4.0d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["23ECACD8C491F36F"]
+			dependencies: ["2FB7C6C46911D512"]
 			description: [
-				"Вортексные трубы позволяют охлаждать одну половину трубы и нагревать другую половину. Используйте радиаторы, чтобы избавится от ненужного тепла или ненужного холода, чем ниже разница температур между сторонами вортексной трубы, тем меньше она требует воздуха."
+				"Термопластический завод требует нагрева, как и башня и желательно изоляции."
 				""
-				"ВНИМАНИЕ: вортексные трубы требуют ОЧЕНЬ много энергии, убедитесь, что у вас её достаточно."
+				"Используя этот завод вы можете производить смазку"
 			]
 			id: "40BC0C3B6DEF92CC"
 			rewards: [{
@@ -117,27 +120,20 @@
 			}]
 			size: 1.5d
 			subtitle: "Термальная обработка"
-			tasks: [
-				{
-					id: "4E35E65AF233EBB6"
-					item: "pneumaticcraft:thermopneumatic_processing_plant"
-					type: "item"
-				}
-				{
-					id: "6BFFBE6FC8CCD01B"
-					item: "pneumaticcraft:vortex_tube"
-					type: "item"
-				}
-			]
-			x: 6.0d
+			tasks: [{
+				id: "4E35E65AF233EBB6"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: 15.0d
 			y: 0.75d
 		}
 		{
-			dependencies: ["2EEEFB943B3FE706"]
+			dependencies: ["153178EDA9F067B0"]
 			description: [
 				"Компрессор нагнетает давление в трубы, но будьте осторожны, если давление превысит лимит произойдёт взрыв."
 				""
-				"Возможно стоит использовать сброс давления или редстоун схемы для регуляции."
+				"Установите напротив каждого компрессора модуль безопасности, чтобы избежать аварийных ситуаций."
 			]
 			id: "7FFA0D1D81E53908"
 			rewards: [
@@ -160,11 +156,15 @@
 				item: "pneumaticcraft:air_compressor"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["2EEEFB943B3FE706"]
+			dependencies: [
+				"7FFA0D1D81E53908"
+				"47E2E657FDC8B094"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"При превышении максимального давления в трубе происходит взрыв."
 				""
@@ -177,23 +177,24 @@
 				item: "pneumaticcraft:pressure_tube"
 				type: "item"
 			}]
+			shape: "gear"
 			subtitle: "Защита от незапланированных взрывов"
 			tasks: [{
 				id: "3BE5C97CBA67261F"
 				item: "pneumaticcraft:safety_tube_module"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.5d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["40BC0C3B6DEF92CC"]
+			dependencies: ["50C77D335F97A01A"]
 			description: [
 				"1. Постройте рефракционную башню, поставив выводы на блок контроллера."
 				""
-				"2. Закройте ВСЕ стороны башни и контроллера твёрдыми блоками."
+				"2. Закройте ВСЕ стороны башни и контроллера твёрдыми блоками или изоляцией."
 				""
-				"3. Проделайте в нужных местах отверстия и подведите трубы."
+				"3. Проделайте в нужных местах отверстия и подведите трубы. Закройте изоляцией"
 				""
 				"4. Нагрейте башню до нужной температуры."
 				""
@@ -218,38 +219,37 @@
 			]
 			size: 1.5d
 			subtitle: "Демократия"
-			tasks: [
-				{
-					id: "702BEAA4D314ECC8"
-					item: "pneumaticcraft:refinery"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "713222672951252A"
-					item: { Count: 4, id: "pneumaticcraft:refinery_output" }
-					type: "item"
-				}
-			]
-			x: 9.0d
+			tasks: [{
+				advancement: "pneumaticcraft:refinery"
+				criterion: ""
+				id: "5DC536CBF29B397B"
+				type: "advancement"
+			}]
+			title: "Очистительный завод"
+			x: 12.0d
 			y: 0.75d
 		}
 		{
 			dependencies: ["1DF48D07BC287774"]
+			description: [
+				"Позволяет поворачивать машины и блоки из майнкрафта, такие как ступеньки."
+				"shift+пкм - безопасное демонтирование механизма!"
+			]
 			id: "472EF21F7DC3ED49"
 			rewards: [{
 				id: "460924CCC721194B"
 				item: "pneumaticcraft:air_canister"
 				type: "item"
 			}]
-			subtitle: "Поворот машин"
+			shape: "gear"
+			subtitle: "Поворот и демонтаж машин"
 			tasks: [{
 				id: "35B97483C9472A18"
 				item: "pneumaticcraft:pneumatic_wrench"
 				match_nbt: false
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.5d
 			y: -2.0d
 		}
 		{
@@ -290,18 +290,26 @@
 				item: "pneumaticcraft:manometer"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
+			x: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["23ECACD8C491F36F"]
 			id: "4EB7D649F47E2BF8"
-			rewards: [{
-				count: 4
-				id: "36C62E46293521A4"
-				item: "minecraft:bucket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "36C62E46293521A4"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6CAECBE702600478"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "63D2DD444D8C3A9D"
 				item: "pneumaticcraft:small_tank"
@@ -338,7 +346,7 @@
 				item: "pneumaticcraft:seismic_sensor"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 12.0d
 			y: 3.0d
 		}
 		{
@@ -358,7 +366,7 @@
 				item: "pneumaticcraft:plastic"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 18.5d
 			y: 0.75d
 		}
 		{
@@ -388,7 +396,7 @@
 				type: "item"
 			}]
 			title: "Эстрапланетарная торговля"
-			x: 14.25d
+			x: 20.75d
 			y: 0.75d
 		}
 		{
@@ -398,12 +406,32 @@
 				"Подайте питание на контроллер, поместите около импорта контейнер, поместите в контейнер материалы для обработки, поместите около экспорта контейнер для вывода материалов."
 			]
 			id: "7E77BD53F6031203"
-			rewards: [{
-				count: 10
-				id: "754420637B2A6433"
-				item: "pneumaticcraft:reinforced_pressure_tube"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "754420637B2A6433"
+					item: "pneumaticcraft:reinforced_pressure_tube"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1740D045FD30311E"
+					item: "pneumaticcraft:transistor"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6CDADE17F73CF0C7"
+					item: "pneumaticcraft:capacitor"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "265B49475D5F5C19"
+					item: "pneumaticcraft:pneumatic_cylinder"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			subtitle: "Продвинутая сборка"
 			tasks: [
@@ -433,18 +461,26 @@
 					type: "item"
 				}
 			]
-			x: 22.5d
+			x: 29.0d
 			y: 0.75d
 		}
 		{
 			dependencies: ["36999C252CB88C5C"]
 			id: "60A36F6DF23753D1"
-			rewards: [{
-				count: 10
-				id: "0567B436FFEA0194"
-				item: "pneumaticcraft:reinforced_pressure_tube"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "0567B436FFEA0194"
+					item: "pneumaticcraft:reinforced_pressure_tube"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "056F1EAD13273DC8"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [
 				{
@@ -458,18 +494,38 @@
 					type: "item"
 				}
 			]
-			x: 16.5d
+			x: 23.0d
 			y: 0.75d
 		}
 		{
 			dependencies: ["60A36F6DF23753D1"]
 			id: "0F855B4E2D98799D"
-			rewards: [{
-				count: 10
-				id: "17210ED20CFBE837"
-				item: "pneumaticcraft:reinforced_pressure_tube"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "17210ED20CFBE837"
+					item: "pneumaticcraft:reinforced_pressure_tube"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "401ACFED1E5562AC"
+					item: "pneumaticcraft:transistor"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1A39EEECB2700A5D"
+					item: "pneumaticcraft:capacitor"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "574399F5866DCCA5"
+					item: "pneumaticcraft:pneumatic_cylinder"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			subtitle: "Электрика"
 			tasks: [{
@@ -478,14 +534,11 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 19.5d
+			x: 26.0d
 			y: 0.75d
 		}
 		{
-			dependencies: [
-				"40BC0C3B6DEF92CC"
-				"1DF48D07BC287774"
-			]
+			dependencies: ["1DF48D07BC287774"]
 			id: "54004F341A7FE9B0"
 			rewards: [{
 				count: 4
@@ -505,8 +558,8 @@
 				item: "pneumaticcraft:minigun"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1DF48D07BC287774"]
@@ -529,11 +582,15 @@
 				item: "pneumaticcraft:vortex_cannon"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["40BC0C3B6DEF92CC"]
+			dependencies: ["2FB7C6C46911D512"]
+			description: [
+				"Сжигает разные виды топлива, выход энергии СИЛЬНО зависит от типа сжигаемого вещества."
+				"См. таблицу в интерфейсе в левом нижнем углу."
+			]
 			id: "15F2A508A7B66D5F"
 			rewards: [{
 				count: 10
@@ -547,8 +604,8 @@
 				item: "pneumaticcraft:liquid_compressor"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.0d
+			x: 13.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -566,7 +623,7 @@
 				item: "pneumaticcraft:reinforced_air_canister"
 				type: "item"
 			}]
-			x: 23.5d
+			x: 30.0d
 			y: -1.0d
 		}
 		{
@@ -583,7 +640,7 @@
 				item: "pneumaticcraft:advanced_air_compressor"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 31.0d
 			y: 1.0d
 		}
 		{
@@ -600,7 +657,7 @@
 				item: "pneumaticcraft:advanced_liquid_compressor"
 				type: "item"
 			}]
-			x: 25.5d
+			x: 32.0d
 			y: 2.0d
 		}
 		{
@@ -617,7 +674,7 @@
 				item: "pneumaticcraft:advanced_pressure_tube"
 				type: "item"
 			}]
-			x: 23.5d
+			x: 30.0d
 			y: 0.0d
 		}
 		{
@@ -634,7 +691,7 @@
 				item: "pneumaticcraft:collector_drone"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.0d
 			y: -1.0d
 		}
 		{
@@ -655,11 +712,14 @@
 				item: "pneumaticcraft:drone"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 25.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["54004F341A7FE9B0"]
+			dependencies: [
+				"1DF48D07BC287774"
+				"4EE96CF737154432"
+			]
 			id: "6C8547C079B659B4"
 			rewards: [{
 				id: "0294A24855774812"
@@ -698,7 +758,7 @@
 				item: "pneumaticcraft:logistics_drone"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 18.5d
 			y: -1.0d
 		}
 		{
@@ -721,7 +781,7 @@
 				item: "pneumaticcraft:logistics_configurator"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 21.5d
 			y: -1.0d
 		}
 		{
@@ -745,7 +805,7 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
+			x: 18.0d
 			y: 2.0d
 		}
 		{
@@ -766,26 +826,34 @@
 				item: "pneumaticcraft:jackhammer"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 20.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["40BC0C3B6DEF92CC"]
+			dependencies: ["23ECACD8C491F36F"]
 			id: "55191CDEC89D1314"
-			rewards: [{
-				count: 16
-				id: "32EA90285DE4A21A"
-				item: "pneumaticcraft:drill_pipe"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "32EA90285DE4A21A"
+					item: "pneumaticcraft:drill_pipe"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5EA33BCBD91CD7DD"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
 			subtitle: "Добываем жижу"
 			tasks: [{
 				id: "1FA2C541C308A0FA"
 				item: "pneumaticcraft:gas_lift"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -825,7 +893,7 @@
 				item: "pneumaticcraft:pneumatic_dynamo"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 29.0d
 			y: 3.0d
 		}
 		{
@@ -843,7 +911,7 @@
 				item: "pneumaticcraft:programmer"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 25.0d
 			y: 0.0d
 		}
 		{
@@ -863,7 +931,7 @@
 				item: "pneumaticcraft:programmable_controller"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 29.0d
 			y: -1.0d
 		}
 		{
@@ -880,7 +948,7 @@
 				item: "pneumaticcraft:tag_workbench"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 21.5d
 			y: -2.0d
 		}
 		{
@@ -897,7 +965,7 @@
 				item: "pneumaticcraft:flux_compressor"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 29.0d
 			y: 4.5d
 		}
 		{
@@ -908,8 +976,8 @@
 				item: "pneumaticcraft:smart_chest"
 				type: "item"
 			}]
-			x: 20.5d
-			y: 1.5d
+			x: 26.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -934,8 +1002,8 @@
 				item: "pneumaticcraft:sentry_turret"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.0d
+			x: 17.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -955,7 +1023,7 @@
 				item: "pneumaticcraft:universal_sensor"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 18.5d
 			y: 3.0d
 		}
 		{
@@ -966,25 +1034,33 @@
 				item: "pneumaticcraft:memory_stick"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 18.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7586B756AF0DAC06"]
 			id: "01FE15BAFD266DB3"
-			rewards: [{
-				count: 10
-				id: "1DD7D24EB77057A6"
-				item: "pneumaticcraft:reinforced_pressure_tube"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "1DD7D24EB77057A6"
+					item: "pneumaticcraft:reinforced_pressure_tube"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5112CFE2C5948101"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
 			subtitle: "Кчау"
 			tasks: [{
 				id: "77468A2B3E2E8EFD"
 				item: "pneumaticcraft:electrostatic_compressor"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 19.0d
 			y: 2.0d
 		}
 		{
@@ -1001,7 +1077,7 @@
 				item: "pneumaticcraft:pneumatic_door"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 17.0d
 			y: 1.5d
 		}
 		{
@@ -1018,13 +1094,13 @@
 				item: "pneumaticcraft:pressure_tube"
 				type: "item"
 			}]
-			subtitle: "Бесконечная энергия"
+			subtitle: "(НЕ) Бесконечная энергия"
 			tasks: [{
 				id: "01E8D4D29A8F4049"
 				item: "pneumaticcraft:thermal_compressor"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: -2.0d
 		}
 		{
@@ -1054,7 +1130,7 @@
 					type: "item"
 				}
 			]
-			x: 25.0d
+			x: 31.5d
 			y: 0.0d
 		}
 		{
@@ -1071,26 +1147,33 @@
 				item: "pneumaticcraft:pressurized_spawner"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 32.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["23ECACD8C491F36F"]
+			dependencies: ["2FB7C6C46911D512"]
 			id: "1355F9A346B8192A"
-			rewards: [{
-				count: 10
-				id: "0FC5611DC36389E8"
-				item: "pneumaticcraft:pressure_tube"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "0FC5611DC36389E8"
+					item: "pneumaticcraft:pressure_tube"
+					type: "item"
+				}
+				{
+					id: "40A0FAB351A9C0DB"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
 			subtitle: "Химия"
 			tasks: [{
 				id: "646AF04970A123D9"
 				item: "pneumaticcraft:fluid_mixer"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 13.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["02D3068DB0985083"]
@@ -1106,7 +1189,7 @@
 				item: "pneumaticcraft:vacuum_trap"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 33.5d
 			y: 1.0d
 		}
 		{
@@ -1123,7 +1206,7 @@
 				item: "pneumaticcraft:solar_compressor"
 				type: "item"
 			}]
-			x: 26.5d
+			x: 33.0d
 			y: 3.0d
 		}
 		{
@@ -1134,7 +1217,7 @@
 				item: "pneumaticcraft:remote"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 24.0d
 			y: 0.0d
 		}
 		{
@@ -1151,18 +1234,32 @@
 				item: "pneumaticcraft:aerial_interface"
 				type: "item"
 			}]
-			x: 23.5d
+			x: 30.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["60A36F6DF23753D1"]
 			id: "556CB23E41611059"
-			rewards: [{
-				count: 16
-				id: "18869243E1D24AC2"
-				item: "minecraft:paper"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "18869243E1D24AC2"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "627BB37373FB0038"
+					item: "pneumaticcraft:transistor"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6D7E7A80AAF9BB26"
+					item: "pneumaticcraft:capacitor"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			subtitle: "Путь к электричеству"
 			tasks: [{
@@ -1171,7 +1268,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 16.5d
+			x: 23.0d
 			y: 3.0d
 		}
 		{
@@ -1189,27 +1286,35 @@
 				item: "mekanism:basic_bin"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["40BC0C3B6DEF92CC"]
 			description: ["Поместите его на любой сундук или похожий инвентарь и он будет охлаждать или нагревать его содержимое."]
 			id: "569529FB59D216D4"
-			rewards: [{
-				count: 8
-				id: "669B6B24CD3D58BD"
-				item: "minecraft:obsidian"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "669B6B24CD3D58BD"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1914813E7ED0F5B9"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
 			subtitle: "Лучше чем в мире"
 			tasks: [{
 				id: "51CFB71DBE6F3FCE"
 				item: "pneumaticcraft:heat_frame"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 15.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2FB7C6C46911D512"]
@@ -1225,7 +1330,7 @@
 				item: "ballistix:attractive"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 11.0d
 			y: 1.5d
 		}
 		{
@@ -1243,7 +1348,7 @@
 				item: "ballistix:repulsive"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 12.0d
 			y: 6.5d
 		}
 		{
@@ -1261,7 +1366,7 @@
 				item: "ballistix:condensive"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 12.0d
 			y: 5.5d
 		}
 		{
@@ -1279,7 +1384,7 @@
 				item: "superbwarfare:high_energy_explosives"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 12.0d
 			y: 4.0d
 		}
 		{
@@ -1309,48 +1414,72 @@
 				}
 				type: "item"
 			}]
-			x: 22.5d
+			x: 29.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["40BC0C3B6DEF92CC"]
+			dependencies: ["6268C10AAE6B28D0"]
+			description: [
+				"Чтобы сбросить уровень тепла вортекс трубы, подключите к ней радиатор."
+				""
+				"Так можно нагреть до 0 градусов холодный конец и остудить до 0 тёплый!"
+			]
 			id: "035D9DC74A7225AF"
-			rewards: [{
-				count: 2
-				id: "026C0D028135B19C"
-				item: "pneumaticcraft:vortex_tube"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "026C0D028135B19C"
+					item: "pneumaticcraft:vortex_tube"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2CBE6AAD66CEF6BC"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "44519A21AC34688E"
 				item: "pneumaticcraft:heat_sink"
 				type: "item"
 			}]
 			title: "Дополнительное излучение"
-			x: 6.0d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["40BC0C3B6DEF92CC"]
+			dependencies: ["0B272A431BD2E13A"]
 			id: "485C5D70FC6801E9"
-			rewards: [{
-				count: 8
-				id: "58A03A96A42EBCB0"
-				item: "pneumaticcraft:heat_pipe"
-				type: "item"
-			}]
-			subtitle: "Теплообменники"
+			rewards: [
+				{
+					count: 8
+					id: "58A03A96A42EBCB0"
+					item: "pneumaticcraft:heat_pipe"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6FCB6FFD4CFD4FCE"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			subtitle: "Трубы для тепла"
 			tasks: [{
 				id: "328E2E2DDDAEA5C6"
 				item: "pneumaticcraft:heat_pipe"
 				type: "item"
 			}]
 			title: "Передача без потерь"
-			x: 5.0d
-			y: 0.0d
+			x: 8.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["6340199E5A6126E0"]
+			dependencies: [
+				"6340199E5A6126E0"
+				"445E0568B199F84D"
+			]
 			id: "0C94066FB8476EB4"
 			rewards: [{
 				count: 16
@@ -1363,8 +1492,8 @@
 				item: "curvy_pipes:tiny_fluid_pipe"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["42ED8CEDE4127625"]
@@ -1380,8 +1509,8 @@
 				item: "curvy_pipes:small_fluid_pipe"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4F11BE6A036EE6B9"]
@@ -1397,8 +1526,8 @@
 				item: "curvy_pipes:medium_fluid_pipe"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 5.0d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["049AE9E4A801DFDF"]
@@ -1414,8 +1543,8 @@
 				item: "curvy_pipes:large_fluid_pipe"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0E8EA0AE3E2EEBFE"]
@@ -1431,11 +1560,12 @@
 				item: "curvy_pipes:huge_fluid_pipe"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 7.0d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["55191CDEC89D1314"]
+			dependencies: ["23ECACD8C491F36F"]
+			description: ["Трубы для передачи предметов."]
 			id: "6340199E5A6126E0"
 			rewards: [{
 				count: 16
@@ -1449,25 +1579,32 @@
 				item: "curvy_pipes:tiny_item_pipe"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6340199E5A6126E0"]
 			id: "42ED8CEDE4127625"
-			rewards: [{
-				count: 4
-				id: "74D1ED1EA5C69755"
-				item: "curvy_pipes:tiny_item_pipe"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "74D1ED1EA5C69755"
+					item: "curvy_pipes:tiny_item_pipe"
+					type: "item"
+				}
+				{
+					id: "3E49007ECE9BCBD7"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "77A9E30234732808"
 				item: "curvy_pipes:small_item_pipe"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 4.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["42ED8CEDE4127625"]
@@ -1483,8 +1620,8 @@
 				item: "curvy_pipes:medium_item_pipe"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4F11BE6A036EE6B9"]
@@ -1500,8 +1637,8 @@
 				item: "curvy_pipes:large_item_pipe"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.0d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["049AE9E4A801DFDF"]
@@ -1517,8 +1654,8 @@
 				item: "curvy_pipes:huge_item_pipe"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 7.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7586B756AF0DAC06"]
@@ -1535,7 +1672,7 @@
 				item: "pneumaticcraft:air_cannon"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 20.0d
 			y: 2.0d
 		}
 		{
@@ -1553,7 +1690,7 @@
 				item: "superbwarfare:mortar_deployer"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 13.0d
 			y: 4.0d
 		}
 		{
@@ -1570,11 +1707,14 @@
 				item: "pneumaticcraft:speed_upgrade"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 17.5d
 			y: -4.0d
 		}
 		{
-			dependencies: ["7586B756AF0DAC06"]
+			dependencies: [
+				"7586B756AF0DAC06"
+				"40BC0C3B6DEF92CC"
+			]
 			id: "3B91C0CA28F41872"
 			rewards: [{
 				count: 16
@@ -1588,7 +1728,7 @@
 				item: "pneumaticcraft:upgrade_matrix"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 18.5d
 			y: -3.0d
 		}
 		{
@@ -1608,7 +1748,7 @@
 				item: "pneumaticcraft:chunkloader_upgrade"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 25.0d
 			y: -3.0d
 		}
 		{
@@ -1624,7 +1764,7 @@
 				item: "pneumaticcraft:item_life_upgrade"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 24.0d
 			y: -3.0d
 		}
 		{
@@ -1644,7 +1784,7 @@
 				item: "pneumaticcraft:magnet_upgrade"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 26.0d
 			y: -3.0d
 		}
 		{
@@ -1660,7 +1800,7 @@
 				item: "pneumaticcraft:volume_upgrade"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 18.5d
 			y: -4.5d
 		}
 		{
@@ -1682,7 +1822,7 @@
 				item: "pneumaticcraft:dispenser_upgrade"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 19.5d
 			y: -4.0d
 		}
 		{
@@ -1702,7 +1842,7 @@
 				item: "pneumaticcraft:entity_tracker_upgrade"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 17.5d
 			y: -3.0d
 		}
 		{
@@ -1719,7 +1859,7 @@
 				item: "pneumaticcraft:range_upgrade"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 18.5d
 			y: -5.5d
 		}
 		{
@@ -1735,14 +1875,13 @@
 				item: "pneumaticcraft:standby_upgrade"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 21.5d
 			y: -3.0d
 		}
 		{
 			dependencies: [
 				"54004F341A7FE9B0"
 				"3B91C0CA28F41872"
-				"6C8547C079B659B4"
 			]
 			id: "4EE96CF737154432"
 			rewards: [{
@@ -1763,6 +1902,298 @@
 			}]
 			x: 7.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["54004F341A7FE9B0"]
+			id: "63B758992C49788B"
+			rewards: [{
+				count: 3
+				id: "53B7B4C03FC6E1C6"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4613236986D50BBD"
+				item: "meetyourfight:fossil_bait"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63B758992C49788B"]
+			id: "086BC211FF790ECB"
+			rewards: [
+				{
+					count: 3
+					id: "0F56270EAD4B23B1"
+					item: "minecraft:spider_eye"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0BEC75FA72A08C0E"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "720B4D00786E89FE"
+				item: "meetyourfight:caged_heart"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63B758992C49788B"]
+			id: "3977349EF1BAEC02"
+			rewards: [
+				{
+					count: 3
+					id: "5FBC0702EF948BD8"
+					item: "minecraft:spider_eye"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "43105AA0D4EE74A2"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30BB037AE9C3CF6B"
+				item: "meetyourfight:bone_raker"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["54004F341A7FE9B0"]
+			id: "7978523463A8F438"
+			rewards: [{
+				id: "4B4210F8A71CC4DA"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "031DEA83A4C5BD1A"
+				item: "meetyourfight:haunted_bell"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7978523463A8F438"]
+			id: "15ACDE32D4DC5A05"
+			rewards: [{
+				id: "4DCDFE883AC47D54"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E2BCB5851F6424C"
+				item: "meetyourfight:spectres_grasp"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2EEEFB943B3FE706"]
+			description: [
+				"Сделайте барокамерные блоки, затем вложите из них площадку 3х3."
+				""
+				"Разместите по углам площадки по 1 барокамерному блоку."
+			]
+			id: "32D16658A69FB526"
+			rewards: [
+				{
+					count: 32
+					id: "57D0F09EDF61729B"
+					item: "pneumaticcraft:reinforced_stone"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0E0CBDC6ECE2FC8B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Сделайте барокамерные блоки"
+			tasks: [{
+				count: 22L
+				id: "7B203BAB5B747D17"
+				item: { Count: 22, id: "pneumaticcraft:pressure_chamber_wall" }
+				type: "item"
+			}]
+			x: -2.521428571428558d
+			y: 0.7392857142857068d
+		}
+		{
+			dependencies: ["32D16658A69FB526"]
+			description: [
+				"Барокамера требует сжатый воздух для работы:"
+				""
+				"Разместите с 1 или 2 сторон клапаны."
+				""
+				"Внимание: клапан является утечкой воздуха! Если напротив клапана нет замкнутой системы труб (например 4 труб в форме кольца), то воздух будет бесконечно утекать!"
+			]
+			id: "153178EDA9F067B0"
+			rewards: [
+				{
+					id: "466A8055ABB2AD7F"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "78F90340FCC4EF1F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Чтобы барокамера заработала, ей нужен газ"
+			tasks: [{
+				id: "6A442C0C17C31B19"
+				item: "pneumaticcraft:pressure_chamber_valve"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32D16658A69FB526"]
+			description: [
+				"Разместите &4НА ПРОТИВОПОЛОЖНЫХ&r сторонах барокамеры интерфейсы."
+				""
+				"Синяя сторона - вход, жёлтая сторона - выход."
+				""
+				"Интерфейс должен подавать ресурс внутрь барокамеры, другой интерфейс должен выкидывать его с противоположной стороны."
+			]
+			id: "6B92C8AB518CC9B0"
+			rewards: [
+				{
+					id: "27AEB5BE07C5C805"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "307A1E15377255A4"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Предметные шлюзы"
+			tasks: [{
+				count: 2L
+				id: "41CCB7474B6D00E3"
+				item: { Count: 2, id: "pneumaticcraft:pressure_chamber_interface" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23ECACD8C491F36F"]
+			description: [
+				"Рефракционная колонна позволяет перерабатывать нефть и некоторые другие вещества."
+				""
+				"Для переработки требуется нагрев и подача вещества."
+			]
+			id: "445E0568B199F84D"
+			rewards: [{
+				count: 8
+				id: "2F1CBF2BB5174890"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Рефракция"
+			tasks: [{
+				id: "566D5102C732A7C6"
+				item: "pneumaticcraft:refinery"
+				type: "item"
+			}]
+			x: 5.052380952380936d
+			y: 0.7702380952380921d
+		}
+		{
+			dependencies: ["50C77D335F97A01A"]
+			id: "0B272A431BD2E13A"
+			rewards: [{
+				count: 16
+				id: "4CF0313FDA4F58ED"
+				item: "pneumaticcraft:thermal_lagging"
+				type: "item"
+			}]
+			subtitle: "Утепляет"
+			tasks: [{
+				id: "7986239EA9374AA6"
+				item: "pneumaticcraft:thermal_lagging"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"445E0568B199F84D"
+				"6268C10AAE6B28D0"
+			]
+			description: [
+				"Поставьте 3-4 выхода очистительного завода на контроллер."
+				""
+				"Выходы являются утечкой тепла, чтобы этого избежать каждая их строна должна быть закрыта твёрдым блоком или теплоизоляцией."
+				""
+				"Внимание: трубы не работают сквозь теплоизоляцию. СНАЧАЛА ставите трубу, ПОТОМ изоляцию."
+			]
+			id: "50C77D335F97A01A"
+			rewards: [{
+				count: 8
+				id: "6A0E9D3D3AE3BB57"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Очистительная колонна"
+			tasks: [{
+				count: 4L
+				id: "635AAFDE24CFFA90"
+				item: { Count: 4, id: "pneumaticcraft:refinery_output" }
+				type: "item"
+			}]
+			x: 8.48095238095236d
+			y: 0.7702380952380921d
+		}
+		{
+			dependencies: ["445E0568B199F84D"]
+			description: [
+				"Вихревая труба нагревает один свой конец и остужает другой."
+				""
+				"Чем теплее холодный конец, тем горячее будет второй, и наоборот."
+				""
+				""
+				"Чтобы точно регулировать тепло имеет смысл использовать трубы управляемые редстоуном."
+			]
+			id: "6268C10AAE6B28D0"
+			rewards: [{
+				count: 8
+				id: "36B5B8E76FBF76A5"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Нагрев"
+			tasks: [{
+				id: "32996A52AFE086CE"
+				item: "pneumaticcraft:vortex_tube"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
 		}
 	]
 	title: "Глава 1. Базовые технологии"

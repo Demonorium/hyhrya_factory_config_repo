@@ -46,7 +46,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["36980C7C44834F5C"]
+			dependencies: ["68A0E762400D392D"]
 			id: "1B0E3812221535F6"
 			rewards: [
 				{
@@ -68,7 +68,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -180,6 +180,8 @@
 				"Деревянные шаблоны расходуются при крафтах."
 				""
 				"Вы можете комбинировать разные материалы в сетке крафта, чтобы получить разные эффекты. Порядок имеет значение. Эксперементируйте!"
+				""
+				"Попробуйте сделать шаблоны из квеста выше!"
 			]
 			id: "022573FC960322BB"
 			rewards: [
@@ -209,17 +211,63 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["022573FC960322BB"]
+			description: ["Разборщик позволяет полностью утилизировать броню и инструменты обратно получая их компоненты."]
 			id: "336AB02B20F18571"
-			rewards: [{
-				count: 16
-				id: "33F300A5F1B93932"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "783EE53B3640BBF7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22241B0140820EAF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67F947D78FDC464A"
+					item: "minecraft:iron_horse_armor"
+					type: "item"
+				}
+				{
+					id: "066557839542BE85"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
 			subtitle: "Эффективная переработка"
 			tasks: [{
 				id: "4BAAB7991383158E"
@@ -227,7 +275,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["022573FC960322BB"]
@@ -274,8 +322,8 @@
 				}
 			]
 			title: "Смешивание"
-			x: -7.0d
-			y: -3.5d
+			x: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["022573FC960322BB"]
@@ -293,8 +341,8 @@
 				item: "silentgear:metal_press"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -4.0d
+			x: -7.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["022573FC960322BB"]
@@ -302,7 +350,7 @@
 				"Смешиватель материалов позволяет улучшить эффект от материала."
 				"Для этого поместите материал и катализатор."
 				""
-				"Чем лучше катализатор, тем выше шанс SSS материала."
+				"Чем лучше катализатор, тем выше шанс получить материал высокого уровня, получите материал SSS материала."
 			]
 			id: "64F54BA6E2C22823"
 			rewards: [{
@@ -317,8 +365,8 @@
 				type: "item"
 			}]
 			title: "Гача"
-			x: -4.5d
-			y: -3.0d
+			x: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["022573FC960322BB"]
@@ -356,8 +404,8 @@
 				}
 			]
 			title: "Сила звёзд"
-			x: -3.0d
-			y: -3.0d
+			x: -2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1B0E3812221535F6"]
@@ -406,17 +454,6 @@
 					type: "item"
 				}
 				{
-					id: "3D31244F8AC8743F"
-					item: {
-						Count: 1
-						id: "minecraft:fishing_rod"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "2ED51A6436D7BAC8"
 					item: {
 						Count: 1
@@ -435,7 +472,7 @@
 			]
 			title: "Готовка"
 			x: -11.5d
-			y: -4.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["690ABF4A0A5DEAC2"]
@@ -560,7 +597,7 @@
 				type: "item"
 			}]
 			title: "Еда и припасы"
-			x: -9.5d
+			x: -11.5d
 			y: -3.0d
 		}
 		{
@@ -580,8 +617,8 @@
 				type: "item"
 			}]
 			title: "Ручные слизни-убийцы"
-			x: -12.0d
-			y: -6.0d
+			x: -2.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2B70BC686164D44A"]
@@ -1400,14 +1437,553 @@
 		{
 			dependencies: ["4FF4A0934BEDEA7E"]
 			id: "376F34D3C055D46A"
+			rewards: [
+				{
+					count: 8
+					id: "18A4CD0EFD81418B"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "48598CA7EEAC0DE8"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
 			subtitle: "Продвинутые чары"
 			tasks: [{
 				id: "13210FE77CAFCE22"
 				item: "enchantinginfuser:enchanting_infuser"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["68A0E762400D392D"]
+			description: ["Рыбалка теперь даёт гораздо больше интересных вещей, чем рыба, попробуйте половить их!"]
+			id: "38CF4B09F4BA9DB8"
+			rewards: [{
+				count: 5
+				id: "1F89CB3D58FF6706"
+				item: "seadwellers:iron_relics"
+				type: "item"
+			}]
+			subtitle: "Ловись рыбка"
+			tasks: [{
+				id: "4E518AFC158D7538"
+				item: {
+					Count: 1
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["376F34D3C055D46A"]
+			id: "0F37FD0AC567AF8F"
+			rewards: [
+				{
+					count: 8
+					id: "249EC94A24D2CB91"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5ED18413FE3556EB"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			subtitle: "Полное управление чарами"
+			tasks: [{
+				id: "4FC864D7DA518406"
+				item: "enchantinginfuser:advanced_enchanting_infuser"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"57A1FD3ACF6E7B13"
+				"535F39ED6E63C537"
+			]
+			id: "245EFC96CF1C5E54"
+			rewards: [{
+				count: 16
+				id: "4A166D281DD379A8"
+				item: "minecraft:beef"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0935B900F35EA318"
+				item: "silentgear:knife_blueprint"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"57A1FD3ACF6E7B13"
+				"38CF4B09F4BA9DB8"
+			]
+			id: "2B37A0F8C56365A5"
+			rewards: [{
+				id: "5CFF97F9C904EF45"
+				item: {
+					Count: 1
+					id: "aquaculture:gold_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Не такая эффективная, но не ломается"
+			tasks: [{
+				id: "3FDCA181CE2BFEA3"
+				item: "silentgear:fishing_rod_blueprint"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["022573FC960322BB"]
+			id: "57A1FD3ACF6E7B13"
+			rewards: [{
+				count: 4
+				id: "32D22CCA54C120AC"
+				item: "silentgear:blueprint_paper"
+				type: "item"
+			}]
+			subtitle: "Не тратится"
+			tasks: [{
+				id: "2D954C8770C22CDE"
+				item: "silentgear:blueprint_paper"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["38CF4B09F4BA9DB8"]
+			id: "7980ED2E77CEB678"
+			rewards: [
+				{
+					count: 16
+					id: "59C8C1A8C49A7449"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "14F6E1E66C97E3C3"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "375671CE948EF62B"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			subtitle: "Ловля осьминогов"
+			tasks: [{
+				id: "21E287871F903F96"
+				item: "miners_delight:sticky_basket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["376F34D3C055D46A"]
+			id: "11624C792D2E42FB"
+			rewards: [{
+				count: 8
+				id: "19142C9CB54F008E"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7032D7B665ABC6EF"
+				item: "minecraft:grindstone"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1B0E3812221535F6"]
+			description: [
+				"Найдите в лесных биомах пуф"
+				""
+				"Пуф позволяет делать шерсть без овец, чудеса!"
+			]
+			id: "309BD7A2343C9208"
+			rewards: [{
+				count: 32
+				id: "714787841770130B"
+				item: "silentgear:fluffy_puff"
+				type: "item"
+			}]
+			subtitle: "Как овцы, но лучше"
+			tasks: [{
+				id: "64D0E15CAB6AFA22"
+				item: "silentgear:fluffy_seeds"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1B0E3812221535F6"]
+			description: ["Лён заменяет собой нитки, очень удобно когда оригинальная паучья нить - дефицитный товар."]
+			id: "78DA14094769B98A"
+			rewards: [{
+				count: 64
+				id: "180F0C8C9839EF81"
+				item: "silentgear:flax_fiber"
+				type: "item"
+			}]
+			subtitle: "Как пауки, но лучше"
+			tasks: [{
+				id: "0B53A9365B191057"
+				item: "silentgear:flax_seeds"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1B0E3812221535F6"]
+			id: "3ED33B885861ECCF"
+			rewards: [
+				{
+					count: 64
+					id: "42BE45AE30776923"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "707ED0655843CDAA"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			subtitle: "Сделайте фермы"
+			tasks: [
+				{
+					id: "03B0003386EAAD0E"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					id: "7249EE84E8A6B3DF"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3ED33B885861ECCF"
+				"10A24C71082285AC"
+			]
+			id: "217EEE02E1E4728B"
+			rewards: [
+				{
+					count: 4
+					id: "434A22EE81443F55"
+					item: "biomancy:gelling_agent"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "54A141DA482DFAEB"
+					item: "biomancy:mob_gland"
+					type: "item"
+				}
+			]
+			subtitle: "Ты не пройдёшь"
+			tasks: [{
+				id: "05B190C07C80CD40"
+				item: "biomancy:impermeable_membrane"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["217EEE02E1E4728B"]
+			description: ["Детёнышей не эффективно перерабатывать? Ничего представляем вам мембрану, которая отправит их в биореактор только когда они вырастут."]
+			id: "69940D33A68A03AF"
+			rewards: [{
+				count: 4
+				id: "06FE46A56C6F8711"
+				item: "biomancy:regenerative_fluid"
+				type: "item"
+			}]
+			subtitle: "Автоматизация фермы"
+			tasks: [{
+				id: "3D14CC64103A3267"
+				item: "biomancy:adult_permeable_membrane"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["217EEE02E1E4728B"]
+			description: ["Отправляйте новых животных на переработку полностью автоматизировано."]
+			id: "046B4321277DA7FC"
+			rewards: [{
+				count: 4
+				id: "76ED15105D6D9794"
+				item: "biomancy:hormone_secretion"
+				type: "item"
+			}]
+			subtitle: "Поддерживание популяции"
+			tasks: [{
+				id: "1C7DA93535945F4E"
+				item: "biomancy:baby_permeable_membrane"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3ED33B885861ECCF"
+				"10A24C71082285AC"
+			]
+			id: "302FE3B23590D302"
+			rewards: [{
+				count: 4
+				id: "04546226F40D229D"
+				item: "kubejs:stimulator_injection"
+				type: "item"
+			}]
+			subtitle: "Сверхэффективная биопереработка"
+			tasks: [{
+				id: "03E398FE62FA4174"
+				item: "biomancy:breeding_stimulant"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["535F39ED6E63C537"]
+			id: "653B233BEB9DA0BE"
+			tasks: [{
+				id: "3781ED07A3E1E6E1"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["022573FC960322BB"]
+			description: [
+				"Вскапывает область 3х3."
+				""
+				"Чтобы скрафтить поместите столько же материала, сколько было использовано базовых шаблонов в сетку крафта вместе с выбранной схемой."
+				""
+				""
+				"Т.е. 2 материала + шаблон рукояти даст рукоять."
+				"6 материала + шаблон молота даст навершие молота."
+				"Соедините навершие и рукоять чтобы сделать сам инстумент."
+			]
+			id: "4405CF8A22113437"
+			rewards: [{
+				count: 8
+				id: "76ADA33066D44C50"
+				item: "silentgear:template_board"
+				type: "item"
+			}]
+			subtitle: "Кирка по области"
+			tasks: [
+				{
+					id: "70BBE207B3242BBC"
+					item: "silentgear:hammer_template"
+					type: "item"
+				}
+				{
+					id: "3A32B96BF4A8DEED"
+					item: "silentgear:rod_template"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["022573FC960322BB"]
+			description: [
+				"Ремонтный набор позволяет чинить ваши инструменты."
+				"Для этого сначала соедините набор и материал в сетке крафта - вы положите материал в набор."
+				"А затем соедините поломанный инструмент и набор - вы почините этот инструмент потратив часть набора."
+			]
+			id: "5786CA73D24C9CD4"
+			rewards: [{
+				id: "2F2C3BB5B7D28710"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			subtitle: "Починка"
+			tasks: [{
+				id: "2DFAC892F240756C"
+				item: {
+					Count: 1
+					id: "silentgear:crude_repair_kit"
+					tag: {
+						Storage: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["57A1FD3ACF6E7B13"]
+			id: "47B26C2D592EA509"
+			rewards: [{
+				count: 64
+				id: "30962D6AE11FDB07"
+				item: "minecraft:spruce_log"
+				type: "item"
+			}]
+			subtitle: "Срубание целого дерева"
+			tasks: [{
+				id: "50636BD7D5B94EB4"
+				item: "silentgear:saw_blueprint"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["57A1FD3ACF6E7B13"]
+			id: "71AB3BE1AEA230DA"
+			rewards: [{
+				count: 9
+				id: "24966555DB3B95D4"
+				item: "minecraft:iron_ore"
+				type: "item"
+			}]
+			subtitle: "Проходы для дверей 3х3"
+			tasks: [{
+				id: "7D9F402B6DBEF7D1"
+				item: "silentgear:hammer_blueprint"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"1B0E3812221535F6"
+				"57A1FD3ACF6E7B13"
+			]
+			id: "61D4EB56A31D4F93"
+			rewards: [
+				{
+					count: 8
+					id: "3DA3145A06EC88A4"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "50F2893ED3B9A2C3"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DDEB4033B7F45FA"
+				item: "silentgear:sickle_blueprint"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["57A1FD3ACF6E7B13"]
+			description: ["Броня (в идеале) состоит из 2 частей - основы, которая выкладывается как ваниальная броня и оболочки, которая даёт какие-то уникальные свойства."]
+			id: "2CB3DD3D0A6F7718"
+			rewards: [
+				{
+					id: "01D3C7CDADD8C609"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "055CD358839F4D86"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+			]
+			subtitle: "Соврешенная защита"
+			tasks: [
+				{
+					id: "614AE7308483B1B8"
+					item: "silentgear:helmet_blueprint"
+					type: "item"
+				}
+				{
+					id: "7AEC00E7BB43D0B2"
+					item: "silentgear:chestplate_blueprint"
+					type: "item"
+				}
+				{
+					id: "27AB0BAE7D0AB83E"
+					item: "silentgear:leggings_blueprint"
+					type: "item"
+				}
+				{
+					id: "6403D429FB998FAF"
+					item: "silentgear:boots_blueprint"
+					type: "item"
+				}
+				{
+					id: "246196D6DD21FB11"
+					item: "silentgear:lining_blueprint"
+					type: "item"
+				}
+			]
+			title: "Броня"
+			x: -8.0d
+			y: -3.5d
 		}
 	]
 	title: "Глава 0. Путешествие"

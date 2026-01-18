@@ -100,7 +100,6 @@ ServerEvents.recipes(event => {
   create_amadron_recipe(event, price_val(1, 40), Item.of("superbwarfare:shotgun_ammo"), true)
 
   // t2
-  create_amadron_recipe(event, Item.of("superbwarfare:high_energy_explosives"), price_val(2, 8), true)
   create_amadron_recipe(event, Item.of("ballistix:repulsive", 1), price_val(2, 11), true)
   const oil_price = price_val(2, 8)
   create_amadron_recipe(event, oil_price, Item.of("pneumaticcraft:oil_bucket"), true)
@@ -123,6 +122,7 @@ ServerEvents.recipes(event => {
   })
 
   // t3
+  create_amadron_recipe(event, Item.of("superbwarfare:high_energy_explosives"), price_val(3, 1), true)
   create_amadron_recipe(event, price_val(3, 1), Item.of("minecraft:tuff", 64), false)
   create_amadron_recipe(event, price_val(3, 1), Item.of("minecraft:andesite", 64), false)
   create_amadron_recipe(event, price_val(3, 1), Item.of("minecraft:diorite", 64), false)
