@@ -66,10 +66,12 @@ ServerEvents.recipes(event => {
       "energy": 100
     })
 
-    create_amadron_recipe(event,
-      Item.of(PRICE_LIST[i - 1][1].getId(), 64),
-      Item.of(PRICE_LIST[i][1].getId()), true
-    )
+    if (i < 6) {
+      create_amadron_recipe(event,
+        Item.of(PRICE_LIST[i - 1][1].getId(), 64),
+        Item.of(PRICE_LIST[i][1].getId()), true
+      )
+    }
 
     event.shapeless(Item.of(PRICE_LIST[i - 1][1].getId(), 64), [Item.of(PRICE_LIST[i][1].getId(), 1)])
   }
@@ -100,7 +102,25 @@ ServerEvents.recipes(event => {
   // t2
   create_amadron_recipe(event, Item.of("superbwarfare:high_energy_explosives"), price_val(2, 8), true)
   create_amadron_recipe(event, Item.of("ballistix:repulsive", 1), price_val(2, 11), true)
-  create_amadron_recipe(event, price_val(2, 8), Item.of("pneumaticcraft:oil_bucket"), true)
+  const oil_price = price_val(2, 8)
+  create_amadron_recipe(event, oil_price, Item.of("pneumaticcraft:oil_bucket"), true)
+
+  event.custom({
+    "type": "pneumaticcraft:amadron",
+    "id": "kubejs:custom_oil_fluid",
+    "input": {
+      "type": "ITEM",
+      "amount": oil_price.getCount() - 1,
+      "id": oil_price.getId()
+    },
+    "level": 0,
+    "output": {
+      "type": "FLUID",
+      "amount": 1000,
+      "id":"pneumaticcraft:oil"
+    },
+    "static": true
+  })
 
   // t3
   create_amadron_recipe(event, price_val(3, 1), Item.of("minecraft:tuff", 64), false)

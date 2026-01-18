@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
         Item.of('pneumaticcraft:heat_pipe', 8),
         [
         Item.of(MATERIALS.CADMIUM.ingot),
-        '#minecraft:wool'
+        Item.of('pneumaticcraft:thermal_lagging')
         ]
     )
 })

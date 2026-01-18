@@ -153,7 +153,7 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: "mekanism:transmitter/universal_cable/basic" })
     event.shaped(
-        Item.of('mekanism:basic_universal_cable', 64),
+        Item.of('mekanism:basic_universal_cable', 8),
         [
             'AAA',
             'ABA',
@@ -162,6 +162,48 @@ ServerEvents.recipes(event => {
         {
             A: Item.of("copper_ingot"),
             B: Item.of('thermal:rf_coil')
+        }
+    )
+    event.remove({ id: "mekanism:transmitter/pressurized_tube/basic" })
+    event.shaped(
+        Item.of('mekanism:basic_pressurized_tube', 8),
+        [
+            'BBB',
+            'BAB',
+            'BBB'
+        ],
+        {
+            A: "#minecraft:wool",
+            B: Item.of('mekanism:basic_mechanical_pipe')
+        }
+    )
+    
+    event.remove({ id: "mekanism:transmitter/logistical_transporter/basic" })
+    event.shaped(
+        Item.of('mekanism:basic_logistical_transporter', 8),
+        [
+            ' C ',
+            'B B',
+            ' C '
+        ],
+        {
+            B: MATERIALS.STEEL.gear,
+            C: MATERIALS.STEEL.ingot
+        }
+    )
+
+    event.remove({ id: "mekanism:transmitter/mechanical_pipe/basic"})
+    event.shaped(
+        Item.of('mekanism:basic_mechanical_pipe', 8),
+        [
+            'ACA',
+            'B B',
+            'ACA'
+        ],
+        {
+            A: "#forge:glass/silica",
+            B: MATERIALS.STEEL.gear,
+            C: MATERIALS.STEEL.ingot
         }
     )
 

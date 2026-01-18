@@ -26,7 +26,15 @@ ItemEvents.modification(event => {
     })
   })
   event.modify('clanginghowl:cryogenic_fuel', mod => {
-    mod.setBurnTime(500*20)
+    mod.setBurnTime(50*200)
+  })
+
+  CHEM_ELEMENTS_TO_CREATE.forEach(material => {
+    if (material.base_id.startsWith('chemlib:') && material.combustion && material.combustion > 0 && material.matter_state == 'solid') {
+      event.modify(material.base_id, mod => {
+        mod.setBurnTime(Math.floor(200*20 * material.combustion / 400))
+      })
+    } 
   })
 })
 

@@ -17,6 +17,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 			efficiency: 0.9842763839491427,
 			conductivity: 1.3308068892296803,
 		},
+		base_id: "chemlib:hydrogen",
 	},
 	{
 		id: "helium",
@@ -31,6 +32,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:helium",
 	},
 	{
 		id: "lithium",
@@ -49,6 +51,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 			efficiency: 1.751999232972423,
 			conductivity: 0.3342795210569777,
 		},
+		base_id: "mekanism:dust_lithium",
 	},
 	{
 		id: "beryllium",
@@ -63,6 +66,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 609.4,
 		cooling: null,
+		base_id: "chemlib:beryllium_dust",
 	},
 	{
 		id: "boron",
@@ -77,6 +81,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "moremekanismprocessing:dust_boron",
 	},
 	{
 		id: "carbon",
@@ -89,8 +94,9 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 4061.5,
 		matter_state: "solid",
-		combustion: 110.5,
+		combustion: 393.5,
 		cooling: null,
+		base_id: "chemlib:carbon_dust",
 	},
 	{
 		id: "nitrogen",
@@ -103,8 +109,9 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 70.2525,
 		matter_state: "gas",
-		combustion: 90.29,
+		combustion: 33.2,
 		cooling: null,
+		base_id: "chemlib:nitrogen",
 	},
 	{
 		id: "oxygen",
@@ -119,6 +126,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:oxygen",
 	},
 	{
 		id: "fluorine",
@@ -133,6 +141,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:fluorine",
 	},
 	{
 		id: "neon",
@@ -147,6 +156,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:neon",
 	},
 	{
 		id: "sodium",
@@ -161,6 +171,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 208.0,
 		cooling: null,
+		base_id: "chemlib:sodium_dust",
 	},
 	{
 		id: "magnesium",
@@ -175,6 +186,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 601.6,
 		cooling: null,
+		base_id: "moremekanismprocessing:dust_magnesium",
 	},
 	{
 		id: "aluminum",
@@ -189,6 +201,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 837.85,
 		cooling: null,
+		base_id: "moremekanismprocessing:dust_aluminum",
 	},
 	{
 		id: "silicon",
@@ -203,6 +216,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 9055.0,
 		cooling: null,
+		base_id: "chemlib:silicon_dust",
 	},
 	{
 		id: "phosphorus",
@@ -217,6 +231,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:phosphorus_dust",
 	},
 	{
 		id: "sulfur",
@@ -231,6 +246,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 296.81,
 		cooling: null,
+		base_id: "mekanism:dust_sulfur",
 	},
 	{
 		id: "chlorine",
@@ -245,6 +261,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:chlorine",
 	},
 	{
 		id: "argon",
@@ -259,6 +276,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:argon",
 	},
 	{
 		id: "potassium",
@@ -277,6 +295,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 			efficiency: 1.3805871774713723,
 			conductivity: 0.6333313672289725,
 		},
+		base_id: "chemlib:potassium_dust",
 	},
 	{
 		id: "calcium",
@@ -291,6 +310,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 635.0,
 		cooling: null,
+		base_id: "chemlib:calcium_dust",
 	},
 	{
 		id: "scandium",
@@ -305,6 +325,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:scandium_dust",
 	},
 	{
 		id: "titanium",
@@ -317,8 +338,9 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2750.5,
 		matter_state: "solid",
-		combustion: 760.44,
+		combustion: 945.0,
 		cooling: null,
+		base_id: "moremekanismprocessing:dust_titanium",
 	},
 	{
 		id: "vanadium",
@@ -331,8 +353,9 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2931.5,
 		matter_state: "solid",
-		combustion: 775.3,
+		combustion: 609.4,
 		cooling: null,
+		base_id: "chemlib:vanadium_dust",
 	},
 	{
 		id: "chromium",
@@ -345,8 +368,9 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2562.0,
 		matter_state: "solid",
-		combustion: 589.3,
+		combustion: 564.0,
 		cooling: null,
+		base_id: "chemlib:chromium_dust",
 	},
 	{
 		id: "manganese",
@@ -361,6 +385,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 520.0,
 		cooling: null,
+		base_id: "chemlib:manganese_dust",
 	},
 	{
 		id: "iron",
@@ -375,6 +400,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 272.04,
 		cooling: null,
+		base_id: "mekanism:dust_iron",
 	},
 	{
 		id: "cobalt",
@@ -389,6 +415,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 237.74,
 		cooling: null,
+		base_id: "moremekanismprocessing:dust_cobalt",
 	},
 	{
 		id: "nickel",
@@ -403,6 +430,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 240.0,
 		cooling: null,
+		base_id: "thermal:nickel_dust",
 	},
 	{
 		id: "copper",
@@ -415,8 +443,9 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2096.385,
 		matter_state: "solid",
-		combustion: 85.0,
+		combustion: 156.0,
 		cooling: null,
+		base_id: "mekanism:dust_copper",
 	},
 	{
 		id: "zinc",
@@ -431,6 +460,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 350.46,
 		cooling: null,
+		base_id: "moremekanismprocessing:dust_zinc",
 	},
 	{
 		id: "gallium",
@@ -449,6 +479,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 			efficiency: 0.5264740043575397,
 			conductivity: 1.2629984074554677,
 		},
+		base_id: "chemlib:gallium_dust",
 	},
 	{
 		id: "germanium",
@@ -463,6 +494,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 536.0,
 		cooling: null,
+		base_id: "chemlib:germanium_dust",
 	},
 	{
 		id: "arsenic",
@@ -477,6 +509,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:arsenic_dust",
 	},
 	{
 		id: "selenium",
@@ -491,6 +524,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:selenium_dust",
 	},
 	{
 		id: "bromine",
@@ -505,6 +539,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:bromine",
 	},
 	{
 		id: "krypton",
@@ -519,6 +554,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:krypton",
 	},
 	{
 		id: "rubidium",
@@ -537,6 +573,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 			efficiency: 1.0331127885658493,
 			conductivity: 0.6559808894656128,
 		},
+		base_id: "chemlib:rubidium_dust",
 	},
 	{
 		id: "strontium",
@@ -551,6 +588,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 592.0,
 		cooling: null,
+		base_id: "chemlib:strontium_dust",
 	},
 	{
 		id: "yttrium",
@@ -565,6 +603,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:yttrium_dust",
 	},
 	{
 		id: "zirconium",
@@ -579,6 +618,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 1097.46,
 		cooling: null,
+		base_id: "chemlib:zirconium_dust",
 	},
 	{
 		id: "niobium",
@@ -591,8 +631,9 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 3883.5,
 		matter_state: "solid",
-		combustion: 794.96,
+		combustion: 949.77,
 		cooling: null,
+		base_id: "chemlib:niobium_dust",
 	},
 	{
 		id: "molybdenum",
@@ -607,6 +648,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 745.1,
 		cooling: null,
+		base_id: "chemlib:molybdenum_dust",
 	},
 	{
 		id: "technetium",
@@ -621,6 +663,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:technetium",
 	},
 	{
 		id: "ruthenium",
@@ -635,6 +678,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:ruthenium_dust",
 	},
 	{
 		id: "rhodium",
@@ -649,6 +693,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:rhodium_dust",
 	},
 	{
 		id: "palladium",
@@ -663,6 +708,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:palladium_dust",
 	},
 	{
 		id: "silver",
@@ -677,6 +723,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "thermal:silver_dust",
 	},
 	{
 		id: "cadmium",
@@ -691,6 +738,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cadmium_dust",
 	},
 	{
 		id: "indium",
@@ -709,6 +757,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 			efficiency: 0.47391085153106866,
 			conductivity: 4.40736699303999,
 		},
+		base_id: "chemlib:indium_dust",
 	},
 	{
 		id: "tin",
@@ -723,6 +772,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 577.63,
 		cooling: null,
+		base_id: "mekanism:dust_tin",
 	},
 	{
 		id: "antimony",
@@ -737,6 +787,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:antimony_dust",
 	},
 	{
 		id: "tellurium",
@@ -751,6 +802,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:tellurium_dust",
 	},
 	{
 		id: "iodine",
@@ -765,6 +817,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:iodine_dust",
 	},
 	{
 		id: "xenon",
@@ -779,6 +832,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:xenon",
 	},
 	{
 		id: "cesium",
@@ -797,6 +851,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 			efficiency: 0.9317289143755019,
 			conductivity: 0.5005898313082459,
 		},
+		base_id: "chemlib:cesium_dust",
 	},
 	{
 		id: "barium",
@@ -811,6 +866,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 582.0,
 		cooling: null,
+		base_id: "chemlib:barium_dust",
 	},
 	{
 		id: "lanthanum",
@@ -825,6 +881,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lanthanum_dust",
 	},
 	{
 		id: "cerium",
@@ -839,6 +896,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cerium_dust",
 	},
 	{
 		id: "praseodymium",
@@ -853,6 +911,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:praseodymium_dust",
 	},
 	{
 		id: "neodymium",
@@ -867,6 +926,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 903.95,
 		cooling: null,
+		base_id: "chemlib:neodymium_dust",
 	},
 	{
 		id: "promethium",
@@ -881,6 +941,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:promethium",
 	},
 	{
 		id: "samarium",
@@ -895,6 +956,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:samarium_dust",
 	},
 	{
 		id: "europium",
@@ -909,6 +971,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:europium_dust",
 	},
 	{
 		id: "gadolinium",
@@ -923,6 +986,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:gadolinium_dust",
 	},
 	{
 		id: "terbium",
@@ -937,6 +1001,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:terbium_dust",
 	},
 	{
 		id: "dysprosium",
@@ -951,6 +1016,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:dysprosium_dust",
 	},
 	{
 		id: "holmium",
@@ -965,6 +1031,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:holmium_dust",
 	},
 	{
 		id: "erbium",
@@ -979,6 +1046,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:erbium_dust",
 	},
 	{
 		id: "thulium",
@@ -993,6 +1061,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:thulium_dust",
 	},
 	{
 		id: "ytterbium",
@@ -1007,6 +1076,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:ytterbium_dust",
 	},
 	{
 		id: "lutetium",
@@ -1021,6 +1091,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lutetium_dust",
 	},
 	{
 		id: "hafnium",
@@ -1035,6 +1106,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:hafnium_dust",
 	},
 	{
 		id: "tantalum",
@@ -1049,6 +1121,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:tantalum_dust",
 	},
 	{
 		id: "tungsten",
@@ -1063,6 +1136,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "moremekanismprocessing:dust_tungsten",
 	},
 	{
 		id: "rhenium",
@@ -1077,6 +1151,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:rhenium_dust",
 	},
 	{
 		id: "osmium",
@@ -1091,6 +1166,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "mekanism:dust_osmium",
 	},
 	{
 		id: "iridium",
@@ -1105,6 +1181,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "moremekanismprocessing:dust_iridium",
 	},
 	{
 		id: "platinum",
@@ -1119,6 +1196,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "moremekanismprocessing:dust_platinum",
 	},
 	{
 		id: "gold",
@@ -1133,6 +1211,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "mekanism:dust_gold",
 	},
 	{
 		id: "mercury",
@@ -1151,6 +1230,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 			efficiency: 0.3476601248058776,
 			conductivity: 0.8289474460304354,
 		},
+		base_id: "chemlib:mercury",
 	},
 	{
 		id: "thallium",
@@ -1165,6 +1245,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:thallium_dust",
 	},
 	{
 		id: "lead",
@@ -1177,8 +1258,9 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1311.305,
 		matter_state: "solid",
-		combustion: 274.47,
+		combustion: 219.41,
 		cooling: null,
+		base_id: "mekanism:dust_lead",
 	},
 	{
 		id: "bismuth",
@@ -1193,6 +1275,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "moremekanismprocessing:dust_bismuth",
 	},
 	{
 		id: "polonium",
@@ -1207,6 +1290,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:polonium_dust",
 	},
 	{
 		id: "astatine",
@@ -1221,6 +1305,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:astatine_dust",
 	},
 	{
 		id: "radon",
@@ -1235,6 +1320,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:radon",
 	},
 	{
 		id: "francium",
@@ -1249,6 +1335,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:francium_dust",
 	},
 	{
 		id: "radium",
@@ -1263,6 +1350,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:radium_dust",
 	},
 	{
 		id: "actinium",
@@ -1277,6 +1365,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:actinium_dust",
 	},
 	{
 		id: "thorium",
@@ -1291,6 +1380,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 1226.4,
 		cooling: null,
+		base_id: "moremekanismprocessing:dust_thorium",
 	},
 	{
 		id: "protactinium",
@@ -1305,6 +1395,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:protactinium_dust",
 	},
 	{
 		id: "uranium",
@@ -1319,6 +1410,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 1191.6666666666667,
 		cooling: null,
+		base_id: "mekanism:dust_uranium",
 	},
 	{
 		id: "neptunium",
@@ -1333,6 +1425,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:neptunium",
 	},
 	{
 		id: "plutonium",
@@ -1347,6 +1440,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:plutonium",
 	},
 	{
 		id: "americium",
@@ -1361,6 +1455,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:americium",
 	},
 	{
 		id: "curium",
@@ -1375,6 +1470,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:curium",
 	},
 	{
 		id: "berkelium",
@@ -1389,6 +1485,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:berkelium",
 	},
 	{
 		id: "californium",
@@ -1403,6 +1500,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:californium",
 	},
 	{
 		id: "einsteinium",
@@ -1417,6 +1515,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:einsteinium",
 	},
 	{
 		id: "fermium",
@@ -1431,6 +1530,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:fermium",
 	},
 	{
 		id: "mendelevium",
@@ -1445,6 +1545,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:mendelevium",
 	},
 	{
 		id: "nobelium",
@@ -1459,6 +1560,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:nobelium",
 	},
 	{
 		id: "lawrencium",
@@ -1473,6 +1575,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lawrencium",
 	},
 	{
 		id: "rutherfordium",
@@ -1487,6 +1590,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:rutherfordium",
 	},
 	{
 		id: "dubnium",
@@ -1501,6 +1605,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:dubnium",
 	},
 	{
 		id: "seaborgium",
@@ -1515,6 +1620,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:seaborgium",
 	},
 	{
 		id: "bohrium",
@@ -1529,6 +1635,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:bohrium",
 	},
 	{
 		id: "hassium",
@@ -1543,6 +1650,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:hassium",
 	},
 	{
 		id: "meitnerium",
@@ -1557,6 +1665,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:meitnerium",
 	},
 	{
 		id: "darmstadtium",
@@ -1571,6 +1680,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:darmstadtium",
 	},
 	{
 		id: "roentgenium",
@@ -1585,6 +1695,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:roentgenium",
 	},
 	{
 		id: "copernicium",
@@ -1599,6 +1710,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:copernicium",
 	},
 	{
 		id: "nihonium",
@@ -1613,6 +1725,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:nihonium",
 	},
 	{
 		id: "flerovium",
@@ -1627,6 +1740,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:flerovium",
 	},
 	{
 		id: "moscovium",
@@ -1641,6 +1755,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:moscovium",
 	},
 	{
 		id: "livermorium",
@@ -1655,6 +1770,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:livermorium",
 	},
 	{
 		id: "tennessine",
@@ -1669,6 +1785,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:tennessine",
 	},
 	{
 		id: "oganesson",
@@ -1683,6 +1800,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:oganesson",
 	},
 	{
 		id: "carbon_dioxide",
@@ -1697,6 +1815,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:carbon_dioxide",
 	},
 	{
 		id: "ethylene",
@@ -1709,8 +1828,9 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 136.75,
 		matter_state: "gas",
-		combustion: 740.1899999999999,
+		combustion: 1403.1899999999998,
 		cooling: null,
+		base_id: "chemlib:ethylene",
 	},
 	{
 		id: "cellulose",
@@ -1725,6 +1845,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 2828.0,
 		cooling: null,
+		base_id: "chemlib:cellulose_dust",
 	},
 	{
 		id: "chitin",
@@ -1739,6 +1860,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:chitin_dust",
 	},
 	{
 		id: "keratin",
@@ -1753,6 +1875,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:keratin_dust",
 	},
 	{
 		id: "silicon_dioxide",
@@ -1767,6 +1890,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:silicon_dioxide",
 	},
 	{
 		id: "nitrate",
@@ -1781,6 +1905,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:nitrate_dust",
 	},
 	{
 		id: "potassium_nitrate",
@@ -1795,6 +1920,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "thermal:niter_dust",
 	},
 	{
 		id: "aluminum_oxide",
@@ -1809,6 +1935,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:aluminum_oxide_dust",
 	},
 	{
 		id: "magnesium_oxide",
@@ -1823,6 +1950,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:magnesium_oxide_dust",
 	},
 	{
 		id: "potassium_chloride",
@@ -1837,6 +1965,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:potassium_chloride_dust",
 	},
 	{
 		id: "sodium_chloride",
@@ -1851,6 +1980,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "mekanism:salt",
 	},
 	{
 		id: "water",
@@ -1865,6 +1995,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:water",
 	},
 	{
 		id: "kaolinite",
@@ -1879,6 +2010,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:kaolinite",
 	},
 	{
 		id: "protein",
@@ -1893,6 +2025,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:protein",
 	},
 	{
 		id: "iron_oxide",
@@ -1907,6 +2040,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:iron_oxide_dust",
 	},
 	{
 		id: "sucrose",
@@ -1921,6 +2055,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 5647.0,
 		cooling: null,
+		base_id: "minecraft:sugar",
 	},
 	{
 		id: "carbonate",
@@ -1935,6 +2070,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:carbonate_dust",
 	},
 	{
 		id: "calcium_carbonate",
@@ -1949,6 +2085,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:calcium_carbonate_dust",
 	},
 	{
 		id: "phosphate",
@@ -1963,6 +2100,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:phosphate_dust",
 	},
 	{
 		id: "hydroxide",
@@ -1977,6 +2115,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:hydroxide_dust",
 	},
 	{
 		id: "hydroxylapatite",
@@ -1991,6 +2130,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:hydroxylapatite",
 	},
 	{
 		id: "strontium_carbonate",
@@ -2005,6 +2145,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:strontium_carbonate_dust",
 	},
 	{
 		id: "beryl",
@@ -2019,6 +2160,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:beryl_dust",
 	},
 	{
 		id: "starch",
@@ -2033,6 +2175,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 17.484,
 		cooling: null,
+		base_id: "chemlib:starch_dust",
 	},
 	{
 		id: "cucurbitacin",
@@ -2047,6 +2190,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cucurbitacin_dust",
 	},
 	{
 		id: "zinc_oxide",
@@ -2061,6 +2205,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:zinc_oxide_dust",
 	},
 	{
 		id: "cobalt_aluminate",
@@ -2075,6 +2220,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cobalt_aluminate_dust",
 	},
 	{
 		id: "triglyceride",
@@ -2089,6 +2235,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:triglyceride_dust",
 	},
 	{
 		id: "lead_iodide",
@@ -2103,6 +2250,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lead_iodide",
 	},
 	{
 		id: "ethanol",
@@ -2117,6 +2265,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: 1367.0,
 		cooling: null,
+		base_id: "chemlib:ethanol",
 	},
 	{
 		id: "amide",
@@ -2131,6 +2280,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:amide_dust",
 	},
 	{
 		id: "urea",
@@ -2145,6 +2295,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 0.6327,
 		cooling: null,
+		base_id: "chemlib:urea_dust",
 	},
 	{
 		id: "ammonium",
@@ -2159,6 +2310,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:ammonium",
 	},
 	{
 		id: "diammonium_phosphate",
@@ -2173,6 +2325,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:diammonium_phosphate_dust",
 	},
 	{
 		id: "potassium_carbonate",
@@ -2187,6 +2340,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:potassium_carbonate_dust",
 	},
 	{
 		id: "mullite",
@@ -2201,6 +2355,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:mullite_dust",
 	},
 	{
 		id: "methane",
@@ -2215,6 +2370,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: 890.0,
 		cooling: null,
+		base_id: "chemlib:methane",
 	},
 	{
 		id: "ethane",
@@ -2229,6 +2385,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: 1560.0,
 		cooling: null,
+		base_id: "chemlib:ethane",
 	},
 	{
 		id: "propane",
@@ -2243,6 +2400,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: 2220.0,
 		cooling: null,
+		base_id: "chemlib:propane",
 	},
 	{
 		id: "butane",
@@ -2257,6 +2415,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: 2877.0,
 		cooling: null,
+		base_id: "chemlib:butane",
 	},
 	{
 		id: "pentane",
@@ -2271,6 +2430,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: 3509.0,
 		cooling: null,
+		base_id: "chemlib:pentane",
 	},
 	{
 		id: "hexane",
@@ -2285,6 +2445,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: 4.163,
 		cooling: null,
+		base_id: "chemlib:hexane",
 	},
 	{
 		id: "graphite",
@@ -2299,6 +2460,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:graphite_dust",
 	},
 	{
 		id: "calcium_sulfide",
@@ -2311,8 +2473,9 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2017.7,
 		matter_state: "solid",
-		combustion: 458.59999999999997,
+		combustion: 959.79,
 		cooling: null,
+		base_id: "chemlib:calcium_sulfide",
 	},
 	{
 		id: "potassium_dichromate",
@@ -2327,6 +2490,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:potassium_dichromate",
 	},
 	{
 		id: "nickel_chloride",
@@ -2341,6 +2505,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:nickel_chloride_dust",
 	},
 	{
 		id: "potassium_permanganate",
@@ -2355,6 +2520,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:potassium_permanganate",
 	},
 	{
 		id: "magnesium_sulfate",
@@ -2369,6 +2535,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:magnesium_sulfate",
 	},
 	{
 		id: "copper_chloride",
@@ -2383,6 +2550,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:copper_chloride",
 	},
 	{
 		id: "cadmium_sulfide",
@@ -2397,6 +2565,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cadmium_sulfide_dust",
 	},
 	{
 		id: "chromium_oxide",
@@ -2411,6 +2580,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:chromium_oxide_dust",
 	},
 	{
 		id: "antimony_trioxide",
@@ -2425,6 +2595,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:antimony_trioxide_dust",
 	},
 	{
 		id: "titanium_oxide",
@@ -2439,6 +2610,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 369.1199999999999,
 		cooling: null,
+		base_id: "chemlib:titanium_oxide",
 	},
 	{
 		id: "han_purple",
@@ -2453,6 +2625,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:han_purple",
 	},
 	{
 		id: "arsenic_sulfide",
@@ -2467,6 +2640,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:arsenic_sulfide",
 	},
 	{
 		id: "barium_sulfate",
@@ -2481,6 +2655,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:barium_sulfate",
 	},
 	{
 		id: "beta_carotene",
@@ -2495,6 +2670,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:beta_carotene_dust",
 	},
 	{
 		id: "polyvinyl_chloride",
@@ -2509,6 +2685,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:polyvinyl_chloride_dust",
 	},
 	{
 		id: "potassium_cyanide",
@@ -2523,6 +2700,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:potassium_cyanide_dust",
 	},
 	{
 		id: "epinephrine",
@@ -2537,6 +2715,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:epinephrine",
 	},
 	{
 		id: "acetylsalicylic_acid",
@@ -2551,6 +2730,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:acetylsalicylic_acid_dust",
 	},
 	{
 		id: "caffeine",
@@ -2565,6 +2745,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:caffeine_dust",
 	},
 	{
 		id: "mercury_sulfide",
@@ -2579,6 +2760,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 238.81,
 		cooling: null,
+		base_id: "thermal:cinnabar_dust",
 	},
 	{
 		id: "sodium_hydroxide",
@@ -2593,6 +2775,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sodium_hydroxide_dust",
 	},
 	{
 		id: "calcium_oxide",
@@ -2607,6 +2790,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "mekanismelements:dust_calcium_oxide",
 	},
 	{
 		id: "calcium_hydroxide",
@@ -2621,6 +2805,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:calcium_hydroxide_dust",
 	},
 	{
 		id: "calcium_chloride",
@@ -2635,6 +2820,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:calcium_chloride_dust",
 	},
 	{
 		id: "sodium_carbonate",
@@ -2649,6 +2835,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sodium_carbonate_dust",
 	},
 	{
 		id: "hydrochloric_acid",
@@ -2663,6 +2850,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:hydrochloric_acid",
 	},
 	{
 		id: "magnesium_carbonate",
@@ -2677,6 +2865,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:magnesium_carbonate_dust",
 	},
 	{
 		id: "lead_oxide",
@@ -2691,6 +2880,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 55.06000000000003,
 		cooling: null,
+		base_id: "chemlib:lead_oxide_dust",
 	},
 	{
 		id: "sulfur_dioxide",
@@ -2705,6 +2895,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: 98.88999999999999,
 		cooling: null,
+		base_id: "chemlib:sulfur_dioxide",
 	},
 	{
 		id: "lead_sulfide",
@@ -2717,8 +2908,9 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 1470.0,
 		matter_state: "solid",
-		combustion: 119.00999999999999,
+		combustion: 415.82000000000005,
 		cooling: null,
+		base_id: "chemlib:lead_sulfide_dust",
 	},
 	{
 		id: "zinc_sulfide",
@@ -2733,6 +2925,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 778.4,
 		cooling: null,
+		base_id: "chemlib:zinc_sulfide_dust",
 	},
 	{
 		id: "iron_disulfide",
@@ -2747,6 +2940,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:iron_disulfide_dust",
 	},
 	{
 		id: "tin_oxide",
@@ -2761,6 +2955,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:tin_oxide_dust",
 	},
 	{
 		id: "manganese_oxide",
@@ -2775,6 +2970,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:manganese_oxide_dust",
 	},
 	{
 		id: "strontium_oxide",
@@ -2789,6 +2985,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:strontium_oxide_dust",
 	},
 	{
 		id: "iron_ii_oxide",
@@ -2803,6 +3000,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:iron_ii_oxide_dust",
 	},
 	{
 		id: "sulfuric_acid",
@@ -2817,6 +3015,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sulfuric_acid",
 	},
 	{
 		id: "nitric_acid",
@@ -2831,6 +3030,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:nitric_acid",
 	},
 	{
 		id: "nitrogen_dioxide",
@@ -2845,6 +3045,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: 199.76,
 		cooling: null,
+		base_id: "chemlib:nitrogen_dioxide",
 	},
 	{
 		id: "sodium_bisulfate",
@@ -2859,6 +3060,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sodium_bisulfate_dust",
 	},
 	{
 		id: "ammonia",
@@ -2873,6 +3075,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: 382.6,
 		cooling: null,
+		base_id: "chemlib:ammonia",
 	},
 	{
 		id: "ammonium_chloride",
@@ -2887,6 +3090,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:ammonium_chloride_dust",
 	},
 	{
 		id: "phosphoric_acid",
@@ -2901,6 +3105,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:phosphoric_acid_dust",
 	},
 	{
 		id: "calcium_sulfate",
@@ -2915,6 +3120,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:calcium_sulfate_dust",
 	},
 	{
 		id: "copper_i_oxide",
@@ -2929,6 +3135,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 142.0,
 		cooling: null,
+		base_id: "chemlib:copper_i_oxide_dust",
 	},
 	{
 		id: "copper_i_sulfide",
@@ -2943,6 +3150,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:copper_i_sulfide_dust",
 	},
 	{
 		id: "hydrogen_sulfide",
@@ -2955,8 +3163,9 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 200.64999999999998,
 		matter_state: "gas",
-		combustion: 275.81,
+		combustion: 561.64,
 		cooling: null,
+		base_id: "chemlib:hydrogen_sulfide",
 	},
 	{
 		id: "acetylene",
@@ -2971,6 +3180,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: 1300.0,
 		cooling: null,
+		base_id: "chemlib:acetylene",
 	},
 	{
 		id: "acetic_acid",
@@ -2985,6 +3195,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: 0.874,
 		cooling: null,
+		base_id: "chemlib:acetic_acid",
 	},
 	{
 		id: "nickel_sulfide",
@@ -2999,6 +3210,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 208.95,
 		cooling: null,
+		base_id: "chemlib:nickel_sulfide_dust",
 	},
 	{
 		id: "antimony_trisulfide",
@@ -3013,6 +3225,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:antimony_trisulfide_dust",
 	},
 	{
 		id: "nickel_oxide",
@@ -3027,6 +3240,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:nickel_oxide_dust",
 	},
 	{
 		id: "carbon_monoxide",
@@ -3041,6 +3255,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: 0.283,
 		cooling: null,
+		base_id: "chemlib:carbon_monoxide",
 	},
 	{
 		id: "lithium_hydroxide",
@@ -3055,6 +3270,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lithium_hydroxide_dust",
 	},
 	{
 		id: "potassium_hydroxide",
@@ -3069,6 +3285,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:potassium_hydroxide_dust",
 	},
 	{
 		id: "rubidium_hydroxide",
@@ -3083,6 +3300,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:rubidium_hydroxide_dust",
 	},
 	{
 		id: "cesium_hydroxide",
@@ -3097,6 +3315,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cesium_hydroxide_dust",
 	},
 	{
 		id: "beryllium_hydroxide",
@@ -3111,6 +3330,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:beryllium_hydroxide_dust",
 	},
 	{
 		id: "magnesium_hydroxide",
@@ -3125,6 +3345,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:magnesium_hydroxide_dust",
 	},
 	{
 		id: "strontium_hydroxide",
@@ -3139,6 +3360,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:strontium_hydroxide_dust",
 	},
 	{
 		id: "barium_hydroxide",
@@ -3153,6 +3375,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:barium_hydroxide_dust",
 	},
 	{
 		id: "aluminum_hydroxide",
@@ -3167,6 +3390,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:aluminum_hydroxide_dust",
 	},
 	{
 		id: "zinc_hydroxide",
@@ -3181,6 +3405,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:zinc_hydroxide_dust",
 	},
 	{
 		id: "manganese_hydroxide",
@@ -3195,6 +3420,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:manganese_hydroxide_dust",
 	},
 	{
 		id: "cadmium_hydroxide",
@@ -3209,6 +3435,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cadmium_hydroxide_dust",
 	},
 	{
 		id: "copper_ii_hydroxide",
@@ -3223,6 +3450,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:copper_ii_hydroxide_dust",
 	},
 	{
 		id: "lithium_chloride",
@@ -3237,6 +3465,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lithium_chloride_dust",
 	},
 	{
 		id: "rubidium_chloride",
@@ -3251,6 +3480,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:rubidium_chloride_dust",
 	},
 	{
 		id: "cesium_chloride",
@@ -3265,6 +3495,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cesium_chloride_dust",
 	},
 	{
 		id: "beryllium_chloride",
@@ -3279,6 +3510,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 16.0,
 		cooling: null,
+		base_id: "chemlib:beryllium_chloride_dust",
 	},
 	{
 		id: "magnesium_chloride",
@@ -3293,6 +3525,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:magnesium_chloride_dust",
 	},
 	{
 		id: "strontium_chloride",
@@ -3307,6 +3540,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:strontium_chloride_dust",
 	},
 	{
 		id: "barium_chloride",
@@ -3321,6 +3555,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:barium_chloride_dust",
 	},
 	{
 		id: "lithium_oxide",
@@ -3335,6 +3570,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lithium_oxide_dust",
 	},
 	{
 		id: "sodium_oxide",
@@ -3349,6 +3585,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sodium_oxide_dust",
 	},
 	{
 		id: "potassium_oxide",
@@ -3363,6 +3600,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:potassium_oxide_dust",
 	},
 	{
 		id: "rubidium_oxide",
@@ -3377,6 +3615,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:rubidium_oxide_dust",
 	},
 	{
 		id: "beryllium_oxide",
@@ -3391,6 +3630,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:beryllium_oxide_dust",
 	},
 	{
 		id: "barium_oxide",
@@ -3405,6 +3645,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:barium_oxide_dust",
 	},
 	{
 		id: "lithium_carbonate",
@@ -3419,6 +3660,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lithium_carbonate_dust",
 	},
 	{
 		id: "rubidium_carbonate",
@@ -3433,6 +3675,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:rubidium_carbonate_dust",
 	},
 	{
 		id: "cesium_carbonate",
@@ -3447,6 +3690,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cesium_carbonate_dust",
 	},
 	{
 		id: "beryllium_carbonate",
@@ -3461,6 +3705,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:beryllium_carbonate_dust",
 	},
 	{
 		id: "barium_carbonate",
@@ -3475,6 +3720,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:barium_carbonate_dust",
 	},
 	{
 		id: "manganese_carbonate",
@@ -3489,6 +3735,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 31.799999999999955,
 		cooling: null,
+		base_id: "chemlib:manganese_carbonate_dust",
 	},
 	{
 		id: "iron_carbonate",
@@ -3503,6 +3750,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:iron_carbonate_dust",
 	},
 	{
 		id: "cobalt_carbonate",
@@ -3517,6 +3765,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cobalt_carbonate_dust",
 	},
 	{
 		id: "nickel_carbonate",
@@ -3531,6 +3780,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:nickel_carbonate_dust",
 	},
 	{
 		id: "copper_carbonate",
@@ -3545,6 +3795,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:copper_carbonate_dust",
 	},
 	{
 		id: "zinc_carbonate",
@@ -3559,6 +3810,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "minecraft:prismarine_shard",
 	},
 	{
 		id: "cadmium_carbonate",
@@ -3573,6 +3825,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cadmium_carbonate_dust",
 	},
 	{
 		id: "lead_carbonate",
@@ -3587,6 +3840,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lead_carbonate_dust",
 	},
 	{
 		id: "lithium_sulfate",
@@ -3601,6 +3855,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lithium_sulfate_dust",
 	},
 	{
 		id: "sodium_sulfate",
@@ -3615,6 +3870,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sodium_sulfate_dust",
 	},
 	{
 		id: "potassium_sulfate",
@@ -3629,6 +3885,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:potassium_sulfate_dust",
 	},
 	{
 		id: "rubidium_sulfate",
@@ -3643,6 +3900,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:rubidium_sulfate_dust",
 	},
 	{
 		id: "cesium_sulfate",
@@ -3657,6 +3915,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cesium_sulfate_dust",
 	},
 	{
 		id: "beryllium_sulfate",
@@ -3671,6 +3930,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:beryllium_sulfate_dust",
 	},
 	{
 		id: "strontium_sulfate",
@@ -3685,6 +3945,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:strontium_sulfate_dust",
 	},
 	{
 		id: "manganese_sulfate",
@@ -3699,6 +3960,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:manganese_sulfate_dust",
 	},
 	{
 		id: "cobalt_sulfate",
@@ -3713,6 +3975,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cobalt_sulfate_dust",
 	},
 	{
 		id: "nickel_sulfate",
@@ -3727,6 +3990,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:nickel_sulfate_dust",
 	},
 	{
 		id: "iron_ii_sulfate",
@@ -3741,6 +4005,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:iron_ii_sulfate_dust",
 	},
 	{
 		id: "copper_ii_sulfate",
@@ -3755,6 +4020,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:copper_ii_sulfate_dust",
 	},
 	{
 		id: "zinc_sulfate",
@@ -3769,6 +4035,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:zinc_sulfate_dust",
 	},
 	{
 		id: "cadmium_sulfate",
@@ -3783,6 +4050,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cadmium_sulfate_dust",
 	},
 	{
 		id: "lead_sulfate",
@@ -3797,6 +4065,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lead_sulfate_dust",
 	},
 	{
 		id: "tin_sulfate",
@@ -3811,6 +4080,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:tin_sulfate_dust",
 	},
 	{
 		id: "lithium_nitrate",
@@ -3825,6 +4095,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 25.5,
 		cooling: null,
+		base_id: "chemlib:lithium_nitrate_dust",
 	},
 	{
 		id: "sodium_nitrate",
@@ -3839,6 +4110,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sodium_nitrate_dust",
 	},
 	{
 		id: "rubidium_nitrate",
@@ -3853,6 +4125,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:rubidium_nitrate_dust",
 	},
 	{
 		id: "cesium_nitrate",
@@ -3867,6 +4140,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cesium_nitrate_dust",
 	},
 	{
 		id: "beryllium_nitrate",
@@ -3881,6 +4155,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:beryllium_nitrate_dust",
 	},
 	{
 		id: "magnesium_nitrate",
@@ -3895,6 +4170,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:magnesium_nitrate_dust",
 	},
 	{
 		id: "calcium_nitrate",
@@ -3909,6 +4185,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:calcium_nitrate_dust",
 	},
 	{
 		id: "strontium_nitrate",
@@ -3923,6 +4200,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:strontium_nitrate_dust",
 	},
 	{
 		id: "barium_nitrate",
@@ -3937,6 +4215,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:barium_nitrate_dust",
 	},
 	{
 		id: "manganese_nitrate",
@@ -3951,6 +4230,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:manganese_nitrate_dust",
 	},
 	{
 		id: "iron_iii_nitrate",
@@ -3965,6 +4245,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:iron_iii_nitrate_dust",
 	},
 	{
 		id: "cobalt_nitrate",
@@ -3979,6 +4260,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cobalt_nitrate_dust",
 	},
 	{
 		id: "nickel_nitrate",
@@ -3993,6 +4275,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:nickel_nitrate_dust",
 	},
 	{
 		id: "copper_nitrate",
@@ -4007,6 +4290,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:copper_nitrate_dust",
 	},
 	{
 		id: "zinc_nitrate",
@@ -4021,6 +4305,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:zinc_nitrate_dust",
 	},
 	{
 		id: "lead_nitrate",
@@ -4035,6 +4320,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lead_nitrate_dust",
 	},
 	{
 		id: "cadmium_nitrate",
@@ -4049,6 +4335,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cadmium_nitrate_dust",
 	},
 	{
 		id: "aluminum_nitrate",
@@ -4063,6 +4350,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:aluminum_nitrate_dust",
 	},
 	{
 		id: "nitric_oxide",
@@ -4077,6 +4365,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: 0.091,
 		cooling: null,
+		base_id: "chemlib:nitric_oxide",
 	},
 	{
 		id: "carbon_disulfide",
@@ -4091,6 +4380,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: 1687.2,
 		cooling: null,
+		base_id: "chemlib:carbon_disulfide",
 	},
 	{
 		id: "potassium_ethyl_xanthate",
@@ -4105,6 +4395,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:potassium_ethyl_xanthate_dust",
 	},
 	{
 		id: "sulfur_trioxide",
@@ -4119,6 +4410,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sulfur_trioxide",
 	},
 	{
 		id: "barium_sulfide",
@@ -4133,6 +4425,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 415.21999999999997,
 		cooling: null,
+		base_id: "chemlib:barium_sulfide_dust",
 	},
 	{
 		id: "aluminum_carbonate",
@@ -4147,6 +4440,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 4316.21,
 		cooling: null,
+		base_id: "chemlib:aluminum_carbonate_dust",
 	},
 	{
 		id: "yttrium_barium_copper_oxide",
@@ -4161,6 +4455,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:yttrium_barium_copper_oxide_dust",
 	},
 	{
 		id: "carbon_trioxide",
@@ -4175,6 +4470,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:carbon_trioxide",
 	},
 	{
 		id: "yttrium_carbonate",
@@ -4189,6 +4485,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:yttrium_carbonate_dust",
 	},
 	{
 		id: "yttrium_hydroxide",
@@ -4203,6 +4500,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:yttrium_hydroxide_dust",
 	},
 	{
 		id: "titanium_carbide",
@@ -4217,6 +4515,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:titanium_carbide_dust",
 	},
 	{
 		id: "sodium_sulfide",
@@ -4231,6 +4530,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 346.7099999999999,
 		cooling: null,
+		base_id: "chemlib:sodium_sulfide_dust",
 	},
 	{
 		id: "uranium_oxide",
@@ -4245,6 +4545,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:uranium_oxide_dust",
 	},
 	{
 		id: "uranium_hexafluoride",
@@ -4259,6 +4560,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:uranium_hexafluoride",
 	},
 	{
 		id: "hydrofluoric_acid",
@@ -4273,6 +4575,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:hydrofluoric_acid",
 	},
 	{
 		id: "azanide",
@@ -4287,6 +4590,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:azanide",
 	},
 	{
 		id: "p_phenylenediamine",
@@ -4301,6 +4605,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:p_phenylenediamine_dust",
 	},
 	{
 		id: "aniline",
@@ -4315,6 +4620,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: 3.393,
 		cooling: null,
+		base_id: "chemlib:aniline",
 	},
 	{
 		id: "benzene",
@@ -4329,6 +4635,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: 3268.0,
 		cooling: null,
+		base_id: "chemlib:benzene",
 	},
 	{
 		id: "ozone",
@@ -4343,6 +4650,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:ozone",
 	},
 	{
 		id: "potassium_nitrite",
@@ -4357,6 +4665,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 124.19999999999999,
 		cooling: null,
+		base_id: "chemlib:potassium_nitrite_dust",
 	},
 	{
 		id: "lead_dioxide",
@@ -4371,6 +4680,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lead_dioxide_dust",
 	},
 	{
 		id: "salicylic_acid",
@@ -4385,6 +4695,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: 3025.0,
 		cooling: null,
+		base_id: "chemlib:salicylic_acid",
 	},
 	{
 		id: "carboxylic_acid",
@@ -4399,6 +4710,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:carboxylic_acid",
 	},
 	{
 		id: "antimony_sulfate",
@@ -4413,6 +4725,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:antimony_sulfate_dust",
 	},
 	{
 		id: "sulfate",
@@ -4427,6 +4740,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sulfate_dust",
 	},
 	{
 		id: "antimony_acid",
@@ -4441,6 +4755,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:antimony_acid_dust",
 	},
 	{
 		id: "antimonate",
@@ -4455,6 +4770,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:antimonate_dust",
 	},
 	{
 		id: "lead_antimonate",
@@ -4469,6 +4785,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lead_antimonate_dust",
 	},
 	{
 		id: "antimony_pentaoxide",
@@ -4483,6 +4800,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:antimony_pentaoxide_dust",
 	},
 	{
 		id: "acetic_anhydride",
@@ -4497,6 +4815,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:acetic_anhydride",
 	},
 	{
 		id: "tungsten_carbide",
@@ -4511,6 +4830,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:tungsten_carbide_dust",
 	},
 	{
 		id: "thallium_iii_oxide",
@@ -4525,6 +4845,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:thallium_iii_oxide_dust",
 	},
 	{
 		id: "niobium_oxide",
@@ -4539,6 +4860,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:niobium_oxide_dust",
 	},
 	{
 		id: "niobium_pentoxide",
@@ -4553,6 +4875,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:niobium_pentoxide_dust",
 	},
 	{
 		id: "niobium_carbide",
@@ -4567,6 +4890,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:niobium_carbide_dust",
 	},
 	{
 		id: "calcium_fluoride",
@@ -4581,6 +4905,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "mekanism:dust_fluorite",
 	},
 	{
 		id: "bismuth_iii_sulfide",
@@ -4595,6 +4920,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:bismuth_iii_sulfide_dust",
 	},
 	{
 		id: "livingstonite",
@@ -4609,6 +4935,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:livingstonite_dust",
 	},
 	{
 		id: "hydrazine",
@@ -4623,6 +4950,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: 622.0,
 		cooling: null,
+		base_id: "chemlib:hydrazine",
 	},
 	{
 		id: "sodium_hypochlorite",
@@ -4637,6 +4965,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sodium_hypochlorite",
 	},
 	{
 		id: "monochloramine",
@@ -4651,6 +4980,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:monochloramine",
 	},
 	{
 		id: "iron_iii_oxide_hydroxide",
@@ -4665,6 +4995,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:iron_iii_oxide_hydroxide_dust",
 	},
 	{
 		id: "orthoclase",
@@ -4679,6 +5010,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:orthoclase_dust",
 	},
 	{
 		id: "sodium_metasilicate",
@@ -4693,6 +5025,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sodium_metasilicate_dust",
 	},
 	{
 		id: "potassium_aluminate",
@@ -4707,6 +5040,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:potassium_aluminate_dust",
 	},
 	{
 		id: "zirconium_silicate",
@@ -4721,6 +5055,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:zirconium_silicate_dust",
 	},
 	{
 		id: "enstatite",
@@ -4735,6 +5070,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:enstatite_dust",
 	},
 	{
 		id: "ferrosilite",
@@ -4749,6 +5085,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:ferrosilite_dust",
 	},
 	{
 		id: "titanium_dioxide",
@@ -4763,6 +5100,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:titanium_dioxide_dust",
 	},
 	{
 		id: "magnetite",
@@ -4777,6 +5115,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:magnetite_dust",
 	},
 	{
 		id: "glutaric_acid",
@@ -4791,6 +5130,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:glutaric_acid_dust",
 	},
 	{
 		id: "iron_hydroxide",
@@ -4805,6 +5145,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:iron_hydroxide_dust",
 	},
 	{
 		id: "chalcopyrite",
@@ -4819,6 +5160,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:chalcopyrite_dust",
 	},
 	{
 		id: "copper_ii_oxide",
@@ -4833,6 +5175,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:copper_ii_oxide_dust",
 	},
 	{
 		id: "covellite",
@@ -4847,6 +5190,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:covellite_dust",
 	},
 	{
 		id: "villamaninite",
@@ -4861,6 +5205,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:villamaninite_dust",
 	},
 	{
 		id: "magnesium_orthosilicate",
@@ -4875,6 +5220,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:magnesium_orthosilicate_dust",
 	},
 	{
 		id: "gold_iii_oxide",
@@ -4889,6 +5235,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:gold_iii_oxide_dust",
 	},
 	{
 		id: "gold_i_sulfide",
@@ -4903,6 +5250,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:gold_i_sulfide_dust",
 	},
 	{
 		id: "gold_iii_sulfide",
@@ -4917,6 +5265,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:gold_iii_sulfide_dust",
 	},
 	{
 		id: "gold_iii_chloride",
@@ -4931,6 +5280,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:gold_iii_chloride_dust",
 	},
 	{
 		id: "gold_iii_hydroxide",
@@ -4945,6 +5295,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:gold_iii_hydroxide_dust",
 	},
 	{
 		id: "chloroauric_acid",
@@ -4959,6 +5310,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:chloroauric_acid_dust",
 	},
 	{
 		id: "wollastonite",
@@ -4973,6 +5325,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:wollastonite_dust",
 	},
 	{
 		id: "glucose",
@@ -4985,8 +5338,9 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 763.3412500000001,
 		matter_state: "solid",
-		combustion: 2804.98,
+		combustion: 1106.98,
 		cooling: null,
+		base_id: "chemlib:glucose_dust",
 	},
 	{
 		id: "formic_acid",
@@ -5001,6 +5355,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: 0.254,
 		cooling: null,
+		base_id: "chemlib:formic_acid",
 	},
 	{
 		id: "tricalcium_phosphate",
@@ -5015,6 +5370,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:tricalcium_phosphate_dust",
 	},
 	{
 		id: "phosphorus_pentoxide",
@@ -5029,6 +5385,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:phosphorus_pentoxide_dust",
 	},
 	{
 		id: "strontium_aluminate",
@@ -5043,6 +5400,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:strontium_aluminate_dust",
 	},
 	{
 		id: "dolomite",
@@ -5057,6 +5415,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:dolomite_dust",
 	},
 	{
 		id: "manganese_ii_oxide",
@@ -5071,6 +5430,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 135.0,
 		cooling: null,
+		base_id: "chemlib:manganese_ii_oxide_dust",
 	},
 	{
 		id: "calaverite",
@@ -5085,6 +5445,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:calaverite_dust",
 	},
 	{
 		id: "titanium_iii_chloride",
@@ -5099,6 +5460,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:titanium_iii_chloride_dust",
 	},
 	{
 		id: "titanium_ii_chloride",
@@ -5113,6 +5475,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:titanium_ii_chloride_dust",
 	},
 	{
 		id: "titanium_tetrachloride",
@@ -5127,6 +5490,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: 182.0,
 		cooling: null,
+		base_id: "chemlib:titanium_tetrachloride",
 	},
 	{
 		id: "osmium_dioxide",
@@ -5141,6 +5505,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:osmium_dioxide_dust",
 	},
 	{
 		id: "osmium_tetroxide",
@@ -5155,6 +5520,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:osmium_tetroxide_dust",
 	},
 	{
 		id: "ruthenium_iv_oxide",
@@ -5169,6 +5535,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:ruthenium_iv_oxide_dust",
 	},
 	{
 		id: "triuranium_octoxide",
@@ -5183,6 +5550,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:triuranium_octoxide_dust",
 	},
 	{
 		id: "thorium_dioxide",
@@ -5197,6 +5565,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:thorium_dioxide_dust",
 	},
 	{
 		id: "thorium_monoxide",
@@ -5211,6 +5580,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:thorium_monoxide_dust",
 	},
 	{
 		id: "aluminium_sulfate",
@@ -5225,6 +5595,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:aluminium_sulfate_dust",
 	},
 	{
 		id: "mercury_ii_chloride",
@@ -5239,6 +5610,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:mercury_ii_chloride_dust",
 	},
 	{
 		id: "vanadium_v_oxide",
@@ -5253,6 +5625,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:vanadium_v_oxide_dust",
 	},
 	{
 		id: "vanadium_iii_oxide",
@@ -5267,6 +5640,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:vanadium_iii_oxide_dust",
 	},
 	{
 		id: "vanadium_iv_oxide",
@@ -5281,6 +5655,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:vanadium_iv_oxide_dust",
 	},
 	{
 		id: "maleic_anhydride",
@@ -5295,6 +5670,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:maleic_anhydride_dust",
 	},
 	{
 		id: "molybdenum_disulphide",
@@ -5307,8 +5683,9 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		radiation: 0,
 		temperature: 2381.9333333333334,
 		matter_state: "solid",
-		combustion: 1103.6200000000001,
+		combustion: 1301.4,
 		cooling: null,
+		base_id: "chemlib:molybdenum_disulphide_dust",
 	},
 	{
 		id: "molybdenum_trioxide",
@@ -5323,6 +5700,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:molybdenum_trioxide_dust",
 	},
 	{
 		id: "molybdenum_dioxide",
@@ -5337,6 +5715,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:molybdenum_dioxide_dust",
 	},
 	{
 		id: "perchlorate",
@@ -5351,6 +5730,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:perchlorate",
 	},
 	{
 		id: "perchloric_acid",
@@ -5365,6 +5745,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:perchloric_acid",
 	},
 	{
 		id: "ammonium_perchlorate",
@@ -5379,6 +5760,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:ammonium_perchlorate_dust",
 	},
 	{
 		id: "barium_perchlorate",
@@ -5393,6 +5775,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:barium_perchlorate_dust",
 	},
 	{
 		id: "potassium_perchlorate",
@@ -5407,6 +5790,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:potassium_perchlorate_dust",
 	},
 	{
 		id: "cobalt_ii_perchlorate",
@@ -5421,6 +5805,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cobalt_ii_perchlorate_dust",
 	},
 	{
 		id: "lithium_perchlorate",
@@ -5435,6 +5820,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lithium_perchlorate_dust",
 	},
 	{
 		id: "magnesium_perchlorate",
@@ -5449,6 +5835,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:magnesium_perchlorate_dust",
 	},
 	{
 		id: "copper_ii_perchlorate",
@@ -5463,6 +5850,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:copper_ii_perchlorate_dust",
 	},
 	{
 		id: "sodium_perchlorate",
@@ -5477,6 +5865,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sodium_perchlorate_dust",
 	},
 	{
 		id: "nitrosyl_perchlorate",
@@ -5491,6 +5880,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:nitrosyl_perchlorate_dust",
 	},
 	{
 		id: "rubidium_perchlorate",
@@ -5505,6 +5895,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:rubidium_perchlorate_dust",
 	},
 	{
 		id: "silver_perchlorate",
@@ -5519,6 +5910,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:silver_perchlorate_dust",
 	},
 	{
 		id: "ammonium_nitrate",
@@ -5533,6 +5925,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:ammonium_nitrate_dust",
 	},
 	{
 		id: "aluminium_chloride",
@@ -5547,6 +5940,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:aluminium_chloride_dust",
 	},
 	{
 		id: "chromium_trioxide",
@@ -5561,6 +5955,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:chromium_trioxide_dust",
 	},
 	{
 		id: "sulfur_dichloride",
@@ -5575,6 +5970,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sulfur_dichloride",
 	},
 	{
 		id: "phosgene",
@@ -5589,6 +5985,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:phosgene",
 	},
 	{
 		id: "thorium_iv_sulfide",
@@ -5603,6 +6000,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:thorium_iv_sulfide_dust",
 	},
 	{
 		id: "neodymium_iii_sulfate",
@@ -5617,6 +6015,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:neodymium_iii_sulfate_dust",
 	},
 	{
 		id: "europium_ii_sulfate",
@@ -5631,6 +6030,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:europium_ii_sulfate_dust",
 	},
 	{
 		id: "europium_ii_chloride",
@@ -5645,6 +6045,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:europium_ii_chloride_dust",
 	},
 	{
 		id: "europium_iii_chloride",
@@ -5659,6 +6060,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:europium_iii_chloride_dust",
 	},
 	{
 		id: "lead_ii_chloride",
@@ -5673,6 +6075,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lead_ii_chloride_dust",
 	},
 	{
 		id: "lead_iv_chloride",
@@ -5687,6 +6090,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:lead_iv_chloride",
 	},
 	{
 		id: "yttrium_iii_nitrate",
@@ -5701,6 +6105,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:yttrium_iii_nitrate_dust",
 	},
 	{
 		id: "yttrium_iii_oxide",
@@ -5715,6 +6120,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:yttrium_iii_oxide_dust",
 	},
 	{
 		id: "yttrium_iii_sulfate",
@@ -5729,6 +6135,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:yttrium_iii_sulfate_dust",
 	},
 	{
 		id: "hydrogen_cyanide",
@@ -5743,6 +6150,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: 0.672,
 		cooling: null,
+		base_id: "chemlib:hydrogen_cyanide",
 	},
 	{
 		id: "cobalt_ii_hydroxide",
@@ -5757,6 +6165,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cobalt_ii_hydroxide_dust",
 	},
 	{
 		id: "sulfur_hexafluoride",
@@ -5771,6 +6180,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sulfur_hexafluoride",
 	},
 	{
 		id: "cobalt_ii_oxide",
@@ -5785,6 +6195,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cobalt_ii_oxide_dust",
 	},
 	{
 		id: "cadmium_chloride",
@@ -5799,6 +6210,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:cadmium_chloride_dust",
 	},
 	{
 		id: "antimony_trichloride",
@@ -5813,6 +6225,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:antimony_trichloride_dust",
 	},
 	{
 		id: "antimony_oxychloride",
@@ -5827,6 +6240,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:antimony_oxychloride_dust",
 	},
 	{
 		id: "antimony_pentachloride",
@@ -5841,6 +6255,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:antimony_pentachloride",
 	},
 	{
 		id: "hydrogen_iodide",
@@ -5855,6 +6270,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: 116.41499999999999,
 		cooling: null,
+		base_id: "chemlib:hydrogen_iodide",
 	},
 	{
 		id: "silver_nitrate",
@@ -5869,6 +6285,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:silver_nitrate_dust",
 	},
 	{
 		id: "silver_sulfate",
@@ -5883,6 +6300,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:silver_sulfate_dust",
 	},
 	{
 		id: "vanadium_carbide",
@@ -5897,6 +6315,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:vanadium_carbide_dust",
 	},
 	{
 		id: "disulfur_dichloride",
@@ -5911,6 +6330,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: 535.46,
 		cooling: null,
+		base_id: "chemlib:disulfur_dichloride",
 	},
 	{
 		id: "zinconat_cobalt",
@@ -5925,6 +6345,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:zinconat_cobalt_dust",
 	},
 	{
 		id: "sodium_fluoride",
@@ -5939,6 +6360,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sodium_fluoride_dust",
 	},
 	{
 		id: "hydrogen_peroxide",
@@ -5953,6 +6375,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:hydrogen_peroxide",
 	},
 	{
 		id: "silicon_tetrafluoride",
@@ -5967,6 +6390,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:silicon_tetrafluoride",
 	},
 	{
 		id: "europium_ii_bromide",
@@ -5981,6 +6405,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:europium_ii_bromide_dust",
 	},
 	{
 		id: "europium_iii_bromide",
@@ -5995,6 +6420,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:europium_iii_bromide_dust",
 	},
 	{
 		id: "europium_iii_iodide",
@@ -6009,6 +6435,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:europium_iii_iodide_dust",
 	},
 	{
 		id: "europium_ii_iodide",
@@ -6023,6 +6450,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:europium_ii_iodide_dust",
 	},
 	{
 		id: "europium_iii_sulfate",
@@ -6037,6 +6465,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:europium_iii_sulfate_dust",
 	},
 	{
 		id: "europium_iii_hydroxide",
@@ -6051,6 +6480,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:europium_iii_hydroxide_dust",
 	},
 	{
 		id: "europium_iii_oxide",
@@ -6065,6 +6495,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:europium_iii_oxide_dust",
 	},
 	{
 		id: "europium_ii_oxide",
@@ -6079,6 +6510,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:europium_ii_oxide_dust",
 	},
 	{
 		id: "carbonic_acid",
@@ -6093,6 +6525,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:carbonic_acid",
 	},
 	{
 		id: "hydrogen_bromide",
@@ -6107,6 +6540,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: 106.785,
 		cooling: null,
+		base_id: "chemlib:hydrogen_bromide",
 	},
 	{
 		id: "niobium_v_chloride",
@@ -6121,6 +6555,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:niobium_v_chloride_dust",
 	},
 	{
 		id: "zirconium_dioxide",
@@ -6135,6 +6570,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:zirconium_dioxide_dust",
 	},
 	{
 		id: "zirconium_iv_iodide",
@@ -6149,6 +6585,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:zirconium_iv_iodide_dust",
 	},
 	{
 		id: "zirconium_iv_chloride",
@@ -6163,6 +6600,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: 116.94000000000005,
 		cooling: null,
+		base_id: "chemlib:zirconium_iv_chloride_dust",
 	},
 	{
 		id: "zirconium_oxyhydroxide",
@@ -6177,6 +6615,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:zirconium_oxyhydroxide_dust",
 	},
 	{
 		id: "neodymium_iii_oxide",
@@ -6191,6 +6630,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:neodymium_iii_oxide_dust",
 	},
 	{
 		id: "neodymium_iii_hydroxide",
@@ -6205,6 +6645,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:neodymium_iii_hydroxide_dust",
 	},
 	{
 		id: "neodymium_nitrate",
@@ -6219,6 +6660,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:neodymium_nitrate_dust",
 	},
 	{
 		id: "neodymium_iii_chloride",
@@ -6233,6 +6675,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:neodymium_iii_chloride_dust",
 	},
 	{
 		id: "sodium_tellurite",
@@ -6247,6 +6690,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sodium_tellurite_dust",
 	},
 	{
 		id: "tellurium_dioxide",
@@ -6261,6 +6705,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:tellurium_dioxide_dust",
 	},
 	{
 		id: "bismuth_iii_oxide",
@@ -6275,6 +6720,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:bismuth_iii_oxide_dust",
 	},
 	{
 		id: "sodium_sulfite",
@@ -6289,6 +6735,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sodium_sulfite_dust",
 	},
 	{
 		id: "bismuth_hydroxide",
@@ -6303,6 +6750,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:bismuth_hydroxide_dust",
 	},
 	{
 		id: "bismuth_iii_sulfate",
@@ -6317,6 +6765,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:bismuth_iii_sulfate_dust",
 	},
 	{
 		id: "metasilicic_acid",
@@ -6331,6 +6780,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:metasilicic_acid",
 	},
 	{
 		id: "sodium_orthosilicate",
@@ -6345,6 +6795,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:sodium_orthosilicate_dust",
 	},
 	{
 		id: "methanol",
@@ -6359,6 +6810,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "liquid",
 		combustion: 726.0,
 		cooling: null,
+		base_id: "chemlib:methanol",
 	},
 	{
 		id: "potassium_iodide",
@@ -6373,6 +6825,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "solid",
 		combustion: null,
 		cooling: null,
+		base_id: "chemlib:potassium_iodide_dust",
 	},
 	{
 		id: "stackoverflowium",
@@ -6387,6 +6840,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: 1048576,
 		cooling: null,
+		base_id: "chemlib:stackoverflowium",
 	},
 	{
 		id: "stackunderflowium",
@@ -6401,6 +6855,7 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: 1048576,
 		cooling: null,
+		base_id: "chemlib:stackunderflowium",
 	},
 	{
 		id: "unknown",
@@ -6415,5 +6870,6 @@ const CHEM_ELEMENTS_TO_CREATE = [
 		matter_state: "gas",
 		combustion: 1073741824,
 		cooling: null,
+		base_id: "chemlib:unknown",
 	},
 ]

@@ -175,24 +175,4 @@ ColdSweatEvents.registries(event => {
          return 15 / distance;
       }
    )
-
-   event.addBlockTemperature(block =>
-      block.blocks(
-         "mekanismgenerators:heat_generator",
-         "mekanism:resistive_heater",
-         "mekanism:fuelfood_heater"
-      )
-         .units("c")
-         .maxTemperature(300)
-         .minTemperature(0)
-         .maxEffect(300)
-         .range(7),
-      (level, entity, state, pos, distance) => {
-         if (bentity == null) {
-            return 0
-         }
-         
-         return 0;
-      }
-   )
 })

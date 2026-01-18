@@ -29,6 +29,9 @@ ServerEvents.recipes(event => {
   event.replaceInput({ mod: 'wirelesschargers' }, 'redstone_block', 'thermal:machine_frame')
   event.replaceInput({ mod: 'wirelesschargers' }, 'gold_ingot', 'mekanism:ultimate_control_circuit')
 
+  event.smelting(Item.of('iron_ingot'), Item.of('bucket', 3))
+  event.blasting(Item.of('iron_ingot'), Item.of('bucket', 3))
+
 })
 
 function _blueprint_recipes(event) {
@@ -58,5 +61,5 @@ function _blueprint_recipes(event) {
 
   event.replaceInput({ mod: 'buildinggadgets2' }, 'iron_ingot', MATERIALS.SILVER.plate)
   event.replaceInput({ mod: 'buildinggadgets2' }, 'redstone', 'ae2:semi_dark_monitor')
-
+  
 }
