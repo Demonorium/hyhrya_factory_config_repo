@@ -213,12 +213,12 @@
 	[Machines.Sawmill]
 		#This sets the base power consumption (RF/t) for the Sawmill.
 		#Range: 1 ~ 32000
-		"Base Power" = 200
+		"Base Power" = 80
 
 	[Machines.Pulverizer]
 		#This sets the base power consumption (RF/t) for the Pulverizer.
 		#Range: 1 ~ 32000
-		"Base Power" = 200
+		"Base Power" = 80
 
 	[Machines.Smelter]
 		#This sets the base power consumption (RF/t) for the Induction Smelter.
@@ -233,7 +233,7 @@
 	[Machines.Centrifuge]
 		#This sets the base power consumption (RF/t) for the Centrifugal Separator.
 		#Range: 1 ~ 32000
-		"Base Power" = 500
+		"Base Power" = 160
 
 	[Machines.Press]
 		#This sets the base power consumption (RF/t) for the Multiservo Press.
@@ -253,7 +253,7 @@
 	[Machines.Refinery]
 		#This sets the base power consumption (RF/t) for the Fractionating Still.
 		#Range: 1 ~ 32000
-		"Base Power" = 500
+		"Base Power" = 100
 
 	[Machines.Pyrolyzer]
 		#This sets the base power consumption (RF/t) for the Pyrolyzer.
@@ -263,12 +263,12 @@
 	[Machines.Bottler]
 		#This sets the base power consumption (RF/t) for the Fluid Encapsulator.
 		#Range: 1 ~ 32000
-		"Base Power" = 500
+		"Base Power" = 100
 
 	[Machines.Brewer]
 		#This sets the base power consumption (RF/t) for the Crystallizer.
 		#Range: 1 ~ 32000
-		"Base Power" = 750
+		"Base Power" = 100
 
 	[Machines.Crafter]
 		#This sets the base power consumption (RF/t) for the Sequential Fabricator.

@@ -2,7 +2,7 @@
 #Machine Energy Usage Config. This config is synced from server to client.
 [usage]
 	#Energy per operation tick (Joules).
-	enrichmentChamber = "100"
+	enrichmentChamber = "60"
 	#Energy per operation tick (Joules).
 	osmiumCompressor = "150"
 	#Energy per operation tick (Joules).
@@ -56,20 +56,20 @@
 	#Energy per operation tick (Joules).
 	antiprotonicNucleosynthesizer = "200000"
 	#Energy per operation tick (Joules).
-	pigmentExtractor = "200"
+	pigmentExtractor = "80"
 	#Energy per operation tick (Joules).
-	pigmentMixer = "200"
+	pigmentMixer = "80"
 	#Energy per operation tick (Joules).
-	paintingMachine = "100"
+	paintingMachine = "80"
 	#Energy per chunk per tick (Joules).
-	dimensionalStabilizer = "5000"
+	dimensionalStabilizer = "1000"
 
 	#Teleporter
 	[usage.teleporter]
 		#Base Joules cost for a teleportation.
 		teleporterBase = "100000"
 		#Joules per unit of distance travelled during teleportation - sqrt(xDiff^2 + yDiff^2 + zDiff^2).
-		teleporterDistance = "1000"
+		teleporterDistance = "100"
 		#Flat additional cost for interdimensional teleportation. Distance is still taken into account minimizing energy cost based on dimension scales.
 		teleporterDimensionPenalty = "1000000000"
 
