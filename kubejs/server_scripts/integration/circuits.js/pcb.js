@@ -205,7 +205,7 @@ function assembly_drill(event, source, result) {
         "item": source.getId(),
         "count": source.getCount()
       },
-      "program": "laser",
+      "program": "drill",
       "result": {
         "item": result.getId(),
         "count": result.getCount()
@@ -254,13 +254,19 @@ function _primitive_pcb(event) {
       {
         "type": "pneumaticcraft:stacked_item",
         "item": "paper",
-        "count": 3
+        "count": 12
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "tag": "minecraft:planks",
+        "count": 1
       }
     ],
     "pressure": 1.0,
     "results": [
       {
-        "item": "pncepcb:primitive_substrate"
+        "item": "pncepcb:primitive_substrate",
+        "count": 4
       }
     ]
   })
