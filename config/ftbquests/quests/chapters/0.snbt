@@ -706,25 +706,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["690ABF4A0A5DEAC2"]
-			description: ["Некоторые виды укрепления дают вам не только утепление, но и защиту"]
-			id: "3FE9E15C3CA1F0D2"
-			rewards: [{
-				count: 8
-				id: "67F4401C1A25DC7C"
-				item: "thermal:iron_plate"
-				type: "item"
-			}]
-			subtitle: "Плоть слаба"
-			tasks: [{
-				id: "2357247AA04C62A6"
-				item: "thermal:iron_plate"
-				type: "item"
-			}]
-			x: -12.5d
-			y: 0.5d
-		}
-		{
 			id: "770C62F791CF0080"
 			tasks: [{
 				icon: "ad_astra:iron_factory_block"
@@ -1347,39 +1328,6 @@
 			}]
 			x: -11.5d
 			y: 5.0d
-		}
-		{
-			dependencies: ["690ABF4A0A5DEAC2"]
-			id: "34DA248C62675D75"
-			tasks: [{
-				id: "5D08C736229CFBA3"
-				item: "pncepcb:flexible_finished_pcb"
-				type: "item"
-			}]
-			x: -13.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["690ABF4A0A5DEAC2"]
-			id: "2E3DC1AE52F45B96"
-			tasks: [{
-				id: "440EC660327248B5"
-				item: "pncepcb:bio_compatible_finished_pcb"
-				type: "item"
-			}]
-			x: -14.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["690ABF4A0A5DEAC2"]
-			id: "2E67343D8580B1AA"
-			tasks: [{
-				id: "56222B9630F3E7C1"
-				item: "biomancy:tough_fibers"
-				type: "item"
-			}]
-			x: -12.5d
-			y: -0.5d
 		}
 		{
 			dependencies: ["690ABF4A0A5DEAC2"]

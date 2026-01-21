@@ -1,5 +1,6 @@
 // priority: 0
 
+
 ColdSweatEvents.registries(event => {
    event.addInsulator(insulator =>
       insulator.items("alexsmobs:bison_fur")
@@ -9,8 +10,7 @@ ColdSweatEvents.registries(event => {
          .slot("item")
          // operation types (1.20-): add, multiply_base, multiply_total
          // operation types (1.21+): add_value, add_multiplied_base, add_multipled_total
-         .attribute("minecraft:generic.armor", 1.0, "addition")
-         .attribute("superbwarfare:bullet_resistance", 0.01, "addition")
+         .fillSlots(false)
          .hideIfUnmet(false))
 
    event.addInsulator(insulator =>
@@ -18,6 +18,7 @@ ColdSweatEvents.registries(event => {
          .adaptiveInsulation(4, 0.005)
          // Insulation type (item, armor, or curio)
          .slot("item")
+         .fillSlots(false)
          .hideIfUnmet(false))
 
    event.addInsulator(insulator =>
@@ -26,8 +27,7 @@ ColdSweatEvents.registries(event => {
          .insulation(4, 0)
          // Insulation type (item, armor, or curio)
          .slot("item")
-         .attribute("minecraft:generic.armor", 1.0, "addition")
-         .attribute("superbwarfare:bullet_resistance", 0.01, "addition")
+         .fillSlots(false)
          .hideIfUnmet(false))
 
    event.addInsulator(insulator =>
@@ -36,7 +36,7 @@ ColdSweatEvents.registries(event => {
          .insulation(0, 4)
          // Insulation type (item, armor, or curio)
          .slot("item")
-         .attribute("minecraft:generic.armor", 1.0, "addition")
+         .fillSlots(false)
          .hideIfUnmet(false))
 
    event.addInsulator(insulator =>
@@ -45,6 +45,7 @@ ColdSweatEvents.registries(event => {
          .insulation(0, 2)
          // Insulation type (item, armor, or curio)
          .slot("item")
+         .fillSlots(false)
          .hideIfUnmet(false))
 
    event.addInsulator(insulator =>
@@ -53,8 +54,7 @@ ColdSweatEvents.registries(event => {
          .insulation(2, 2)
          // Insulation type (item, armor, or curio)
          .slot("item")
-         .attribute("minecraft:generic.max_health", 2.0, "addition")
-         .attribute("puffish_attributes:player.healing", 0.25, "addition")
+         .fillSlots(false)
          .hideIfUnmet(false))
    event.addInsulator(insulator =>
       insulator.items("clanginghowl:chunk_of_technoflesh")
@@ -62,9 +62,7 @@ ColdSweatEvents.registries(event => {
          .insulation(2, 2)
          // Insulation type (item, armor, or curio)
          .slot("item")
-         .attribute("minecraft:generic.armor", 1.0, "addition")
-         .attribute("minecraft:generic.max_health", 3.0, "addition")
-         .attribute("puffish_attributes:player.healing", 0.4, "addition")
+         .fillSlots(false)
          .hideIfUnmet(false))
 
    event.addInsulator(insulator =>
@@ -73,95 +71,21 @@ ColdSweatEvents.registries(event => {
          .adaptiveInsulation(6, 0.005)
          // Insulation type (item, armor, or curio)
          .slot("item")
-         .attribute("minecraft:generic.armor", 2.0, "addition")
-         .attribute("minecraft:generic.armor_toughness", 1.0, "addition")
-         .hideIfUnmet(false))
-
-   event.addInsulator(insulator =>
-      insulator.items("biomancy:tough_fibers")
-         .slot("item")
-         .attribute("minecraft:generic.armor_toughness", 1.0, "addition")
-         .attribute("superbwarfare:bullet_resistance", 0.02, "addition")
-         .hideIfUnmet(false))
-
-   event.addInsulator(insulator =>
-      insulator.items(MATERIALS.IRON.plate)
-         .slot("item")
-         .attribute("minecraft:generic.armor", 1.0, "addition")
-         .attribute("minecraft:generic.movement_speed", -0.01, "multiply_total")
-         .attribute("superbwarfare:bullet_resistance", 0.01, "addition")
-         .hideIfUnmet(false))
-
-   event.addInsulator(insulator =>
-      insulator.items(MATERIALS.ALUMINUM.plate)
-         .slot("item")
-         .attribute("minecraft:generic.armor", 1.0, "addition")
-         .hideIfUnmet(false))
-
-   event.addInsulator(insulator =>
-      insulator.items(MATERIALS.TITANIUM.plate)
-         .slot("item")
-         .attribute("minecraft:generic.armor", 2.0, "addition")
-         .attribute("minecraft:generic.armor_toughness", 1.0, "addition")
-         .attribute("minecraft:generic.movement_speed", -0.03, "multiply_total")
-         .attribute("superbwarfare:bullet_resistance", 0.02, "addition")
+         .fillSlots(false)
          .hideIfUnmet(false))
 
    event.addInsulator(insulator =>
       insulator.items(MATERIALS.FROSTSTEEL.ingot)
          .slot("item")
          .insulation(0, 6)
-         .attribute("minecraft:generic.armor", 1.0, "addition")
-         .attribute("minecraft:generic.movement_speed", -0.02, "multiply_total")
-         .hideIfUnmet(false))
-
-   event.addInsulator(insulator =>
-      insulator.items(MATERIALS.TUNGSTEN.plate)
-         .slot("item")
-         .attribute("minecraft:generic.armor", 3.0, "addition")
-         .attribute("minecraft:generic.armor_toughness", 2.0, "addition")
-         .attribute("minecraft:generic.movement_speed", -0.03, "multiply_total")
-         .attribute("superbwarfare:bullet_resistance", 0.03, "addition")
-         .hideIfUnmet(false))
-
-   event.addInsulator(insulator =>
-      insulator.items(MATERIALS.NETHERITE.plate)
-         .slot("item")
-         .attribute("minecraft:generic.armor", 2.0, "addition")
-         .attribute("minecraft:generic.armor_toughness", 2.0, "addition")
-         .attribute("minecraft:generic.movement_speed", -0.05, "multiply_total")
-         .attribute("superbwarfare:bullet_resistance", 0.03, "addition")
-         .hideIfUnmet(false))
-
-   event.addInsulator(insulator =>
-      insulator.items(MATERIALS.ENDERIUM.plate)
-         .slot("item")
-         .attribute("minecraft:generic.armor", 2.0, "addition")
-         .attribute("minecraft:generic.armor_toughness", 1.0, "addition")
-         .attribute("superbwarfare:bullet_resistance", 0.02, "addition")
+         .fillSlots(false)
          .hideIfUnmet(false))
 
    event.addInsulator(insulator =>
       insulator.items(MATERIALS.STELLARIUM.plate)
          .slot("item")
          .insulation(3, 1)
-         .attribute("minecraft:generic.armor", 3.0, "addition")
-         .attribute("minecraft:generic.armor_toughness", 2.0, "addition")
-         .attribute("superbwarfare:bullet_resistance", 0.03, "addition")
-         .hideIfUnmet(false))
-
-   event.addInsulator(insulator =>
-      insulator.items('pncepcb:flexible_finished_pcb')
-         .slot("item")
-         .attribute("obscure_api:critical_hit", 0.05, "addition")
-         .attribute("minecraft:generic.armor", -2.0, "addition")
-         .hideIfUnmet(false))
-   event.addInsulator(insulator =>
-      insulator.items('pncepcb:bio_compatible_finished_pcb')
-         .slot("item")
-         .attribute("obscure_api:critical_hit", 0.05, "addition")
-         .attribute("minecraft:generic.movement_speed", 0.02, "addition")
-         .attribute("minecraft:generic.armor", -1.0, "addition")
+         .fillSlots(false)
          .hideIfUnmet(false))
 
    event.addBlockTemperature(block =>

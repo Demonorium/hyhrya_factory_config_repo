@@ -89,12 +89,12 @@
 	# • *fillSlots: If true, the item will fill 1 slot per 2 insulation points. Otherwise, the item will fill 1 slot.
 	# ⌄ 
 	"Insulation Ingredients" = [
-	    ["minecraft:leather", 1, 1, "static", "", true],
-	    ["cold_sweat:chameleon_molt", 2, 0.0085, "adaptive", "", true],
-	    ["cold_sweat:hoglin_hide", 0, 2, "static", "", true],
-	    ["cold_sweat:goat_fur", 2, 0, "static", "", true],
-	    ["#minecraft:wool", 1.5, 0, "static", "", true],
-	    ["minecraft:rabbit_hide", 0, 1.5, "static", "", true]
+	    ["minecraft:leather", 1, 1, "static", "", false],
+	    ["cold_sweat:chameleon_molt", 2, 0.0085, "adaptive", "", false],
+	    ["cold_sweat:hoglin_hide", 0, 2, "static", "", false],
+	    ["cold_sweat:goat_fur", 2, 0, "static", "", false],
+	    ["#minecraft:wool", 1.5, 0, "static", "", false],
+	    ["minecraft:rabbit_hide", 0, 1.5, "static", "", false]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the items that provide insulation when worn
@@ -143,7 +143,7 @@
 	# Defines the effectiveness of insulating items in protecting against temperature
 	# ⌄ 
 	#Range: 0.0 ~ Infinity
-	"Insulation Strength" = 2.0
+	"Insulation Strength" = 4.0
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines wearable items that cannot be insulated
 	# └── Format: ["item_id", "item_id", ...etc]
