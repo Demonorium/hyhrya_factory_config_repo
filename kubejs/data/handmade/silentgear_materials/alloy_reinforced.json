@@ -1,0 +1,172 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:diamond",
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "mekanism:alloy_reinforced"
+    }
+  },
+  "name": {
+    "translate": "material.handmade.alloy_reinforced"
+  },
+  "stats": {
+    "main": {
+      "durability": 1561.0,
+      "armor_durability": 33.0,
+      "repair_value": -0.15,
+      "enchantment_value": 10.0,
+      "rarity": 70.0,
+      "charging_value": 0.8,
+      "attack_speed/hoe": 1.0,
+      "harvest_speed": 8.0,
+      "melee_damage": 3.0,
+      "magic_damage": 1.0,
+      "attack_speed": 0.1,
+      "ranged_damage": 4.0,
+      "ranged_speed": -0.2,
+      "projectile_speed": 0.9,
+      "projectile_accuracy": 1.1,
+      "armor": 26.0,
+      "armor/helmet": 4.0,
+      "armor/chestplate": 10.0,
+      "armor/leggings": 8.0,
+      "armor/boots": 5.0,
+      "armor_toughness": 9.0,
+      "magic_armor": 4.0
+    },
+    "rod": {
+      "harvest_speed": {
+        "mul2": 0.2
+      },
+      "rarity": 55.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      },
+      {
+        "name": "silentgear:lustrous",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:or",
+            "values": [
+              {
+                "type": "silentgear:material_count",
+                "count": 3
+              },
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      },
+      {
+        "name": "silentgear:lustrous",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:or",
+            "values": [
+              {
+                "type": "silentgear:material_count",
+                "count": 3
+              },
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#33EBCB"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#33EBCB"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#33EBCB"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#33EBCB"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#33EBCB"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#33EBCB"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ],
+    "adornment/all": [
+      {
+        "texture": "silentgear:adornment_generic",
+        "color": "#33EBCB"
+      },
+      {
+        "texture": "silentgear:adornment_highlight",
+        "color": "#33EBCB"
+      }
+    ],
+    "adornment/part": [
+      {
+        "texture": "silentgear:adornment",
+        "color": "#33EBCB"
+      },
+      {
+        "texture": "silentgear:adornment_highlight"
+      }
+    ]
+  }
+}

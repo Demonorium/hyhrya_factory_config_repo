@@ -29,15 +29,7 @@ const ITEMS_TO_REPLACE = [
 		to: "mekanism:ingot_steel",
 	},
 	{
-		from: "cataclysm:black_steel_ingot",
-		to: "mekanism:ingot_steel",
-	},
-	{
 		from: "ad_astra:steel_nugget",
-		to: "mekanism:nugget_steel",
-	},
-	{
-		from: "cataclysm:black_steel_nugget",
 		to: "mekanism:nugget_steel",
 	},
 	{

@@ -6,7 +6,7 @@
         "amount": 100.0
     },
     "output": {
-        "item": "chemlib:water",
+        "item": "ad_astra:ice_shard",
         "count": 1.0
     }
 }

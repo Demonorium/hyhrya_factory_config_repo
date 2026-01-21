@@ -2,6 +2,35 @@
 
 
 ServerEvents.recipes(event => {
+    event.remove({id: 'ae2:materials/formationcore'})
+    event.shaped(
+      Item.of('ae2:formation_core', 4), 
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: '#ae2:all_certus_quartz',
+            B: Item.of('ae2:fluix_dust'),
+            C: Item.of('mekanism:elite_control_circuit')
+        }
+    )
+    event.remove({id: 'ae2:materials/annihilationcore'})
+    event.shaped(
+      Item.of('ae2:annihilation_core', 4), 
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: Item.of('quartz'),
+            B: Item.of('ae2:fluix_dust'),
+            C: Item.of('mekanism:elite_control_circuit')
+        }
+    )
+
     event.remove({id: 'megacells:transform/sky_steel_ingot'})
     event.remove({id: 'ae2:network/blocks/crystal_processing_charger'})
     event.shaped(

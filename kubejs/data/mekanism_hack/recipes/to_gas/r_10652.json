@@ -3,7 +3,7 @@
     "input": {
         "amount": 1.0,
         "ingredient": {
-            "item": "chemlib:water"
+            "item": "ad_astra:ice_shard"
         }
     },
     "output": {

@@ -1,0 +1,232 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:netherite",
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "mekanism_extras:alloy_shining"
+    }
+  },
+  "name": {
+    "translate": "material.handmade.alloy_shining"
+  },
+  "stats": {
+    "main": {
+      "durability": 4500.0,
+      "armor_durability": 85.0,
+      "repair_value": -0.5,
+      "enchantment_value": 20.0,
+      "rarity": 95.0,
+      "charging_value": 0.95,
+      "harvest_speed": 85.0,
+      "melee_damage": 16.0,
+      "magic_damage": 6.0,
+      "attack_speed": 0.5,
+      "ranged_damage": 8.0,
+      "ranged_speed": 0.35,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 1.4,
+      "armor": 51.0,
+      "armor/helmet": 10.0,
+      "armor/chestplate": 18.0,
+      "armor/leggings": 14.0,
+      "armor/boots": 9.0,
+      "armor_toughness": 25.0,
+      "magic_armor": 8.0
+    },
+    "rod": {
+      "harvest_speed": {
+        "mul2": 0.4
+      },
+      "durability": {
+        "mul2": 0.5
+      },
+      "melee_damage": {
+        "add": 3.0
+      },
+      "rarity": 90.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 5
+      },
+      {
+        "name": "silentgear:hard",
+        "level": 5
+      },
+      {
+            "name": "silentgear:stellar",
+            "level": 5,
+            "conditions": [
+                {
+                  "type": "silentgear:material_ratio",
+                  "ratio": 0.75
+                }
+              ]
+      },
+      {
+        "name": "silentgear:lustrous",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.3
+          }
+        ]
+      },
+      {
+        "name": "silentgear:magnetic",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.33
+          }
+        ]
+      },
+      {
+        "name": "silentgear:fireproof",
+        "level": 1
+      },
+      {
+            "name": "silentcompat:amplifying",
+            "level": 2,
+            "conditions": [
+                {
+                  "type": "silentgear:material_ratio",
+                  "ratio": 0.5
+                }
+              ]
+        },
+        {
+            "name": "silentcompat:dodging",
+            "level": 2,
+            "conditions": [
+                {
+                  "type": "silentgear:material_ratio",
+                  "ratio": 1.0
+                }
+              ]
+        }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:fireproof",
+        "level": 1
+      },
+      {
+        "name": "silentgear:malleable",
+        "level": 4
+      },
+      {
+        "name": "silentgear:hard",
+        "level": 5
+      },
+      {
+        "name": "silentgear:lustrous",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:magnetic",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.2
+          }
+        ]
+      },
+      {
+        "name": "silentgear:stellar",
+            "level": 2
+      },
+      {
+        "name": "silentcompat:extraterrestrial",
+            "level": 1
+      }
+    ],
+    "tip": [
+        {
+            "name": "silentgear:vulcan",
+            "level": 1
+        },
+        {
+            "name": "silentgear:refractive",
+            "level": 2
+        },
+        {
+            "name": "handmade:infernal",
+            "level": 2
+       },
+      {
+        "name": "silentcompat:extraterrestrial",
+            "level": 5
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#FDE054"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#FDE054"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#FDE054"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#FDE054"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#FDE054"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#FDE054"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ]
+  }
+}

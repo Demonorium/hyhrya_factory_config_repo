@@ -1,6 +1,10 @@
 // priority: 3
 const TAGS_TO_FIX = [
 	{
+		tag: "forge:ingots/redstone_alloy",
+		item: "mekanism:alloy_infused",
+	},
+	{
 		tag: "forge:ingots/redstone",
 		item: "minecraft:redstone",
 	},
@@ -1499,6 +1503,18 @@ const TAGS_TO_FIX = [
 	{
 		tag: "forge:storage_blocks/fat",
 		item: "macabre:fat_block",
+	},
+	{
+		tag: "forge:ingots/black_steel",
+		item: "cataclysm:black_steel_ingot",
+	},
+	{
+		tag: "forge:nuggets/black_steel",
+		item: "cataclysm:black_steel_nugget",
+	},
+	{
+		tag: "forge:storage_blocks/black_steel",
+		item: "cataclysm:black_steel_block",
 	},
 	{
 		tag: "forge:ingots/lithium",

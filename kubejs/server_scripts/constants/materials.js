@@ -1338,6 +1338,17 @@ const MATERIALS = {
 		ingot: "macabre:fat",
 		block: "macabre:fat_block",
 	},
+	BLACK_STEEL: {
+		name: "black_steel",
+		amount: 1.0,
+		metal: true,
+		normal_ores_tag: "#forge:ores/black_steel",
+		normal_ores: [
+		],
+		ingot: "cataclysm:black_steel_ingot",
+		nugget: "cataclysm:black_steel_nugget",
+		block: "cataclysm:black_steel_block",
+	},
 	LITHIUM: {
 		name: "lithium",
 		amount: 1.0,

@@ -3,8 +3,21 @@
   "max_level": 3,
   "conditions": [
     {
-      "type": "silentgear:gear_type",
-      "gear_type": "weapon"
+      "type": "silentgear:or",
+      "values": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "weapon"
+        },
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "tool"
+        },
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "tip"
+        }
+      ]
     }
   ],
   "name": {
@@ -13,7 +26,6 @@
   "description": {
     "translate": "trait.silentcompat.extraterrestrial.desc"
   },
-
   "effect": "clanginghowl:cosmic_irradiation",
   "duration": 10,
   "chance": 1
