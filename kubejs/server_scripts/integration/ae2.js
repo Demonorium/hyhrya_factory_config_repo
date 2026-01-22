@@ -168,7 +168,7 @@ ServerEvents.recipes(event => {
     mae2_aluminum_network("cells/chemical_storage_cell_16m", MATERIALS.OSMIUM.ingot, MATERIALS.PLATINUM.ingot);
     mae2_aluminum_network("cells/chemical_storage_cell_64m", MATERIALS.OSMIUM.ingot, MATERIALS.PLATINUM.ingot);
     mae2_aluminum_network("cells/chemical_storage_cell_256m", MATERIALS.OSMIUM.ingot, MATERIALS.PLATINUM.ingot);
-
+    
     event.custom({
         "type": "thermal:press",
         "ingredients": [
@@ -641,4 +641,13 @@ ServerEvents.recipes(event => {
 
     event.replaceInput({id: 'ae2:network/parts/energy_acceptor'}, 'copper_ingot', 'thermal:energy_cell_frame')
     event.replaceInput({id: 'ae2:network/blocks/crystal_processing_growth_accelerator'}, 'ae2:fluix_block', 'clanginghowl:crystal_former')
+})
+
+
+ServerEvents.tags("item", event => {
+  event.add("thermal:crafting/dies", 'ae2:silicon_press')
+  event.add("thermal:crafting/dies", 'ae2:logic_processor_press')
+  event.add("thermal:crafting/dies", 'ae2:calculation_processor_press')
+  event.add("thermal:crafting/dies", 'ae2:engineering_processor_press')
+  event.add("thermal:crafting/dies", 'megacells:accumulation_processor_press')
 })
