@@ -7,8 +7,10 @@ import urllib.error as error
 import urllib.request
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--force", "-f",  help="always update", default=False, required=False)
-parser.add_argument("--skip", "-s",  help="skip install", default=False, required=False)
+parser.add_argument("--force", "-f",  help="always update", default=False, required=False,
+                    action='store_true')
+parser.add_argument("--skip", "-s",  help="skip install", default=False, required=False,
+                    action='store_true')
 args = parser.parse_args()
 
 with open('modpack_version.txt', mode='r', encoding='utf-8') as f:
@@ -44,27 +46,34 @@ if version >= upsteam_version:
                 text = input('Желаете настроить сборку? (Y/n) ')
                 text = text.lower().strip()
 
-            if text == 'n':
+            if text != 'n':
+                print('Это первый запуск настроек. Чтобы снова открыть эти настройки запустите файл settings.py')
+                os.system('python settings.py')
                 exit(0)
-
-            print('Это первый запуск настроек. Чтобы снова открыть эти настройки запустите файл settings.py')
-            os.system('python settings.py')
-        else:
+    
+        text = '_'
+        while text != 'y' and text != 'n' and len(text) > 0:
+            text = input('Желаете принудительно обновиться? (y/N) ')
+            text = text.lower().strip()
+        
+        if text != 'y' and len(text) == 0:
             input('Нажмите enter чтобы завершить...')
-    exit(0)
+            exit(0)
+    else:
+        exit(0)
 
+else:
+    text = '_'
+    if args.force:
+        text = 'y'
 
-text = '_'
-if args.force:
-    text = 'y'
+    while text != 'y' and text != 'n' and len(text) > 0:
+        text = input('Обнаружено обновление ' + str(upsteam_version) + '! Желаете обновиться? (Y/n) ')
+        text = text.lower().strip()
 
-while text != 'y' and text != 'n' and len(text) > 0:
-    text = input('Обнаружено обновление ' + str(upsteam_version) + '! Желаете обновиться? (Y/n) ')
-    text = text.lower().strip()
-
-if text == 'n':
-    print('Обновление отменено.')
-    exit(0)
+    if text == 'n':
+        print('Обновление отменено.')
+        exit(0)
 
 print('Запуск процедуры обновления')
 print('Сохранение номера версии')
