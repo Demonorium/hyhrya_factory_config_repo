@@ -6,6 +6,7 @@ const MATERIALS = {
 		name: "redstone",
 		amount: 5.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/redstone",
 		normal_ores: [
 			"minecraft:redstone_ore",
@@ -31,6 +32,7 @@ const MATERIALS = {
 		name: "lapis",
 		amount: 5.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/lapis",
 		normal_ores: [
 			"minecraft:lapis_ore",
@@ -49,6 +51,15 @@ const MATERIALS = {
 		dirty: "moremekanismprocessing:dirty_dust_lapis",
 		clump: "moremekanismprocessing:clump_lapis",
 		shard: "moremekanismprocessing:shard_lapis",
+		chestplate: "mekanismtools:lapis_lazuli_chestplate",
+		leggings: "mekanismtools:lapis_lazuli_leggings",
+		helmet: "mekanismtools:lapis_lazuli_helmet",
+		boots: "mekanismtools:lapis_lazuli_boots",
+		sword: "mekanismtools:lapis_lazuli_sword",
+		pickaxe: "mekanismtools:lapis_lazuli_pickaxe",
+		hoe: "mekanismtools:lapis_lazuli_hoe",
+		axe: "mekanismtools:lapis_lazuli_axe",
+		shovel: "mekanismtools:lapis_lazuli_shovel",
 	},
 	DIAMOND: {
 		temperature: 4273,
@@ -56,6 +67,7 @@ const MATERIALS = {
 		name: "diamond",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/diamond",
 		normal_ores: [
 			"minecraft:diamond_ore",
@@ -80,6 +92,15 @@ const MATERIALS = {
 		dirty: "moremekanismprocessing:dirty_dust_diamond",
 		clump: "moremekanismprocessing:clump_diamond",
 		shard: "moremekanismprocessing:shard_diamond",
+		chestplate: "minecraft:diamond_chestplate",
+		leggings: "minecraft:diamond_leggings",
+		helmet: "minecraft:diamond_helmet",
+		boots: "minecraft:diamond_boots",
+		sword: "minecraft:diamond_sword",
+		pickaxe: "minecraft:diamond_pickaxe",
+		hoe: "minecraft:diamond_hoe",
+		axe: "minecraft:diamond_axe",
+		shovel: "minecraft:diamond_shovel",
 	},
 	EMERALD: {
 		temperature: 1173,
@@ -87,6 +108,7 @@ const MATERIALS = {
 		name: "emerald",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/emerald",
 		normal_ores: [
 			"minecraft:emerald_ore",
@@ -109,6 +131,7 @@ const MATERIALS = {
 		name: "netherite",
 		amount: 1.0,
 		metal: true,
+		upgrade: true,
 		normal_ores_tag: "#forge:ores/netherite",
 		normal_ores: [
 		],
@@ -119,6 +142,15 @@ const MATERIALS = {
 		plate: "thermal:netherite_plate",
 		gear: "thermal:netherite_gear",
 		dust: "mekanism:dust_netherite",
+		chestplate: "minecraft:netherite_chestplate",
+		leggings: "minecraft:netherite_leggings",
+		helmet: "minecraft:netherite_helmet",
+		boots: "minecraft:netherite_boots",
+		sword: "minecraft:netherite_sword",
+		pickaxe: "minecraft:netherite_pickaxe",
+		hoe: "minecraft:netherite_hoe",
+		axe: "minecraft:netherite_axe",
+		shovel: "minecraft:netherite_shovel",
 	},
 	GLOWSTONE: {
 		temperature: 3573,
@@ -126,6 +158,7 @@ const MATERIALS = {
 		name: "glowstone",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/glowstone",
 		normal_ores: [
 		],
@@ -134,6 +167,15 @@ const MATERIALS = {
 		block: "mekanism:block_refined_glowstone",
 		dust: "minecraft:glowstone_dust",
 		fluid: "thermal:glowstone",
+		chestplate: "mekanismtools:refined_glowstone_chestplate",
+		leggings: "mekanismtools:refined_glowstone_leggings",
+		helmet: "mekanismtools:refined_glowstone_helmet",
+		boots: "mekanismtools:refined_glowstone_boots",
+		sword: "mekanismtools:refined_glowstone_sword",
+		pickaxe: "mekanismtools:refined_glowstone_pickaxe",
+		hoe: "mekanismtools:refined_glowstone_hoe",
+		axe: "mekanismtools:refined_glowstone_axe",
+		shovel: "mekanismtools:refined_glowstone_shovel",
 	},
 	ENDER_PEARL: {
 		temperature: 4273,
@@ -141,6 +183,7 @@ const MATERIALS = {
 		name: "ender_pearl",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/ender_pearl",
 		normal_ores: [
 		],
@@ -152,6 +195,7 @@ const MATERIALS = {
 		name: "coal",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/coal",
 		normal_ores: [
 			"minecraft:coal_ore",
@@ -179,6 +223,7 @@ const MATERIALS = {
 		name: "nether_star",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/nether_star",
 		normal_ores: [
 		],
@@ -191,6 +236,7 @@ const MATERIALS = {
 		name: "fluorite",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/fluorite",
 		normal_ores: [
 			"mekanism:fluorite_ore",
@@ -210,6 +256,7 @@ const MATERIALS = {
 		name: "naquadah",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/naquadah",
 		normal_ores: [
 			"sgjourney:naquadah_ore",
@@ -231,6 +278,15 @@ const MATERIALS = {
 		dirty: "mekanism_extras:dirty_dust_naquadah",
 		clump: "mekanism_extras:clump_naquadah",
 		shard: "mekanism_extras:shard_naquadah",
+		chestplate: "sgjourney:naquadah_chestplate",
+		leggings: "sgjourney:naquadah_leggings",
+		helmet: "sgjourney:naquadah_helmet",
+		boots: "sgjourney:naquadah_boots",
+		sword: "sgjourney:naquadah_sword",
+		pickaxe: "sgjourney:naquadah_pickaxe",
+		hoe: "sgjourney:naquadah_hoe",
+		axe: "sgjourney:naquadah_axe",
+		shovel: "sgjourney:naquadah_shovel",
 		plate_generated: true,
 		gear_generated: true,
 	},
@@ -240,6 +296,7 @@ const MATERIALS = {
 		name: "steel",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/steel",
 		normal_ores: [
 		],
@@ -253,6 +310,15 @@ const MATERIALS = {
 		dust: "mekanism:dust_steel",
 		fluid: "kubejs:steel",
 		fluid_generated: true,
+		chestplate: "mekanismtools:steel_chestplate",
+		leggings: "mekanismtools:steel_leggings",
+		helmet: "mekanismtools:steel_helmet",
+		boots: "mekanismtools:steel_boots",
+		sword: "mekanismtools:steel_sword",
+		pickaxe: "mekanismtools:steel_pickaxe",
+		hoe: "mekanismtools:steel_hoe",
+		axe: "mekanismtools:steel_axe",
+		shovel: "mekanismtools:steel_shovel",
 		gear_generated: true,
 	},
 	DESH: {
@@ -261,6 +327,7 @@ const MATERIALS = {
 		name: "desh",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/desh",
 		normal_ores: [
 			"ad_astra:moon_desh_ore",
@@ -286,6 +353,7 @@ const MATERIALS = {
 		name: "ostrum",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/ostrum",
 		normal_ores: [
 			"ad_astra:mars_ostrum_ore",
@@ -311,6 +379,7 @@ const MATERIALS = {
 		name: "calorite",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/calorite",
 		normal_ores: [
 			"ad_astra:venus_calorite_ore",
@@ -336,6 +405,7 @@ const MATERIALS = {
 		name: "etrium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/etrium",
 		normal_ores: [
 		],
@@ -350,6 +420,7 @@ const MATERIALS = {
 		name: "blaze_gold",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/blaze_gold",
 		normal_ores: [
 		],
@@ -364,6 +435,7 @@ const MATERIALS = {
 		name: "arcmetal",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/arcmetal",
 		normal_ores: [
 			"silentcompat:arcmetal_ore",
@@ -399,6 +471,7 @@ const MATERIALS = {
 		name: "voidmetal",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/voidmetal",
 		normal_ores: [
 			"silentcompat:voidmetal_ore",
@@ -434,6 +507,7 @@ const MATERIALS = {
 		name: "solarmetal",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/solarmetal",
 		normal_ores: [
 			"silentcompat:solarmetal_ore",
@@ -469,6 +543,7 @@ const MATERIALS = {
 		name: "plasteel",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/plasteel",
 		normal_ores: [
 			"silentcompat:plasteel_ore",
@@ -504,6 +579,7 @@ const MATERIALS = {
 		name: "bort",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/bort",
 		normal_ores: [
 			"silentgear:bort_ore",
@@ -525,6 +601,7 @@ const MATERIALS = {
 		name: "crimson_iron",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/crimson_iron",
 		normal_ores: [
 			"silentgear:crimson_iron_ore",
@@ -549,6 +626,7 @@ const MATERIALS = {
 		name: "azure_silver",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/azure_silver",
 		normal_ores: [
 			"silentgear:azure_silver_ore",
@@ -572,6 +650,7 @@ const MATERIALS = {
 		name: "bronze",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/bronze",
 		normal_ores: [
 		],
@@ -581,6 +660,15 @@ const MATERIALS = {
 		plate: "thermal:bronze_plate",
 		gear: "thermal:bronze_gear",
 		dust: "mekanism:dust_bronze",
+		chestplate: "mekanismtools:bronze_chestplate",
+		leggings: "mekanismtools:bronze_leggings",
+		helmet: "mekanismtools:bronze_helmet",
+		boots: "mekanismtools:bronze_boots",
+		sword: "mekanismtools:bronze_sword",
+		pickaxe: "mekanismtools:bronze_pickaxe",
+		hoe: "mekanismtools:bronze_hoe",
+		axe: "mekanismtools:bronze_axe",
+		shovel: "mekanismtools:bronze_shovel",
 	},
 	TYRIAN_STEEL: {
 		temperature: 6273,
@@ -588,6 +676,7 @@ const MATERIALS = {
 		name: "tyrian_steel",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/tyrian_steel",
 		normal_ores: [
 		],
@@ -602,6 +691,7 @@ const MATERIALS = {
 		name: "midnight_iron",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/midnight_iron",
 		normal_ores: [
 		],
@@ -615,6 +705,7 @@ const MATERIALS = {
 		name: "sculk_alloy",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/sculk_alloy",
 		normal_ores: [
 		],
@@ -628,6 +719,7 @@ const MATERIALS = {
 		name: "bunny_steel",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/bunny_steel",
 		normal_ores: [
 		],
@@ -641,6 +733,7 @@ const MATERIALS = {
 		name: "capsid_alloy",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/capsid_alloy",
 		normal_ores: [
 		],
@@ -654,6 +747,7 @@ const MATERIALS = {
 		name: "source_steel",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/source_steel",
 		normal_ores: [
 		],
@@ -667,6 +761,7 @@ const MATERIALS = {
 		name: "crimson_steel",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/crimson_steel",
 		normal_ores: [
 		],
@@ -679,6 +774,7 @@ const MATERIALS = {
 		name: "regalium",
 		amount: 1.0,
 		metal: false,
+		upgrade: true,
 		normal_ores_tag: "#forge:ores/regalium",
 		normal_ores: [
 			"undergarden:depthrock_regalium_ore",
@@ -705,6 +801,7 @@ const MATERIALS = {
 		name: "cloggrum",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/cloggrum",
 		normal_ores: [
 			"undergarden:depthrock_cloggrum_ore",
@@ -731,6 +828,15 @@ const MATERIALS = {
 		clump_generated: true,
 		shard: "kubejs:shard_cloggrum",
 		shard_generated: true,
+		chestplate: "undergarden:cloggrum_chestplate",
+		leggings: "undergarden:cloggrum_leggings",
+		helmet: "undergarden:cloggrum_helmet",
+		boots: "undergarden:cloggrum_boots",
+		sword: "undergarden:cloggrum_sword",
+		pickaxe: "undergarden:cloggrum_pickaxe",
+		hoe: "undergarden:cloggrum_hoe",
+		axe: "undergarden:cloggrum_axe",
+		shovel: "undergarden:cloggrum_shovel",
 		generated_slurry: true,
 		plate_generated: true,
 		gear_generated: true,
@@ -742,6 +848,7 @@ const MATERIALS = {
 		name: "froststeel",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/froststeel",
 		normal_ores: [
 			"undergarden:shiverstone_froststeel_ore",
@@ -767,6 +874,15 @@ const MATERIALS = {
 		clump_generated: true,
 		shard: "kubejs:shard_froststeel",
 		shard_generated: true,
+		chestplate: "undergarden:froststeel_chestplate",
+		leggings: "undergarden:froststeel_leggings",
+		helmet: "undergarden:froststeel_helmet",
+		boots: "undergarden:froststeel_boots",
+		sword: "undergarden:froststeel_sword",
+		pickaxe: "undergarden:froststeel_pickaxe",
+		hoe: "undergarden:froststeel_hoe",
+		axe: "undergarden:froststeel_axe",
+		shovel: "undergarden:froststeel_shovel",
 		generated_slurry: true,
 		plate_generated: true,
 		gear_generated: true,
@@ -778,6 +894,7 @@ const MATERIALS = {
 		name: "utherium",
 		amount: 2.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/utherium",
 		normal_ores: [
 			"undergarden:depthrock_utherium_ore",
@@ -800,6 +917,15 @@ const MATERIALS = {
 		clump_generated: true,
 		shard: "kubejs:shard_utherium",
 		shard_generated: true,
+		chestplate: "undergarden:utherium_chestplate",
+		leggings: "undergarden:utherium_leggings",
+		helmet: "undergarden:utherium_helmet",
+		boots: "undergarden:utherium_boots",
+		sword: "undergarden:utherium_sword",
+		pickaxe: "undergarden:utherium_pickaxe",
+		hoe: "undergarden:utherium_hoe",
+		axe: "undergarden:utherium_axe",
+		shovel: "undergarden:utherium_shovel",
 		generated_slurry: true,
 	},
 	FORGOTTEN: {
@@ -808,17 +934,24 @@ const MATERIALS = {
 		name: "forgotten",
 		amount: 1.0,
 		metal: true,
+		upgrade: true,
 		normal_ores_tag: "#forge:ores/forgotten",
 		normal_ores: [
 		],
 		ingot: "undergarden:forgotten_ingot",
 		nugget: "undergarden:forgotten_nugget",
 		block: "undergarden:forgotten_block",
+		sword: "undergarden:forgotten_sword",
+		pickaxe: "undergarden:forgotten_pickaxe",
+		hoe: "undergarden:forgotten_hoe",
+		axe: "undergarden:forgotten_axe",
+		shovel: "undergarden:forgotten_shovel",
 	},
 	SKY_STEEL: {
 		name: "sky_steel",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/sky_steel",
 		normal_ores: [
 		],
@@ -831,6 +964,7 @@ const MATERIALS = {
 		name: "ruby",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/ruby",
 		normal_ores: [
 			"thermal_and_space:venus_ruby_ore",
@@ -853,6 +987,7 @@ const MATERIALS = {
 		name: "sapphire",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/sapphire",
 		normal_ores: [
 			"thermal_and_space:glacio_sapphire_ore",
@@ -875,6 +1010,7 @@ const MATERIALS = {
 		name: "green_sapphire",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/green_sapphire",
 		normal_ores: [
 		],
@@ -889,12 +1025,17 @@ const MATERIALS = {
 		name: "compressed_iron",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/compressed_iron",
 		normal_ores: [
 		],
 		ingot: "pneumaticcraft:ingot_iron_compressed",
 		block: "pneumaticcraft:compressed_iron_block",
 		gear: "pneumaticcraft:compressed_iron_gear",
+		chestplate: "pneumaticcraft:compressed_iron_chestplate",
+		leggings: "pneumaticcraft:compressed_iron_leggings",
+		helmet: "pneumaticcraft:compressed_iron_helmet",
+		boots: "pneumaticcraft:compressed_iron_boots",
 	},
 	ENDERIUM: {
 		temperature: 6273,
@@ -902,6 +1043,7 @@ const MATERIALS = {
 		name: "enderium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/enderium",
 		normal_ores: [
 		],
@@ -921,6 +1063,7 @@ const MATERIALS = {
 		name: "melodium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/melodium",
 		normal_ores: [
 		],
@@ -940,6 +1083,7 @@ const MATERIALS = {
 		name: "stellarium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/stellarium",
 		normal_ores: [
 		],
@@ -959,6 +1103,7 @@ const MATERIALS = {
 		name: "cemented_carbide",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/cemented_carbide",
 		normal_ores: [
 		],
@@ -972,6 +1117,7 @@ const MATERIALS = {
 		name: "plastic",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/plastic",
 		normal_ores: [
 		],
@@ -982,6 +1128,7 @@ const MATERIALS = {
 		name: "antimatter",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/antimatter",
 		normal_ores: [
 		],
@@ -992,6 +1139,7 @@ const MATERIALS = {
 		name: "smart_alloy",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/smart_alloy",
 		normal_ores: [
 		],
@@ -1003,6 +1151,7 @@ const MATERIALS = {
 		name: "extraterrestrial_steel",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/extraterrestrial_steel",
 		normal_ores: [
 			"clanginghowl:extraterrestrial_steel_ore",
@@ -1036,6 +1185,7 @@ const MATERIALS = {
 		name: "nickel",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/nickel",
 		normal_ores: [
 			"thermal_and_space:glacio_nickel_ore",
@@ -1073,6 +1223,7 @@ const MATERIALS = {
 		name: "invar",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/invar",
 		normal_ores: [
 		],
@@ -1092,6 +1243,7 @@ const MATERIALS = {
 		name: "electrum",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/electrum",
 		normal_ores: [
 		],
@@ -1111,6 +1263,7 @@ const MATERIALS = {
 		name: "azure_electrum",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/azure_electrum",
 		normal_ores: [
 		],
@@ -1132,6 +1285,7 @@ const MATERIALS = {
 		name: "constantan",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/constantan",
 		normal_ores: [
 		],
@@ -1151,6 +1305,7 @@ const MATERIALS = {
 		name: "signalum",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/signalum",
 		normal_ores: [
 		],
@@ -1170,6 +1325,7 @@ const MATERIALS = {
 		name: "prismalium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/prismalium",
 		normal_ores: [
 		],
@@ -1189,6 +1345,7 @@ const MATERIALS = {
 		name: "lumium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/lumium",
 		normal_ores: [
 		],
@@ -1208,6 +1365,7 @@ const MATERIALS = {
 		name: "amethyst",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/amethyst",
 		normal_ores: [
 		],
@@ -1227,6 +1385,7 @@ const MATERIALS = {
 		name: "apatite",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/apatite",
 		normal_ores: [
 			"thermal_and_space:glacio_apatite_ore",
@@ -1249,6 +1408,7 @@ const MATERIALS = {
 		name: "cinnabar",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/cinnabar",
 		normal_ores: [
 			"thermal_and_space:glacio_cinnabar_ore",
@@ -1274,6 +1434,7 @@ const MATERIALS = {
 		name: "niter",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/niter",
 		normal_ores: [
 			"thermal_and_space:glacio_niter_ore",
@@ -1298,6 +1459,7 @@ const MATERIALS = {
 		name: "titanium_beryllide",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/titanium_beryllide",
 		normal_ores: [
 		],
@@ -1308,6 +1470,7 @@ const MATERIALS = {
 		name: "ferrum",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/ferrum",
 		normal_ores: [
 			"macabre:ferrum_ore",
@@ -1315,22 +1478,42 @@ const MATERIALS = {
 		ingot: "macabre:ferrum_ingot",
 		block: "macabre:ferrum_block",
 		raw: "macabre:raw_ferrum",
+		chestplate: "macabre:ferrum_armor_chestplate",
+		leggings: "macabre:ferrum_armor_leggings",
+		helmet: "macabre:ferrum_armor_helmet",
+		boots: "macabre:ferrum_armor_boots",
+		sword: "macabre:ferrum_sword",
+		pickaxe: "macabre:ferrum_pickaxe",
+		hoe: "macabre:ferrum_hoe",
+		axe: "macabre:ferrum_axe",
+		shovel: "macabre:ferrum_shovel",
 	},
 	PLASMA: {
 		name: "plasma",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/plasma",
 		normal_ores: [
 			"macabre:plasma_ore",
 		],
 		ingot: "macabre:plasma",
 		raw: "macabre:raw_plasma",
+		chestplate: "macabre:plasma_armor_chestplate",
+		leggings: "macabre:plasma_armor_leggings",
+		helmet: "macabre:plasma_armor_helmet",
+		boots: "macabre:plasma_armor_boots",
+		sword: "macabre:plasma_sword",
+		pickaxe: "macabre:plasma_pickaxe",
+		hoe: "macabre:plasma_hoe",
+		axe: "macabre:plasma_axe",
+		shovel: "macabre:plasma_shovel",
 	},
 	FAT: {
 		name: "fat",
 		amount: 1.0,
 		metal: false,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/fat",
 		normal_ores: [
 			"macabre:fat_ore",
@@ -1342,17 +1525,24 @@ const MATERIALS = {
 		name: "black_steel",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/black_steel",
 		normal_ores: [
 		],
 		ingot: "cataclysm:black_steel_ingot",
 		nugget: "cataclysm:black_steel_nugget",
 		block: "cataclysm:black_steel_block",
+		sword: "cataclysm:black_steel_sword",
+		pickaxe: "cataclysm:black_steel_pickaxe",
+		hoe: "cataclysm:black_steel_hoe",
+		axe: "cataclysm:black_steel_axe",
+		shovel: "cataclysm:black_steel_shovel",
 	},
 	LITHIUM: {
 		name: "lithium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/lithium",
 		normal_ores: [
 		],
@@ -1373,6 +1563,7 @@ const MATERIALS = {
 		name: "beryllium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/beryllium",
 		normal_ores: [
 		],
@@ -1391,6 +1582,7 @@ const MATERIALS = {
 		name: "boron",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/boron",
 		normal_ores: [
 		],
@@ -1407,6 +1599,7 @@ const MATERIALS = {
 		name: "sodium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/sodium",
 		normal_ores: [
 		],
@@ -1425,6 +1618,7 @@ const MATERIALS = {
 		name: "magnesium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/magnesium",
 		normal_ores: [
 		],
@@ -1443,6 +1637,7 @@ const MATERIALS = {
 		name: "aluminum",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/aluminum",
 		normal_ores: [
 		],
@@ -1463,6 +1658,7 @@ const MATERIALS = {
 		name: "potassium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/potassium",
 		normal_ores: [
 		],
@@ -1481,6 +1677,7 @@ const MATERIALS = {
 		name: "calcium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/calcium",
 		normal_ores: [
 		],
@@ -1499,6 +1696,7 @@ const MATERIALS = {
 		name: "scandium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/scandium",
 		normal_ores: [
 		],
@@ -1517,6 +1715,7 @@ const MATERIALS = {
 		name: "titanium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/titanium",
 		normal_ores: [
 		],
@@ -1538,6 +1737,7 @@ const MATERIALS = {
 		name: "vanadium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/vanadium",
 		normal_ores: [
 		],
@@ -1556,6 +1756,7 @@ const MATERIALS = {
 		name: "chromium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/chromium",
 		normal_ores: [
 		],
@@ -1574,6 +1775,7 @@ const MATERIALS = {
 		name: "manganese",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/manganese",
 		normal_ores: [
 		],
@@ -1592,6 +1794,7 @@ const MATERIALS = {
 		name: "iron",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/iron",
 		normal_ores: [
 			"minecraft:iron_ore",
@@ -1625,11 +1828,21 @@ const MATERIALS = {
 		dirty: "mekanism:dirty_dust_iron",
 		clump: "mekanism:clump_iron",
 		shard: "mekanism:shard_iron",
+		chestplate: "minecraft:iron_chestplate",
+		leggings: "minecraft:iron_leggings",
+		helmet: "minecraft:iron_helmet",
+		boots: "minecraft:iron_boots",
+		sword: "minecraft:iron_sword",
+		pickaxe: "minecraft:iron_pickaxe",
+		hoe: "minecraft:iron_hoe",
+		axe: "minecraft:iron_axe",
+		shovel: "minecraft:iron_shovel",
 	},
 	COBALT: {
 		name: "cobalt",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/cobalt",
 		normal_ores: [
 		],
@@ -1650,6 +1863,7 @@ const MATERIALS = {
 		name: "copper",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/copper",
 		normal_ores: [
 			"minecraft:copper_ore",
@@ -1682,6 +1896,7 @@ const MATERIALS = {
 		name: "zinc",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/zinc",
 		normal_ores: [
 		],
@@ -1703,6 +1918,7 @@ const MATERIALS = {
 		name: "gallium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/gallium",
 		normal_ores: [
 		],
@@ -1721,6 +1937,7 @@ const MATERIALS = {
 		name: "rubidium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/rubidium",
 		normal_ores: [
 		],
@@ -1739,6 +1956,7 @@ const MATERIALS = {
 		name: "strontium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/strontium",
 		normal_ores: [
 		],
@@ -1757,6 +1975,7 @@ const MATERIALS = {
 		name: "yttrium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/yttrium",
 		normal_ores: [
 		],
@@ -1775,6 +1994,7 @@ const MATERIALS = {
 		name: "zirconium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/zirconium",
 		normal_ores: [
 		],
@@ -1793,6 +2013,7 @@ const MATERIALS = {
 		name: "niobium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/niobium",
 		normal_ores: [
 		],
@@ -1811,6 +2032,7 @@ const MATERIALS = {
 		name: "molybdenum",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/molybdenum",
 		normal_ores: [
 		],
@@ -1829,6 +2051,7 @@ const MATERIALS = {
 		name: "ruthenium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/ruthenium",
 		normal_ores: [
 		],
@@ -1847,6 +2070,7 @@ const MATERIALS = {
 		name: "rhodium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/rhodium",
 		normal_ores: [
 		],
@@ -1865,6 +2089,7 @@ const MATERIALS = {
 		name: "palladium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/palladium",
 		normal_ores: [
 		],
@@ -1883,6 +2108,7 @@ const MATERIALS = {
 		name: "silver",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/silver",
 		normal_ores: [
 			"thermal_and_space:glacio_silver_ore",
@@ -1917,6 +2143,7 @@ const MATERIALS = {
 		name: "cadmium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/cadmium",
 		normal_ores: [
 		],
@@ -1935,6 +2162,7 @@ const MATERIALS = {
 		name: "indium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/indium",
 		normal_ores: [
 		],
@@ -1953,6 +2181,7 @@ const MATERIALS = {
 		name: "tin",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/tin",
 		normal_ores: [
 			"thermal_and_space:glacio_tin_ore",
@@ -1992,6 +2221,7 @@ const MATERIALS = {
 		name: "cesium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/cesium",
 		normal_ores: [
 		],
@@ -2010,6 +2240,7 @@ const MATERIALS = {
 		name: "barium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/barium",
 		normal_ores: [
 		],
@@ -2028,6 +2259,7 @@ const MATERIALS = {
 		name: "lanthanum",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/lanthanum",
 		normal_ores: [
 		],
@@ -2046,6 +2278,7 @@ const MATERIALS = {
 		name: "cerium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/cerium",
 		normal_ores: [
 		],
@@ -2064,6 +2297,7 @@ const MATERIALS = {
 		name: "praseodymium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/praseodymium",
 		normal_ores: [
 		],
@@ -2082,6 +2316,7 @@ const MATERIALS = {
 		name: "neodymium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/neodymium",
 		normal_ores: [
 		],
@@ -2100,6 +2335,7 @@ const MATERIALS = {
 		name: "samarium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/samarium",
 		normal_ores: [
 		],
@@ -2118,6 +2354,7 @@ const MATERIALS = {
 		name: "europium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/europium",
 		normal_ores: [
 		],
@@ -2136,6 +2373,7 @@ const MATERIALS = {
 		name: "gadolinium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/gadolinium",
 		normal_ores: [
 		],
@@ -2154,6 +2392,7 @@ const MATERIALS = {
 		name: "terbium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/terbium",
 		normal_ores: [
 		],
@@ -2172,6 +2411,7 @@ const MATERIALS = {
 		name: "dysprosium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/dysprosium",
 		normal_ores: [
 		],
@@ -2190,6 +2430,7 @@ const MATERIALS = {
 		name: "holmium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/holmium",
 		normal_ores: [
 		],
@@ -2208,6 +2449,7 @@ const MATERIALS = {
 		name: "erbium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/erbium",
 		normal_ores: [
 		],
@@ -2226,6 +2468,7 @@ const MATERIALS = {
 		name: "thulium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/thulium",
 		normal_ores: [
 		],
@@ -2244,6 +2487,7 @@ const MATERIALS = {
 		name: "ytterbium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/ytterbium",
 		normal_ores: [
 		],
@@ -2262,6 +2506,7 @@ const MATERIALS = {
 		name: "lutetium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/lutetium",
 		normal_ores: [
 		],
@@ -2280,6 +2525,7 @@ const MATERIALS = {
 		name: "hafnium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/hafnium",
 		normal_ores: [
 		],
@@ -2298,6 +2544,7 @@ const MATERIALS = {
 		name: "tantalum",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/tantalum",
 		normal_ores: [
 		],
@@ -2316,6 +2563,7 @@ const MATERIALS = {
 		name: "tungsten",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/tungsten",
 		normal_ores: [
 		],
@@ -2336,6 +2584,7 @@ const MATERIALS = {
 		name: "rhenium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/rhenium",
 		normal_ores: [
 		],
@@ -2354,6 +2603,7 @@ const MATERIALS = {
 		name: "osmium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/osmium",
 		normal_ores: [
 			"mekanism:osmium_ore",
@@ -2381,11 +2631,21 @@ const MATERIALS = {
 		dirty: "mekanism:dirty_dust_osmium",
 		clump: "mekanism:clump_osmium",
 		shard: "mekanism:shard_osmium",
+		chestplate: "mekanismtools:osmium_chestplate",
+		leggings: "mekanismtools:osmium_leggings",
+		helmet: "mekanismtools:osmium_helmet",
+		boots: "mekanismtools:osmium_boots",
+		sword: "mekanismtools:osmium_sword",
+		pickaxe: "mekanismtools:osmium_pickaxe",
+		hoe: "mekanismtools:osmium_hoe",
+		axe: "mekanismtools:osmium_axe",
+		shovel: "mekanismtools:osmium_shovel",
 	},
 	IRIDIUM: {
 		name: "iridium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/iridium",
 		normal_ores: [
 		],
@@ -2406,6 +2666,7 @@ const MATERIALS = {
 		name: "platinum",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/platinum",
 		normal_ores: [
 		],
@@ -2426,6 +2687,7 @@ const MATERIALS = {
 		name: "gold",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/gold",
 		normal_ores: [
 			"minecraft:gold_ore",
@@ -2457,11 +2719,21 @@ const MATERIALS = {
 		dirty: "mekanism:dirty_dust_gold",
 		clump: "mekanism:clump_gold",
 		shard: "mekanism:shard_gold",
+		chestplate: "minecraft:golden_chestplate",
+		leggings: "minecraft:golden_leggings",
+		helmet: "minecraft:golden_helmet",
+		boots: "minecraft:golden_boots",
+		sword: "minecraft:golden_sword",
+		pickaxe: "minecraft:golden_pickaxe",
+		hoe: "minecraft:golden_hoe",
+		axe: "minecraft:golden_axe",
+		shovel: "minecraft:golden_shovel",
 	},
 	THALLIUM: {
 		name: "thallium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/thallium",
 		normal_ores: [
 		],
@@ -2480,6 +2752,7 @@ const MATERIALS = {
 		name: "lead",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/lead",
 		normal_ores: [
 			"thermal_and_space:glacio_lead_ore",
@@ -2519,6 +2792,7 @@ const MATERIALS = {
 		name: "bismuth",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/bismuth",
 		normal_ores: [
 		],
@@ -2539,6 +2813,7 @@ const MATERIALS = {
 		name: "polonium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/polonium",
 		normal_ores: [
 		],
@@ -2557,6 +2832,7 @@ const MATERIALS = {
 		name: "francium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/francium",
 		normal_ores: [
 		],
@@ -2575,6 +2851,7 @@ const MATERIALS = {
 		name: "radium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/radium",
 		normal_ores: [
 		],
@@ -2593,6 +2870,7 @@ const MATERIALS = {
 		name: "actinium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/actinium",
 		normal_ores: [
 		],
@@ -2611,6 +2889,7 @@ const MATERIALS = {
 		name: "thorium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/thorium",
 		normal_ores: [
 		],
@@ -2629,6 +2908,7 @@ const MATERIALS = {
 		name: "protactinium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/protactinium",
 		normal_ores: [
 		],
@@ -2647,6 +2927,7 @@ const MATERIALS = {
 		name: "uranium",
 		amount: 1.0,
 		metal: true,
+		upgrade: false,
 		normal_ores_tag: "#forge:ores/uranium",
 		normal_ores: [
 			"mekanism:deepslate_uranium_ore",
