@@ -36,6 +36,8 @@
 				"Ведь если разместить рядом с ним источник тепла, он будет использовать его для выработки энергии."
 				""
 				"Попробуйте разметисть лаву с нескольких сторон."
+				""
+				"Кстати кабели и трубы можно затапливать лавой!"
 			]
 			id: "34C4DA1CD29EAADA"
 			rewards: [{
@@ -97,12 +99,20 @@
 		{
 			dependencies: ["4A0C6AC77FC73C13"]
 			id: "1F37EEAD36E735F2"
-			rewards: [{
-				count: 10
-				id: "4F39198ECFF3B449"
-				item: "thermal:coal_coke"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "4F39198ECFF3B449"
+					item: "thermal:coal_coke"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "600D233C7C3BDF9B"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+			]
 			subtitle: "Обогатите железо дважды"
 			tasks: [{
 				id: "2D1AB5A5D2DC556F"
@@ -150,6 +160,7 @@
 				"2EAB01D6614C78D0"
 				"3C27B412271DBF29"
 			]
+			description: ["Попробуйте используя микросхему переделать ваш наполнитель в наполняющий механизм, результат вас удивит!"]
 			id: "1A520D70554B37DF"
 			rewards: [
 				{
@@ -388,7 +399,7 @@
 			description: [
 				"Пустите весь этот мир на запчасти, если что-то нельзя использовать - просто передробите это и соберите заного."
 				""
-				"К сожалению вы не можете получить больше материала, используя дробление."
+				"К сожалению вы не можете получить больше материала, используя дробление. Основное назначение этого механизма - преобразование конечных материалов в их пыль."
 			]
 			id: "7FBC222A3F99A434"
 			rewards: [
@@ -472,7 +483,7 @@
 				item: "mekanism:alloy_reinforced"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -508,6 +519,19 @@
 				"710296F3C0C083E4"
 			]
 			id: "53752CDA213B6012"
+			rewards: [
+				{
+					count: 2
+					id: "270F7124D0AC971D"
+					item: "pneumaticcraft:pneumatic_cylinder"
+					type: "item"
+				}
+				{
+					id: "42DFF03C5A4F9520"
+					item: "mekanism:advanced_chemical_tank"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "Сжимай сильнее"
 			tasks: [{
@@ -515,7 +539,7 @@
 				item: "mekanism:osmium_compressor"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 1.0d
 		}
 		{
@@ -524,18 +548,26 @@
 				"40303EB3A89F8CAF"
 			]
 			id: "0E36516AB2341A4A"
-			rewards: [{
-				count: 3
-				id: "7C32FD2FA8F19638"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "7C32FD2FA8F19638"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "55A3C95D7498485D"
+					item: "pneumaticcraft:empty_pcb"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "702C57213CC6BA56"
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -567,19 +599,8 @@
 				item: "mekanism:ingot_refined_obsidian"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -1.0d
-		}
-		{
-			dependencies: ["53752CDA213B6012"]
-			id: "579FDE14E1BE6B50"
-			tasks: [{
-				id: "6148231805ABE16D"
-				item: "mekanism:ingot_refined_glowstone"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 2.0d
 		}
 		{
 			dependencies: ["08F7D854AA93BF69"]
@@ -602,7 +623,7 @@
 				item: "mekanism:elite_pressurized_tube"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
@@ -626,35 +647,11 @@
 				item: "mekanism:elite_logistical_transporter"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["08F7D854AA93BF69"]
-			id: "7FE5F341510D0CDD"
-			rewards: [
-				{
-					id: "2EA3B1652A62E2E2"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "1DE947ACF80CA1F9"
-					item: "mekanism:basic_energy_cube"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1D3AA23DE3675929"
-				item: "mekanism:elite_universal_cable"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["1A520D70554B37DF"]
+			dependencies: ["1F37EEAD36E735F2"]
 			id: "478717A6B676146F"
 			rewards: [{
 				count: 8
@@ -667,8 +664,8 @@
 				item: "mekanism:basic_logistical_transporter"
 				type: "item"
 			}]
-			x: -15.5d
-			y: 0.0d
+			x: -16.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["08F7D854AA93BF69"]
@@ -691,7 +688,7 @@
 				item: "mekanism:elite_mechanical_pipe"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -2.0d
 		}
 		{
@@ -781,11 +778,15 @@
 				}
 			]
 			title: "Бойлер"
-			x: -0.5d
+			x: 0.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["40303EB3A89F8CAF"]
+			description: [
+				"Постройте платформу 4х4 из блоков испрарителя, затем постройте бортики, чтобы внутрнеее пространство стало 2х2"
+				"разместите на боковых стенках блоки вентилей и контроллер, верх оставьте открытым."
+			]
 			id: "5EA91240FE0919A5"
 			rewards: [
 				{
@@ -802,6 +803,7 @@
 				}
 			]
 			shape: "square"
+			subtitle: "Постройте исправитель"
 			tasks: [
 				{
 					count: 24L
@@ -815,7 +817,7 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: -2.0d
 			y: 3.5d
 		}
 		{
@@ -857,12 +859,26 @@
 				"1A520D70554B37DF"
 			]
 			id: "40303EB3A89F8CAF"
-			rewards: [{
-				count: 20
-				id: "3C684B31E230BA98"
-				item: "undergarden:utheric_shard"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 20
+					id: "3C684B31E230BA98"
+					item: "undergarden:utheric_shard"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "64816ED5981818F8"
+					item: "pneumaticcraft:empty_pcb"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3E7E87B01AD00F5A"
+					item: "pneumaticcraft:pneumatic_cylinder"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "707B64C87734BC93"
 				item: "mekanism:advanced_control_circuit"
@@ -873,16 +889,23 @@
 		}
 		{
 			dependencies: ["3C27B412271DBF29"]
-			description: ["Узериум - кристал заражающий миры, вызывающий безумие и производящий редстоун реакции. Хороший материал для улучшения компонентов."]
+			description: [
+				"Убейте звоноря и из его плазмы создайте Катализатор."
+				"Постройте портал из кирпича и активируйте его Катализатором."
+				""
+				"Не забудьте оружие, ведь вам придётся добывать ресурсы для завода в весьма агрессивной среде."
+			]
 			hide_dependency_lines: true
 			id: "46AF5A9119A75A33"
 			subtitle: "Подземные технологии"
 			tasks: [{
-				id: "16151C5293A991E1"
-				item: "undergarden:catalyst"
-				type: "item"
+				dimension: "minecraft:overworld"
+				icon: "undergarden:catalyst"
+				id: "37AF9D9322FB7CF5"
+				title: "Посетите Подземный сад"
+				type: "dimension"
 			}]
-			x: -7.0d
+			x: -8.0d
 			y: 0.0d
 		}
 		{
@@ -928,7 +951,7 @@
 				item: "mekanism:chemical_injection_chamber"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -942,7 +965,7 @@
 				item: "mekanism:purification_chamber"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 2.0d
 		}
 		{
@@ -1053,7 +1076,7 @@
 				type: "item"
 			}]
 			title: "Плазменное оружие"
-			x: -2.5d
+			x: -2.0d
 			y: -5.0d
 		}
 		{
@@ -1110,12 +1133,32 @@
 				type: "item"
 			}]
 			title: "Электромагнитный ускоритель"
-			x: 0.5d
+			x: 1.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["0E36516AB2341A4A"]
 			id: "318D11881F2EA09D"
+			rewards: [
+				{
+					count: 16
+					id: "5E296F8EE567CC43"
+					item: "pneumaticcraft:empty_pcb"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2C2A1174CE6CB149"
+					item: "pneumaticcraft:transistor"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4946D9D00968C9E7"
+					item: "pneumaticcraft:capacitor"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "Глава 2"
@@ -1124,7 +1167,7 @@
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 1.0d
 		}
 		{
@@ -1192,7 +1235,7 @@
 				}
 			]
 			title: "Энергия пара"
-			x: 0.5d
+			x: 1.0d
 			y: 5.0d
 		}
 		{
@@ -1229,7 +1272,7 @@
 				item: "mekanism:atomic_disassembler"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -5.0d
 		}
 		{
@@ -1325,7 +1368,7 @@
 				item: "mekanism:robit"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -1343,7 +1386,7 @@
 				item: "mekanism:dimensional_stabilizer"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -1406,6 +1449,20 @@
 		{
 			dependencies: ["1A520D70554B37DF"]
 			id: "382399AA3A1DD457"
+			rewards: [
+				{
+					count: 8
+					id: "43D584FFE37E1D18"
+					item: "mekanism:basic_logistical_transporter"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "15E96DF40870E894"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
 			subtitle: "Шалкербокс"
 			tasks: [{
 				id: "44809E970D882DFC"
@@ -1418,6 +1475,20 @@
 		{
 			dependencies: ["1A520D70554B37DF"]
 			id: "5A8073F0E8BDD4BF"
+			rewards: [
+				{
+					count: 8
+					id: "3C3F5C98A58C3A8D"
+					item: "mekanism:basic_mechanical_pipe"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3C7E0079EDFFC017"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
 			subtitle: "Шалкербочка"
 			tasks: [{
 				id: "7A22C7BC460AE850"
@@ -1431,12 +1502,13 @@
 			dependencies: ["5EA91240FE0919A5"]
 			id: "3E47A0F5E31B4EAC"
 			shape: "gear"
+			subtitle: "Завариваем чай на угле"
 			tasks: [{
 				id: "5D9717DDA8C0E893"
 				item: "mekanism:fuelwood_heater"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 5.0d
 		}
 		{
@@ -1453,7 +1525,7 @@
 				item: "mekanism_weaponry:plasma_circuit"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -4.0d
 		}
 		{
@@ -1520,7 +1592,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -4.0d
 		}
 		{
@@ -1597,7 +1669,7 @@
 				item: "superbwarfare:medium_battery_pack"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 6.5d
 		}
 		{
@@ -1637,7 +1709,7 @@
 				item: "superbwarfare:large_battery_pack"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 6.5d
 		}
 		{
@@ -1657,7 +1729,7 @@
 				item: "mekanism:elite_energy_cube"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: 7.5d
 		}
 		{
@@ -1677,7 +1749,7 @@
 				item: "mekanism:ultimate_energy_cube"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 7.5d
 		}
 		{
@@ -1697,7 +1769,7 @@
 				item: "mekanism_extras:absolute_energy_cube"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 7.5d
 		}
 		{
@@ -1717,7 +1789,7 @@
 				item: "mekanism_extras:supreme_energy_cube"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: 7.5d
 		}
 		{
@@ -1737,7 +1809,7 @@
 				item: "mekanism_extras:cosmic_energy_cube"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: 7.5d
 		}
 		{
@@ -1757,19 +1829,26 @@
 				item: "mekanism_extras:infinite_energy_cube"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 7.5d
 		}
 		{
-			dependencies: ["478717A6B676146F"]
+			dependencies: ["1A520D70554B37DF"]
 			id: "43B24B48817EE777"
+			rewards: [{
+				count: 8
+				id: "4B1C7E53F3156467"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			subtitle: "Сортировка без духоты"
 			tasks: [{
 				id: "1251CD95921C6778"
 				item: "mekanism:logistical_sorter"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -1.0d
+			x: -15.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5EA91240FE0919A5"]
@@ -1780,14 +1859,14 @@
 				item: "mekanism:resistive_heater"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["3C27B412271DBF29"]
 			id: "5BA3C2936FFE72D7"
 			rewards: [{
-				count: 2
+				count: 8
 				id: "6523D006D7441653"
 				item: "mekanism:alloy_infused"
 				type: "item"
@@ -1822,18 +1901,26 @@
 				"06348957FB20B09A"
 				"1A520D70554B37DF"
 			]
+			description: [
+				"Измельчитель имеет 2 ключевые функции:"
+				"Извелечение химических веществ из понятных вам блоков и умножение руды."
+				""
+				"Результат измельчения случаен! Вы можете поместить в нижний слот какой-то катализатор, например кремень, чтобы увеличить выход ресурса."
+				""
+				"Посмотрите список катализаторов через JEI."
+			]
 			id: "76C7C4377637AFB2"
 			rewards: [
-				{
-					count: 16
-					id: "2493BD04D0E5EB4E"
-					item: "minecraft:raw_copper"
-					type: "item"
-				}
 				{
 					count: 5
 					id: "4DCCEB477EF03A9D"
 					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "66ED135DC61061CA"
+					item: "minecraft:iron_ore"
 					type: "item"
 				}
 			]
@@ -1873,6 +1960,7 @@
 				item: "minecraft:iron_block"
 				type: "item"
 			}]
+			subtitle: "Найдите чёрный меторит и получите печати вырезателя"
 			tasks: [
 				{
 					id: "19907E9C35B979CC"
@@ -1908,6 +1996,7 @@
 				item: "ae2:charged_certus_quartz_crystal"
 				type: "item"
 			}]
+			subtitle: "Сделайте зарядник чтобы сделать компасы"
 			tasks: [{
 				id: "4A9603CC13FABEA4"
 				item: "ae2:charger"
@@ -1978,6 +2067,7 @@
 				item: "superbwarfare:hand_grenade"
 				type: "item"
 			}]
+			subtitle: "Компас биомов"
 			tasks: [{
 				id: "7FE266BF1FF4D013"
 				item: "naturescompass:naturescompass"
@@ -1994,6 +2084,7 @@
 				item: "superbwarfare:sniper_ammo_box"
 				type: "item"
 			}]
+			subtitle: "Компас структур"
 			tasks: [{
 				id: "580924C1C168D4F0"
 				item: "explorerscompass:explorerscompass"
@@ -2004,13 +2095,28 @@
 		}
 		{
 			dependencies: ["1A520D70554B37DF"]
+			description: [
+				"Постройте пустой параллелепипед из блоков резеурвара, разместе на любой стенке, полу или крыше вентили."
+				""
+				""
+				"Фактическое хранилище будет отличаться от того, что написано в интерфейсе после постройки, т.к. игра расчитала его для воздуха, а не жидкости."
+			]
 			id: "0A08AC1ADA4862C1"
-			rewards: [{
-				count: 32
-				id: "595C3516C71C9780"
-				item: "mekanism:structural_glass"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "595C3516C71C9780"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2DFDC6DD97D25E4A"
+					item: "mekanism:basic_mechanical_pipe"
+					type: "item"
+				}
+			]
+			subtitle: "Огромное хранилище жидкости"
 			tasks: [
 				{
 					count: 20L
@@ -2055,7 +2161,7 @@
 		}
 		{
 			dependencies: ["18213DD3A7187903"]
-			description: ["Один из самых эффективных генераторов энергии на начальном этапе."]
+			description: ["Один из самых эффективных генераторов энергии."]
 			id: "0A6D25E86E8EDCC6"
 			rewards: [{
 				id: "20F327BC7AA9651A"
@@ -2154,7 +2260,7 @@
 				item: "mekanism:combiner"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -2162,6 +2268,10 @@
 				"30849B9039989494"
 				"5BA3C2936FFE72D7"
 				"1A520D70554B37DF"
+			]
+			description: [
+				"Пиролизёр позволяет разрушать некоторые химические вещества, а также преобразовывать битум и уголь в более полезные материалы."
+				"Высокоуглеродные компоненты полученные пиролизом можно использовать для обработки железа и получения стали."
 			]
 			id: "4A0C6AC77FC73C13"
 			rewards: [
@@ -2189,15 +2299,23 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["40303EB3A89F8CAF"]
+			dependencies: ["710296F3C0C083E4"]
 			description: ["Этот механизм позволяет разделить многие вещи на составляющие: например очистить пыль, извлечь химические элементы из марсианского песка или некоторых растений."]
 			id: "410E1E1E7BE3B126"
-			rewards: [{
-				count: 3
-				id: "039FFF37C8D07449"
-				item: "kubejs:dirty_dust_cloggrum"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "039FFF37C8D07449"
+					item: "kubejs:dirty_dust_cloggrum"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0F51E2E543C93D40"
+					item: "mekanism:dirty_dust_gold"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "Разделение на компоненты"
 			tasks: [{
@@ -2205,8 +2323,8 @@
 				item: "thermal:machine_centrifuge"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.5d
+			x: -4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["40303EB3A89F8CAF"]
@@ -2214,15 +2332,15 @@
 			id: "710296F3C0C083E4"
 			rewards: [
 				{
-					count: 8
-					id: "24B2F4F980519571"
-					item: "mekanism:ingot_bronze"
-					type: "item"
-				}
-				{
 					count: 5
 					id: "6722B522EA0C5DBE"
 					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3AB5F3B0E823FEAC"
+					item: "thermal:copper_plate"
 					type: "item"
 				}
 			]
@@ -2279,12 +2397,13 @@
 				}
 			]
 			shape: "square"
+			subtitle: "Автоматизация зельеварения"
 			tasks: [{
 				id: "14432163025F7C77"
 				item: "thermal:machine_brewer"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -7.0d
 			y: 0.0d
 		}
 		{
@@ -2377,7 +2496,7 @@
 				item: "mekanism:pigment_mixer"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 5.0d
 		}
 		{
@@ -2389,8 +2508,8 @@
 				item: "mekanism:flamethrower"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7FBC222A3F99A434"]
@@ -2414,6 +2533,7 @@
 			dependencies: [
 				"6B088CBBD1DB0DD7"
 				"40303EB3A89F8CAF"
+				"710296F3C0C083E4"
 			]
 			id: "1BEA23CC6B9EFA9C"
 			rewards: [{
@@ -2562,7 +2682,7 @@
 			dependencies: ["0D8ABA969298E47F"]
 			id: "1AECCEDAB57F10A5"
 			rewards: [{
-				count: 5
+				count: 8
 				id: "39F37A0936D52EAC"
 				item: "mekanism:alloy_infused"
 				type: "item"
@@ -2645,12 +2765,14 @@
 		}
 		{
 			dependencies: ["7FBC222A3F99A434"]
+			description: ["В каждом механизме из mekanism справа есть меню улучшений, куда можно вставить этот апгрейд."]
 			id: "66A2AEA9CD6066FB"
 			rewards: [{
 				id: "69620B5068D575E3"
 				item: "mekanism:upgrade_speed"
 				type: "item"
 			}]
+			subtitle: "Быстрее строить заводы"
 			tasks: [{
 				id: "7662A6DCCAAE2D9E"
 				item: "mekanism:upgrade_speed"
@@ -2679,6 +2801,12 @@
 		{
 			dependencies: ["1F37EEAD36E735F2"]
 			id: "75B1B920889EF7CB"
+			rewards: [{
+				count: 8
+				id: "76D0CFE364E04E8C"
+				item: "mekanism:dust_osmium"
+				type: "item"
+			}]
 			tasks: [{
 				id: "69CB5D9DDE6D0079"
 				item: "mekanism:upgrade_muffling"
@@ -2740,7 +2868,7 @@
 				item: "thermal:upgrade_augment_2"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -3.0d
 		}
 		{
@@ -2755,6 +2883,7 @@
 				item: "mekanism:upgrade_speed"
 				type: "item"
 			}]
+			subtitle: "Механизмы из thermal тоже можно ускорить"
 			tasks: [{
 				id: "50C4086584E7B374"
 				item: "thermal:upgrade_augment_1"
@@ -2846,7 +2975,7 @@
 				item: "morered:bundled_network_cable"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 9.5d
 		}
 		{
@@ -2883,7 +3012,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 7.5d
 			y: 9.5d
 		}
 		{
@@ -3073,7 +3202,7 @@
 				item: "computercraft:wired_modem"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 11.0d
 		}
 		{
@@ -3148,7 +3277,7 @@
 				item: "mekanism:basic_compressing_factory"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -6.5d
 		}
 		{
@@ -3166,7 +3295,7 @@
 				item: "mekanism:basic_combining_factory"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -7.5d
 		}
 		{
@@ -3184,7 +3313,7 @@
 				item: "mekanism:basic_purifying_factory"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -6.5d
 		}
 		{
@@ -3202,7 +3331,7 @@
 				item: "mekanism:basic_injecting_factory"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -6.5d
 		}
 		{
@@ -3252,12 +3381,20 @@
 				"Теперь вам доступно всё необходимое чтобы покорить все миры."
 			]
 			id: "1133660CBAFEF8C1"
-			rewards: [{
-				count: 5
-				id: "60021AB135CEC788"
-				item: "mekanism:elite_control_circuit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "60021AB135CEC788"
+					item: "mekanism:elite_control_circuit"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "635AA4BF6EA272E7"
+					item: "chemlib:holmium_plate"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 1.0d
 			subtitle: "x5 производство из руды"
@@ -3266,20 +3403,25 @@
 				item: "mekanism:chemical_dissolution_chamber"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["1133660CBAFEF8C1"]
 			description: ["Растворите руду серной кислотой и получится загрязённая взесь, которую можно использовать."]
 			id: "5600A93E6D6EDB72"
+			rewards: [{
+				id: "5072DEE4557A0BFD"
+				item: "mekanism:advanced_chemical_tank"
+				type: "item"
+			}]
 			subtitle: "х5 руда"
 			tasks: [{
 				id: "082060F81B9C5F11"
 				item: "mekanism:chemical_washer"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -3318,42 +3460,61 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7F235ED426D3DACF"]
 			id: "3BF4B197B7191044"
+			rewards: [{
+				count: 16
+				id: "72337178A498E114"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
 			subtitle: "Простейшая генерация"
 			tasks: [{
 				id: "3074F60887FCA549"
 				item: "ae2:crystal_resonance_generator"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["7F235ED426D3DACF"]
 			id: "4FCF8FEF5B5FE228"
+			rewards: [{
+				count: 8
+				id: "001B1C0851A0B26B"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			subtitle: "Крафт из сети"
 			tasks: [{
 				id: "0FE2705EBF5DF45A"
 				item: "ae2:crafting_terminal"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["7F235ED426D3DACF"]
 			id: "2496459AED99E9C4"
+			rewards: [{
+				count: 8
+				id: "74601446D5119422"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0710F8CF15858EAA"
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0E36516AB2341A4A"]
@@ -3372,18 +3533,25 @@
 				item: "thermal:machine_crystallizer"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["7F235ED426D3DACF"]
 			id: "2C574F96A849BEF7"
+			rewards: [{
+				count: 8
+				id: "3F6DB0E3AE841D67"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			subtitle: "Цифровая передача предметов"
 			tasks: [{
 				id: "09AC98DBB93901DC"
 				item: "ae2:fluix_glass_cable"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 5.0d
 		}
 		{
@@ -3393,13 +3561,19 @@
 				"219D3ACD18F148C9"
 			]
 			id: "3822C705C954F5C4"
+			rewards: [{
+				count: 4
+				id: "7D48FC145763706F"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "07F06F221F09E156"
 				item: "thermal:machine_crafter"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: 2.0d
 		}
 		{
@@ -3408,6 +3582,12 @@
 				"7F235ED426D3DACF"
 			]
 			id: "6A8453CCFD4517D0"
+			rewards: [{
+				count: 32
+				id: "208D9C8809C6A9D4"
+				item: "computercraft:cable"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Компьютеризация"
 			tasks: [{
@@ -3415,7 +3595,7 @@
 				item: "advancedperipherals:me_bridge"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 9.0d
 		}
 		{
@@ -3426,7 +3606,7 @@
 				item: "advancedperipherals:peripheral_casing"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 11.0d
 		}
 		{
@@ -3437,7 +3617,7 @@
 				item: "advancedperipherals:redstone_integrator"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 9.5d
 		}
 		{
@@ -3448,7 +3628,7 @@
 				item: "advancedperipherals:nbt_storage"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: 10.5d
 		}
 		{
@@ -3459,7 +3639,7 @@
 				item: "advancedperipherals:block_reader"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: 11.5d
 		}
 		{
@@ -3470,7 +3650,7 @@
 				item: "advancedperipherals:chat_box"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 12.5d
 		}
 		{
@@ -3481,7 +3661,7 @@
 				item: "advancedperipherals:inventory_manager"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 12.5d
 		}
 		{
@@ -3492,7 +3672,7 @@
 				item: "advancedperipherals:energy_detector"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 12.5d
 		}
 		{
@@ -3503,7 +3683,7 @@
 				item: "advancedperipherals:player_detector"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 9.5d
 		}
 		{
@@ -3514,7 +3694,7 @@
 				item: "ducky-periphs:sculkophone_block"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 13.5d
 		}
 		{
@@ -3525,7 +3705,7 @@
 				item: "ducky-periphs:entity_detector_block"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 14.5d
 		}
 		{
@@ -3536,7 +3716,7 @@
 				item: "ducky-periphs:weather_machine_block"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 15.5d
 		}
 		{
@@ -3547,7 +3727,7 @@
 				item: "superbwarfare:fumo_25"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 14.5d
 		}
 		{
@@ -3558,7 +3738,7 @@
 				item: "ballistix:radar"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 14.5d
 		}
 		{
@@ -3569,7 +3749,7 @@
 				item: "ballistix:firecontrolradar"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 14.5d
 		}
 		{
@@ -3580,7 +3760,7 @@
 				item: "advancedperipherals:chunk_controller"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 11.0d
 		}
 		{
@@ -3591,7 +3771,7 @@
 				item: "ballistix:esmtower"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 13.5d
 		}
 		{
@@ -3608,7 +3788,7 @@
 				item: "computercraft:wireless_modem_normal"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 12.0d
 		}
 		{
@@ -3633,18 +3813,25 @@
 				item: "computercraft:wireless_modem_advanced"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["342A94A83BBB9E3F"]
 			id: "48AD2017ABE31D52"
+			rewards: [{
+				count: 8
+				id: "497AAFAD9766D58D"
+				item: "ae2:flawed_budding_quartz"
+				type: "item"
+			}]
+			subtitle: "Ускоритель роста поставленный рядом с жеодой увеличивает скорость роста (логично)"
 			tasks: [{
 				id: "67B5E98387AA529D"
 				item: "ae2:growth_accelerator"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -3655,8 +3842,57 @@
 				item: "pneumaticcraft:drone_interface"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 8.5d
+		}
+		{
+			dependencies: ["5BA3C2936FFE72D7"]
+			description: [
+				"Использование более редких материалов позволяет пропускать технологические этапы."
+				"Возможно, это позволит сэкономить. Возможно, нет."
+			]
+			id: "307E0F9A298BEDEE"
+			rewards: [{
+				count: 16
+				id: "326645505FD52FE9"
+				item: "mekanism:elite_universal_cable"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Сразу мощный"
+			tasks: [{
+				id: "69D51277B4B3092E"
+				item: "mekanism:elite_universal_cable"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2C034ED5037F430E"]
+			id: "247E37B513B40806"
+			rewards: [
+				{
+					count: 32
+					id: "2E11306BED44E740"
+					item: "pneumaticcraft:thermal_lagging"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E0BE743D7C743A5"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+			]
+			subtitle: "Высокотехнологичный менеджмент тепла"
+			tasks: [{
+				id: "3B06580C3E9040E6"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	title: "Глава 2. Автоматизация"

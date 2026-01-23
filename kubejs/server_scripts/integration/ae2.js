@@ -244,6 +244,25 @@ ServerEvents.recipes(event => {
             }
         })
 
+        event.custom({
+            "type": "mekanism:combining",
+            "extraInput": {
+                "ingredient": {
+                "item": Item.of(printed).getId(),
+                }
+            },
+            "mainInput": {
+                "amount": 1,
+                "ingredient": {
+                    "item": Item.of('chemlib:holmium_plate').getId(),
+                }
+            },
+            "output": {
+                "item": Item.of(result).getId(),
+                "count": 1
+            }
+        })
+
     }
     proccessor_recipe('gold_ingot', 'ae2:logic_processor_press', 'ae2:printed_logic_processor', 'ae2:logic_processor')
     proccessor_recipe('ae2:certus_quartz_crystal', 'ae2:calculation_processor_press', 'ae2:printed_calculation_processor', 'ae2:calculation_processor')

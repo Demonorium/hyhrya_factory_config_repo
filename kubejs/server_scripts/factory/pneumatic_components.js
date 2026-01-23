@@ -28,11 +28,15 @@ ServerEvents.recipes(event => {
         }
     )
 
-    event.shapeless(
-        Item.of('pneumaticcraft:heat_pipe', 8),
+    event.shaped(Item.of("pneumaticcraft:heat_pipe", 12),
         [
-        Item.of(MATERIALS.CADMIUM.ingot),
-        Item.of('pneumaticcraft:thermal_lagging')
-        ]
+            'AAA',
+            'BBB',
+            'AAA'
+        ],
+        {
+            A:Item.of('pneumaticcraft:thermal_lagging'),
+            B: MATERIALS.CADMIUM.ingot,
+        }
     )
 })

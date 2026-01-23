@@ -140,4 +140,34 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: 'mekanism:osmium_compressor' }, 'mekanism:advanced_control_circuit', 'mekanism:elite_control_circuit')
     event.replaceInput({ id: 'mekanism:osmium_compressor' }, 'mekanism:alloy_infused', 'mekanism:alloy_reinforced')
     event.replaceInput({ id: "mekanism:combiner" }, "cobblestone", "superbwarfare:motor")
+
+    event.remove({id: 'mekanism:resistive_heater'})
+    event.custom({
+      "type": "mekanism:mek_data",
+      "key": {
+        "E": {
+          "item": "pncepcb:high_temp_finished_pcb"
+        },
+        "I": {
+          "item": "pneumaticcraft:heat_sink"
+        },
+        "R": {
+          "tag": "forge:dusts/redstone"
+        },
+        "X": {
+          "item": "mekanism:steel_casing"
+        },
+        "D": {
+          "item": MATERIALS.STEEL.ingot
+        }
+      },
+      "pattern": [
+        "IRI",
+        "RXR",
+        "DED"
+      ],
+      "result": {
+        "item": "mekanism:resistive_heater"
+      }
+    })
 })

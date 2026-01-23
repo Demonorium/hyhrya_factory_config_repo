@@ -828,15 +828,15 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["5067B3B102F79545"]
+			dependencies: ["7862397CCA28CD6A"]
 			id: "4C0CB0AF4418857A"
 			tasks: [{
 				id: "2007998E46C565A4"
 				item: "chemlib:arsenic_sulfide"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 2.0d
+			x: -12.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["239F1743BC842ABE"]
@@ -938,17 +938,6 @@
 			}]
 			x: -12.0d
 			y: 11.5d
-		}
-		{
-			dependencies: ["7862397CCA28CD6A"]
-			id: "54C11D9389DFFC6C"
-			tasks: [{
-				id: "5B09E0F88BD41004"
-				item: "chemlib:ruthenium_iv_oxide_dust"
-				type: "item"
-			}]
-			x: -12.0d
-			y: 12.5d
 		}
 		{
 			dependencies: ["00C310358F452A99"]

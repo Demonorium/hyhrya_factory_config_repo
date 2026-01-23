@@ -1,8 +1,4 @@
 ServerEvents.recipes(event => {
-
-
-
-    
     event.remove({ mod: 'curvy_pipes' })
     event.shaped(
         Item.of('curvy_pipes:tiny_item_pipe', 2),
@@ -185,7 +181,7 @@ ServerEvents.recipes(event => {
     ]
 
     event.shaped(
-        Item.of('curvy_pipes:huge_energy_pipe', 1),
+        Item.of('curvy_pipes:huge_energy_pipe', 3),
         [
             'ABA',
             'ABA',
@@ -201,7 +197,7 @@ ServerEvents.recipes(event => {
     pipes.forEach(type => {
         if (type != 'huge') {
             event.shaped(
-                Item.of('curvy_pipes:' + type + '_energy_pipe', 1),
+                Item.of('curvy_pipes:' + type + '_energy_pipe', 3),
                 [
                     'ABA',
                     'ABA',
@@ -229,7 +225,7 @@ ServerEvents.recipes(event => {
     })
 
     event.shaped(
-        Item.of('curvy_pipes:redstone_cable', 1),
+        Item.of('curvy_pipes:redstone_cable', 8),
         [
             'ABA'
         ],

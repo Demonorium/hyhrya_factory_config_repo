@@ -1,9 +1,50 @@
 // priority: 0
 
 ServerEvents.recipes(event => {
+    steel_casing_recipes(event)
+
+    event.replaceInput({id: 'mekanism:boiler_casing'}, 'iron_ingot', 'pneumaticcraft:compressed_iron_block')
+    event.replaceInput({id: 'mekanism:pressure_disperser'}, 'mekanism:alloy_infused', 'pneumaticcraft:compressed_bricks')
+    event.custom({
+      "type": "minecraft:crafting_shaped",
+      "key": {
+        "A": {
+          "tag": "mekanism:alloys/basic"
+        },
+        "I": {
+          "item": MATERIALS.CADMIUM.ingot
+        },
+        "X": {
+          "item": "mekanism:steel_casing"
+        }
+      },
+      "pattern": [
+        "AIA",
+        "IXI",
+        "AIA"
+      ],
+      "result": {
+        "item": "mekanism:superheating_element",
+        "count": 4
+      }
+    })
+
     event.replaceInput({id: 'mekanism_weaponry:fire_rate_chip_1'}, 'green_dye', 'pneumaticcraft:unassembled_pcb')
     event.replaceInput({id: 'mekanism_weaponry:energy_usage_chip_1'}, 'green_dye', 'pneumaticcraft:unassembled_pcb')
     event.replaceInput({id: 'mekanism_weaponry:heat_per_shot_chip_1'}, 'green_dye', 'pneumaticcraft:unassembled_pcb')
+
+    event.shaped(
+        Item.of('dysonsphere:thermopile', 3),
+        [
+            'ABA',
+            'ABA',
+            'ABA'
+        ],
+        {
+            A: Item.of(MATERIALS.HAFNIUM.ingot),
+            B: Item.of(MATERIALS.CADMIUM.ingot)
+        }
+    )
 
     event.custom({
         "type": "pneumaticcraft:thermo_plant",
@@ -151,61 +192,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'superbwarfare:large_battery_pack_assembling' })
     event.remove({ id: 'mekanism:energy_tablet' })
 
-    event.remove({ id: "mekanism:transmitter/universal_cable/basic" })
-    event.shaped(
-        Item.of('mekanism:basic_universal_cable', 8),
-        [
-            'AAA',
-            'ABA',
-            'AAA'
-        ],
-        {
-            A: Item.of("copper_ingot"),
-            B: Item.of('thermal:rf_coil')
-        }
-    )
-    event.remove({ id: "mekanism:transmitter/pressurized_tube/basic" })
-    event.shaped(
-        Item.of('mekanism:basic_pressurized_tube', 8),
-        [
-            'BBB',
-            'BAB',
-            'BBB'
-        ],
-        {
-            A: "#minecraft:wool",
-            B: Item.of('mekanism:basic_mechanical_pipe')
-        }
-    )
     
-    event.remove({ id: "mekanism:transmitter/logistical_transporter/basic" })
-    event.shaped(
-        Item.of('mekanism:basic_logistical_transporter', 8),
-        [
-            ' C ',
-            'B B',
-            ' C '
-        ],
-        {
-            B: MATERIALS.STEEL.gear,
-            C: MATERIALS.STEEL.ingot
-        }
-    )
-
-    event.remove({ id: "mekanism:transmitter/mechanical_pipe/basic"})
-    event.shaped(
-        Item.of('mekanism:basic_mechanical_pipe', 8),
-        [
-            'ACA',
-            'B B',
-            'ACA'
-        ],
-        {
-            A: "#forge:glass/silica",
-            B: MATERIALS.STEEL.gear,
-            C: MATERIALS.STEEL.ingot
-        }
-    )
 
     function energy_cell(level, battery, sides, corners) {
 
@@ -459,93 +446,59 @@ ServerEvents.recipes(event => {
 
 
 function steel_casing_recipes(event) {
-    event.remove({ id: 'mekanism:steel_casing' })
     event.shaped(
-        Item.of('mekanism:steel_casing', 1),
+        Item.of('mekanism:steel_casing', 2),
         [
-            'ACA',
-            'C C',
-            'ACA'
+            'BC ',
+            'CDC',
+            ' CB'
         ],
         {
-            A: Item.of("pneumaticcraft:compressed_iron_gear"),
-            C: Item.of("mekanism:ingot_steel"),
-        }
-    )
-    event.shaped(
-        Item.of('mekanism:steel_casing', 1),
-        [
-            'BCA',
-            'C C',
-            'ACB'
-        ],
-        {
-            A: Item.of("pneumaticcraft:compressed_iron_gear"),
-            C: Item.of("mekanism:ingot_steel"),
-            B: Item.of(MATERIALS.CHROMIUM.ingot)
-        }
-    )
-    event.shaped(
-        Item.of('mekanism:steel_casing', 4),
-        [
-            'ABA',
-            'B B',
-            'ABA'
-        ],
-        {
-            A: Item.of("thermal:invar_gear"),
-            B: Item.of("mekanism:ingot_steel")
-        }
-    )
-    event.shaped(
-        Item.of('mekanism:steel_casing', 4),
-        [
-            'CBA',
-            'B B',
-            'ABC'
-        ],
-        {
-            A: Item.of("thermal:invar_gear"),
-            B: Item.of("mekanism:ingot_steel"),
-            C: Item.of(MATERIALS.CHROMIUM.ingot)
-        }
-    )
-    event.shaped(
-        Item.of('mekanism:steel_casing', 8),
-        [
-            'ABA',
-            'B B',
-            'ABA'
-        ],
-        {
-            A: Item.of("thermal:invar_gear"),
-            B: Item.of(MATERIALS.EXTRATERRESTRIAL_STEEL.plate)
-        }
-    )
-    event.shaped(
-        Item.of('mekanism:steel_casing', 8),
-        [
-            'CBA',
-            'B B',
-            'ABC'
-        ],
-        {
-            A: Item.of("thermal:invar_gear"),
-            B: Item.of(MATERIALS.EXTRATERRESTRIAL_STEEL.plate),
-            C: Item.of(MATERIALS.CHROMIUM.ingot)
+            C: MATERIALS.STEEL.ingot,
+            B: MATERIALS.CHROMIUM.plate,
+            D: MATERIALS.OSMIUM.ingot
         }
     )
 
     event.shaped(
-        Item.of('dysonsphere:thermopile', 3),
+        Item.of('mekanism:steel_casing', 8),
         [
             'ABA',
-            'ABA',
+            'BDB',
             'ABA'
         ],
         {
-            A: Item.of(MATERIALS.HAFNIUM.ingot),
-            B: Item.of(MATERIALS.CADMIUM.ingot)
+            A: MATERIALS.CHROMIUM.plate,
+            B: MATERIALS.STEEL.gear,
+            D: MATERIALS.OSMIUM.ingot
+        }
+    )
+    event.shaped(
+        Item.of('mekanism:steel_casing', 8),
+        [
+            'ABA',
+            'BDB',
+            'ABA'
+        ],
+        {
+            A: Item.of("thermal:invar_gear"),
+            B: Item.of(MATERIALS.EXTRATERRESTRIAL_STEEL.ingot),
+            D: MATERIALS.OSMIUM.gear
+        }
+    )
+
+    event.shaped(
+        Item.of('mekanism:steel_casing', 8),
+        [
+            'CBA',
+            'BDB',
+            'ABC'
+        ],
+        {
+            A: MATERIALS.INVAR.gear,
+            B: MATERIALS.EXTRATERRESTRIAL_STEEL.ingot,
+            C: MATERIALS.CHROMIUM.ingot,
+            D: MATERIALS.OSMIUM.gear
         }
     )
 }
