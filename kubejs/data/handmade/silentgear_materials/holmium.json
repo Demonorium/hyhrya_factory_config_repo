@@ -1,0 +1,109 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:diamond",
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/holmium"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.holmium"
+  },
+  "stats": {
+    "main": {
+      "durability": 780.0,
+      "armor_durability": 20.0,
+      "enchantment_value": 30.0,
+      "harvest_speed": 3.0,
+      "melee_damage": 4.0,
+      "magic_damage": 1.0,
+      "attack_speed": 0.2,
+      "armor": 17.0,
+      "armor/helmet": 3.0,
+      "armor/chestplate": 5.0,
+      "armor/leggings": 3.0,
+      "armor/boots": 3.0,
+      "armor_toughness": 0.0,
+      "magic_armor": 4.0,
+      "ranged_damage": 1.0,
+      "ranged_speed": -0.2,
+      "rarity": 50.0,
+      "charging_value": 1.0
+    },
+    "rod": {
+      "durability": {
+        "mul2": -0.1
+      },
+      "melee_damage": [
+        {
+          "mul2": -0.1
+        },
+        {
+          "add": 2.0
+        }
+      ],
+      "rarity": 50.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 4
+      },
+      {
+        "name": "silentgear:synergistic",
+        "level": 2
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      },
+      {
+        "name": "silentgear:synergistic",
+        "level": 2
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#2E3E34"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#2E3E34"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#2E3E34"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#2E3E34"
+      }
+    ]
+  }
+}
