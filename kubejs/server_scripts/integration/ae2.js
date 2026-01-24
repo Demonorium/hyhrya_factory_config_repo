@@ -243,7 +243,7 @@ ServerEvents.recipes(event => {
                 "count": 2
             }
         })
-
+        
         event.custom({
             "type": "mekanism:combining",
             "extraInput": {
