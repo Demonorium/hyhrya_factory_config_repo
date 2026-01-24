@@ -2,13 +2,84 @@
     {
         "hostile": true,
         "when": "onjoin",
-        "spawntype": ["mob_summoned", "spawn_egg"],
+        "spawntype": [
+            "mob_summoned",
+            "spawn_egg"
+        ],
         "result": "default"
     },
     {
         "mob": "ophidiophobia:bone_snake",
         "when": "onjoin",
         "biometags": "forge:is_mushroom",
+        "result": "deny"
+    },
+    {
+        "mob": [
+            "minecraft:pillager",
+            "minecraft:illusioner",
+            "illagerinvasion:provoker",
+            "illagerinvasion:invoker",
+            "illagerinvasion:necromancer",
+            "illagerinvasion:basher",
+            "illagerinvasion:sorcerer",
+            "illagerinvasion:archivist",
+            "illagerinvasion:inquisitor",
+            "illagerinvasion:marauder",
+            "illagerinvasion:alchemist",
+            "illagerinvasion:firecaller",
+            "illagerinvasion:surrendered",
+            "illagerinvasion:invoker_fangs",
+            "illagerinvasion:flying_magma",
+            "illagerinvasion:skull_bolt",
+            "illagerinvasion:hatchet"
+        ],
+        "structure": [
+            "illagerinvasion:labyrinth",
+            "illagerinvasion:firecaller_hut",
+            "illagerinvasion:illager_fort",
+            "ati_structures:illager_homestead",
+            "jvsnomad:illager_mongol_yurt",
+            "illagerinvasion:illager_fort",
+            "ati_structures:illager_homestead",
+            "jvsnomad:illager_mongol_yurt",
+            "jvsnomad:illager_native_outpost_plains",
+            "jvs:illager_ocean_base",
+            "jvs:illager_platform_outpost",
+            "jvs:illager_raid_camp",
+            "ati_structures:illager_tower",
+            "jvs:illager_tower_outpost",
+            "illagerinvasion:illusioner_tower",
+            "minecraft:pillager_outpost",
+            "u_desert:pillager_outpost/abandoned",
+            "u_desert:pillager_outpost/standard",
+            "middle_age_castles:pillagers_castle"
+        ],
+        "when": "onjoin",
+        "result": "allow"
+    },
+    {
+        "mob": [
+            "minecraft:pillager",
+            "minecraft:illusioner",
+            "illagerinvasion:provoker",
+            "illagerinvasion:invoker",
+            "illagerinvasion:necromancer",
+            "illagerinvasion:basher",
+            "illagerinvasion:sorcerer",
+            "illagerinvasion:archivist",
+            "illagerinvasion:inquisitor",
+            "illagerinvasion:marauder",
+            "illagerinvasion:alchemist",
+            "illagerinvasion:firecaller",
+            "illagerinvasion:surrendered",
+            "illagerinvasion:invoker_fangs",
+            "illagerinvasion:flying_magma",
+            "illagerinvasion:skull_bolt",
+            "illagerinvasion:hatchet"
+        ],
+        "minlight": 1,
+        "when": "onjoin",
         "result": "deny"
     }
 ]

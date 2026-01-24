@@ -49,7 +49,7 @@
       // Will mobs be considered as zooming when shoot
       "Zoom": true,
       // Fire spread
-      "Spread": 30,
+      "Spread": 15,
       "Override": {
         "Damage": 6.5,
         "Headshot": 1
@@ -74,7 +74,7 @@
       // Will mobs be considered as zooming when shoot
       "Zoom": true,
       // Fire spread
-      "Spread": 50,
+      "Spread": 30,
       "Override": {
         "Damage": 3.5,
         "Headshot": 1
