@@ -511,7 +511,7 @@ ServerEvents.recipes(event => {
       ],
       "input": {
         "ingredient": {
-          "tag": "ae2:fluix_crystal"
+          "item": "ae2:fluix_crystal"
         }
       },
       "output": {
