@@ -42,6 +42,14 @@
           "level": 1
         },
         {
+          "name": "handmade:warm",
+          "level": 4
+        },
+        {
+          "name": "silentcompat:projectile_resistance",
+          "level": 2
+        },
+        {
           "name": "silentgear:snow_walker",
           "level": 1,
           "conditions": [

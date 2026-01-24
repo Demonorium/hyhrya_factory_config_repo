@@ -1,0 +1,67 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:iron",
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "subs": {
+      "rod": {
+        "tag": "forge:rods/blaze"
+      }
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.blaze_rod"
+  },
+  "stats": {
+    "rod": {
+      "harvest_speed": {
+        "mul2": 0.1
+      },
+      "melee_damage": {
+        "mul2": 0.2
+      },
+      "ranged_damage": {
+        "mul2": 0.1
+      }
+    }
+  },
+  "traits": {
+    "rod": [
+      {
+        "name": "silentgear:malleable",
+        "level": 4
+      },
+      {
+        "name": "silentgear:flexible",
+        "level": 2
+      },
+      {
+        "name": "silentgear:reach",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#FFC600"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#FFC600"
+      }
+    ]
+  }
+}

@@ -3,7 +3,7 @@
     "chemicalType": "slurry",
     "input": {
         "slurry": "moremekanismprocessing:clean_ostrum",
-        "amount": 200
+        "amount": 100
     },
     "output": {
         "item": "moremekanismprocessing:crystal_ostrum",

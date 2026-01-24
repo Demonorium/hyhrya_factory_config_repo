@@ -1,0 +1,39 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "parent": "silentgear:wood",
+  "crafting_items": {
+    "main": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.wood.dark_oak"
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#4F3218"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:wood",
+        "color": "#4F3218"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#4F3218"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#4F3218"
+      }
+    ]
+  }
+}

@@ -70,7 +70,7 @@
         "level": 1
       },
       {
-        "name": "silentcompat:extraterrestrial",
+        "name": "handmade:extraterrestrial",
         "conditions": [
           {
             "type": "silentgear:material_ratio",

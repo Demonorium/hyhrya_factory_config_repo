@@ -1,0 +1,45 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "parent": "silentgear:wool",
+  "crafting_items": {
+    "main": {
+      "item": "minecraft:lime_wool"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.wool.lime"
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#70B919"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:cloth",
+        "color": "#70B919"
+      }
+    ],
+    "grip/all": [
+      {
+        "texture": "silentgear:grip_wool",
+        "color": "#70B919"
+      }
+    ],
+    "grip/part": [
+      {
+        "texture": "silentgear:grip",
+        "color": "#70B919"
+      }
+    ],
+    "lining/part": [
+      {
+        "texture": "silentgear:lining_cloth",
+        "color": "#70B919"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "parent": "silentgear:stone",
+  "crafting_items": {
+    "main": {
+      "item": "minecraft:granite"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.stone.granite"
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#9F6B58"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#9F6B58"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#9F6B58"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#9F6B58"
+      }
+    ]
+  }
+}

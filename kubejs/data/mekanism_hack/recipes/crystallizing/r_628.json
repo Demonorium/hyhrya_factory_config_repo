@@ -3,7 +3,7 @@
     "chemicalType": "slurry",
     "input": {
         "slurry": "kubejs:clean_cloggrum",
-        "amount": 200
+        "amount": 100
     },
     "output": {
         "item": "kubejs:crystal_cloggrum",

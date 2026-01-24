@@ -89,6 +89,14 @@
         {
           "name": "silentcompat:branding",
           "level": 1
+        },
+        {
+          "name": "handmade:infernal",
+          "level": 5
+        },
+        {
+          "name": "handmade:warm",
+          "level": 5
         }
       ]
     },

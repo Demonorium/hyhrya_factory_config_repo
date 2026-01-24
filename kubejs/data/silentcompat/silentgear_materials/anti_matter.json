@@ -16,9 +16,40 @@
       }
     },
     "name": {
-      "text": "Antimatter"
+      "text": "Антиматерия"
     },
     "stats": {
+      "coating": {
+        "durability": [
+          {
+            "mul2": 0.1
+          },
+          {
+            "add": 1.0
+          }
+        ],
+        "harvest_speed": {
+          "mul2": 0.5
+        },
+        "harvest_level": {
+          "max": 5.0
+        },
+        "melee_damage": {
+          "mul2": 2.0
+        },
+        "attack_speed": {
+          "add": 1.5
+        },
+        "magic_damage": {
+          "mul2": 2.0
+        },
+        "knockback_resistance": {
+          "add": 1.5
+        },
+        "enchantment_value": {
+          "add": 20.0
+        }
+      },
       "rod": {
         "durability": {
           "mul1": 1.2
@@ -36,6 +67,24 @@
       }
     },
     "traits": {
+      "coating": [
+        {
+          "name": "silentcompat:projectile_resistance",
+          "level": 5
+        },
+        {
+          "name": "handmade:critical",
+          "level": 5
+        },
+        {
+          "name": "handmade:extraterrestrial",
+          "level": 3
+        },
+        {
+          "name": "handmade:radioactive",
+          "level": 3
+        }
+      ],
       "rod": [
         {
           "name": "silentgear:stellar",

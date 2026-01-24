@@ -3,7 +3,7 @@
     "chemicalType": "slurry",
     "input": {
         "slurry": "mekanism:clean_gold",
-        "amount": 200
+        "amount": 100
     },
     "output": {
         "item": "mekanism:crystal_gold",

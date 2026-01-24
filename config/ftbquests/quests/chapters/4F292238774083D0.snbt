@@ -2254,6 +2254,20 @@
 		{
 			dependencies: ["0E36516AB2341A4A"]
 			id: "23D928BC4BD41A95"
+			rewards: [
+				{
+					count: 16
+					id: "174A97AB0456CDD8"
+					item: "chemlib:holmium_plate"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5843882D00B70E41"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "06275C6E2479410E"
@@ -3381,20 +3395,12 @@
 				"Теперь вам доступно всё необходимое чтобы покорить все миры."
 			]
 			id: "1133660CBAFEF8C1"
-			rewards: [
-				{
-					count: 5
-					id: "60021AB135CEC788"
-					item: "mekanism:elite_control_circuit"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "635AA4BF6EA272E7"
-					item: "chemlib:holmium_plate"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 5
+				id: "60021AB135CEC788"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.0d
 			subtitle: "x5 производство из руды"
@@ -3526,6 +3532,20 @@
 				"Кристаллизатор открывать путь к пространственному хранению."
 			]
 			id: "342A94A83BBB9E3F"
+			rewards: [
+				{
+					count: 4
+					id: "2F35286B4D1599C9"
+					item: "thermal:redstone_bucket"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2B78A244691D6E4F"
+					item: "mekanism:sulfur_dioxide_bucket"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "Бесконечные алмазы"
 			tasks: [{

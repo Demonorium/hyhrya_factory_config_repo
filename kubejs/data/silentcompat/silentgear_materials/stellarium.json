@@ -58,7 +58,7 @@
           "level": 5
         },
         {
-        "name": "silentcompat:extraterrestrial",
+        "name": "handmade:extraterrestrial",
             "conditions": [
               {
                 "type": "silentgear:material_ratio",

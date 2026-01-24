@@ -1,64 +1,103 @@
 {
-    "type": "silentgear:standard",
-    "simple": true,
-    "availability": {
-      "tier": 4,
-      "categories": [
-        "metal"
-      ],
-      "visible": true,
-      "gear_blacklist": [],
-      "can_salvage": true
-    },
-    "crafting_items": {
-      "main": {
-        "tag": "forge:pellets/polonium"
-      }
-    },
-    "name": {
-      "text": "Polonium"
-    },
-    "stats": {
-      "rod": {
-        "durability": {
-          "mul1": 2.0
-        },
-        "harvest_speed": {
-          "mul2": 0.2
-        },
-        "melee_damage": {
-          "mul2": 0.3
-        },
-        "ranged_damage": {
-          "mul2": 0.2
-        },
-        "rarity": 40.0
-      }
-    },
-    "traits": {
-      "rod": [
-        {
-          "name": "silentgear:soft",
-          "level": 3
-        },
-        {
-            "name": "silentgear:spoon",
-            "level": 1
-        }
-      ]
-    },
-    "model": {
-      "rod/all": [
-        {
-          "texture": "silentgear:rod_generic_lc",
-          "color": "#418a87"
-        }
-      ],
-      "rod/part": [
-        {
-          "texture": "silentgear:rod",
-          "color": "#418a87"
-        }
-      ]
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:pellets/polonium"
     }
+  },
+  "name": {
+    "text": "Polonium"
+  },
+  "stats": {
+    "main": {
+      "durability": 700.0,
+      "armor_durability": 20.0,
+      "repair_value": -0.15,
+      "enchantment_value": 17.0,
+      "harvest_speed": 6.0,
+      "melee_damage": 2.0,
+      "magic_damage": 2.0,
+      "attack_speed": 0.1,
+      "armor": 13.0,
+      "armor/helmet": 2.0,
+      "armor/chestplate": 5.0,
+      "armor/leggings": 4.0,
+      "armor/boots": 2.0,
+      "armor_toughness": 1.0,
+      "magic_armor": 3.0,
+      "ranged_damage": 0.5,
+      "ranged_speed": 0.1,
+      "rarity": 50.0,
+      "charging_value": 1.5
+    },
+    "rod": {
+      "durability": {
+        "mul1": 2.0
+      },
+      "harvest_speed": {
+        "mul2": 0.2
+      },
+      "melee_damage": {
+        "mul2": 0.3
+      },
+      "ranged_damage": {
+        "mul2": 0.2
+      },
+      "rarity": 60.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 4
+      },
+      {
+        "name": "handmade:radioactive",
+        "level": 3
+      },
+      {
+        "name": "handmade:critical",
+        "level": 3
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:soft",
+        "level": 3
+      },
+      {
+        "name": "silentgear:spoon",
+        "level": 1
+      },
+      {
+        "name": "handmade:critical",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#418a87"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#418a87"
+      }
+    ]
   }
+}

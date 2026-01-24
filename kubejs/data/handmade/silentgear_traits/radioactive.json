@@ -1,0 +1,68 @@
+{
+  "type": "silentgear:target_effect",
+  "max_level": 5,
+  "conditions": [
+    {
+      "type": "silentgear:or",
+      "values": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "weapon"
+        },
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "tool"
+        },
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "tip"
+        }
+      ]
+    }
+  ],
+  "name": {
+    "translate": "trait.handmade.radioactive"
+  },
+  "description": {
+    "translate": "trait.handmade.radioactive.desc"
+  },
+  "effects": {
+    "tool": {
+      "1": [
+        {
+          "effect": "voltaic:radiation",
+          "amplifier": 1,
+          "duration": 80.0
+        }
+      ],
+      "2": [
+        {
+          "effect": "voltaic:radiation",
+          "amplifier": 2,
+          "duration": 110.0
+        }
+      ],
+      "3": [
+        {
+          "effect": "voltaic:radiation",
+          "amplifier": 3,
+          "duration": 160.0
+        }
+      ],
+      "4": [
+        {
+          "effect": "voltaic:radiation",
+          "amplifier": 4,
+          "duration": 200.0
+        }
+      ],
+      "5": [
+        {
+          "effect": "voltaic:radiation",
+          "amplifier": 5,
+          "duration": 250.0
+        }
+      ]
+    }
+  }
+}

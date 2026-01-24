@@ -2621,12 +2621,32 @@ const TAGS_TO_FIX = [
 		item: "chemlib:tungsten_metal_block",
 	},
 	{
+		tag: "forge:raw_materials/tungsten",
+		item: "superbwarfare:scheelite",
+	},
+	{
 		tag: "forge:plates/tungsten",
 		item: "chemlib:tungsten_plate",
 	},
 	{
 		tag: "forge:dusts/tungsten",
 		item: "moremekanismprocessing:dust_tungsten",
+	},
+	{
+		tag: "mekanism:crystals/tungsten",
+		item: "moremekanismprocessing:crystal_tungsten",
+	},
+	{
+		tag: "mekanism:dirty_dusts/tungsten",
+		item: "moremekanismprocessing:dirty_dust_tungsten",
+	},
+	{
+		tag: "mekanism:clumps/tungsten",
+		item: "moremekanismprocessing:clump_tungsten",
+	},
+	{
+		tag: "mekanism:shards/tungsten",
+		item: "moremekanismprocessing:shard_tungsten",
 	},
 	{
 		tag: "forge:ingots/rhenium",

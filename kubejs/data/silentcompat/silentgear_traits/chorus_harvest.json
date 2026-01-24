@@ -2,10 +2,10 @@
     "type": "silentcompat:item_drop",
     "max_level": 1,
     "name": {
-      "text": "Chorus Harvest"
+      "text": "Сбор хорусов"
     },
     "description": {
-      "text": "Chance to drop chorus fruit on durability loss"
+      "text": "Шанс выкинуть фрукт хоруса при потере прочности"
     },
 
     "item": "minecraft:chorus_fruit",

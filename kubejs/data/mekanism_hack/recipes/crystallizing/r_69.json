@@ -3,7 +3,7 @@
     "chemicalType": "slurry",
     "input": {
         "slurry": "moremekanismprocessing:clean_diamond",
-        "amount": 200
+        "amount": 100
     },
     "output": {
         "item": "moremekanismprocessing:crystal_diamond",

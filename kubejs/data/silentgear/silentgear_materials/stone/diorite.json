@@ -1,0 +1,35 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "parent": "silentgear:stone",
+  "crafting_items": {
+    "main": {
+      "item": "minecraft:diorite"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.stone.diorite"
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod"
+      }
+    ]
+  }
+}

@@ -982,6 +982,7 @@
 				"7CBCD5F99E6A252D"
 				"6A6903DFFAAA6138"
 			]
+			dependency_requirement: "one_completed"
 			id: "33A1E2BC044A725A"
 			tasks: [{
 				id: "46370E031E8764B5"
@@ -1013,6 +1014,26 @@
 		{
 			dependencies: ["004DCE2563970C33"]
 			id: "18E437A6007A7821"
+			rewards: [
+				{
+					count: 4
+					id: "0EBFF0D5EDDC0046"
+					item: "dysonsphere:thermopile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "758701210FBB92C7"
+					item: "mekanism:energy_tablet"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "08CD83B40D01811F"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
@@ -1082,12 +1103,20 @@
 				"1C9235D189085204"
 			]
 			id: "560739A94700BD32"
-			rewards: [{
-				count: 64
-				id: "458A85129229425E"
-				item: "mekanism:dust_osmium"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "458A85129229425E"
+					item: "mekanism:dust_osmium"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1F770A697F922322"
+					item: "mekanism:advanced_fluid_tank"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "2196FEEAE7085F83"
@@ -1191,12 +1220,26 @@
 			]
 			hide_until_deps_complete: true
 			id: "00C310358F452A99"
-			rewards: [{
-				count: 3
-				id: "6F227F1859E3E8A7"
-				item: "minecraft:gold_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "6F227F1859E3E8A7"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "504CCD2744E92D2F"
+					item: "mekanism:basic_pressurized_tube"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "388F7B1F01D9C729"
+					item: "mekanism:basic_chemical_tank"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 1.0d
 			subtitle: "Химическое растворение"

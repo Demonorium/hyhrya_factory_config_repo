@@ -169,7 +169,7 @@
             "level": 2
       },
       {
-        "name": "silentcompat:extraterrestrial",
+        "name": "handmade:extraterrestrial",
             "level": 1
       },
      {
@@ -197,7 +197,7 @@
             "level": 2
        },
       {
-          "name": "silentcompat:extraterrestrial",
+          "name": "handmade:extraterrestrial",
           "level": 5
       }
     ]

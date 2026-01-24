@@ -1,0 +1,25 @@
+{
+  "type": "silentgear:attribute",
+  "max_level": 5,
+  "name": {
+    "translate": "trait.handmade.critical"
+  },
+  "description": {
+    "translate": "trait.handmade.critical.desc"
+  },
+  "attribute_modifiers": {
+    "all": [
+      {
+        "attribute": "obscure_api:critical_hit",
+        "operation": 0,
+        "value": [
+          0.05,
+          0.1,
+          0.15,
+          0.20,
+          0.25
+        ]
+      }
+    ]
+  }
+}

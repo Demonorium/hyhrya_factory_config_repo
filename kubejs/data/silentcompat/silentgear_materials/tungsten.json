@@ -86,6 +86,10 @@
         {
             "name": "silentcompat:dense",
             "level": 2
+        },
+        {
+          "name": "silentcompat:projectile_resistance",
+          "level": 4
         }
       ],
       "rod": [
