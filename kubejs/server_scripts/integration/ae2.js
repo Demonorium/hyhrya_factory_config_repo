@@ -211,13 +211,13 @@ ServerEvents.recipes(event => {
             "type": "mekanism:combining",
             "extraInput": {
                 "ingredient": {
-                "item": Item.of(printed).getId(),
+                  "item": Item.of('ae2:printed_silicon').getId(),
                 }
             },
             "mainInput": {
                 "amount": 1,
                 "ingredient": {
-                    "item": Item.of('ae2:printed_silicon').getId(),
+                    "item": Item.of(printed).getId(),
                 }
             },
             "output": {
@@ -229,13 +229,13 @@ ServerEvents.recipes(event => {
             "type": "mekanism:combining",
             "extraInput": {
                 "ingredient": {
-                "item": Item.of(printed).getId(),
+                  "item": Item.of('chemlib:bismuth_plate').getId(),
                 }
             },
             "mainInput": {
                 "amount": 1,
                 "ingredient": {
-                    "item": Item.of('chemlib:bismuth_plate').getId(),
+                    "item": Item.of(printed).getId(),
                 }
             },
             "output": {
@@ -248,13 +248,14 @@ ServerEvents.recipes(event => {
             "type": "mekanism:combining",
             "extraInput": {
                 "ingredient": {
-                "item": Item.of(printed).getId(),
+                   "item": Item.of('chemlib:holmium_plate').getId(),
+                
                 }
             },
             "mainInput": {
                 "amount": 1,
                 "ingredient": {
-                    "item": Item.of('chemlib:holmium_plate').getId(),
+                   "item": Item.of(printed).getId(),
                 }
             },
             "output": {
@@ -601,7 +602,7 @@ ServerEvents.recipes(event => {
       "ingredients": [
         {
           "fluid": Fluid.of('kubejs:silicon_dioxide').getId(),
-          "amount": 1000.0
+          "amount": 250.0
         },
         {
           "item": Item.of('ae2:certus_quartz_dust').getId(),
@@ -618,7 +619,7 @@ ServerEvents.recipes(event => {
           "count": 2.0
         }
       ],
-      "energy": 40000
+      "energy": 5000
     })
 
     event.custom({
@@ -626,7 +627,7 @@ ServerEvents.recipes(event => {
       "ingredients": [
         {
           "fluid": MATERIALS.REDSTONE.fluid,
-          "amount": 1000
+          "amount": 250
         },
         {
           "item": Item.of('quartz').getId(),
@@ -643,7 +644,7 @@ ServerEvents.recipes(event => {
           "count": 2
         }
       ],
-      "energy": 20000
+      "energy": 10000
     })
 
 
