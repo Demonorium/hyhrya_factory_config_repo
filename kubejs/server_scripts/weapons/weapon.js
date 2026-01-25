@@ -514,7 +514,7 @@ ServerEvents.recipes(event => {
             A: Item.of(MATERIALS.NICKEL.plate),
             B: Item.of('mekanism:dust_sulfur'),
             C: Item.of(MATERIALS.COAL.dust),
-            D: Item.of("thermal:sap_bucket"),
+            D: Item.of("thermal:resin_bucket"),
             E: Item.of("superbwarfare:high_energy_explosives"),
         }
     )
