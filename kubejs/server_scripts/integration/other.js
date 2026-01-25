@@ -31,8 +31,62 @@ ServerEvents.recipes(event => {
 
   event.smelting(Item.of('iron_ingot'), Item.of('bucket', 3))
   event.blasting(Item.of('iron_ingot'), Item.of('bucket', 3))
+  event.shapeless(
+    Item.of('silentgear:blazing_dust', 5),
 
+    [
+      Item.of('silentgear:glowing_dust'),
+      Item.of('thermal:cinnabar_dust'),
+      Item.of('thermal:cinnabar_dust'),
+      Item.of(MATERIALS.GOLD.dust),
+      Item.of(MATERIALS.OSMIUM.dust)
+    ]
+  )
+
+  event.shapeless(
+    Item.of('silentgear:glowing_dust', 5),
+
+    [
+      Item.of(MATERIALS.GLOWSTONE.dust),
+      Item.of('ae2:fluix_dust'),
+      Item.of('ae2:fluix_dust'),
+    ]
+  )
+  event.shapeless(
+    Item.of('silentgear:glowing_dust', 6),
+
+    [
+      Item.of(MATERIALS.URANIUM.dust),
+      Item.of('ae2:fluix_dust'),
+      Item.of('ae2:fluix_dust'),
+    ]
+  )
+
+  event.shapeless(
+    Item.of('silentgear:starmetal_dust', 3),
+
+    [
+      MATERIALS.OSTRUM.dust,
+      MATERIALS.DESH.dust,
+      Item.of('silentgear:blazing_dust', 1)
+    ]
+  )
 })
+
+ServerEvents.tags("item", event => {
+  event.add("silentgear:grader_catalysts/tier1", MATERIALS.URANIUM.dust)
+  event.add("silentgear:grader_catalysts/tier1", MATERIALS.CHROMIUM.dust)
+  event.add("silentgear:grader_catalysts/tier2", "mekanism_extras:dust_radiance")
+  event.add("silentgear:grader_catalysts/tier2", MATERIALS.HOLMIUM.dust)
+  
+  event.add("silentgear:grader_catalysts/tier3", MATERIALS.RUTHENIUM.dust)
+
+  event.add("silentgear:grader_catalysts/tier4", MATERIALS.POLONIUM.dust)
+    
+  event.add("silentgear:grader_catalysts/tier5", MATERIALS.NAQUADAH.dust)
+  event.add("silentgear:grader_catalysts/tier5", MATERIALS.CALORITE.dust)
+})
+
 
 function _blueprint_recipes(event) {
   event.remove({ id: 'portable_blueprints:crafting_table/tablet2' })

@@ -50,6 +50,10 @@
     },
     "traits": {
       "main": [
+        {
+          "name": "handmade:cold",
+          "level": 2
+        }
       ],
       "grip": [
         {
@@ -61,6 +65,10 @@
         {
           "name": "silentgear:flexible",
           "level": 1
+        },
+        {
+          "name": "handmade:cold",
+          "level": 2
         }
       ]
     },
