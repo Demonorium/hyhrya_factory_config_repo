@@ -149677,15 +149677,15 @@ const CUSTOM_RECIPES = [
 		duration: 400,
 		energyRequired: 600,
 		fluidInput: {
-			amount: 100,
+			amount: 5000,
 			fluid: "pneumaticcraft:ethanol",
 		},
 		gasInput: {
-			amount: 100,
+			amount: 5000,
 			gas: "mekanism:hydrogen_chloride",
 		},
 		itemInput: {
-			amount: 5.0,
+			amount: 20.0,
 			ingredient: {
 				tag: "diet:fruits",
 			},
@@ -149700,15 +149700,15 @@ const CUSTOM_RECIPES = [
 		duration: 400,
 		energyRequired: 600,
 		fluidInput: {
-			amount: 100,
+			amount: 5000,
 			fluid: "pneumaticcraft:ethanol",
 		},
 		gasInput: {
-			amount: 100,
+			amount: 5000,
 			gas: "kubejs:antimony_acid",
 		},
 		itemInput: {
-			amount: 5.0,
+			amount: 20.0,
 			ingredient: {
 				tag: "diet:fruits",
 			},
@@ -149723,15 +149723,15 @@ const CUSTOM_RECIPES = [
 		duration: 400,
 		energyRequired: 600,
 		fluidInput: {
-			amount: 100,
+			amount: 5000,
 			fluid: "pneumaticcraft:ethanol",
 		},
 		gasInput: {
-			amount: 100,
+			amount: 5000,
 			gas: "kubejs:perchloric_acid",
 		},
 		itemInput: {
-			amount: 5.0,
+			amount: 20.0,
 			ingredient: {
 				tag: "diet:fruits",
 			},
