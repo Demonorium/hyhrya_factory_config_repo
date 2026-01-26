@@ -176,7 +176,7 @@
 	armor_piercing_ammo_cartridge_size = 250
 	#Base bullet damage of the Sentry Gun, Handheld Minigun, and Drone Minigun, before ammo bonuses are considered
 	#Range: 0.0 ~ 1.7976931348623157E308
-	base_damage = 5.5
+	base_damage = 4.75
 	#Base range of Minigun, before Range Upgrades are considered
 	#Range: 5 ~ 100
 	base_range = 50
@@ -185,7 +185,7 @@
 	explosive_ammo_cartridge_size = 125
 	#Minigun Explosive Ammo damage multiplier (relative to standard ammo)
 	#Range: 0.0 ~ 1.7976931348623157E308
-	explosive_ammo_damage_multiplier = 0.2
+	explosive_ammo_damage_multiplier = 0.5
 	#Explosive Ammo base percentage chance to cause an explosion
 	#Range: > 0
 	explosive_ammo_explosion_chance = 50

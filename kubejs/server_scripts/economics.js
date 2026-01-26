@@ -77,7 +77,7 @@ ServerEvents.recipes(event => {
   }
 
   WEAPONS.forEach(weapon => {
-    create_amadron_recipe(event, price_val(weapon.price_mod, weapon.price), Item.of(weapon.id), weapon.static_trade)
+    create_amadron_recipe_with_chance(event, price_val(weapon.price_mod, weapon.price), Item.of(weapon.id), weapon.static_trade, weapon.rarity)
   })
 
   event.remove({ id: "orbital_railgun:orbital_railgun" })
@@ -151,18 +151,18 @@ ServerEvents.recipes(event => {
   create_amadron_recipe(event, price_val(7, 1), Item.of("coal", 4), true)
   create_amadron_recipe(event, price_val(7, 1), Item.of("copper_ore", 8), true)
   create_amadron_recipe(event, price_val(7, 1), Item.of("emerald_ore", 8), true)
-  create_amadron_recipe(event, price_val(7, 1), Item.of("diamond", 4), false)
-  create_amadron_recipe(event, price_val(7, 1), Item.of("thermal:apatite", 16), false)
+  create_amadron_recipe_with_chance(event, price_val(7, 1), Item.of("diamond", 4), false, 3)
+  create_amadron_recipe_with_chance(event, price_val(7, 1), Item.of("thermal:apatite", 16), false, 1)
 
   // t8
   create_amadron_recipe(event, price_val(8, 1), Item.of("lava_bucket", 1), true)
-  create_amadron_recipe(event, price_val(8, 1), Item.of("thermal:ruby", 16), false)
-  create_amadron_recipe(event, price_val(8, 1), Item.of("thermal:sapphire", 16), false)
+  create_amadron_recipe_with_chance(event, price_val(8, 1), Item.of("thermal:ruby", 16), false, 3)
+  create_amadron_recipe_with_chance(event, price_val(8, 1), Item.of("thermal:sapphire", 16), false, 1)
 
   // t9
   create_amadron_recipe(event, price_val(9, 1), Item.of("undergarden:depthrock_cloggrum_ore", 32), true)
   create_amadron_recipe(event, price_val(9, 2), Item.of("undergarden:depthrock_regalium_ore", 32), false)
-  create_amadron_recipe(event, price_val(9, 2), Item.of("undergarden:shiverstone_froststeel_ore", 32), false)
+  create_amadron_recipe_with_chance(event, price_val(9, 2), Item.of("undergarden:shiverstone_froststeel_ore", 32), false, 1)
 
   // t10
   create_amadron_recipe(event, Item.of("superbwarfare:epic_material_pack"), price_val(10, 1), true)
@@ -195,9 +195,21 @@ function price_val(power, amount) {
 }
 
 function create_amadron_recipe(event, price, output_item, static_trade) {
+    create_amadron_recipe_with_chance(event, price, output_item, static_trade, 0)
+}
+
+function create_amadron_recipe_with_chance(event, price, output_item, static_trade, chance) {
   const src_id = price.getId().split(":")[1]
   const output_id = output_item.getId().split(":")[1]
   const id = "pneumaticcraft:amadron/" + src_id + "_to_" + output_id
+
+  let level = 0
+  if (!static_trade) {
+    level = chance
+    if (level == 0) {
+      level = 2
+    }
+  }
 
   event.custom({
     "type": "pneumaticcraft:amadron",
@@ -207,7 +219,7 @@ function create_amadron_recipe(event, price, output_item, static_trade) {
       "amount": price.getCount(),
       "id": price.getId()
     },
-    "level": 0,
+    "level": chance,
     "output": {
       "type": "ITEM",
       "amount": output_item.getCount(),

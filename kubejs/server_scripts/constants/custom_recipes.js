@@ -88216,7 +88216,7 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			gas: "mekanism:hydrogen",
-			amount: 400,
+			amount: 40,
 			chemicalType: "gas",
 		},
 	},
@@ -120486,7 +120486,7 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			gas: "kubejs:magnesium_oxide",
-			amount: 100,
+			amount: 10,
 			chemicalType: "gas",
 		},
 	},
@@ -123575,7 +123575,7 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			gas: "kubejs:calcium_carbonate",
-			amount: 100,
+			amount: 10,
 			chemicalType: "gas",
 		},
 	},
@@ -124130,7 +124130,7 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			gas: "kubejs:barium_carbonate",
-			amount: 100,
+			amount: 10,
 			chemicalType: "gas",
 		},
 	},
@@ -127751,7 +127751,7 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			gas: "kubejs:copper_carbonate",
-			amount: 100,
+			amount: 10,
 			chemicalType: "gas",
 		},
 	},
@@ -128313,7 +128313,7 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			gas: "kubejs:iron_carbonate",
-			amount: 100,
+			amount: 10,
 			chemicalType: "gas",
 		},
 	},
@@ -129264,7 +129264,7 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			gas: "kubejs:strontium_carbonate",
-			amount: 100,
+			amount: 10,
 			chemicalType: "gas",
 		},
 	},
@@ -130869,7 +130869,7 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			gas: "kubejs:zinc_oxide",
-			amount: 100,
+			amount: 10,
 			chemicalType: "gas",
 		},
 	},
@@ -136794,7 +136794,7 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			gas: "kubejs:magnesium_carbonate",
-			amount: 100,
+			amount: 10,
 			chemicalType: "gas",
 		},
 	},
@@ -148422,7 +148422,7 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			gas: "kubejs:sodium_bicarbonate",
-			amount: 100,
+			amount: 10,
 			chemicalType: "gas",
 		},
 	},
@@ -148906,7 +148906,7 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			gas: "kubejs:potassium_bicarbonate",
-			amount: 100,
+			amount: 10,
 			chemicalType: "gas",
 		},
 	},
@@ -149965,7 +149965,7 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			gas: "mekanismelements:nitrogen",
-			amount: 800,
+			amount: 10,
 			chemicalType: "gas",
 		},
 	},
@@ -153120,7 +153120,7 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			gas: "kubejs:molybdenum_disulphide",
-			amount: 200,
+			amount: 20,
 			chemicalType: "gas",
 		},
 	},
@@ -153811,7 +153811,7 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			gas: "kubejs:gadolinium",
-			amount: 5.0,
+			amount: 1.0,
 			chemicalType: "gas",
 		},
 	},
@@ -153966,7 +153966,7 @@ const CUSTOM_RECIPES = [
 			},
 			{
 				item: "clanginghowl:extraterrestrial_steel_ingot",
-				count: 1.0,
+				chance: 1.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -155066,7 +155066,7 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			gas: "mekanismelements:xenon",
-			amount: 100,
+			amount: 10,
 			chemicalType: "gas",
 		},
 	},
@@ -165993,11 +165993,11 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:barium_chloride_dust",
-				count: 3.0,
+				chance: 3,
 			},
 			{
 				item: "chemlib:lead_iv_chloride",
-				count: 3.0,
+				chance: 3,
 			},
 			{
 				item: "thermal:slag",
@@ -166022,11 +166022,11 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:barium_chloride_dust",
-				count: 6.0,
+				chance: 6,
 			},
 			{
 				item: "chemlib:lead_iv_chloride",
-				count: 6.0,
+				chance: 6,
 			},
 			{
 				item: "thermal:slag",
@@ -172676,11 +172676,11 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:barium_chloride_dust",
-				count: 3.0,
+				chance: 3,
 			},
 			{
 				item: "chemlib:lead_iv_chloride",
-				count: 3.0,
+				chance: 3,
 			},
 			{
 				item: "thermal:slag",
@@ -172705,11 +172705,11 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:barium_chloride_dust",
-				count: 3.0,
+				chance: 3.0,
 			},
 			{
 				item: "chemlib:lead_iv_chloride",
-				count: 3.0,
+				chance: 3.0,
 			},
 			{
 				item: "thermal:slag",
@@ -172734,11 +172734,11 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:barium_chloride_dust",
-				count: 6.0,
+				chance: 6,
 			},
 			{
 				item: "chemlib:lead_iv_chloride",
-				count: 6.0,
+				chance: 6,
 			},
 			{
 				item: "thermal:slag",
@@ -172763,11 +172763,11 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:barium_chloride_dust",
-				count: 6.0,
+				chance: 6.0,
 			},
 			{
 				item: "chemlib:lead_iv_chloride",
-				count: 6.0,
+				chance: 6.0,
 			},
 			{
 				item: "thermal:slag",
@@ -173130,7 +173130,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:niobium_pentoxide_dust",
-				count: 3.0,
+				chance: 3,
 			},
 			{
 				item: "chemlib:tantalum_dust",
@@ -173165,7 +173165,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:niobium_pentoxide_dust",
-				count: 3.0,
+				chance: 3.0,
 			},
 			{
 				item: "chemlib:tantalum_dust",
@@ -173200,7 +173200,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:niobium_pentoxide_dust",
-				count: 2.0,
+				chance: 2,
 			},
 			{
 				item: "chemlib:tantalum_dust",
@@ -173235,7 +173235,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:niobium_pentoxide_dust",
-				count: 2.0,
+				chance: 2.0,
 			},
 			{
 				item: "chemlib:tantalum_dust",
