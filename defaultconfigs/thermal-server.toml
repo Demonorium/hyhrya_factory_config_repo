@@ -126,12 +126,12 @@
 	[Recipes.Crucible]
 		#This sets the recipe energy multiplier for the Magma Crucible. This scales all recipe energy requirements.
 		#Range: 0.0625 ~ 16.0
-		"Energy Multiplier" = 10.0
+		"Energy Multiplier" = 8.0
 
 	[Recipes.Chiller]
 		#This sets the recipe energy multiplier for the Blast Chiller. This scales all recipe energy requirements.
 		#Range: 0.0625 ~ 16.0
-		"Energy Multiplier" = 10.0
+		"Energy Multiplier" = 8.0
 
 	[Recipes.Refinery]
 		#This sets the recipe energy multiplier for the Fractionating Still. This scales all recipe energy requirements.
@@ -223,7 +223,7 @@
 	[Machines.Smelter]
 		#This sets the base power consumption (RF/t) for the Induction Smelter.
 		#Range: 1 ~ 32000
-		"Base Power" = 2000
+		"Base Power" = 800
 
 	[Machines.Insolator]
 		#This sets the base power consumption (RF/t) for the Phytogenic Insolator.
@@ -243,12 +243,12 @@
 	[Machines.Crucible]
 		#This sets the base power consumption (RF/t) for the Magma Crucible.
 		#Range: 1 ~ 32000
-		"Base Power" = 1000
+		"Base Power" = 500
 
 	[Machines.Chiller]
 		#This sets the base power consumption (RF/t) for the Blast Chiller.
 		#Range: 1 ~ 32000
-		"Base Power" = 1000
+		"Base Power" = 500
 
 	[Machines.Refinery]
 		#This sets the base power consumption (RF/t) for the Fractionating Still.

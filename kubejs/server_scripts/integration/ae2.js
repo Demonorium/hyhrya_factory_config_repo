@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
         {
             A: Item.of('pncepcb:primitive_finished_pcb'),
             B: Item.of('minecraft:iron_ingot'),
-            C: Item.of('ae2:certus_quartz_crystal')
+            C: '#ae2:all_certus_quartz'
         }
     )
     event.remove({id: 'ae2:network/blocks/inscribers'})
