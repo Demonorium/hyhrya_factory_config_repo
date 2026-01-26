@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:bicarbonate",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:bicarbonate",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:bicarbonate",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:bicarbonate",
+        "amount": 1.0
+    }
+}

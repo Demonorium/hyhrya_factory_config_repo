@@ -2,6 +2,11 @@
     "ModSettings": {
         "first_run": false
     },
+    "GuiSettings": {
+        "show_move_all_button": {
+            "value": false
+        }
+    },
     "Hotkeys": {
         "sort_inventory": {
             "main": {

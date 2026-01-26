@@ -3535,6 +3535,116 @@
                     "count": 1
                 }
             ]
+        },
+        {
+            "name": "bicarbonate",
+            "display_name": "Bicarbonate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "000000",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "hydrogen",
+                    "count": 1
+                },
+                {
+                    "name": "carbon",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "sodium_bicarbonate",
+            "display_name": "Sodium bicarbonate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "d5d5d5",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "sodium",
+                    "count": 1
+                },
+                {
+                    "name": "bicarbonate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "potassium_bicarbonate",
+            "display_name": "Potassium bicarbonate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "dcdcdc",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "potassium",
+                    "count": 1
+                },
+                {
+                    "name": "bicarbonate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "ammonium_bicarbonate",
+            "display_name": "Ammonium bicarbonate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ebebeb",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "ammonium",
+                    "count": 1
+                },
+                {
+                    "name": "bicarbonate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "sodium_bromide",
+            "display_name": "Sodium bromide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "fafafa",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "sodium",
+                    "count": 1
+                },
+                {
+                    "name": "bromine",
+                    "count": 1
+                }
+            ]
         }
     ]
 }
