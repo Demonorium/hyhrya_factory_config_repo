@@ -72,6 +72,36 @@ ServerEvents.recipes(event => {
       Item.of('silentgear:blazing_dust', 1)
     ]
   )
+
+  event.custom(
+    {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "F": {
+          "tag": "forge:dusts/flour"
+        },
+        "A": {
+          "item": "chemlib:sodium_bicarbonate_dust"
+        },
+        "Y": {
+          "type": "pneumaticcraft:fluid",
+          "amount": 1000,
+          "fluid": "pneumaticcraft:yeast_culture"
+        }
+      },
+      "pattern": [
+        "AFA",
+        "FYF",
+        "AFA"
+      ],
+      "result": {
+        "count": 16,
+        "item": "pneumaticcraft:sourdough"
+      },
+      "show_notification": true
+    }
+  )
 })
 
 ServerEvents.tags("item", event => {

@@ -4949,7 +4949,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 800,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
 			fluid: "mekanism:superheated_sodium",
@@ -7098,7 +7098,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 600,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 3000,
 			fluid: "mekanism:superheated_sodium",
@@ -43045,8 +43045,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 243100,
-		burn_rate: 49.381557397267024,
+		air_per_bucket: 300000,
+		burn_rate: 1.5,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -43201,8 +43201,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 253215,
-		burn_rate: 0.6738303181534623,
+		air_per_bucket: 312483,
+		burn_rate: 0.02028153191901816,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -43378,8 +43378,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 517990,
-		burn_rate: 0.41469730123997084,
+		air_per_bucket: 639231,
+		burn_rate: 0.022308019859146624,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -43540,8 +43540,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 334475,
-		burn_rate: 0.28255813953488373,
+		air_per_bucket: 412762,
+		burn_rate: 0.012997850628222734,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -43606,8 +43606,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 28220,
-		burn_rate: 12.977412578372439,
+		air_per_bucket: 34825,
+		burn_rate: 0.04668051399007804,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -43908,8 +43908,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 176800,
-		burn_rate: 0.9149845600256037,
+		air_per_bucket: 218182,
+		burn_rate: 0.010507587802325972,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -44051,8 +44051,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 511360,
-		burn_rate: 0.7836757153338225,
+		air_per_bucket: 631049,
+		burn_rate: 0.022696802373307973,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -44194,8 +44194,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 712172,
-		burn_rate: 0.4145643456069996,
+		air_per_bucket: 878864,
+		burn_rate: 0.025358384903632965,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -44303,8 +44303,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 7696750,
-		burn_rate: 0.3326455624646693,
+		air_per_bucket: 9498252,
+		burn_rate: 0.2950207367600275,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -44425,8 +44425,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 252288,
-		burn_rate: 1.4431457230426303,
+		air_per_bucket: 311339,
+		burn_rate: 0.010257702848397311,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -44671,8 +44671,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 154700,
-		burn_rate: 1.0189922480620155,
+		air_per_bucket: 190909,
+		burn_rate: 0.00976408527906931,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -44848,8 +44848,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 539750,
-		burn_rate: 0.6191519635742744,
+		air_per_bucket: 666084,
+		burn_rate: 0.025559550758808985,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -45158,8 +45158,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 646374,
-		burn_rate: 0.3308988764044944,
+		air_per_bucket: 797664,
+		burn_rate: 0.017820462270791076,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -45318,8 +45318,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 659005,
-		burn_rate: 0.3217391304347826,
+		air_per_bucket: 813252,
+		burn_rate: 0.015609795915995683,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -45478,8 +45478,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 500905,
-		burn_rate: 0.38967391304347826,
+		air_per_bucket: 618147,
+		burn_rate: 0.010926180217471201,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -45655,8 +45655,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 442000,
-		burn_rate: 0.47844901456726646,
+		air_per_bucket: 545455,
+		burn_rate: 0.009456391742412097,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -45764,8 +45764,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 231234,
-		burn_rate: 0.3690810465858328,
+		air_per_bucket: 285357,
+		burn_rate: 0.0048204970203112475,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -45907,8 +45907,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 202079,
-		burn_rate: 0.3625,
+		air_per_bucket: 249378,
+		burn_rate: 0.0039772264476263825,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -46016,8 +46016,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 204000,
-		burn_rate: 0.383000333000333,
+		air_per_bucket: 251748,
+		burn_rate: 0.003998547627513514,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -46125,8 +46125,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 72250,
-		burn_rate: 0.40273368606701937,
+		air_per_bucket: 89161,
+		burn_rate: 0.0014139316144728858,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -46268,8 +46268,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 297891,
-		burn_rate: 0.8974576271186441,
+		air_per_bucket: 367615,
+		burn_rate: 0.006521479126167518,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -46544,8 +46544,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 455600,
-		burn_rate: 0.3719575016097875,
+		air_per_bucket: 562238,
+		burn_rate: 0.011547293356191212,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -47069,8 +47069,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 503200,
-		burn_rate: 0.6560606060606061,
+		air_per_bucket: 620979,
+		burn_rate: 0.01831894022548143,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -47396,8 +47396,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 932841,
-		burn_rate: 0.26505376344086023,
+		air_per_bucket: 1151182,
+		burn_rate: 0.02139546883188363,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -47556,8 +47556,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 675716,
-		burn_rate: 0.24932230416583617,
+		air_per_bucket: 833874,
+		burn_rate: 0.013492976982805683,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -47716,8 +47716,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 633335,
-		burn_rate: 0.25358306188925084,
+		air_per_bucket: 781573,
+		burn_rate: 0.011587297055140522,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -48764,8 +48764,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 490986,
-		burn_rate: 0.3978260869565217,
+		air_per_bucket: 605906,
+		burn_rate: 0.010638307109820043,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -49332,8 +49332,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 494700,
-		burn_rate: 0.5221435316336166,
+		air_per_bucket: 610490,
+		burn_rate: 0.015264785502471224,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -50010,8 +50010,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 768358,
-		burn_rate: 0.3487750224081267,
+		air_per_bucket: 948199,
+		burn_rate: 0.016979899215466648,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -53064,8 +53064,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 186498,
-		burn_rate: 0.5445598417408507,
+		air_per_bucket: 230150,
+		burn_rate: 0.003238571663896749,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -54120,8 +54120,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 1042440,
-		burn_rate: 0.24758940920766648,
+		air_per_bucket: 1286434,
+		burn_rate: 0.017808710496478745,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -54396,8 +54396,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 1012917,
-		burn_rate: 0.2770663033605813,
+		air_per_bucket: 1250000,
+		burn_rate: 0.013575757109729174,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -55869,7 +55869,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:heat_frame_cooling",
 		input: {
-			fluid: "kubejs:ethylene",
+			fluid: "mekanism:ethene",
 			amount: 1000.0,
 			type: "pneumaticcraft:fluid",
 		},
@@ -55892,18 +55892,18 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:stacked_item",
 		},
 		fluid_output: {
-			fluid: "kubejs:ethylene",
+			fluid: "mekanism:ethene",
 			amount: 100.0,
 		},
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 441311,
-		burn_rate: 5.949705014749262,
+		air_per_bucket: 544605,
+		burn_rate: 0.7521603424970416,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
-			fluid: "kubejs:ethylene",
+			fluid: "mekanism:ethene",
 		},
 	},
 	{
@@ -55913,7 +55913,7 @@ const CUSTOM_RECIPES = [
 			count: 1.0,
 		},
 		result: {
-			fluid: "kubejs:ethylene",
+			fluid: "mekanism:ethene",
 			amount: 100.0,
 		},
 		energy: 1040,
@@ -55921,7 +55921,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "thermal:chiller",
 		ingredient: {
-			fluid: "kubejs:ethylene",
+			fluid: "mekanism:ethene",
 			amount: 100,
 		},
 		result: [
@@ -55947,8 +55947,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 2403800,
-		burn_rate: 0.8438413035630246,
+		air_per_bucket: 2966434,
+		burn_rate: 0.1148128594709126,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -56690,8 +56690,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 4799950,
-		burn_rate: 0.8984478024542013,
+		air_per_bucket: 5923427,
+		burn_rate: 0.22288768945164975,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -57131,8 +57131,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 14861,
-		burn_rate: 0.8438413035630246,
+		air_per_bucket: 18340,
+		burn_rate: 0.09169930069930071,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -57572,8 +57572,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 538,
-		burn_rate: 1.8401953684960524,
+		air_per_bucket: 663671,
+		burn_rate: 0.027382155135597757,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -57845,8 +57845,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 756500,
-		burn_rate: 9.00575855274942,
+		air_per_bucket: 933566,
+		burn_rate: 1.7264900494889588,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -57911,8 +57911,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 1326000,
-		burn_rate: 5.467118093174431,
+		air_per_bucket: 1636364,
+		burn_rate: 2.106296403193382,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -58033,8 +58033,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 2445450,
-		burn_rate: 3.69963503649635,
+		air_per_bucket: 3017832,
+		burn_rate: 2.872571049805372,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -58099,8 +58099,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 2982650,
-		burn_rate: 3.2820620555914672,
+		air_per_bucket: 3680769,
+		burn_rate: 0.22052252645690035,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -58165,8 +58165,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 3539,
-		burn_rate: 2.972267679719462,
+		air_per_bucket: 4366783,
+		burn_rate: 21.833916083916087,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -58253,8 +58253,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 389810,
-		burn_rate: 0.8581461128171973,
+		air_per_bucket: 481049,
+		burn_rate: 0.014169056306766672,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -58716,8 +58716,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 313752,
-		burn_rate: 0.7265383535004907,
+		air_per_bucket: 387189,
+		burn_rate: 1.9359440559440553,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -59269,8 +59269,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 202988,
-		burn_rate: 1.5340318176421706,
+		air_per_bucket: 250500,
+		burn_rate: 0.004172215738269854,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -59642,8 +59642,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 46801,
-		burn_rate: 0.9968854098214742,
+		air_per_bucket: 57755,
+		burn_rate: 0.288776223776224,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -59708,8 +59708,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 84056,
-		burn_rate: 3.8522813688212927,
+		air_per_bucket: 103731,
+		burn_rate: 0.5186538461538461,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -59774,8 +59774,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 101158,
-		burn_rate: 0.6935006435006436,
+		air_per_bucket: 124836,
+		burn_rate: 0.0021465124750920045,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -59823,8 +59823,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 123981,
-		burn_rate: 1.1038518284329224,
+		air_per_bucket: 153000,
+		burn_rate: 0.0035861736322009554,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -60247,8 +60247,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 169796,
-		burn_rate: 3.4478933061501866,
+		air_per_bucket: 209538,
+		burn_rate: 0.2290795717268362,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -60369,8 +60369,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 325210,
-		burn_rate: 4.219967891247237,
+		air_per_bucket: 401329,
+		burn_rate: 0.02303781987064792,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -60603,8 +60603,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 120700,
-		burn_rate: 0.5330917874396135,
+		air_per_bucket: 148951,
+		burn_rate: 0.0028825010687534634,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -60725,8 +60725,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 394068,
-		burn_rate: 4.7316479400749065,
+		air_per_bucket: 486304,
+		burn_rate: 2.4315209790209793,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -60791,8 +60791,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 1105000,
-		burn_rate: 0.5129339224321808,
+		air_per_bucket: 1363636,
+		burn_rate: 1.8839743402128204,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -60857,8 +60857,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 743,
-		burn_rate: 2.601020408163265,
+		air_per_bucket: 916783,
+		burn_rate: 0.0424307244000427,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -60923,8 +60923,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 177608,
-		burn_rate: 0.6520469596628538,
+		air_per_bucket: 219178,
+		burn_rate: 0.004288249865404701,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -61084,8 +61084,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 241,
-		burn_rate: 12.304901960784315,
+		air_per_bucket: 296853,
+		burn_rate: 0.015841806041500518,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -61995,8 +61995,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 13600,
-		burn_rate: 1.3745033112582783,
+		air_per_bucket: 16783,
+		burn_rate: 0.0005773168829159205,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -62777,8 +62777,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 27030,
-		burn_rate: 1.4881697736407067,
+		air_per_bucket: 33357,
+		burn_rate: 0.00089517218818542,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -63978,8 +63978,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 21675,
-		burn_rate: 1.195475372279496,
+		air_per_bucket: 26748,
+		burn_rate: 0.0008218800897935901,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -64894,8 +64894,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 77,
-		burn_rate: 8.314462809917355,
+		air_per_bucket: 95455,
+		burn_rate: 0.12359854074409263,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -64960,8 +64960,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 1434120,
-		burn_rate: 3.180968408528758,
+		air_per_bucket: 1769790,
+		burn_rate: 0.06762449183495747,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -65121,8 +65121,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 851199,
-		burn_rate: 0.7552683546089287,
+		air_per_bucket: 1050430,
+		burn_rate: 0.02415317436979085,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -65170,8 +65170,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 3668778,
-		burn_rate: 0.34323056300268096,
+		air_per_bucket: 4527493,
+		burn_rate: 0.12111404257530467,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -65499,8 +65499,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 294703,
-		burn_rate: 1.0401055452511239,
+		air_per_bucket: 363682,
+		burn_rate: 0.012654183847450137,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -65845,8 +65845,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 2884,
-		burn_rate: 2.2368439468159553,
+		air_per_bucket: 3559091,
+		burn_rate: 0.16625903715586096,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -65911,8 +65911,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 2777800,
-		burn_rate: 2.881257078142695,
+		air_per_bucket: 3427972,
+		burn_rate: 17.13986013986014,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -66016,8 +66016,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 105570,
-		burn_rate: 1.2845679012345679,
+		air_per_bucket: 130280,
+		burn_rate: 0.0044626780010280035,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -66121,8 +66121,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 2571250,
-		burn_rate: 2.1161157024793384,
+		air_per_bucket: 3173077,
+		burn_rate: 0.12521287032629153,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -67032,8 +67032,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 528700,
-		burn_rate: 2.6339793281653745,
+		air_per_bucket: 652448,
+		burn_rate: 0.030607951988233788,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -68396,8 +68396,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 2384233,
-		burn_rate: 0.9527857711934602,
+		air_per_bucket: 2942287,
+		burn_rate: 0.1123896105705083,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -68462,8 +68462,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 216,
-		burn_rate: 2.724511901577962,
+		air_per_bucket: 266434,
+		burn_rate: 0.011434325710716547,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -68718,8 +68718,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 114750,
-		burn_rate: 0.8750185216658114,
+		air_per_bucket: 141608,
+		burn_rate: 0.002880650775716642,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -68935,8 +68935,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 154700,
-		burn_rate: 2.492002442002442,
+		air_per_bucket: 190909,
+		burn_rate: 0.006888231747680294,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -69588,8 +69588,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 938077,
-		burn_rate: 0.5226195727519062,
+		air_per_bucket: 1157643,
+		burn_rate: 0.024395013434731837,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -71181,8 +71181,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 571,
-		burn_rate: 3.3944816053511704,
+		air_per_bucket: 704895,
+		burn_rate: 0.04029564361421785,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -71605,8 +71605,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 98953,
-		burn_rate: 4.25539131166155,
+		air_per_bucket: 122114,
+		burn_rate: 0.0034288088156057403,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -71822,8 +71822,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 455141,
-		burn_rate: 2.487835202340322,
+		air_per_bucket: 561671,
+		burn_rate: 0.02049262393630029,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -72582,8 +72582,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 90767,
-		burn_rate: 4.897309743092583,
+		air_per_bucket: 112012,
+		burn_rate: 0.09233150451829997,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -72799,8 +72799,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 99399,
-		burn_rate: 1.7056291390728477,
+		air_per_bucket: 122664,
+		burn_rate: 0.0034748881627022455,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -73542,8 +73542,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 617100,
-		burn_rate: 3.010331557134399,
+		air_per_bucket: 761538,
+		burn_rate: 0.04056306726611663,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -73859,8 +73859,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 891289600,
-		burn_rate: 500.05,
+		air_per_bucket: 1099904895,
+		burn_rate: 5499.524475524476,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -73925,8 +73925,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 891289600,
-		burn_rate: 500.05,
+		air_per_bucket: 1099904895,
+		burn_rate: 5499.524475524476,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -73991,8 +73991,8 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:fuel_quality",
-		air_per_bucket: 912680550400,
-		burn_rate: 500.05,
+		air_per_bucket: 1126302612587,
+		burn_rate: 5631513.062937063,
 		fluid: {
 			type: "pneumaticcraft:fluid",
 			amount: 1000,
@@ -77898,6 +77898,33 @@ const CUSTOM_RECIPES = [
 		item_output: {
 			item: "chemlib:vanadium_iv_oxide_dust",
 			count: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 8.753960396039604,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 611.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:ammonium_bicarbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:ammonium_chloride_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -83820,6 +83847,33 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
+		speed: 15.166336633663366,
+		temperature: {
+			min_temp: 265.8,
+			max_temp: 1266.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:fluorine",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:bromine",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_fluoride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
 		speed: 7.657462686567165,
 		temperature: {
 			min_temp: 273.15,
@@ -84469,6 +84523,33 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
+		speed: 8.07920792079208,
+		temperature: {
+			min_temp: 220.0,
+			max_temp: 596.0,
+		},
+		fluid_input: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_bicarbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:carbonic_acid",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_hydroxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
 		speed: 6.4368159203980095,
 		temperature: {
 			min_temp: 220.0,
@@ -84571,6 +84652,23 @@ const CUSTOM_RECIPES = [
 		},
 		item_output: {
 			item: "chemlib:calcium_sulfate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:bicarbonate",
+			},
+		},
+		output: {
+			item: "chemlib:carbonic_acid",
 			count: 1.0,
 		},
 	},
@@ -84685,6 +84783,33 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
+		speed: 12.80990099009901,
+		temperature: {
+			min_temp: 220.0,
+			max_temp: 1073.8,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_bicarbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:carbonic_acid",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "mekanism:salt",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
 		speed: 11.950495049504951,
 		temperature: {
 			min_temp: 220.0,
@@ -84760,6 +84885,33 @@ const CUSTOM_RECIPES = [
 		},
 		item_output: {
 			item: "chemlib:barium_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 13.5,
+		temperature: {
+			min_temp: 220.0,
+			max_temp: 1157.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:sulfuric_acid",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_bicarbonate_dust",
+			count: 2.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:carbonic_acid",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_sulfate_dust",
 			count: 1.0,
 		},
 	},
@@ -85023,6 +85175,33 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
+		speed: 12.475247524752476,
+		temperature: {
+			min_temp: 220.0,
+			max_temp: 1040.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:potassium_bicarbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:carbonic_acid",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:potassium_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
 		speed: 5.0495049504950495,
 		temperature: {
 			min_temp: 220.0,
@@ -85177,6 +85356,33 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
+		speed: 6.169154228855722,
+		temperature: {
+			min_temp: 220.0,
+			max_temp: 1020.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_carbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:carbonic_acid",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
 		speed: 3.9962753036437246,
 		temperature: {
 			max_temp: 251.0,
@@ -85226,6 +85432,33 @@ const CUSTOM_RECIPES = [
 		itemOutput: {
 			count: 1,
 			item: "chemlib:carbonic_acid",
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 7.930693069306931,
+		temperature: {
+			min_temp: 220.0,
+			max_temp: 581.0,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:nitric_acid",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_bicarbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:carbonic_acid",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_nitrate_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -85482,6 +85715,32 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 13.168627450980393,
+		temperature: {
+			max_temp: 1157.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:sulfuric_acid",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 2.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_sulfate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "pneumaticcraft:fluid_mixer",
 		input1: {
 			fluid: "kubejs:hydrogen_iodide",
@@ -85546,6 +85805,32 @@ const CUSTOM_RECIPES = [
 		itemOutput: {
 			count: 1,
 			item: "thermal:niter_dust",
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 12.475247524752476,
+		temperature: {
+			max_temp: 1073.8,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "mekanism:salt",
+			count: 1.0,
 		},
 	},
 	{
@@ -85652,6 +85937,32 @@ const CUSTOM_RECIPES = [
 		},
 		item_output: {
 			item: "chemlib:sulfur_trioxide",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 7.744554455445545,
+		temperature: {
+			max_temp: 596.0,
+		},
+		fluid_input: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_hydroxide_dust",
 			count: 1.0,
 		},
 	},
@@ -86503,6 +86814,33 @@ const CUSTOM_RECIPES = [
 		item_output: {
 			item: "chemlib:calcium_nitrate_dust",
 			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 6.631890547263682,
+		temperature: {
+			min_temp: 313.01,
+			max_temp: 1020.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_metasilicate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:metasilicic_acid",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 2.0,
 		},
 	},
 	{
@@ -87724,6 +88062,32 @@ const CUSTOM_RECIPES = [
 			count: 4.0,
 		},
 		pressure: 9.5,
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 10.237524752475247,
+		temperature: {
+			max_temp: 1020.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:hydrogen",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
@@ -89843,7 +90207,7 @@ const CUSTOM_RECIPES = [
 			max_temp: 68.13,
 		},
 		fluid_input: {
-			fluid: "kubejs:ethylene",
+			fluid: "mekanism:ethene",
 			amount: 100.0,
 			type: "pneumaticcraft:fluid",
 		},
@@ -90083,6 +90447,33 @@ const CUSTOM_RECIPES = [
 		],
 		energy: 8530.0,
 		experience: 0,
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:sodium_carbonate",
+		},
+		gasInput: {
+			amount: 300,
+			gas: "mekanismelements:nitric_acid",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_bicarbonate_dust",
+			},
+		},
+		gasOutput: {
+			amount: 200,
+			gas: "mekanism:water_vapor",
+		},
+		itemOutput: {
+			count: 3,
+			item: "chemlib:sodium_nitrate_dust",
+		},
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
@@ -90465,6 +90856,33 @@ const CUSTOM_RECIPES = [
 			item: "chemlib:calcium_sulfate_dust",
 			count: 1.0,
 		},
+	},
+	{
+		type: "thermal:pyrolyzer",
+		ingredient: {
+			item: "chemlib:sodium_bicarbonate_dust",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "chemlib:carbon_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:hydrogen",
+				count: 1.0,
+			},
+			{
+				fluid: "mekanism:oxygen",
+				amount: 300.0,
+			},
+		],
+		energy: 3230.0,
+		experience: 0,
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
@@ -93582,6 +94000,33 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 300,
+			fluid: "mekanismelements:bromine",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "mekanismelements:ammonia",
+		},
+		itemInput: {
+			amount: 3.0,
+			ingredient: {
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		gasOutput: {
+			amount: 100,
+			gas: "mekanismelements:nitrogen",
+		},
+		itemOutput: {
+			count: 3,
+			item: "chemlib:sodium_bromide_dust",
+		},
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 0.8324257425742573,
@@ -95586,6 +96031,33 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 500,
+		fluidInput: {
+			amount: 100,
+			fluid: "minecraft:water",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:ozone",
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:sodium_bromide_dust",
+			},
+		},
+		gasOutput: {
+			amount: 200,
+			gas: "mekanismelements:bromine",
+		},
+		itemOutput: {
+			count: 2,
+			item: "chemlib:sodium_hydroxide_dust",
+		},
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
 		speed: 0.4,
@@ -96251,6 +96723,33 @@ const CUSTOM_RECIPES = [
 			count: 2.0,
 		},
 		pressure: 2.0,
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 200,
+			fluid: "mekanismelements:bromine",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:hydrogen_peroxide",
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		gasOutput: {
+			amount: 200,
+			gas: "mekanism:water_vapor",
+		},
+		itemOutput: {
+			count: 2,
+			item: "chemlib:sodium_bromide_dust",
+		},
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
@@ -97238,6 +97737,32 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
+		speed: 10.628514851485148,
+		temperature: {
+			max_temp: 1020.0,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:bromine",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_fluoride_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:fluorine",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
 		speed: 2.416504854368932,
 		temperature: {
 			max_temp: 195.42,
@@ -97450,6 +97975,27 @@ const CUSTOM_RECIPES = [
 				count: 2.0,
 			},
 		],
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.4,
+		temperature: {
+			min_temp: 1020.0,
+		},
+		item_input: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:bromine",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
@@ -100788,6 +101334,33 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 7.006766169154229,
+		temperature: {
+			min_temp: 388.36,
+			max_temp: 1020.0,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:bromine",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_sulfide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:sulfur",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 4.475392156862745,
 		temperature: {
@@ -102307,6 +102880,32 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
+		speed: 11.798019801980198,
+		temperature: {
+			max_temp: 1020.0,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:bromine",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "mekanism:salt",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:chlorine",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
 		speed: 0.4,
 		temperature: {
 			min_temp: 1266.0,
@@ -103471,6 +104070,33 @@ const CUSTOM_RECIPES = [
 				count: 2.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 100,
+			fluid: "minecraft:water",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:carbon_dioxide",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_carbonate_dust",
+			},
+		},
+		gasOutput: {
+			amount: 200,
+			gas: "kubejs:bicarbonate",
+		},
+		itemOutput: {
+			count: 1,
+			item: "chemlib:calcium_dust",
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -109920,7 +110546,7 @@ const CUSTOM_RECIPES = [
 			max_temp: 1357.77,
 		},
 		fluid_input: {
-			fluid: "kubejs:ethylene",
+			fluid: "mekanism:ethene",
 			amount: 100.0,
 			type: "pneumaticcraft:fluid",
 		},
@@ -110854,6 +111480,33 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 13.263366336633663,
+		temperature: {
+			min_temp: 265.8,
+			max_temp: 1073.8,
+		},
+		fluid_input: {
+			fluid: "mekanism:chlorine",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:bromine",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "mekanism:salt",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 2.3223880597014928,
 		temperature: {
@@ -111027,6 +111680,33 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
+		speed: 8.384158415841584,
+		temperature: {
+			min_temp: 265.8,
+			max_temp: 581.0,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:nitric_acid",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:bromine",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_nitrate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
 		speed: 0.763648424543947,
 		temperature: {
 			max_temp: 237.64000000000001,
@@ -111050,6 +111730,33 @@ const CUSTOM_RECIPES = [
 			count: 6.0,
 		},
 		pressure: 0.5,
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 16.811764705882354,
+		temperature: {
+			min_temp: 265.8,
+			max_temp: 1449.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:sulfur",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 2.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:bromine",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_sulfide_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -115215,6 +115922,33 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 15.834803921568628,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1342.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:sulfuric_acid",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:potassium_bicarbonate_dust",
+			count: 2.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "chemlib:potassium_sulfate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:reaction",
 		duration: 400,
 		energyRequired: 200,
@@ -115598,6 +116332,31 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_nitrate_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:lead_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		energy: 31390.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:lead_nitrate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
+				count: 2.0,
+			},
+		],
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
 		speed: 30.104686468646864,
@@ -115746,6 +116505,29 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "thermal:pyrolyzer",
+		ingredient: {
+			item: "chemlib:ammonium_bicarbonate_dust",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "ad_astra:ice_shard",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:ammonia",
+				count: 1.0,
+			},
+			{
+				fluid: "kubejs:carbon_dioxide",
+				amount: 100.0,
+			},
+		],
+		energy: 3150.0,
+		experience: 0,
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 6.283267326732673,
@@ -115770,6 +116552,29 @@ const CUSTOM_RECIPES = [
 			item: "mekanism:salt",
 			count: 2.0,
 		},
+	},
+	{
+		type: "thermal:pyrolyzer",
+		ingredient: {
+			item: "chemlib:potassium_bicarbonate_dust",
+			count: 2.0,
+		},
+		result: [
+			{
+				item: "chemlib:potassium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "ad_astra:ice_shard",
+				count: 1.0,
+			},
+			{
+				fluid: "kubejs:carbon_dioxide",
+				amount: 100.0,
+			},
+		],
+		energy: 5650.0,
+		experience: 0,
 	},
 	{
 		type: "thermal:smelter",
@@ -115993,6 +116798,31 @@ const CUSTOM_RECIPES = [
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "mekanism:salt",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:aluminum_hydroxide_dust",
+				count: 1.0,
+			},
+		],
+		energy: 50821.399999999994,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:aluminium_chloride_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
 				count: 3.0,
 			},
 		],
@@ -116238,6 +117068,31 @@ const CUSTOM_RECIPES = [
 		type: "thermal:smelter",
 		result: [
 			{
+				item: "mekanism:salt",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:magnesium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		energy: 43317.3,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:magnesium_chloride_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
 				item: "chemlib:potassium_nitrite_dust",
 				count: 3.0,
 			},
@@ -116260,6 +117115,31 @@ const CUSTOM_RECIPES = [
 			{
 				item: "thermal:niter_dust",
 				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:aluminum_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+		energy: 69230.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:aluminium_sulfate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
+				count: 6.0,
 			},
 		],
 	},
@@ -116427,6 +117307,31 @@ const CUSTOM_RECIPES = [
 		pressure: 8.0,
 	},
 	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:copper_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		energy: 26686.9,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:copper_ii_sulfate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
+				count: 2.0,
+			},
+		],
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 0.4,
@@ -116446,6 +117351,31 @@ const CUSTOM_RECIPES = [
 			item: "chemlib:manganese_ii_oxide_dust",
 			count: 1.0,
 		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_nitrate_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:copper_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		energy: 26680.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:copper_nitrate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
+				count: 2.0,
+			},
+		],
 	},
 	{
 		type: "thermal:smelter",
@@ -117072,6 +118002,33 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 18.664851485148517,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1612.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:bicarbonate",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:calcium_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:calcium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
 		speed: 1.38204051485206,
 		temperature: {
@@ -117454,6 +118411,31 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "mekanism:salt",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:calcium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		energy: 54420.5,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:calcium_chloride_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
+				count: 2.0,
+			},
+		],
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 31.5589644012945,
@@ -117576,6 +118558,58 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:magnesium_hydroxide_dust",
+				count: 1.0,
+			},
+		],
+		energy: 38871.299999999996,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:magnesium_sulfate",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 13.564563106796117,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1124.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:carbonic_acid",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_bicarbonate_dust",
+			count: 2.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 15.717164179104477,
@@ -117682,6 +118716,33 @@ const CUSTOM_RECIPES = [
 			count: 9.0,
 		},
 		pressure: 8.0,
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 8.714356435643564,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 607.0,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:nitric_acid",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:potassium_bicarbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "thermal:niter_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
@@ -118006,6 +119067,31 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "minecraft:prismarine_shard",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		energy: 38380.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:potassium_bicarbonate_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:zinc_sulfate_dust",
+				count: 1.0,
+			},
+		],
+	},
+	{
 		type: "mekanism:reaction",
 		duration: 400,
 		energyRequired: 200,
@@ -118085,6 +119171,31 @@ const CUSTOM_RECIPES = [
 			item: "chemlib:carbon_dioxide",
 			count: 1.0,
 		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "minecraft:prismarine_shard",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		energy: 31690.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:zinc_sulfate_dust",
+				count: 1.0,
+			},
+		],
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
@@ -118284,6 +119395,33 @@ const CUSTOM_RECIPES = [
 		itemOutput: {
 			count: 1,
 			item: "chemlib:calcium_chloride_dust",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 400,
+			fluid: "kubejs:sodium_hydroxide",
+		},
+		gasInput: {
+			amount: 400,
+			gas: "mekanismelements:bromine",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:carbon_dust",
+			},
+		},
+		gasOutput: {
+			amount: 200,
+			gas: "mekanism:water_vapor",
+		},
+		itemOutput: {
+			count: 4,
+			item: "chemlib:sodium_bromide_dust",
 		},
 	},
 	{
@@ -118540,6 +119678,33 @@ const CUSTOM_RECIPES = [
 		duration: 400,
 		energyRequired: 200,
 		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:sodium_carbonate",
+		},
+		gasInput: {
+			amount: 300,
+			gas: "mekanism:hydrogen_chloride",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_bicarbonate_dust",
+			},
+		},
+		gasOutput: {
+			amount: 200,
+			gas: "mekanism:water_vapor",
+		},
+		itemOutput: {
+			count: 3,
+			item: "mekanism:salt",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
 			amount: 1600,
 			fluid: "mekanism:oxygen",
 		},
@@ -118753,7 +119918,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:stacked_item",
 		},
 		fluid_output: {
-			fluid: "kubejs:ethylene",
+			fluid: "mekanism:ethene",
 			amount: 100.0,
 		},
 		item_output: {
@@ -119564,6 +120729,33 @@ const CUSTOM_RECIPES = [
 				count: 2.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:potassium_carbonate",
+		},
+		gasInput: {
+			amount: 300,
+			gas: "mekanismelements:nitric_acid",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:potassium_bicarbonate_dust",
+			},
+		},
+		gasOutput: {
+			amount: 200,
+			gas: "mekanism:water_vapor",
+		},
+		itemOutput: {
+			count: 3,
+			item: "thermal:niter_dust",
+		},
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
@@ -122455,6 +123647,33 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:sodium_bicarbonate",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "mekanism:hydrogen_chloride",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_hydroxide_dust",
+			},
+		},
+		gasOutput: {
+			amount: 100,
+			gas: "kubejs:sodium_chloride",
+		},
+		itemOutput: {
+			count: 1,
+			item: "chemlib:calcium_carbonate_dust",
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -124675,6 +125894,33 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
+		speed: 13.833168316831683,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1124.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:sodium_hydroxide",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_bicarbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
 		speed: 12.02107843137255,
 		temperature: {
 			min_temp: 273.15,
@@ -124698,6 +125944,31 @@ const CUSTOM_RECIPES = [
 			item: "chemlib:iron_ii_sulfate_dust",
 			count: 1.0,
 		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:calcium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		energy: 34031.7,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:calcium_hydroxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
+				count: 1.0,
+			},
+		],
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
@@ -125111,7 +126382,7 @@ const CUSTOM_RECIPES = [
 			max_temp: 638.6666666666666,
 		},
 		fluid_input: {
-			fluid: "kubejs:ethylene",
+			fluid: "mekanism:ethene",
 			amount: 100.0,
 			type: "pneumaticcraft:fluid",
 		},
@@ -125481,6 +126752,33 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
+		speed: 12.803465346534654,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1020.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_hydroxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
 		speed: 21.09950980392157,
 		temperature: {
 			min_temp: 273.15,
@@ -125583,6 +126881,33 @@ const CUSTOM_RECIPES = [
 		itemOutput: {
 			count: 1,
 			item: "chemlib:manganese_oxide_dust",
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 6.433582089552239,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1020.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_oxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 2.0,
 		},
 	},
 	{
@@ -126626,6 +127951,33 @@ const CUSTOM_RECIPES = [
 			count: 3.0,
 		},
 		pressure: 2.0,
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 14.22920792079208,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1164.0,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:potassium_hydroxide",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:potassium_bicarbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:potassium_carbonate_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
@@ -128933,6 +130285,32 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 13.45960396039604,
+		temperature: {
+			max_temp: 1164.0,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:potassium_hydroxide",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:ammonium_bicarbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:ammonia",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:potassium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -129120,6 +130498,33 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 6.074626865671642,
+		temperature: {
+			min_temp: 201.0,
+			max_temp: 1020.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_sulfite_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:sulfur_dioxide",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 2.0,
+		},
+	},
+	{
 		type: "mekanism:reaction",
 		duration: 400,
 		energyRequired: 200,
@@ -129199,6 +130604,33 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:sulfur",
+		},
+		gasInput: {
+			amount: 600,
+			gas: "mekanismelements:bromine",
+		},
+		itemInput: {
+			amount: 8.0,
+			ingredient: {
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		gasOutput: {
+			amount: 100,
+			gas: "kubejs:sodium_sulfate",
+		},
+		itemOutput: {
+			count: 6,
+			item: "chemlib:sodium_bromide_dust",
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -129266,6 +130698,33 @@ const CUSTOM_RECIPES = [
 			gas: "kubejs:strontium_carbonate",
 			amount: 10,
 			chemicalType: "gas",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 200,
+			fluid: "kubejs:sodium_hydroxide",
+		},
+		gasInput: {
+			amount: 200,
+			gas: "mekanismelements:bromine",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:manganese_hydroxide_dust",
+			},
+		},
+		gasOutput: {
+			amount: 200,
+			gas: "kubejs:sodium_bromide",
+		},
+		itemOutput: {
+			count: 1,
+			item: "chemlib:manganese_oxide_dust",
 		},
 	},
 	{
@@ -129375,6 +130834,31 @@ const CUSTOM_RECIPES = [
 			item: "chemlib:rubidium_carbonate_dust",
 			count: 1.0,
 		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:potassium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		energy: 33887.700000000004,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
+				count: 1.0,
+			},
+		],
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
@@ -129829,6 +131313,31 @@ const CUSTOM_RECIPES = [
 			item: "chemlib:sulfur_trioxide",
 			count: 1.0,
 		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:barium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		energy: 31299.400000000005,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:barium_hydroxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
+				count: 2.0,
+			},
+		],
 	},
 	{
 		type: "mekanism:reaction",
@@ -131408,7 +132917,7 @@ const CUSTOM_RECIPES = [
 		energyRequired: 312,
 		fluidInput: {
 			amount: 100,
-			fluid: "kubejs:ethylene",
+			fluid: "mekanism:ethene",
 		},
 		gasInput: {
 			amount: 600,
@@ -133428,7 +134937,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:fluid_mixer",
 		input1: {
-			fluid: "kubejs:ethylene",
+			fluid: "mekanism:ethene",
 			amount: 100.0,
 			type: "pneumaticcraft:fluid",
 		},
@@ -135279,6 +136788,24 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanismelements:adsorption",
+		fluidInput: {
+			fluid: "mekanismelements:compressed_air",
+			amount: 5.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		output: {
+			gas: "kubejs:sodium_bicarbonate",
+			amount: 10,
+			chemicalType: "gas",
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -135405,6 +136932,32 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 12.047475247524753,
+		temperature: {
+			max_temp: 1124.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:sodium_chloride",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_bicarbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_carbonate_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "mekanism:chemical_infusing",
@@ -139479,6 +141032,33 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 12.386138613861386,
+		temperature: {
+			min_temp: 231.0,
+			max_temp: 1020.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_nitrate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:nitric_acid",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 12.892156862745098,
 		temperature: {
@@ -140020,6 +141600,58 @@ const CUSTOM_RECIPES = [
 			gas: "mekanism:hydrogen",
 			amount: 2.0,
 		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 9.247524752475247,
+		temperature: {
+			min_temp: 323.0,
+			max_temp: 611.0,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:ammonia",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "mekanism:salt",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:sodium_bicarbonate",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:ammonium_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:ammonium_chloride_dust",
+				count: 1.0,
+			},
+		],
+		energy: 23228.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:ammonium_bicarbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "mekanism:salt",
+				count: 1.0,
+			},
+		],
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
@@ -140864,6 +142496,32 @@ const CUSTOM_RECIPES = [
 			count: 1.0,
 		},
 		pressure: 0.5,
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 6.008457711442786,
+		temperature: {
+			max_temp: 1020.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_sulfide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:hydrogen_sulfide",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 2.0,
+		},
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
@@ -145106,6 +146764,33 @@ const CUSTOM_RECIPES = [
 		duration: 400,
 		energyRequired: 200,
 		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:sodium_sulfite",
+		},
+		gasInput: {
+			amount: 200,
+			gas: "mekanismelements:bromine",
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		gasOutput: {
+			amount: 100,
+			gas: "kubejs:sodium_sulfate",
+		},
+		itemOutput: {
+			count: 2,
+			item: "chemlib:sodium_bromide_dust",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
 			amount: 200,
 			fluid: "mekanismelements:nitric_acid",
 		},
@@ -145420,6 +147105,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "thermal:niter_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		energy: 42750.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:potassium_bicarbonate_dust",
 				count: 2.0,
 			},
 			{
@@ -146238,6 +147948,31 @@ const CUSTOM_RECIPES = [
 			},
 			{
 				item: "chemlib:sodium_sulfide_dust",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_nitrate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:ammonium_bicarbonate_dust",
+				count: 1.0,
+			},
+		],
+		energy: 16618.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:ammonium_nitrate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
 				count: 1.0,
 			},
 		],
@@ -147768,718 +149503,6 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 8.07920792079208,
-		temperature: {
-			min_temp: 220.0,
-			max_temp: 596.0,
-		},
-		fluid_input: {
-			fluid: "minecraft:water",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_bicarbonate_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "kubejs:carbonic_acid",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_hydroxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 1.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:bicarbonate",
-			},
-		},
-		output: {
-			item: "chemlib:carbonic_acid",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 12.80990099009901,
-		temperature: {
-			min_temp: 220.0,
-			max_temp: 1073.8,
-		},
-		fluid_input: {
-			fluid: "mekanism:hydrogen_chloride",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_bicarbonate_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "kubejs:carbonic_acid",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "mekanism:salt",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 13.5,
-		temperature: {
-			min_temp: 220.0,
-			max_temp: 1157.0,
-		},
-		fluid_input: {
-			fluid: "mekanism:sulfuric_acid",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_bicarbonate_dust",
-			count: 2.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "kubejs:carbonic_acid",
-			amount: 200.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_sulfate_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 7.930693069306931,
-		temperature: {
-			min_temp: 220.0,
-			max_temp: 581.0,
-		},
-		fluid_input: {
-			fluid: "mekanismelements:nitric_acid",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_bicarbonate_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "kubejs:carbonic_acid",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_nitrate_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:reaction",
-		duration: 400,
-		energyRequired: 200,
-		fluidInput: {
-			amount: 100,
-			fluid: "kubejs:sodium_carbonate",
-		},
-		gasInput: {
-			amount: 300,
-			gas: "mekanismelements:nitric_acid",
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:sodium_bicarbonate_dust",
-			},
-		},
-		gasOutput: {
-			amount: 200,
-			gas: "mekanism:water_vapor",
-		},
-		itemOutput: {
-			count: 3,
-			item: "chemlib:sodium_nitrate_dust",
-		},
-	},
-	{
-		type: "thermal:pyrolyzer",
-		ingredient: {
-			item: "chemlib:sodium_bicarbonate_dust",
-			count: 1.0,
-		},
-		result: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:hydrogen",
-				count: 1.0,
-			},
-			{
-				fluid: "mekanism:oxygen",
-				amount: 300.0,
-			},
-		],
-		energy: 3230.0,
-		experience: 0,
-	},
-	{
-		type: "mekanism:reaction",
-		duration: 400,
-		energyRequired: 200,
-		fluidInput: {
-			amount: 100,
-			fluid: "minecraft:water",
-		},
-		gasInput: {
-			amount: 100,
-			gas: "kubejs:carbon_dioxide",
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:calcium_carbonate_dust",
-			},
-		},
-		gasOutput: {
-			amount: 200,
-			gas: "kubejs:bicarbonate",
-		},
-		itemOutput: {
-			count: 1,
-			item: "chemlib:calcium_dust",
-		},
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "chemlib:sodium_nitrate_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:lead_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		energy: 31390.0,
-		experience: 0,
-		ingredients: [
-			{
-				item: "chemlib:lead_nitrate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 2.0,
-			},
-		],
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "mekanism:salt",
-				count: 3.0,
-			},
-			{
-				item: "chemlib:aluminum_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		energy: 50821.399999999994,
-		experience: 0,
-		ingredients: [
-			{
-				item: "chemlib:aluminium_chloride_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 3.0,
-			},
-		],
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "mekanism:salt",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:magnesium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		energy: 43317.3,
-		experience: 0,
-		ingredients: [
-			{
-				item: "chemlib:magnesium_chloride_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 2.0,
-			},
-		],
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 3.0,
-			},
-			{
-				item: "chemlib:aluminum_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		energy: 69230.0,
-		experience: 0,
-		ingredients: [
-			{
-				item: "chemlib:aluminium_sulfate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 6.0,
-			},
-		],
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:copper_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		energy: 26686.9,
-		experience: 0,
-		ingredients: [
-			{
-				item: "chemlib:copper_ii_sulfate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 2.0,
-			},
-		],
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "chemlib:sodium_nitrate_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:copper_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		energy: 26680.0,
-		experience: 0,
-		ingredients: [
-			{
-				item: "chemlib:copper_nitrate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 2.0,
-			},
-		],
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 18.664851485148517,
-		temperature: {
-			min_temp: 273.15,
-			max_temp: 1612.0,
-		},
-		fluid_input: {
-			fluid: "kubejs:bicarbonate",
-			amount: 200.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:calcium_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "minecraft:water",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:calcium_carbonate_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "mekanism:salt",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		energy: 54420.5,
-		experience: 0,
-		ingredients: [
-			{
-				item: "chemlib:calcium_chloride_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 2.0,
-			},
-		],
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:magnesium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		energy: 38871.299999999996,
-		experience: 0,
-		ingredients: [
-			{
-				item: "chemlib:magnesium_sulfate",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 2.0,
-			},
-		],
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 13.564563106796117,
-		temperature: {
-			min_temp: 273.15,
-			max_temp: 1124.0,
-		},
-		fluid_input: {
-			fluid: "kubejs:carbonic_acid",
-			amount: 200.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_bicarbonate_dust",
-			count: 2.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "minecraft:water",
-			amount: 300.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_carbonate_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "minecraft:prismarine_shard",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		energy: 31690.0,
-		experience: 0,
-		ingredients: [
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:zinc_sulfate_dust",
-				count: 1.0,
-			},
-		],
-	},
-	{
-		type: "mekanism:reaction",
-		duration: 400,
-		energyRequired: 200,
-		fluidInput: {
-			amount: 100,
-			fluid: "kubejs:sodium_carbonate",
-		},
-		gasInput: {
-			amount: 300,
-			gas: "mekanism:hydrogen_chloride",
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:sodium_bicarbonate_dust",
-			},
-		},
-		gasOutput: {
-			amount: 200,
-			gas: "mekanism:water_vapor",
-		},
-		itemOutput: {
-			count: 3,
-			item: "mekanism:salt",
-		},
-	},
-	{
-		type: "mekanism:reaction",
-		duration: 400,
-		energyRequired: 200,
-		fluidInput: {
-			amount: 100,
-			fluid: "kubejs:sodium_bicarbonate",
-		},
-		gasInput: {
-			amount: 100,
-			gas: "mekanism:hydrogen_chloride",
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:calcium_hydroxide_dust",
-			},
-		},
-		gasOutput: {
-			amount: 100,
-			gas: "kubejs:sodium_chloride",
-		},
-		itemOutput: {
-			count: 1,
-			item: "chemlib:calcium_carbonate_dust",
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: true,
-		speed: 13.833168316831683,
-		temperature: {
-			min_temp: 273.15,
-			max_temp: 1124.0,
-		},
-		fluid_input: {
-			fluid: "kubejs:sodium_hydroxide",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_bicarbonate_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "minecraft:water",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_carbonate_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		energy: 34031.7,
-		experience: 0,
-		ingredients: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 1.0,
-			},
-		],
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		energy: 33887.700000000004,
-		experience: 0,
-		ingredients: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 1.0,
-			},
-		],
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:barium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		energy: 31299.400000000005,
-		experience: 0,
-		ingredients: [
-			{
-				item: "chemlib:barium_hydroxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 2.0,
-			},
-		],
-	},
-	{
-		type: "mekanismelements:adsorption",
-		fluidInput: {
-			fluid: "mekanismelements:compressed_air",
-			amount: 5.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:sodium_hydroxide_dust",
-			},
-		},
-		output: {
-			gas: "kubejs:sodium_bicarbonate",
-			amount: 10,
-			chemicalType: "gas",
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 12.047475247524753,
-		temperature: {
-			max_temp: 1124.0,
-		},
-		fluid_input: {
-			fluid: "kubejs:sodium_chloride",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_bicarbonate_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "mekanism:hydrogen_chloride",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_carbonate_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: true,
-		speed: 9.247524752475247,
-		temperature: {
-			min_temp: 323.0,
-			max_temp: 611.0,
-		},
-		fluid_input: {
-			fluid: "mekanismelements:ammonia",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "mekanism:salt",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "kubejs:sodium_bicarbonate",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:ammonium_chloride_dust",
-			count: 1.0,
-		},
-	},
-	{
 		type: "mekanism:chemical_infusing",
 		leftInput: {
 			gas: "kubejs:acetylene",
@@ -148493,214 +149516,6 @@ const CUSTOM_RECIPES = [
 			gas: "mekanism:oxygen",
 			amount: 6.0,
 		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 12.475247524752476,
-		temperature: {
-			min_temp: 220.0,
-			max_temp: 1040.0,
-		},
-		fluid_input: {
-			fluid: "mekanism:hydrogen_chloride",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:potassium_bicarbonate_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "kubejs:carbonic_acid",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:potassium_chloride_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 15.834803921568628,
-		temperature: {
-			min_temp: 273.15,
-			max_temp: 1342.0,
-		},
-		fluid_input: {
-			fluid: "mekanism:sulfuric_acid",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:potassium_bicarbonate_dust",
-			count: 2.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "minecraft:water",
-			amount: 200.0,
-		},
-		item_output: {
-			item: "chemlib:potassium_sulfate_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "thermal:pyrolyzer",
-		ingredient: {
-			item: "chemlib:potassium_bicarbonate_dust",
-			count: 2.0,
-		},
-		result: [
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 1.0,
-			},
-			{
-				item: "ad_astra:ice_shard",
-				count: 1.0,
-			},
-			{
-				fluid: "kubejs:carbon_dioxide",
-				amount: 100.0,
-			},
-		],
-		energy: 5650.0,
-		experience: 0,
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: true,
-		speed: 8.714356435643564,
-		temperature: {
-			min_temp: 273.15,
-			max_temp: 607.0,
-		},
-		fluid_input: {
-			fluid: "mekanismelements:nitric_acid",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:potassium_bicarbonate_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "minecraft:water",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "thermal:niter_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "minecraft:prismarine_shard",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		energy: 38380.0,
-		experience: 0,
-		ingredients: [
-			{
-				item: "chemlib:potassium_bicarbonate_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:zinc_sulfate_dust",
-				count: 1.0,
-			},
-		],
-	},
-	{
-		type: "mekanism:reaction",
-		duration: 400,
-		energyRequired: 200,
-		fluidInput: {
-			amount: 100,
-			fluid: "kubejs:potassium_carbonate",
-		},
-		gasInput: {
-			amount: 300,
-			gas: "mekanismelements:nitric_acid",
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:potassium_bicarbonate_dust",
-			},
-		},
-		gasOutput: {
-			amount: 200,
-			gas: "mekanism:water_vapor",
-		},
-		itemOutput: {
-			count: 3,
-			item: "thermal:niter_dust",
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: true,
-		speed: 14.22920792079208,
-		temperature: {
-			min_temp: 273.15,
-			max_temp: 1164.0,
-		},
-		fluid_input: {
-			fluid: "mekanismelements:potassium_hydroxide",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:potassium_bicarbonate_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "minecraft:water",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:potassium_carbonate_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		energy: 42750.0,
-		experience: 0,
-		ingredients: [
-			{
-				item: "chemlib:potassium_bicarbonate_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 1.0,
-			},
-		],
 	},
 	{
 		type: "mekanism:reaction",
@@ -148794,105 +149609,6 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
-		type: "thermal:pyrolyzer",
-		ingredient: {
-			item: "chemlib:ammonium_bicarbonate_dust",
-			count: 1.0,
-		},
-		result: [
-			{
-				item: "ad_astra:ice_shard",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:ammonia",
-				count: 1.0,
-			},
-			{
-				fluid: "kubejs:carbon_dioxide",
-				amount: 100.0,
-			},
-		],
-		energy: 3150.0,
-		experience: 0,
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 13.45960396039604,
-		temperature: {
-			max_temp: 1164.0,
-		},
-		fluid_input: {
-			fluid: "mekanismelements:potassium_hydroxide",
-			amount: 200.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:ammonium_bicarbonate_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "mekanismelements:ammonia",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:potassium_carbonate_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:ammonium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		energy: 23228.0,
-		experience: 0,
-		ingredients: [
-			{
-				item: "chemlib:ammonium_bicarbonate_dust",
-				count: 1.0,
-			},
-			{
-				item: "mekanism:salt",
-				count: 1.0,
-			},
-		],
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "chemlib:sodium_nitrate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:ammonium_bicarbonate_dust",
-				count: 1.0,
-			},
-		],
-		energy: 16618.0,
-		experience: 0,
-		ingredients: [
-			{
-				item: "chemlib:ammonium_nitrate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 1.0,
-			},
-		],
-	},
-	{
 		type: "mekanismelements:adsorption",
 		fluidInput: {
 			fluid: "mekanismelements:compressed_air",
@@ -148934,722 +149650,6 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 8.753960396039604,
-		temperature: {
-			min_temp: 273.15,
-			max_temp: 611.0,
-		},
-		fluid_input: {
-			fluid: "mekanism:hydrogen_chloride",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:ammonium_bicarbonate_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "minecraft:water",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:ammonium_chloride_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: true,
-		speed: 15.166336633663366,
-		temperature: {
-			min_temp: 265.8,
-			max_temp: 1266.0,
-		},
-		fluid_input: {
-			fluid: "kubejs:fluorine",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "mekanismelements:bromine",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_fluoride_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 6.169154228855722,
-		temperature: {
-			min_temp: 220.0,
-			max_temp: 1020.0,
-		},
-		fluid_input: {
-			fluid: "kubejs:hydrogen_bromide",
-			amount: 200.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_carbonate_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "kubejs:carbonic_acid",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 2.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 13.168627450980393,
-		temperature: {
-			max_temp: 1157.0,
-		},
-		fluid_input: {
-			fluid: "mekanism:sulfuric_acid",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 2.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "kubejs:hydrogen_bromide",
-			amount: 200.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_sulfate_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 12.475247524752476,
-		temperature: {
-			max_temp: 1073.8,
-		},
-		fluid_input: {
-			fluid: "mekanism:hydrogen_chloride",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "kubejs:hydrogen_bromide",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "mekanism:salt",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 7.744554455445545,
-		temperature: {
-			max_temp: 596.0,
-		},
-		fluid_input: {
-			fluid: "minecraft:water",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "kubejs:hydrogen_bromide",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_hydroxide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 6.631890547263682,
-		temperature: {
-			min_temp: 313.01,
-			max_temp: 1020.0,
-		},
-		fluid_input: {
-			fluid: "kubejs:hydrogen_bromide",
-			amount: 200.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_metasilicate_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "kubejs:metasilicic_acid",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 2.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: true,
-		speed: 10.237524752475247,
-		temperature: {
-			max_temp: 1020.0,
-		},
-		fluid_input: {
-			fluid: "kubejs:hydrogen_bromide",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "mekanism:hydrogen",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:reaction",
-		duration: 400,
-		energyRequired: 200,
-		fluidInput: {
-			amount: 300,
-			fluid: "mekanismelements:bromine",
-		},
-		gasInput: {
-			amount: 100,
-			gas: "mekanismelements:ammonia",
-		},
-		itemInput: {
-			amount: 3.0,
-			ingredient: {
-				item: "chemlib:sodium_hydroxide_dust",
-			},
-		},
-		gasOutput: {
-			amount: 100,
-			gas: "mekanismelements:nitrogen",
-		},
-		itemOutput: {
-			count: 3,
-			item: "chemlib:sodium_bromide_dust",
-		},
-	},
-	{
-		type: "mekanism:reaction",
-		duration: 400,
-		energyRequired: 500,
-		fluidInput: {
-			amount: 100,
-			fluid: "minecraft:water",
-		},
-		gasInput: {
-			amount: 100,
-			gas: "kubejs:ozone",
-		},
-		itemInput: {
-			amount: 2.0,
-			ingredient: {
-				item: "chemlib:sodium_bromide_dust",
-			},
-		},
-		gasOutput: {
-			amount: 200,
-			gas: "mekanismelements:bromine",
-		},
-		itemOutput: {
-			count: 2,
-			item: "chemlib:sodium_hydroxide_dust",
-		},
-	},
-	{
-		type: "mekanism:reaction",
-		duration: 400,
-		energyRequired: 200,
-		fluidInput: {
-			amount: 200,
-			fluid: "mekanismelements:bromine",
-		},
-		gasInput: {
-			amount: 100,
-			gas: "kubejs:hydrogen_peroxide",
-		},
-		itemInput: {
-			amount: 2.0,
-			ingredient: {
-				item: "chemlib:sodium_hydroxide_dust",
-			},
-		},
-		gasOutput: {
-			amount: 200,
-			gas: "mekanism:water_vapor",
-		},
-		itemOutput: {
-			count: 2,
-			item: "chemlib:sodium_bromide_dust",
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 10.628514851485148,
-		temperature: {
-			max_temp: 1020.0,
-		},
-		fluid_input: {
-			fluid: "mekanismelements:bromine",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_fluoride_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "kubejs:fluorine",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 0.4,
-		temperature: {
-			min_temp: 1020.0,
-		},
-		item_input: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "mekanismelements:bromine",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: true,
-		speed: 7.006766169154229,
-		temperature: {
-			min_temp: 388.36,
-			max_temp: 1020.0,
-		},
-		fluid_input: {
-			fluid: "mekanismelements:bromine",
-			amount: 200.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_sulfide_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "kubejs:sulfur",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 2.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 11.798019801980198,
-		temperature: {
-			max_temp: 1020.0,
-		},
-		fluid_input: {
-			fluid: "mekanismelements:bromine",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "mekanism:salt",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "mekanism:chlorine",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: true,
-		speed: 13.263366336633663,
-		temperature: {
-			min_temp: 265.8,
-			max_temp: 1073.8,
-		},
-		fluid_input: {
-			fluid: "mekanism:chlorine",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "mekanismelements:bromine",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "mekanism:salt",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: true,
-		speed: 8.384158415841584,
-		temperature: {
-			min_temp: 265.8,
-			max_temp: 581.0,
-		},
-		fluid_input: {
-			fluid: "mekanismelements:nitric_acid",
-			amount: 200.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "mekanismelements:bromine",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_nitrate_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 16.811764705882354,
-		temperature: {
-			min_temp: 265.8,
-			max_temp: 1449.0,
-		},
-		fluid_input: {
-			fluid: "kubejs:sulfur",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 2.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "mekanismelements:bromine",
-			amount: 200.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_sulfide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:reaction",
-		duration: 400,
-		energyRequired: 200,
-		fluidInput: {
-			amount: 400,
-			fluid: "kubejs:sodium_hydroxide",
-		},
-		gasInput: {
-			amount: 400,
-			gas: "mekanismelements:bromine",
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:carbon_dust",
-			},
-		},
-		gasOutput: {
-			amount: 200,
-			gas: "mekanism:water_vapor",
-		},
-		itemOutput: {
-			count: 4,
-			item: "chemlib:sodium_bromide_dust",
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: true,
-		speed: 12.803465346534654,
-		temperature: {
-			min_temp: 273.15,
-			max_temp: 1020.0,
-		},
-		fluid_input: {
-			fluid: "kubejs:hydrogen_bromide",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_hydroxide_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "minecraft:water",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: true,
-		speed: 6.433582089552239,
-		temperature: {
-			min_temp: 273.15,
-			max_temp: 1020.0,
-		},
-		fluid_input: {
-			fluid: "kubejs:hydrogen_bromide",
-			amount: 200.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_oxide_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "minecraft:water",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 2.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 6.074626865671642,
-		temperature: {
-			min_temp: 201.0,
-			max_temp: 1020.0,
-		},
-		fluid_input: {
-			fluid: "kubejs:hydrogen_bromide",
-			amount: 200.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_sulfite_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "mekanism:sulfur_dioxide",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 2.0,
-		},
-	},
-	{
-		type: "mekanism:reaction",
-		duration: 400,
-		energyRequired: 200,
-		fluidInput: {
-			amount: 100,
-			fluid: "kubejs:sulfur",
-		},
-		gasInput: {
-			amount: 600,
-			gas: "mekanismelements:bromine",
-		},
-		itemInput: {
-			amount: 8.0,
-			ingredient: {
-				item: "chemlib:sodium_hydroxide_dust",
-			},
-		},
-		gasOutput: {
-			amount: 100,
-			gas: "kubejs:sodium_sulfate",
-		},
-		itemOutput: {
-			count: 6,
-			item: "chemlib:sodium_bromide_dust",
-		},
-	},
-	{
-		type: "mekanism:reaction",
-		duration: 400,
-		energyRequired: 200,
-		fluidInput: {
-			amount: 200,
-			fluid: "kubejs:sodium_hydroxide",
-		},
-		gasInput: {
-			amount: 200,
-			gas: "mekanismelements:bromine",
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:manganese_hydroxide_dust",
-			},
-		},
-		gasOutput: {
-			amount: 200,
-			gas: "kubejs:sodium_bromide",
-		},
-		itemOutput: {
-			count: 1,
-			item: "chemlib:manganese_oxide_dust",
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: true,
-		speed: 12.386138613861386,
-		temperature: {
-			min_temp: 231.0,
-			max_temp: 1020.0,
-		},
-		fluid_input: {
-			fluid: "kubejs:hydrogen_bromide",
-			amount: 100.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_nitrate_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "mekanismelements:nitric_acid",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 1.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: true,
-		speed: 6.008457711442786,
-		temperature: {
-			max_temp: 1020.0,
-		},
-		fluid_input: {
-			fluid: "kubejs:hydrogen_bromide",
-			amount: 200.0,
-			type: "pneumaticcraft:fluid",
-		},
-		item_input: {
-			item: "chemlib:sodium_sulfide_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "kubejs:hydrogen_sulfide",
-			amount: 100.0,
-		},
-		item_output: {
-			item: "chemlib:sodium_bromide_dust",
-			count: 2.0,
-		},
-	},
-	{
-		type: "mekanism:reaction",
-		duration: 400,
-		energyRequired: 200,
-		fluidInput: {
-			amount: 100,
-			fluid: "kubejs:sodium_sulfite",
-		},
-		gasInput: {
-			amount: 200,
-			gas: "mekanismelements:bromine",
-		},
-		itemInput: {
-			amount: 2.0,
-			ingredient: {
-				item: "chemlib:sodium_hydroxide_dust",
-			},
-		},
-		gasOutput: {
-			amount: 100,
-			gas: "kubejs:sodium_sulfate",
-		},
-		itemOutput: {
-			count: 2,
-			item: "chemlib:sodium_bromide_dust",
-		},
-	},
-	{
 		type: "mekanism:reaction",
 		duration: 400,
 		energyRequired: 200,
@@ -149673,9 +149673,31 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 7.47,
+		temperature: {
+			max_temp: 1020.0,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:bromine",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		item_output: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 5000,
 			fluid: "pneumaticcraft:ethanol",
@@ -149698,7 +149720,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 5000,
 			fluid: "pneumaticcraft:ethanol",
@@ -149721,7 +149743,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 5000,
 			fluid: "pneumaticcraft:ethanol",
@@ -149744,7 +149766,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "minecraft:water",
@@ -149771,7 +149793,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "minecraft:water",
@@ -149798,7 +149820,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "minecraft:water",
@@ -149825,7 +149847,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "minecraft:water",
@@ -149852,7 +149874,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "minecraft:water",
@@ -149879,7 +149901,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "minecraft:water",
@@ -152025,7 +152047,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 34,
 			fluid: "mekanismelements:beryllium",
@@ -152048,7 +152070,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
 			fluid: "mekanismelements:beryllium",
@@ -152071,7 +152093,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
 			fluid: "mekanismelements:beryllium",
@@ -152094,7 +152116,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
 			fluid: "mekanismelements:beryllium",
@@ -152117,7 +152139,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
 			fluid: "mekanismelements:beryllium",
@@ -152140,7 +152162,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 4660,
 			fluid: "mekanismelements:beryllium",
@@ -152163,7 +152185,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
 			fluid: "mekanismelements:beryllium",
@@ -152186,7 +152208,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 225,
 			fluid: "mekanismelements:beryllium",
@@ -152209,7 +152231,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 999,
 			fluid: "mekanismelements:beryllium",
@@ -152232,7 +152254,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 5356,
 			fluid: "mekanismelements:beryllium",
@@ -152255,7 +152277,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 8204,
 			fluid: "mekanismelements:beryllium",
@@ -152278,7 +152300,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
 			fluid: "mekanismelements:beryllium",
@@ -152301,7 +152323,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
 			fluid: "mekanismelements:beryllium",
@@ -152324,7 +152346,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
 			fluid: "mekanismelements:beryllium",
@@ -152347,7 +152369,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
 			fluid: "mekanismelements:beryllium",
@@ -152370,7 +152392,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
 			fluid: "mekanismelements:beryllium",
@@ -152393,7 +152415,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
 			fluid: "mekanismelements:beryllium",
@@ -152416,7 +152438,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
 			fluid: "mekanismelements:beryllium",
@@ -152439,7 +152461,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
 			fluid: "mekanismelements:beryllium",
@@ -152462,7 +152484,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
 			fluid: "mekanismelements:beryllium",
@@ -152485,7 +152507,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
 			fluid: "mekanismelements:beryllium",
@@ -152573,7 +152595,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 2000,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 200,
 			fluid: "pneumaticcraft:kerosene",
@@ -152600,7 +152622,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 2000,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "pneumaticcraft:kerosene",
@@ -152673,7 +152695,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "kubejs:osmium",
@@ -152814,7 +152836,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 400,
 			fluid: "kubejs:cesium",
@@ -153053,7 +153075,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:thorium",
@@ -153183,7 +153205,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 100,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "minecraft:water",
@@ -153210,7 +153232,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "minecraft:water",
@@ -153581,6 +153603,18 @@ const CUSTOM_RECIPES = [
 	{
 		type: "thermal:insolator_catalyst",
 		ingredient: {
+			item: "chemlib:hydrogen_peroxide",
+			count: 1.0,
+		},
+		primary_mod: 1.1,
+		secondary_mod: 1.1,
+		energy_mod: 0.8,
+		min_chance: 0.2,
+		use_chance: 1.0,
+	},
+	{
+		type: "thermal:insolator_catalyst",
+		ingredient: {
 			item: "biomancy:fertilizer",
 			count: 1.0,
 		},
@@ -153625,6 +153659,92 @@ const CUSTOM_RECIPES = [
 		energy_mod: 1.25,
 		min_chance: 0.1,
 		use_chance: 0.1,
+	},
+	{
+		type: "thermal:smelter_catalyst",
+		ingredient: {
+			item: "chemlib:sodium_bisulfate_dust",
+			count: 1.0,
+		},
+		primary_mod: 2.0,
+		secondary_mod: 1.4,
+		energy_mod: 0.8,
+		min_chance: 0.2,
+		use_chance: 0.3,
+	},
+	{
+		type: "mekanism:compressing",
+		chemicalInput: {
+			gas: "kubejs:sodium_hydroxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 8.0,
+			ingredient: {
+				item: "minecraft:string",
+			},
+		},
+		output: {
+			item: "minecraft:white_wool",
+			count: 4.0,
+		},
+	},
+	{
+		type: "mekanism:compressing",
+		chemicalInput: {
+			gas: "kubejs:sodium_hydroxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 8.0,
+			ingredient: {
+				item: "silentgear:fine_silk",
+			},
+		},
+		output: {
+			item: "silentgear:fine_silk_cloth",
+			count: 4.0,
+		},
+	},
+	{
+		type: "mekanism:compressing",
+		chemicalInput: {
+			gas: "kubejs:sodium_hydroxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 8.0,
+			ingredient: {
+				item: "silentgear:fluffy_puff",
+			},
+		},
+		output: {
+			item: "silentgear:fluffy_fabric",
+			count: 4.0,
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "minecraft:water",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:sodium_hydroxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "silentgear:fluffy_puff",
+			},
+		},
+		itemOutput: {
+			count: 8,
+			item: "minecraft:white_wool",
+		},
 	},
 	{
 		type: "thermal:chiller",
@@ -153701,7 +153821,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 2000,
 			fluid: "kubejs:benzene",
@@ -153724,7 +153844,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 500,
 			fluid: "kubejs:tungsten_carbide",
@@ -153872,7 +153992,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "mekanism:sulfuric_acid",
@@ -163704,6 +163824,51 @@ const CUSTOM_RECIPES = [
 		energy_mod: 1.0,
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:aqua_regia",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "minecraft:ancient_debris",
+			},
+		},
+		output: {
+			item: "mekanism:dirty_netherite_scrap",
+			count: 3.0,
+		},
+	},
+	{
+		type: "minecraft:smelting",
+		category: "misc",
+		cookingtime: 200,
+		experience: 0,
+		ingredient: {
+			item: "mekanism:dirty_netherite_scrap",
+			count: 1.0,
+		},
+		result: {
+			item: "minecraft:netherite_scrap",
+			count: 1.0,
+		},
+	},
+	{
+		type: "minecraft:blasting",
+		category: "misc",
+		cookingtime: 200,
+		experience: 0,
+		ingredient: {
+			item: "mekanism:dirty_netherite_scrap",
+			count: 1.0,
+		},
+		result: {
+			item: "minecraft:netherite_scrap",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:dissolution",
 		gasInput: {
 			gas: "mekanismelements:aqua_regia",
@@ -164233,7 +164398,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "kubejs:acetic_acid",
@@ -164383,6 +164548,29 @@ const CUSTOM_RECIPES = [
 		fluid_output: {
 			fluid: "pneumaticcraft:plastic",
 			amount: 100.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:fluid_mixer",
+		input1: {
+			fluid: "pneumaticcraft:vegetable_oil",
+			amount: 90.0,
+			type: "pneumaticcraft:fluid",
+		},
+		input2: {
+			fluid: "kubejs:sodium_hydroxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		pressure: 2.0,
+		time: 150,
+		fluid_output: {
+			fluid: "pneumaticcraft:biodiesel",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "pneumaticcraft:glycerol",
+			count: 6.0,
 		},
 	},
 	{
@@ -164749,7 +164937,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 900,
 			fluid: "kubejs:sodium_hydroxide",
@@ -164776,7 +164964,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 900,
 			fluid: "kubejs:sodium_hydroxide",
@@ -164803,7 +164991,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -164830,7 +165018,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -164857,7 +165045,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 600,
 			fluid: "kubejs:sodium_hydroxide",
@@ -164884,7 +165072,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 600,
 			fluid: "kubejs:sodium_hydroxide",
@@ -164911,7 +165099,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -164938,7 +165126,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -164965,7 +165153,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -164992,7 +165180,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165019,7 +165207,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165046,7 +165234,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165073,7 +165261,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165100,7 +165288,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165127,7 +165315,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165154,7 +165342,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165181,7 +165369,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165208,7 +165396,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165235,7 +165423,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165262,7 +165450,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165289,7 +165477,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1200,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165316,7 +165504,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165343,7 +165531,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 900,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165370,7 +165558,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1800,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165397,7 +165585,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165424,7 +165612,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165451,7 +165639,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165478,7 +165666,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165505,7 +165693,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165532,7 +165720,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165559,7 +165747,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165586,7 +165774,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 2400,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165613,7 +165801,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 2100,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165640,7 +165828,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1200,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165667,7 +165855,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165694,7 +165882,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165721,7 +165909,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165748,7 +165936,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165775,7 +165963,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165802,7 +165990,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165829,7 +166017,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165856,7 +166044,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165883,7 +166071,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165910,7 +166098,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -165937,7 +166125,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -165964,7 +166152,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -168009,7 +168197,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "mekanism:sulfuric_acid",
@@ -168036,7 +168224,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "mekanism:sulfuric_acid",
@@ -168063,7 +168251,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 200,
 			fluid: "mekanism:sulfuric_acid",
@@ -168090,7 +168278,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 200,
 			fluid: "mekanism:sulfuric_acid",
@@ -168117,7 +168305,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "mekanism:sulfuric_acid",
@@ -168144,7 +168332,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "mekanism:sulfuric_acid",
@@ -168171,7 +168359,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 200,
 			fluid: "mekanism:sulfuric_acid",
@@ -168198,7 +168386,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 200,
 			fluid: "mekanism:sulfuric_acid",
@@ -168225,7 +168413,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 2000,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 200,
 			fluid: "pneumaticcraft:kerosene",
@@ -168252,7 +168440,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 2000,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 200,
 			fluid: "pneumaticcraft:kerosene",
@@ -168279,7 +168467,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 2000,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "pneumaticcraft:kerosene",
@@ -168306,7 +168494,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 2000,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "pneumaticcraft:kerosene",
@@ -168333,7 +168521,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 2000,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "pneumaticcraft:kerosene",
@@ -168360,7 +168548,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 2000,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "pneumaticcraft:kerosene",
@@ -168387,7 +168575,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 2000,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "pneumaticcraft:kerosene",
@@ -168414,7 +168602,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 2000,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "pneumaticcraft:kerosene",
@@ -168441,7 +168629,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 2000,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "pneumaticcraft:kerosene",
@@ -168468,7 +168656,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 2000,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "pneumaticcraft:kerosene",
@@ -168495,7 +168683,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 2000,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "pneumaticcraft:kerosene",
@@ -168522,7 +168710,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 2000,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
 			fluid: "pneumaticcraft:kerosene",
@@ -169972,7 +170160,7 @@ const CUSTOM_RECIPES = [
 			max_temp: 313,
 		},
 		fluid_input: {
-			fluid: "kubejs:ethylene",
+			fluid: "mekanism:ethene",
 			amount: 1000.0,
 			type: "pneumaticcraft:fluid",
 		},
@@ -170015,7 +170203,7 @@ const CUSTOM_RECIPES = [
 		energyRequired: 2000,
 		fluidInput: {
 			amount: 1000,
-			fluid: "kubejs:ethylene",
+			fluid: "mekanism:ethene",
 		},
 		gasInput: {
 			amount: 1000,
@@ -171561,7 +171749,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:aluminum",
@@ -171792,7 +171980,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -171819,7 +172007,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -171846,7 +172034,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -171873,7 +172061,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -171900,7 +172088,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 400,
 			fluid: "mekanism:sulfuric_acid",
@@ -171927,7 +172115,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 400,
 			fluid: "mekanism:sulfuric_acid",
@@ -171954,7 +172142,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 400,
 			fluid: "mekanism:sulfuric_acid",
@@ -171981,7 +172169,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 200,
 			fluid: "mekanism:sulfuric_acid",
@@ -172008,7 +172196,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 200,
 			fluid: "mekanism:sulfuric_acid",
@@ -172350,7 +172538,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -172377,7 +172565,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -172404,7 +172592,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -172431,7 +172619,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -172458,7 +172646,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -172485,7 +172673,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -172512,7 +172700,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -172539,7 +172727,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -172566,7 +172754,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -172593,7 +172781,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:sodium_hydroxide",
@@ -172620,7 +172808,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -172647,7 +172835,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
 			fluid: "minecraft:water",
@@ -172933,7 +173121,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:aluminum",
@@ -172960,7 +173148,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
-		energyRequired: 600,
+		energyRequired: 400,
 		fluidInput: {
 			amount: 600,
 			fluid: "kubejs:aluminum",

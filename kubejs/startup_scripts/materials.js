@@ -24,7 +24,7 @@ StartupEvents.registry("mekanism:gas", event => {
 		if (element.need_gas) {
 			let elb = event.create(element["id"]).color(element["color"])
 			if (element.combustion != null && element.combustion > 10) {
-				elb.fuel(1, Math.round(0.2797 * element.combustion))
+				elb.fuel(element.burn_time, Math.round(element.combustion))
 			}
 			if (element.radiation > 0) {
 				elb.radioactivity(element.radiation)

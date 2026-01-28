@@ -32,7 +32,7 @@ ItemEvents.modification(event => {
   CHEM_ELEMENTS_TO_CREATE.forEach(material => {
     if (material.base_id.startsWith('chemlib:') && material.combustion && material.combustion > 0 && material.matter_state == 'solid') {
       event.modify(material.base_id, mod => {
-        mod.setBurnTime(Math.floor(200*20 * material.combustion / 400))
+        mod.setBurnTime(Math.floor(20 * material.combustion / 100))
       })
     } 
   })
@@ -156,6 +156,12 @@ MoreJSEvents.registerPotionBrewing(event => {
     Item.of('chemlib:ammonium_nitrate_dust'),
     'awkward',
     'cold_sweat:ice_resistance'
+  )
+
+  event.addPotionBrewing(
+    Item.of('chemlib:sodium_bromide_dust'),
+    'awkward',
+    'strong_slowness'
   )
 
 })
