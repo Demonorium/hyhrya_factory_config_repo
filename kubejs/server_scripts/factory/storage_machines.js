@@ -148,7 +148,7 @@ ServerEvents.recipes(event => {
                         "item": 'mekanism_extras:' + level + '_control_circuit'
                     },
                     "C": {
-                        "item": alloy_levels[level].getId()
+                        "item": alloy_levels[lastLevel].getId()
                     },
                     "D": {
                         "item": 'mekanism:' + lastLevel + '_bin'
@@ -171,7 +171,7 @@ ServerEvents.recipes(event => {
                         "item": MATERIALS.COMPRESSED_IRON.ingot
                     },
                     "C": {
-                        "item": alloy_levels[level].getId()
+                        "item": alloy_levels[lastLevel].getId()
                     },
                     "D": {
                         "item": 'mekanism:' + lastLevel + '_fluid_tank'
