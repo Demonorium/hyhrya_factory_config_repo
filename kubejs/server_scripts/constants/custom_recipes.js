@@ -153287,8 +153287,8 @@ const CUSTOM_RECIPES = [
 		exothermic: true,
 		speed: 1.0,
 		temperature: {
-			min_temp: 40,
-			max_temp: 90,
+			min_temp: 313,
+			max_temp: 363,
 		},
 		fluid_input: {
 			fluid: "pneumaticcraft:yeast_culture",
@@ -164016,7 +164016,7 @@ const CUSTOM_RECIPES = [
 		exothermic: false,
 		speed: 1.0,
 		temperature: {
-			min_temp: 300,
+			min_temp: 573,
 		},
 		fluid_input: {
 			fluid: "mekanism:sulfuric_acid",
@@ -164042,7 +164042,7 @@ const CUSTOM_RECIPES = [
 		exothermic: false,
 		speed: 1.0,
 		temperature: {
-			min_temp: 300,
+			min_temp: 573,
 		},
 		fluid_input: {
 			fluid: "mekanismelements:nitric_acid",
@@ -174738,7 +174738,7 @@ const CUSTOM_RECIPES = [
 		exothermic: false,
 		speed: 2.0,
 		temperature: {
-			min_temp: 250,
+			min_temp: 523,
 		},
 		fluid_input: {
 			fluid: "mekanism:sulfur_dioxide",
@@ -174760,7 +174760,7 @@ const CUSTOM_RECIPES = [
 		exothermic: false,
 		speed: 2.0,
 		temperature: {
-			min_temp: 250,
+			min_temp: 523,
 		},
 		fluid_input: {
 			fluid: "mekanism:sulfur_dioxide",
@@ -174782,7 +174782,7 @@ const CUSTOM_RECIPES = [
 		exothermic: false,
 		speed: 2.0,
 		temperature: {
-			min_temp: 250,
+			min_temp: 523,
 		},
 		fluid_input: {
 			fluid: "mekanism:sulfur_dioxide",

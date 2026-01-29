@@ -8,40 +8,78 @@ ServerEvents.recipes(event => {
 
         if (level != 'basic') {
             event.remove({ id: "mekanism:bin/" + level })
-            event.shaped(Item.of('mekanism:' + level + '_bin'), [
-                "ABA",
-                "CDC",
-                "AAA"
-            ],
-                {
-                    A: MATERIALS.COMPRESSED_IRON.ingot,
-                    B: Item.of('mekanism:' + level + '_control_circuit'),
-                    C: Item.of(alloy_levels[level]),
-                    D: Item.of('mekanism:' + lastLevel + '_bin')
-                })
+            event.custom({
+                "type": "mekanism:mek_data",
+                "key": {
+                    "A": {
+                        "item": MATERIALS.COMPRESSED_IRON.ingot
+                    },
+                    "B": {
+                        "item": 'mekanism:' + level + '_control_circuit'
+                    },
+                    "C": {
+                        "item": alloy_levels[level].getId()
+                    },
+                    "D": {
+                        "item": 'mekanism:' + lastLevel + '_bin'
+                    }
+                },
+                "pattern": [
+                    "ABA",
+                    "CDC",
+                    "AAA"
+                ],
+                "result": {
+                    "item": 'mekanism:' + level + '_bin'
+                }
+            })
 
             if (level != 'advanced') {
-                event.shaped(Item.of('mekanism:' + level + '_fluid_tank'), [
-                    "CAC",
-                    "ADA",
-                    "CAC"
-                ],
-                    {
-                        A: MATERIALS.COMPRESSED_IRON.ingot,
-                        C: Item.of(alloy_levels[level]),
-                        D: Item.of('mekanism:' + lastLevel + '_fluid_tank')
-                    })
+                event.custom({
+                    "type": "mekanism:mek_data",
+                    "key": {
+                        "A": {
+                            "item": MATERIALS.COMPRESSED_IRON.ingot
+                        },
+                        "C": {
+                            "item": alloy_levels[level].getId()
+                        },
+                        "D": {
+                            "item": 'mekanism:' + lastLevel + '_fluid_tank'
+                        }
+                    },
+                    "pattern": [
+                        "CAC",
+                        "ADA",
+                        "CAC"
+                    ],
+                    "result": {
+                        "item": 'mekanism:' + lastLevel + '_fluid_tank'
+                    }
+                })
             } else {
-                event.shaped(Item.of('mekanism:' + level + '_fluid_tank'), [
-                    "CAC",
-                    "ADA",
-                    "CAC"
-                ],
-                    {
-                        A: MATERIALS.COMPRESSED_IRON.ingot,
-                        C: Item.of(alloy_levels[level]),
-                        D: Item.of('pneumaticcraft:small_tank')
-                    })
+                event.custom({
+                    "type": "mekanism:mek_data",
+                    "key": {
+                        "A": {
+                            "item": MATERIALS.COMPRESSED_IRON.ingot
+                        },
+                        "C": {
+                            "item": alloy_levels[level].getId()
+                        },
+                        "D": {
+                            "item": 'pneumaticcraft:small_tank'
+                        }
+                    },
+                    "pattern": [
+                        "CAC",
+                        "ADA",
+                        "CAC"
+                    ],
+                    "result": {
+                        "item": 'mekanism:' + lastLevel + '_fluid_tank'
+                    }
+                })
             }
         }
         lastLevel = level
@@ -51,50 +89,103 @@ ServerEvents.recipes(event => {
         event.remove({ id: "mekanism_extras:bin/" + level })
         event.remove({ id: 'mekanism_extras:fluid_tank/' + level })
         if (level != 'absolute') {
+            event.custom({
+                "type": "mekanism:mek_data",
+                "key": {
+                    "A": {
+                        "item": MATERIALS.COMPRESSED_IRON.ingot
+                    },
+                    "B": {
+                        "item": 'mekanism_extras:' + level + '_control_circuit'
+                    },
+                    "C": {
+                        "item": alloy_levels[level].getId()
+                    },
+                    "D": {
+                        "item": 'mekanism_extras:' + lastLevel + '_bin'
+                    }
+                },
+                "pattern": [
+                    "ABA",
+                    "CDC",
+                    "AAA"
+                ],
+                "result": {
+                    "item": 'mekanism_extras:' + level + '_bin'
+                }
+            })
 
-            event.shaped(Item.of('mekanism_extras:' + level + '_bin'), [
-                "ABA",
-                "CDC",
-                "AAA"
-            ],
-                {
-                    A: MATERIALS.COMPRESSED_IRON.ingot,
-                    B: Item.of('mekanism_extras:' + level + '_control_circuit'),
-                    C: Item.of(alloy_levels[level]),
-                    D: Item.of('mekanism_extras:' + lastLevel + '_bin')
-                })
-            event.shaped(Item.of('mekanism_extras:' + level + '_fluid_tank'), [
-                "CAC",
-                "ADA",
-                "CAC"
-            ],
-                {
-                    A: MATERIALS.COMPRESSED_IRON.ingot,
-                    C: Item.of(alloy_levels[level]),
-                    D: Item.of('mekanism_extras:' + lastLevel + '_fluid_tank')
-                })
+            event.custom({
+                "type": "mekanism:mek_data",
+                "key": {
+                    "A": {
+                        "item": MATERIALS.COMPRESSED_IRON.ingot
+                    },
+                    "C": {
+                        "item": alloy_levels[level].getId()
+                    },
+                    "D": {
+                        "item": 'mekanism_extras:' + lastLevel + '_fluid_tank'
+                    }
+                },
+                "pattern": [
+                    "CAC",
+                    "ADA",
+                    "CAC"
+                ],
+                "result": {
+                    "item": 'mekanism_extras:' + lastLevel + '_fluid_tank'
+                }
+            })
         } else {
-            event.shaped(Item.of('mekanism_extras:' + level + '_bin'), [
-                "ABA",
-                "CDC",
-                "AAA"
-            ],
-                {
-                    A: MATERIALS.COMPRESSED_IRON.ingot,
-                    B: Item.of('mekanism_extras:' + level + '_control_circuit'),
-                    C: Item.of(alloy_levels[level]),
-                    D: Item.of('mekanism:' + lastLevel + '_bin')
-                })
-            event.shaped(Item.of('mekanism_extras:' + level + '_fluid_tank'), [
-                "CAC",
-                "ADA",
-                "CAC"
-            ],
-                {
-                    A: MATERIALS.COMPRESSED_IRON.ingot,
-                    C: Item.of(alloy_levels[level]),
-                    D: Item.of('mekanism:' + lastLevel + '_fluid_tank')
-                })
+            event.custom({
+                "type": "mekanism:mek_data",
+                "key": {
+                    "A": {
+                        "item": MATERIALS.COMPRESSED_IRON.ingot
+                    },
+                    "B": {
+                        "item": 'mekanism_extras:' + level + '_control_circuit'
+                    },
+                    "C": {
+                        "item": alloy_levels[level].getId()
+                    },
+                    "D": {
+                        "item": 'mekanism:' + lastLevel + '_bin'
+                    }
+                },
+                "pattern": [
+                    "ABA",
+                    "CDC",
+                    "AAA"
+                ],
+                "result": {
+                    "item": 'mekanism_extras:' + level + '_bin'
+                }
+            })
+
+            event.custom({
+                "type": "mekanism:mek_data",
+                "key": {
+                    "A": {
+                        "item": MATERIALS.COMPRESSED_IRON.ingot
+                    },
+                    "C": {
+                        "item": alloy_levels[level].getId()
+                    },
+                    "D": {
+                        "item": 'mekanism:' + lastLevel + '_fluid_tank'
+                    }
+                },
+                "pattern": [
+                    "CAC",
+                    "ADA",
+                    "CAC"
+                ],
+                "result": {
+                    "item": 'mekanism_extras:' + lastLevel + '_fluid_tank'
+                }
+            })
         }
         lastLevel = level
     })
