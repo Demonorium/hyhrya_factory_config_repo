@@ -661,6 +661,20 @@ ServerEvents.recipes(event => {
 
     event.replaceInput({id: 'ae2:network/parts/energy_acceptor'}, 'copper_ingot', 'thermal:energy_cell_frame')
     event.replaceInput({id: 'ae2:network/blocks/crystal_processing_growth_accelerator'}, 'ae2:fluix_block', 'clanginghowl:crystal_former')
+
+    event.shaped(
+      Item.of('ae2:semi_dark_monitor'),
+      [
+        " AC",
+        "DAC",
+        " AC",
+      ],
+      {
+        "A": MATERIALS.REDSTONE.ingot,
+        "C": MATERIALS.EUROPIUM.plate,
+        "D": MATERIALS.PLASTIC.item
+      }
+    )
 })
 
 

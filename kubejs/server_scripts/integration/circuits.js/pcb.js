@@ -152,6 +152,26 @@ ServerEvents.recipes(event => {
       }
     ]
   })
+  event.custom({
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 2,
+        "tag": "pneumaticcraft:wiring"
+      },
+      {
+        "item": "chemlib:europium_ii_oxide_dust"
+      }
+    ],
+    "pressure": 1.0,
+    "results": [
+      {
+        "item": "pneumaticcraft:transistor",
+        "count": 4
+      }
+    ]
+  })
 
   event.replaceInput({ id: 'pneumaticcraft:pneumatic_dynamo' }, 'pneumaticcraft:printed_circuit_board', 'pncepcb:primitive_finished_pcb')
   event.replaceInput({ id: 'pneumaticcraft:pneumatic_dynamo' }, 'pneumaticcraft:advanced_pressure_tube', 'pneumaticcraft:reinforced_pressure_tube')

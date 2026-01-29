@@ -35,12 +35,46 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'thermal:machines/pulverizer/pulverizer_venus_sandstone' })
   event.remove({ id: 'thermal:machines/pulverizer/pulverizer_venus_sandstone_slab' })
 
-  event.replaceInput({ id: 'mekanism_extras:metallurgic_infusing/alloy/radiance' }, 'mekanism:alloy_atomic', 'chemlib:yttrium_barium_copper_oxide')
+  event.replaceInput({ id: 'mekanism_extras:metallurgic_infusing/alloy/radiance' }, 'mekanism:alloy_atomic', 'chemlib:yttrium_barium_copper_oxide_dust')
 
   event.remove({ id: 'mekanism_extras:processing/enriched_spectrum/from_enriched_shining' })
   event.remove({ id: 'mekanism_extras:metallurgic_infusing/alloy/spectrum' })
 
   event.replaceInput({ id: "thermal:augments/upgrade_augment_1" }, "glass", "mekanism:upgrade_speed")
+  event.custom({
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "conditions": [
+      {
+        "type": "thermal:flag",
+        "flag": "upgrade_augments"
+      }
+    ],
+    "key": {
+      "G": {
+        "item": MATERIALS.EUROPIUM.gear
+      },
+      "I": {
+        "tag": MATERIALS.EUROPIUM.gear
+      },
+      "R": {
+        "tag": "forge:dusts/redstone"
+      },
+      "X": {
+        "tag": "forge:gears/gold"
+      }
+    },
+    "pattern": [
+      "IGI",
+      "RXR",
+      "IGI"
+    ],
+    "result": {
+      "item": "thermal:upgrade_augment_1"
+    },
+    "show_notification": true
+  })
+
   event.replaceInput({ id: "thermal:augments/upgrade_augment_2" }, "thermal:signalum_gear", "mekanism:advanced_control_circuit")
   event.replaceInput({ id: "thermal:augments/upgrade_augment_3" }, "thermal:lumium_gear", "mekanism:elite_control_circuit")
   event.replaceInput({ id: "thermalendergy:endergy_upgrade_1" }, "thermal:enderium_gear", "mekanism:ultimate_control_circuit")

@@ -879,8 +879,8 @@
 				title: "Посетите Подземный сад"
 				type: "dimension"
 			}]
-			x: -6.5d
-			y: -1.0d
+			x: -7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1AA2A590F998DAB2"]
@@ -2011,6 +2011,7 @@
 						id: "superbwarfare:homemade_shotgun"
 						tag: {
 							Attachments: { }
+							Damage: 0
 							GunData: { }
 							Perks: {
 								Ammo: { }
@@ -3853,6 +3854,139 @@
 			}]
 			x: -12.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["342A94A83BBB9E3F"]
+			id: "0EA9F0848E4AB121"
+			rewards: [
+				{
+					count: 8
+					id: "79BC9130D1A1CC7D"
+					item: "mekanism:advanced_fluid_tank"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2C4F378C0231FF7A"
+					item: "mekanism:advanced_mechanical_pipe"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6AB867639E5C3645"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"1C9235D189085204"
+				"0EA9F0848E4AB121"
+			]
+			id: "560739A94700BD32"
+			rewards: [
+				{
+					count: 64
+					id: "458A85129229425E"
+					item: "mekanism:dust_osmium"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1F770A697F922322"
+					item: "mekanism:advanced_fluid_tank"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "2196FEEAE7085F83"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["46AF5A9119A75A33"]
+			hide_until_deps_complete: true
+			id: "1C9235D189085204"
+			rewards: [
+				{
+					count: 64
+					id: "34FE1C5BC2FD366E"
+					item: "minecraft:packed_ice"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "29B4E6FB12FB6B6D"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "245D432B4A631247"
+					item: "undergarden:dweller_steak"
+					type: "item"
+				}
+			]
+			subtitle: "Найдите морозосталь в холодных регионах подземного сада"
+			tasks: [{
+				id: "761166AB601C056A"
+				item: "undergarden:froststeel_nugget"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["40303EB3A89F8CAF"]
+			hide_dependency_lines: true
+			id: "4806E1986B68739B"
+			tasks: [{
+				id: "6A5736AB4AFC18AF"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"4806E1986B68739B"
+				"0E36516AB2341A4A"
+			]
+			id: "4926F06D1EF6324E"
+			rewards: [
+				{
+					id: "794B72EBAB435966"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "453CB6A68BE703DD"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					id: "0D555187D3BA0E12"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Грядки это не технологично"
+			tasks: [{
+				id: "4E4CDCD84F2C8431"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.5d
 		}
 	]
 	title: "Глава 2. Автоматизация"

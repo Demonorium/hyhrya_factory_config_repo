@@ -170,4 +170,32 @@ ServerEvents.recipes(event => {
         "item": "mekanism:resistive_heater"
       }
     })
+
+    event.custom(
+      {
+        "type": "mekanism:mek_data",
+        "key": {
+          "#": {
+            "item": MATERIALS.RUBY.ingot
+          },
+          "A": {
+            "tag": "mekanism:alloys/reinforced"
+          },
+          "E": {
+            "item": MATERIALS.EUROPIUM.ingot
+          },
+          "X": {
+            "item": "mekanism:steel_casing"
+          }
+        },
+        "pattern": [
+          "AE ",
+          "AX#",
+          "AE "
+        ],
+        "result": {
+          "item": "mekanism:laser"
+        }
+      }
+    )
 })

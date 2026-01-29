@@ -202,6 +202,8 @@ ServerEvents.recipes(event => {
 ServerEvents.tags("item", event => {
     event.removeAll('pneumaticcraft:upgrade_components')
     event.add('pneumaticcraft:upgrade_components', 'pneumaticcraft:upgrade_matrix')
+    event.add('pneumaticcraft:wiring', MATERIALS.SILVER.nugget)
+    event.add('pneumaticcraft:wiring', MATERIALS.ALUMINUM.nugget)
 })
 
 

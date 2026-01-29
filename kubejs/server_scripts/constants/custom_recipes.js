@@ -59920,7 +59920,7 @@ const CUSTOM_RECIPES = [
 			amount: 1000.0,
 			type: "pneumaticcraft:fluid",
 		},
-		max_temp: 204.6,
+		max_temp: 1900.0,
 		result: {
 			item: "chemlib:tin_oxide_dust",
 			count: 10.0,
@@ -59931,7 +59931,7 @@ const CUSTOM_RECIPES = [
 		exothermic: false,
 		speed: 0.5,
 		temperature: {
-			min_temp: 304.6,
+			min_temp: 2000.0,
 		},
 		item_input: {
 			item: "chemlib:tin_oxide_dust",
@@ -59953,7 +59953,7 @@ const CUSTOM_RECIPES = [
 			fluid: "kubejs:tin_oxide",
 			amount: 100.0,
 		},
-		energy: 1534,
+		energy: 14250,
 	},
 	{
 		type: "thermal:chiller",
@@ -59967,7 +59967,7 @@ const CUSTOM_RECIPES = [
 				count: 1,
 			},
 		],
-		energy: 205,
+		energy: 1900,
 	},
 	{
 		type: "pneumaticcraft:heat_frame_cooling",
@@ -69948,27 +69948,10 @@ const CUSTOM_RECIPES = [
 			amount: 1000.0,
 			type: "pneumaticcraft:fluid",
 		},
-		max_temp: 69.08466666666666,
+		max_temp: 883.0,
 		result: {
 			item: "chemlib:potassium_perchlorate_dust",
 			count: 10.0,
-		},
-	},
-	{
-		type: "pneumaticcraft:thermo_plant",
-		exothermic: false,
-		speed: 0.5,
-		temperature: {
-			min_temp: 169.08466666666666,
-		},
-		item_input: {
-			item: "chemlib:potassium_perchlorate_dust",
-			count: 1.0,
-			type: "pneumaticcraft:stacked_item",
-		},
-		fluid_output: {
-			fluid: "kubejs:potassium_perchlorate",
-			amount: 100.0,
 		},
 	},
 	{
@@ -69981,7 +69964,7 @@ const CUSTOM_RECIPES = [
 			fluid: "kubejs:potassium_perchlorate",
 			amount: 100.0,
 		},
-		energy: 518,
+		energy: 6622,
 	},
 	{
 		type: "thermal:chiller",
@@ -69995,7 +69978,7 @@ const CUSTOM_RECIPES = [
 				count: 1,
 			},
 		],
-		energy: 69,
+		energy: 883,
 	},
 	{
 		type: "pneumaticcraft:heat_frame_cooling",
@@ -76122,7 +76105,7 @@ const CUSTOM_RECIPES = [
 				count: 4.0,
 			},
 		],
-		energy: 134545.74,
+		energy: 159049.6,
 		experience: 0,
 		ingredients: [
 			{
@@ -78916,9 +78899,9 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
-		speed: 0.8225214521452144,
+		speed: 8.88108910891089,
 		temperature: {
-			max_temp: 69.08466666666666,
+			max_temp: 883.0,
 		},
 		fluid_input: {
 			fluid: "kubejs:perchloric_acid",
@@ -78942,8 +78925,9 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
-		speed: 1.5821464574417499,
+		speed: 2.7432239657631956,
 		temperature: {
+			min_temp: 883.0,
 			max_temp: 1040.0,
 		},
 		fluid_input: {
@@ -78968,10 +78952,10 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
-		speed: 10.247334180128538,
+		speed: 11.447029702970298,
 		temperature: {
-			min_temp: 267.071875,
-			max_temp: 367.27116666666666,
+			min_temp: 273.15,
+			max_temp: 883.0,
 		},
 		fluid_input: {
 			fluid: "kubejs:perchloric_acid",
@@ -78991,7 +78975,6 @@ const CUSTOM_RECIPES = [
 			item: "chemlib:potassium_perchlorate_dust",
 			count: 1.0,
 		},
-		pressure: 6.0,
 	},
 	{
 		type: "mekanism:oxidizing",
@@ -93542,9 +93525,8 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
-		speed: 0.53125,
+		speed: 3.895138888888889,
 		temperature: {
-			max_temp: 204.6,
 		},
 		fluid_input: {
 			fluid: "mekanismelements:nitric_acid",
@@ -95032,6 +95014,27 @@ const CUSTOM_RECIPES = [
 		itemOutput: {
 			count: 1,
 			item: "chemlib:manganese_sulfate_dust",
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 0.4,
+		temperature: {
+			min_temp: 883.0,
+		},
+		item_input: {
+			item: "chemlib:potassium_perchlorate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:oxygen",
+			amount: 400.0,
+		},
+		item_output: {
+			item: "chemlib:potassium_chloride_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -112885,7 +112888,7 @@ const CUSTOM_RECIPES = [
 				count: 2.0,
 			},
 		],
-		energy: 89344.1,
+		energy: 140206.1,
 		experience: 0,
 		ingredients: [
 			{
@@ -112960,7 +112963,7 @@ const CUSTOM_RECIPES = [
 				count: 2.0,
 			},
 		],
-		energy: 81801.1,
+		energy: 98755.1,
 		experience: 0,
 		ingredients: [
 			{
@@ -120987,7 +120990,7 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
-		energy: 58870.846666666665,
+		energy: 67038.8,
 		experience: 0,
 		ingredients: [
 			{
@@ -122292,7 +122295,7 @@ const CUSTOM_RECIPES = [
 				count: 4.0,
 			},
 		],
-		energy: 105358.23333333334,
+		energy: 146054.0,
 		experience: 0,
 		ingredients: [
 			{
@@ -122831,7 +122834,7 @@ const CUSTOM_RECIPES = [
 				count: 4.0,
 			},
 		],
-		energy: 270696.14,
+		energy: 295200.0,
 		experience: 0,
 		ingredients: [
 			{
@@ -152695,7 +152698,7 @@ const CUSTOM_RECIPES = [
 				amount: 100.0,
 			},
 			{
-				item: "chemlib:niter",
+				item: "thermal:niter",
 				count: 1.0,
 				chance: 1.5,
 			},
@@ -153692,6 +153695,68 @@ const CUSTOM_RECIPES = [
 		itemOutput: {
 			count: 8,
 			item: "minecraft:white_wool",
+		},
+	},
+	{
+		type: "mekanism:dissolution",
+		gasInput: {
+			gas: "kubejs:cesium_hydroxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				tag: "glass",
+			},
+		},
+		output: {
+			gas: "chemlib:aluminum_oxide_dust",
+			amount: 1.0,
+			chemicalType: "gas",
+		},
+	},
+	{
+		type: "mekanism:dissolution",
+		gasInput: {
+			gas: "kubejs:cesium_hydroxide",
+			amount: 6.0,
+		},
+		itemInput: {
+			amount: 16.0,
+			ingredient: {
+				tag: "glass_panes",
+			},
+		},
+		output: {
+			gas: "chemlib:aluminum_oxide_dust",
+			amount: 600.0,
+			chemicalType: "gas",
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.25,
+		temperature: {
+			min_temp: 688,
+		},
+		fluid_input: {
+			fluid: "kubejs:cesium_nitrate",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:quartz",
+			count: 10.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:silicon_dioxide",
+			amount: 5.0,
+		},
+		item_output: {
+			item: "ae2:certus_quartz_dust",
+			count: 5.0,
 		},
 	},
 	{

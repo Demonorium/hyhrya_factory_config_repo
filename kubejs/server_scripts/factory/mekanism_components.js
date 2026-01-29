@@ -441,6 +441,21 @@ ServerEvents.recipes(event => {
             D: Item.of(MATERIALS.COPPER.ingot),
         }
     )
+    event.shaped(
+        Item.of('superbwarfare:battery', 2),
+        [
+            'D D',
+            'BAC',
+            'BAC'
+        ],
+        {
+            A: Item.of('chemlib:cesium_chloride_dust'),
+            B: Item.of(MATERIALS.COPPER.plate),
+            C: Item.of(MATERIALS.IRON.plate),
+            D: Item.of(MATERIALS.SILVER.nugget),
+        }
+    )
+
 
 })
 

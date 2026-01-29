@@ -4,6 +4,9 @@ ServerEvents.recipes(event => {
     _meka_tools(event)
     _meka_suite(event)
 
+    event.replaceInput({id: 'mekanism:geiger_counter'}, MATERIALS.LEAD.ingot, MATERIALS.CESIUM.plate)
+    event.replaceInput({id: 'mekanism:geiger_counter'}, 'mekanism:basic_control_circuit', 'chemlib:iodine_dust')
+
     event.remove({ id: 'mekanism:configurator' })
     event.custom(
         {
