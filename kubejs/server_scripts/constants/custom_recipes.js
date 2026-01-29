@@ -88567,21 +88567,29 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
-		type: "mekanismelements:adsorption",
-		fluidInput: {
-			fluid: "mekanismelements:compressed_air",
-			amount: 5.0,
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.4025490196078431,
+		temperature: {
+			max_temp: 68.13,
 		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:methane",
-			},
+		fluid_input: {
+			fluid: "mekanismelements:methane",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
 		},
-		output: {
-			gas: "mekanism:hydrogen",
-			amount: 40,
-			chemicalType: "gas",
+		item_input: {
+			item: "chemlib:carbon_dioxide",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:hydrogen",
+			amount: 400.0,
+		},
+		item_output: {
+			item: "chemlib:carbon_monoxide",
+			count: 2.0,
 		},
 	},
 	{
@@ -121665,24 +121673,6 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
-		type: "mekanismelements:adsorption",
-		fluidInput: {
-			fluid: "mekanismelements:compressed_air",
-			amount: 5.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "moremekanismprocessing:dust_magnesium",
-			},
-		},
-		output: {
-			gas: "kubejs:magnesium_oxide",
-			amount: 10,
-			chemicalType: "gas",
-		},
-	},
-	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -124781,21 +124771,30 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
-		type: "mekanismelements:adsorption",
-		fluidInput: {
-			fluid: "mekanismelements:compressed_air",
-			amount: 5.0,
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 18.664851485148517,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1612.0,
 		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:calcium_hydroxide_dust",
-			},
+		fluid_input: {
+			fluid: "kubejs:carbon_dioxide",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
 		},
-		output: {
-			gas: "kubejs:calcium_carbonate",
-			amount: 10,
-			chemicalType: "gas",
+		item_input: {
+			item: "chemlib:calcium_hydroxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:calcium_carbonate_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -125333,24 +125332,6 @@ const CUSTOM_RECIPES = [
 		item_output: {
 			item: "chemlib:barium_nitrate_dust",
 			count: 1.0,
-		},
-	},
-	{
-		type: "mekanismelements:adsorption",
-		fluidInput: {
-			fluid: "mekanismelements:compressed_air",
-			amount: 5.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:barium_hydroxide_dust",
-			},
-		},
-		output: {
-			gas: "kubejs:barium_carbonate",
-			amount: 10,
-			chemicalType: "gas",
 		},
 	},
 	{
@@ -129090,21 +129071,30 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
-		type: "mekanismelements:adsorption",
-		fluidInput: {
-			fluid: "mekanismelements:compressed_air",
-			amount: 5.0,
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 7.387623762376237,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 473.0,
 		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:copper_ii_hydroxide_dust",
-			},
+		fluid_input: {
+			fluid: "kubejs:carbon_dioxide",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
 		},
-		output: {
-			gas: "kubejs:copper_carbonate",
-			amount: 10,
-			chemicalType: "gas",
+		item_input: {
+			item: "chemlib:copper_ii_hydroxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:copper_carbonate_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -129652,21 +129642,30 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
-		type: "mekanismelements:adsorption",
-		fluidInput: {
-			fluid: "mekanismelements:compressed_air",
-			amount: 5.0,
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 8.26390099009901,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 561.504,
 		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:iron_hydroxide_dust",
-			},
+		fluid_input: {
+			fluid: "kubejs:carbon_dioxide",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
 		},
-		output: {
-			gas: "kubejs:iron_carbonate",
-			amount: 10,
-			chemicalType: "gas",
+		item_input: {
+			item: "chemlib:iron_hydroxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:iron_carbonate_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -130683,21 +130682,30 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
-		type: "mekanismelements:adsorption",
-		fluidInput: {
-			fluid: "mekanismelements:compressed_air",
-			amount: 5.0,
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 20.19950495049505,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1767.0,
 		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:strontium_hydroxide_dust",
-			},
+		fluid_input: {
+			fluid: "kubejs:carbon_dioxide",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
 		},
-		output: {
-			gas: "kubejs:strontium_carbonate",
-			amount: 10,
-			chemicalType: "gas",
+		item_input: {
+			item: "chemlib:strontium_hydroxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:strontium_carbonate_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -132363,24 +132371,6 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
-	},
-	{
-		type: "mekanismelements:adsorption",
-		fluidInput: {
-			fluid: "mekanismelements:compressed_air",
-			amount: 5.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "moremekanismprocessing:dust_zinc",
-			},
-		},
-		output: {
-			gas: "kubejs:zinc_oxide",
-			amount: 10,
-			chemicalType: "gas",
-		},
 	},
 	{
 		type: "mekanism:reaction",
@@ -136788,24 +136778,6 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
-		type: "mekanismelements:adsorption",
-		fluidInput: {
-			fluid: "mekanismelements:compressed_air",
-			amount: 5.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:sodium_hydroxide_dust",
-			},
-		},
-		output: {
-			gas: "kubejs:sodium_bicarbonate",
-			amount: 10,
-			chemicalType: "gas",
-		},
-	},
-	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -138334,21 +138306,30 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
-		type: "mekanismelements:adsorption",
-		fluidInput: {
-			fluid: "mekanismelements:compressed_air",
-			amount: 5.0,
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 8.872772277227723,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 623.0,
 		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:magnesium_hydroxide_dust",
-			},
+		fluid_input: {
+			fluid: "kubejs:carbon_dioxide",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
 		},
-		output: {
-			gas: "kubejs:magnesium_carbonate",
-			amount: 10,
-			chemicalType: "gas",
+		item_input: {
+			item: "chemlib:magnesium_hydroxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:magnesium_carbonate_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -142639,21 +142620,6 @@ const CUSTOM_RECIPES = [
 		output: {
 			item: "chemlib:acetic_acid",
 			count: 2.0,
-		},
-	},
-	{
-		type: "mekanism:chemical_infusing",
-		leftInput: {
-			gas: "kubejs:carbon_dioxide",
-			amount: 1.0,
-		},
-		output: {
-			gas: "kubejs:acetic_acid",
-			amount: 1.0,
-		},
-		rightInput: {
-			gas: "mekanismelements:methane",
-			amount: 1.0,
 		},
 	},
 	{
@@ -149606,24 +149572,6 @@ const CUSTOM_RECIPES = [
 		itemOutput: {
 			count: 2,
 			item: "chemlib:sodium_bicarbonate_dust",
-		},
-	},
-	{
-		type: "mekanismelements:adsorption",
-		fluidInput: {
-			fluid: "mekanismelements:compressed_air",
-			amount: 5.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:potassium_hydroxide_dust",
-			},
-		},
-		output: {
-			gas: "kubejs:potassium_bicarbonate",
-			amount: 10,
-			chemicalType: "gas",
 		},
 	},
 	{
