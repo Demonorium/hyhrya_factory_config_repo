@@ -153710,7 +153710,7 @@ const CUSTOM_RECIPES = [
 			},
 		},
 		output: {
-			gas: "chemlib:aluminum_oxide_dust",
+			gas: "kubejs:aluminum_oxide",
 			amount: 1.0,
 			chemicalType: "gas",
 		},
@@ -153728,7 +153728,7 @@ const CUSTOM_RECIPES = [
 			},
 		},
 		output: {
-			gas: "chemlib:aluminum_oxide_dust",
+			gas: "kubejs:aluminum_oxide",
 			amount: 600.0,
 			chemicalType: "gas",
 		},

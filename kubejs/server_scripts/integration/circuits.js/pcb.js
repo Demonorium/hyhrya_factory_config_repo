@@ -179,9 +179,9 @@ ServerEvents.recipes(event => {
   event.replaceInput({ id: 'pneumaticcraft:flux_compressor' }, 'pneumaticcraft:adadvanced_pressure_tube', 'pneumaticcraft:reinforced_pressure_tube')
 
   assembly_laser(event, Item.of('chemlib:beryllium_oxide_dust'), Item.of('pncepcb:smd_transistor', 12))
-  assembly_laser(event, Item.of('chemlib:bismuth_dust'), Item.of('pncepcb:smd_transistor', 9))
+  assembly_laser(event, Item.of(MATERIALS.BISMUTH.dust), Item.of('pncepcb:smd_transistor', 9))
   assembly_laser(event, Item.of('chemlib:germanium_dust'), Item.of('pncepcb:smd_transistor', 9))
-  assembly_laser(event, Item.of('chemlib:tellurium_dust'), Item.of('pncepcb:smd_transistor', 4))
+  assembly_laser(event, Item.of(<'chemlib:tellurium_dust'>), Item.of('pncepcb:smd_transistor', 4))
   assembly_laser(event, Item.of('chemlib:phosphorus_dust'), Item.of('pncepcb:smd_transistor', 1))
   assembly_laser(event, Item.of('chemlib:zinc_oxide_dust', 3), Item.of('pncepcb:smd_transistor', 1))
 
