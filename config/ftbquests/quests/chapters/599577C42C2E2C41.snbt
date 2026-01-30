@@ -690,6 +690,7 @@
 				"6A6903DFFAAA6138"
 				"7CBCD5F99E6A252D"
 			]
+			dependency_requirement: "one_completed"
 			id: "004DCE2563970C33"
 			size: 1.5d
 			tasks: [{
@@ -782,6 +783,7 @@
 				"55E4888E30A7C9F2"
 				"27F2B5B54451AB0F"
 			]
+			dependency_requirement: "one_completed"
 			hide_until_deps_visible: false
 			id: "00C310358F452A99"
 			rewards: [
@@ -2642,6 +2644,7 @@
 				"6DEE213448A30231"
 				"57C93009689E4908"
 			]
+			dependency_requirement: "one_completed"
 			id: "6D04B02F7322D87D"
 			rewards: [{
 				count: 8

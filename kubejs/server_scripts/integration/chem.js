@@ -42,6 +42,7 @@ ServerEvents.recipes(event => {
   event.remove({id: "mekanismelements:adsorption/nitrogen"})
   event.remove({mod: 'chemlib'})
 
+  event.remove({id: 'mekanism:gas_conversion/salt_to_hydrogen_chloride'})
   event.remove({id: 'mekanism:infusion_conversion/carbon/from_charcoal'})
   event.remove({id: 'mekanism:infusion_conversion/carbon/from_charcoal_block'})
   event.remove({id: 'mekanism:infusion_conversion/carbon/from_coal'})
