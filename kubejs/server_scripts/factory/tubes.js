@@ -222,6 +222,16 @@ ServerEvents.recipes(event => {
                 B: Item.of("curvy_pipes:" + type + "_item_pipe")
             }
         )
+        event.shaped(
+            Item.of('curvy_pipes:' + type + '_fluid_pipe', 1),
+            [
+                'ABA'
+            ],
+            {
+                A: Item.of('thermal:cured_rubber'),
+                B: Item.of("curvy_pipes:" + type + "_item_pipe")
+            }
+        )
     })
 
     event.shaped(

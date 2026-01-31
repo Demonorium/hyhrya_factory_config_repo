@@ -971,6 +971,12 @@
 		{
 			dependencies: ["0F855B4E2D98799D"]
 			id: "11F7A38262846DD9"
+			rewards: [{
+				count: 3
+				id: "662FDF8B2F0A7883"
+				item: "pneumaticcraft:smart_chest"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5662056106F508D7"
 				item: "pneumaticcraft:smart_chest"
@@ -1212,6 +1218,12 @@
 		{
 			dependencies: ["31B594AC2BD60D87"]
 			id: "2E353DDE6F5748EE"
+			rewards: [{
+				count: 4
+				id: "70C5754D094CAC95"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
 			tasks: [{
 				id: "28F23A53C494874C"
 				item: "pneumaticcraft:remote"
@@ -2194,6 +2206,119 @@
 			}]
 			x: 5.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["0F855B4E2D98799D"]
+			description: [
+				"Карты расширения позволяют предельно эффективно использовать любые модули размещённые на трубах: теперь вы можете руками их настройки."
+				""
+				"Например если поставить карту расширения на клапан (безопасную трубу) вы сможете задать при каком давлении она будет сбрасывать газ!"
+				""
+				"А если поставить на датчик давления - вы сможете выдавать редстоун сигнал если давление ниже заданного порога!"
+			]
+			id: "7302529D72857C57"
+			rewards: [{
+				count: 8
+				id: "5D7ACEAA90686290"
+				item: "pneumaticcraft:module_expansion_card"
+				type: "item"
+			}]
+			subtitle: "Точная настройка"
+			tasks: [{
+				id: "710455159C4628B1"
+				item: "pneumaticcraft:module_expansion_card"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7302529D72857C57"]
+			description: [
+				"Датчик давления выдаёт редстоун сигнал в зависимости от давления в трубе. С помощью карты расширения можно точно настроить порог!"
+				""
+				"Попробуйте подать редстоун сигнал от датчика давления на генератор, не забудьте включить в генераторе настройки реагирования на редстоун."
+			]
+			id: "118AB38A635B835B"
+			rewards: [
+				{
+					count: 2
+					id: "74FBA7AE3811E236"
+					item: "minecraft:comparator"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "04197D9BA493E4F5"
+					item: "minecraft:repeater"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "79C5EE5674E92DE1"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "71AC829DCFE65A59"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			subtitle: "Эффективность"
+			tasks: [{
+				id: "57A553172B7AB998"
+				item: "pneumaticcraft:pressure_gauge_module"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7302529D72857C57"]
+			description: [
+				"Модуль регулировки трубы позволяет ограничить давление подаваемое в определённый участок трубопровода."
+				""
+				"Сначала разместите трубу, направленную так, как должен быть направлен модуль, затем разместите на ней модуль."
+				""
+				"Модули можно использовать для соединения трубопровода высокого давления с трубопроводом низкого давления или точной настройки тепловых труб, точная настройка доступна с помощью модулей расширения."
+			]
+			id: "44D4BEE250153974"
+			rewards: [
+				{
+					count: 10
+					id: "597E034A019D8A54"
+					item: "pneumaticcraft:advanced_pressure_tube"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "2B2E6DC524477D12"
+					item: "pneumaticcraft:reinforced_pressure_tube"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "0FE072A0DB018F90"
+					item: "pneumaticcraft:pressure_tube"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6C66E7441D208645"
+					item: "pneumaticcraft:regulator_tube_module"
+					type: "item"
+				}
+			]
+			subtitle: "Управляемый поток"
+			tasks: [{
+				id: "3DAECD0F89DA255D"
+				item: "pneumaticcraft:regulator_tube_module"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 2.5d
 		}
 	]
 	title: "Глава 1. Базовые технологии"
