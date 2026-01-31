@@ -118,6 +118,26 @@ ServerEvents.recipes(event => {
       {
         "type": "pneumaticcraft:stacked_item",
         "count": 2,
+        "tag": "pneumaticcraft:wiring"
+      },
+      {
+        "item": "chemlib:lanthanum_phosphide_dust"
+      }
+    ],
+    "pressure": 1.0,
+    "results": [
+      {
+        "item": "pneumaticcraft:transistor",
+        "count": 16
+      }
+    ]
+  })
+  event.custom({
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 2,
         "item": MATERIALS.LEAD.nugget
       },
       {
@@ -178,6 +198,7 @@ ServerEvents.recipes(event => {
   event.replaceInput({ id: 'pneumaticcraft:flux_compressor' }, 'pneumaticcraft:printed_circuit_board', 'pncepcb:primitive_finished_pcb')
   event.replaceInput({ id: 'pneumaticcraft:flux_compressor' }, 'pneumaticcraft:adadvanced_pressure_tube', 'pneumaticcraft:reinforced_pressure_tube')
 
+  assembly_laser(event, Item.of('chemlib:lanthanum_phosphide'), Item.of('pncepcb:smd_transistor', 16))
   assembly_laser(event, Item.of('chemlib:beryllium_oxide_dust'), Item.of('pncepcb:smd_transistor', 12))
   assembly_laser(event, Item.of(MATERIALS.BISMUTH.dust), Item.of('pncepcb:smd_transistor', 9))
   assembly_laser(event, Item.of('chemlib:germanium_dust'), Item.of('pncepcb:smd_transistor', 9))

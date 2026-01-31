@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
         "ingredients": [
             {
                 "count": 3,
-                "item": MATERIALS.OSTRUM.nugget
+                "item": 'chemlib:lanthanum_carbide_dust'
             },
             {
                 "count": 3,
@@ -102,7 +102,7 @@ ServerEvents.recipes(event => {
                 "item": MATERIALS.NAQUADAH.dust
             },
             {
-                "item": 'biomancy:genetic_compound'
+                "item": 'chemlib:lanthanum_hydroxide_dust'
             },
             {
                 "item": Item.of("macabre:plasma").getId()

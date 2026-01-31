@@ -73813,6 +73813,1139 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:heat_frame_cooling",
 		input: {
+			fluid: "kubejs:lanthanum_iii_bromide",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 1056.0,
+		result: {
+			item: "chemlib:lanthanum_iii_bromide_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.5,
+		temperature: {
+			min_temp: 1156.0,
+		},
+		item_input: {
+			item: "chemlib:lanthanum_iii_bromide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:lanthanum_iii_bromide",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:lanthanum_iii_bromide_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:lanthanum_iii_bromide",
+			amount: 100.0,
+		},
+		energy: 7920,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:lanthanum_iii_bromide",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:lanthanum_iii_bromide_dust",
+				count: 1,
+			},
+		],
+		energy: 1056,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:lanthalum_iii_hydride",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 216.6,
+		result: {
+			item: "chemlib:lanthalum_iii_hydride_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.5,
+		temperature: {
+			min_temp: 316.6,
+		},
+		item_input: {
+			item: "chemlib:lanthalum_iii_hydride_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:lanthalum_iii_hydride",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:fuel_quality",
+		air_per_bucket: 5590909,
+		burn_rate: 0.3160867596293662,
+		fluid: {
+			type: "pneumaticcraft:fluid",
+			amount: 1000,
+			fluid: "kubejs:lanthalum_iii_hydride",
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:lanthalum_iii_hydride_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:lanthalum_iii_hydride",
+			amount: 100.0,
+		},
+		energy: 1624,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:lanthalum_iii_hydride",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:lanthalum_iii_hydride_dust",
+				count: 1,
+			},
+		],
+		energy: 217,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:lanthanum_hydroxide",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 185.07500000000002,
+		result: {
+			item: "chemlib:lanthanum_hydroxide_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.5,
+		temperature: {
+			min_temp: 285.07500000000005,
+		},
+		item_input: {
+			item: "chemlib:lanthanum_hydroxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:lanthanum_hydroxide",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:lanthanum_hydroxide_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:lanthanum_hydroxide",
+			amount: 100.0,
+		},
+		energy: 1388,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:lanthanum_hydroxide",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:lanthanum_hydroxide_dust",
+				count: 1,
+			},
+		],
+		energy: 185,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:lanthanum_iii_iodide",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 1045.0,
+		result: {
+			item: "chemlib:lanthanum_iii_iodide_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.5,
+		temperature: {
+			min_temp: 1145.0,
+		},
+		item_input: {
+			item: "chemlib:lanthanum_iii_iodide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:lanthanum_iii_iodide",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:lanthanum_iii_iodide_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:lanthanum_iii_iodide",
+			amount: 100.0,
+		},
+		energy: 7838,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:lanthanum_iii_iodide",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:lanthanum_iii_iodide_dust",
+				count: 1,
+			},
+		],
+		energy: 1045,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:lanthanum_carbide",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 2630.0,
+		result: {
+			item: "chemlib:lanthanum_carbide_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:lanthanum_carbide_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:lanthanum_carbide",
+			amount: 100.0,
+		},
+		energy: 19725,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:lanthanum_carbide",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:lanthanum_carbide_dust",
+				count: 1,
+			},
+		],
+		energy: 2630,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:lanthanum_carbonate",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 383.9685714285714,
+		result: {
+			item: "chemlib:lanthanum_carbonate_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.5,
+		temperature: {
+			min_temp: 483.9685714285714,
+		},
+		item_input: {
+			item: "chemlib:lanthanum_carbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:lanthanum_carbonate",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:lanthanum_carbonate_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:lanthanum_carbonate",
+			amount: 100.0,
+		},
+		energy: 2880,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:lanthanum_carbonate",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:lanthanum_carbonate_dust",
+				count: 1,
+			},
+		],
+		energy: 384,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:lanthanum_iii_nitrate",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 313.0,
+		result: {
+			item: "chemlib:lanthanum_iii_nitrate_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.5,
+		temperature: {
+			min_temp: 413.0,
+		},
+		item_input: {
+			item: "chemlib:lanthanum_iii_nitrate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:lanthanum_iii_nitrate",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:lanthanum_iii_nitrate_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:lanthanum_iii_nitrate",
+			amount: 100.0,
+		},
+		energy: 2348,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:lanthanum_iii_nitrate",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:lanthanum_iii_nitrate_dust",
+				count: 1,
+			},
+		],
+		energy: 313,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:lanthanum_iii_sulfate",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 1048.0,
+		result: {
+			item: "chemlib:lanthanum_iii_sulfate_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.5,
+		temperature: {
+			min_temp: 1148.0,
+		},
+		item_input: {
+			item: "chemlib:lanthanum_iii_sulfate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:lanthanum_iii_sulfate",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:lanthanum_iii_sulfate_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:lanthanum_iii_sulfate",
+			amount: 100.0,
+		},
+		energy: 7860,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:lanthanum_iii_sulfate",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:lanthanum_iii_sulfate_dust",
+				count: 1,
+			},
+		],
+		energy: 1048,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:lanthanum_iii_sulfide",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 2370.0,
+		result: {
+			item: "chemlib:lanthanum_iii_sulfide_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:lanthanum_iii_sulfide_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:lanthanum_iii_sulfide",
+			amount: 100.0,
+		},
+		energy: 17775,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:lanthanum_iii_sulfide",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:lanthanum_iii_sulfide_dust",
+				count: 1,
+			},
+		],
+		energy: 2370,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:lanthanum_phosphide",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 755.15,
+		result: {
+			item: "chemlib:lanthanum_phosphide_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.5,
+		temperature: {
+			min_temp: 855.15,
+		},
+		item_input: {
+			item: "chemlib:lanthanum_phosphide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:lanthanum_phosphide",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:lanthanum_phosphide_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:lanthanum_phosphide",
+			amount: 100.0,
+		},
+		energy: 5664,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:lanthanum_phosphide",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:lanthanum_phosphide_dust",
+				count: 1,
+			},
+		],
+		energy: 755,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:lanthanum_trifluoride",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 1766.0,
+		result: {
+			item: "chemlib:lanthanum_trifluoride_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.5,
+		temperature: {
+			min_temp: 1866.0,
+		},
+		item_input: {
+			item: "chemlib:lanthanum_trifluoride_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:lanthanum_trifluoride",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:lanthanum_trifluoride_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:lanthanum_trifluoride",
+			amount: 100.0,
+		},
+		energy: 13245,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:lanthanum_trifluoride",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:lanthanum_trifluoride_dust",
+				count: 1,
+			},
+		],
+		energy: 1766,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:lanthanum_iii_chloride",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 1131.0,
+		result: {
+			item: "chemlib:lanthanum_iii_chloride_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.5,
+		temperature: {
+			min_temp: 1231.0,
+		},
+		item_input: {
+			item: "chemlib:lanthanum_iii_chloride_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:lanthanum_iii_chloride",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:lanthanum_iii_chloride_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:lanthanum_iii_chloride",
+			amount: 100.0,
+		},
+		energy: 8482,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:lanthanum_iii_chloride",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:lanthanum_iii_chloride_dust",
+				count: 1,
+			},
+		],
+		energy: 1131,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:lanthanum_oxide",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 2588.0,
+		result: {
+			item: "chemlib:lanthanum_oxide_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:lanthanum_oxide_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:lanthanum_oxide",
+			amount: 100.0,
+		},
+		energy: 19410,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:lanthanum_oxide",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:lanthanum_oxide_dust",
+				count: 1,
+			},
+		],
+		energy: 2588,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:cerium_iii_fluoride",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 1730.0,
+		result: {
+			item: "chemlib:cerium_iii_fluoride_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.5,
+		temperature: {
+			min_temp: 1830.0,
+		},
+		item_input: {
+			item: "chemlib:cerium_iii_fluoride_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:cerium_iii_fluoride",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:cerium_iii_fluoride_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:cerium_iii_fluoride",
+			amount: 100.0,
+		},
+		energy: 12975,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:cerium_iii_fluoride",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:cerium_iii_fluoride_dust",
+				count: 1,
+			},
+		],
+		energy: 1730,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 2670.0,
+		result: {
+			item: "chemlib:cerium_iv_oxide_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:cerium_iv_oxide_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 100.0,
+		},
+		energy: 20025,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:cerium_iv_oxide_dust",
+				count: 1,
+			},
+		],
+		energy: 2670,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:cerium_iii_oxide",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 2450.0,
+		result: {
+			item: "chemlib:cerium_iii_oxide_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:cerium_iii_oxide_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:cerium_iii_oxide",
+			amount: 100.0,
+		},
+		energy: 18375,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:cerium_iii_oxide",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:cerium_iii_oxide_dust",
+				count: 1,
+			},
+		],
+		energy: 2450,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:cerium_iii_chloride",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 1090.0,
+		result: {
+			item: "chemlib:cerium_iii_chloride_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:cerium_iii_chloride_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:cerium_iii_chloride",
+			amount: 100.0,
+		},
+		energy: 8175,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:cerium_iii_chloride",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:cerium_iii_chloride_dust",
+				count: 1,
+			},
+		],
+		energy: 1090,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:cerium_iv_fluoride",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 923.0,
+		result: {
+			item: "chemlib:cerium_iv_fluoride_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.5,
+		temperature: {
+			min_temp: 1023.0,
+		},
+		item_input: {
+			item: "chemlib:cerium_iv_fluoride_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:cerium_iv_fluoride",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:cerium_iv_fluoride_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:cerium_iv_fluoride",
+			amount: 100.0,
+		},
+		energy: 6922,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:cerium_iv_fluoride",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:cerium_iv_fluoride_dust",
+				count: 1,
+			},
+		],
+		energy: 923,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:calcium_bromide",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 1000.0,
+		result: {
+			item: "chemlib:calcium_bromide_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.5,
+		temperature: {
+			min_temp: 1100.0,
+		},
+		item_input: {
+			item: "chemlib:calcium_bromide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:calcium_bromide",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:calcium_bromide_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:calcium_bromide",
+			amount: 100.0,
+		},
+		energy: 7500,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:calcium_bromide",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:calcium_bromide_dust",
+				count: 1,
+			},
+		],
+		energy: 1000,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:ammonium_iodide",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 824.0,
+		result: {
+			item: "chemlib:ammonium_iodide_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.5,
+		temperature: {
+			min_temp: 924.0,
+		},
+		item_input: {
+			item: "chemlib:ammonium_iodide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:ammonium_iodide",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:ammonium_iodide_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:ammonium_iodide",
+			amount: 100.0,
+		},
+		energy: 6180,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:ammonium_iodide",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:ammonium_iodide_dust",
+				count: 1,
+			},
+		],
+		energy: 824,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:ammonium_carbonate",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 331.0,
+		result: {
+			item: "chemlib:ammonium_carbonate_dust",
+			count: 10.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:ammonium_carbonate_dust",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:ammonium_carbonate",
+			amount: 100.0,
+		},
+		energy: 2482,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:ammonium_carbonate",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:ammonium_carbonate_dust",
+				count: 1,
+			},
+		],
+		energy: 331,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
+			fluid: "kubejs:phosphine",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		max_temp: 140.3,
+		result: {
+			item: "chemlib:phosphine",
+			count: 10.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.5,
+		temperature: {
+			min_temp: 240.3,
+		},
+		item_input: {
+			item: "chemlib:phosphine",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:phosphine",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:fuel_quality",
+		air_per_bucket: 444488,
+		burn_rate: 0.567386778526974,
+		fluid: {
+			type: "pneumaticcraft:fluid",
+			amount: 1000,
+			fluid: "kubejs:phosphine",
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "chemlib:phosphine",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:phosphine",
+			amount: 100.0,
+		},
+		energy: 1403,
+	},
+	{
+		type: "thermal:chiller",
+		ingredient: {
+			fluid: "kubejs:phosphine",
+			amount: 100,
+		},
+		result: [
+			{
+				item: "chemlib:phosphine",
+				count: 1,
+			},
+		],
+		energy: 140,
+	},
+	{
+		type: "pneumaticcraft:heat_frame_cooling",
+		input: {
 			fluid: "kubejs:stackoverflowium",
 			amount: 1000.0,
 			type: "pneumaticcraft:fluid",
@@ -75728,6 +76861,57 @@ const CUSTOM_RECIPES = [
 			item: "chemlib:europium_iii_iodide_dust",
 			count: 1.0,
 		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 9.59235294117647,
+		temperature: {
+			max_temp: 783.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:europium",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:ammonium_iodide_dust",
+			count: 2.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:ammonia",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "chemlib:europium_ii_iodide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:lanthanum_oxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:europium_dust",
+				count: 2.0,
+			},
+		],
+		energy: 97920.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:europium_iii_oxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:lanthanum_dust",
+				count: 2.0,
+			},
+		],
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
@@ -77911,6 +79095,1124 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: -0.5640000000000001,
+		temperature: {
+			max_temp: 216.6,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrogen",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		item_output: {
+			item: "chemlib:lanthalum_iii_hydride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:oxidizing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lanthalum_iii_hydride_dust",
+			},
+		},
+		output: {
+			gas: "kubejs:lanthanum_oxide",
+			amount: 50.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lanthalum_iii_hydride_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lanthanum_hydroxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 6.5475369458128085,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1056.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 600.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_oxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_bromide_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 6.126600985221675,
+		temperature: {
+			max_temp: 1056.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 600.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_iii_sulfide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:hydrogen_sulfide",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_bromide_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_bromide_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:lanthanum_hydroxide_dust",
+				count: 1.0,
+			},
+		],
+		energy: 60890.75,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:lanthanum_iii_bromide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 18.95339805825243,
+		temperature: {
+			max_temp: 1766.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrofluoric_acid",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_iii_bromide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_trifluoride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:lanthanum_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:calcium_bromide_dust",
+				count: 3.0,
+			},
+		],
+		energy: 108430.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:calcium_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:lanthanum_iii_bromide_dust",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:lanthanum_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+		energy: 84651.5,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:lanthanum_iii_sulfate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 6.0,
+			},
+		],
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.4538961038961036,
+		temperature: {
+			min_temp: 313.0,
+			max_temp: 442.8,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:nitric_acid",
+			amount: 3000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_dust",
+			count: 8.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:lanthanum_iii_nitrate",
+			amount: 800.0,
+		},
+		item_output: {
+			item: "chemlib:ammonium_nitrate_dust",
+			count: 3.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.88743842364532,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 313.0,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:nitric_acid",
+			amount: 600.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_oxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_nitrate_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 5.690776699029126,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 313.0,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:nitric_acid",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_hydroxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_nitrate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 4.097087378640777,
+		temperature: {
+			max_temp: 313.0,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:nitrogen_dioxide",
+			amount: 600.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:nitric_oxide",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_nitrate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.468058252427184,
+		temperature: {
+			max_temp: 313.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:lanthanum_oxide",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:ammonium_nitrate_dust",
+			count: 6.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:ammonia",
+			amount: 600.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_nitrate_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "thermal:pyrolyzer",
+		ingredient: {
+			item: "chemlib:lanthanum_iii_nitrate_dust",
+			count: 2.0,
+		},
+		result: [
+			{
+				item: "chemlib:lanthanum_oxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:nitrogen_dioxide",
+				count: 6.0,
+			},
+			{
+				fluid: "mekanism:oxygen",
+				amount: 300.0,
+			},
+		],
+		energy: 3990.0,
+		experience: 0,
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 12.066037735849056,
+		temperature: {
+			min_temp: 231.0,
+			max_temp: 1048.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:sulfuric_acid",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_iii_nitrate_dust",
+			count: 2.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:nitric_acid",
+			amount: 600.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_sulfate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:lanthanum_carbide_dust",
+				count: 4.0,
+			},
+			{
+				item: "thermal:rich_slag",
+				count: 1.0,
+			},
+		],
+		energy: 20000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:lanthanum_dust",
+				count: 4.0,
+			},
+			{
+				item: "thermal:coal_coke",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "mekanism:combining",
+		extraInput: {
+			amount: 3.0,
+			ingredient: {
+				item: "chemlib:iodine_dust",
+			},
+		},
+		mainInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lanthanum_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lanthanum_iii_iodide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 6.021456310679612,
+		temperature: {
+			max_temp: 1045.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:lanthanum_oxide",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:ammonium_iodide_dust",
+			count: 6.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:ammonia",
+			amount: 600.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_iodide_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 6.493349753694582,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1045.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_iodide",
+			amount: 600.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_oxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_iodide_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 8.214356435643566,
+		temperature: {
+			min_temp: 386.85,
+			max_temp: 442.8,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:nitric_acid",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:ammonium_iodide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:iodine",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:ammonium_nitrate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 5.458457711442787,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 824.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_iodide",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:ammonium_carbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:ammonium_iodide_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lanthanum_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lanthanum_hydroxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lanthanum_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lanthanum_hydroxide_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.649924812030075,
+		temperature: {
+			max_temp: 223.06,
+		},
+		fluid_input: {
+			fluid: "minecraft:water",
+			amount: 600.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_iii_sulfide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:hydrogen_sulfide",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_hydroxide_dust",
+			count: 2.0,
+		},
+		pressure: 0.5,
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 13.63252427184466,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1131.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_hydroxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:combining",
+		extraInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lanthanum_dust",
+			},
+		},
+		mainInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:phosphorus_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lanthanum_phosphide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 3.2215346534653464,
+		temperature: {
+			max_temp: 185.07500000000002,
+		},
+		fluid_input: {
+			fluid: "minecraft:water",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_phosphide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:phosphine",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_hydroxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:combining",
+		extraInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:lanthanum_dust",
+			},
+		},
+		mainInput: {
+			amount: 3.0,
+			ingredient: {
+				item: "mekanism:dust_sulfur",
+			},
+		},
+		output: {
+			item: "chemlib:lanthanum_iii_sulfide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 22.490471698113204,
+		temperature: {
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_sulfide",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_dust",
+			count: 2.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:hydrogen",
+			amount: 600.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_sulfide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:lanthanum_oxide",
+		},
+		gasInput: {
+			amount: 300,
+			gas: "kubejs:hydrogen_sulfide",
+		},
+		itemInput: {
+			amount: 3.0,
+			ingredient: {
+				item: "chemlib:carbon_dust",
+			},
+		},
+		gasOutput: {
+			amount: 300,
+			gas: "kubejs:carbon_monoxide",
+		},
+		itemOutput: {
+			count: 1,
+			item: "chemlib:lanthanum_iii_sulfide_dust",
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 6.496059113300493,
+		temperature: {
+			max_temp: 1131.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 600.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_iii_sulfide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:hydrogen_sulfide",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_chloride_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 27.07766990291262,
+		temperature: {
+			min_temp: 201.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:oxygen",
+			amount: 900.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_iii_sulfide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:sulfur_dioxide",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_oxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 13.544532019704434,
+		temperature: {
+		},
+		fluid_input: {
+			fluid: "kubejs:carbon_dioxide",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_iii_sulfide_dust",
+			count: 2.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:carbon_disulfide",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_oxide_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:oxidizing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lanthanum_dust",
+			},
+		},
+		output: {
+			gas: "kubejs:lanthanum_oxide",
+			amount: 50.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 6.916995073891626,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1131.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 600.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_oxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_chloride_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:lanthanum_oxide",
+		},
+		gasInput: {
+			amount: 600,
+			gas: "mekanism:chlorine",
+		},
+		itemInput: {
+			amount: 3.0,
+			ingredient: {
+				item: "chemlib:carbon_dust",
+			},
+		},
+		gasOutput: {
+			amount: 300,
+			gas: "kubejs:carbon_monoxide",
+		},
+		itemOutput: {
+			count: 2,
+			item: "chemlib:lanthanum_iii_chloride_dust",
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 10.762216981132076,
+		temperature: {
+			max_temp: 1048.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:sulfuric_acid",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_iii_chloride_dust",
+			count: 2.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 600.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_sulfate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 18.046553398058254,
+		temperature: {
+			max_temp: 1766.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrofluoric_acid",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_iii_chloride_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_trifluoride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:lanthanum_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:calcium_chloride_dust",
+				count: 3.0,
+			},
+		],
+		energy: 111370.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:calcium_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:lanthanum_iii_chloride_dust",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 14.93,
+		temperature: {
+			max_temp: 1766.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:fluorine",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		item_output: {
+			item: "chemlib:lanthanum_trifluoride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 17.281456310679612,
+		temperature: {
+			max_temp: 1766.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrofluoric_acid",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:hydrogen",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_trifluoride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 10.045073891625616,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1766.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrofluoric_acid",
+			amount: 600.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_oxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_trifluoride_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 19.797572815533982,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1766.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrofluoric_acid",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_hydroxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_trifluoride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 9.624137931034483,
+		temperature: {
+			max_temp: 1766.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrofluoric_acid",
+			amount: 600.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_iii_sulfide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:hydrogen_sulfide",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_trifluoride_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:lanthanum_dust",
+				count: 2.0,
+			},
+			{
+				item: "mekanism:dust_fluorite",
+				count: 3.0,
+			},
+		],
+		energy: 143360.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:calcium_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:lanthanum_trifluoride_dust",
+				count: 2.0,
+			},
+		],
+	},
+	{
 		type: "mekanism:chemical_infusing",
 		leftInput: {
 			gas: "mekanism:hydrogen",
@@ -79736,6 +82038,33 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
+		speed: 3.561940298507463,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 442.8,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:nitric_acid",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:ammonium_carbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:ammonium_nitrate_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
 		speed: 7.358021255060729,
 		temperature: {
 			min_temp: 260.75,
@@ -79787,6 +82116,31 @@ const CUSTOM_RECIPES = [
 			item: "chemlib:ammonium_nitrate_dust",
 			count: 1.0,
 		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:calcium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:ammonium_nitrate_dust",
+				count: 2.0,
+			},
+		],
+		energy: 36626.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:ammonium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:calcium_nitrate_dust",
+				count: 1.0,
+			},
+		],
 	},
 	{
 		type: "thermal:smelter",
@@ -79972,6 +82326,56 @@ const CUSTOM_RECIPES = [
 		pressure: 1.5,
 	},
 	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:barium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:ammonium_nitrate_dust",
+				count: 2.0,
+			},
+		],
+		energy: 31656.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:ammonium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:barium_nitrate_dust",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:magnesium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:ammonium_nitrate_dust",
+				count: 2.0,
+			},
+		],
+		energy: 22416.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:ammonium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:magnesium_nitrate_dust",
+				count: 1.0,
+			},
+		],
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 7.8442307692307685,
@@ -80025,6 +82429,31 @@ const CUSTOM_RECIPES = [
 			count: 1.0,
 		},
 		pressure: 0.5,
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:lead_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:ammonium_nitrate_dust",
+				count: 2.0,
+			},
+		],
+		energy: 25476.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:ammonium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:lead_nitrate_dust",
+				count: 1.0,
+			},
+		],
 	},
 	{
 		type: "mekanism:reaction",
@@ -82961,6 +85390,33 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 400,
+			fluid: "minecraft:water",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:phosphine",
+		},
+		itemInput: {
+			amount: 8.0,
+			ingredient: {
+				item: "chemlib:iodine_dust",
+			},
+		},
+		gasOutput: {
+			amount: 800,
+			gas: "kubejs:hydrogen_iodide",
+		},
+		itemOutput: {
+			count: 1,
+			item: "chemlib:phosphoric_acid_dust",
+		},
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
 		speed: 0.9485049833887044,
@@ -83772,6 +86228,31 @@ const CUSTOM_RECIPES = [
 			item: "chemlib:sodium_fluoride_dust",
 			count: 1.0,
 		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_fluoride_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:calcium_bromide_dust",
+				count: 1.0,
+			},
+		],
+		energy: 74166.3,
+		experience: 0,
+		ingredients: [
+			{
+				item: "mekanism:dust_fluorite",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_bromide_dust",
+				count: 2.0,
+			},
+		],
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
@@ -84847,6 +87328,33 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
+		speed: 12.07920792079208,
+		temperature: {
+			min_temp: 220.0,
+			max_temp: 1000.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:calcium_carbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:carbonic_acid",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:calcium_bromide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
 		speed: 14.405940594059405,
 		temperature: {
 			min_temp: 220.0,
@@ -85207,6 +87715,33 @@ const CUSTOM_RECIPES = [
 		item_output: {
 			item: "chemlib:sulfur_trioxide",
 			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 4.134328358208955,
+		temperature: {
+			min_temp: 220.0,
+			max_temp: 611.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:ammonium_carbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:carbonic_acid",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:ammonium_chloride_dust",
+			count: 2.0,
 		},
 	},
 	{
@@ -85766,6 +88301,84 @@ const CUSTOM_RECIPES = [
 	{
 		type: "mekanism:reaction",
 		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 400,
+			fluid: "minecraft:water",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:phosphine",
+		},
+		itemInput: {
+			amount: 8.0,
+			ingredient: {
+				item: "chemlib:bromine",
+			},
+		},
+		gasOutput: {
+			amount: 800,
+			gas: "kubejs:hydrogen_bromide",
+		},
+		itemOutput: {
+			count: 1,
+			item: "chemlib:phosphoric_acid_dust",
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 20.058490566037733,
+		temperature: {
+		},
+		fluid_input: {
+			fluid: "kubejs:phosphoric_acid",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:calcium_bromide_dust",
+			count: 3.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 600.0,
+		},
+		item_output: {
+			item: "chemlib:tricalcium_phosphate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 18.403921568627453,
+		temperature: {
+			max_temp: 1691.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrofluoric_acid",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:calcium_bromide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "mekanism:dust_fluorite",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 400,
 		energyRequired: 289,
 		fluidInput: {
 			amount: 200,
@@ -85813,6 +88426,32 @@ const CUSTOM_RECIPES = [
 		},
 		item_output: {
 			item: "mekanism:salt",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 18.78627450980392,
+		temperature: {
+			max_temp: 1730.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:sulfuric_acid",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:calcium_bromide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "chemlib:calcium_sulfate_dust",
 			count: 1.0,
 		},
 	},
@@ -87090,6 +89729,32 @@ const CUSTOM_RECIPES = [
 		item_output: {
 			item: "chemlib:potassium_iodide_dust",
 			count: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 9.972058823529412,
+		temperature: {
+			max_temp: 954.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:potassium_nitrite",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:ammonium_iodide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:nitrogen",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "chemlib:potassium_iodide_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -88621,6 +91286,32 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
+		speed: 9.94107843137255,
+		temperature: {
+			max_temp: 1000.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:calcium_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:hydrogen",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "chemlib:calcium_bromide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
 		speed: 20.92147058823529,
 		temperature: {
 		},
@@ -89152,6 +91843,33 @@ const CUSTOM_RECIPES = [
 		},
 		item_output: {
 			item: "chemlib:calcium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 10.968627450980392,
+		temperature: {
+			min_temp: 265.8,
+			max_temp: 853.0,
+		},
+		fluid_input: {
+			fluid: "minecraft:water",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:calcium_bromide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:bromine",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "chemlib:calcium_hydroxide_dust",
 			count: 1.0,
 		},
 	},
@@ -90165,6 +92883,29 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "pneumaticcraft:fluid_mixer",
+		input1: {
+			fluid: "kubejs:phosphine",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		input2: {
+			fluid: "mekanism:oxygen",
+			amount: 500.0,
+			type: "pneumaticcraft:fluid",
+		},
+		pressure: 1.0,
+		time: 1674,
+		fluid_output: {
+			fluid: "mekanism:hydrogen",
+			amount: 600.0,
+		},
+		item_output: {
+			item: "chemlib:phosphorus_pentoxide_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 8.696617647058824,
@@ -90467,6 +93208,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 4.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:phosphine",
+			},
+		},
+		output: {
+			item: "chemlib:phosphoric_acid_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 20.31148514851485,
@@ -90570,6 +93328,32 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 11.11640776699029,
+		temperature: {
+			max_temp: 1131.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:hydrogen",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -90649,6 +93433,33 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 3.9336726546906187,
+		temperature: {
+			min_temp: 613.0,
+			max_temp: 1357.77,
+		},
+		fluid_input: {
+			fluid: "kubejs:phosphine",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:copper_ii_oxide_dust",
+			count: 5.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:phosphorus_pentoxide",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "mekanism:dust_copper",
+			count: 5.0,
+		},
+	},
+	{
 		type: "mekanism:oxidizing",
 		input: {
 			amount: 1.0,
@@ -90685,6 +93496,29 @@ const CUSTOM_RECIPES = [
 		},
 		item_output: {
 			item: "chemlib:phosphoric_acid_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:fluid_mixer",
+		input1: {
+			fluid: "kubejs:phosphine",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		input2: {
+			fluid: "minecraft:water",
+			amount: 500.0,
+			type: "pneumaticcraft:fluid",
+		},
+		pressure: 1.0,
+		time: 1832,
+		fluid_output: {
+			fluid: "mekanism:hydrogen",
+			amount: 1600.0,
+		},
+		item_output: {
+			item: "chemlib:phosphorus_pentoxide_dust",
 			count: 1.0,
 		},
 	},
@@ -93235,6 +96069,29 @@ const CUSTOM_RECIPES = [
 		},
 		item_output: {
 			item: "chemlib:iron_iii_nitrate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:fluid_mixer",
+		input1: {
+			fluid: "kubejs:phosphine",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		input2: {
+			fluid: "mekanismelements:nitric_oxide",
+			amount: 400.0,
+			type: "pneumaticcraft:fluid",
+		},
+		pressure: 1.0,
+		time: 2647,
+		fluid_output: {
+			fluid: "mekanismelements:nitrogen",
+			amount: 400.0,
+		},
+		item_output: {
+			item: "chemlib:phosphoric_acid_dust",
 			count: 1.0,
 		},
 	},
@@ -96116,6 +98973,29 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "pneumaticcraft:fluid_mixer",
+		input1: {
+			fluid: "kubejs:phosphine",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		input2: {
+			fluid: "kubejs:ozone",
+			amount: 400.0,
+			type: "pneumaticcraft:fluid",
+		},
+		pressure: 1.0,
+		time: 1162,
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:phosphorus_pentoxide_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:reaction",
 		duration: 400,
 		energyRequired: 200,
@@ -97523,6 +100403,23 @@ const CUSTOM_RECIPES = [
 		itemOutput: {
 			count: 2,
 			item: "chemlib:iodine_dust",
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "mekanism:water_vapor",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:phosphorus_pentoxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:phosphine",
+			count: 2.0,
 		},
 	},
 	{
@@ -100970,6 +103867,46 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:oxidizing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:phosphine",
+			},
+		},
+		output: {
+			gas: "kubejs:phosphorus",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.3656037151702787,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 317.3,
+		},
+		fluid_input: {
+			fluid: "kubejs:phosphine",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:phosphorus_pentoxide_dust",
+			count: 3.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 1500.0,
+		},
+		item_output: {
+			item: "chemlib:phosphorus_dust",
+			count: 16.0,
+		},
+	},
+	{
 		type: "pneumaticcraft:fluid_mixer",
 		input1: {
 			fluid: "mekanism:sulfur_dioxide",
@@ -103160,6 +106097,32 @@ const CUSTOM_RECIPES = [
 		item_output: {
 			item: "chemlib:sodium_sulfide_dust",
 			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0362126245847176,
+		temperature: {
+			max_temp: 171.6,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:phosphorus_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:phosphine",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:chlorine",
+			count: 3.0,
 		},
 	},
 	{
@@ -110627,6 +113590,33 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 5.54658940397351,
+		temperature: {
+			min_temp: 317.3,
+			max_temp: 1357.77,
+		},
+		fluid_input: {
+			fluid: "kubejs:phosphine",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:copper_ii_hydroxide_dust",
+			count: 3.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:phosphorus",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "mekanism:dust_copper",
+			count: 3.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 7.558756218905472,
 		temperature: {
@@ -111718,6 +114708,33 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
+		speed: 12.880392156862746,
+		temperature: {
+			min_temp: 265.8,
+			max_temp: 1048.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:chlorine",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:calcium_bromide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:bromine",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "chemlib:calcium_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
 		speed: 0.763648424543947,
 		temperature: {
 			max_temp: 237.64000000000001,
@@ -111840,6 +114857,31 @@ const CUSTOM_RECIPES = [
 			},
 			{
 				item: "chemlib:strontium_oxide_dust",
+				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:strontium_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:lanthanum_iii_chloride_dust",
+				count: 2.0,
+			},
+		],
+		energy: 112390.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:lanthanum_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:strontium_chloride_dust",
 				count: 3.0,
 			},
 		],
@@ -112591,6 +115633,31 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "thermal:silver_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:lanthanum_iii_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		energy: 66591.9,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:lanthanum_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:silver_nitrate_dust",
+				count: 3.0,
+			},
+		],
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
 		speed: 7.554179104477613,
@@ -112897,6 +115964,31 @@ const CUSTOM_RECIPES = [
 			},
 			{
 				item: "chemlib:tin_oxide_dust",
+				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "mekanism:dust_tin",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:lanthanum_iii_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		energy: 69022.4,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:lanthanum_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:tin_sulfate_dust",
 				count: 3.0,
 			},
 		],
@@ -113384,6 +116476,33 @@ const CUSTOM_RECIPES = [
 		item_output: {
 			item: "chemlib:iodine_dust",
 			count: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 9.87970297029703,
+		temperature: {
+			min_temp: 386.85,
+			max_temp: 611.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:chlorine",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:ammonium_iodide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:iodine",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:ammonium_chloride_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -116068,6 +119187,29 @@ const CUSTOM_RECIPES = [
 			count: 24,
 			item: "chemlib:manganese_sulfate_dust",
 		},
+	},
+	{
+		type: "thermal:pyrolyzer",
+		ingredient: {
+			item: "chemlib:ammonium_carbonate_dust",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "ad_astra:ice_shard",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:ammonia",
+				count: 2.0,
+			},
+			{
+				fluid: "kubejs:carbon_dioxide",
+				amount: 100.0,
+			},
+		],
+		energy: 3310.0,
+		experience: 0,
 	},
 	{
 		type: "mekanism:injecting",
@@ -119682,6 +122824,33 @@ const CUSTOM_RECIPES = [
 		itemOutput: {
 			count: 4,
 			item: "ad_astra:ice_shard",
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 12.826699029126214,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1048.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:sulfuric_acid",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_carbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_sulfate_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -127029,6 +130198,29 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "pneumaticcraft:fluid_mixer",
+		input1: {
+			fluid: "kubejs:phosphine",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		input2: {
+			fluid: "mekanismelements:nitric_acid",
+			amount: 800.0,
+			type: "pneumaticcraft:fluid",
+		},
+		pressure: 1.0,
+		time: 1771,
+		fluid_output: {
+			fluid: "mekanismelements:nitrogen_dioxide",
+			amount: 800.0,
+		},
+		item_output: {
+			item: "chemlib:phosphoric_acid_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 14.932178217821782,
@@ -127295,6 +130487,33 @@ const CUSTOM_RECIPES = [
 		},
 		item_output: {
 			item: "chemlib:lead_sulfate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 12.48186274509804,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1000.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:calcium_hydroxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "chemlib:calcium_bromide_dust",
 			count: 1.0,
 		},
 	},
@@ -127691,6 +130910,59 @@ const CUSTOM_RECIPES = [
 		},
 		item_output: {
 			item: "chemlib:aluminium_sulfate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 12.605445544554456,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1000.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:hydrogen_bromide",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "mekanismelements:dust_calcium_oxide",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:calcium_bromide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 12.935490196078431,
+		temperature: {
+			max_temp: 1124.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:sodium_hydroxide",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:ammonium_carbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:ammonia",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_carbonate_dust",
 			count: 1.0,
 		},
 	},
@@ -128096,6 +131368,29 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "pneumaticcraft:fluid_mixer",
+		input1: {
+			fluid: "kubejs:phosphine",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		input2: {
+			fluid: "mekanism:sulfuric_acid",
+			amount: 400.0,
+			type: "pneumaticcraft:fluid",
+		},
+		pressure: 1.0,
+		time: 1798,
+		fluid_output: {
+			fluid: "mekanism:sulfur_dioxide",
+			amount: 400.0,
+		},
+		item_output: {
+			item: "chemlib:phosphoric_acid_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:reaction",
 		duration: 400,
 		energyRequired: 200,
@@ -128177,6 +131472,32 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 13.32764705882353,
+		temperature: {
+			max_temp: 1164.0,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:potassium_hydroxide",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:ammonium_carbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:ammonia",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "chemlib:potassium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
 		speed: 10.704455445544555,
 		temperature: {
@@ -128223,6 +131544,33 @@ const CUSTOM_RECIPES = [
 		gasOutput: {
 			amount: 100,
 			gas: "mekanism:hydrogen_chloride",
+		},
+		itemOutput: {
+			count: 4,
+			item: "chemlib:zinc_sulfate_dust",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 400,
+			fluid: "kubejs:zinc",
+		},
+		gasInput: {
+			amount: 400,
+			gas: "mekanism:sulfuric_acid",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:phosphoric_acid_dust",
+			},
+		},
+		gasOutput: {
+			amount: 100,
+			gas: "kubejs:phosphine",
 		},
 		itemOutput: {
 			count: 4,
@@ -128936,6 +132284,32 @@ const CUSTOM_RECIPES = [
 		item_output: {
 			item: "chemlib:sodium_nitrate_dust",
 			count: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 17.719803921568626,
+		temperature: {
+			max_temp: 1612.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:calcium_hydroxide",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:ammonium_carbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanismelements:ammonia",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "chemlib:calcium_carbonate_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -129993,6 +133367,33 @@ const CUSTOM_RECIPES = [
 		duration: 400,
 		energyRequired: 200,
 		fluidInput: {
+			amount: 400,
+			fluid: "mekanism:sulfuric_acid",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:phosphine",
+		},
+		itemInput: {
+			amount: 4.0,
+			ingredient: {
+				item: "chemlib:manganese_oxide_dust",
+			},
+		},
+		gasOutput: {
+			amount: 100,
+			gas: "kubejs:phosphoric_acid",
+		},
+		itemOutput: {
+			count: 4,
+			item: "chemlib:manganese_sulfate_dust",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
 			amount: 100,
 			fluid: "kubejs:zinc_sulfate",
 		},
@@ -130681,6 +134082,33 @@ const CUSTOM_RECIPES = [
 		},
 		item_output: {
 			item: "chemlib:strontium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 12.826699029126214,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1048.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:sulfuric_acid",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_oxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_iii_sulfate_dust",
 			count: 1.0,
 		},
 	},
@@ -131895,6 +135323,31 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:calcium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:ammonium_chloride_dust",
+				count: 2.0,
+			},
+		],
+		energy: 42130.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:ammonium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:calcium_chloride_dust",
+				count: 1.0,
+			},
+		],
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 18.068627450980394,
@@ -131968,6 +135421,31 @@ const CUSTOM_RECIPES = [
 			},
 			{
 				item: "chemlib:magnesium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_bromide_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:calcium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		energy: 56247.799999999996,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:calcium_bromide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_carbonate_dust",
 				count: 1.0,
 			},
 		],
@@ -132296,6 +135774,31 @@ const CUSTOM_RECIPES = [
 			item: "chemlib:ammonia",
 			count: 1.0,
 		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:strontium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:ammonium_chloride_dust",
+				count: 2.0,
+			},
+		],
+		energy: 44670.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:ammonium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:strontium_chloride_dust",
+				count: 1.0,
+			},
+		],
 	},
 	{
 		type: "mekanism:oxidizing",
@@ -135328,6 +138831,31 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:calcium_bromide_dust",
+				count: 1.0,
+			},
+		],
+		energy: 52953.2,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:calcium_hydroxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_bromide_dust",
+				count: 2.0,
+			},
+		],
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 8.188118811881187,
@@ -136066,6 +139594,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "mekanismelements:dust_calcium_oxide",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_bromide_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:calcium_hydroxide_dust",
+				count: 1.0,
+			},
+		],
+		energy: 48746.8,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:calcium_bromide_dust",
 				count: 1.0,
 			},
 			{
@@ -137034,6 +140587,33 @@ const CUSTOM_RECIPES = [
 		duration: 400,
 		energyRequired: 200,
 		fluidInput: {
+			amount: 800,
+			fluid: "mekanism:chlorine",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:phosphine",
+		},
+		itemInput: {
+			amount: 4.0,
+			ingredient: {
+				item: "ad_astra:ice_shard",
+			},
+		},
+		gasOutput: {
+			amount: 800,
+			gas: "mekanism:hydrogen_chloride",
+		},
+		itemOutput: {
+			count: 1,
+			item: "chemlib:phosphoric_acid_dust",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
 			amount: 400,
 			fluid: "minecraft:water",
 		},
@@ -137605,6 +141185,29 @@ const CUSTOM_RECIPES = [
 		itemOutput: {
 			count: 1,
 			item: "chemlib:sodium_sulfate_dust",
+		},
+	},
+	{
+		type: "pneumaticcraft:fluid_mixer",
+		input1: {
+			fluid: "kubejs:phosphine",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		input2: {
+			fluid: "kubejs:perchloric_acid",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		pressure: 1.0,
+		time: 2474,
+		fluid_output: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:phosphoric_acid_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -141665,6 +145268,31 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:barium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:ammonium_chloride_dust",
+				count: 2.0,
+			},
+		],
+		energy: 38720.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:ammonium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:barium_chloride_dust",
+				count: 1.0,
+			},
+		],
+	},
+	{
 		type: "mekanism:reaction",
 		duration: 400,
 		energyRequired: 200,
@@ -141744,20 +145372,40 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
-		type: "mekanism:injecting",
-		chemicalInput: {
-			gas: "mekanism:water_vapor",
-			amount: 3.0,
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.2125,
+		temperature: {
+			max_temp: 315.5,
 		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:phosphorus_pentoxide_dust",
-			},
+		fluid_input: {
+			fluid: "minecraft:water",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
 		},
-		output: {
+		item_input: {
+			item: "chemlib:phosphorus_pentoxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		item_output: {
 			item: "chemlib:phosphoric_acid_dust",
 			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:chemical_infusing",
+		leftInput: {
+			gas: "mekanism:oxygen",
+			amount: 4.0,
+		},
+		output: {
+			gas: "kubejs:phosphoric_acid",
+			amount: 1.0,
+		},
+		rightInput: {
+			gas: "kubejs:phosphine",
+			amount: 1.0,
 		},
 	},
 	{
@@ -142377,6 +146025,31 @@ const CUSTOM_RECIPES = [
 			},
 			{
 				item: "chemlib:copper_ii_sulfate_dust",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_bromide_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:calcium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		energy: 58066.399999999994,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:calcium_bromide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_sulfate_dust",
 				count: 1.0,
 			},
 		],
@@ -145222,6 +148895,31 @@ const CUSTOM_RECIPES = [
 		type: "thermal:smelter",
 		result: [
 			{
+				item: "chemlib:lithium_chloride_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:lanthanum_dust",
+				count: 1.0,
+			},
+		],
+		energy: 63459.5,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:lanthanum_iii_chloride_dust",
+				count: 1.0,
+			},
+			{
+				item: "mekanism:dust_lithium",
+				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
 				item: "chemlib:sodium_oxide_dust",
 				count: 1.0,
 			},
@@ -145265,6 +148963,31 @@ const CUSTOM_RECIPES = [
 			{
 				item: "chemlib:lithium_carbonate_dust",
 				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:lithium_chloride_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:cerium_dust",
+				count: 1.0,
+			},
+		],
+		energy: 61799.5,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:cerium_iii_chloride_dust",
+				count: 1.0,
+			},
+			{
+				item: "mekanism:dust_lithium",
+				count: 3.0,
 			},
 		],
 	},
@@ -147926,6 +151649,31 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:sodium_nitrate_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:lanthanum_hydroxide_dust",
+				count: 1.0,
+			},
+		],
+		energy: 40290.75,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:lanthanum_iii_nitrate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_nitrate_dust",
 				count: 1.0,
 			},
 			{
@@ -148731,6 +152479,56 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:cerium_dust",
+				count: 2.0,
+			},
+			{
+				item: "mekanism:dust_fluorite",
+				count: 3.0,
+			},
+		],
+		energy: 140140.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:calcium_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:cerium_iii_fluoride_dust",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_bromide_dust",
+				count: 2.0,
+			},
+			{
+				item: "mekanism:dust_fluorite",
+				count: 1.0,
+			},
+		],
+		energy: 71093.7,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:calcium_bromide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_fluoride_dust",
+				count: 2.0,
+			},
+		],
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 4.3857169811320755,
@@ -149207,6 +153005,33 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 1600,
+			fluid: "kubejs:phosphorus",
+		},
+		gasInput: {
+			amount: 600,
+			gas: "mekanism:water_vapor",
+		},
+		itemInput: {
+			amount: 9.0,
+			ingredient: {
+				item: "chemlib:calcium_hydroxide_dust",
+			},
+		},
+		gasOutput: {
+			amount: 1000,
+			gas: "kubejs:phosphine",
+		},
+		itemOutput: {
+			count: 3,
+			item: "chemlib:tricalcium_phosphate_dust",
+		},
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 19.920754716981133,
@@ -149646,6 +153471,78 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:oxidizing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:cerium_dust",
+			},
+		},
+		output: {
+			gas: "kubejs:cerium_iv_oxide",
+			amount: 100.0,
+		},
+	},
+	{
+		type: "mekanism:chemical_infusing",
+		leftInput: {
+			gas: "kubejs:cerium",
+			amount: 1.0,
+		},
+		output: {
+			gas: "kubejs:cerium_iv_oxide",
+			amount: 1.0,
+		},
+		rightInput: {
+			gas: "mekanism:oxygen",
+			amount: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: true,
+		speed: 7.27,
+		temperature: {
+			max_temp: 1000.0,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:bromine",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:calcium_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		item_output: {
+			item: "chemlib:calcium_bromide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.58,
+		temperature: {
+			max_temp: 331.0,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:ammonia",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:ammonium_bicarbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		item_output: {
+			item: "chemlib:ammonium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:reaction",
 		duration: 400,
 		energyRequired: 400,
@@ -149973,6 +153870,28 @@ const CUSTOM_RECIPES = [
 		},
 		fluid_input: {
 			fluid: "kubejs:silicon_dioxide",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_iii_sulfide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		item_output: {
+			item: "ae2:quartz_fiber",
+			count: 10.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.5,
+		temperature: {
+			min_temp: 243,
+		},
+		fluid_input: {
+			fluid: "kubejs:silicon_dioxide",
 			amount: 1000.0,
 			type: "pneumaticcraft:fluid",
 		},
@@ -150066,6 +153985,28 @@ const CUSTOM_RECIPES = [
 		},
 		item_input: {
 			item: "chemlib:hafnium_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		item_output: {
+			item: "mekanismgenerators:reactor_glass",
+			count: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.5,
+		temperature: {
+			min_temp: 243,
+		},
+		fluid_input: {
+			fluid: "kubejs:barium_oxide",
+			amount: 1200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:cerium_dust",
 			count: 1.0,
 			type: "pneumaticcraft:stacked_item",
 		},
@@ -153757,6 +157698,36 @@ const CUSTOM_RECIPES = [
 		item_output: {
 			item: "ae2:certus_quartz_dust",
 			count: 5.0,
+		},
+	},
+	{
+		type: "mekanism:separating",
+		input: {
+			fluid: "kubejs:europium_iii_chloride",
+			amount: 1.0,
+		},
+		leftGasOutput: {
+			gas: "kubejs:europium",
+			amount: 1.0,
+		},
+		rightGasOutput: {
+			gas: "mekanism:chlorine",
+			amount: 3.0,
+		},
+	},
+	{
+		type: "mekanism:separating",
+		input: {
+			fluid: "kubejs:cerium_iii_fluoride",
+			amount: 1.0,
+		},
+		leftGasOutput: {
+			gas: "kubejs:cerium",
+			amount: 1.0,
+		},
+		rightGasOutput: {
+			gas: "kubejs:fluorine",
+			amount: 3.0,
 		},
 	},
 	{
@@ -164384,6 +168355,60 @@ const CUSTOM_RECIPES = [
 			amount: 30.0,
 		},
 		pressure: 3,
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.1,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "pneumaticcraft:gasoline",
+			amount: 40.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:lanthanum_carbonate_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "pneumaticcraft:lpg",
+			amount: 40.0,
+		},
+		item_output: {
+			item: "chemlib:lanthanum_oxide_dust",
+			count: 1.0,
+		},
+		pressure: 3,
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 400,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 400,
+			fluid: "pneumaticcraft:lpg",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "mekanismelements:compressed_air",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lanthanum_iii_iodide_dust",
+			},
+		},
+		gasOutput: {
+			amount: 100,
+			gas: "kubejs:lanthanum",
+		},
+		itemOutput: {
+			count: 1,
+			item: "pneumaticcraft:plastic",
+		},
 	},
 	{
 		type: "thermal:pyrolyzer",

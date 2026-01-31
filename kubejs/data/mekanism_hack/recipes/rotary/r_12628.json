@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:ammonium_carbonate",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:ammonium_carbonate",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:ammonium_carbonate",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:ammonium_carbonate",
+        "amount": 1.0
+    }
+}

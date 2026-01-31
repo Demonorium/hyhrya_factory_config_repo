@@ -112,8 +112,8 @@ ServerEvents.recipes(event => {
         ],
         {
             A: Item.of('mekanism_extras:supreme_control_circuit'),
-            B: Item.of('thermal:rf_coil'),
-            C: Item.of(MATERIALS.EXTRATERRESTRIAL_STEEL.ingot),
+            B: Item.of('chemlib:lanthanum_iii_bromide_dust'),
+            C: Item.of(MATERIALS.CERIUM.ingot),
             D: Item.of(MATERIALS.RUBIDIUM.plate),
             E: Item.of('mekanism_lasers:ultimate_laser'),
         }

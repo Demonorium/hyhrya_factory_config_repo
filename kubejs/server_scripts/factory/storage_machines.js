@@ -245,6 +245,57 @@ ServerEvents.recipes(event => {
             B: Item.of('thermal:rf_coil')
         }
     )
+    event.shaped(
+        Item.of('mekanism_extras:absolute_universal_cable', 16),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: MATERIALS.CERIUM.ingot,
+            B: Item.of('mekanism_extras:alloy_radiance')
+        }
+    )
+    event.shaped(
+        Item.of('mekanism_extras:supreme_universal_cable', 8),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: MATERIALS.CERIUM.ingot,
+            B: Item.of('mekanism_extras:alloy_thermonuclear')
+        }
+    )
+    event.shaped(
+        Item.of('mekanism_extras:cosmic_universal_cable', 16),
+        [
+            'ABA',
+            'BBB',
+            'ABA'
+        ],
+        {
+            A: MATERIALS.NAQUADAH.ingot,
+            B: Item.of('chemlib:lanthanum_carbide_dust'),
+            B: Item.of('mekanism_extras:alloy_shining')
+        }
+    )
+    
+    event.shaped(
+        Item.of('mekanism_extras:infinite_universal_cable', 8),
+        [
+            'ABA',
+            'BBB',
+            'ABA'
+        ],
+        {
+            A: MATERIALS.NAQUADAH.ingot,
+            B: Item.of('chemlib:lanthanum_carbide_dust'),
+            B: Item.of('mekanism_extras:alloy_spectrum')
+        }
+    )
 
     event.remove({ id: "mekanism:transmitter/pressurized_tube/basic" })
     event.shaped(

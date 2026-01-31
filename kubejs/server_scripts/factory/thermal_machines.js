@@ -127,4 +127,21 @@ ServerEvents.recipes(event => {
             F: Item.of("mekanism:elite_control_circuit"),
         }
     )
+    event.shaped(
+        Item.of('thermal:machine_insolator', 2),
+        [
+            'GAG',
+            'FCF',
+            'EDE'
+        ],
+        {
+            A: Item.of('chemlib:calcium_bromide_dust'),
+            G: Item.of('mekanism:dust_sulfur'),
+            C: Item.of("thermal:machine_frame"),
+            D: Item.of("farmersdelight:rich_soil"),
+            E: Item.of(MATERIALS.DIAMOND.gear),
+            F: Item.of("mekanism:elite_control_circuit"),
+        }
+    )
+
 })

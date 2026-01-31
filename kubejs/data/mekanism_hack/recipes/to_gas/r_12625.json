@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:ammonium_iodide_dust"
+        }
+    },
+    "output": {
+        "gas": "kubejs:ammonium_iodide",
+        "amount": 200
+    }
+}

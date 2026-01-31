@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:lanthanum_oxide",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:lanthanum_oxide",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:lanthanum_oxide",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:lanthanum_oxide",
+        "amount": 1.0
+    }
+}

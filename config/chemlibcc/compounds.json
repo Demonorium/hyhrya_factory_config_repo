@@ -3645,6 +3645,418 @@
                     "count": 1
                 }
             ]
+        },
+        {
+            "name": "lanthanum_iii_bromide",
+            "display_name": "Lanthanum(III) bromide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "dcfffa",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "lanthanum",
+                    "count": 1
+                },
+                {
+                    "name": "bromine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "lanthalum_iii_hydride",
+            "display_name": "\u0413\u0438\u0434\u0440\u0438\u0434 \u043b\u0430\u043d\u0442\u0430\u043d\u0430(III)",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "043059",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "lanthanum",
+                    "count": 1
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "lanthanum_hydroxide",
+            "display_name": "Lanthanum hydroxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e9f7fa",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "lanthanum",
+                    "count": 1
+                },
+                {
+                    "name": "hydroxide",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "lanthanum_iii_iodide",
+            "display_name": "Lanthanum(III) iodide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "d2e12a",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "lanthanum",
+                    "count": 1
+                },
+                {
+                    "name": "iodine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "lanthanum_carbide",
+            "display_name": "Lanthanum carbide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "f3ff15",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "lanthanum",
+                    "count": 1
+                },
+                {
+                    "name": "carbon",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "lanthanum_carbonate",
+            "display_name": "Lanthanum carbonate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "dbfdf5",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "lanthanum",
+                    "count": 2
+                },
+                {
+                    "name": "carbonate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "lanthanum_iii_nitrate",
+            "display_name": "Lanthanum(III) nitrate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e3e3f8",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "lanthanum",
+                    "count": 1
+                },
+                {
+                    "name": "nitrate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "lanthanum_iii_sulfate",
+            "display_name": "Lanthanum(III) sulfate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e8e8e8",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "lanthanum",
+                    "count": 2
+                },
+                {
+                    "name": "sulfate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "lanthanum_iii_sulfide",
+            "display_name": "Lanthanum(III) sulfide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ffa915",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "lanthanum",
+                    "count": 2
+                },
+                {
+                    "name": "sulfur",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "lanthanum_phosphide",
+            "display_name": "Lanthanum phosphide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "2b2b27",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "lanthanum",
+                    "count": 1
+                },
+                {
+                    "name": "phosphorus",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "lanthanum_trifluoride",
+            "display_name": "Lanthanum trifluoride",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ebebeb",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "lanthanum",
+                    "count": 1
+                },
+                {
+                    "name": "fluorine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "lanthanum_iii_chloride",
+            "display_name": "Lanthanum(III) chloride",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e2e2e2",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "lanthanum",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "lanthanum_oxide",
+            "display_name": "Lanthanum oxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "f1f1f1",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "lanthanum",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "cerium_iii_fluoride",
+            "display_name": "Cerium(III) fluoride",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ececec",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "cerium",
+                    "count": 1
+                },
+                {
+                    "name": "fluorine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "cerium_iv_oxide",
+            "display_name": "Cerium(IV) oxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "d3d3af",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "cerium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "cerium_iii_oxide",
+            "display_name": "Cerium(III) oxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "daf37f",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "cerium",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "cerium_iii_chloride",
+            "display_name": "Cerium(III) chloride",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "f4f4f4",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "cerium",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "cerium_iv_fluoride",
+            "display_name": "Cerium(IV) fluoride",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "b4b9aa",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "cerium",
+                    "count": 1
+                },
+                {
+                    "name": "fluorine",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "calcium_bromide",
+            "display_name": "Calcium bromide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "bebebe",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "calcium",
+                    "count": 1
+                },
+                {
+                    "name": "bromine",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "ammonium_iodide",
+            "display_name": "Ammonium iodide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "dddddd",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "ammonium",
+                    "count": 1
+                },
+                {
+                    "name": "iodine",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "ammonium_carbonate",
+            "display_name": "Ammonium carbonate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e2e2e2",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "ammonium",
+                    "count": 2
+                },
+                {
+                    "name": "carbonate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "phosphine",
+            "display_name": "Phosphine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "fffab7",
+            "matter_state": "gas",
+            "components": [
+                {
+                    "name": "phosphorus",
+                    "count": 1
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 3
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
         }
     ]
 }

@@ -102,6 +102,35 @@ ServerEvents.recipes(event => {
       "show_notification": true
     }
   )
+  event.custom(
+    {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "F": {
+          "tag": "forge:dusts/flour"
+        },
+        "A": {
+          "item": "chemlib:ammonium_carbonate_dust"
+        },
+        "Y": {
+          "type": "pneumaticcraft:fluid",
+          "amount": 1000,
+          "fluid": "pneumaticcraft:yeast_culture"
+        }
+      },
+      "pattern": [
+        "AFA",
+        "FYF",
+        "AFA"
+      ],
+      "result": {
+        "count": 24,
+        "item": "pneumaticcraft:sourdough"
+      },
+      "show_notification": true
+    }
+  )
 })
 
 ServerEvents.tags("item", event => {

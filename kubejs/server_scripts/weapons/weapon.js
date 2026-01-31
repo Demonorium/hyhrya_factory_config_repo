@@ -1075,7 +1075,7 @@ ServerEvents.recipes(event => {
             Item.of('superbwarfare:small_battery_pack'),
             Item.of('mekanism_turrets:advanced_laser_turret', 2),
             Item.of('superbwarfare:cannon_core', 1),
-            Item.of(MATERIALS.CONSTANTAN.gear, 5),
+            Item.of('chemlib:lanthanum_iii_bromide_dust', 5),
             Item.of('superbwarfare:wheel', 2),
             Item.of('mekanism_extras:absolute_control_circuit')
         ]

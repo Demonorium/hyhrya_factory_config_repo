@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:lanthalum_iii_hydride",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:lanthalum_iii_hydride",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:lanthalum_iii_hydride",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:lanthalum_iii_hydride",
+        "amount": 1.0
+    }
+}
