@@ -123,6 +123,7 @@
 			tasks: [{
 				id: "4E35E65AF233EBB6"
 				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				match_nbt: false
 				type: "item"
 			}]
 			x: 15.0d

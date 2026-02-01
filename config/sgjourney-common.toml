@@ -404,22 +404,22 @@
 		["Stargate Journey Common Config"."Cable Config".server]
 			#The maximum number of Cable Blocks in a single Cable Network
 			#Range: > 1
-			max_cables_in_network = 4096
+			max_cables_in_network = 8096
 			#The amount of energy that will be generated if Lightning strikes a Stargate or a Lightning Rod connected to a cable
 			#Range: 0 ~ 9223372036854775807
-			lightning_strike_energy = 1000000
+			lightning_strike_energy = 6000000
 			#Maximum amount of energy that can be transferred through the Naquadah Wire per tick
 			#Range: 1 ~ 9223372036854775807
-			naquadah_wire_max_transfer = 1048576000
+			naquadah_wire_max_transfer = 16777216
 			#Maximum amount of energy that can be transferred through the Small Naquadah Cable per tick
 			#Range: 1 ~ 9223372036854775807
-			small_naquadah_cable_max_transfer = 8388608000
+			small_naquadah_cable_max_transfer = 33554432
 			#Maximum amount of energy that can be transferred through the Medium Naquadah Cable per tick
 			#Range: 1 ~ 9223372036854775807
-			medium_naquadah_cable_max_transfer = 67108864000
+			medium_naquadah_cable_max_transfer = 67108864
 			#Maximum amount of energy that can be transferred through the Large Naquadah Cable per tick
 			#Range: 1 ~ 9223372036854775807
-			large_naquadah_cable_max_transfer = 536870912000
+			large_naquadah_cable_max_transfer = 2147483648
 			#If true, Naquadah Wires will be able to transfer energy from ZPMs
 			naquadah_wire_transfers_zero_point_energy = false
 			#If true, Small Naquadah Cables will be able to transfer energy from ZPMs

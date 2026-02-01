@@ -1,5 +1,10 @@
 {
     "ModSettings": {
+        "include_hotbar_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
         "first_run": false
     },
     "GuiSettings": {

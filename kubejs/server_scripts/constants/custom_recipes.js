@@ -80213,6 +80213,132 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 8.17,
+		temperature: {
+			max_temp: 1090.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:chlorine",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:cerium_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		item_output: {
+			item: "chemlib:cerium_iii_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 10.718349514563107,
+		temperature: {
+			max_temp: 1090.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:cerium_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:hydrogen",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:cerium_iii_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 6.715024630541873,
+		temperature: {
+			min_temp: 273.15,
+			max_temp: 1090.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 600.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:cerium_iii_oxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:water",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:cerium_iii_chloride_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 17.697038834951456,
+		temperature: {
+			max_temp: 1730.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrofluoric_acid",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:cerium_iii_chloride_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:cerium_iii_fluoride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:cerium_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:calcium_chloride_dust",
+				count: 3.0,
+			},
+		],
+		energy: 108050.0,
+		experience: 0,
+		ingredients: [
+			{
+				item: "chemlib:calcium_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:cerium_iii_chloride_dust",
+				count: 2.0,
+			},
+		],
+	},
+	{
 		type: "mekanism:chemical_infusing",
 		leftInput: {
 			gas: "mekanism:hydrogen",

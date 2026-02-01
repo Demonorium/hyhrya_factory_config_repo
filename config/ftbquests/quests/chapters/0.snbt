@@ -1933,6 +1933,25 @@
 			x: -8.0d
 			y: -3.5d
 		}
+		{
+			dependencies: ["36980C7C44834F5C"]
+			description: ["Если вам нужно пропустить ночь не устанавливая точку возрождения - сделайте спальный мешок!"]
+			id: "12EF4C3A2E349215"
+			rewards: [{
+				count: 16
+				id: "5F41930ABDBBA105"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			subtitle: "Спать в дороге"
+			tasks: [{
+				id: "7F636B7396B10750"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.5d
+		}
 	]
 	title: "Глава 0. Путешествие"
 }

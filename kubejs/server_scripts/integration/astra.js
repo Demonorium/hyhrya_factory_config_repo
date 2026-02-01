@@ -323,8 +323,8 @@ ServerEvents.recipes(event => {
     event.remove({ mod: 'ad_astra', type: 'ad_astra:alloying' })
 
     _etrium(event)
-    event.replaceInput({id: 'ad_astra:cable_duct'}, 'ad_astra:steel_cable', 'mekanism:basic_universal_cable')
-    event.replaceInput({id: 'ad_astra:fluid_pipe_duct'}, 'ad_astra:desh_fluid_pipe', 'mekanism:basic_mechanical_pipe')
+    event.replaceInput({id: 'ad_astra:cable_duct'}, 'ad_astra:steel_cable', 'pipez:energy_pipe')
+    event.replaceInput({id: 'ad_astra:fluid_pipe_duct'}, 'ad_astra:desh_fluid_pipe', 'pipez:fluid_pipe')
     
     event.remove({id: 'ad_astra:cryo_freezing/cryo_fuel_from_cryo_freezing_blue_ice'})
     event.remove({id: 'ad_astra:cryo_freezing/cryo_fuel_from_cryo_freezing_ice'})

@@ -2262,6 +2262,28 @@
 			x: -5.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["0CA6E0735563B8A6"]
+			id: "041950EDAA3C18B2"
+			tasks: [{
+				id: "4EFD74C5742F406E"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4305E67FC0511133"]
+			id: "1CC40821A69343BA"
+			tasks: [{
+				id: "75A658E69FFE1696"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
 	]
 	title: "Глава 4. Доминирование над природой"
 }

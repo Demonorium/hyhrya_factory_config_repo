@@ -1,0 +1,62 @@
+# This is the default config. Rename it to curvy_pipes.yaml before making edit. Otherwise, it will be overwritten.
+
+# If true, unknown pipes in save data will be deleted instead of crashing.
+ignore_unknown_pipes: false
+
+# Customizable pipe types are defined here. You can remove this section entirely if you only want pipes added by cross-mod integrations, or the redstone cable.
+pipe_types:
+  - # ID of the pipe item
+    id: tiny_item_pipe
+    # Default translation of `item.curvy_pipes.tiny_item_pipe`
+    name: Крохотная предметная труба
+    # Texture must be in the `block` directory.
+    texture: curvy_pipes:block/tiny_item_pipe
+    # Smaller diameter allows more pipes to fit in tight (e.g. single block) space.
+    # There is no upper limit on diameter: pipes can be multiple blocks wide.
+    diameter: 0.1
+    # Items per tick (can be smaller than 1)
+    variant: { Item: { rate: 0.25 } }
+  - { id: small_item_pipe, name: Маленькая предметная труба, texture: curvy_pipes:block/small_item_pipe, diameter: 0.2, variant: { Item: { rate: 1.33 } } }
+  - { id: medium_item_pipe, name: Средняя предметная труба, texture: curvy_pipes:block/item_pipe, diameter: 0.4, variant: { Item: { rate: 8. } } }
+  - { id: large_item_pipe, name: Большая предметная труба, texture: curvy_pipes:block/item_pipe, diameter: 0.8, variant: { Item: { rate: 32. } } }
+  - { id: huge_item_pipe, name: Огромная предметная труба, texture: curvy_pipes:block/huge_item_pipe, diameter: 1.6, variant: { Item: { rate: 512 } } }
+  - { id: trunk_item_pipe, name: Магистральная предметная труба, texture: curvy_pipes:block/huge_item_pipe, diameter: 2.0, variant: { Item: { rate: 4096 } } }
+
+  # Fluid transfer rate is mB per tick.
+  - { id: tiny_fluid_pipe, name: Крохотная жидкостная труба, texture: curvy_pipes:block/tiny_fluid_pipe, diameter: 0.1, variant: { Fluid: { rate: 100. } } }
+  - { id: small_fluid_pipe, name: Маленькая жидкостная труба, texture: curvy_pipes:block/small_fluid_pipe, diameter: 0.2, variant: { Fluid: { rate: 2000. } } }
+  - { id: medium_fluid_pipe, name: Средняя жидкостная труба, texture: curvy_pipes:block/fluid_pipe, diameter: 0.4, variant: { Fluid: { rate: 4000 } } }
+  - { id: large_fluid_pipe, name: Большая жидкостная труба, texture: curvy_pipes:block/fluid_pipe, diameter: 0.8, variant: { Fluid: { rate: 10000 } } }
+  - { id: huge_fluid_pipe, name: Огромная жидкостная труба, texture: curvy_pipes:block/huge_fluid_pipe, diameter: 1.6, variant: { Fluid: { rate: 160000 } } }
+  - { id: trunk_fluid_pipe, name: Магистральная жидкостная труба, texture: curvy_pipes:block/huge_fluid_pipe, diameter: 2.0, variant: { Fluid: { rate: 1280000 } } }
+
+  # Energy transfer rate is FE per tick.
+  - { id: tiny_energy_pipe, name: Крохотный энергетический кабель, texture: curvy_pipes:block/tiny_energy_pipe, diameter: 0.1, variant: { Energy: { rate: 2048 } } }
+  - { id: small_energy_pipe, name: Маленький энергетический кабель, texture: curvy_pipes:block/small_energy_pipe, diameter: 0.2, variant: { Energy: { rate: 8096 } } }
+  - { id: medium_energy_pipe, name: Средний энергетический кабель, texture: curvy_pipes:block/energy_pipe, diameter: 0.4, variant: { Energy: { rate: 65536 } } }
+  - { id: large_energy_pipe, name: Большый энергетический кабель, texture: curvy_pipes:block/energy_pipe, diameter: 0.8, variant: { Energy: { rate: 524288 } } }
+  - { id: huge_energy_pipe, name: Огромный энергетический кабель, texture: curvy_pipes:block/huge_energy_pipe, diameter: 1.6, variant: { Energy: { rate: 4194304 } } }
+  - { id: trunk_energy_pipe, name: Магистральный энергетический кабель, texture: curvy_pipes:block/huge_energy_pipe, diameter: 2.0, variant: { Energy: { rate: 33554432 } } }
+
+# Applied Energistics 2 integration (ignored if AE2 is not installed)
+ae2:
+  # Automatically generate curvy variants of ME glass/covered/smart/dense covered/dense smart cables
+  # and quartz fiber. No new items will be added. Instead, the curvy variants can be placed using the
+  # corresponding AE2 items.
+  # Allowed values:
+  #   OffHand: using AE2 cables in off-hand will place the curvy variants.
+  #   AnyHand: always place the curvy variants. The original AE2 variant can no longer be placed.
+  #   Disable: do not generate the curvy variants.
+  cables: OffHand
+
+# GregTech CEu integration (ignored if GTCEu is not installed)
+gtceu:
+  # Automatically generate curvy EU cables, item pipes and fluid pipes for every GTCEu material.
+  # No new items will be added. Instead, the curvy variants can be placed using the corresponding GTCEu items.
+  # Note that the curvy item & fluid pipes use Curvy Pipes' logistics system and can't accept GTCEu covers.
+  # The curvy fluid pipes follow the same temperature & material restrictions specified by the GTCEu pipes.
+  # Curvy EU cables support amp-splitting, i.e. they can distribute load across parallel cables.
+  # Allowed values: same as the AE2 integration above.
+  eu_cables: OffHand
+  item_pipes: OffHand
+  fluid_pipes: OffHand
