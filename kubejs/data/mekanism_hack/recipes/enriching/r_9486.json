@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "kubejs:dirty_dust_froststeel"
+        }
+    },
+    "output": {
+        "item": "kubejs:froststeel_dust",
+        "count": 2.0
+    }
+}

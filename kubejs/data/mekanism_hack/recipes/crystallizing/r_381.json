@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "slurry",
+    "input": {
+        "slurry": "kubejs:clean_solarmetal",
+        "amount": 100
+    },
+    "output": {
+        "item": "kubejs:crystal_solarmetal",
+        "count": 1.0
+    }
+}

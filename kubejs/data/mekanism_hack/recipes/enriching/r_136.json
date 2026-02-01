@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "tag": "forge:ores/coal"
+        }
+    },
+    "output": {
+        "item": "mekanism:dust_coal",
+        "count": 3.0
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:dolomite",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:dolomite",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:dolomite",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:dolomite",
+        "amount": 1.0
+    }
+}

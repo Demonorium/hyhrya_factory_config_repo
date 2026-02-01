@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:block_raw_tin"
+        }
+    },
+    "output": {
+        "item": "mekanism:dust_tin",
+        "count": 12.0
+    }
+}

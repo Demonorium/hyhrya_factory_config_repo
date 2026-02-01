@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "slurry",
+    "input": {
+        "slurry": "moremekanismprocessing:clean_diamond",
+        "amount": 100
+    },
+    "output": {
+        "item": "moremekanismprocessing:crystal_diamond",
+        "count": 1.0
+    }
+}

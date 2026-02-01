@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:ozone",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:ozone",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:ozone",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:ozone",
+        "amount": 1.0
+    }
+}

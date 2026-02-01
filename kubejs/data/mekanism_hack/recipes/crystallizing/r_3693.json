@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "mekanism:sulfur_trioxide",
+        "amount": 100.0
+    },
+    "output": {
+        "item": "chemlib:sulfur_trioxide",
+        "count": 1.0
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:copper_nitrate",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:copper_nitrate",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:copper_nitrate",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:copper_nitrate",
+        "amount": 1.0
+    }
+}

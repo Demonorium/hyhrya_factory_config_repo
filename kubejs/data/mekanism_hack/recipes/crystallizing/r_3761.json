@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:benzene",
+        "amount": 100.0
+    },
+    "output": {
+        "item": "chemlib:benzene",
+        "count": 1.0
+    }
+}

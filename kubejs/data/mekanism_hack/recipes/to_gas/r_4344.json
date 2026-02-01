@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:sodium_tellurite_dust"
+        }
+    },
+    "output": {
+        "gas": "kubejs:sodium_tellurite",
+        "amount": 200
+    }
+}

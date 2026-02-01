@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:ammonium",
+        "amount": 100.0
+    },
+    "output": {
+        "item": "chemlib:ammonium",
+        "count": 1.0
+    }
+}

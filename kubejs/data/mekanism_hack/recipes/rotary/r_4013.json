@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:osmium_tetroxide",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:osmium_tetroxide",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:osmium_tetroxide",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:osmium_tetroxide",
+        "amount": 1.0
+    }
+}

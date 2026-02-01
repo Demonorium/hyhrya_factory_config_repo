@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:cerium_iii_chloride",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:cerium_iii_chloride",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:cerium_iii_chloride",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:cerium_iii_chloride",
+        "amount": 1.0
+    }
+}

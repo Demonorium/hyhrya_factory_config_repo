@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:plutonium",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:plutonium",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "mekanism:plutonium",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "mekanism:plutonium",
+        "amount": 1.0
+    }
+}

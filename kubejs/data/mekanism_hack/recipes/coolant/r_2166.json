@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:fluid_coolant",
+    "input": {
+        "fluid": "kubejs:potassium",
+        "amount": 1.0
+    },
+    "output": {
+        "gas": "kubejs:superheated_potassium",
+        "amount": 1.0
+    },
+    "thermalEnthalpy": 4.3317379581362605,
+    "conductivity": 0.6333313672289725,
+    "efficiency": 1.3805871774713723
+}

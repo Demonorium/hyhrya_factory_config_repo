@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dirty_dust_cinnabar"
+        }
+    },
+    "output": {
+        "item": "thermal:cinnabar_dust",
+        "count": 2.0
+    }
+}

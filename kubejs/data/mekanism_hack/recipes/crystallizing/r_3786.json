@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:carboxylic_acid",
+        "amount": 100.0
+    },
+    "output": {
+        "item": "chemlib:carboxylic_acid",
+        "count": 1.0
+    }
+}

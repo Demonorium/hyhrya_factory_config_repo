@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:hydrogen_bromide",
+        "amount": 100.0
+    },
+    "output": {
+        "item": "chemlib:hydrogen_bromide",
+        "count": 1.0
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:triuranium_octoxide_dust"
+        }
+    },
+    "output": {
+        "gas": "kubejs:triuranium_octoxide",
+        "amount": 200
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "ad_astra:raw_ostrum_block"
+        }
+    },
+    "output": {
+        "item": "moremekanismprocessing:dust_ostrum",
+        "count": 12.0
+    }
+}

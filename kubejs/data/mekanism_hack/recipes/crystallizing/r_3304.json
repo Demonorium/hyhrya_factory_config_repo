@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "mekanism:sulfuric_acid",
+        "amount": 100.0
+    },
+    "output": {
+        "item": "chemlib:sulfuric_acid",
+        "count": 1.0
+    }
+}

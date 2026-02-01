@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "slurry",
+    "input": {
+        "slurry": "moremekanismprocessing:clean_coal",
+        "amount": 100
+    },
+    "output": {
+        "item": "moremekanismprocessing:crystal_coal",
+        "count": 1.0
+    }
+}

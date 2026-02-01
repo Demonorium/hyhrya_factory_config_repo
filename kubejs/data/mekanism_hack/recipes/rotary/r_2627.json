@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:erbium",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:erbium",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:erbium",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:erbium",
+        "amount": 1.0
+    }
+}

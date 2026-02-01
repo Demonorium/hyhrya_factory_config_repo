@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:tungsten_carbide",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:tungsten_carbide",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:tungsten_carbide",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:tungsten_carbide",
+        "amount": 1.0
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:dirty_dust_lead"
+        }
+    },
+    "output": {
+        "item": "mekanism:dust_lead",
+        "count": 2.0
+    }
+}

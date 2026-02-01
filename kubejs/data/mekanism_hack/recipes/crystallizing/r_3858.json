@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:sodium_hypochlorite",
+        "amount": 100.0
+    },
+    "output": {
+        "item": "chemlib:sodium_hypochlorite",
+        "count": 1.0
+    }
+}

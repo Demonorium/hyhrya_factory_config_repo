@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dirty_dust_ostrum"
+        }
+    },
+    "output": {
+        "item": "moremekanismprocessing:dust_ostrum",
+        "count": 2.0
+    }
+}

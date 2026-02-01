@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 3.0,
+        "ingredient": {
+            "item": "undergarden:raw_froststeel"
+        }
+    },
+    "output": {
+        "item": "kubejs:froststeel_dust",
+        "count": 4.0
+    }
+}

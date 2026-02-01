@@ -1,0 +1,30 @@
+{
+    "entity": "undergarden:nargoyle",
+    "variants": [],
+    "name": "entity.undergarden.nargoyle",
+    "name_color": "#2E2330",
+    "gui_scale": 1.0,
+    "gui_x_offset": 0.0,
+    "gui_y_offset": 0.0,
+    "gui_z_offset": 0.0,
+    "sim_cost": 3072,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "kubejs:undergarden_prediction",
+        "count": 1.0
+    },
+    "trivia": "hostilenetworks.trivia.nargoyle",
+    "fabricator_drops": [
+        {
+            "item": "undergarden:blood_globule",
+            "count": 32.0
+        },
+        {
+            "item": "minecraft:leather",
+            "count": 32.0
+        }
+    ]
+}

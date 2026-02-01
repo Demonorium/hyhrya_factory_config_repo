@@ -1,0 +1,30 @@
+{
+    "entity": "undergarden:muncher",
+    "variants": [],
+    "name": "entity.undergarden.muncher",
+    "name_color": "#8994A3",
+    "gui_scale": 1.0,
+    "gui_x_offset": 0.0,
+    "gui_y_offset": 0.0,
+    "gui_z_offset": 0.0,
+    "sim_cost": 4096,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "kubejs:undergarden_prediction",
+        "count": 1.0
+    },
+    "trivia": "hostilenetworks.trivia.muncher",
+    "fabricator_drops": [
+        {
+            "item": "undergarden:cloggrum_nugget",
+            "count": 32.0
+        },
+        {
+            "item": "undergarden:froststeel_nugget",
+            "count": 24.0
+        }
+    ]
+}

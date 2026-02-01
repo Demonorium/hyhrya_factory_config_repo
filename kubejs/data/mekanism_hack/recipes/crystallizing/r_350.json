@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "slurry",
+    "input": {
+        "slurry": "kubejs:clean_voidmetal",
+        "amount": 100
+    },
+    "output": {
+        "item": "kubejs:crystal_voidmetal",
+        "count": 1.0
+    }
+}

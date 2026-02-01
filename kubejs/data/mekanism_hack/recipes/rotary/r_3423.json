@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:manganese_hydroxide",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:manganese_hydroxide",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:manganese_hydroxide",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:manganese_hydroxide",
+        "amount": 1.0
+    }
+}

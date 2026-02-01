@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "mekanism:water_vapor",
+        "amount": 100.0
+    },
+    "output": {
+        "item": "ad_astra:ice_shard",
+        "count": 1.0
+    }
+}

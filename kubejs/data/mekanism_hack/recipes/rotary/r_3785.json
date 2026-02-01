@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:carboxylic_acid",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:carboxylic_acid",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:carboxylic_acid",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:carboxylic_acid",
+        "amount": 1.0
+    }
+}

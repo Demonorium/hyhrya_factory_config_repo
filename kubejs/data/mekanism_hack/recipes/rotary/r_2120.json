@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:magnesium",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:magnesium",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:magnesium",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:magnesium",
+        "amount": 1.0
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "slurry",
+    "input": {
+        "slurry": "moremekanismprocessing:clean_crimson_iron",
+        "amount": 100
+    },
+    "output": {
+        "item": "moremekanismprocessing:crystal_crimson_iron",
+        "count": 1.0
+    }
+}

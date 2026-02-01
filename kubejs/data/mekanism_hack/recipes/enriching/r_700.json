@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "kubejs:dirty_dust_utherium"
+        }
+    },
+    "output": {
+        "item": "undergarden:utherium_crystal",
+        "count": 1.0
+    }
+}

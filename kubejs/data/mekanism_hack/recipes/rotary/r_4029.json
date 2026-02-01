@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:thorium_monoxide",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:thorium_monoxide",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:thorium_monoxide",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:thorium_monoxide",
+        "amount": 1.0
+    }
+}

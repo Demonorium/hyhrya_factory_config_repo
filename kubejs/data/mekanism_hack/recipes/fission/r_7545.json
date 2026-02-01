@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:fission",
+    "input": {
+        "gas": "kubejs:thorium",
+        "amount": 2.0
+    },
+    "output": {
+        "gas": "mekanism:fissile_fuel",
+        "amount": 1.0
+    },
+    "heat": 0.5
+}

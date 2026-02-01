@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:acetic_anhydride",
+        "amount": 100.0
+    },
+    "output": {
+        "item": "chemlib:acetic_anhydride",
+        "count": 1.0
+    }
+}

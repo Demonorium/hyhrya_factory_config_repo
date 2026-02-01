@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:silicon_tetrafluoride"
+        }
+    },
+    "output": {
+        "gas": "mekanism_extras:silicon_tetrafluoride",
+        "amount": 200
+    }
+}

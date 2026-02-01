@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "mekanismelements:hydrogen_cyanide",
+        "amount": 100.0
+    },
+    "output": {
+        "item": "chemlib:hydrogen_cyanide",
+        "count": 1.0
+    }
+}

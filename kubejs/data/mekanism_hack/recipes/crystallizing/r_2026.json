@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "slurry",
+    "input": {
+        "slurry": "mekanism:clean_uranium",
+        "amount": 100
+    },
+    "output": {
+        "item": "mekanism:crystal_uranium",
+        "count": 1.0
+    }
+}

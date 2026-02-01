@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:tellurium",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:tellurium",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:tellurium",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:tellurium",
+        "amount": 1.0
+    }
+}

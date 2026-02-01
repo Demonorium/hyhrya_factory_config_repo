@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:zinconat_cobalt",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:zinconat_cobalt",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:zinconat_cobalt",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:zinconat_cobalt",
+        "amount": 1.0
+    }
+}

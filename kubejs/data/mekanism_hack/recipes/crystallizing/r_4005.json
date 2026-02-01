@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:titanium_tetrachloride",
+        "amount": 100.0
+    },
+    "output": {
+        "item": "chemlib:titanium_tetrachloride",
+        "count": 1.0
+    }
+}
