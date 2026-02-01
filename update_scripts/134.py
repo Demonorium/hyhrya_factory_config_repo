@@ -3,15 +3,16 @@ import shutil
 import urllib.error as error
 import urllib.request
 
-try
+try:
     import tkinter as tk
     from tkinter import ttk, messagebox
+    import webbrowser
 except:
     pass
 import threading
 import time
 from urllib.parse import unquote
-import webbrowser
+
 
 class DownloadCheckerApp:
     def __init__(self, root, errors):
