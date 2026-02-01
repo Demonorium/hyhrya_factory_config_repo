@@ -2,8 +2,12 @@ import os
 import shutil
 import urllib.error as error
 import urllib.request
-import tkinter as tk
-from tkinter import ttk, messagebox
+
+try
+    import tkinter as tk
+    from tkinter import ttk, messagebox
+except:
+    pass
 import threading
 import time
 from urllib.parse import unquote
