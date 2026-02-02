@@ -75143,7 +75143,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -75212,7 +75212,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -75514,7 +75514,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -75629,7 +75629,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -75656,7 +75656,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -76280,7 +76280,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 500,
@@ -76438,7 +76438,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -77129,7 +77129,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 800,
@@ -77329,7 +77329,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -77602,7 +77602,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -77701,7 +77701,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -77857,7 +77857,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -78366,7 +78366,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -78616,7 +78616,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -78643,7 +78643,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -78670,7 +78670,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -79813,7 +79813,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -79957,7 +79957,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -80339,6 +80339,162 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 37.233399339933996,
+		temperature: {
+			min_temp: 1310.5733333333333,
+		},
+		fluid_input: {
+			fluid: "kubejs:carbon_monoxide",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:cerium_iv_oxide_dust",
+			count: 2.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:carbon_dioxide",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:cerium_iii_oxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:oxidizing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:cerium_dust",
+			},
+		},
+		output: {
+			gas: "kubejs:cerium_iii_oxide",
+			amount: 50.0,
+		},
+	},
+	{
+		type: "mekanism:chemical_infusing",
+		leftInput: {
+			gas: "kubejs:cerium",
+			amount: 2.0,
+		},
+		output: {
+			gas: "kubejs:cerium_iii_oxide",
+			amount: 1.0,
+		},
+		rightInput: {
+			gas: "mekanism:oxygen",
+			amount: 3.0,
+		},
+	},
+	{
+		type: "mekanism:oxidizing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:cerium_iii_oxide_dust",
+			},
+		},
+		output: {
+			gas: "kubejs:cerium_iv_oxide",
+			amount: 200.0,
+		},
+	},
+	{
+		type: "mekanism:chemical_infusing",
+		leftInput: {
+			gas: "kubejs:cerium_iii_oxide",
+			amount: 1.0,
+		},
+		output: {
+			gas: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+		},
+		rightInput: {
+			gas: "mekanism:oxygen",
+			amount: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 17.658217821782177,
+		temperature: {
+			max_temp: 1730.0,
+		},
+		fluid_input: {
+			fluid: "mekanism:hydrofluoric_acid",
+			amount: 400.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:cerium_iv_oxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:fluorine",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:cerium_iii_fluoride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 6.5,
+		temperature: {
+			max_temp: 923.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:fluorine",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:cerium_iii_fluoride_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		item_output: {
+			item: "chemlib:cerium_iv_fluoride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 9.581960784313726,
+		temperature: {
+			max_temp: 923.0,
+		},
+		fluid_input: {
+			fluid: "kubejs:fluorine",
+			amount: 400.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:cerium_iv_oxide_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:oxygen",
+			amount: 200.0,
+		},
+		item_output: {
+			item: "chemlib:cerium_iv_fluoride_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:chemical_infusing",
 		leftInput: {
 			gas: "mekanism:hydrogen",
@@ -80463,7 +80619,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -80733,7 +80889,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -80939,7 +81095,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -81276,7 +81432,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 476,
 		fluidInput: {
 			amount: 100,
@@ -82058,7 +82214,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -82085,7 +82241,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -82343,7 +82499,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -82583,7 +82739,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -82610,7 +82766,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -82660,7 +82816,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -82785,7 +82941,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -83245,7 +83401,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -83298,7 +83454,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -83458,7 +83614,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -83485,7 +83641,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 309,
 		fluidInput: {
 			amount: 300,
@@ -83773,7 +83929,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -83853,7 +84009,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -84082,7 +84238,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -84109,7 +84265,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 1200,
@@ -84206,7 +84362,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -84824,7 +84980,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -84851,7 +85007,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -85026,7 +85182,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -85095,7 +85251,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -85122,7 +85278,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -85194,7 +85350,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 201,
 		fluidInput: {
 			amount: 200,
@@ -85248,7 +85404,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -85354,7 +85510,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -85436,7 +85592,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 338,
 		fluidInput: {
 			amount: 400,
@@ -85490,7 +85646,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -85517,7 +85673,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -85624,7 +85780,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -85651,7 +85807,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -85751,7 +85907,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -85778,7 +85934,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -86153,7 +86309,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -86277,7 +86433,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -86788,7 +86944,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 669,
 		fluidInput: {
 			amount: 200,
@@ -86855,7 +87011,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -87291,7 +87447,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -87872,7 +88028,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -87949,7 +88105,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -88053,7 +88209,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -88176,7 +88332,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -88252,7 +88408,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 261,
 		fluidInput: {
 			amount: 400,
@@ -88279,7 +88435,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 500,
@@ -88306,7 +88462,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 313,
 		fluidInput: {
 			amount: 600,
@@ -88333,7 +88489,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -88426,7 +88582,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -88504,7 +88660,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 289,
 		fluidInput: {
 			amount: 200,
@@ -88583,7 +88739,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 800,
@@ -88610,7 +88766,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 547,
 		fluidInput: {
 			amount: 200,
@@ -88716,7 +88872,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 1200,
@@ -88850,7 +89006,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -88996,7 +89152,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -89023,7 +89179,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -89268,7 +89424,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -89752,7 +89908,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -90049,7 +90205,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -90145,7 +90301,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -90589,7 +90745,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -91539,7 +91695,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -92161,7 +92317,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -92339,7 +92495,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -92508,7 +92664,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -92983,7 +93139,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -93258,7 +93414,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -93308,7 +93464,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -93379,7 +93535,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 613,
 		fluidInput: {
 			amount: 100,
@@ -93678,7 +93834,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 207,
 		fluidInput: {
 			amount: 200,
@@ -93705,7 +93861,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -93891,7 +94047,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 697,
 		fluidInput: {
 			amount: 100,
@@ -93918,7 +94074,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -93945,7 +94101,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -94021,7 +94177,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -94048,7 +94204,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -94101,7 +94257,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -94154,7 +94310,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -94513,7 +94669,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -95114,7 +95270,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -95508,7 +95664,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -95857,7 +96013,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 800,
@@ -96377,7 +96533,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -96609,7 +96765,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -96688,7 +96844,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -96764,7 +96920,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -96791,7 +96947,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -96818,7 +96974,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -96974,7 +97130,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -97561,7 +97717,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -97668,7 +97824,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -97695,7 +97851,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -97766,7 +97922,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 433,
 		fluidInput: {
 			amount: 100,
@@ -97839,7 +97995,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -97974,7 +98130,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -98022,7 +98178,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -98049,7 +98205,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -98097,7 +98253,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -98277,7 +98433,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -98400,7 +98556,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -98626,7 +98782,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -98676,7 +98832,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -98703,7 +98859,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -98756,7 +98912,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -98930,7 +99086,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -98999,7 +99155,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -99026,7 +99182,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 500,
 		fluidInput: {
 			amount: 100,
@@ -99123,7 +99279,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -99308,7 +99464,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -99358,7 +99514,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 700,
@@ -99438,7 +99594,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -99539,7 +99695,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -99589,7 +99745,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 281,
 		fluidInput: {
 			amount: 200,
@@ -99743,7 +99899,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -99851,7 +100007,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -100087,7 +100243,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -100114,7 +100270,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 430,
 		fluidInput: {
 			amount: 100,
@@ -100187,7 +100343,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 4003,
 		fluidInput: {
 			amount: 300,
@@ -100268,7 +100424,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 1157,
 		fluidInput: {
 			amount: 200,
@@ -100371,7 +100527,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -100506,7 +100662,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 1226,
 		fluidInput: {
 			amount: 200,
@@ -102645,7 +102801,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 2341,
 		fluidInput: {
 			amount: 400,
@@ -104070,7 +104226,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -104225,7 +104381,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -104279,7 +104435,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -104306,7 +104462,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -104539,7 +104695,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -104589,7 +104745,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -104672,7 +104828,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -104699,7 +104855,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -104726,7 +104882,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -104753,7 +104909,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -104806,7 +104962,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -104887,7 +105043,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -104914,7 +105070,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -104941,7 +105097,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -105045,7 +105201,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -105166,7 +105322,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -105304,7 +105460,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -105458,7 +105614,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -105539,7 +105695,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -105566,7 +105722,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 800,
@@ -105618,7 +105774,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -105645,7 +105801,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 543,
 		fluidInput: {
 			amount: 200,
@@ -105672,7 +105828,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -105699,7 +105855,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -105789,7 +105945,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -106253,7 +106409,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -106307,7 +106463,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 212,
 		fluidInput: {
 			amount: 200,
@@ -106373,7 +106529,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -106453,7 +106609,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -106559,7 +106715,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -106663,7 +106819,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -107173,7 +107329,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -109095,7 +109251,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -109980,7 +110136,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -110283,7 +110439,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -110645,7 +110801,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -111684,7 +111840,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -111891,7 +112047,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -111945,7 +112101,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -112801,7 +112957,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -113116,7 +113272,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 210,
 		fluidInput: {
 			amount: 200,
@@ -113143,7 +113299,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -113224,7 +113380,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -113251,7 +113407,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -113328,7 +113484,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -113612,7 +113768,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -114278,7 +114434,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 772,
 		fluidInput: {
 			amount: 100,
@@ -115733,7 +115889,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 407,
 		fluidInput: {
 			amount: 200,
@@ -116391,7 +116547,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -116526,7 +116682,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -116553,7 +116709,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -116661,7 +116817,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -116714,7 +116870,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -116741,7 +116897,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -116821,7 +116977,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -116950,7 +117106,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -117272,7 +117428,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -118329,7 +118485,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 869,
 		fluidInput: {
 			amount: 100,
@@ -118994,7 +119150,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -119098,7 +119254,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -119152,7 +119308,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 500,
@@ -119206,7 +119362,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 500,
@@ -119289,7 +119445,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 2400,
@@ -119450,7 +119606,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 500,
@@ -119477,7 +119633,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -119531,7 +119687,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 500,
@@ -119558,7 +119714,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 1800,
@@ -119758,7 +119914,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -120185,7 +120341,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 1200,
@@ -120212,7 +120368,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -120239,7 +120395,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -120318,7 +120474,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -120424,7 +120580,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 371,
 		fluidInput: {
 			amount: 100,
@@ -120451,7 +120607,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -120683,7 +120839,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -120710,7 +120866,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 687,
 		fluidInput: {
 			amount: 200,
@@ -120805,7 +120961,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -120886,7 +121042,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -120930,7 +121086,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -121027,7 +121183,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -121149,7 +121305,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 500,
@@ -121204,7 +121360,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -121254,7 +121410,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -121382,7 +121538,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 2400,
@@ -121487,7 +121643,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -121638,7 +121794,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -121784,7 +121940,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 260,
 		fluidInput: {
 			amount: 100,
@@ -121916,7 +122072,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -121943,7 +122099,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 1400,
@@ -122226,7 +122382,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -122253,7 +122409,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 2400,
@@ -122372,7 +122528,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -122399,7 +122555,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -122505,7 +122661,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 550,
 		fluidInput: {
 			amount: 600,
@@ -122549,7 +122705,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -122651,7 +122807,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -122678,7 +122834,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -122705,7 +122861,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 2400,
@@ -122777,7 +122933,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -122845,7 +123001,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -122872,7 +123028,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -122927,7 +123083,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -122981,7 +123137,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -123008,7 +123164,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 1600,
@@ -123364,7 +123520,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -123497,7 +123653,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -123804,7 +123960,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -123934,7 +124090,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -124038,7 +124194,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -124092,7 +124248,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -124169,7 +124325,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -124221,7 +124377,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -124248,7 +124404,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -124325,7 +124481,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -124377,7 +124533,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -124400,7 +124556,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -124505,7 +124661,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -124608,7 +124764,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -125346,7 +125502,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -125398,7 +125554,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -125478,7 +125634,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -125832,7 +125988,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -125909,7 +126065,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -126038,7 +126194,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -126065,7 +126221,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -126092,7 +126248,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -126169,7 +126325,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -126196,7 +126352,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -126578,7 +126734,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -126705,7 +126861,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -126782,7 +126938,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -126936,7 +127092,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -126988,7 +127144,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -127065,7 +127221,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -127217,7 +127373,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -127244,7 +127400,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -127321,7 +127477,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -127523,7 +127679,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -127550,7 +127706,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -127602,7 +127758,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -127936,7 +128092,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -128312,7 +128468,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 1200,
@@ -128366,7 +128522,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -128420,7 +128576,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -128715,7 +128871,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -128849,7 +129005,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -129386,7 +129542,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -129413,7 +129569,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -129682,7 +129838,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -129709,7 +129865,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -129762,7 +129918,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -129816,7 +129972,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -129869,7 +130025,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 1200,
@@ -130003,7 +130159,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -130137,7 +130293,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -130428,7 +130584,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -130672,7 +130828,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -130778,7 +130934,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -130805,7 +130961,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 500,
@@ -131121,7 +131277,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -131148,7 +131304,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -131415,7 +131571,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -131468,7 +131624,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -131518,7 +131674,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -131651,7 +131807,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -131678,7 +131834,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -131731,7 +131887,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -131864,7 +132020,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -131958,7 +132114,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -131985,7 +132141,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -132119,7 +132275,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -132307,7 +132463,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -132334,7 +132490,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -132602,7 +132758,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 1000,
@@ -132743,7 +132899,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -132797,7 +132953,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -132904,7 +133060,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -132931,7 +133087,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -133011,7 +133167,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -133038,7 +133194,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 800,
@@ -133119,7 +133275,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -133202,7 +133358,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 800,
@@ -133303,7 +133459,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -133330,7 +133486,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -133409,7 +133565,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -133463,7 +133619,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -133490,7 +133646,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -133517,7 +133673,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -133600,7 +133756,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -133649,7 +133805,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -133728,7 +133884,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -133788,7 +133944,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -133866,7 +134022,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -133893,7 +134049,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -133920,7 +134076,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -134001,7 +134157,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -134055,7 +134211,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -134134,7 +134290,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -134267,7 +134423,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -134534,7 +134690,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -134665,7 +134821,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -134692,7 +134848,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 800,
@@ -134773,7 +134929,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -134800,7 +134956,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -134827,7 +134983,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -134906,7 +135062,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -134933,7 +135089,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -134960,7 +135116,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -134987,7 +135143,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -135300,7 +135456,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 2200,
@@ -135423,7 +135579,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -135652,7 +135808,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -135781,7 +135937,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -135863,7 +136019,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -136006,7 +136162,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -136167,7 +136323,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -136216,7 +136372,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -136441,7 +136597,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -136535,7 +136691,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 312,
 		fluidInput: {
 			amount: 100,
@@ -136825,7 +136981,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 322,
 		fluidInput: {
 			amount: 200,
@@ -136910,7 +137066,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -137531,7 +137687,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -138581,7 +138737,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 323,
 		fluidInput: {
 			amount: 100,
@@ -138608,7 +138764,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 756,
 		fluidInput: {
 			amount: 100,
@@ -139780,7 +139936,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -140486,7 +140642,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -140683,7 +140839,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -140710,7 +140866,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 800,
@@ -140737,7 +140893,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -140764,7 +140920,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -140817,7 +140973,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -140893,7 +141049,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -140971,7 +141127,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -141288,7 +141444,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -141416,7 +141572,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -141495,7 +141651,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -141522,7 +141678,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -141598,7 +141754,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -141755,7 +141911,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -141834,7 +141990,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -142118,7 +142274,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -142168,7 +142324,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 214,
 		fluidInput: {
 			amount: 100,
@@ -142403,7 +142559,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -142510,7 +142666,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 940,
 		fluidInput: {
 			amount: 300,
@@ -143112,7 +143268,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -143303,7 +143459,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -143341,7 +143497,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -143470,7 +143626,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -143497,7 +143653,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -143631,7 +143787,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -143767,7 +143923,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -143817,7 +143973,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -143963,7 +144119,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -144069,7 +144225,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -144146,7 +144302,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 252,
 		fluidInput: {
 			amount: 200,
@@ -144169,7 +144325,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -144299,7 +144455,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -144514,7 +144670,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -144691,7 +144847,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -144853,7 +145009,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -144907,7 +145063,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -145013,7 +145169,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -145169,7 +145325,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 500,
@@ -145196,7 +145352,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -145420,7 +145576,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -145472,7 +145628,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -145563,7 +145719,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -145586,7 +145742,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -145640,7 +145796,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 900,
@@ -145761,7 +145917,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -146661,7 +146817,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 539,
 		fluidInput: {
 			amount: 100,
@@ -146688,7 +146844,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -146996,7 +147152,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -147295,7 +147451,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -147418,7 +147574,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -147772,7 +147928,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -148212,7 +148368,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 338,
 		fluidInput: {
 			amount: 200,
@@ -148239,7 +148395,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -148479,7 +148635,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -148552,7 +148708,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -148600,7 +148756,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -148824,7 +148980,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -149711,7 +149867,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 400,
@@ -150222,7 +150378,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -150579,7 +150735,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -150606,7 +150762,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -151155,7 +151311,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -151566,7 +151722,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -151621,7 +151777,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -151698,7 +151854,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -151874,7 +152030,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -151897,7 +152053,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -151920,7 +152076,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -152017,7 +152173,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -152040,7 +152196,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -152063,7 +152219,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -152113,7 +152269,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -152136,7 +152292,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 600,
@@ -152185,7 +152341,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 300,
@@ -152452,7 +152608,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 497,
 		fluidInput: {
 			amount: 200,
@@ -152479,7 +152635,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 200,
@@ -152529,7 +152685,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -152793,7 +152949,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -153005,7 +153161,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -153132,7 +153288,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 1600,
@@ -153439,7 +153595,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -153484,7 +153640,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -153507,7 +153663,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -153530,7 +153686,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -153553,7 +153709,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
 			amount: 100,
@@ -153594,34 +153750,6 @@ const CUSTOM_RECIPES = [
 		item_output: {
 			item: "chemlib:sodium_bromide_dust",
 			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:oxidizing",
-		input: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:cerium_dust",
-			},
-		},
-		output: {
-			gas: "kubejs:cerium_iv_oxide",
-			amount: 100.0,
-		},
-	},
-	{
-		type: "mekanism:chemical_infusing",
-		leftInput: {
-			gas: "kubejs:cerium",
-			amount: 1.0,
-		},
-		output: {
-			gas: "kubejs:cerium_iv_oxide",
-			amount: 1.0,
-		},
-		rightInput: {
-			gas: "mekanism:oxygen",
-			amount: 2.0,
 		},
 	},
 	{
@@ -153670,7 +153798,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 5000,
@@ -153693,7 +153821,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 5000,
@@ -153716,7 +153844,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 5000,
@@ -153739,7 +153867,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
@@ -153766,7 +153894,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
@@ -153793,7 +153921,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
@@ -153820,7 +153948,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
@@ -153847,7 +153975,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
@@ -153874,7 +154002,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
@@ -154160,6 +154288,864 @@ const CUSTOM_RECIPES = [
 		},
 		item_output: {
 			item: "thermal:obsidian_glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:tinted_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:white_stained_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:orange_stained_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:magenta_stained_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:light_blue_stained_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:yellow_stained_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:lime_stained_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:pink_stained_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:gray_stained_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:light_gray_stained_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:cyan_stained_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:purple_stained_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:blue_stained_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:brown_stained_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:green_stained_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:red_stained_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 10.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:black_stained_glass",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 10.0,
+		},
+		item_output: {
+			item: "minecraft:glass",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:white_stained_glass_pane",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 2.0,
+		},
+		item_output: {
+			item: "minecraft:glass_pane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:orange_stained_glass_pane",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 2.0,
+		},
+		item_output: {
+			item: "minecraft:glass_pane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:magenta_stained_glass_pane",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 2.0,
+		},
+		item_output: {
+			item: "minecraft:glass_pane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:light_blue_stained_glass_pane",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 2.0,
+		},
+		item_output: {
+			item: "minecraft:glass_pane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:yellow_stained_glass_pane",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 2.0,
+		},
+		item_output: {
+			item: "minecraft:glass_pane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:lime_stained_glass_pane",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 2.0,
+		},
+		item_output: {
+			item: "minecraft:glass_pane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:pink_stained_glass_pane",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 2.0,
+		},
+		item_output: {
+			item: "minecraft:glass_pane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:gray_stained_glass_pane",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 2.0,
+		},
+		item_output: {
+			item: "minecraft:glass_pane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:light_gray_stained_glass_pane",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 2.0,
+		},
+		item_output: {
+			item: "minecraft:glass_pane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:cyan_stained_glass_pane",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 2.0,
+		},
+		item_output: {
+			item: "minecraft:glass_pane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:purple_stained_glass_pane",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 2.0,
+		},
+		item_output: {
+			item: "minecraft:glass_pane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:blue_stained_glass_pane",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 2.0,
+		},
+		item_output: {
+			item: "minecraft:glass_pane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:brown_stained_glass_pane",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 2.0,
+		},
+		item_output: {
+			item: "minecraft:glass_pane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:green_stained_glass_pane",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 2.0,
+		},
+		item_output: {
+			item: "minecraft:glass_pane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:red_stained_glass_pane",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 2.0,
+		},
+		item_output: {
+			item: "minecraft:glass_pane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 573,
+		},
+		fluid_input: {
+			fluid: "kubejs:cerium_iv_oxide",
+			amount: 2.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "minecraft:black_stained_glass_pane",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "minecraft:lava",
+			amount: 2.0,
+		},
+		item_output: {
+			item: "minecraft:glass_pane",
 			count: 1.0,
 		},
 	},
@@ -156064,7 +157050,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 34,
@@ -156087,7 +157073,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
@@ -156110,7 +157096,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
@@ -156133,7 +157119,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
@@ -156156,7 +157142,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
@@ -156179,7 +157165,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 4660,
@@ -156202,7 +157188,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
@@ -156225,7 +157211,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 225,
@@ -156248,7 +157234,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 999,
@@ -156271,7 +157257,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 5356,
@@ -156294,7 +157280,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 8204,
@@ -156317,7 +157303,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
@@ -156340,7 +157326,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
@@ -156363,7 +157349,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
@@ -156386,7 +157372,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
@@ -156409,7 +157395,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
@@ -156432,7 +157418,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
@@ -156455,7 +157441,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
@@ -156478,7 +157464,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
@@ -156501,7 +157487,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
@@ -156524,7 +157510,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 10000,
@@ -156712,7 +157698,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
@@ -156853,7 +157839,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 400,
@@ -156914,7 +157900,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 1000,
 		fluidInput: {
 			amount: 1000,
@@ -156941,7 +157927,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 1000,
 		fluidInput: {
 			amount: 1000,
@@ -157042,7 +158028,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 1000,
 		fluidInput: {
 			amount: 100,
@@ -157092,7 +158078,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -157249,7 +158235,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
@@ -157667,6 +158653,18 @@ const CUSTOM_RECIPES = [
 		use_chance: 0.7,
 	},
 	{
+		type: "thermal:pulverizer_catalyst",
+		ingredient: {
+			item: "chemlib:cerium_iv_oxide_dust",
+			count: 1.0,
+		},
+		primary_mod: 1.5,
+		secondary_mod: 3.0,
+		energy_mod: 0.1,
+		min_chance: 0.3,
+		use_chance: 0.2,
+	},
+	{
 		type: "thermal:smelter_catalyst",
 		ingredient: {
 			item: "mekanismelements:dust_calcium_oxide",
@@ -157743,7 +158741,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
@@ -157827,6 +158825,474 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:black_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:black_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:blue_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:blue_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:green_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:green_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:cyan_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:cyan_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:dark_red_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:dark_red_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:purple_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:purple_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:orange_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:orange_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:light_gray_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:light_gray_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:gray_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:gray_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:light_blue_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:light_blue_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:lime_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:lime_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:aqua_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:aqua_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:red_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:red_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:magenta_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:magenta_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:yellow_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:yellow_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:white_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:white_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:brown_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:brown_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:tin_oxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:cerium_iv_oxide",
+		},
+		itemInput: {
+			amount: 32.0,
+			ingredient: {
+				item: "mekanismadditions:pink_plastic",
+			},
+		},
+		itemOutput: {
+			count: 32,
+			item: "mekanismadditions:pink_plastic_glow",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:carbon",
+		},
+		gasInput: {
+			amount: 1000,
+			gas: "mekanismelements:helium",
+		},
+		itemInput: {
+			amount: 4.0,
+			ingredient: {
+				item: "chemlib:cerium_iv_fluoride_dust",
+			},
+		},
+		gasOutput: {
+			amount: 1000,
+			gas: "mekanismelements:helium",
+		},
+		itemOutput: {
+			count: 4,
+			item: "chemlib:cerium_iii_fluoride_dust",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 60,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "thermal:redstone",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:phosphine",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "pneumaticcraft:plastic",
+			},
+		},
+		gasOutput: {
+			amount: 100,
+			gas: "kubejs:phosphine",
+		},
+		itemOutput: {
+			count: 4,
+			item: "pneumaticcraft:empty_pcb",
+		},
+	},
+	{
 		type: "mekanism:separating",
 		input: {
 			fluid: "kubejs:europium_iii_chloride",
@@ -157903,7 +159369,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 3000,
 		fluidInput: {
 			amount: 1000,
@@ -158101,7 +159567,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
@@ -167200,12 +168666,12 @@ const CUSTOM_RECIPES = [
 		},
 		result: [
 			{
-				item: "chemlib:tungsten_carbide_dust",
-				chance: 2.5,
+				item: "chemlib:cerium_iii_oxide_dust",
+				chance: 3.0,
 			},
 			{
-				item: "chemlib:tin_oxide_dust",
-				chance: 1.5,
+				item: "chemlib:tungsten_carbide_dust",
+				chance: 2.5,
 			},
 		],
 		energy: 2000,
@@ -167293,7 +168759,7 @@ const CUSTOM_RECIPES = [
 		},
 		result: [
 			{
-				item: "chemlib:tellurium_dust",
+				item: "chemlib:cerium_iii_chloride_dust",
 				chance: 2.5,
 			},
 			{
@@ -167301,7 +168767,7 @@ const CUSTOM_RECIPES = [
 				chance: 1.5,
 			},
 			{
-				item: "chemlib:germanium_dust",
+				item: "chemlib:cerium_iii_oxide_dust",
 				chance: 0.6666666666666666,
 			},
 		],
@@ -168511,7 +169977,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 400,
@@ -168561,7 +170027,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
@@ -169100,7 +170566,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 900,
@@ -169127,7 +170593,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 900,
@@ -169154,7 +170620,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -169181,7 +170647,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -169208,7 +170674,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 600,
@@ -169235,7 +170701,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 600,
@@ -169262,7 +170728,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -169289,7 +170755,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -169316,7 +170782,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -169343,7 +170809,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -169370,7 +170836,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -169397,7 +170863,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -169424,7 +170890,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -169451,7 +170917,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -169478,7 +170944,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -169505,7 +170971,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -169532,7 +170998,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -169559,7 +171025,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -169586,7 +171052,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -169613,7 +171079,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -169640,7 +171106,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1200,
@@ -169667,7 +171133,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -169694,7 +171160,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 900,
@@ -169721,7 +171187,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1800,
@@ -169748,7 +171214,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -169775,7 +171241,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -169802,7 +171268,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -169829,7 +171295,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -169856,7 +171322,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -169883,7 +171349,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -169910,7 +171376,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -169937,7 +171403,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 2400,
@@ -169964,7 +171430,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 2100,
@@ -169991,7 +171457,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1200,
@@ -170018,7 +171484,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -170045,7 +171511,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -170072,7 +171538,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -170099,7 +171565,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -170126,7 +171592,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -170153,7 +171619,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -170180,7 +171646,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -170207,7 +171673,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -170234,7 +171700,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -170261,7 +171727,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -170288,7 +171754,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -170315,7 +171781,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -172360,7 +173826,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
@@ -172387,7 +173853,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
@@ -172414,7 +173880,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 200,
@@ -172441,7 +173907,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 200,
@@ -172468,7 +173934,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
@@ -172495,7 +173961,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 100,
@@ -172522,7 +173988,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 200,
@@ -172549,7 +174015,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 200,
@@ -174340,7 +175806,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 2000,
 		fluidInput: {
 			amount: 100,
@@ -174363,7 +175829,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 2000,
 		fluidInput: {
 			amount: 1000,
@@ -175912,7 +177378,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -176143,7 +177609,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -176170,7 +177636,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -176197,7 +177663,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -176224,7 +177690,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -176251,7 +177717,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 400,
@@ -176278,7 +177744,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 400,
@@ -176305,7 +177771,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 400,
@@ -176332,7 +177798,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 200,
@@ -176359,7 +177825,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 200,
@@ -176701,7 +178167,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -176728,7 +178194,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -176755,7 +178221,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -176782,7 +178248,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -176809,7 +178275,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -176836,7 +178302,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -176863,7 +178329,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -176890,7 +178356,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -176917,7 +178383,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -176944,7 +178410,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -176971,7 +178437,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -176998,7 +178464,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 1000,
@@ -177284,7 +178750,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 300,
@@ -177311,7 +178777,7 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "mekanism:reaction",
-		duration: 400,
+		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
 			amount: 600,

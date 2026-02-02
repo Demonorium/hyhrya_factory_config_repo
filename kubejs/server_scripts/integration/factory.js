@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
         "item": MATERIALS.EUROPIUM.gear
       },
       "I": {
-        "tag": MATERIALS.EUROPIUM.gear
+        "item": MATERIALS.EUROPIUM.plate
       },
       "R": {
         "tag": "forge:dusts/redstone"

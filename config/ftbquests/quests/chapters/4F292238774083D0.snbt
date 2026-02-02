@@ -4014,6 +4014,12 @@
 		{
 			dependencies: ["5BA3C2936FFE72D7"]
 			id: "4BB955D91A6DA33E"
+			rewards: [{
+				count: 32
+				id: "5932374F06FF01F2"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
 			tasks: [{
 				id: "642CE414F30B4676"
 				item: "pipez:energy_pipe"
@@ -4025,6 +4031,12 @@
 		{
 			dependencies: ["1A520D70554B37DF"]
 			id: "24678670C1549D36"
+			rewards: [{
+				count: 3
+				id: "4372BA6A438DFEEF"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0165F7E3D174CCF2"
 				item: "pipez:basic_upgrade"
@@ -4036,6 +4048,12 @@
 		{
 			dependencies: ["0E36516AB2341A4A"]
 			id: "3EC7D89D81DDBEBE"
+			rewards: [{
+				count: 3
+				id: "63D6EA841F3B9515"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6984E7C193BEBCB2"
 				item: "pipez:improved_upgrade"
@@ -4047,6 +4065,12 @@
 		{
 			dependencies: ["1F37EEAD36E735F2"]
 			id: "5240ED0D5E5C3D60"
+			rewards: [{
+				count: 16
+				id: "31E99CA4B20E8F3B"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1BC407BA844B9B5D"
 				item: "pipez:item_pipe"
@@ -4058,6 +4082,12 @@
 		{
 			dependencies: ["1F37EEAD36E735F2"]
 			id: "5CE4EC4C059144CE"
+			rewards: [{
+				count: 32
+				id: "3693E83A3A7E412E"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
 			tasks: [{
 				id: "43802407D9FCD134"
 				item: "pipez:fluid_pipe"

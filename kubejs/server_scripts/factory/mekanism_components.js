@@ -309,6 +309,20 @@ ServerEvents.recipes(event => {
             E: Item.of(MATERIALS.ALUMINUM.dust),
         }
     )
+    event.shaped(
+        Item.of('superbwarfare:medium_battery_pack', 1),
+        [
+            'ACD',
+            'DEB'
+        ],
+        {
+            A: Item.of("mekanism:alloy_reinforced"),
+            B: Item.of('mekanism:elite_control_circuit'),
+            D: Item.of(MATERIALS.PLASTIC.ingot),
+            C: Item.of('chemlib:cerium_iv_oxide'),
+            E: Item.of(MATERIALS.ALUMINUM.dust),
+        }
+    )
 
     event.shaped(
         Item.of('superbwarfare:large_battery_pack', 1),
@@ -320,6 +334,20 @@ ServerEvents.recipes(event => {
             A: Item.of("mekanism:alloy_atomic"),
             B: Item.of('mekanism:ultimate_control_circuit'),
             C: Item.of("superbwarfare:medium_battery_pack")
+        }
+    )
+
+    event.shaped(
+        Item.of('superbwarfare:medium_battery_pack', 1),
+        [
+            'ACD',
+            'DCB'
+        ],
+        {
+            A: Item.of("mekanism:alloy_reinforced"),
+            B: Item.of('mekanism:elite_control_circuit'),
+            D: Item.of(MATERIALS.PLASTIC.ingot),
+            C: Item.of('chemlib:cerium_iv_oxide')
         }
     )
 
