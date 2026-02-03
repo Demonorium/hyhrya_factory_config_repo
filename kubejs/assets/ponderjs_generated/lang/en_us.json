@@ -5,7 +5,7 @@
   "kubejs.ponder.tag.thermal_evaporation.description": "Производим рассол, аккумуляторы и удобрения!",
   "kubejs.ponder.tag.oil_production": "Нефтеперарботка",
   "kubejs.ponder.tag.oil_production.description": "Жидкая демократия!",
-  "kubejs.ponder.thermal_evaporation.header": "Очистительный завод",
+  "kubejs.ponder.thermal_evaporation.header": "Давление и барокамера",
   "kubejs.ponder.thermal_evaporation.text_1": "Тепловой испаритель это мультиблок, который может преобразовывать §6воду в рассол§r и §6рассол§r в §6литий§r, также он может выделять §6хлорид калия§r из морской воды и полоний 208 из отходов наквадахового синтеза.",
   "kubejs.ponder.thermal_evaporation.text_10": "To extract Fluids, the fluid transmitter must be set to pull from the Thermal Evaporation Valve.",
   "kubejs.ponder.thermal_evaporation.text_11": "Right Clicking the controller opens an UI providing information about:\n\n- whether the structure is §6formed§r\n- the §6height§r\n- the §6temperature§r\n- and the §6production rate§r in ticks.",

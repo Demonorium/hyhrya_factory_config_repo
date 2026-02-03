@@ -131,6 +131,11 @@ ServerEvents.recipes(event => {
       "show_notification": true
     }
   )
+
+  event.replaceInput({id: 'cable_facades:wrench'}, 'iron_ingot', MATERIALS.COMPRESSED_IRON.ingot)
+  event.replaceInput({id: 'cable_facades:wrench'}, 'iron_nugget', MATERIALS.STEEL.nugget)
+  event.replaceInput({id: 'cable_facades:facade_item'}, 'yellow_dye', 'mekanism:sawdust')
+  event.replaceInput({id: 'cable_facades:facade_item'}, 'red_dye', 'mekanism:sawdust')
 })
 
 ServerEvents.tags("item", event => {
