@@ -81,7 +81,7 @@
 				{
 					count: 16
 					id: "2C44D7B3D8648574"
-					item: "mekanism:basic_universal_cable"
+					item: "pipez:energy_pipe"
 					type: "item"
 				}
 				{
@@ -332,7 +332,7 @@
 				{
 					count: 16
 					id: "5AA3D3A3088B8CA6"
-					item: "mekanism:basic_universal_cable"
+					item: "pipez:energy_pipe"
 					type: "item"
 				}
 				{
@@ -532,7 +532,7 @@
 				{
 					count: 32
 					id: "7811ADCEDB7F351C"
-					item: "mekanism:advanced_universal_cable"
+					item: "pipez:energy_pipe"
 					type: "item"
 				}
 			]
@@ -1383,7 +1383,7 @@
 				{
 					count: 8
 					id: "43D584FFE37E1D18"
-					item: "mekanism:basic_logistical_transporter"
+					item: "pipez:item_pipe"
 					type: "item"
 				}
 				{
@@ -1609,12 +1609,20 @@
 				"3CAF5E9098666D9D"
 			]
 			id: "4E5FFB567EC0A819"
-			rewards: [{
-				count: 32
-				id: "4A8BD108B69AEB42"
-				item: "mekanism:advanced_universal_cable"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "4A8BD108B69AEB42"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7F577E3B3654FC6F"
+					item: "pipez:basic_upgrade"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "23ABE0A32282D597"
 				item: "mekanism:advanced_energy_cube"
@@ -1649,12 +1657,20 @@
 				"4E5FFB567EC0A819"
 			]
 			id: "5C6B2546B868B323"
-			rewards: [{
-				count: 32
-				id: "78CDEC6695317339"
-				item: "mekanism:elite_universal_cable"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "78CDEC6695317339"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5AC294CEC2017477"
+					item: "pipez:improved_upgrade"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "390FCECE5F94F9D4"
 				item: "mekanism:elite_energy_cube"
@@ -1669,12 +1685,20 @@
 				"5C6B2546B868B323"
 			]
 			id: "5157C93690A097F2"
-			rewards: [{
-				count: 32
-				id: "4AA1FB80FE6C6202"
-				item: "mekanism:ultimate_universal_cable"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "4AA1FB80FE6C6202"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "793AC877B70D2AFB"
+					item: "pipez:improved_upgrade"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "20ED55D307197FEC"
 				item: "mekanism:ultimate_energy_cube"
@@ -1689,12 +1713,20 @@
 				"5157C93690A097F2"
 			]
 			id: "3C2782C51C573EAB"
-			rewards: [{
-				count: 32
-				id: "1751C8684CBDC818"
-				item: "mekanism_extras:absolute_universal_cable"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "1751C8684CBDC818"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6D2E043FC60D0615"
+					item: "pipez:advanced_upgrade"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "54AA5C9335CA1BB0"
 				item: "mekanism_extras:absolute_energy_cube"
@@ -1709,12 +1741,20 @@
 				"67F6E88804325098"
 			]
 			id: "79FA65BAB3C6815B"
-			rewards: [{
-				count: 32
-				id: "2BCC7A670D478909"
-				item: "mekanism_extras:supreme_universal_cable"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "2BCC7A670D478909"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1C470744F8C22DA8"
+					item: "pipez:ultimate_upgrade"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0A967F9AB6A95BEB"
 				item: "mekanism_extras:supreme_energy_cube"
@@ -1729,12 +1769,20 @@
 				"67F6E88804325098"
 			]
 			id: "0DFE43F277464A97"
-			rewards: [{
-				count: 32
-				id: "08F4FFF092C1D9D3"
-				item: "mekanism_extras:cosmic_universal_cable"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "08F4FFF092C1D9D3"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "05E60B3E4FA2F5C2"
+					item: "pipez:ultimate_upgrade"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3652DB482BABD477"
 				item: "mekanism_extras:cosmic_energy_cube"
@@ -1749,12 +1797,20 @@
 				"67F6E88804325098"
 			]
 			id: "40438E31CFE93B92"
-			rewards: [{
-				count: 32
-				id: "7B06A9A54A0A4647"
-				item: "mekanism_extras:infinite_universal_cable"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "7B06A9A54A0A4647"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "587B8A3C753261D2"
+					item: "pipez:ultimate_upgrade"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3FC4FC37DD21C5C4"
 				item: "mekanism_extras:infinite_energy_cube"
@@ -1769,7 +1825,7 @@
 			rewards: [{
 				count: 8
 				id: "4B1C7E53F3156467"
-				item: "mekanism:basic_logistical_transporter"
+				item: "pipez:item_pipe"
 				type: "item"
 			}]
 			subtitle: "Сортировка без духоты"
@@ -2040,7 +2096,7 @@
 				{
 					count: 8
 					id: "2DFDC6DD97D25E4A"
-					item: "mekanism:basic_mechanical_pipe"
+					item: "pipez:fluid_pipe"
 					type: "item"
 				}
 			]
@@ -2114,13 +2170,13 @@
 				{
 					count: 32
 					id: "0312A8D781B52F35"
-					item: "mekanism:basic_pressurized_tube"
+					item: "pipez:gas_pipe"
 					type: "item"
 				}
 				{
 					count: 32
 					id: "08414117BD4893D5"
-					item: "mekanism:basic_mechanical_pipe"
+					item: "pipez:fluid_pipe"
 					type: "item"
 				}
 			]
@@ -2329,7 +2385,7 @@
 				{
 					count: 8
 					id: "6E33879FB0F4C56E"
-					item: "mekanism:advanced_universal_cable"
+					item: "pipez:energy_pipe"
 					type: "item"
 				}
 			]
@@ -3757,10 +3813,16 @@
 		{
 			dependencies: ["744D5A9B9829F376"]
 			id: "23E3A10F690ECB62"
-			subtitle: "Соедините покрытие в сетке крафта с любым блоком и накройте ваши трубы"
+			rewards: [{
+				count: 16
+				id: "06926420FCEC1E68"
+				item: "mekanism:sawdust"
+				type: "item"
+			}]
+			subtitle: "Соедините покрытие в сетке крафта с любым блоком и накройте ваши трубы и редстоун кабели"
 			tasks: [{
 				id: "3482436501CE8A18"
-				item: "mekanismcovers:empty_cover"
+				item: "cable_facades:facade"
 				type: "item"
 			}]
 			x: -12.0d
@@ -3779,7 +3841,13 @@
 				{
 					count: 64
 					id: "2C4F378C0231FF7A"
-					item: "mekanism:advanced_mechanical_pipe"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "21D3759CDD25C88E"
+					item: "pipez:improved_upgrade"
 					type: "item"
 				}
 			]

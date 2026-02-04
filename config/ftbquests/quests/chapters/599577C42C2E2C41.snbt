@@ -673,6 +673,12 @@
 					item: "ae2:engineering_processor"
 					type: "item"
 				}
+				{
+					count: 4
+					id: "50C540529B26CB56"
+					item: "pipez:basic_upgrade"
+					type: "item"
+				}
 			]
 			shape: "circle"
 			size: 1.5d
@@ -796,13 +802,19 @@
 				{
 					count: 16
 					id: "504CCD2744E92D2F"
-					item: "mekanism:basic_pressurized_tube"
+					item: "pipez:gas_pipe"
 					type: "item"
 				}
 				{
 					count: 2
 					id: "388F7B1F01D9C729"
 					item: "mekanism:basic_chemical_tank"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0EDE29F069C7EDD6"
+					item: "pipez:basic_upgrade"
 					type: "item"
 				}
 			]
@@ -2609,6 +2621,12 @@
 				"67342BFD3A7C5724"
 			]
 			id: "79E883A74D6ACE2E"
+			rewards: [{
+				count: 8
+				id: "06E6F01263C6C4BF"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1FFD3B68DE4A8992"
 				item: "thermalendergy:endergy_upgrade_1"

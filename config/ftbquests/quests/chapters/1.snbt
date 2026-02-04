@@ -955,12 +955,20 @@
 		{
 			dependencies: ["0391D657A89F56DA"]
 			id: "2646077A2CEBB329"
-			rewards: [{
-				count: 64
-				id: "41A0D1601D8567C0"
-				item: "mekanism:basic_universal_cable"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "41A0D1601D8567C0"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1A63160B0A4CB9CD"
+					item: "pipez:basic_upgrade"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4AF8936EFB0B1E62"
 				item: "pneumaticcraft:flux_compressor"
