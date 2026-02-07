@@ -158246,6 +158246,60 @@ const CUSTOM_RECIPES = [
 		energy_mod: 1.0,
 	},
 	{
+		type: "mekanism:reaction",
+		duration: 2000,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "pneumaticcraft:kerosene",
+		},
+		gasInput: {
+			amount: 200,
+			gas: "mekanism:sulfur_dioxide",
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				tag: "kubejs:deeperdarker/gloomslate_1",
+			},
+		},
+		gasOutput: {
+			amount: 200,
+			gas: "kubejs:praseodymium_neodymium",
+		},
+		itemOutput: {
+			count: 1,
+			item: "chemlib:lanthanum_iii_sulfate_dust",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 2000,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "pneumaticcraft:kerosene",
+		},
+		gasInput: {
+			amount: 200,
+			gas: "mekanism:sulfur_dioxide",
+		},
+		itemInput: {
+			amount: 4.0,
+			ingredient: {
+				tag: "kubejs:deeperdarker/gloomslate_0_5",
+			},
+		},
+		gasOutput: {
+			amount: 200,
+			gas: "kubejs:praseodymium_neodymium",
+		},
+		itemOutput: {
+			count: 1,
+			item: "chemlib:lanthanum_iii_sulfate_dust",
+		},
+	},
+	{
 		type: "thermal:crucible",
 		ingredient: {
 			item: "mekanism:hdpe_pellet",
@@ -159515,6 +159569,21 @@ const CUSTOM_RECIPES = [
 		},
 		rightGasOutput: {
 			gas: "kubejs:fluorine",
+			amount: 50.0,
+		},
+	},
+	{
+		type: "mekanism:separating",
+		input: {
+			fluid: "kubejs:praseodymium_neodymium",
+			amount: 100.0,
+		},
+		leftGasOutput: {
+			gas: "kubejs:praseodymium",
+			amount: 50.0,
+		},
+		rightGasOutput: {
+			gas: "kubejs:neodymium_iii_sulfate",
 			amount: 50.0,
 		},
 	},
@@ -172822,7 +172891,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				fluid: "pneumaticcraft:vegetable_oil",
-				amount: 1.0,
+				amount: 100.0,
 			},
 		],
 		energy: 1000,

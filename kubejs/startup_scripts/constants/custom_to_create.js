@@ -5,4 +5,9 @@ const CUSTOM_MATERIALS = [
 		color: 16777215,
 		fluid: true,
 	},
+	{
+		name: "praseodymium_neodymium",
+		color: 9726349,
+		fluid: true,
+	},
 ]
