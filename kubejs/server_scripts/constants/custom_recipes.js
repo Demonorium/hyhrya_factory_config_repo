@@ -153797,38 +153797,47 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
-		type: "mekanism:reaction",
-		duration: 200,
-		energyRequired: 400,
-		fluidInput: {
-			amount: 5000,
-			fluid: "pneumaticcraft:ethanol",
-		},
-		gasInput: {
-			amount: 5000,
-			gas: "mekanism:hydrogen_chloride",
-		},
-		itemInput: {
-			amount: 20.0,
-			ingredient: {
-				tag: "diet:fruits",
+		type: "minecraft:crafting_shaped",
+		category: "misc",
+		key: {
+			A: {
+				item: "mekanism:hdpe_sheet",
+				count: 1.0,
+			},
+			B: {
+				item: "kubejs:absorbent",
+				count: 1.0,
+			},
+			C: {
+				item: "chemlib:thallium_dust",
+				count: 1.0,
+			},
+			D: {
+				item: "clanginghowl:extraterrestrial_steel_grate",
+				count: 1.0,
 			},
 		},
-		itemOutput: {
-			count: 1,
-			item: "mekanismelements:high_performance_adsorbent_lead",
+		pattern: [
+			"ABA",
+			"DCD",
+			"ABA",
+		],
+		result: {
+			item: "mekanismelements:high_performance_adsorbent",
+			count: 1.0,
 		},
+		show_notification: true,
 	},
 	{
 		type: "mekanism:reaction",
 		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
-			amount: 5000,
-			fluid: "pneumaticcraft:ethanol",
+			amount: 1000,
+			fluid: "kubejs:thallium",
 		},
 		gasInput: {
-			amount: 5000,
+			amount: 1000,
 			gas: "kubejs:antimony_acid",
 		},
 		itemInput: {
@@ -153839,7 +153848,7 @@ const CUSTOM_RECIPES = [
 		},
 		itemOutput: {
 			count: 1,
-			item: "mekanismelements:high_performance_adsorbent_lead",
+			item: "mekanismelements:high_performance_adsorbent_iron",
 		},
 	},
 	{
@@ -153847,23 +153856,65 @@ const CUSTOM_RECIPES = [
 		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
-			amount: 5000,
+			amount: 1000,
 			fluid: "pneumaticcraft:ethanol",
 		},
 		gasInput: {
-			amount: 5000,
-			gas: "kubejs:perchloric_acid",
+			amount: 1000,
+			gas: "kubejs:antimony_acid",
 		},
 		itemInput: {
-			amount: 20.0,
+			amount: 1.0,
 			ingredient: {
-				tag: "diet:fruits",
+				item: "mekanismelements:high_performance_adsorbent",
+			},
+		},
+		itemOutput: {
+			count: 10,
+			item: "mekanismelements:high_performance_adsorbent_iron",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 1000,
+			fluid: "kubejs:cellulose",
+		},
+		gasInput: {
+			amount: 1000,
+			gas: "kubejs:methanol",
+		},
+		itemInput: {
+			amount: 10.0,
+			ingredient: {
+				item: "mekanismelements:high_performance_adsorbent",
 			},
 		},
 		itemOutput: {
 			count: 1,
 			item: "mekanismelements:high_performance_adsorbent_lead",
 		},
+	},
+	{
+		type: "thermal:bottler",
+		ingredients: [
+			{
+				item: "mekanismelements:high_performance_adsorbent",
+				count: 10.0,
+			},
+			{
+				fluid: "kubejs:diammonium_phosphate",
+				amount: 1.0,
+			},
+		],
+		result: [
+			{
+				item: "mekanismelements:high_performance_adsorbent_beryllium",
+			},
+		],
+		experience: 0.1,
 	},
 	{
 		type: "mekanism:reaction",
@@ -158591,6 +158642,18 @@ const CUSTOM_RECIPES = [
 		energy_mod: 0.7,
 		min_chance: 0.15,
 		use_chance: 0.65,
+	},
+	{
+		type: "thermal:insolator_catalyst",
+		ingredient: {
+			item: "chemlib:diammonium_phosphate_dust",
+			count: 1.0,
+		},
+		primary_mod: 2.0,
+		secondary_mod: 1.75,
+		energy_mod: 0.5,
+		min_chance: 0.2,
+		use_chance: 0.4,
 	},
 	{
 		type: "thermal:insolator_catalyst",
@@ -172113,6 +172176,661 @@ const CUSTOM_RECIPES = [
 	{
 		type: "thermal:insolator",
 		ingredient: {
+			item: "minecraft:torchflower_seeds",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "minecraft:torchflower",
+				chance: 1,
+			},
+			{
+				item: "minecraft:torchflower_seeds",
+				chance: 1,
+			},
+		],
+		energy_mod: 2.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "minecraft:pink_petals",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "minecraft:pink_petals",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "minecraft:pitcher_pod",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "minecraft:pitcher_plant",
+				chance: 1,
+			},
+			{
+				item: "minecraft:pitcher_pod",
+				chance: 1,
+			},
+		],
+		energy_mod: 2.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:rose",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:rose",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:violet",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:violet",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:lavender",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:lavender",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:tall_lavender",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:tall_lavender",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:white_lavender",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:white_lavender",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:tall_white_lavender",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:tall_white_lavender",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:blue_hydrangea",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:blue_hydrangea",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:wildflower",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:wildflower",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:goldenrod",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:goldenrod",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:orange_cosmos",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:orange_cosmos",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:pink_daffodil",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:pink_daffodil",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:pink_hibiscus",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:pink_hibiscus",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:white_petals",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:white_petals",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:wilted_lily",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:wilted_lily",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:endbloom",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:endbloom",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:sprout",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:sprout",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:bush",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:bush",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:clover",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:clover",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:huge_clover_petal",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:huge_clover_petal",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:tundra_shrub",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:tundra_shrub",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:enderphyte",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:enderphyte",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:lumaloop",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:lumaloop",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:barley",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:barley",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:icy_iris",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:icy_iris",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.5,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:sea_oats",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:sea_oats",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.5,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:cattail",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:cattail",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.5,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:reed",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:reed",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.5,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:watergrass",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:watergrass",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.5,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:glowflower",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:glowflower",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.5,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:tiny_cactus",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:tiny_cactus",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.5,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
+			item: "biomesoplenty:burning_blossom",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "biomesoplenty:burning_blossom",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.5,
+		water_mod: 1.0,
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.0,
+		temperature: {
+			min_temp: 350,
+		},
+		fluid_input: {
+			fluid: "mekanism:sulfuric_acid",
+			amount: 1.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:starch_dust",
+			count: 1.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:sulfuric_acid",
+			amount: 1.0,
+		},
+		item_output: {
+			item: "minecraft:sugar",
+			count: 1.0,
+		},
+	},
+	{
+		type: "thermal:centrifuge",
+		ingredient: {
+			item: "minecraft:potato",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "chemlib:starch_dust",
+				chance: 1.5,
+			},
+			{
+				item: "minecraft:sugar",
+				chance: 0.5,
+			},
+		],
+		energy: 500,
+		experience: 0,
+	},
+	{
+		type: "thermal:centrifuge",
+		ingredient: {
+			item: "minecraft:beetroot",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "chemlib:starch_dust",
+				chance: 0.5,
+			},
+			{
+				item: "minecraft:sugar",
+				chance: 1.5,
+			},
+		],
+		energy: 500,
+		experience: 0,
+	},
+	{
+		type: "mekanism:dissolution",
+		gasInput: {
+			gas: "mekanism:sulfuric_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "biomesoplenty:glowflower",
+			},
+		},
+		output: {
+			slurry: "mekanism:dirty_tin",
+			amount: 400.0,
+			chemicalType: "slurry",
+		},
+	},
+	{
+		type: "thermal:press",
+		ingredients: [
+			{
+				item: "minecraft:torchflower",
+				count: 1.0,
+			},
+		],
+		result: [
+			{
+				item: "chemlib:ammonium_iodide_dust",
+				count: 1.0,
+			},
+			{
+				fluid: "kubejs:phosphoric_acid",
+				amount: 50.0,
+			},
+		],
+		energy: 1000,
+		experience: 1.0,
+	},
+	{
+		type: "thermal:press",
+		ingredients: [
+			{
+				item: "biomesoplenty:burning_blossom",
+				count: 1.0,
+			},
+		],
+		result: [
+			{
+				fluid: "kubejs:phosphoric_acid",
+				amount: 50.0,
+			},
+		],
+		energy: 2000,
+		experience: 0.2,
+	},
+	{
+		type: "thermal:press",
+		ingredients: [
+			{
+				item: "minecraft:sunflower",
+				count: 1.0,
+			},
+		],
+		result: [
+			{
+				fluid: "pneumaticcraft:vegetable_oil",
+				amount: 1.0,
+			},
+		],
+		energy: 1000,
+		experience: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
 			item: "biomesoplenty:toadstool",
 			count: 1.0,
 		},
@@ -172291,7 +173009,7 @@ const CUSTOM_RECIPES = [
 				chance: 1,
 			},
 		],
-		energy_mod: 2.0,
+		energy_mod: 1.0,
 		water_mod: 1.0,
 	},
 	{
@@ -172310,7 +173028,7 @@ const CUSTOM_RECIPES = [
 				chance: 1,
 			},
 		],
-		energy_mod: 2.0,
+		energy_mod: 1.0,
 		water_mod: 1.0,
 	},
 	{
