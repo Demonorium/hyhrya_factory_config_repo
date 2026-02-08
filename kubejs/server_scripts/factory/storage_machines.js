@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
                         "CAC"
                     ],
                     "result": {
-                        "item": 'mekanism:' + lastLevel + '_fluid_tank'
+                        "item": 'mekanism:' + level + '_fluid_tank'
                     }
                 })
             } else {
@@ -134,7 +134,7 @@ ServerEvents.recipes(event => {
                     "CAC"
                 ],
                 "result": {
-                    "item": 'mekanism_extras:' + lastLevel + '_fluid_tank'
+                    "item": 'mekanism_extras:' + level + '_fluid_tank'
                 }
             })
         } else {
