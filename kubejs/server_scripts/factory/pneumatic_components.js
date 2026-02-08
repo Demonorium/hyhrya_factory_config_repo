@@ -39,4 +39,28 @@ ServerEvents.recipes(event => {
             B: MATERIALS.CADMIUM.ingot,
         }
     )
+
+    event.shaped(Item.of("pneumaticcraft:thermal_lagging", 48),
+        [
+            'AAA',
+            'BBB',
+            'AAA'
+        ],
+        {
+            A: Item.of('chemlib:samarium_iii_oxide_dust'),
+            B: Item.of('chemlib:magnesium_oxide_dust')
+        }
+    )
+
+    event.shaped(Item.of("pneumaticcraft:thermal_lagging", 6),
+        [
+            'AAA',
+            'BBB',
+            'AAA'
+        ],
+        {
+            A: Item.of('chemlib:magnesium_oxide_dust'),
+            B: Item.of('biomancy:stone_powder')
+        }
+    )
 })

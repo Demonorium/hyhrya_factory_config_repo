@@ -94,7 +94,7 @@ ServerEvents.recipes(event => {
         "DBD",
         "DCA",
     ], {
-        A: MATERIALS.CHROMIUM.plate,
+        A: Item.of('mekanism_weaponry:magnetic_circuit'),
         B: 'mekanismgenerators:fission_reactor_casing',
         C: Item.of('mekanism:pellet_polonium'),
         D: 'mekanism_extras:alloy_radiance'
@@ -123,15 +123,16 @@ ServerEvents.recipes(event => {
     event.shaped(
         Item.of('mekanism:sps_casing', 1),
         [
-            'ADA',
+            'EDA',
             'CBC',
-            'ADA'
+            'ADE'
         ],
         {
             A: Item.of('mekanism_extras:alloy_thermonuclear'),
             B: Item.of('bfr:fusion_reactor_frame'),
             C: Item.of('ad_astra:ostrum_block'),
             D: Item.of('thermalendergy:melodium_block'),
+            E: Item.of(MATERIALS.PRASEODYMIUM.gear)
         }
     )
 
@@ -148,7 +149,7 @@ ServerEvents.recipes(event => {
         {
             A: Item.of('mekanism:sps_port'),
             B: Item.of('mekanism:sps_casing'),
-            C: Item.of(MATERIALS.FROSTSTEEL.block),
+            C: Item.of(MATERIALS.PRASEODYMIUM.block),
             D: Item.of('pncepcb:quantum_finished_pcb'),
         }
     )

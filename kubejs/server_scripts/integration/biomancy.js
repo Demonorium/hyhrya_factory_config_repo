@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: MATERIALS.CHROMIUM.nugget,
-            B: Item.of('mekanismelements:syringe'),
+            B: Item.of('pncepcb:bio_compatible_finished_pcb'),
             C: MATERIALS.PALLADIUM.nugget
         }
     )

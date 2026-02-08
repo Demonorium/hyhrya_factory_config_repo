@@ -1,6 +1,7 @@
 // priority: 0
 
 ServerEvents.recipes(event => {
+    event.replaceInput({id: 'mekanism_weaponry:railgun'}, MATERIALS.STEEL.ingot, 'mekanism_weaponry:magnetic_circuit')
     event.replaceInput({id: 'pneumaticcraft:micromissiles'}, 'fire_charge', 'superbwarfare:missile_engine')
     event.replaceInput({id: 'pneumaticcraft:micromissiles'}, 'tnt', 'superbwarfare:high_energy_explosives')
 

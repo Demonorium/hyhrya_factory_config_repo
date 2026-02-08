@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
     })
     
     event.replaceInput({id: "pneumaticcraft:night_vision_upgrade"}, 'pneumaticcraft:pressure_chamber_glass', 'cataclysm:cursium_ingot')
-    event.replaceInput({id: "pneumaticcraft:magnet_upgrade"}, MATERIALS.COMPRESSED_IRON.ingot, MATERIALS.NEODYMIUM.ingot)
+    event.remove({id: "pneumaticcraft:magnet_upgrade"})
     event.shaped("pneumaticcraft:magnet_upgrade",
         [
             'BAB',
@@ -44,19 +44,7 @@ ServerEvents.recipes(event => {
             'BAB'
         ],
         {
-            A: Item.of(MATERIALS.MIDNIGHT_IRON.ingot),
-            B: Item.of('pneumaticcraft:upgrade_matrix'),
-            C: MATERIALS.PLASTIC.ingot
-        }
-    )
-    event.shaped("pneumaticcraft:magnet_upgrade",
-        [
-            'BAB',
-            'ACA',
-            'BAB'
-        ],
-        {
-            A: Item.of('chemlib:magnetite_dust'),
+            A: Item.of('mekanism_weaponry:magnetic_circuit'),
             B: Item.of('pneumaticcraft:upgrade_matrix'),
             C: MATERIALS.PLASTIC.ingot
         }

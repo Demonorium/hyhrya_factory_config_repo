@@ -116,7 +116,7 @@ ServerEvents.recipes(event => {
     ],
     {
       A: Item.of('mekanism_extras:alloy_thermonuclear'),
-      B: Item.of('dysonsphere:ingot_smart_alloy'),
+      B: Item.of('mekanism_weaponry:magnetic_circuit'),
       D: Item.of('dysonsphere:heat_shielding'),
       E: Item.of('pneumaticcraft:cannon_barrel')
     }

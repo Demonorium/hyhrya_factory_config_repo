@@ -76751,7 +76751,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:aluminum_carbonate_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -76763,10 +76763,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "moremekanismprocessing:dust_aluminum",
-				count: 16.0,
+				count: 32.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:aluminum_carbonate_dust",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "moremekanismprocessing:dust_aluminum",
+				count: 16.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 3.0,
 			},
 		],
@@ -77111,7 +77132,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:antimony_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -77123,10 +77144,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:antimony_trioxide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:antimony_dust",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:antimony_trioxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 3.0,
 			},
 		],
@@ -77551,7 +77593,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:europium_ii_oxide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -77563,10 +77605,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:europium_iii_oxide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:europium_ii_oxide_dust",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:europium_iii_oxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -78455,7 +78518,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:tungsten_carbide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -78467,10 +78530,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "moremekanismprocessing:dust_tungsten",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:tungsten_carbide_dust",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "moremekanismprocessing:dust_tungsten",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -78574,7 +78658,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:titanium_oxide",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -78586,10 +78670,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:titanium_dioxide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:titanium_oxide",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:titanium_dioxide_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -79857,7 +79962,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "moremekanismprocessing:dust_bismuth",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -79869,10 +79974,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:bismuth_iii_oxide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "moremekanismprocessing:dust_bismuth",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:bismuth_iii_oxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 3.0,
 			},
 		],
@@ -79987,7 +80113,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:ruthenium_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -79999,10 +80125,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:ruthenium_iv_oxide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:ruthenium_dust",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:ruthenium_iv_oxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -80482,7 +80629,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:lanthanum_carbide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -80494,10 +80641,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:lanthanum_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:lanthanum_carbide_dust",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:lanthanum_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 2.0,
 			},
 		],
@@ -81337,7 +81505,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:cerium_iii_oxide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -81349,10 +81517,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:cerium_iv_oxide_dust",
-				count: 16.0,
+				count: 32.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:cerium_iii_oxide_dust",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:cerium_iv_oxide_dust",
+				count: 16.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -87791,7 +87980,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:vanadium_carbide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -87803,10 +87992,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:vanadium_v_oxide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 7.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:vanadium_carbide_dust",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:vanadium_v_oxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 7.0,
 			},
 		],
@@ -101655,10 +101865,27 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:ozone",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:ozone",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -103119,7 +103346,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:sodium_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -103131,10 +103358,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:sodium_carbonate_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_dust",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:sodium_carbonate_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 2.0,
 			},
 		],
@@ -103292,7 +103540,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:sodium_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -103304,10 +103552,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:sodium_hydroxide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_dust",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -104294,7 +104563,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "moremekanismprocessing:dust_magnesium",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -104306,10 +104575,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:magnesium_oxide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "moremekanismprocessing:dust_magnesium",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:magnesium_oxide_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -105815,7 +106105,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:silicon_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -105827,10 +106117,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:silicon_dioxide",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:silicon_dust",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:silicon_dioxide",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 2.0,
 			},
 		],
@@ -105992,7 +106303,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:phosphorus_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -106004,10 +106315,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:phosphorus_pentoxide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 5.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:phosphorus_dust",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:phosphorus_pentoxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 5.0,
 			},
 		],
@@ -106070,11 +106402,11 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "mekanismelements:dust_calcium_oxide",
-				count: 12.0,
+				count: 24.0,
 			},
 			{
 				item: "chemlib:phosphorus_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -106086,10 +106418,35 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:tricalcium_phosphate_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 5.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "mekanismelements:dust_calcium_oxide",
+				count: 12.0,
+			},
+			{
+				item: "chemlib:phosphorus_dust",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:tricalcium_phosphate_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 5.0,
 			},
 		],
@@ -106517,7 +106874,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "mekanism:dust_sulfur",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -106529,10 +106886,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:sulfur_dioxide",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "mekanism:dust_sulfur",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:sulfur_dioxide",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -107750,7 +108128,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "mekanism:dust_sulfur",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -107762,10 +108140,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:sulfur_trioxide",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "mekanism:dust_sulfur",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:sulfur_trioxide",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 3.0,
 			},
 		],
@@ -108872,7 +109271,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:potassium_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -108884,10 +109283,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:potassium_carbonate_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:potassium_dust",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:potassium_carbonate_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 2.0,
 			},
 		],
@@ -109382,7 +109802,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:calcium_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -109394,10 +109814,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "mekanismelements:dust_calcium_oxide",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:calcium_dust",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "mekanismelements:dust_calcium_oxide",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -110529,7 +110970,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:chromium_dust",
-				count: 16.0,
+				count: 32.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -110541,10 +110982,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:chromium_oxide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:chromium_dust",
+				count: 16.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:chromium_oxide_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 3.0,
 			},
 		],
@@ -110734,7 +111196,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:chromium_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -110746,10 +111208,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:chromium_trioxide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:chromium_dust",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:chromium_trioxide_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 3.0,
 			},
 		],
@@ -110914,7 +111397,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:manganese_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -110926,10 +111409,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:manganese_oxide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:manganese_dust",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 2.0,
 			},
 		],
@@ -111045,7 +111549,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:manganese_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -111057,10 +111561,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:manganese_ii_oxide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:manganese_dust",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:manganese_ii_oxide_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -111481,7 +112006,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "mekanism:dust_iron",
-				count: 12.0,
+				count: 24.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -111493,7 +112018,7 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:magnetite_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
@@ -111506,7 +112031,28 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "mekanism:dust_iron",
-				count: 16.0,
+				count: 12.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:magnetite_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "mekanism:dust_iron",
+				count: 32.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -111518,10 +112064,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:iron_oxide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "mekanism:dust_iron",
+				count: 16.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:iron_oxide_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 3.0,
 			},
 		],
@@ -111709,7 +112276,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "mekanism:dust_iron",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -111721,10 +112288,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:iron_ii_oxide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "mekanism:dust_iron",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:iron_ii_oxide_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -113160,7 +113748,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermal:nickel_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -113172,10 +113760,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:nickel_oxide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "thermal:nickel_dust",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:nickel_oxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -113666,7 +114275,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "mekanism:dust_copper",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -113678,10 +114287,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:copper_ii_oxide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "mekanism:dust_copper",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:copper_ii_oxide_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -113741,7 +114371,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "mekanism:dust_copper",
-				count: 16.0,
+				count: 32.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -113753,10 +114383,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:copper_i_oxide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "mekanism:dust_copper",
+				count: 16.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:copper_i_oxide_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -115978,7 +116629,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "moremekanismprocessing:dust_zinc",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -115990,10 +116641,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:zinc_oxide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "moremekanismprocessing:dust_zinc",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:zinc_oxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -117271,7 +117943,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:molybdenum_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -117283,10 +117955,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:molybdenum_trioxide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:molybdenum_dust",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:molybdenum_trioxide_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 3.0,
 			},
 		],
@@ -118095,7 +118788,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "mekanism:dust_tin",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -118107,10 +118800,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:tin_oxide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "mekanism:dust_tin",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:tin_oxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 2.0,
 			},
 		],
@@ -119763,7 +120477,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "mekanism:dust_lead",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -119775,10 +120489,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:lead_oxide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "mekanism:dust_lead",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:lead_oxide_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -120073,7 +120808,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "mekanism:dust_lead",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -120085,10 +120820,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:lead_dioxide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "mekanism:dust_lead",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:lead_dioxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 2.0,
 			},
 		],
@@ -121534,7 +122290,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:sodium_sulfide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -121546,10 +122302,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:sodium_sulfate_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_sulfide_dust",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 2.0,
 			},
 		],
@@ -122014,7 +122791,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:potassium_nitrite_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -122026,10 +122803,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "thermal:niter_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:potassium_nitrite_dust",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "thermal:niter_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -122239,11 +123037,11 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:chromium_oxide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "chemlib:potassium_carbonate_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -122255,10 +123053,35 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:potassium_dichromate",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:chromium_oxide_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:potassium_carbonate_dust",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:potassium_dichromate",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 3.0,
 			},
 		],
@@ -122293,7 +123116,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:barium_sulfide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -122305,10 +123128,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:barium_sulfate",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:barium_sulfide_dust",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:barium_sulfate",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 2.0,
 			},
 		],
@@ -122843,7 +123687,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:calcium_sulfide",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -122855,10 +123699,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:calcium_sulfate_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:calcium_sulfide",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:calcium_sulfate_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 2.0,
 			},
 		],
@@ -123754,7 +124619,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:potassium_chloride_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -123766,10 +124631,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:potassium_perchlorate_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 2.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:potassium_chloride_dust",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:potassium_perchlorate_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 2.0,
 			},
 		],
@@ -136117,7 +137003,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:phosphorus_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -136129,10 +137015,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:phosphoric_acid_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 5.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:phosphorus_dust",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:phosphoric_acid_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 5.0,
 			},
 		],
@@ -141619,7 +142526,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "mekanismelements:dust_calcium_oxide",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -141631,10 +142538,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:calcium_carbonate_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "mekanismelements:dust_calcium_oxide",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:calcium_carbonate_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -148852,10 +149780,27 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:carbon_dioxide",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:carbon_dioxide",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -148873,10 +149818,27 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:oxygen",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:oxygen",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -148937,7 +149899,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:aluminum_carbonate_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -148949,7 +149911,7 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:aluminum_oxide_dust",
-				count: 8.0,
+				count: 16.0,
 			},
 			{
 				item: "thermal:coal_coke",
@@ -148961,8 +149923,29 @@ const CUSTOM_RECIPES = [
 		type: "thermal:smelter",
 		result: [
 			{
-				item: "chemlib:niobium_carbide_dust",
+				item: "chemlib:aluminum_carbonate_dust",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:aluminum_oxide_dust",
 				count: 8.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
+				count: 9.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:niobium_carbide_dust",
+				count: 16.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -148974,10 +149957,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:niobium_pentoxide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 7.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:niobium_carbide_dust",
+				count: 8.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:niobium_pentoxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 7.0,
 			},
 		],
@@ -149041,7 +150045,7 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "chemlib:barium_oxide_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -149053,7 +150057,7 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:barium_carbonate_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
@@ -149065,8 +150069,29 @@ const CUSTOM_RECIPES = [
 		type: "thermal:smelter",
 		result: [
 			{
-				item: "chemlib:sodium_sulfide_dust",
+				item: "chemlib:barium_oxide_dust",
 				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:barium_carbonate_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_sulfide_dust",
+				count: 8.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -149078,10 +150103,31 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				item: "chemlib:sodium_sulfite_dust",
-				count: 4.0,
+				count: 8.0,
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 3.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:sodium_sulfide_dust",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:sodium_sulfite_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 3.0,
 			},
 		],
@@ -158288,6 +159334,25 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "pneumaticcraft:fluid_mixer",
+		input1: {
+			fluid: "thermal:tree_oil",
+			amount: 400.0,
+			type: "pneumaticcraft:fluid",
+		},
+		input2: {
+			fluid: "kubejs:cellulose",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		pressure: 4,
+		time: 50,
+		item_output: {
+			item: "mekanism:dye_base",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "kubejs:calcium_chloride",
@@ -160508,7 +161573,7 @@ const CUSTOM_RECIPES = [
 		type: "mekanismelements:adsorption",
 		fluidInput: {
 			fluid: "mekanismelements:seawater",
-			amount: 1.0,
+			amount: 4.0,
 		},
 		itemInput: {
 			amount: 1.0,
@@ -160526,7 +161591,7 @@ const CUSTOM_RECIPES = [
 		type: "mekanismelements:adsorption",
 		fluidInput: {
 			fluid: "minecraft:water",
-			amount: 1.0,
+			amount: 8.0,
 		},
 		itemInput: {
 			amount: 1.0,
@@ -160650,18 +161715,13 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 			{
-				item: "mekanism:dust_lithium",
-				count: 1.0,
-				chance: 0.4,
-			},
-			{
-				item: "chemlib:titanium_oxide",
+				item: "chemlib:samarium_iii_oxide_dust",
 				count: 1.0,
 				chance: 0.1,
 			},
 		],
-		energy: 6000,
-		experience: 2,
+		energy: 3000,
+		experience: 1,
 	},
 	{
 		type: "thermal:centrifuge",
@@ -160675,18 +161735,13 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 			{
-				item: "mekanism:dust_lithium",
-				count: 1.0,
-				chance: 0.4,
-			},
-			{
-				item: "chemlib:titanium_oxide",
+				item: "chemlib:samarium_iii_oxide_dust",
 				count: 1.0,
 				chance: 0.1,
 			},
 		],
-		energy: 6000.0,
-		experience: 2,
+		energy: 3000.0,
+		experience: 1,
 	},
 	{
 		type: "mekanism:crushing",
@@ -160758,7 +161813,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.5,
 			},
 			{
-				item: "chemlib:helium",
+				item: "chemlib:samarium_iii_oxide_dust",
 				count: 1.0,
 				chance: 0.3,
 			},
@@ -160783,7 +161838,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.5,
 			},
 			{
-				item: "chemlib:helium",
+				item: "chemlib:samarium_iii_oxide_dust",
 				count: 1.0,
 				chance: 0.3,
 			},
@@ -160833,19 +161888,9 @@ const CUSTOM_RECIPES = [
 				item: "deeperdarker:cobbled_sculk_stone",
 				count: 1.0,
 			},
-			{
-				item: "chemlib:cerium_iv_oxide_dust",
-				count: 1.0,
-				chance: 0.2,
-			},
-			{
-				item: "chemlib:helium",
-				count: 1.0,
-				chance: 0.2,
-			},
 		],
-		energy: 6000,
-		experience: 2,
+		energy: 0,
+		experience: 0,
 	},
 	{
 		type: "thermal:centrifuge",
@@ -160858,19 +161903,9 @@ const CUSTOM_RECIPES = [
 				item: "deeperdarker:cobbled_sculk_stone",
 				count: 1.0,
 			},
-			{
-				item: "chemlib:cerium_iv_oxide_dust",
-				count: 1.0,
-				chance: 0.2,
-			},
-			{
-				item: "chemlib:helium",
-				count: 1.0,
-				chance: 0.2,
-			},
 		],
-		energy: 6000.0,
-		experience: 2,
+		energy: 0.0,
+		experience: 0,
 	},
 	{
 		type: "thermal:crucible",
@@ -161983,6 +163018,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:compressing",
+		chemicalInput: {
+			gas: "mekanism:osmium",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 4.0,
+			ingredient: {
+				item: "chemlib:carbon_dust",
+			},
+		},
+		output: {
+			item: "chemlib:graphite_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 0.01,
@@ -162140,9 +163192,9 @@ const CUSTOM_RECIPES = [
 			gas: "kubejs:formic_acid",
 		},
 		itemInput: {
-			amount: 32.0,
+			amount: 16.0,
 			ingredient: {
-				item: "chemlib:carbon_dust",
+				item: "chemlib:graphite_dust",
 			},
 		},
 		itemOutput: {
@@ -162226,10 +163278,10 @@ const CUSTOM_RECIPES = [
 		ingredients: [
 			{
 				fluid: "pneumaticcraft:ethanol",
-				amount: 100.0,
+				amount: 1000.0,
 			},
 			{
-				item: "chemlib:carbon_dust",
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 		],
@@ -162240,6 +163292,29 @@ const CUSTOM_RECIPES = [
 			},
 		],
 		energy: 80000,
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 0.01,
+		temperature: {
+			min_temp: 773,
+		},
+		fluid_input: {
+			fluid: "pneumaticcraft:ethanol",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:graphite_dust",
+			count: 16.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		item_output: {
+			item: "moremekanismprocessing:dust_bort",
+			count: 1.0,
+		},
+		pressure: 9.5,
 	},
 	{
 		type: "mekanismelements:adsorption",
@@ -162444,7 +163519,7 @@ const CUSTOM_RECIPES = [
 			},
 			{
 				item: "clanginghowl:extraterrestrial_steel_ingot",
-				count: 1.0,
+				chance: 1.0,
 			},
 			{
 				item: "thermal:rich_slag",
@@ -162461,6 +163536,35 @@ const CUSTOM_RECIPES = [
 			},
 			{
 				item: "thermal:coal_coke",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:molybdenum",
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "mekanism:ingot_steel",
+				count: 3.0,
+			},
+			{
+				item: "clanginghowl:extraterrestrial_steel_ingot",
+				chance: 1.0,
+			},
+		],
+		energy: 4000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "mekanism:dust_iron",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
 				count: 1.0,
 			},
 			{
@@ -180376,7 +181480,7 @@ const CUSTOM_RECIPES = [
 		input: {
 			amount: 1.0,
 			ingredient: {
-				tag: "aquaculture:fillet_one",
+				tag: "aquaculturedelight:fillet_one",
 			},
 		},
 		mainOutput: {
@@ -180394,7 +181498,7 @@ const CUSTOM_RECIPES = [
 		input: {
 			amount: 1.0,
 			ingredient: {
-				tag: "aquaculture:fillet_two",
+				tag: "aquaculturedelight:fillet_two",
 			},
 		},
 		mainOutput: {
@@ -180412,7 +181516,7 @@ const CUSTOM_RECIPES = [
 		input: {
 			amount: 1.0,
 			ingredient: {
-				tag: "aquaculture:fillet_three",
+				tag: "aquaculturedelight:fillet_three",
 			},
 		},
 		mainOutput: {
@@ -180430,7 +181534,7 @@ const CUSTOM_RECIPES = [
 		input: {
 			amount: 1.0,
 			ingredient: {
-				tag: "aquaculture:fillet_four",
+				tag: "aquaculturedelight:fillet_four",
 			},
 		},
 		mainOutput: {
@@ -180448,7 +181552,7 @@ const CUSTOM_RECIPES = [
 		input: {
 			amount: 1.0,
 			ingredient: {
-				tag: "aquaculture:fillet_six",
+				tag: "aquaculturedelight:fillet_six",
 			},
 		},
 		mainOutput: {
@@ -180466,7 +181570,7 @@ const CUSTOM_RECIPES = [
 		input: {
 			amount: 1.0,
 			ingredient: {
-				tag: "aquaculture:fillet_ten",
+				tag: "aquaculturedelight:fillet_ten",
 			},
 		},
 		mainOutput: {
@@ -180757,19 +181861,9 @@ const CUSTOM_RECIPES = [
 				item: "ad_astra:moon_cobblestone",
 				count: 1.0,
 			},
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-				chance: 0.3,
-			},
-			{
-				item: "chemlib:helium",
-				count: 1.0,
-				chance: 0.2,
-			},
 		],
-		energy: 6000,
-		experience: 2,
+		energy: 0,
+		experience: 0,
 	},
 	{
 		type: "thermal:centrifuge",
@@ -180782,19 +181876,9 @@ const CUSTOM_RECIPES = [
 				item: "ad_astra:moon_cobblestone",
 				count: 1.0,
 			},
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-				chance: 0.3,
-			},
-			{
-				item: "chemlib:helium",
-				count: 1.0,
-				chance: 0.2,
-			},
 		],
-		energy: 6000.0,
-		experience: 2,
+		energy: 0.0,
+		experience: 0,
 	},
 	{
 		type: "mekanism:reaction",
@@ -180988,19 +182072,9 @@ const CUSTOM_RECIPES = [
 				item: "ad_astra:mars_cobblestone",
 				count: 1.0,
 			},
-			{
-				item: "chemlib:sodium_metasilicate_dust",
-				count: 1.0,
-				chance: 0.8,
-			},
-			{
-				item: "chemlib:chromium_trioxide_dust",
-				count: 1.0,
-				chance: 0.2,
-			},
 		],
-		energy: 6000,
-		experience: 2,
+		energy: 0,
+		experience: 0,
 	},
 	{
 		type: "thermal:centrifuge",
@@ -181013,19 +182087,9 @@ const CUSTOM_RECIPES = [
 				item: "ad_astra:mars_cobblestone",
 				count: 1.0,
 			},
-			{
-				item: "chemlib:sodium_metasilicate_dust",
-				count: 1.0,
-				chance: 0.8,
-			},
-			{
-				item: "chemlib:chromium_trioxide_dust",
-				count: 1.0,
-				chance: 0.2,
-			},
 		],
-		energy: 6000.0,
-		experience: 2,
+		energy: 0.0,
+		experience: 0,
 	},
 	{
 		type: "mekanism:reaction",
@@ -181546,19 +182610,9 @@ const CUSTOM_RECIPES = [
 				item: "ad_astra:venus_cobblestone",
 				count: 1.0,
 			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-				chance: 0.5,
-			},
-			{
-				item: "thermal:niter",
-				count: 1.0,
-				chance: 0.3,
-			},
 		],
-		energy: 6000,
-		experience: 2,
+		energy: 0,
+		experience: 0,
 	},
 	{
 		type: "thermal:centrifuge",
@@ -181571,19 +182625,9 @@ const CUSTOM_RECIPES = [
 				item: "ad_astra:venus_cobblestone",
 				count: 1.0,
 			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-				chance: 0.5,
-			},
-			{
-				item: "thermal:niter",
-				count: 1.0,
-				chance: 0.3,
-			},
 		],
-		energy: 6000.0,
-		experience: 2,
+		energy: 0.0,
+		experience: 0,
 	},
 	{
 		type: "mekanism:reaction",
@@ -182129,19 +183173,9 @@ const CUSTOM_RECIPES = [
 				item: "ad_astra:mercury_cobblestone",
 				count: 1.0,
 			},
-			{
-				item: "chemlib:wollastonite_dust",
-				count: 1.0,
-				chance: 0.3,
-			},
-			{
-				item: "chemlib:enstatite_dust",
-				count: 1.0,
-				chance: 0.7,
-			},
 		],
-		energy: 6000,
-		experience: 2,
+		energy: 0,
+		experience: 0,
 	},
 	{
 		type: "thermal:centrifuge",
@@ -182154,19 +183188,9 @@ const CUSTOM_RECIPES = [
 				item: "ad_astra:mercury_cobblestone",
 				count: 1.0,
 			},
-			{
-				item: "chemlib:wollastonite_dust",
-				count: 1.0,
-				chance: 0.3,
-			},
-			{
-				item: "chemlib:enstatite_dust",
-				count: 1.0,
-				chance: 0.7,
-			},
 		],
-		energy: 6000.0,
-		experience: 2,
+		energy: 0.0,
+		experience: 0,
 	},
 	{
 		type: "mekanism:reaction",
@@ -182314,24 +183338,9 @@ const CUSTOM_RECIPES = [
 				item: "ad_astra:glacio_cobblestone",
 				count: 1.0,
 			},
-			{
-				item: "chemlib:calcium_sulfate_dust",
-				count: 1.0,
-				chance: 0.3,
-			},
-			{
-				item: "chemlib:orthoclase_dust",
-				count: 1.0,
-				chance: 0.6,
-			},
-			{
-				item: "chemlib:chalcopyrite_dust",
-				count: 1.0,
-				chance: 0.1,
-			},
 		],
-		energy: 9000,
-		experience: 3,
+		energy: 0,
+		experience: 0,
 	},
 	{
 		type: "thermal:centrifuge",
@@ -182344,24 +183353,9 @@ const CUSTOM_RECIPES = [
 				item: "ad_astra:glacio_cobblestone",
 				count: 1.0,
 			},
-			{
-				item: "chemlib:calcium_sulfate_dust",
-				count: 1.0,
-				chance: 0.3,
-			},
-			{
-				item: "chemlib:orthoclase_dust",
-				count: 1.0,
-				chance: 0.6,
-			},
-			{
-				item: "chemlib:chalcopyrite_dust",
-				count: 1.0,
-				chance: 0.1,
-			},
 		],
-		energy: 9000.0,
-		experience: 3,
+		energy: 0.0,
+		experience: 0,
 	},
 	{
 		type: "thermal:smelter",
@@ -183835,6 +184829,43 @@ const CUSTOM_RECIPES = [
 			item: "miners_delight:baked_cave_carrot",
 			count: 2.0,
 		},
+	},
+	{
+		type: "mekanism:sawing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "farmersdelight:cabbage",
+			},
+		},
+		mainOutput: {
+			item: "farmersdelight:cabbage_leaf",
+			count: 2.0,
+		},
+		secondaryChance: 0.25,
+		secondaryOutput: {
+			item: "farmersdelight:cabbage_leaf",
+			count: 1.0,
+		},
+	},
+	{
+		type: "thermal:centrifuge",
+		ingredient: {
+			item: "farmersdelight:rice_panicle",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "farmersdelight:rice",
+				count: 2.0,
+			},
+			{
+				item: "farmersdelight:straw",
+				count: 1.0,
+			},
+		],
+		energy: 500,
+		experience: 0.25,
 	},
 	{
 		type: "minecraft:crafting_shaped",

@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:infusion_conversion",
+    "input": {
+      "ingredient": [
+        {
+          "item": "chemlib:graphite"
+        }
+      ]
+    },
+    "output": {
+      "amount": 200,
+      "infuse_type": "mekanism:carbon"
+    }
+}

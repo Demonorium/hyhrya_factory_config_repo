@@ -319,7 +319,7 @@ ServerEvents.recipes(event => {
             A: Item.of("mekanism:alloy_reinforced"),
             B: Item.of('mekanism:elite_control_circuit'),
             D: Item.of(MATERIALS.PLASTIC.ingot),
-            C: Item.of('chemlib:cerium_iv_oxide'),
+            C: Item.of('chemlib:cerium_iv_oxide_dust'),
             E: Item.of(MATERIALS.ALUMINUM.dust),
         }
     )
@@ -338,16 +338,17 @@ ServerEvents.recipes(event => {
     )
 
     event.shaped(
-        Item.of('superbwarfare:medium_battery_pack', 1),
+        Item.of('superbwarfare:large_battery_pack', 1),
         [
             'ACD',
-            'DCB'
+            'DEB'
         ],
         {
             A: Item.of("mekanism:alloy_reinforced"),
             B: Item.of('mekanism:elite_control_circuit'),
             D: Item.of(MATERIALS.PLASTIC.ingot),
-            C: Item.of('chemlib:cerium_iv_oxide')
+            C: Item.of('chemlib:cerium_iv_oxide_dust'),
+            E: Item.of('chemlib:samarium_iii_nitrate_dust'),
         }
     )
 
@@ -484,7 +485,69 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.remove({id: 'mekanism_weaponry:magnetic_circuit'})
+    event.shaped(
+        Item.of('mekanism_weaponry:magnetic_circuit'),
+        [
+            "ABA",
+            "CEC",
+            "CDC",
+        ],
+        {
+            A: Item.of('mekanism:alloy_infused'),
+            B: Item.of('mekanism:advanced_control_circuit'),
+            C: Item.of('chemlib:magnetite_dust'),
+            E: Item.of('dysonsphere:coil_copper'),
+            D: Item.of('dysonsphere:coil_iron')
+        }
+    )
 
+    event.shaped(
+        Item.of('mekanism_weaponry:magnetic_circuit', 24),
+        [
+            "ABA",
+            "CEC",
+            "CEC",
+        ],
+        {
+            A: Item.of('mekanism:alloy_infused'),
+            B: Item.of('mekanism:advanced_control_circuit'),
+            C: Item.of('chemlib:samarium_iii_molybdate_dust'),
+            E: Item.of(MATERIALS.NEODYMIUM.ingot)
+        }
+    )
+
+    event.shaped(
+        Item.of('mekanism_weaponry:magnetic_circuit', 8),
+        [
+            "ABA",
+            "CEC",
+            "CDC",
+        ],
+        {
+            A: Item.of('mekanism:alloy_infused'),
+            B: Item.of('mekanism:advanced_control_circuit'),
+            C: Item.of(MATERIALS.NEODYMIUM.ingot),
+            E: Item.of('dysonsphere:coil_copper'),
+            D: Item.of('dysonsphere:coil_iron')
+        }
+    )
+
+    event.shaped(
+        Item.of('mekanism_weaponry:magnetic_circuit', 4),
+        [
+            "ABA",
+            "CEC",
+            "CDC",
+        ],
+        {
+            A: Item.of('mekanism:alloy_infused'),
+            B: Item.of('mekanism:advanced_control_circuit'),
+            C: Item.of(MATERIALS.MIDNIGHT_IRON.ingot),
+            E: Item.of('dysonsphere:coil_copper'),
+            D: Item.of('dysonsphere:coil_iron')
+        }
+    )
 })
 
 

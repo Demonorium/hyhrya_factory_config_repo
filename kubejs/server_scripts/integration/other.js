@@ -26,9 +26,8 @@ ServerEvents.recipes(event => {
   event.replaceInput({ mod: 'mffs' }, "ender_pearl", 'mekanism_extras:cosmic_control_circuit')
   event.replaceInput({ id: 'undergarden:catalyst' }, 'diamond', 'meetyourfight:phantoplasm')
   event.replaceInput({ mod: 'wirelesschargers' }, 'iron_ingot', MATERIALS.STEEL.plate)
-  event.replaceInput({ mod: 'wirelesschargers' }, 'blaze_powder', 'mekanism:advanced_control_circuit')
+  event.replaceInput({ mod: 'wirelesschargers' }, 'blaze_powder', 'mekanism_weaponry:magnetic_circuit')
   event.replaceInput({ mod: 'wirelesschargers' }, 'redstone_block', 'thermal:machine_frame')
-  event.replaceInput({ mod: 'wirelesschargers' }, 'gold_ingot', 'mekanism:ultimate_control_circuit')
 
   event.smelting(Item.of('iron_ingot'), Item.of('bucket', 3))
   event.blasting(Item.of('iron_ingot'), Item.of('bucket', 3))
@@ -136,6 +135,19 @@ ServerEvents.recipes(event => {
   event.replaceInput({id: 'cable_facades:wrench'}, 'iron_nugget', MATERIALS.STEEL.nugget)
   event.replaceInput({id: 'cable_facades:facade_item'}, 'yellow_dye', 'mekanism:sawdust')
   event.replaceInput({id: 'cable_facades:facade_item'}, 'red_dye', 'mekanism:sawdust')
+
+  event.shaped(
+    Item.of('farmersdelight:rich_soil'),
+    [
+      "ACA",
+      "CDC",
+      "ACA"
+    ], {
+      A: Item.of("thermal:phytogro"),
+      C: Item.of('chemlib:samarium_iii_carbonate_dust'),
+      D: Item.of('podzol')
+    }
+  )
 })
 
 ServerEvents.tags("item", event => {

@@ -31,6 +31,20 @@
 			dependency_requirement: "one_completed"
 			hide_until_deps_visible: true
 			id: "67342BFD3A7C5724"
+			rewards: [
+				{
+					count: 16
+					id: "35C9FBD0D75AF55E"
+					item: "moremekanismprocessing:aluminum_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6A24D66E4B7CE609"
+					item: "curvy_pipes:tiny_item_pipe"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "Глава 4. Часть первая"
@@ -242,6 +256,26 @@
 			dependencies: ["00C310358F452A99"]
 			hide_until_deps_complete: true
 			id: "20987649F16183AB"
+			rewards: [
+				{
+					count: 8
+					id: "0EFC59A1D108FF4A"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6B5F6DFE6208A985"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "10D4442B8B9766D4"
+					item: "ad_astra:steel_plate"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4F5FC607ACAD824F"
 				item: "mekanismelements:adsorption_separator"
@@ -648,6 +682,12 @@
 			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
 			id: "54EE2B9666F1BE03"
+			rewards: [{
+				count: 64
+				id: "7E969A89E0506628"
+				item: "mekanism:dust_iron"
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "4C7F65BF6192C953"
@@ -704,7 +744,28 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "004DCE2563970C33"
+			rewards: [
+				{
+					count: 16
+					id: "5C988602981E2A12"
+					item: "pneumaticcraft:thermal_lagging"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "42F183147A29DDA5"
+					item: "pneumaticcraft:heat_pipe"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "66587D851AEF32B0"
+					item: "chemlib:titanium_iii_chloride_dust"
+					type: "item"
+				}
+			]
 			size: 1.5d
+			subtitle: "Сила и лёгкость"
 			tasks: [{
 				id: "2509C95C84E21139"
 				item: "moremekanismprocessing:titanium_ingot"
@@ -2701,6 +2762,12 @@
 		{
 			dependencies: ["49EFDD6CE07E0307"]
 			id: "6068024A4DF524BD"
+			rewards: [{
+				count: 16
+				id: "5AAF868B1B8CFE55"
+				item: "chemlib:bismuth_plate"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Эффективная электроника"
 			tasks: [{

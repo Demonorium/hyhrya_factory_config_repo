@@ -27,47 +27,6 @@ ServerEvents.recipes(event => {
       }
     ]
   })
-  event.custom({
-    "type": "pneumaticcraft:pressure_chamber",
-    "inputs": [
-      {
-        "type": "pneumaticcraft:stacked_item",
-        "count": 2,
-        "tag": "pneumaticcraft:wiring"
-      },
-      {
-        "item": Item.of('chemlib:niobium_oxide_dust').getId()
-      },
-    ],
-    "pressure": 1.0,
-    "results": [
-      {
-        "item": "pneumaticcraft:capacitor",
-        "count": 12
-      }
-    ]
-  })
-  event.custom({
-    "type": "pneumaticcraft:pressure_chamber",
-    "inputs": [
-      {
-        "type": "pneumaticcraft:stacked_item",
-        "count": 2,
-        "tag": "pneumaticcraft:wiring"
-      },
-      {
-        "item": Item.of('chemlib:tantalum_nugget', 9).getId()
-      },
-    ],
-    "pressure": 1.0,
-    "results": [
-      {
-        "item": "pneumaticcraft:capacitor",
-        "count": 9
-      }
-    ]
-  })
-
   event.remove({ id: 'pneumaticcraft:pressure_chamber/transistor' })
   event.custom({
     "type": "pneumaticcraft:pressure_chamber",
@@ -92,46 +51,7 @@ ServerEvents.recipes(event => {
       }
     ]
   })
-  event.custom({
-    "type": "pneumaticcraft:pressure_chamber",
-    "inputs": [
-      {
-        "type": "pneumaticcraft:stacked_item",
-        "count": 2,
-        "tag": "pneumaticcraft:wiring"
-      },
-      {
-        "item": "chemlib:germanium_dust"
-      }
-    ],
-    "pressure": 1.0,
-    "results": [
-      {
-        "item": "pneumaticcraft:transistor",
-        "count": 8
-      }
-    ]
-  })
-  event.custom({
-    "type": "pneumaticcraft:pressure_chamber",
-    "inputs": [
-      {
-        "type": "pneumaticcraft:stacked_item",
-        "count": 2,
-        "tag": "pneumaticcraft:wiring"
-      },
-      {
-        "item": "chemlib:lanthanum_phosphide_dust"
-      }
-    ],
-    "pressure": 1.0,
-    "results": [
-      {
-        "item": "pneumaticcraft:transistor",
-        "count": 16
-      }
-    ]
-  })
+  
   event.custom({
     "type": "pneumaticcraft:pressure_chamber",
     "inputs": [
@@ -152,64 +72,32 @@ ServerEvents.recipes(event => {
       }
     ]
   })
-  event.custom({
-    "type": "pneumaticcraft:pressure_chamber",
-    "inputs": [
-      {
-        "type": "pneumaticcraft:stacked_item",
-        "count": 2,
-        "item": MATERIALS.COPPER.nugget
-      },
-      {
-        "item": "chemlib:zinc_oxide_dust"
-      }
-    ],
-    "pressure": 1.0,
-    "results": [
-      {
-        "item": "pneumaticcraft:transistor",
-        "count": 1
-      }
-    ]
-  })
-  event.custom({
-    "type": "pneumaticcraft:pressure_chamber",
-    "inputs": [
-      {
-        "type": "pneumaticcraft:stacked_item",
-        "count": 2,
-        "tag": "pneumaticcraft:wiring"
-      },
-      {
-        "item": "chemlib:europium_ii_oxide_dust"
-      }
-    ],
-    "pressure": 1.0,
-    "results": [
-      {
-        "item": "pneumaticcraft:transistor",
-        "count": 4
-      }
-    ]
-  })
+
+  assembly_component(event, Item.of('chemlib:niobium_oxide_dust'), Item.of('pneumaticcraft:capacitor', 12), 4)
+  assembly_component(event, Item.of(MATERIALS.TANTALUM.nugget, 9), Item.of('pneumaticcraft:capacitor', 9), 2)
+
+  assembly_component(event, Item.of('chemlib:germanium_dust', 1), Item.of('pneumaticcraft:transistor', 8), 2)
+  assembly_component(event, Item.of('chemlib:lanthanum_phosphide_dust', 1), Item.of('pneumaticcraft:transistor', 16), 4)
+  assembly_component(event, Item.of('chemlib:zinc_oxide_dust', 1), Item.of('pneumaticcraft:transistor', 1), 1)
+  assembly_component(event, Item.of('chemlib:europium_ii_oxide_dust', 1), Item.of('pneumaticcraft:transistor', 4), 2)
 
   event.replaceInput({ id: 'pneumaticcraft:pneumatic_dynamo' }, 'pneumaticcraft:printed_circuit_board', 'pncepcb:primitive_finished_pcb')
   event.replaceInput({ id: 'pneumaticcraft:pneumatic_dynamo' }, 'pneumaticcraft:advanced_pressure_tube', 'pneumaticcraft:reinforced_pressure_tube')
   event.replaceInput({ id: 'pneumaticcraft:flux_compressor' }, 'pneumaticcraft:printed_circuit_board', 'pncepcb:primitive_finished_pcb')
   event.replaceInput({ id: 'pneumaticcraft:flux_compressor' }, 'pneumaticcraft:adadvanced_pressure_tube', 'pneumaticcraft:reinforced_pressure_tube')
 
-  assembly_laser(event, Item.of('chemlib:lanthanum_phosphide'), Item.of('pncepcb:smd_transistor', 16))
-  assembly_laser(event, Item.of('chemlib:beryllium_oxide_dust'), Item.of('pncepcb:smd_transistor', 12))
-  assembly_laser(event, Item.of(MATERIALS.BISMUTH.dust), Item.of('pncepcb:smd_transistor', 9))
-  assembly_laser(event, Item.of('chemlib:germanium_dust'), Item.of('pncepcb:smd_transistor', 9))
-  assembly_laser(event, Item.of('chemlib:tellurium_dust'), Item.of('pncepcb:smd_transistor', 4))
-  assembly_laser(event, Item.of('chemlib:phosphorus_dust'), Item.of('pncepcb:smd_transistor', 1))
-  assembly_laser(event, Item.of('chemlib:zinc_oxide_dust', 3), Item.of('pncepcb:smd_transistor', 1))
+  smd_component(event, Item.of('chemlib:lanthanum_phosphide'), Item.of('pncepcb:smd_transistor', 16))
+  smd_component(event, Item.of('chemlib:beryllium_oxide_dust'), Item.of('pncepcb:smd_transistor', 12))
+  smd_component(event, Item.of(MATERIALS.BISMUTH.dust), Item.of('pncepcb:smd_transistor', 9))
+  smd_component(event, Item.of('chemlib:germanium_dust'), Item.of('pncepcb:smd_transistor', 9))
+  smd_component(event, Item.of('chemlib:tellurium_dust'), Item.of('pncepcb:smd_transistor', 4))
+  smd_component(event, Item.of('chemlib:phosphorus_dust'), Item.of('pncepcb:smd_transistor', 1))
+  smd_component(event, Item.of('chemlib:zinc_oxide_dust', 3), Item.of('pncepcb:smd_transistor', 1))
 
-  assembly_laser(event, Item.of('chemlib:cesium_sulfate_dust'), Item.of('pncepcb:smd_capacitor', 1))
-  assembly_laser(event, Item.of('chemlib:tantalum_nugget'), Item.of('pncepcb:smd_capacitor', 1))
-  assembly_laser(event, Item.of('chemlib:niobium_nugget'), Item.of('pncepcb:smd_capacitor', 2))
-  assembly_laser(event, Item.of('chemlib:titanium_dioxide_dust'), Item.of('pncepcb:smd_capacitor', 9))
+  smd_component(event, Item.of('chemlib:cesium_sulfate_dust'), Item.of('pncepcb:smd_capacitor', 1))
+  smd_component(event, Item.of('chemlib:tantalum_nugget'), Item.of('pncepcb:smd_capacitor', 1))
+  smd_component(event, Item.of('chemlib:niobium_nugget'), Item.of('pncepcb:smd_capacitor', 2))
+  smd_component(event, Item.of('chemlib:titanium_dioxide_dust'), Item.of('pncepcb:smd_capacitor', 9))
 
   _primitive_pcb(event)
   _high_temp_pcb(event)
@@ -219,6 +107,73 @@ ServerEvents.recipes(event => {
   _high_quantum_pcb(event)
   _crystal_clear_pcb(event)
 })
+
+function smd_component(event, source, result) {
+  assembly_laser(event, source, result)
+
+  event.custom({
+      "type": "mekanism:combining",
+      "extraInput": {
+          "ingredient": {
+            "item": Item.of('thermal:rosin').getId(),
+          },
+          "amount": result.getCount()
+      },
+      "mainInput": {
+          "amount": source.getCount(),
+          "ingredient": {
+              "item": source.getId(),
+          }
+      },
+      "output": {
+          "item": result.getId(),
+          "count": result.getCount(),
+      }
+  })
+}
+
+function assembly_component(event, source, result, pressure) {
+  event.custom({
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 2,
+        "tag": "pneumaticcraft:wiring"
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "item": source.getId(),
+        "count": source.getCount()
+      }
+    ],
+    "pressure": pressure,
+    "results": [
+      {
+        "item": result.getId(),
+        "count": result.getCount()
+      }
+    ]
+  })
+
+  event.custom({
+    "type": "mekanism:compressing",
+    "chemicalInput": {
+      "amount": pressure,
+      "gas": "kubejs:phosphine"
+    },
+    "itemInput": {
+      "ingredient": {
+        "item": source.getId(),
+      },
+      "amount": source.getCount()
+    },
+    "output": {
+      "item": result.getId(),
+      "count": result.getCount()
+    }
+  })
+}
 
 function assembly_laser(event, source, result) {
   event.custom(

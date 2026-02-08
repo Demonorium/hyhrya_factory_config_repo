@@ -2,6 +2,16 @@
 
 
 ServerEvents.recipes(event => {
+
+    event.shapeless(
+      Item.of('ae2:fluix_covered_dense_cable', 4),
+
+      [
+        Item.of('ae2:fluix_glass_cable'),
+        Item.of('chemlib:samarium_iii_oxide')
+      ]
+    )
+    
     event.remove({id: 'ae2:materials/formationcore'})
     event.shaped(
       Item.of('ae2:formation_core', 4), 
