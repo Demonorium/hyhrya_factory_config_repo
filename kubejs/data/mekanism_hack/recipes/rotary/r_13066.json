@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:samarium_ii_fluoride",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:samarium_ii_fluoride",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:samarium_ii_fluoride",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:samarium_ii_fluoride",
+        "amount": 1.0
+    }
+}

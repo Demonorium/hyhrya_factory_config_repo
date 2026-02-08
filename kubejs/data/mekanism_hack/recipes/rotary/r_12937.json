@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:methylamine",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:methylamine",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:methylamine",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:methylamine",
+        "amount": 1.0
+    }
+}

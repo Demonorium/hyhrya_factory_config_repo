@@ -56,7 +56,7 @@
     "spawnFlawlessOnly": false
   },
   "wireless": {
-    "wirelessBaseCost": 8.0,
+    "wirelessBaseCost": 96.0,
     "wirelessCostMultiplier": 1.0,
     "wirelessBaseRange": 16.0,
     "wirelessBoosterRangeMultiplier": 1.0,

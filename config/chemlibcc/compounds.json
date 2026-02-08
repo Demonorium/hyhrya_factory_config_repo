@@ -4057,6 +4057,410 @@
                 "supports_boating": false,
                 "can_convert_to_source": false
             }
+        },
+        {
+            "name": "thiocyanate",
+            "display_name": "Thiocyanate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ececec",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "sulfur",
+                    "count": 1
+                },
+                {
+                    "name": "carbon",
+                    "count": 1
+                },
+                {
+                    "name": "nitrogen",
+                    "count": 1
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "thiocyanic_acid",
+            "display_name": "Thiocyanic acid",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "cfcfcf",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "hydrogen",
+                    "count": 1
+                },
+                {
+                    "name": "thiocyanate",
+                    "count": 1
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "carbonyl_sulfide",
+            "display_name": "Carbonyl sulfide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "d3d3d3",
+            "matter_state": "gas",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 1
+                },
+                {
+                    "name": "sulfur",
+                    "count": 1
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "potassium_thiocyanate",
+            "display_name": "Potassium thiocyanate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "8f8f8f",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "potassium",
+                    "count": 1
+                },
+                {
+                    "name": "thiocyanate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "methylamine",
+            "display_name": "Methylamine",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "c8c8c8",
+            "matter_state": "gas",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 1
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 3
+                },
+                {
+                    "name": "amide",
+                    "count": 1
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "ammonium_thiocyanate",
+            "display_name": "Ammonium thiocyanate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "8c867a",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "ammonium",
+                    "count": 1
+                },
+                {
+                    "name": "thiocyanate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "diamminetetrathiodanochromate",
+            "display_name": "diamminetetrathiodanochromate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "adadad",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "chromium",
+                    "count": 1
+                },
+                {
+                    "name": "ammonia",
+                    "count": 2
+                },
+                {
+                    "name": "thiocyanate",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "potassium_diamminetetrathiodanochromate",
+            "display_name": "Potassium diamminetetrathiodanochromate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "b0b0b0",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "potassium",
+                    "count": 1
+                },
+                {
+                    "name": "diamminetetrathiodanochromate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "samarium_iii_oxide",
+            "display_name": "Samarium(III) oxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "aeaf6e",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "samarium",
+                    "count": 2
+                },
+                {
+                    "name": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "samarium_iii_hydroxide",
+            "display_name": "Samarium(III) hydroxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "f4f4f4",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "samarium",
+                    "count": 1
+                },
+                {
+                    "name": "hydroxide",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "samarium_iii_sulfate",
+            "display_name": "Samarium(III) sulfate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "beb319",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "samarium",
+                    "count": 2
+                },
+                {
+                    "name": "sulfate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "samarium_iii_nitrate",
+            "display_name": "Samarium(III) nitrate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "948f6b",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "samarium",
+                    "count": 1
+                },
+                {
+                    "name": "nitrate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "samarium_iii_carbonate",
+            "display_name": "Samarium(III) carbonate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ada74e",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "samarium",
+                    "count": 2
+                },
+                {
+                    "name": "carbonate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "molybdate",
+            "display_name": "molybdate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "d3e7c6",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "molybdenum",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "samarium_iii_molybdate",
+            "display_name": "Samarium(III) molybdate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "c6cc5d",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "samarium",
+                    "count": 2
+                },
+                {
+                    "name": "molybdate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "samarium_iii_chloride",
+            "display_name": "Samarium(III) chloride",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "f5f5f5",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "samarium",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "samarium_iii_fluoride",
+            "display_name": "Samarium(III) fluoride",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ffff11",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "samarium",
+                    "count": 1
+                },
+                {
+                    "name": "fluorine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "samarium_ii_fluoride",
+            "display_name": "Samarium(II) fluoride",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "afaf5f",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "samarium",
+                    "count": 1
+                },
+                {
+                    "name": "fluorine",
+                    "count": 2
+                }
+            ]
         }
     ]
 }

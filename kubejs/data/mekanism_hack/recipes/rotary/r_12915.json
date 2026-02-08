@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:thiocyanic_acid",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:thiocyanic_acid",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:thiocyanic_acid",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:thiocyanic_acid",
+        "amount": 1.0
+    }
+}

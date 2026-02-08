@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:ammonium_thiocyanate_dust"
+        }
+    },
+    "output": {
+        "gas": "kubejs:ammonium_thiocyanate",
+        "amount": 200
+    }
+}
