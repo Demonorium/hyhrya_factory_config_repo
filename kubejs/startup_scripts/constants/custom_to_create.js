@@ -10,4 +10,9 @@ const CUSTOM_MATERIALS = [
 		color: 9726349,
 		fluid: true,
 	},
+	{
+		name: "amino_solution",
+		color: 11367740,
+		fluid: true,
+	},
 ]

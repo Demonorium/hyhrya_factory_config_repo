@@ -46,28 +46,6 @@ ServerEvents.recipes(event => {
         }
     )
 
-    event.custom({
-        "type": "pneumaticcraft:thermo_plant",
-        "air_use_multiplier": 3.0,
-        "exothermic": false,
-        "fluid_input": {
-            "type": "pneumaticcraft:fluid",
-            "amount": 1000,
-            "fluid": "mekanism:chlorine"
-        },
-        "item_input": {
-            "item": MATERIALS.PLASTIC.ingot
-        },
-        "item_output": {
-            "item": "mekanism:hdpe_pellet"
-        },
-        "pressure": 4.0,
-        "speed": 0.8,
-        "temperature": {
-            "min_temp": 573
-        }
-    })
-
     event.replaceInput({ id: 'mekanismgenerators:turbine/blade' }, 'mekanism:alloy_infused', 'mekanism_weaponry:steel_rod')
     event.replaceInput({ id: 'mekanismgenerators:turbine/blade' }, 'mekanism:ingot_steel', 'pneumaticcraft:turbine_blade')
 

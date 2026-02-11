@@ -153,14 +153,6 @@ const ITEMS_TO_REPLACE = [
 		to: "mekanism:dust_lithium",
 	},
 	{
-		from: "chemlib:beryllium_ingot",
-		to: "chemlib:beryllium_ingot",
-	},
-	{
-		from: "chemlib:beryllium_nugget",
-		to: "chemlib:beryllium_nugget",
-	},
-	{
 		from: "chemlib:magnesium_ingot",
 		to: "moremekanismprocessing:magnesium_ingot",
 	},
@@ -183,10 +175,6 @@ const ITEMS_TO_REPLACE = [
 	{
 		from: "chemlib:aluminum_dust",
 		to: "moremekanismprocessing:dust_aluminum",
-	},
-	{
-		from: "chemlib:calcium_nugget",
-		to: "chemlib:calcium_nugget",
 	},
 	{
 		from: "chemlib:titanium_ingot",
@@ -245,20 +233,12 @@ const ITEMS_TO_REPLACE = [
 		to: "moremekanismprocessing:dust_zinc",
 	},
 	{
-		from: "chemlib:yttrium_nugget",
-		to: "chemlib:yttrium_nugget",
+		from: "chemlib:strontium_nugget",
+		to: "chemlib:strontium_nugget",
 	},
 	{
-		from: "chemlib:ruthenium_nugget",
-		to: "chemlib:ruthenium_nugget",
-	},
-	{
-		from: "chemlib:rhodium_nugget",
-		to: "chemlib:rhodium_nugget",
-	},
-	{
-		from: "chemlib:palladium_nugget",
-		to: "chemlib:palladium_nugget",
+		from: "chemlib:palladium_dust",
+		to: "chemlib:palladium_dust",
 	},
 	{
 		from: "superbwarfare:silver_ingot",
@@ -281,10 +261,6 @@ const ITEMS_TO_REPLACE = [
 		to: "thermal:silver_nugget",
 	},
 	{
-		from: "chemlib:silver_nugget",
-		to: "thermal:silver_nugget",
-	},
-	{
 		from: "superbwarfare:silver_block",
 		to: "thermal:silver_block",
 	},
@@ -299,10 +275,6 @@ const ITEMS_TO_REPLACE = [
 	{
 		from: "chemlib:silver_dust",
 		to: "thermal:silver_dust",
-	},
-	{
-		from: "chemlib:cadmium_nugget",
-		to: "chemlib:cadmium_nugget",
 	},
 	{
 		from: "thermal:tin_ingot",
@@ -341,6 +313,22 @@ const ITEMS_TO_REPLACE = [
 		to: "mekanism:dust_tin",
 	},
 	{
+		from: "chemlib:holmium_dust",
+		to: "chemlib:holmium_dust",
+	},
+	{
+		from: "chemlib:lutetium_dust",
+		to: "chemlib:lutetium_dust",
+	},
+	{
+		from: "chemlib:hafnium_dust",
+		to: "chemlib:hafnium_dust",
+	},
+	{
+		from: "chemlib:tantalum_dust",
+		to: "chemlib:tantalum_dust",
+	},
+	{
 		from: "superbwarfare:tungsten_ingot",
 		to: "moremekanismprocessing:tungsten_ingot",
 	},
@@ -359,6 +347,14 @@ const ITEMS_TO_REPLACE = [
 	{
 		from: "chemlib:tungsten_dust",
 		to: "moremekanismprocessing:dust_tungsten",
+	},
+	{
+		from: "chemlib:tungsten_dust",
+		to: "moremekanismprocessing:dust_tungsten",
+	},
+	{
+		from: "chemlib:rhenium_dust",
+		to: "chemlib:rhenium_dust",
 	},
 	{
 		from: "chemlib:osmium_ingot",
@@ -459,14 +455,6 @@ const ITEMS_TO_REPLACE = [
 	{
 		from: "chemlib:bismuth_dust",
 		to: "moremekanismprocessing:dust_bismuth",
-	},
-	{
-		from: "chemlib:radium_metal_block",
-		to: "chemlib:radium_metal_block",
-	},
-	{
-		from: "chemlib:actinium_dust",
-		to: "chemlib:actinium_dust",
 	},
 	{
 		from: "chemlib:thorium_ingot",

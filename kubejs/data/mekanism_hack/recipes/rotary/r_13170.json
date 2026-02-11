@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "fluid": "kubejs:1_2_dichloroethane",
+        "amount": 1.0
+    },
+    "fluidOutput": {
+        "fluid": "kubejs:1_2_dichloroethane",
+        "amount": 1.0
+    },
+    "gasInput": {
+        "gas": "kubejs:1_2_dichloroethane",
+        "amount": 1.0
+    },
+    "gasOutput": {
+        "gas": "kubejs:1_2_dichloroethane",
+        "amount": 1.0
+    }
+}

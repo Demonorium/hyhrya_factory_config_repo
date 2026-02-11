@@ -4461,6 +4461,694 @@
                     "count": 2
                 }
             ]
+        },
+        {
+            "name": "ethylene_oxide",
+            "display_name": "Ethylene oxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e3e3e3",
+            "matter_state": "gas",
+            "components": [
+                {
+                    "name": "ethylene",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 1
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "1_2_dichloroethane",
+            "display_name": "1,2-Dichloroethane",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e7e7e7",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "ethylene",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 2
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "vinyl_chloride",
+            "display_name": "Vinyl chloride",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "cbcbcb",
+            "matter_state": "gas",
+            "components": [
+                {
+                    "name": "ethylene",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 1
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "ethylene_glycol",
+            "display_name": "Ethylene glycol",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ddd8e8",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "ethylene",
+                    "count": 1
+                },
+                {
+                    "name": "hydroxide",
+                    "count": 2
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "acrylonitrile",
+            "display_name": "Acrylonitrile",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "ececec",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 3
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 3
+                },
+                {
+                    "name": "nitrogen",
+                    "count": 1
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "styrene",
+            "display_name": "Styrene",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "c6c1a7",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 8
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 8
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "chloroethane",
+            "display_name": "Chloroethane",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "b3beb2",
+            "matter_state": "gas",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 2
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 5
+                },
+                {
+                    "name": "chlorine",
+                    "count": 1
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "chloroprene",
+            "display_name": "Chloroprene",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "cfcfcf",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 4
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 5
+                },
+                {
+                    "name": "chlorine",
+                    "count": 1
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "glycerol",
+            "display_name": "glycerol",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "bababa",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 3
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 5
+                },
+                {
+                    "name": "hydroxide",
+                    "count": 3
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "propylene",
+            "display_name": "Propylene",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "b5afb3",
+            "matter_state": "gas",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 3
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 6
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "methyl_group",
+            "display_name": "Methyl group",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "dfdfdf",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 1
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 3
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "acetone",
+            "display_name": "Acetone",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "b4b1a2",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "methyl_group",
+                    "count": 2
+                },
+                {
+                    "name": "carbon_monoxide",
+                    "count": 1
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "butadiene",
+            "display_name": "Butadiene",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "b3dfda",
+            "matter_state": "gas",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 4
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 6
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
+        },
+        {
+            "name": "monosodium_glutamate",
+            "display_name": "Monosodium glutamate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e8f1ed",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 5
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 8
+                },
+                {
+                    "name": "nitrogen",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 4
+                },
+                {
+                    "name": "sodium",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "chromium_iii_boride",
+            "display_name": "Chromium(III) boride",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "e0f5f7",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "chromium",
+                    "count": 1
+                },
+                {
+                    "name": "boron",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "chromium_ii_chloride",
+            "display_name": "Chromium(II) chloride",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "151515",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "chromium",
+                    "count": 1
+                },
+                {
+                    "name": "chlorine",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "chromium_ii_bromide",
+            "display_name": "Chromium(II) bromide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "cbd2d5",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "chromium",
+                    "count": 1
+                },
+                {
+                    "name": "bromine",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "chromium_iii_bromide",
+            "display_name": "Chromium(III) bromide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "d1b57d",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "chromium",
+                    "count": 1
+                },
+                {
+                    "name": "bromine",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "chromium_ii_iodide",
+            "display_name": "Chromium(II) iodide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "424a4c",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "chromium",
+                    "count": 1
+                },
+                {
+                    "name": "iodine",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "chromium_iii_hydroxide",
+            "display_name": "Chromium(III) hydroxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "494d59",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "chromium",
+                    "count": 1
+                },
+                {
+                    "name": "hydroxide",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "sodium_chromate",
+            "display_name": "Sodium chromate",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "eed40e",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "sodium",
+                    "count": 2
+                },
+                {
+                    "name": "chromium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "chromium_iv_oxide",
+            "display_name": "Chromium(IV) oxide",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "6a6a6a",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "chromium",
+                    "count": 1
+                },
+                {
+                    "name": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "iron_ii_chromite",
+            "display_name": "Iron(II) chromite",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "848484",
+            "matter_state": "solid",
+            "components": [
+                {
+                    "name": "iron",
+                    "count": 1
+                },
+                {
+                    "name": "chromium_iv_oxide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "ethylbenzene",
+            "display_name": "Ethylbenzene",
+            "has_item": false,
+            "description": "This chemical's uses are unknown at this time.",
+            "color": "8495a2",
+            "matter_state": "liquid",
+            "components": [
+                {
+                    "name": "carbon",
+                    "count": 8
+                },
+                {
+                    "name": "hydrogen",
+                    "count": 10
+                }
+            ],
+            "fluid_properties": {
+                "density": 1000,
+                "light_level": 0,
+                "viscosity": 1000,
+                "temperature": 300,
+                "motion_scale": 0.014,
+                "fall_distance_modifier": 0,
+                "path_type": "water",
+                "push_entity": false,
+                "can_swim": false,
+                "can_drown": false,
+                "can_hydrate": false,
+                "can_extinguish": false,
+                "supports_boating": false,
+                "can_convert_to_source": false
+            }
         }
     ]
 }

@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:ethylene_oxide",
+        "amount": 100.0
+    },
+    "output": {
+        "item": "chemlib:ethylene_oxide",
+        "count": 1.0
+    }
+}

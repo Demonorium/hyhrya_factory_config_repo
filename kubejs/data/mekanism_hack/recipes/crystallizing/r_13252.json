@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crystallizing",
+    "chemicalType": "gas",
+    "input": {
+        "gas": "kubejs:chloroprene",
+        "amount": 100
+    },
+    "output": {
+        "item": "minecraft:string",
+        "count": 12.0
+    }
+}

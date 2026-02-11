@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:styrene"
+        }
+    },
+    "output": {
+        "gas": "kubejs:styrene",
+        "amount": 200
+    }
+}
