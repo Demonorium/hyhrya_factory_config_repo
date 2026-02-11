@@ -165695,14 +165695,14 @@ const CUSTOM_RECIPES = [
 		},
 		input2: {
 			fluid: "kubejs:styrene",
-			amount: 2.0,
+			amount: 200.0,
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 3.5,
 		time: 100,
 		fluid_output: {
 			fluid: "pneumaticcraft:plastic",
-			amount: 200.0,
+			amount: 300.0,
 		},
 		item_output: {
 			item: "mekanismadditions:white_plastic",
@@ -165875,6 +165875,33 @@ const CUSTOM_RECIPES = [
 		item_output: {
 			item: "chemlib:potassium_carbonate_dust",
 			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 300,
+			fluid: "kubejs:ethylene_glycol",
+		},
+		gasInput: {
+			amount: 1000,
+			gas: "mekanism:oxygen",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:ethylbenzene",
+			},
+		},
+		gasOutput: {
+			amount: 300,
+			gas: "kubejs:methanol",
+		},
+		itemOutput: {
+			count: 6,
+			item: "mekanism:hdpe_pellet",
 		},
 	},
 	{
