@@ -57948,7 +57948,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:heat_frame_cooling",
 		input: {
-			fluid: "pneumaticcraft:lpg",
+			fluid: "kubejs:propane",
 			amount: 1000.0,
 			type: "pneumaticcraft:fluid",
 		},
@@ -57971,8 +57971,18 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:stacked_item",
 		},
 		fluid_output: {
-			fluid: "pneumaticcraft:lpg",
+			fluid: "kubejs:propane",
 			amount: 100.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:fuel_quality",
+		air_per_bucket: 2328671,
+		burn_rate: 2.462256606073192,
+		fluid: {
+			type: "pneumaticcraft:fluid",
+			amount: 1000,
+			fluid: "kubejs:propane",
 		},
 	},
 	{
@@ -57982,7 +57992,7 @@ const CUSTOM_RECIPES = [
 			count: 1.0,
 		},
 		result: {
-			fluid: "pneumaticcraft:lpg",
+			fluid: "kubejs:propane",
 			amount: 100.0,
 		},
 		energy: 855,
@@ -57990,7 +58000,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "thermal:chiller",
 		ingredient: {
-			fluid: "pneumaticcraft:lpg",
+			fluid: "kubejs:propane",
 			amount: 100,
 		},
 		result: [
@@ -98445,7 +98455,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:fluid_mixer",
 		input1: {
-			fluid: "pneumaticcraft:lpg",
+			fluid: "kubejs:propane",
 			amount: 100.0,
 			type: "pneumaticcraft:fluid",
 		},
@@ -123577,7 +123587,7 @@ const CUSTOM_RECIPES = [
 			max_temp: 504.63,
 		},
 		fluid_input: {
-			fluid: "pneumaticcraft:lpg",
+			fluid: "kubejs:propane",
 			amount: 100.0,
 			type: "pneumaticcraft:fluid",
 		},
@@ -126690,7 +126700,7 @@ const CUSTOM_RECIPES = [
 			max_temp: 504.63,
 		},
 		fluid_input: {
-			fluid: "pneumaticcraft:lpg",
+			fluid: "kubejs:propane",
 			amount: 300.0,
 			type: "pneumaticcraft:fluid",
 		},
@@ -126843,7 +126853,7 @@ const CUSTOM_RECIPES = [
 			max_temp: 273.15,
 		},
 		fluid_input: {
-			fluid: "pneumaticcraft:lpg",
+			fluid: "kubejs:propane",
 			amount: 300.0,
 			type: "pneumaticcraft:fluid",
 		},
@@ -165713,19 +165723,38 @@ const CUSTOM_RECIPES = [
 		type: "pneumaticcraft:fluid_mixer",
 		input1: {
 			fluid: "kubejs:ethylene_oxide",
-			amount: 300.0,
+			amount: 100.0,
 			type: "pneumaticcraft:fluid",
 		},
 		input2: {
 			fluid: "minecraft:water",
-			amount: 300.0,
+			amount: 100.0,
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 2.0,
-		time: 100,
+		time: 20,
 		fluid_output: {
 			fluid: "kubejs:ethylene_glycol",
-			amount: 600.0,
+			amount: 200.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:fluid_mixer",
+		input1: {
+			fluid: "mekanism:ethene",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		input2: {
+			fluid: "mekanism:chlorine",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		pressure: 2.0,
+		time: 20,
+		fluid_output: {
+			fluid: "kubejs:1_2_dichloroethane",
+			amount: 200.0,
 		},
 	},
 	{
@@ -165882,6 +165911,97 @@ const CUSTOM_RECIPES = [
 		duration: 200,
 		energyRequired: 400,
 		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:1_2_dichloroethane",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "mekanism:hydrogen_chloride",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:acetylene",
+			},
+		},
+		itemOutput: {
+			count: 2,
+			item: "mekanism:hdpe_pellet",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:1_2_dichloroethane",
+		},
+		gasInput: {
+			amount: 200,
+			gas: "mekanism:chlorine",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:ethylene",
+			},
+		},
+		gasOutput: {
+			amount: 100,
+			gas: "mekanism:hydrogen_chloride",
+		},
+		itemOutput: {
+			count: 2,
+			item: "mekanism:hdpe_pellet",
+		},
+	},
+	{
+		type: "pneumaticcraft:fluid_mixer",
+		input1: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		input2: {
+			fluid: "kubejs:acetylene",
+			amount: 1000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		pressure: 4.5,
+		time: 100,
+		item_output: {
+			item: "pneumaticcraft:plastic",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1,
+		temperature: {
+			min_temp: 473,
+		},
+		fluid_input: {
+			fluid: "kubejs:1_2_dichloroethane",
+			amount: 2000.0,
+			type: "pneumaticcraft:fluid",
+		},
+		fluid_output: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 1.0,
+		},
+		item_output: {
+			item: "pneumaticcraft:plastic",
+			count: 1.0,
+		},
+		pressure: 4.5,
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
 			amount: 300,
 			fluid: "kubejs:ethylene_glycol",
 		},
@@ -165902,6 +166022,33 @@ const CUSTOM_RECIPES = [
 		itemOutput: {
 			count: 6,
 			item: "mekanism:hdpe_pellet",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:benzene",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "kubejs:propylene",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:phosphoric_acid_dust",
+			},
+		},
+		gasOutput: {
+			amount: 300,
+			gas: "kubejs:acetone",
+		},
+		itemOutput: {
+			count: 1,
+			item: "chemlib:phosphoric_acid_dust",
 		},
 	},
 	{
@@ -177849,6 +177996,29 @@ const CUSTOM_RECIPES = [
 			},
 			{
 				fluid: "pneumaticcraft:gasoline",
+				amount: 50.0,
+			},
+		],
+		energy: 4000,
+		experience: 0.2,
+	},
+	{
+		type: "thermal:refinery",
+		ingredient: {
+			fluid: "pneumaticcraft:lpg",
+			amount: 300.0,
+		},
+		result: [
+			{
+				item: "chemlib:methane",
+				count: 1.0,
+			},
+			{
+				fluid: "kubejs:propane",
+				amount: 150.0,
+			},
+			{
+				fluid: "kubejs:propylene",
 				amount: 50.0,
 			},
 		],
