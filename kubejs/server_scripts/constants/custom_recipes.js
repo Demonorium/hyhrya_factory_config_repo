@@ -165735,26 +165735,81 @@ const CUSTOM_RECIPES = [
 		time: 20,
 		fluid_output: {
 			fluid: "kubejs:ethylene_glycol",
-			amount: 200.0,
+			amount: 100.0,
+		},
+	},
+	{
+		type: "mekanism:chemical_infusing",
+		leftInput: {
+			gas: "mekanism:ethene",
+			amount: 1.0,
+		},
+		output: {
+			gas: "kubejs:1_2_dichloroethane",
+			amount: 1.0,
+		},
+		rightInput: {
+			gas: "mekanism:chlorine",
+			amount: 1.0,
 		},
 	},
 	{
 		type: "pneumaticcraft:fluid_mixer",
 		input1: {
-			fluid: "mekanism:ethene",
+			fluid: "chemlib:vinyl_chloride",
 			amount: 100.0,
 			type: "pneumaticcraft:fluid",
 		},
 		input2: {
-			fluid: "mekanism:chlorine",
+			fluid: "kubejs:styrene",
 			amount: 100.0,
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 2.0,
 		time: 20,
-		fluid_output: {
-			fluid: "kubejs:1_2_dichloroethane",
+		item_output: {
+			item: "chemlib:polyvinyl_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:compressing",
+		chemicalInput: {
+			gas: "kubejs:styrene",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:polyvinyl_chloride_dust",
+			},
+		},
+		output: {
+			item: "chemlib:polyvinyl_chloride_plate",
+			count: 1.0,
+		},
+	},
+	{
+		type: "pneumaticcraft:fluid_mixer",
+		input1: {
+			fluid: "kubejs:butadiene",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		input2: {
+			fluid: "mekanism:chlorine",
 			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		pressure: 3.0,
+		time: 40,
+		fluid_output: {
+			fluid: "kubejs:chloroprene",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:hydrochloric_acid",
+			count: 1.0,
 		},
 	},
 	{
@@ -165822,7 +165877,7 @@ const CUSTOM_RECIPES = [
 		time: 20,
 		fluid_output: {
 			fluid: "kubejs:ethylbenzene",
-			amount: 200.0,
+			amount: 100.0,
 		},
 	},
 	{
@@ -166050,6 +166105,25 @@ const CUSTOM_RECIPES = [
 			count: 1,
 			item: "chemlib:phosphoric_acid_dust",
 		},
+	},
+	{
+		type: "thermal:refinery",
+		ingredient: {
+			fluid: "kubejs:propane",
+			amount: 300.0,
+		},
+		result: [
+			{
+				fluid: "kubejs:propylene",
+				amount: 100.0,
+			},
+			{
+				fluid: "mekanism:hydrogen",
+				amount: 200.0,
+			},
+		],
+		energy: 4000,
+		experience: 0.2,
 	},
 	{
 		type: "mekanism:dissolution",

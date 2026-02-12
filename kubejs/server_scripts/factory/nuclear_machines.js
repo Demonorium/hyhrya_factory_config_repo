@@ -19,6 +19,10 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.replaceInput({id: "mekanism:solar_neutron_activator"}, "mekanism:alloy_reinforced", MATERIALS.CERIUM.plate)
+    event.replaceInput({id: "mekanism:solar_neutron_activator"}, "mekanism:ingot_bronze", MATERIALS.PALLADIUM.plate)
+    event.replaceInput({id: "mekanism:solar_neutron_activator"}, "mekanism:elite_control_circuit", 'mekanism:ultimate_control_circuit')
+    event.replaceInput({id: "mekanism:solar_neutron_activator"}, "mekanism:hdpe_sheet", 'mekanismgenerators:reactor_glass')
     event.remove({ id: 'mekanismgenerators:fission_reactor/control_rod_assembly' })
     event.shaped(
         Item.of('mekanismgenerators:control_rod_assembly', 1),
