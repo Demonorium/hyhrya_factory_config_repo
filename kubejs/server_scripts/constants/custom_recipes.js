@@ -166439,6 +166439,33 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 400,
+		fluidInput: {
+			amount: 200,
+			fluid: "kubejs:amino_solution",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "mekanism:water_vapor",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism:salt",
+			},
+		},
+		gasOutput: {
+			amount: 200,
+			gas: "kubejs:monochloramine",
+		},
+		itemOutput: {
+			count: 10,
+			item: "chemlib:acetic_acid",
+		},
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: false,
 		speed: 1.0,
