@@ -167914,7 +167914,7 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 			{
-				item: "chemlib:molybdenum",
+				item: "chemlib:molybdenum_dust",
 				count: 1.0,
 			},
 		],
@@ -167943,7 +167943,7 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 			{
-				item: "chemlib:molybdenum",
+				item: "chemlib:molybdenum_dust",
 				count: 1.0,
 			},
 		],
