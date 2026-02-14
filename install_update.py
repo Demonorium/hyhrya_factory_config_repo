@@ -48,11 +48,6 @@ try:
         with open('old_version.txt', mode='r', encoding='utf-8') as f:
             old_version = int(f.readline())
 
-    version = "error"
-    if os.path.exists('modpack_version.txt'):
-        with open('modpack_version.txt', mode='r', encoding='utf-8') as f:
-            version = int(f.readline())
-
     def rm_if_ex_copy(p):
         if os.path.exists(p):
             print('rm ', p)
@@ -137,6 +132,12 @@ try:
     print('cleaning...')
     shutil.rmtree('./update')
     print('success')
+
+    version = "error"
+    if os.path.exists('modpack_version.txt'):
+        with open('modpack_version.txt', mode='r', encoding='utf-8') as f:
+            version = int(f.readline())
+
     send_message_to_hook('install_notify_channel', 'Успешная установка сборки на сервер! Обновление с версии ' + str(old_version) + " на версию " + str(version) + " :hyhrya:")
 
     print('update check...')
