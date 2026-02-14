@@ -137,7 +137,7 @@ try:
     print('cleaning...')
     shutil.rmtree('./update')
     print('success')
-    send_message_to_hook('install_notify_channel', 'Успешная установка сборки на сервер ' + str(old_version) + " -> " + str(version) + " :hyhrya:")
+    send_message_to_hook('install_notify_channel', 'Успешная установка сборки на сервер обновление с версии' + str(old_version) + " на версию " + str(version) + " :hyhrya:")
 
     print('update check...')
 
