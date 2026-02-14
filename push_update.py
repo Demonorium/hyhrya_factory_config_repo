@@ -3,6 +3,7 @@ import urllib.error as error
 import urllib.request
 import json
 import os
+from datetime import datetime, timedelta
 
 hooks = {}
 if os.path.exists('webhooks.json'):
@@ -18,7 +19,7 @@ def send_message_to_hook(hook, message):
     try:
         json_data = {
             'text': message,
-            'username': "Скрипт установки"
+            'username': "Скрипт публикации"
         }
 
         req = urllib.request.Request(hook_url, data=json.dumps(json_data).encode('utf-8'), method='POST')
@@ -32,6 +33,22 @@ def send_message_to_hook(hook, message):
 
 with open('modpack_version.txt', mode='r', encoding='utf-8') as f:
     version = int(f.readline())
+
+if os.path.exists('changelogs/' + str(version) + '.txt'):
+    text = [
+        "Опубликована новая версия: " + str(version) + "!\n\n"
+    ]
+    with open('changelogs/' + str(version) + '.txt', mode='r', encoding='utf-8') as f:
+        text.extend(f.readlines())
+
+        # Получаем текущее время
+    current_time = datetime.now()
+
+    # Добавляем 5 минут
+    new_time = current_time + timedelta(minutes=5)
+    text.append('Обновление станет доступно для установки после ' + str(new_time) + '\n')
+    send_message_to_hook('install_notify_channel', ''.join(text))
+    
 version += 1
 with open('modpack_version.txt', mode='w', encoding='utf-8') as f:
     f.write(str(version))
