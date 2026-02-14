@@ -77892,7 +77892,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 2317,
+		time: 50,
 		fluid_output: {
 			fluid: "mekanism:hydrogen",
 			amount: 200.0,
@@ -77957,7 +77957,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1258,
+		time: 40,
 		fluid_output: {
 			fluid: "kubejs:monochloramine",
 			amount: 100.0,
@@ -79570,7 +79570,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 4198,
+		time: 70,
 		fluid_output: {
 			fluid: "mekanism:hydrogen_chloride",
 			amount: 200.0,
@@ -79962,7 +79962,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1235,
+		time: 60,
 		fluid_output: {
 			fluid: "kubejs:monochloramine",
 			amount: 100.0,
@@ -85594,7 +85594,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1411,
+		time: 60,
 		fluid_output: {
 			fluid: "minecraft:water",
 			amount: 100.0,
@@ -85911,7 +85911,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 43343,
+		time: 110,
 		fluid_output: {
 			fluid: "kubejs:sulfur",
 			amount: 400.0,
@@ -91249,7 +91249,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 2149,
+		time: 40,
 		fluid_output: {
 			fluid: "kubejs:carbon_monoxide",
 			amount: 100.0,
@@ -91553,7 +91553,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1715,
+		time: 60,
 		fluid_output: {
 			fluid: "kubejs:hydrogen_bromide",
 			amount: 200.0,
@@ -91736,7 +91736,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1703,
+		time: 40,
 		fluid_output: {
 			fluid: "kubejs:hydrogen_bromide",
 			amount: 100.0,
@@ -96412,7 +96412,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1674,
+		time: 140,
 		fluid_output: {
 			fluid: "mekanism:hydrogen",
 			amount: 600.0,
@@ -96834,7 +96834,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 2530,
+		time: 60,
 		fluid_output: {
 			fluid: "mekanism:hydrogen",
 			amount: 300.0,
@@ -97081,7 +97081,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1832,
+		time: 240,
 		fluid_output: {
 			fluid: "mekanism:hydrogen",
 			amount: 1600.0,
@@ -98126,7 +98126,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 266,
+		time: 100,
 		fluid_output: {
 			fluid: "mekanism:hydrogen_chloride",
 			amount: 400.0,
@@ -98149,7 +98149,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 256,
+		time: 100,
 		fluid_output: {
 			fluid: "mekanism:chlorine",
 			amount: 400.0,
@@ -98225,7 +98225,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1548,
+		time: 190,
 		fluid_output: {
 			fluid: "mekanism:hydrogen_chloride",
 			amount: 600.0,
@@ -98335,7 +98335,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 247,
+		time: 39,
 		fluid_output: {
 			fluid: "minecraft:water",
 			amount: 100.0,
@@ -98465,7 +98465,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 787,
+		time: 200,
 		fluid_output: {
 			fluid: "mekanism:hydrogen_chloride",
 			amount: 800.0,
@@ -98544,7 +98544,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 737,
+		time: 80,
 		fluid_output: {
 			fluid: "minecraft:water",
 			amount: 200.0,
@@ -98686,7 +98686,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 245,
+		time: 40,
 		fluid_output: {
 			fluid: "mekanismelements:nitrogen_dioxide",
 			amount: 100.0,
@@ -98799,7 +98799,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 6528,
+		time: 139,
 		fluid_output: {
 			fluid: "mekanismelements:nitrogen",
 			amount: 400.0,
@@ -99728,7 +99728,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 8638,
+		time: 99,
 		fluid_output: {
 			fluid: "mekanismelements:nitrogen",
 			amount: 100.0,
@@ -99867,7 +99867,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 2169,
+		time: 40,
 		fluid_output: {
 			fluid: "mekanismelements:nitrogen",
 			amount: 100.0,
@@ -99943,7 +99943,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 2647,
+		time: 98,
 		fluid_output: {
 			fluid: "mekanismelements:nitrogen",
 			amount: 400.0,
@@ -101008,7 +101008,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 2190,
+		time: 60,
 		fluid_output: {
 			fluid: "mekanismelements:nitrogen",
 			amount: 200.0,
@@ -102688,7 +102688,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 750,
+		time: 40,
 		fluid_output: {
 			fluid: "minecraft:water",
 			amount: 100.0,
@@ -103162,7 +103162,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1162,
+		time: 100,
 		fluid_output: {
 			fluid: "minecraft:water",
 			amount: 300.0,
@@ -108298,7 +108298,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 4565,
+		time: 80,
 		fluid_output: {
 			fluid: "minecraft:water",
 			amount: 200.0,
@@ -108361,7 +108361,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 6107,
+		time: 120,
 		fluid_output: {
 			fluid: "minecraft:water",
 			amount: 400.0,
@@ -108384,7 +108384,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 61484,
+		time: 140,
 		fluid_output: {
 			fluid: "kubejs:sulfur",
 			amount: 100.0,
@@ -108670,7 +108670,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 43917,
+		time: 100,
 		fluid_output: {
 			fluid: "kubejs:sulfur",
 			amount: 100.0,
@@ -108746,7 +108746,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 4.5,
-		time: 717,
+		time: 55,
 		fluid_output: {
 			fluid: "kubejs:carbon_dioxide",
 			amount: 200.0,
@@ -108851,7 +108851,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1542,
+		time: 80,
 		fluid_output: {
 			fluid: "minecraft:water",
 			amount: 200.0,
@@ -109253,7 +109253,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 6092,
+		time: 109,
 		fluid_output: {
 			fluid: "minecraft:water",
 			amount: 300.0,
@@ -109433,7 +109433,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1572,
+		time: 119,
 		fluid_output: {
 			fluid: "minecraft:water",
 			amount: 400.0,
@@ -109456,7 +109456,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1647,
+		time: 61,
 		fluid_output: {
 			fluid: "mekanismelements:nitric_acid",
 			amount: 200.0,
@@ -109721,7 +109721,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1518,
+		time: 80,
 		fluid_output: {
 			fluid: "mekanism:sulfuric_acid",
 			amount: 200.0,
@@ -110060,7 +110060,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1657,
+		time: 100,
 		fluid_output: {
 			fluid: "mekanism:chlorine",
 			amount: 400.0,
@@ -110204,7 +110204,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1590,
+		time: 100,
 		fluid_output: {
 			fluid: "mekanismelements:bromine",
 			amount: 400.0,
@@ -110388,7 +110388,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 442,
+		time: 80,
 		fluid_output: {
 			fluid: "mekanism:chlorine",
 			amount: 400.0,
@@ -121160,7 +121160,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 5927,
+		time: 79,
 		fluid_output: {
 			fluid: "mekanismelements:nitric_oxide",
 			amount: 100.0,
@@ -121248,7 +121248,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 2106,
+		time: 40,
 		fluid_output: {
 			fluid: "mekanism:hydrogen_chloride",
 			amount: 100.0,
@@ -121706,7 +121706,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 2401,
+		time: 40,
 		fluid_output: {
 			fluid: "mekanism:hydrofluoric_acid",
 			amount: 100.0,
@@ -121729,7 +121729,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 10517,
+		time: 140,
 		fluid_output: {
 			fluid: "kubejs:ethane",
 			amount: 100.0,
@@ -128941,7 +128941,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 515,
+		time: 80,
 		fluid_output: {
 			fluid: "mekanism:hydrofluoric_acid",
 			amount: 400.0,
@@ -136221,7 +136221,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1771,
+		time: 178,
 		fluid_output: {
 			fluid: "mekanismelements:nitrogen_dioxide",
 			amount: 800.0,
@@ -137495,7 +137495,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1798,
+		time: 99,
 		fluid_output: {
 			fluid: "mekanism:sulfur_dioxide",
 			amount: 400.0,
@@ -139305,7 +139305,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 3.0,
-		time: 1545,
+		time: 37,
 		fluid_output: {
 			fluid: "minecraft:water",
 			amount: 100.0,
@@ -140775,7 +140775,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1483,
+		time: 40,
 		fluid_output: {
 			fluid: "minecraft:water",
 			amount: 100.0,
@@ -142467,7 +142467,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1483,
+		time: 50,
 		fluid_output: {
 			fluid: "minecraft:water",
 			amount: 100.0,
@@ -142490,7 +142490,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 22222,
+		time: 79,
 		fluid_output: {
 			fluid: "kubejs:urea",
 			amount: 100.0,
@@ -145032,7 +145032,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 2168,
+		time: 50,
 		fluid_output: {
 			fluid: "mekanism:hydrogen_chloride",
 			amount: 100.0,
@@ -147365,7 +147365,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 471,
+		time: 80,
 		fluid_output: {
 			fluid: "mekanism:hydrogen_chloride",
 			amount: 400.0,
@@ -147837,7 +147837,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 2474,
+		time: 40,
 		fluid_output: {
 			fluid: "mekanism:hydrogen_chloride",
 			amount: 100.0,
@@ -148071,7 +148071,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1586,
+		time: 80,
 		fluid_output: {
 			fluid: "mekanism:hydrogen_chloride",
 			amount: 400.0,
@@ -152858,7 +152858,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1588,
+		time: 50,
 		fluid_output: {
 			fluid: "kubejs:hydrogen_sulfide",
 			amount: 100.0,
@@ -152933,7 +152933,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 1.0,
-		time: 1447,
+		time: 40,
 		fluid_output: {
 			fluid: "kubejs:acetic_acid",
 			amount: 100.0,
@@ -159276,7 +159276,7 @@ const CUSTOM_RECIPES = [
 			type: "pneumaticcraft:fluid",
 		},
 		pressure: 2.5,
-		time: 1822,
+		time: 58,
 		fluid_output: {
 			fluid: "mekanismelements:bromine",
 			amount: 100.0,

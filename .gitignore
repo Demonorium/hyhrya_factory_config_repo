@@ -30,3 +30,4 @@ modpack_settings.json
 old_version.txt
 config/jei/world/**
 config/inventoryprofilesnext/**
+webhooks.json
