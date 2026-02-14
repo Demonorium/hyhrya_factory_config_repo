@@ -166259,7 +166259,7 @@ const CUSTOM_RECIPES = [
 		},
 		item_input: {
 			item: "chemlib:acrylonitrile",
-			count: 200.0,
+			count: 2.0,
 			type: "pneumaticcraft:stacked_item",
 		},
 		item_output: {
