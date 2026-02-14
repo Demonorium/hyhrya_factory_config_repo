@@ -34,11 +34,11 @@ def send_message_to_hook(hook, message):
 with open('modpack_version.txt', mode='r', encoding='utf-8') as f:
     version = int(f.readline())
 
-if os.path.exists('changelogs/' + str(version) + '.txt'):
+if os.path.exists('changelogs/' + str(version) + '.md'):
     text = [
         "Опубликована новая версия: " + str(version) + "!\n\n"
     ]
-    with open('changelogs/' + str(version) + '.txt', mode='r', encoding='utf-8') as f:
+    with open('changelogs/' + str(version) + '.md', mode='r', encoding='utf-8') as f:
         text.extend(f.readlines())
 
         # Получаем текущее время
@@ -46,7 +46,7 @@ if os.path.exists('changelogs/' + str(version) + '.txt'):
 
     # Добавляем 5 минут
     new_time = current_time + timedelta(minutes=5)
-    text.append('Обновление станет доступно для установки после ' + str(new_time) + '\n')
+    text.append('\n\n*Обновление станет доступно для установки после ' + new_time.strftime("%d.%m.%Y %H:%M") + '*')
     send_message_to_hook('install_notify_channel', ''.join(text))
     
 version += 1
