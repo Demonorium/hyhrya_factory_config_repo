@@ -36,7 +36,7 @@ with open('modpack_version.txt', mode='r', encoding='utf-8') as f:
 
 if os.path.exists('changelogs/' + str(version) + '.md'):
     text = [
-        "Опубликована новая версия: " + str(version) + "!\n\n"
+        "Опубликована новая версия: " + str(version) + "\n\n"
     ]
     with open('changelogs/' + str(version) + '.md', mode='r', encoding='utf-8') as f:
         text.extend(f.readlines())

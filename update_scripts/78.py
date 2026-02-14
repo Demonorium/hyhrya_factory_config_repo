@@ -13,12 +13,12 @@ if os.path.exists("resourcepacks/CustomMusic.zip"):
     os.remove('resourcepacks/CustomMusic.zip')
 
 try:
-    urllib.request.urlretrieve('http://demonorium.ru/files/share/CustomMusic.zip', './resourcepacks/CustomMusic.zip')
+    urllib.request.urlretrieve('https://demonorium.ru/files/share/CustomMusic.zip', './resourcepacks/CustomMusic.zip')
     print("Успешная загрузка файла ресурспака")
     success = True
 except:
     print("Ошибка при скачивании файла!")
-    print('Скачайте ресурспак http://demonorium.ru/files/share/CustomMusic.zip врунчую. Убедитесь, что заходите по http а не https, поместите его в папку resourcepacks')
+    print('Скачайте ресурспак https://demonorium.ru/files/share/CustomMusic.zip врунчую. Убедитесь, что заходите по http а не https, поместите его в папку resourcepacks')
     input("Нажмите enter когда скачаете РП")
     success = os.path.exists("resourcepacks/CustomMusic.zip")
 
