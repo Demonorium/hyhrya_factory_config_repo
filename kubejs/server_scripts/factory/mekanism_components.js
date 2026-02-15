@@ -3,35 +3,35 @@
 ServerEvents.recipes(event => {
     steel_casing_recipes(event)
 
-    event.replaceInput({id: 'mekanism:boiler_casing'}, 'iron_ingot', 'pneumaticcraft:compressed_iron_block')
-    event.replaceInput({id: 'mekanism:pressure_disperser'}, 'mekanism:alloy_infused', 'pneumaticcraft:compressed_bricks')
+    event.replaceInput({ id: 'mekanism:boiler_casing' }, 'iron_ingot', 'pneumaticcraft:compressed_iron_block')
+    event.replaceInput({ id: 'mekanism:pressure_disperser' }, 'mekanism:alloy_infused', 'pneumaticcraft:compressed_bricks')
     event.custom({
-      "type": "minecraft:crafting_shaped",
-      "key": {
-        "A": {
-          "tag": "mekanism:alloys/basic"
+        "type": "minecraft:crafting_shaped",
+        "key": {
+            "A": {
+                "tag": "mekanism:alloys/basic"
+            },
+            "I": {
+                "item": MATERIALS.CADMIUM.ingot
+            },
+            "X": {
+                "item": "mekanism:steel_casing"
+            }
         },
-        "I": {
-          "item": MATERIALS.CADMIUM.ingot
-        },
-        "X": {
-          "item": "mekanism:steel_casing"
+        "pattern": [
+            "AIA",
+            "IXI",
+            "AIA"
+        ],
+        "result": {
+            "item": "mekanism:superheating_element",
+            "count": 4
         }
-      },
-      "pattern": [
-        "AIA",
-        "IXI",
-        "AIA"
-      ],
-      "result": {
-        "item": "mekanism:superheating_element",
-        "count": 4
-      }
     })
 
-    event.replaceInput({id: 'mekanism_weaponry:fire_rate_chip_1'}, 'green_dye', 'pneumaticcraft:unassembled_pcb')
-    event.replaceInput({id: 'mekanism_weaponry:energy_usage_chip_1'}, 'green_dye', 'pneumaticcraft:unassembled_pcb')
-    event.replaceInput({id: 'mekanism_weaponry:heat_per_shot_chip_1'}, 'green_dye', 'pneumaticcraft:unassembled_pcb')
+    event.replaceInput({ id: 'mekanism_weaponry:fire_rate_chip_1' }, 'green_dye', 'pneumaticcraft:unassembled_pcb')
+    event.replaceInput({ id: 'mekanism_weaponry:energy_usage_chip_1' }, 'green_dye', 'pneumaticcraft:unassembled_pcb')
+    event.replaceInput({ id: 'mekanism_weaponry:heat_per_shot_chip_1' }, 'green_dye', 'pneumaticcraft:unassembled_pcb')
 
     event.shaped(
         Item.of('dysonsphere:thermopile', 3),
@@ -170,7 +170,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'superbwarfare:large_battery_pack_assembling' })
     event.remove({ id: 'mekanism:energy_tablet' })
 
-    
+
 
     function energy_cell(level, battery, sides, corners) {
 
@@ -194,30 +194,41 @@ ServerEvents.recipes(event => {
             }
         }
 
-        event.shaped(
-            id,
-            [
+        event.custom({
+            "type": "mekanism:mek_data",
+            "key": {
+                A: {
+                    "item": corners.getId()
+                },
+                B: {
+                    "item": battery.getId()
+                },
+                C: {
+                    "item": sides.getId()
+                },
+                D: {
+                    "item": prev_id.getId()
+                }
+            },
+            "pattern": [
                 'ABA',
                 'CDC',
                 'ABA'
             ],
-            {
-                A: corners,
-                B: battery,
-                C: sides,
-                D: prev_id
+            "result": {
+                "item": id.getId()
             }
-        )
+        })
     }
 
-    energy_cell('basic', 'superbwarfare:small_battery_pack', Item.of('iron_ingot'), Item.of('redstone'))
-    energy_cell('advanced', 'superbwarfare:small_battery_pack', Item.of('mekanism:ingot_osmium'), Item.of('mekanism:alloy_infused'))
-    energy_cell('elite', 'superbwarfare:medium_battery_pack', Item.of('gold_ingot'), Item.of('mekanism:alloy_reinforced'))
-    energy_cell('ultimate', 'superbwarfare:medium_battery_pack', Item.of('diamond'), Item.of('mekanism:alloy_atomic'))
-    energy_cell('absolute', 'superbwarfare:large_battery_pack', Item.of('ad_astra:etrionic_core'), Item.of('mekanism_extras:alloy_radiance'))
-    energy_cell('supreme', 'superbwarfare:large_battery_pack', Item.of('netherite_ingot'), Item.of('mekanism_extras:alloy_thermonuclear'))
-    energy_cell('cosmic', 'superbwarfare:large_battery_pack', Item.of('mekanism:ingot_refined_obsidian'), Item.of('mekanism_extras:alloy_shining'))
-    energy_cell('infinite', 'superbwarfare:large_battery_pack', Item.of('mekanism:pellet_plutonium'), Item.of('mekanism_extras:alloy_spectrum'))
+    energy_cell('basic', Item.of('superbwarfare:small_battery_pack'),        Item.of('iron_ingot'),              Item.of('redstone'))
+    energy_cell('advanced', Item.of('superbwarfare:small_battery_pack'),     Item.of('mekanism:ingot_osmium'),   Item.of('mekanism:alloy_infused'))
+    energy_cell('elite', Item.of('superbwarfare:medium_battery_pack'),       Item.of('gold_ingot'),              Item.of('mekanism:alloy_reinforced'))
+    energy_cell('ultimate', Item.of('superbwarfare:medium_battery_pack'),    Item.of('diamond'),                 Item.of('mekanism:alloy_atomic'))
+    energy_cell('absolute', Item.of('superbwarfare:large_battery_pack'),     Item.of('ad_astra:etrionic_core'),  Item.of('mekanism_extras:alloy_radiance'))
+    energy_cell('supreme', Item.of('superbwarfare:large_battery_pack'),      Item.of('netherite_ingot'),         Item.of('mekanism_extras:alloy_thermonuclear'))
+    energy_cell('cosmic', Item.of('superbwarfare:large_battery_pack'),       Item.of('mekanism:ingot_refined_obsidian'), Item.of('mekanism_extras:alloy_shining'))
+    energy_cell('infinite', Item.of('superbwarfare:large_battery_pack'),     Item.of('mekanism:pellet_plutonium'), Item.of('mekanism_extras:alloy_spectrum'))
 
     event.shaped(
         Item.of('mekanism:energy_tablet', 2),
@@ -463,7 +474,7 @@ ServerEvents.recipes(event => {
         }
     )
 
-    event.remove({id: 'mekanism_weaponry:magnetic_circuit'})
+    event.remove({ id: 'mekanism_weaponry:magnetic_circuit' })
     event.shaped(
         Item.of('mekanism_weaponry:magnetic_circuit'),
         [

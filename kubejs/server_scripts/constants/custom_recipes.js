@@ -79490,6 +79490,34 @@ const CUSTOM_RECIPES = [
 	},
 	{
 		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 1.0397273262050588,
+		temperature: {
+			min_temp: 222.60444444444445,
+			max_temp: 254.33333333333334,
+		},
+		fluid_input: {
+			fluid: "mekanismelements:nitric_acid",
+			amount: 600.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:disulfur_dichloride",
+			count: 6.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:sulfur",
+			amount: 700.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_sulfite_dust",
+			count: 5.0,
+		},
+		pressure: 1.0,
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
 		speed: 1.6462741010943196,
 		temperature: {
@@ -83258,6 +83286,31 @@ const CUSTOM_RECIPES = [
 				count: 6.0,
 			},
 		],
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 26.22131067961165,
+		temperature: {
+		},
+		fluid_input: {
+			fluid: "kubejs:sodium_bicarbonate",
+			amount: 300.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:samarium_iii_chloride_dust",
+			count: 2.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "mekanism:hydrogen_chloride",
+			amount: 300.0,
+		},
+		item_output: {
+			item: "chemlib:samarium_iii_carbonate_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "mekanism:combining",
@@ -92455,6 +92508,34 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 5.219225290950147,
+		temperature: {
+			min_temp: 222.60444444444445,
+			max_temp: 254.33333333333334,
+		},
+		fluid_input: {
+			fluid: "kubejs:sulfur_dichloride",
+			amount: 200.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:sodium_hydroxide_dust",
+			count: 6.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:sulfur",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:sodium_sulfite_dust",
+			count: 1.0,
+		},
+		pressure: 1.0,
+	},
+	{
 		type: "mekanism:oxidizing",
 		input: {
 			amount: 1.0,
@@ -92604,6 +92685,33 @@ const CUSTOM_RECIPES = [
 			item: "chemlib:metasilicic_acid",
 			count: 1.0,
 		},
+	},
+	{
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		speed: 2.096169207667356,
+		temperature: {
+			max_temp: 236.66857142857143,
+		},
+		fluid_input: {
+			fluid: "kubejs:sodium_metasilicate",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		item_input: {
+			item: "chemlib:ammonium_chloride_dust",
+			count: 2.0,
+			type: "pneumaticcraft:stacked_item",
+		},
+		fluid_output: {
+			fluid: "kubejs:metasilicic_acid",
+			amount: 100.0,
+		},
+		item_output: {
+			item: "chemlib:ammonia",
+			count: 2.0,
+		},
+		pressure: 1.5,
 	},
 	{
 		type: "mekanism:reaction",
@@ -121315,6 +121423,33 @@ const CUSTOM_RECIPES = [
 		pressure: 2.0,
 	},
 	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:sodium_hypochlorite",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "mekanism:sulfuric_acid",
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:potassium_iodide_dust",
+			},
+		},
+		gasOutput: {
+			amount: 100,
+			gas: "kubejs:potassium_sulfate",
+		},
+		itemOutput: {
+			count: 2,
+			item: "chemlib:iodine_dust",
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -121506,6 +121641,33 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 226,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:sodium_hypochlorite",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "mekanism:water_vapor",
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:potassium_iodide_dust",
+			},
+		},
+		gasOutput: {
+			amount: 200,
+			gas: "mekanismelements:potassium_hydroxide",
+		},
+		itemOutput: {
+			count: 2,
+			item: "chemlib:iodine_dust",
+		},
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
 		speed: 29.196698113207546,
@@ -121666,6 +121828,33 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:sodium_nitrate",
+		},
+		gasInput: {
+			amount: 400,
+			gas: "mekanism:hydrogen_chloride",
+		},
+		itemInput: {
+			amount: 3.0,
+			ingredient: {
+				item: "chemlib:potassium_iodide_dust",
+			},
+		},
+		gasOutput: {
+			amount: 300,
+			gas: "mekanismelements:potassium_chloride",
+		},
+		itemOutput: {
+			count: 3,
+			item: "chemlib:iodine_dust",
+		},
+	},
+	{
 		type: "pneumaticcraft:thermo_plant",
 		exothermic: true,
 		speed: 1.1626974775246572,
@@ -121791,6 +121980,33 @@ const CUSTOM_RECIPES = [
 		},
 		itemOutput: {
 			count: 2,
+			item: "chemlib:iodine_dust",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:sodium_perchlorate",
+		},
+		gasInput: {
+			amount: 400,
+			gas: "mekanism:sulfuric_acid",
+		},
+		itemInput: {
+			amount: 8.0,
+			ingredient: {
+				item: "chemlib:potassium_iodide_dust",
+			},
+		},
+		gasOutput: {
+			amount: 400,
+			gas: "kubejs:potassium_sulfate",
+		},
+		itemOutput: {
+			count: 8,
 			item: "chemlib:iodine_dust",
 		},
 	},
@@ -122087,6 +122303,33 @@ const CUSTOM_RECIPES = [
 		item_output: {
 			item: "mekanism:dust_gold",
 			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 600,
+			fluid: "kubejs:sodium_carbonate",
+		},
+		gasInput: {
+			amount: 300,
+			gas: "mekanism:sulfur_dioxide",
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:gold_iii_chloride_dust",
+			},
+		},
+		gasOutput: {
+			amount: 300,
+			gas: "kubejs:sodium_sulfate",
+		},
+		itemOutput: {
+			count: 2,
+			item: "mekanism:dust_gold",
 		},
 	},
 	{
@@ -132637,6 +132880,60 @@ const CUSTOM_RECIPES = [
 		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
+			amount: 300,
+			fluid: "kubejs:sodium_sulfide",
+		},
+		gasInput: {
+			amount: 600,
+			gas: "mekanism:water_vapor",
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:aluminium_chloride_dust",
+			},
+		},
+		gasOutput: {
+			amount: 300,
+			gas: "kubejs:hydrogen_sulfide",
+		},
+		itemOutput: {
+			count: 2,
+			item: "chemlib:aluminum_hydroxide_dust",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:sodium_sulfite",
+		},
+		gasInput: {
+			amount: 800,
+			gas: "mekanism:hydrogen_chloride",
+		},
+		itemInput: {
+			amount: 3.0,
+			ingredient: {
+				item: "moremekanismprocessing:dust_magnesium",
+			},
+		},
+		gasOutput: {
+			amount: 100,
+			gas: "kubejs:hydrogen_sulfide",
+		},
+		itemOutput: {
+			count: 3,
+			item: "chemlib:magnesium_chloride_dust",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 200,
+		fluidInput: {
 			amount: 100,
 			fluid: "kubejs:sodium_bicarbonate",
 		},
@@ -133102,6 +133399,33 @@ const CUSTOM_RECIPES = [
 		duration: 200,
 		energyRequired: 200,
 		fluidInput: {
+			amount: 400,
+			fluid: "kubejs:sodium_hydroxide",
+		},
+		gasInput: {
+			amount: 200,
+			gas: "mekanism:chlorine",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:manganese_sulfate_dust",
+			},
+		},
+		gasOutput: {
+			amount: 100,
+			gas: "kubejs:sodium_sulfate",
+		},
+		itemOutput: {
+			count: 1,
+			item: "chemlib:manganese_oxide_dust",
+		},
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 200,
+		fluidInput: {
 			amount: 100,
 			fluid: "kubejs:sodium_hypochlorite",
 		},
@@ -133250,6 +133574,33 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 400,
+			fluid: "kubejs:sodium_hydroxide",
+		},
+		gasInput: {
+			amount: 200,
+			gas: "mekanism:chlorine",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lead_nitrate_dust",
+			},
+		},
+		gasOutput: {
+			amount: 200,
+			gas: "kubejs:sodium_nitrate",
+		},
+		itemOutput: {
+			count: 1,
+			item: "chemlib:lead_dioxide_dust",
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -133273,6 +133624,33 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:sodium_sulfide",
+		},
+		gasInput: {
+			amount: 800,
+			gas: "mekanism:chlorine",
+		},
+		itemInput: {
+			amount: 4.0,
+			ingredient: {
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		gasOutput: {
+			amount: 400,
+			gas: "mekanism:hydrogen_chloride",
+		},
+		itemOutput: {
+			count: 1,
+			item: "chemlib:sodium_sulfate_dust",
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -133377,6 +133755,33 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:reaction",
+		duration: 200,
+		energyRequired: 200,
+		fluidInput: {
+			amount: 100,
+			fluid: "kubejs:sodium_hydroxide",
+		},
+		gasInput: {
+			amount: 100,
+			gas: "mekanism:water_vapor",
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_chloride_dust",
+			},
+		},
+		gasOutput: {
+			amount: 100,
+			gas: "mekanism:hydrogen_chloride",
+		},
+		itemOutput: {
+			count: 1,
+			item: "chemlib:calcium_hydroxide_dust",
+		},
 	},
 	{
 		type: "mekanism:reaction",
