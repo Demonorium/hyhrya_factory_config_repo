@@ -113,7 +113,6 @@ try:
 
     rm_rf_if_ex_copy('kubejs')
     rm_rf_if_ex_copy('keybinding presets')
-    rm_rf_if_ex_copy('minemenu')
     rm_rf_if_ex_copy('defaultconfigs')
     rm_rf_if_ex_copy('configureddefaults')
 
