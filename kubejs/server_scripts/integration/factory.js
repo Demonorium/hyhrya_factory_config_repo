@@ -58,7 +58,8 @@ ServerEvents.tags("item", event => {
   event.add("custommachinery:upgrades", 
     'mekanism:upgrade_speed',
     'mekanism:upgrade_energy',
-    'mekanism_extras:upgrade_stack'
+    'mekanism_extras:upgrade_stack',
+    'cataclysm:lava_power_cell'
   )
 })
 

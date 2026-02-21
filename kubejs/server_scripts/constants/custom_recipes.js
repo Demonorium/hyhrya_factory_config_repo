@@ -137756,6 +137756,24 @@ const CUSTOM_RECIPES = [
 		input: {
 			amount: 1.0,
 			ingredient: {
+				item: "minecraft:pufferfish",
+			},
+		},
+		mainOutput: {
+			item: "aquaculture:fish_fillet_raw",
+			count: 1.0,
+		},
+		secondaryChance: 0.5,
+		secondaryOutput: {
+			item: "aquaculture:fish_bones",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:sawing",
+		input: {
+			amount: 1.0,
+			ingredient: {
 				item: "aquaculture:red_shrooma",
 			},
 		},
