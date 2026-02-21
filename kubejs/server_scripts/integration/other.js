@@ -1,6 +1,7 @@
 // priority: 0
 ServerEvents.recipes(event => {
   _blueprint_recipes(event)
+  event.remove({ id: "mekanism:crushing/flint_to_gunpowder" })
   event.remove({ id: "silentcompat:midnight_iron_ingot" })
   event.remove({ id: "burnt:gunpowder_recipe" })
   event.replaceInput({ id: "explorerscompass:explorers_compass" }, "minecraft:compass", "ae2:meteorite_compass")

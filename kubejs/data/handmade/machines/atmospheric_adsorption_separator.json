@@ -18,7 +18,7 @@
         {
             "type": "custommachinery:item",
             "id": "input1",
-            "mode": "input",
+            "mode": "both",
             "variant": "custommachinery:filter"
         },
         {

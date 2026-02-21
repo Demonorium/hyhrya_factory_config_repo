@@ -3,64 +3,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 405,
-		energy: null,
+		energy: 53,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 7,
-		source_items: [
-			{
-				item: "chemlib:barium_carbonate_dust",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:copper_carbonate_dust",
-				count: 6.0,
-			},
-			{
-				item: "chemlib:yttrium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:yttrium_barium_copper_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 1300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 405,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -108,59 +54,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 210,
-		energy: null,
+		energy: 82,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:barium_oxide_dust",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 6.0,
-			},
-			{
-				item: "chemlib:yttrium_iii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:yttrium_barium_copper_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -237,95 +134,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:yttrium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:yttrium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:yttrium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:yttrium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -961,56 +769,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 135,
-		energy: null,
+		energy: 17,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:villamaninite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 500,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -1281,146 +1043,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
+		time: 210,
+		energy: 11,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:triuranium_octoxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:uranium_oxide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:triuranium_octoxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:uranium_oxide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:antimony_trisulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:antimony_trioxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 900,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -1549,51 +1176,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 11,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		result_items: null,
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:sulfur_dichloride",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -1628,56 +1214,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 26,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:europium_iii_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:europium_ii_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -1975,60 +1515,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 165,
-		energy: null,
+		energy: 14,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:europium_iii_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:ammonium_chloride_dust",
-				count: 3.0,
-			},
-			{
-				item: "chemlib:europium_iii_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ammonium",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -2115,55 +1605,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 135,
-		energy: null,
+		energy: 40,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:europium_iii_oxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:europium_ii_oxide_dust",
-				count: 3.0,
-			},
-			{
-				item: "chemlib:europium_iii_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -2202,56 +1647,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:europium_iii_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:europium_ii_sulfate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -2334,55 +1733,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 15,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:europium_ii_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:europium_iii_chloride_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -2463,56 +1817,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 22,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:europium_ii_bromide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:europium_iii_bromide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -2552,56 +1860,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 23,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:europium_iii_iodide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:europium_ii_iodide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -2687,60 +1949,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 29,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-			{
-				item: "mekanism:salt",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:phosgene",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -2776,95 +1988,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:aluminum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:aluminium_chloride_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:phosgene",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:aluminum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:aluminium_chloride_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:phosgene",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -3661,60 +2784,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 345,
-		energy: null,
+		energy: 52,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 6,
-		source_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 5.0,
-			},
-			{
-				item: "chemlib:niobium_pentoxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:niobium_v_chloride_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 1000,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 500,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 345,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -3805,61 +2878,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 195,
-		energy: null,
+		energy: 9,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:cesium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cesium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 800,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 195,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -3904,60 +2926,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 53,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:zirconium_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zirconium_iv_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -3993,174 +2965,6 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:zirconium_oxyhydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zirconium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:zirconium_oxyhydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zirconium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:zirconium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zirconium_iv_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:zirconium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zirconium_iv_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 400,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -4215,56 +3019,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 22,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:zirconium_iv_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zirconium_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 400,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -4296,95 +3054,6 @@ const MACHINERY_RECIPES = [
 				amount: 400,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:cesium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cesium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:cesium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cesium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -4487,55 +3156,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:neodymium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:ammonium_nitrate_dust",
-				count: 3.0,
-			},
-			{
-				item: "chemlib:neodymium_iii_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -4562,95 +3186,6 @@ const MACHINERY_RECIPES = [
 		source_gases: [
 			{
 				gas: "mekanismelements:ammonia",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:neodymium_iii_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:neodymium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:neodymium_iii_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:neodymium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
 				amount: 300,
 			},
 		],
@@ -4710,64 +3245,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 39,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:calaverite_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_gold",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_tellurite_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -4861,60 +3342,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 13,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:tellurium_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sulfate_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:tellurium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 400,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -5006,56 +3437,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 210,
-		energy: null,
+		energy: 10,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:bismuth_iii_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:bismuth_iii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 900,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -5187,146 +3572,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
+		time: 90,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:osmium_tetroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_osmium",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 800,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:osmium_tetroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_osmium",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 800,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:osmium_tetroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:osmium_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -5413,56 +3663,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 60,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:vanadium_v_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:vanadium_iv_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfur_trioxide",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -5549,225 +3753,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
+		time: 180,
+		energy: 26,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:lanthanum_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lanthalum_iii_hydride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lanthanum_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lanthalum_iii_hydride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:lanthanum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lanthanum_iii_bromide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lanthanum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lanthanum_iii_bromide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:lanthanum_iii_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lanthanum_iii_bromide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 600,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -5983,56 +3973,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 165,
-		energy: null,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:lanthanum_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lanthanum_iii_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 600,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -6254,95 +4198,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:lanthanum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lanthanum_iii_iodide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lanthanum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lanthanum_iii_iodide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 175,
 		energy: 76,
@@ -6386,105 +4241,6 @@ const MACHINERY_RECIPES = [
 		result_gases: [
 			{
 				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:ammonium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:ammonium_iodide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:ammonium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:ammonium_iodide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
 				amount: 100,
 			},
 		],
@@ -6625,56 +4381,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 23,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:lanthanum_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lanthanum_iii_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -6757,56 +4467,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 210,
-		energy: null,
+		energy: 22,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:lanthanum_iii_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lanthanum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 900,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -6846,56 +4510,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 72,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:lanthanum_iii_sulfide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lanthanum_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:carbon_disulfide",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -6978,60 +4596,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 225,
-		energy: null,
+		energy: 59,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 3.0,
-			},
-			{
-				item: "chemlib:lanthanum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lanthanum_iii_chloride_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 600,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 225,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -7152,85 +4720,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:lanthanum_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lanthanum_trifluoride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lanthanum_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lanthanum_trifluoride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 300,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -7410,85 +4899,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:cerium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cerium_iii_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:cerium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cerium_iii_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 200,
 		energy: 62,
@@ -7658,174 +5068,6 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "kubejs:fluorine",
 				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:cerium_iii_fluoride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cerium_iv_fluoride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:cerium_iii_fluoride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cerium_iv_fluoride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:cerium_iv_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cerium_iv_fluoride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:cerium_iv_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cerium_iv_fluoride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
 			},
 		],
 		source_infuse_type: null,
@@ -8144,145 +5386,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
+		time: 210,
+		energy: 26,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:samarium_iii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:samarium_iii_fluoride_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 600,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:samarium_iii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:samarium_iii_fluoride_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 600,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:samarium_ii_fluoride_dust",
-				count: 6.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:samarium_iii_fluoride_dust",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:samarium_iii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -8442,60 +5550,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 105,
-		energy: null,
+		energy: 50,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_boron",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:chromium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_iii_boride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -8624,56 +5682,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 34,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:chromium_iii_bromide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_ii_bromide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -8713,56 +5725,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 31,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:chromium_iii_bromide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:bromine",
-				amount: 600,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -9165,60 +6131,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 225,
-		energy: null,
+		energy: 37,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 6.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_fluoride_dust",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:sodium_metasilicate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism_extras:silicon_tetrafluoride",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 225,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -9341,85 +6257,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 200,
 		energy: 56,
@@ -9465,56 +6302,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 165,
-		energy: null,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:molybdenum_disulphide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:molybdenum_trioxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 700,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -9594,95 +6385,6 @@ const MACHINERY_RECIPES = [
 				amount: 200,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:molybdenum_trioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:molybdenum_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:molybdenum_trioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:molybdenum_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -9997,60 +6699,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 420,
-		energy: null,
+		energy: 27,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 7,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 8.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_chloride_dust",
-				count: 7.0,
-			},
-			{
-				item: "chemlib:potassium_perchlorate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 800,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 420,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -10489,60 +7141,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 420,
-		energy: null,
+		energy: 26,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 7,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 8.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:salt",
-				count: 7.0,
-			},
-			{
-				item: "chemlib:sodium_perchlorate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 800,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 420,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -11228,55 +7830,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 17,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:ammonium_nitrate_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:copper_ii_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -11782,55 +8339,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 30,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:silver_nitrate_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:ammonium_nitrate_dust",
-				count: 2.0,
-			},
-			{
-				item: "thermal:silver_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -11916,55 +8428,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 25,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "thermal:niter_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:ammonium_nitrate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -12045,140 +8512,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
+		time: 225,
+		energy: 53,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_aluminum",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:aluminium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_aluminum",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:aluminium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 225,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:aluminum_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:carbon_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:aluminium_chloride_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 600,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 225,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -12547,95 +8885,6 @@ const MACHINERY_RECIPES = [
 		result_gases: [
 			{
 				gas: "kubejs:hydrogen_sulfide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:aluminum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:aluminium_chloride_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 600,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:aluminum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:aluminium_chloride_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 600,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
 				amount: 300,
 			},
 		],
@@ -13242,85 +9491,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_ii_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_ii_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 140,
 		energy: 90,
@@ -13563,51 +9733,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 24,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:lead_ii_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: null,
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:lead_iv_chloride",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -14438,59 +10567,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 28,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:cadmium_dust",
-				count: 1.0,
-			},
-			{
-				item: "thermal:nickel_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cadmium_chloride_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:nickel_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -14567,85 +10647,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:antimony_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:antimony_trichloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:antimony_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:antimony_trichloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 300,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -14931,51 +10932,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 12,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:antimony_trichloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: null,
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:antimony_pentachloride",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -15104,56 +11064,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 15,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:iodine_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -15193,56 +11107,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 15,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:iodine_dust",
-				count: 2.0,
-			},
-		],
-		result_items: null,
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -16004,85 +11872,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "thermal:silver_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:silver_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "thermal:silver_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:silver_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 91,
@@ -16367,144 +12156,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
+		time: 390,
+		energy: 25,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_fluoride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_fluoride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 390,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 7,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 8.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_fluoride_dust",
-				count: 6.0,
-			},
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 390,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -16552,56 +12208,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 31,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanism:salt",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_fluoride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -16775,56 +12385,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 30,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_bromide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_fluoride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:bromine",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -16856,105 +12420,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_fluoride_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_fluoride_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
-			},
-		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -17140,55 +12605,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 240,
-		energy: null,
+		energy: 31,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 8.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_fluoride_dust",
-				count: 6.0,
-			},
-			{
-				item: "chemlib:sodium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:sulfur_hexafluoride",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 240,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -17227,55 +12647,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 43,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:silicon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_fluoride_dust",
-				count: 4.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism_extras:silicon_tetrafluoride",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -17344,95 +12719,6 @@ const MACHINERY_RECIPES = [
 		source_gases: [
 			{
 				gas: "mekanismelements:nitrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:hydrogen_peroxide",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:hydrogen_peroxide",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
 				amount: 200,
 			},
 		],
@@ -17730,149 +13016,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 225,
-		energy: null,
+		time: 180,
+		energy: 39,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 4.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:hydrogen_peroxide",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 225,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 4.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:hydrogen_peroxide",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:phosphoric_acid_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:phosphine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -18009,235 +13157,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:titanium_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_titanium",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:hydrogen_peroxide",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:titanium_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_titanium",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:hydrogen_peroxide",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:vanadium_v_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:vanadium_iii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:hydrogen_peroxide",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:vanadium_v_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:vanadium_iii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:hydrogen_peroxide",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 51,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:barium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -18750,56 +13674,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 33,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_bromide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -19276,56 +14154,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 38,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -19823,56 +14655,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 32,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_bromide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -19997,56 +14783,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 14,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "minecraft:prismarine_shard",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -20937,60 +15677,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 135,
-		energy: null,
+		energy: 31,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:zirconium_silicate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:silicon_dioxide",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:zirconium_iv_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -21007,95 +15697,6 @@ const MACHINERY_RECIPES = [
 				item: "chemlib:silicon_dioxide",
 				count: 1.0,
 			},
-			{
-				item: "chemlib:zirconium_iv_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:zirconium_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zirconium_iv_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:zirconium_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
 			{
 				item: "chemlib:zirconium_iv_chloride_dust",
 				count: 1.0,
@@ -21261,263 +15862,6 @@ const MACHINERY_RECIPES = [
 		],
 		source_gases: null,
 		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -22247,56 +16591,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 38,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_metasilicate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:metasilicic_acid",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -22379,56 +16677,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 35,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_metasilicate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_bromide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:metasilicic_acid",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -22544,95 +16796,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_iodide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_iodide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 100,
 		energy: 134,
@@ -22723,56 +16886,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:potassium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_iodide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -22812,56 +16929,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 34,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_iodide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -22900,164 +16971,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
+		time: 180,
+		energy: 19,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_iodide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_iodide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iodine_dust",
-				count: 3.0,
-			},
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_iodide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -23105,64 +17023,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 510,
-		energy: null,
+		energy: 19,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 9,
-		source_items: [
-			{
-				item: "chemlib:potassium_dichromate",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_ii_iodide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:iodine_dust",
-				count: 8.0,
-			},
-			{
-				item: "chemlib:potassium_iodide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 700,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 1400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 510,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -24391,56 +18255,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_bromide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -24695,56 +18513,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 18,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -25132,56 +18904,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 22,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -25348,56 +19074,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 17,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_bromide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -25437,56 +19117,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 29,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zinc_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -25702,56 +19336,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 18,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -25882,56 +19470,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 27,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -25971,56 +19513,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 25,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -26102,56 +19598,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 18,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -26238,56 +19688,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 37,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -26413,56 +19817,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 30,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -26825,56 +20183,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 18,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -27000,56 +20312,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 14,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "minecraft:prismarine_shard",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -27352,56 +20618,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 27,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_iii_bromide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -27805,56 +21025,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 19,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:enstatite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:metasilicic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -27984,56 +21158,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 33,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:barium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -28244,56 +21372,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 25,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:covellite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -28930,56 +22012,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 10,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:aluminum_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:aluminium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -29201,60 +22237,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 285,
-		energy: null,
+		energy: 42,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 5,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 5.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 5.0,
-			},
-			{
-				item: "chemlib:phosphorus_pentoxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:phosphine",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 285,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -29608,56 +22594,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 14,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_iodide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -29697,56 +22637,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 27,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -29932,55 +22826,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 105,
-		energy: null,
+		energy: 34,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -30019,56 +22868,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 18,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_lithium",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lithium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -30296,56 +23099,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 21,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:wollastonite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:metasilicic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -30521,145 +23278,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
+		time: 90,
+		energy: 104,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:beryllium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:beryllium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:beryllium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:beryllium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -30746,55 +23369,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 57,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -30833,55 +23411,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 90,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:iron_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -30920,55 +23453,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 67,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:barium_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_carbonate_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -31097,55 +23585,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 60,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_lithium",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:lithium_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -31184,55 +23627,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 94,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -31361,55 +23759,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 101,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 3.0,
-			},
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -31448,55 +23801,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 103,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -31535,55 +23843,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 91,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_aluminum",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:aluminum_oxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:carbon_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -31664,65 +23927,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 44,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:methane",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -31771,55 +23979,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 90,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:zinc_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -31900,55 +24063,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 83,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:zinc_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -31987,59 +24105,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 78,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:magnetite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -32082,60 +24151,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 105,
-		energy: null,
+		energy: 73,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:covellite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 2.0,
-			},
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -32179,56 +24198,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 73,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -32310,55 +24283,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 240,
-		energy: null,
+		energy: 89,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:phosphorus_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 5.0,
-			},
-			{
-				item: "chemlib:phosphorus_pentoxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 500,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 240,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -32397,61 +24325,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 195,
-		energy: null,
+		energy: 39,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 195,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -32686,65 +24563,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 19,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -32839,61 +24661,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 135,
-		energy: null,
+		energy: 20,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_nitrite_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -32938,61 +24709,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 22,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:chromium_trioxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -33093,56 +24813,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 240,
-		energy: null,
+		energy: 13,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:phosphorus_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:phosphorus_pentoxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 500,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 500,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 240,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -33531,56 +25205,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 61,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -33704,61 +25332,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 195,
-		energy: null,
+		energy: 46,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_oxide_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 195,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -33845,61 +25422,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 195,
-		energy: null,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:lead_oxide_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 195,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -33990,61 +25516,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 29,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -34089,61 +25564,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 300,
-		energy: null,
+		energy: 14,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 5,
-		source_items: [
-			{
-				item: "chemlib:lead_dioxide_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 600,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 400,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 300,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -34411,56 +25835,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 47,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zinc_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -34542,61 +25920,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 600,
-		energy: null,
+		energy: 31,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 10,
-		source_items: [
-			{
-				item: "chemlib:magnetite_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 9.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 1200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 800,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 800,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 600,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -34786,61 +26113,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 14,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:iron_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_iii_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -35011,61 +26287,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 195,
-		energy: null,
+		energy: 41,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:zinc_oxide_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 195,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -35201,61 +26426,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 44,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -35346,61 +26520,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 165,
-		energy: null,
+		energy: 11,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:barium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 500,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -35445,56 +26568,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 50,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -35628,61 +26705,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 33,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:aluminum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_aluminum",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -35727,61 +26753,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 300,
-		energy: null,
+		energy: 41,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 5,
-		source_items: [
-			{
-				item: "chemlib:titanium_dioxide_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_titanium",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 600,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 400,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 300,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -35826,61 +26801,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 660,
-		energy: null,
+		energy: 12,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 11,
-		source_items: [
-			{
-				item: "chemlib:phosphorus_pentoxide_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:phosphorus_dust",
-				count: 6.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 1500,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 1000,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 1000,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 660,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -35968,60 +26892,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 975,
-		energy: null,
+		energy: 32,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 17,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 18.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 18.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 9.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:methylamine",
-				amount: 1000,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 1000,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 975,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -36316,61 +27190,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 135,
-		energy: null,
+		energy: 19,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -36462,56 +27285,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 195,
-		energy: null,
+		energy: 9,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:phosphorus_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:phosphorus_pentoxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 500,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 500,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 195,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -36598,61 +27375,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 34,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:azanide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -36790,56 +27516,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 49,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_i_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -36879,56 +27559,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 44,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_i_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -37058,61 +27692,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 240,
-		energy: null,
+		energy: 43,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:copper_i_oxide_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 6.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 240,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -37205,56 +27788,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 135,
-		energy: null,
+		energy: 9,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:ammonium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: null,
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -37478,61 +28015,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 20,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:chromium_trioxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:azanide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -37719,61 +28205,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 195,
-		energy: null,
+		energy: 56,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 195,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -38395,55 +28830,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 105,
-		energy: null,
+		energy: 32,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_iodide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iodine_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -38656,95 +29046,6 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:oxygen",
 				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:lead_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lead_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
 			},
 		],
 		source_infuse_type: null,
@@ -39124,95 +29425,6 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:oxygen",
 				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 525,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 9,
-		source_items: [
-			{
-				item: "chemlib:glucose_dust",
-				count: 11.0,
-			},
-		],
-		result_items: [
-			{
-				item: "minecraft:sugar",
-				count: 6.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 600,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 1200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 525,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:glucose_dust",
-				count: 11.0,
-			},
-		],
-		result_items: [
-			{
-				item: "minecraft:sugar",
-				count: 6.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 600,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 1200,
 			},
 		],
 		source_infuse_type: null,
@@ -39870,51 +30082,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 45,
-		energy: null,
+		energy: 9,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		result_items: null,
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfur_trioxide",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -39997,56 +30168,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 105,
-		energy: null,
+		energy: 30,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_bromide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:bromine",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -40221,95 +30346,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:zinc_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zinc_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:zinc_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zinc_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 250,
 		energy: 119,
@@ -40398,95 +30434,6 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:oxygen",
 				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
 			},
 		],
 		source_infuse_type: null,
@@ -41119,56 +31066,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 24,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:manganese_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -41198,283 +31099,6 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:hydrogen",
 				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 315,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 6,
-		source_items: [
-			{
-				item: "chemlib:iron_hydroxide_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_iii_oxide_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 1000,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 315,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:iron_hydroxide_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_iii_oxide_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 1000,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:beryllium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:beryllium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:beryllium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:beryllium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:salt",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:salt",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
 			},
 		],
 		source_infuse_type: null,
@@ -41513,95 +31137,6 @@ const MACHINERY_RECIPES = [
 		source_fluids: null,
 		result_fluids: null,
 		source_gases: null,
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_i_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_i_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
 		result_gases: [
 			{
 				gas: "mekanism:oxygen",
@@ -41851,95 +31386,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 270,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 5,
-		source_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_disulfide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 1100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 270,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_disulfide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 1100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 390,
 		energy: 474,
@@ -42035,95 +31481,6 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:oxygen",
 				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
 			},
 		],
 		source_infuse_type: null,
@@ -42422,95 +31779,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:strontium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:strontium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:strontium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:strontium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 135,
 		energy: 658,
@@ -42560,56 +31828,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 35,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_fluoride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:salt",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -42776,56 +31998,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 20,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanism:salt",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -42865,511 +32041,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 60,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -43451,56 +32126,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 31,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:magnesium_sulfate",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -43540,56 +32169,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 18,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:magnesium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -43629,56 +32212,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 210,
-		energy: null,
+		energy: 47,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:magnesium_sulfate",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 4.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 500,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -43759,235 +32296,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:aluminum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_aluminum",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:aluminum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_aluminum",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:aluminum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_aluminum",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:aluminum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_aluminum",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 11,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:aluminium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_aluminum",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -44027,56 +32340,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 14,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:aluminium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_aluminum",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -44116,56 +32383,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 300,
-		energy: null,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 5,
-		source_items: [
-			{
-				item: "chemlib:aluminum_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_aluminum",
-				count: 4.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 1200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:methane",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 300,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -44375,95 +32596,6 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanismelements:nitric_oxide",
 				amount: 500,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 660,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 11,
-		source_items: [
-			{
-				item: "chemlib:phosphorus_pentoxide_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:phosphorus_dust",
-				count: 16.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 1500,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:phosphine",
-				amount: 1000,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 660,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:phosphorus_pentoxide_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:phosphorus_dust",
-				count: 16.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 1500,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:phosphine",
-				amount: 1000,
 			},
 		],
 		result_gases: null,
@@ -44882,55 +33014,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 105,
-		energy: null,
+		energy: 22,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_sulfite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 1.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -45310,95 +33397,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 90,
 		energy: 924,
@@ -45443,55 +33441,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 33,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:salt",
-				count: 2.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -45774,59 +33727,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 210,
-		energy: null,
+		energy: 33,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:potassium_iodide_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iodine_dust",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 4.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -45869,55 +33773,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 26,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:lead_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -45956,60 +33815,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 210,
-		energy: null,
+		energy: 21,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:potassium_nitrite_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 1.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 5.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -46053,55 +33862,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 65,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -46332,59 +34096,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 165,
-		energy: null,
+		energy: 21,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:potassium_dichromate",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_iii_hydroxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -46575,55 +34290,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 17,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:chromium_trioxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_iii_hydroxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -46662,55 +34332,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 59,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:zinc_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:zinc_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -46749,55 +34374,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 64,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 2.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -47106,59 +34686,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 210,
-		energy: null,
+		energy: 25,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:sodium_chromate_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_iii_hydroxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 4.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -47201,55 +34732,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 51,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:zinc_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -47288,55 +34774,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 33,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:sodium_sulfide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 4.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -47672,56 +35113,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 22,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:covellite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -47761,55 +35156,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 255,
-		energy: null,
+		energy: 15,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 5,
-		source_items: [
-			{
-				item: "chemlib:potassium_perchlorate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_chloride_dust",
-				count: 1.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 8.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 700,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 255,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -48108,60 +35458,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 36,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -48248,55 +35548,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 30,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 1.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -48438,60 +35693,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 41,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_ii_oxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -48535,55 +35740,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 26,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:covellite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_chloride",
-				count: 1.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -48777,55 +35937,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 43,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_i_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -49546,56 +36661,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 23,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_fluorite",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -50235,56 +37304,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 28,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:chromium_ii_chloride_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 400,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -51155,56 +38178,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 45,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -51289,184 +38266,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:potassium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 220,
 		energy: 124,
@@ -51515,95 +38314,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -51700,146 +38410,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
+		time: 90,
+		energy: 20,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -52003,95 +38578,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:titanium_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_titanium",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:titanium_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_titanium",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 190,
@@ -52127,362 +38613,6 @@ const MACHINERY_RECIPES = [
 		],
 		result_fluids: null,
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 195,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:vanadium_v_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:vanadium_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 500,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 500,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 195,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:vanadium_v_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:vanadium_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 500,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 500,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:chromium_trioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:chromium_trioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -52624,95 +38754,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:chromium_trioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:chromium_trioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 100,
 		energy: 380,
@@ -52743,273 +38784,6 @@ const MACHINERY_RECIPES = [
 		source_fluids: null,
 		result_fluids: null,
 		source_gases: null,
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:manganese_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:manganese_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:manganese_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:manganese_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
 		result_gases: [
 			{
 				gas: "kubejs:carbon_dioxide",
@@ -53116,60 +38890,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 270,
-		energy: null,
+		energy: 24,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 5,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 600,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 700,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 270,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -53205,273 +38929,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:magnetite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 400,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:magnetite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 400,
-			},
-		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -53514,184 +38971,6 @@ const MACHINERY_RECIPES = [
 				amount: 300,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 240,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:magnetite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 800,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 240,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:magnetite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 800,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -53783,156 +39062,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 360,
-		energy: null,
+		time: 75,
+		energy: 32,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 6,
-		source_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 8.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 600,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:methane",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 360,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 8.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 600,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:methane",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -53972,56 +39106,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 21,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:iron_disulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -54061,60 +39149,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 195,
-		energy: null,
+		energy: 52,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 400,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 195,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -54295,105 +39333,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_oxide_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 4.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:methane",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_oxide_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 4.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:methane",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 200,
 		energy: 186,
@@ -54479,273 +39418,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:cobalt_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_cobalt",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:cobalt_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_cobalt",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:nickel_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "thermal:nickel_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:nickel_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "thermal:nickel_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:nickel_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "thermal:nickel_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:nickel_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "thermal:nickel_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 438,
@@ -54790,56 +39462,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 29,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:nickel_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "thermal:nickel_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -54871,95 +39497,6 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -55011,95 +39548,6 @@ const MACHINERY_RECIPES = [
 		],
 		source_gases: null,
 		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -55336,56 +39784,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 26,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:covellite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -55424,146 +39826,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
+		time: 75,
+		energy: 21,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_i_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:copper_i_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -55729,56 +39996,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 21,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_chloride",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -55810,95 +40031,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_i_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:copper_i_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -56001,61 +40133,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 135,
-		energy: null,
+		energy: 53,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -56147,60 +40228,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 23,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_chloride",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:iodine_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -56236,105 +40267,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 4.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:methane",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 4.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:methane",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -56393,56 +40325,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 25,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:covellite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -56482,60 +40368,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 165,
-		energy: null,
+		energy: 35,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:copper_i_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -56579,60 +40415,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 24,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:chalcopyrite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:iron_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 500,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -56675,156 +40461,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 300,
-		energy: null,
+		time: 75,
+		energy: 26,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 5,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 7.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 7.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:ethane",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 300,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 7.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 7.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:ethane",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -56864,64 +40505,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 165,
-		energy: null,
+		energy: 27,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:chalcopyrite_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:silicon_dioxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:ferrosilite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 500,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -56961,95 +40548,6 @@ const MACHINERY_RECIPES = [
 				amount: 200,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -57100,56 +40598,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 240,
-		energy: null,
+		energy: 23,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:copper_nitrate_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 800,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 240,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -57291,56 +40743,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 37,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_i_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -57475,56 +40881,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 19,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -57564,65 +40924,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 165,
-		energy: null,
+		energy: 65,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -57670,160 +40975,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 255,
-		energy: null,
+		time: 240,
+		energy: 23,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 5,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 6.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 6.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:ethene",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 255,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 6.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 6.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:ethene",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 240,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_hydroxide_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 3.0,
-			},
-			{
-				item: "chemlib:phosphorus_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 600,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:phosphine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 240,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -57907,184 +41063,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:zinc_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:zinc_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:zinc_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:zinc_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 378,
@@ -58129,56 +41107,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 33,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:zinc_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -58268,146 +41200,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
+		time: 60,
+		energy: 32,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:zinc_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:zinc_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_bromide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:salt",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:bromine",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -59004,60 +41801,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 375,
-		energy: null,
+		energy: 18,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 7,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:bromine",
-				amount: 1000,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 1000,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 375,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -59101,56 +41848,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 24,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_bromide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:bromine",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -59314,150 +42015,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
+		time: 390,
+		energy: 30,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:molybdenum_trioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:molybdenum_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:molybdenum_trioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:molybdenum_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 390,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 7,
-		source_items: [
-			{
-				item: "chemlib:silver_nitrate_dust",
-				count: 8.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:phosphoric_acid_dust",
-				count: 1.0,
-			},
-			{
-				item: "thermal:silver_dust",
-				count: 8.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 800,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:phosphine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 390,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -59660,56 +42222,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 24,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:silver_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "thermal:silver_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -59800,56 +42316,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 165,
-		energy: null,
+		energy: 30,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:silver_nitrate_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "thermal:silver_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -59889,56 +42359,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 31,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:silver_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "thermal:silver_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -59978,56 +42402,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 30,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:cadmium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cadmium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -60059,95 +42437,6 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:tin_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_tin",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:tin_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_tin",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 400,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -60188,95 +42477,6 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "kubejs:carbon_dioxide",
 				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:tin_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_tin",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:tin_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_tin",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 200,
 			},
 		],
 		source_infuse_type: null,
@@ -60329,56 +42529,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 15,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:antimony_trisulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:antimony_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -60410,95 +42564,6 @@ const MACHINERY_RECIPES = [
 				amount: 300,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:tellurium_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:tellurium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:tellurium_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:tellurium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 400,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -60562,55 +42627,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 31,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:potassium_iodide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iodine_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -61048,60 +43068,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:lead_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iodine_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:lead_iodide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -61417,60 +43387,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 135,
-		energy: null,
+		energy: 24,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:potassium_nitrite_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iodine_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -61569,56 +43489,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iodine_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -61658,55 +43532,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 24,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:ammonium_iodide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:ammonium_chloride_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:iodine_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -61795,60 +43624,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 270,
-		energy: null,
+		energy: 21,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 5,
-		source_items: [
-			{
-				item: "chemlib:chromium_trioxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:iodine_dust",
-				count: 6.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 270,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -62003,60 +43782,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 26,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:vanadium_v_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iodine_dust",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:vanadium_iii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -62573,55 +44302,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 29,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:potassium_iodide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iodine_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_nitrite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -62714,146 +44398,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
+		time: 180,
+		energy: 18,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:barium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:barium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:gold_iii_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_gold",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -62893,68 +44442,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 420,
-		energy: null,
+		energy: 50,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 7,
-		source_items: [
-			{
-				item: "chemlib:gold_iii_chloride_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 6.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_gold",
-				count: 2.0,
-			},
-			{
-				item: "mekanism:salt",
-				count: 6.0,
-			},
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 600,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 420,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -63145,56 +44636,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 29,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:gold_i_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_gold",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -63281,56 +44726,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 12,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "thermal:cinnabar_dust",
-				count: 1.0,
-			},
-		],
-		result_items: null,
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:mercury",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -63500,56 +44899,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 165,
-		energy: null,
+		energy: 17,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "thermal:cinnabar_dust",
-				count: 3.0,
-			},
-		],
-		result_items: null,
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:mercury",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -63671,95 +45024,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:lead_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lead_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 100,
 		energy: 247,
@@ -63844,95 +45108,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:lead_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lead_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 160,
@@ -63966,184 +45141,6 @@ const MACHINERY_RECIPES = [
 		result_gases: [
 			{
 				gas: "mekanism:sulfur_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:lead_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lead_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:lead_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lead_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
 				amount: 200,
 			},
 		],
@@ -64335,56 +45332,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:lead_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -64458,95 +45409,6 @@ const MACHINERY_RECIPES = [
 				amount: 300,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:bismuth_iii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_bismuth",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:bismuth_iii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_bismuth",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -64937,60 +45799,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 50,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:titanium_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: null,
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:titanium_tetrachloride",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -65076,56 +45888,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 375,
-		energy: null,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 7,
-		source_items: [
-			{
-				item: "chemlib:glucose_dust",
-				count: 1.0,
-			},
-		],
-		result_items: null,
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 600,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 1200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 600,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 375,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -65440,56 +46206,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 720,
-		energy: null,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 12,
-		source_items: [
-			{
-				item: "minecraft:sugar",
-				count: 1.0,
-			},
-		],
-		result_items: null,
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 1100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 2400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 1200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 720,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -65725,60 +46445,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 50,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_chromate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -65864,55 +46534,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 38,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:acetylene",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -66093,55 +46718,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 525,
-		energy: null,
+		energy: 38,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 9,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 12.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 12.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 6.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:ethene",
-				amount: 500,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 525,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -66492,60 +47072,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 105,
-		energy: null,
+		energy: 34,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:acetic_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:propylene",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -66589,55 +47119,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 24,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 500,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -67141,55 +47626,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 375,
-		energy: null,
+		energy: 36,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 7,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 8.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 8.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 4.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:methane",
-				amount: 500,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 375,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -67228,64 +47668,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 165,
-		energy: null,
+		energy: 44,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:copper_i_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 500,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -67410,85 +47796,6 @@ const MACHINERY_RECIPES = [
 				amount: 800,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -67742,60 +48049,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 135,
-		energy: null,
+		energy: 31,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -68553,60 +48810,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 105,
-		energy: null,
+		energy: 38,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_chromate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -68650,55 +48857,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 165,
-		energy: null,
+		energy: 40,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:propane",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -68901,56 +49063,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 360,
-		energy: null,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 6,
-		source_items: [
-			{
-				item: "chemlib:cellulose_dust",
-				count: 1.0,
-			},
-		],
-		result_items: null,
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 500,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 1200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 600,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 360,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -68990,55 +49106,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 38,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ethylene_oxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -69223,51 +49294,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 135,
-		energy: null,
+		energy: 28,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-		],
-		result_items: null,
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -69444,55 +49474,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 900,
-		energy: null,
+		energy: 41,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 15,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 22.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 22.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 11.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:butadiene",
-				amount: 500,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 900,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -69710,95 +49695,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:calcium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 400,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:calcium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 400,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 375,
 		energy: 588,
@@ -69944,85 +49840,6 @@ const MACHINERY_RECIPES = [
 				amount: 1500,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_nitrate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_nitrate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -70439,105 +50256,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 336,
@@ -70587,65 +50305,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 510,
-		energy: null,
+		energy: 22,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 9,
-		source_items: [
-			{
-				item: "chemlib:acetylsalicylic_acid_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:magnesium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 500,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 1800,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 800,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 510,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -71064,56 +50727,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 480,
-		energy: null,
+		energy: 23,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 8,
-		source_items: [
-			{
-				item: "chemlib:acetylsalicylic_acid_dust",
-				count: 1.0,
-			},
-		],
-		result_items: null,
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 1800,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 900,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 480,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -71725,105 +51342,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_i_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_i_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 240,
 		energy: 113,
@@ -72365,105 +51883,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:lead_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lead_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 125,
 		energy: 221,
@@ -72595,61 +52014,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 21,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:chloroethane",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:ethene",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -72740,61 +52108,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 20,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:salt",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:chloroethane",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:ethene",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -72839,55 +52156,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 72,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_metasilicate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:silicon_dioxide",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -72969,55 +52241,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 95,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_fluorite",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:silicon_dioxide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism_extras:silicon_tetrafluoride",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -73056,60 +52283,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 105,
-		energy: null,
+		energy: 11,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:iodine_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iodine_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -73153,60 +52330,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 34,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -73250,60 +52377,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 25,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 400,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -73542,60 +52619,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 105,
-		energy: null,
+		energy: 24,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "thermal:niter_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_nitrite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -73682,60 +52709,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 19,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "thermal:niter_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -73830,64 +52807,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 165,
-		energy: null,
+		energy: 23,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "thermal:niter_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -74085,55 +53008,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 25,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "thermal:niter_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -74329,59 +53207,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 255,
-		energy: null,
+		energy: 37,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 5,
-		source_items: [
-			{
-				item: "chemlib:potassium_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_ii_oxide_dust",
-				count: 3.0,
-			},
-			{
-				item: "thermal:niter_dust",
-				count: 5.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 500,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 255,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -74424,68 +53253,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 210,
-		energy: null,
+		energy: 28,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:lead_nitrate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_dioxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_chloride_dust",
-				count: 2.0,
-			},
-			{
-				item: "thermal:niter_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -74536,144 +53307,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
+		time: 135,
+		energy: 28,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "thermal:niter_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:potassium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "thermal:niter_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_nitrite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_chloride_dust",
-				count: 2.0,
-			},
-			{
-				item: "thermal:niter_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -74768,56 +53406,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_nitrite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "thermal:niter_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -75008,85 +53600,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_aluminum",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:aluminum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_aluminum",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:aluminum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 480,
 		energy: 207,
@@ -75226,85 +53739,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 100,
 		energy: 261,
@@ -75434,85 +53868,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:potassium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:potassium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 119,
@@ -75609,64 +53964,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 28,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:manganese_hydroxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_chloride_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -75910,64 +54211,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 210,
-		energy: null,
+		energy: 42,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:chromium_ii_chloride_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_chloride_dust",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:potassium_dichromate",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -76108,64 +54355,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 105,
-		energy: null,
+		energy: 29,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_chloride_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -76213,56 +54406,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 15,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:potassium_perchlorate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -76487,85 +54634,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:salt",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:salt",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 125,
 		energy: 110,
@@ -76749,64 +54817,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 135,
-		energy: null,
+		energy: 31,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:sodium_sulfite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:salt",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -77162,56 +55176,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 105,
-		energy: null,
+		energy: 19,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:salt",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:chloroethane",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:butane",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -77302,64 +55270,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 255,
-		energy: null,
+		energy: 28,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 5,
-		source_items: [
-			{
-				item: "chemlib:chromium_iii_hydroxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 5.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:salt",
-				count: 3.0,
-			},
-			{
-				item: "chemlib:sodium_chromate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 255,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -77463,64 +55377,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 360,
-		energy: null,
+		energy: 30,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 6,
-		source_items: [
-			{
-				item: "chemlib:chromium_ii_chloride_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 8.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:salt",
-				count: 6.0,
-			},
-			{
-				item: "chemlib:sodium_chromate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 360,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -77568,68 +55428,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 195,
-		energy: null,
+		energy: 33,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "mekanism:salt",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 195,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -77723,68 +55525,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 210,
-		energy: null,
+		energy: 27,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:lead_nitrate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_dioxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "mekanism:salt",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:sodium_nitrate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -77836,64 +55580,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 330,
-		energy: null,
+		energy: 26,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 6,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:sodium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:salt",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 800,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 330,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -78465,95 +56155,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 140,
 		energy: 98,
@@ -78648,95 +56249,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 200,
 		energy: 72,
@@ -78816,95 +56328,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -79034,95 +56457,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -79351,60 +56685,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 23,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -80077,95 +57361,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 125,
 		energy: 111,
@@ -80732,95 +57927,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 1560,
 		energy: 97,
@@ -81370,64 +58476,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 240,
-		energy: null,
+		energy: 33,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 240,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -81701,95 +58753,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 100,
 		energy: 85,
@@ -82015,95 +58978,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_nitrate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_nitrate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -82352,95 +59226,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:lithium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lithium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lithium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lithium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 156,
@@ -82574,95 +59359,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_bromide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_bromide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 100,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -82901,95 +59597,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_bromide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_bromide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 132,
@@ -83087,61 +59694,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 225,
-		energy: null,
+		energy: 24,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:lead_dioxide_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_sulfide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 225,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -83577,95 +60133,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_metasilicate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:metasilicic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_metasilicate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:metasilicic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 160,
 		energy: 133,
@@ -83937,95 +60404,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 100,
 		energy: 104,
@@ -84062,95 +60440,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_bromide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_bromide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 200,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -84251,95 +60540,6 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -84536,61 +60736,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 105,
-		energy: null,
+		energy: 18,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:barium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -84848,95 +60997,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_bromide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_bromide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 200,
 		energy: 90,
@@ -85133,184 +61193,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:lithium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lithium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lithium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lithium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:barium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:barium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 550,
 		energy: 67,
@@ -85395,95 +61277,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:wollastonite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:metasilicic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:wollastonite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:metasilicic_acid",
-				amount: 100,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -85622,95 +61415,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 260,
 		energy: 130,
@@ -85768,64 +61472,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 34,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_sulfate_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -86064,95 +61714,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 280,
 		energy: 112,
@@ -86201,95 +61762,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:barium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:barium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -86634,60 +62106,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 105,
-		energy: null,
+		energy: 26,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:silicon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_metasilicate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -86999,154 +62421,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
+		time: 120,
+		energy: 24,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:manganese_nitrate_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_nitrate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -87278,150 +62557,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
+		time: 105,
+		energy: 14,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:zinc_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zinc_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:zinc_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zinc_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -87681,263 +62821,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:barium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:barium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:covellite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:covellite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:phosphoric_acid_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:diammonium_phosphate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:phosphoric_acid_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:diammonium_phosphate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 90,
 		energy: 940,
@@ -88032,184 +62915,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:lithium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lithium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lithium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lithium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 91,
@@ -88297,154 +63002,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
+		time: 525,
+		energy: 29,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 525,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 9,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 10.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 10.0,
-			},
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 6.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:acetylene",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 525,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -88579,95 +63141,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:wollastonite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:metasilicic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:wollastonite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:metasilicic_acid",
-				amount: 100,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -88910,95 +63383,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:barium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:barium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 100,
 		energy: 55,
@@ -89135,60 +63519,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 23,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -89232,64 +63566,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 510,
-		energy: null,
+		energy: 21,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 9,
-		source_items: [
-			{
-				item: "chemlib:iron_disulfide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 8.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_iii_oxide_hydroxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 4.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 1500,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 510,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -89377,95 +63657,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:enstatite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:metasilicic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:enstatite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:metasilicic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 300,
 		energy: 140,
@@ -89510,95 +63701,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:iron_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:iron_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -89850,64 +63952,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 240,
-		energy: null,
+		energy: 26,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 240,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -90093,95 +64141,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:lead_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lead_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 45,
 		energy: 540,
@@ -90222,55 +64181,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 39,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:phosphoric_acid_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:phosphine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -90558,60 +64472,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 21,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:potassium_dichromate",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -90644,95 +64508,6 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:hydrogen",
 				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:lithium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lithium_nitrate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lithium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lithium_nitrate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
 			},
 		],
 		result_gases: null,
@@ -91374,56 +65149,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 3,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		result_items: null,
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 400,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -91463,61 +65192,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 105,
-		energy: null,
+		energy: 23,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_sulfite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_bromide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -91610,95 +65288,6 @@ const MACHINERY_RECIPES = [
 				amount: 300,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:calcium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 800,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:calcium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 800,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -91803,95 +65392,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:strontium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:strontium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:strontium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:strontium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 200,
 		energy: 133,
@@ -91928,95 +65428,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:strontium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:strontium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:strontium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:strontium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -92077,60 +65488,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 32,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_chromate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -92163,362 +65524,6 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:oxygen",
 				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:magnesium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:enstatite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:metasilicic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:magnesium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:enstatite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:metasilicic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:niobium_pentoxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:niobium_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:niobium_pentoxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:niobium_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:beryllium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:beryllium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:beryllium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:beryllium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:rubidium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:rubidium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:rubidium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:rubidium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
 			},
 		],
 		result_gases: null,
@@ -92653,95 +65658,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -92885,95 +65801,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:potassium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:potassium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 100,
 		energy: 83,
@@ -93010,95 +65837,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:iron_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:iron_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -93288,95 +66026,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 440,
 		energy: 99,
@@ -93434,56 +66083,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 15,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:lead_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -93775,184 +66378,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:zinc_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "minecraft:prismarine_shard",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:zinc_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "minecraft:prismarine_shard",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 750,
 		energy: 193,
@@ -93991,253 +66416,6 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanismelements:nitrogen",
 				amount: 600,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_oxide_dust",
-				count: 6.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_oxide_dust",
-				count: 6.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:magnetite_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:magnetite_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
 			},
 		],
 		source_infuse_type: null,
@@ -94349,56 +66527,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 480,
-		energy: null,
+		energy: 17,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 8,
-		source_items: [
-			{
-				item: "chemlib:iron_disulfide_dust",
-				count: 6.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 1100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 1200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 480,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -94438,56 +66570,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 32,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -94527,56 +66613,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 31,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -94615,136 +66655,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
+		time: 60,
+		energy: 49,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_trioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_trioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:calcium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -94784,55 +66699,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 135,
-		energy: null,
+		energy: 45,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:tricalcium_phosphate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_carbonate_dust",
-				count: 3.0,
-			},
-			{
-				item: "chemlib:phosphoric_acid_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -94871,56 +66741,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 9,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:phosphoric_acid_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:phosphate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -95095,56 +66919,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 19,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:lead_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_iodide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_iodide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -95226,56 +67004,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 21,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "pneumaticcraft:ethanol",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:chloroethane",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -95398,56 +67130,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 26,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "thermal:niter_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -95799,56 +67485,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 65,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:calcium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -95888,56 +67528,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 43,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -96018,140 +67612,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
+		time: 120,
+		energy: 29,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "thermal:nickel_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:nickel_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "thermal:nickel_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:nickel_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_hydroxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_permanganate",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -96490,85 +67955,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_chloride",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_chloride",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 65,
@@ -96614,56 +68000,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 34,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:cadmium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cadmium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -96703,56 +68043,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 47,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:cadmium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cadmium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -96792,56 +68086,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 27,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:cadmium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cadmium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -96881,56 +68129,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 33,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:cadmium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cadmium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -97062,140 +68264,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
+		time: 180,
+		energy: 41,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:potassium_dichromate",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:potassium_oxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:acetic_acid",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:ethene",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -97239,56 +68312,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 17,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:antimony_trisulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:antimony_trioxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -97666,60 +68693,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 135,
-		energy: null,
+		energy: 46,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_cyanide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -97763,60 +68740,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 80,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:potassium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_cyanide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 300,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -97949,56 +68876,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 18,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:mercury_ii_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "thermal:cinnabar_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -98396,56 +69277,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 47,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_sulfide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -98485,56 +69320,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 47,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -98566,85 +69355,6 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -98774,85 +69484,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 125,
 		energy: 177,
@@ -98890,85 +69521,6 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -99190,145 +69742,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
+		time: 105,
+		energy: 34,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:salt",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:ammonium_chloride_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -99367,56 +69785,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 31,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:salt",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -99624,56 +69996,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 17,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_sulfite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -99796,56 +70122,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 28,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:nickel_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:nickel_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -100059,56 +70339,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 22,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_chloride",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:covellite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -100447,56 +70681,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 28,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:barium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -100622,56 +70810,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 15,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:manganese_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -100711,56 +70853,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 31,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:salt",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -101105,56 +71201,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 9,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:phosphorus_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:phosphoric_acid_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 500,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 500,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -101236,56 +71286,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 11,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:antimony_trichloride_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:antimony_trisulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 600,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -101367,56 +71371,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 34,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:salt",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -101456,56 +71414,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 21,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:magnesium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -101720,56 +71632,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 26,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:lead_ii_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:hydrogen_chloride",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -101980,235 +71846,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
+		time: 75,
+		energy: 18,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:magnesium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:magnesium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:magnesium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:magnesium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:magnesium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -102248,56 +71890,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 32,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:magnesium_sulfate",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -102337,56 +71933,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 24,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -102548,56 +72098,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 39,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:barium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -102637,56 +72141,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 35,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:covellite_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -102862,56 +72320,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 41,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:nickel_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:nickel_oxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -103082,56 +72494,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 41,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:lead_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -103171,145 +72537,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 45,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:zinc_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zinc_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:zinc_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zinc_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:zinc_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zinc_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -103349,56 +72580,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 32,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:zinc_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zinc_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -104131,56 +73316,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 26,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -104263,60 +73402,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 20,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_sulfite_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 1.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanism:sulfuric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -104890,56 +73979,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 20,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:covellite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -105279,56 +74322,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 21,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:nickel_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:nickel_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -105411,56 +74408,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 23,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:calcium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:wollastonite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:metasilicic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -105500,60 +74451,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 285,
-		energy: null,
+		energy: 19,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 5,
-		source_items: [
-			{
-				item: "chemlib:copper_nitrate_dust",
-				count: 3.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:covellite_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 800,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 285,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -105597,56 +74498,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 29,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_nitrate_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -105729,56 +74584,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 18,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:magnesium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:enstatite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:metasilicic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -105942,56 +74751,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 270,
-		energy: null,
+		energy: 15,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 5,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:covellite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 800,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 800,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 270,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -106074,56 +74837,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 60,
-		energy: null,
+		energy: 25,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_bromide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -106163,56 +74880,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 27,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:barium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -106381,56 +75052,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 16,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "mekanismelements:nitric_acid",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -106513,56 +75138,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 26,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:lead_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -106602,56 +75181,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 9,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:nitrate_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -107342,55 +75875,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 19,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:aluminium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:aluminum_hydroxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:ammonium_chloride_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -107429,55 +75917,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 23,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:copper_chloride",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:ammonium_chloride_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:copper_ii_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -107818,85 +76261,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 100,
 		energy: 242,
@@ -107942,64 +76306,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 195,
-		energy: null,
+		energy: 65,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:tricalcium_phosphate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_sulfate_dust",
-				count: 3.0,
-			},
-			{
-				item: "chemlib:phosphorus_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 195,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -108090,56 +76400,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 14,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_sulfur",
-				count: 4.0,
-			},
-		],
-		result_items: null,
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:carbon_disulfide",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:methane",
-				amount: 100,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -108220,56 +76484,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 32,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_bromide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_bromide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -108625,56 +76843,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
-		energy: null,
+		energy: 14,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:antimony_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:antimony_trisulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -108853,60 +77025,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
-		energy: null,
+		energy: 69,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:carbon_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_monoxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -109082,85 +77204,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_hydroxide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 75,
 		energy: 183,
@@ -109329,322 +77372,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanism:dust_lithium",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lithium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanism:dust_lithium",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lithium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:rubidium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:rubidium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:rubidium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:rubidium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:cesium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cesium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:cesium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cesium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:beryllium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:beryllium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:beryllium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:beryllium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 58,
@@ -109688,85 +77415,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_magnesium",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 90,
@@ -109803,164 +77451,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:barium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:barium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "mekanism:dust_lithium",
-				count: 6.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lithium_oxide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanism:dust_lithium",
-				count: 6.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lithium_oxide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -110013,322 +77503,6 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:barium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_trioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:barium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:barium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_trioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_trioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanism:dust_copper",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_trioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_trioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanism:dust_lead",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbon_trioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -110509,85 +77683,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_sulfite_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_sulfite_dust",
-				count: 3.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 75,
 		energy: 177,
@@ -110704,85 +77799,6 @@ const MACHINERY_RECIPES = [
 		],
 		result_fluids: null,
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -110916,55 +77932,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 120,
-		energy: null,
+		energy: 44,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:cobalt_ii_oxide_dust",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:cobalt_sulfate_dust",
-				count: 2.0,
-			},
-			{
-				item: "mekanism:dust_sulfur",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -111115,85 +78086,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:lead_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lead_dioxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:sulfur_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 260,
 		energy: 85,
@@ -111247,135 +78139,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 11,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:lithium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lithium_nitrate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lithium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lithium_nitrate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:sodium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitric_oxide",
-				amount: 100,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -111456,164 +78223,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:magnesium_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:magnesium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanismelements:dust_calcium_oxide",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:calcium_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 89,
@@ -111650,322 +78259,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:manganese_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:manganese_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_iii_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_iii_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:copper_ii_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:copper_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:zinc_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zinc_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:zinc_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:zinc_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -112015,164 +78308,6 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:lead_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:lead_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:lead_nitrate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:aluminum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:aluminum_nitrate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 600,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:aluminum_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:aluminum_nitrate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 600,
-			},
-		],
-		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -112262,95 +78397,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 800,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_sulfate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 800,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 45,
 		energy: 61,
@@ -112378,85 +78424,6 @@ const MACHINERY_RECIPES = [
 			},
 			{
 				gas: "mekanism:hydrogen",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:potassium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_nitrite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:potassium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:potassium_nitrite_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen_dioxide",
 				amount: 100,
 			},
 		],
@@ -112613,136 +78580,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
+		time: 180,
+		energy: 10,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_fluorite",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:calcium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_fluorite",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:fluorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_bismuth",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:bismuth_iii_sulfide_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:hydrogen_sulfide",
-				amount: 300,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 600,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -112782,56 +78624,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
-		energy: null,
+		energy: 29,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "moremekanismprocessing:dust_zinc",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:hydrazine",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -112871,56 +78667,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 150,
-		energy: null,
+		energy: 42,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 3,
-		source_items: [
-			{
-				item: "chemlib:titanium_oxide",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:titanium_dioxide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "kubejs:titanium_tetrachloride",
-				amount: 100,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -112949,164 +78699,6 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:chlorine",
 				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_titanium",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:titanium_dioxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_titanium",
-				count: 2.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:titanium_dioxide_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "mekanism:dust_gold",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:gold_iii_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanism:dust_gold",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:gold_iii_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 300,
 			},
 		],
 		result_gases: null,
@@ -113357,85 +78949,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:phosphorus_dust",
-				count: 6.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:phosphorus_pentoxide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 500,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:phosphorus_dust",
-				count: 6.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:phosphorus_pentoxide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:ozone",
-				amount: 500,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 200,
 		energy: 124,
@@ -113467,85 +78980,6 @@ const MACHINERY_RECIPES = [
 		],
 		result_fluids: null,
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_titanium",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:titanium_iii_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 300,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "moremekanismprocessing:dust_titanium",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:titanium_iii_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 300,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -113620,85 +79054,6 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:chlorine",
 				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:sodium_bicarbonate_dust",
-				count: 2.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "kubejs:carbonic_acid",
-				amount: 100,
 			},
 		],
 		result_gases: null,
@@ -113859,85 +79214,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:ammonium_bicarbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:ammonium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 45,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:ammonium_bicarbonate_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:ammonium_carbonate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 100,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 90,
 		energy: 183,
@@ -114014,85 +79290,6 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 1,
-		source_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_ii_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_ii_chloride_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:chlorine",
-				amount: 200,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 125,
 		energy: 114,
@@ -114137,61 +79334,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 240,
-		energy: null,
+		energy: 42,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 4,
-		source_items: [
-			{
-				item: "chemlib:chromium_iv_oxide_dust",
-				count: 6.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 240,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -114235,154 +79381,11 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
+		time: 330,
+		energy: 46,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 2,
-		source_items: [
-			{
-				item: "chemlib:chromium_iv_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:chromium_iv_oxide_dust",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 200,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 400,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 330,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 6,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_chromite_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_chromate_dust",
-				count: 4.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 700,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 400,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 330,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
@@ -114430,64 +79433,10 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 390,
-		energy: null,
+		energy: 32,
 		biomes: null,
 		dimensions: null,
 		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: 7,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_chromite_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 8.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_chromate_dust",
-				count: 4.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 700,
-			},
-		],
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 390,
-		energy: null,
-		biomes: null,
-		dimensions: null,
-		filter: {
-			item: "cataclysm:lava_power_cell",
-			count: 1.0,
-		},
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,

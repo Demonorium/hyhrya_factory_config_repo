@@ -14,13 +14,6 @@ CustomMachineryEvents.upgrades(event => {
     "handmade:advanced_reaction_chamber"
   ]
 
-  const energy_machines = [
-    "handmade:primitive_reaction_chamber",
-    "handmade:precipitation_bath",
-    "handmade:atmospheric_adsorption_separator",
-    "handmade:advanced_reaction_chamber"
-  ]
-
   console.log('loading machine updates')
   event.create(Item.of('mekanism:upgrade_speed'), 8)
     .machine(all_machines)
@@ -30,7 +23,13 @@ CustomMachineryEvents.upgrades(event => {
     .modifier(CMRecipeModifierBuilder.expInput('custommachinery:speed', 0.5))
 
   event.create(Item.of('mekanism:upgrade_energy'), 8)
-    .machine(energy_machines)
+    .machine(all_machines)
+    .tooltip("Можно использовать в CustomMachinery. Снижает энергопотребление на 10% (экспоненциально). Максимально улучшений: 8")
+    .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy', 0.9))
+    .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy_per_tick', 0.9))
+
+  event.create(Item.of('cataclysm:lava_power_cell'), 8)
+    .machine(all_machines)
     .tooltip("Можно использовать в CustomMachinery. Снижает энергопотребление на 10% (экспоненциально). Максимально улучшений: 8")
     .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy', 0.9))
     .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy_per_tick', 0.9))

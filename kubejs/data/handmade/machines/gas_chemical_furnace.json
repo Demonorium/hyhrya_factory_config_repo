@@ -80,25 +80,9 @@
             "mode": "output"
         },
         {
-            "type": "custommachinery:item",
-            "id": "fuel",
-            "mode": "input",
-            "variant": "custommachinery:fuel"
-        },
-        {
-            "type": "custommachinery:item",
-            "id": "energySource",
-            "mode": "input",
-            "variant": "custommachinery:filter",
-            "filter": ["custommachinery:infinity_energy"],
-            "whitelist": true,
-            "config": {
-                "enabled": false,
-                "default": "none",
-                "input": false,
-                "output": false
-            }
-        },
+            "type": "custommachinery:energy",
+            "capacity": 50000
+        }, 
         {
             "type": "custommachinery:item",
             "id": "upgrade1",
@@ -289,21 +273,9 @@
             "y": 110
         },
         {
-            "type": "custommachinery:fuel",
-            "x": 182,
+            "type": "custommachinery:energy",
+            "x": 181,
             "y": 136
-        },
-        {
-            "type": "custommachinery:slot",
-            "x": 181,
-            "y": 150,
-            "id": "fuel"
-        },
-        {
-            "type": "custommachinery:slot",
-            "x": 181,
-            "y": 168,
-            "id": "energySource"
         },
         {
             "type": "custommachinery:texture",

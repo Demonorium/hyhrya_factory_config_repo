@@ -77165,6 +77165,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_dioxide",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:yttrium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:yttrium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -77358,6 +77375,23 @@ const CUSTOM_RECIPES = [
 		rightInput: {
 			gas: "kubejs:thorium_monoxide",
 			amount: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 4.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:triuranium_octoxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:uranium_oxide_dust",
+			count: 3.0,
 		},
 	},
 	{
@@ -77683,6 +77717,23 @@ const CUSTOM_RECIPES = [
 				count: 2.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:phosgene",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:aluminum_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:aluminium_chloride_dust",
+			count: 2.0,
+		},
 	},
 	{
 		type: "mekanism:chemical_infusing",
@@ -78128,6 +78179,23 @@ const CUSTOM_RECIPES = [
 		experience: 0,
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 4.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:zirconium_oxyhydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:zirconium_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
@@ -78170,6 +78238,23 @@ const CUSTOM_RECIPES = [
 		rightInput: {
 			gas: "kubejs:zirconium",
 			amount: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 4.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:zirconium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:zirconium_iv_chloride_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -78272,6 +78357,23 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			item: "chemlib:ferrosilite_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:cesium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:cesium_carbonate_dust",
 			count: 1.0,
 		},
 	},
@@ -78391,6 +78493,23 @@ const CUSTOM_RECIPES = [
 				count: 3.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:neodymium_iii_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:neodymium_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "mekanism:oxidizing",
@@ -78687,6 +78806,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 8.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:osmium_tetroxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_osmium",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -78761,6 +78897,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lanthanum_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lanthalum_iii_hydride_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:oxidizing",
 		input: {
 			amount: 1.0,
@@ -78788,6 +78941,23 @@ const CUSTOM_RECIPES = [
 		output: {
 			item: "chemlib:lanthanum_hydroxide_dust",
 			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_bromide",
+			amount: 6.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lanthanum_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lanthanum_iii_bromide_dust",
+			count: 2.0,
 		},
 	},
 	{
@@ -78954,6 +79124,40 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_iodide",
+			amount: 6.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lanthanum_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lanthanum_iii_iodide_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_iodide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:ammonium_carbonate_dust",
+			},
+		},
+		output: {
+			item: "chemlib:ammonium_iodide_dust",
+			count: 2.0,
+		},
+	},
+	{
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
@@ -79064,6 +79268,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:fluorine",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lanthanum_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lanthanum_trifluoride_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -79087,6 +79308,23 @@ const CUSTOM_RECIPES = [
 				count: 2.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:cerium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:cerium_iii_chloride_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -79213,6 +79451,40 @@ const CUSTOM_RECIPES = [
 		rightInput: {
 			gas: "mekanism:oxygen",
 			amount: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:fluorine",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:cerium_iii_fluoride_dust",
+			},
+		},
+		output: {
+			item: "chemlib:cerium_iv_fluoride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:fluorine",
+			amount: 4.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:cerium_iv_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:cerium_iv_fluoride_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -79380,6 +79652,23 @@ const CUSTOM_RECIPES = [
 		output: {
 			item: "chemlib:samarium_ii_fluoride_dust",
 			count: 3.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:fluorine",
+			amount: 6.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:samarium_iii_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:samarium_iii_fluoride_dust",
+			count: 2.0,
 		},
 	},
 	{
@@ -79664,6 +79953,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism:dust_iron",
+			},
+		},
+		output: {
+			item: "chemlib:iron_hydroxide_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -79789,6 +80095,23 @@ const CUSTOM_RECIPES = [
 		rightInput: {
 			gas: "mekanism:oxygen",
 			amount: 3.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:molybdenum_trioxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:molybdenum_dioxide_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -80071,6 +80394,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "moremekanismprocessing:dust_aluminum",
+			},
+		},
+		output: {
+			item: "chemlib:aluminium_chloride_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -80398,6 +80738,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 6.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:aluminum_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:aluminium_chloride_dust",
+			count: 2.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -80499,6 +80856,23 @@ const CUSTOM_RECIPES = [
 				count: 2.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism:dust_lead",
+			},
+		},
+		output: {
+			item: "chemlib:lead_ii_chloride_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -80995,6 +81369,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:antimony_dust",
+			},
+		},
+		output: {
+			item: "chemlib:antimony_trichloride_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:refinery",
 		ingredient: {
 			fluid: "kubejs:antimony_pentachloride",
@@ -81056,6 +81447,23 @@ const CUSTOM_RECIPES = [
 		itemOutput: {
 			count: 1,
 			item: "chemlib:phosphoric_acid_dust",
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:nitrogen_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "thermal:silver_dust",
+			},
+		},
+		output: {
+			item: "chemlib:silver_nitrate_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -81499,6 +81907,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:fluorine",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_fluoride_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -81522,6 +81947,23 @@ const CUSTOM_RECIPES = [
 				count: 2.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:fluorine",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_fluoride_dust",
+			count: 2.0,
+		},
 	},
 	{
 		type: "mekanism:oxidizing",
@@ -81580,6 +82022,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:manganese_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:manganese_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:oxidizing",
 		input: {
 			amount: 1.0,
@@ -81603,6 +82062,57 @@ const CUSTOM_RECIPES = [
 		output: {
 			gas: "kubejs:hydrogen_peroxide",
 			amount: 300.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 6.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:iron_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_iron",
+			count: 4.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:titanium_dioxide_dust",
+			},
+		},
+		output: {
+			item: "moremekanismprocessing:dust_titanium",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:vanadium_v_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:vanadium_iii_oxide_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -81741,6 +82251,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 4.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:zirconium_dioxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:zirconium_iv_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:oxidizing",
 		input: {
 			amount: 1.0,
@@ -81782,6 +82309,57 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			item: "chemlib:bismuth_iii_oxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:sulfur_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_sulfite_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:sulfur_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_sulfite_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:sulfur_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_carbonate_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_sulfite_dust",
 			count: 1.0,
 		},
 	},
@@ -81990,6 +82568,40 @@ const CUSTOM_RECIPES = [
 		output: {
 			item: "chemlib:potassium_iodide_dust",
 			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_iodide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:potassium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:potassium_iodide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_iodide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:potassium_carbonate_dust",
+			},
+		},
+		output: {
+			item: "chemlib:potassium_iodide_dust",
+			count: 2.0,
 		},
 	},
 	{
@@ -82883,6 +83495,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:beryllium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:beryllium_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -83445,6 +84074,23 @@ const CUSTOM_RECIPES = [
 		experience: 0,
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:ozone",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lead_sulfide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lead_sulfate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:pyrolyzer",
 		ingredient: {
 			item: "chemlib:potassium_perchlorate_dust",
@@ -83527,6 +84173,23 @@ const CUSTOM_RECIPES = [
 		],
 		energy: 9230.0,
 		experience: 0,
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_dioxide",
+			amount: 6.0,
+		},
+		itemInput: {
+			amount: 11.0,
+			ingredient: {
+				item: "chemlib:glucose_dust",
+			},
+		},
+		output: {
+			item: "minecraft:sugar",
+			count: 6.0,
+		},
 	},
 	{
 		type: "thermal:pyrolyzer",
@@ -83743,6 +84406,40 @@ const CUSTOM_RECIPES = [
 		experience: 0,
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:sulfur_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:zinc_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:zinc_sulfide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanismelements:dust_calcium_oxide",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:pyrolyzer",
 		ingredient: {
 			item: "chemlib:zinc_sulfate_dust",
@@ -83835,6 +84532,23 @@ const CUSTOM_RECIPES = [
 		experience: 0,
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:ozone",
+			amount: 4.0,
+		},
+		itemInput: {
+			amount: 4.0,
+			ingredient: {
+				item: "chemlib:iron_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:iron_iii_oxide_hydroxide_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
@@ -83848,6 +84562,23 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			item: "chemlib:ethane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:beryllium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:beryllium_chloride_dust",
 			count: 1.0,
 		},
 	},
@@ -83894,6 +84625,23 @@ const CUSTOM_RECIPES = [
 		experience: 0,
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:salt",
+			count: 2.0,
+		},
+	},
+	{
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
@@ -83907,6 +84655,23 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			item: "chemlib:methane",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:sulfur_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "mekanism:dust_copper",
+			},
+		},
+		output: {
+			item: "chemlib:copper_i_sulfide_dust",
 			count: 1.0,
 		},
 	},
@@ -83953,6 +84718,23 @@ const CUSTOM_RECIPES = [
 				count: 2.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:sulfur_dioxide",
+			amount: 4.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:iron_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:iron_disulfide_dust",
+			count: 2.0,
+		},
 	},
 	{
 		type: "thermal:pyrolyzer",
@@ -84035,6 +84817,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:ozone",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism:dust_copper",
+			},
+		},
+		output: {
+			item: "chemlib:copper_ii_oxide_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
@@ -84065,6 +84864,23 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			item: "chemlib:ammonia",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:strontium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:strontium_chloride_dust",
 			count: 1.0,
 		},
 	},
@@ -84268,6 +85084,23 @@ const CUSTOM_RECIPES = [
 		],
 		energy: 10200.0,
 		experience: 0,
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -84639,6 +85472,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_dust",
+			count: 2.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -85058,6 +85908,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_carbonate_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_dust",
+			count: 2.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -85287,6 +86154,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:magnesium_oxide_dust",
+			},
+		},
+		output: {
+			item: "moremekanismprocessing:dust_magnesium",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -85356,6 +86240,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:magnesium_oxide_dust",
+			},
+		},
+		output: {
+			item: "moremekanismprocessing:dust_magnesium",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -85758,6 +86659,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 6.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:aluminum_oxide_dust",
+			},
+		},
+		output: {
+			item: "moremekanismprocessing:dust_aluminum",
+			count: 2.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -85831,6 +86749,23 @@ const CUSTOM_RECIPES = [
 				count: 3.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:aluminum_oxide_dust",
+			},
+		},
+		output: {
+			item: "moremekanismprocessing:dust_aluminum",
+			count: 2.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -86842,6 +87777,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:phosphine",
+			amount: 10.0,
+		},
+		itemInput: {
+			amount: 3.0,
+			ingredient: {
+				item: "chemlib:phosphorus_pentoxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:phosphorus_dust",
+			count: 16.0,
+		},
+	},
+	{
 		type: "mekanism:oxidizing",
 		input: {
 			amount: 1.0,
@@ -86899,6 +87851,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:sulfur_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:carbon_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_sulfur",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:pyrolyzer",
@@ -87257,6 +88226,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:potassium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:potassium_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -87305,6 +88291,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:potassium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:potassium_dust",
+			count: 2.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -87707,6 +88710,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanismelements:dust_calcium_oxide",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -87847,6 +88867,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanismelements:dust_calcium_oxide",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -88224,6 +89261,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:titanium_dioxide_dust",
+			},
+		},
+		output: {
+			item: "moremekanismprocessing:dust_titanium",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -88353,6 +89407,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 5.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:vanadium_v_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:vanadium_dust",
+			count: 2.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -88453,6 +89524,40 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 6.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:chromium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:chromium_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:chromium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:chromium_dust",
+			count: 2.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -88497,6 +89602,23 @@ const CUSTOM_RECIPES = [
 				count: 3.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 6.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:chromium_trioxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:chromium_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -88674,6 +89796,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:chromium_trioxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:chromium_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -88849,6 +89988,40 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:manganese_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:manganese_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:manganese_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:manganese_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -88893,6 +90066,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:manganese_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:manganese_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -89120,6 +90310,40 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:iron_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_iron",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:iron_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_iron",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -89237,6 +90461,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 4.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:magnetite_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_iron",
+			count: 3.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -89260,6 +90501,23 @@ const CUSTOM_RECIPES = [
 				count: 3.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 8.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:magnetite_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_iron",
+			count: 3.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -89310,6 +90568,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:iron_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_iron",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -89456,6 +90731,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:methane",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 4.0,
+			ingredient: {
+				item: "chemlib:iron_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_iron",
+			count: 8.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -90062,6 +91354,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:methane",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 4.0,
+			ingredient: {
+				item: "chemlib:iron_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_iron",
+			count: 4.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -90187,6 +91496,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:cobalt_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "moremekanismprocessing:dust_cobalt",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -90287,6 +91613,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:nickel_oxide_dust",
+			},
+		},
+		output: {
+			item: "thermal:nickel_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -90360,6 +91703,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:nickel_oxide_dust",
+			},
+		},
+		output: {
+			item: "thermal:nickel_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -90783,6 +92143,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:copper_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_copper",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -91050,6 +92427,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:copper_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_copper",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -91148,6 +92542,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:copper_i_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_copper",
+			count: 2.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -91298,6 +92709,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:copper_i_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_copper",
+			count: 2.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -91523,6 +92951,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:methane",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 4.0,
+			ingredient: {
+				item: "chemlib:copper_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_copper",
+			count: 4.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -91808,6 +93253,40 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:ethane",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 7.0,
+			ingredient: {
+				item: "chemlib:copper_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_copper",
+			count: 7.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:copper_ii_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_copper",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -92008,6 +93487,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:ethene",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 6.0,
+			ingredient: {
+				item: "chemlib:copper_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_copper",
+			count: 6.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -92056,6 +93552,23 @@ const CUSTOM_RECIPES = [
 				count: 2.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:zinc_oxide_dust",
+			},
+		},
+		output: {
+			item: "moremekanismprocessing:dust_zinc",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -92127,6 +93640,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:zinc_oxide_dust",
+			},
+		},
+		output: {
+			item: "moremekanismprocessing:dust_zinc",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -92754,6 +94284,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:zinc_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "moremekanismprocessing:dust_zinc",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:oxidizing",
 		input: {
 			amount: 1.0,
@@ -93061,6 +94608,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:molybdenum_trioxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:molybdenum_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -93634,6 +95198,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 4.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:tin_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_tin",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -93657,6 +95238,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:tin_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_tin",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -93807,6 +95405,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 4.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:tellurium_dioxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:tellurium_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "mekanism:oxidizing",
@@ -94126,6 +95741,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:barium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:barium_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -94339,6 +95971,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lead_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_lead",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -94387,6 +96036,23 @@ const CUSTOM_RECIPES = [
 				count: 3.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lead_oxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_lead",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -94483,6 +96149,40 @@ const CUSTOM_RECIPES = [
 				count: 2.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 4.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lead_dioxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_lead",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lead_dioxide_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_lead",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -94958,6 +96658,23 @@ const CUSTOM_RECIPES = [
 				count: 2.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 6.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:bismuth_iii_oxide_dust",
+			},
+		},
+		output: {
+			item: "moremekanismprocessing:dust_bismuth",
+			count: 2.0,
+		},
 	},
 	{
 		type: "mekanism:oxidizing",
@@ -95442,6 +97159,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:sulfur_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_carbonate_dust",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_sulfate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -95653,6 +97387,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 4.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_sulfate_dust",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_sulfide",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -95716,6 +97467,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:nitric_oxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_carbonate_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_nitrate_dust",
+			count: 2.0,
+		},
+	},
+	{
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
@@ -95730,6 +97498,23 @@ const CUSTOM_RECIPES = [
 		output: {
 			item: "chemlib:butane",
 			count: 11.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:sodium_bicarbonate_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_carbonate_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -95811,6 +97596,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:copper_ii_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:copper_i_oxide_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:pyrolyzer",
 		ingredient: {
 			item: "chemlib:nickel_carbonate_dust",
@@ -95840,6 +97642,23 @@ const CUSTOM_RECIPES = [
 		output: {
 			gas: "mekanismelements:nitrogen_dioxide",
 			amount: 400.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_sulfide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lead_carbonate_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lead_sulfide_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -96548,6 +98367,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:nitrogen_dioxide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:potassium_oxide_dust",
+			},
+		},
+		output: {
+			item: "thermal:niter_dust",
+			count: 2.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -96683,6 +98519,23 @@ const CUSTOM_RECIPES = [
 		output: {
 			gas: "kubejs:aluminum_oxide",
 			amount: 50.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:ozone",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "moremekanismprocessing:dust_aluminum",
+			},
+		},
+		output: {
+			item: "chemlib:aluminum_oxide_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -96933,6 +98786,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:ozone",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 3.0,
+			ingredient: {
+				item: "moremekanismprocessing:dust_magnesium",
+			},
+		},
+		output: {
+			item: "chemlib:magnesium_oxide_dust",
+			count: 3.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -97006,6 +98876,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:potassium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:potassium_chloride_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -97656,6 +99543,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_dust",
+			},
+		},
+		output: {
+			item: "mekanism:salt",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -98558,6 +100462,142 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:potassium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:potassium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_sulfide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_sulfide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:potassium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:potassium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:nitrogen_dioxide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_nitrate_dust",
+			count: 2.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -98587,6 +100627,74 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:lithium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lithium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_bromide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_bromide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_bromide_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:metasilicic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_metasilicate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:oxidizing",
 		input: {
 			amount: 1.0,
@@ -98613,6 +100721,57 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_sulfide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanismelements:dust_calcium_oxide",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_sulfide",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_bromide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_bromide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_sulfide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_sulfide_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:pyrolyzer",
 		ingredient: {
 			item: "chemlib:manganese_hydroxide_dust",
@@ -98630,6 +100789,125 @@ const CUSTOM_RECIPES = [
 		],
 		energy: 4130.0,
 		experience: 0,
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_bromide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanismelements:dust_calcium_oxide",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_bromide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:lithium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lithium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:barium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:barium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:metasilicic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:wollastonite_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_sulfide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_sulfide",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:nitrogen_dioxide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_nitrate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_sulfide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:barium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:barium_sulfide_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -98674,6 +100952,210 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:copper_ii_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:copper_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_sulfide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:zinc_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:zinc_sulfide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:barium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:barium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_sulfide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:copper_ii_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:covellite_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:ammonia",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:phosphoric_acid_dust",
+			},
+		},
+		output: {
+			item: "chemlib:diammonium_phosphate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanismelements:dust_calcium_oxide",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lithium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lithium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:copper_ii_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:copper_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:metasilicic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanismelements:dust_calcium_oxide",
+			},
+		},
+		output: {
+			item: "chemlib:wollastonite_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_sulfide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:barium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:barium_sulfide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:metasilicic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:magnesium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:enstatite_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:iron_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:iron_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "pneumaticcraft:fluid_mixer",
 		input1: {
 			fluid: "mekanism:sulfur_trioxide",
@@ -98693,6 +101175,23 @@ const CUSTOM_RECIPES = [
 		},
 		item_output: {
 			item: "chemlib:sulfate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_sulfide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lead_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lead_sulfide_dust",
 			count: 1.0,
 		},
 	},
@@ -98720,6 +101219,23 @@ const CUSTOM_RECIPES = [
 				count: 5.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:nitrogen_dioxide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:lithium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lithium_nitrate_dust",
+			count: 2.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -98801,6 +101317,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 8.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_sulfate_dust",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_sulfide",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -98826,6 +101359,125 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:strontium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:strontium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:strontium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:strontium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:metasilicic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:magnesium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:enstatite_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:niobium_pentoxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:niobium_oxide_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:beryllium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:beryllium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:rubidium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:rubidium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:copper_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:copper_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "pneumaticcraft:fluid_mixer",
 		input1: {
 			fluid: "kubejs:salicylic_acid",
@@ -98845,6 +101497,91 @@ const CUSTOM_RECIPES = [
 		},
 		item_output: {
 			item: "chemlib:acetylsalicylic_acid_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:potassium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:potassium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:iron_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:iron_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:sodium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:zinc_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "minecraft:prismarine_shard",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:magnesium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:magnesium_carbonate_dust",
 			count: 1.0,
 		},
 	},
@@ -98890,6 +101627,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:ozone",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 6.0,
+			ingredient: {
+				item: "chemlib:iron_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:iron_oxide_dust",
+			count: 3.0,
+		},
+	},
+	{
 		type: "mekanism:oxidizing",
 		input: {
 			amount: 1.0,
@@ -98900,6 +101654,40 @@ const CUSTOM_RECIPES = [
 		output: {
 			gas: "kubejs:iron_oxide",
 			amount: 150.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:ozone",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "mekanism:dust_iron",
+			},
+		},
+		output: {
+			item: "chemlib:iron_oxide_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:magnetite_dust",
+			},
+		},
+		output: {
+			item: "chemlib:iron_oxide_dust",
+			count: 3.0,
 		},
 	},
 	{
@@ -99157,6 +101945,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbon_trioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_carbonate_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -99928,6 +102733,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "thermal:nickel_dust",
+			},
+		},
+		output: {
+			item: "chemlib:nickel_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -100126,6 +102948,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism:dust_copper",
+			},
+		},
+		output: {
+			item: "chemlib:copper_chloride",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -100420,6 +103259,23 @@ const CUSTOM_RECIPES = [
 				count: 3.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:ozone",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "chemlib:chromium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:chromium_oxide_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -101703,6 +104559,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:ozone",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 3.0,
+			ingredient: {
+				item: "chemlib:calcium_dust",
+			},
+		},
+		output: {
+			item: "mekanismelements:dust_calcium_oxide",
+			count: 3.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -101970,6 +104843,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_hydroxide_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -102043,6 +104933,23 @@ const CUSTOM_RECIPES = [
 				count: 2.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_chloride_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -102420,6 +105327,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -102614,6 +105538,40 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:magnesium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:magnesium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:magnesium_hydroxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:magnesium_carbonate_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -102902,6 +105860,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:hydrogen_sulfide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:zinc_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:zinc_sulfide_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "mekanism:combining",
@@ -103390,6 +106365,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:sulfur_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanismelements:dust_calcium_oxide",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_sulfate_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -104794,6 +107786,23 @@ const CUSTOM_RECIPES = [
 				count: 3.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "moremekanismprocessing:dust_magnesium",
+			},
+		},
+		output: {
+			item: "chemlib:magnesium_hydroxide_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "mekanism:injecting",
@@ -106252,6 +109261,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism:dust_lithium",
+			},
+		},
+		output: {
+			item: "chemlib:lithium_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -106450,6 +109476,74 @@ const CUSTOM_RECIPES = [
 				count: 2.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:rubidium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:rubidium_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:cesium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:cesium_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:beryllium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:beryllium_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "moremekanismprocessing:dust_magnesium",
+			},
+		},
+		output: {
+			item: "chemlib:magnesium_chloride_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -106652,6 +109746,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:barium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:barium_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -106777,6 +109888,23 @@ const CUSTOM_RECIPES = [
 		rightInput: {
 			gas: "mekanism:oxygen",
 			amount: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:ozone",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 6.0,
+			ingredient: {
+				item: "mekanism:dust_lithium",
+			},
+		},
+		output: {
+			item: "chemlib:lithium_oxide_dust",
+			count: 3.0,
 		},
 	},
 	{
@@ -107120,6 +110248,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbon_trioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:barium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:barium_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -107295,6 +110440,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:injecting",
+		chemicalInput: {
+			gas: "kubejs:carbon_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism:dust_copper",
+			},
+		},
+		output: {
+			item: "chemlib:copper_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -107318,6 +110480,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbon_trioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism:dust_copper",
+			},
+		},
+		output: {
+			item: "chemlib:copper_carbonate_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -107503,6 +110682,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbon_trioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism:dust_lead",
+			},
+		},
+		output: {
+			item: "chemlib:lead_carbonate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:oxidizing",
 		input: {
 			amount: 1.0,
@@ -107639,6 +110835,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:ozone",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 3.0,
+			ingredient: {
+				item: "chemlib:sodium_sulfite_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_sulfate_dust",
+			count: 3.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -107762,6 +110975,23 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:sulfur_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:manganese_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:manganese_sulfate_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -108043,6 +111273,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:sulfur_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lead_dioxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lead_sulfate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:combining",
 		extraInput: {
 			amount: 1.0,
@@ -108190,6 +111437,23 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:nitrogen_dioxide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lithium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lithium_nitrate_dust",
+			count: 2.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -108290,6 +111554,40 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:nitrogen_dioxide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:magnesium_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:magnesium_nitrate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:nitrogen_dioxide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanismelements:dust_calcium_oxide",
+			},
+		},
+		output: {
+			item: "chemlib:calcium_nitrate_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -108313,6 +111611,108 @@ const CUSTOM_RECIPES = [
 				count: 3.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:nitrogen_dioxide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:manganese_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:manganese_nitrate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:nitrogen_dioxide",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:iron_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:iron_iii_nitrate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:nitrogen_dioxide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:copper_ii_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:copper_nitrate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:nitrogen_dioxide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:zinc_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:zinc_nitrate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:nitrogen_dioxide",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:lead_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:lead_nitrate_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:nitrogen_dioxide",
+			amount: 6.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:aluminum_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:aluminum_nitrate_dust",
+			count: 2.0,
+		},
 	},
 	{
 		type: "mekanism:chemical_infusing",
@@ -108400,6 +111800,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 8.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_sulfate_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_sulfide_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "thermal:smelter",
 		result: [
 			{
@@ -108423,6 +111840,23 @@ const CUSTOM_RECIPES = [
 				count: 5.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:nitrogen_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:potassium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:potassium_nitrite_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "mekanism:oxidizing",
@@ -108463,6 +111897,23 @@ const CUSTOM_RECIPES = [
 		rightInput: {
 			gas: "mekanism:oxygen",
 			amount: 2.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:fluorine",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:calcium_dust",
+			},
+		},
+		output: {
+			item: "mekanism:dust_fluorite",
+			count: 1.0,
 		},
 	},
 	{
@@ -108601,6 +112052,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:ozone",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 2.0,
+			ingredient: {
+				item: "moremekanismprocessing:dust_titanium",
+			},
+		},
+		output: {
+			item: "chemlib:titanium_dioxide_dust",
+			count: 2.0,
+		},
+	},
+	{
 		type: "mekanism:combining",
 		extraInput: {
 			amount: 1.0,
@@ -108724,6 +112192,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism:dust_gold",
+			},
+		},
+		output: {
+			item: "chemlib:gold_iii_chloride_dust",
+			count: 1.0,
+		},
+	},
+	{
 		type: "mekanism:reaction",
 		duration: 200,
 		energyRequired: 1864,
@@ -108829,6 +112314,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:ozone",
+			amount: 5.0,
+		},
+		itemInput: {
+			amount: 6.0,
+			ingredient: {
+				item: "chemlib:phosphorus_dust",
+			},
+		},
+		output: {
+			item: "chemlib:phosphorus_pentoxide_dust",
+			count: 3.0,
+		},
+	},
+	{
 		type: "mekanism:combining",
 		extraInput: {
 			amount: 5.0,
@@ -108863,6 +112365,23 @@ const CUSTOM_RECIPES = [
 		},
 		output: {
 			item: "chemlib:dolomite_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 3.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "moremekanismprocessing:dust_titanium",
+			},
+		},
+		output: {
+			item: "chemlib:titanium_iii_chloride_dust",
 			count: 1.0,
 		},
 	},
@@ -109017,6 +112536,23 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "kubejs:carbonic_acid",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:sodium_carbonate_dust",
+			},
+		},
+		output: {
+			item: "chemlib:sodium_bicarbonate_dust",
+			count: 2.0,
+		},
+	},
+	{
 		type: "mekanism:reaction",
 		duration: 200,
 		energyRequired: 1638,
@@ -109083,6 +112619,23 @@ const CUSTOM_RECIPES = [
 		itemOutput: {
 			count: 2,
 			item: "chemlib:potassium_bicarbonate_dust",
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanismelements:ammonia",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:ammonium_bicarbonate_dust",
+			},
+		},
+		output: {
+			item: "chemlib:ammonium_carbonate_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -109171,6 +112724,23 @@ const CUSTOM_RECIPES = [
 			gas: "kubejs:chloroethane",
 			amount: 100.0,
 			chemicalType: "gas",
+		},
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:chlorine",
+			amount: 2.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:chromium_dust",
+			},
+		},
+		output: {
+			item: "chemlib:chromium_ii_chloride_dust",
+			count: 1.0,
 		},
 	},
 	{
@@ -109342,6 +112912,23 @@ const CUSTOM_RECIPES = [
 				count: 4.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 4.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:chromium_iv_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:chromium_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "minecraft:crafting_shaped",
