@@ -1,0 +1,460 @@
+{
+    "name": "machine.handmade.advanced_reaction_chamber",
+    "tooltips": {
+        "text": "machine.handmade.advanced_reaction_chamber.tooltip",
+        "color": "#2EEAEA"
+    },
+    "appearance": {
+        "block": "kubejs:machine/advanced_reaction_chamber_offline",
+        "light": 0,
+        "keep_inventory": true,
+        "running": {
+            "block": "kubejs:machine/advanced_reaction_chamber",
+            "light": 5
+        }
+    },
+    "components": [
+        {
+            "type": "custommachinery:gas",
+            "id": "inputGas1",
+            "capacity": 10000,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:gas",
+            "id": "inputGas2",
+            "capacity": 10000,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "id": "inputFluid1",
+            "capacity": 10000,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "fluidItemInput1",
+            "mode": "input",
+            "variant": "custommachinery:fluid",
+            "tanks": "inputFluid1"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "id": "inputFluid2",
+            "capacity": 10000,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "fluidItemInput2",
+            "mode": "input",
+            "variant": "custommachinery:fluid",
+            "tanks": "inputFluid2"
+        },
+        {
+            "type": "custommachinery:gas",
+            "id": "outputGas1",
+            "capacity": 10000,
+            "mode": "output"
+        },
+        {
+            "type": "custommachinery:gas",
+            "id": "outputGas2",
+            "capacity": 10000,
+            "mode": "output"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "id": "outputFluid1",
+            "capacity": 10000,
+            "mode": "output"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "fluidItemOutput1",
+            "mode": "output",
+            "variant": "custommachinery:fluid",
+            "tanks": "outputFluid1"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "id": "outputFluid2",
+            "capacity": 10000,
+            "mode": "output"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "fluidItemOutput2",
+            "mode": "output",
+            "variant": "custommachinery:fluid",
+            "tanks": "outputFluid2"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input1",
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input2",
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input3",
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input4",
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "output1",
+            "mode": "output"
+        },{
+            "type": "custommachinery:item",
+            "id": "output2",
+            "mode": "output"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "output3",
+            "mode": "output"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "output4",
+            "mode": "output"
+        },
+        {
+            "type": "custommachinery:energy",
+            "capacity": 10000000
+        },  
+        {
+            "type": "custommachinery:item",
+            "id": "upgrade1",
+            "mode": "input",
+            "variant": "custommachinery:upgrade",
+            "filter": ["#custommachinery:upgrades"],
+            "whitelist": true,
+            "config": {
+                "enabled": false,
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "upgrade2",
+            "mode": "input",
+            "variant": "custommachinery:upgrade",
+            "filter": ["#custommachinery:upgrades"],
+            "whitelist": true,
+            "config": {
+                "enabled": false,
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "upgrade3",
+            "mode": "input",
+            "variant": "custommachinery:upgrade",
+            "filter": ["#custommachinery:upgrades"],
+            "whitelist": true,
+            "config": {
+                "enabled": false,
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "upgrade4",
+            "mode": "input",
+            "variant": "custommachinery:upgrade",
+            "filter": ["#custommachinery:upgrades"],
+            "whitelist": true,
+            "config": {
+                "enabled": false,
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        }
+    ],
+    "gui": [
+        {
+            "type": "custommachinery:fluid",
+            "x": 8,
+            "y": 20,
+            "height": 70,
+            "texture": "kubejs:textures/gui/gas.png",
+            "id": "inputFluid1"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 7,
+            "y": 91,
+            "id": "fluidItemInput1"
+        },
+        {
+            "type": "custommachinery:texture",
+            "x": 8,
+            "y": 20,
+            "height": 70,
+            "texture": "mekanism:gui/gauge/standard.png",
+            "jei": true
+        },
+        {
+            "type": "custommachinery:fluid",
+            "x": 26,
+            "y": 20,
+            "height": 70,
+            "texture": "kubejs:textures/gui/gas.png",
+            "id": "inputFluid2"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 25,
+            "y": 91,
+            "id": "fluidItemInput1"
+        },
+        {
+            "type": "custommachinery:texture",
+            "x": 26,
+            "y": 20,
+            "height": 70,
+            "texture": "mekanism:gui/gauge/standard.png",
+            "jei": true
+        },
+        {
+            "type": "custommachinery:gas",
+            "x": 44,
+            "y": 20,
+            "height": 70,
+            "texture": "kubejs:textures/gui/gas.png",
+            "id": "inputGas1"
+        },
+        {
+            "type": "custommachinery:texture",
+            "x": 44,
+            "y": 20,
+            "height": 70,
+            "texture": "mekanism:gui/gauge/standard.png",
+            "jei": true
+        },
+        {
+            "type": "custommachinery:gas",
+            "x": 62,
+            "y": 20,
+            "height": 70,
+            "texture": "kubejs:textures/gui/gas.png",
+            "id": "inputGas2"
+        },
+        {
+            "type": "custommachinery:texture",
+            "x": 62,
+            "y": 20,
+            "height": 70,
+            "texture": "mekanism:gui/gauge/standard.png",
+            "jei": true
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 80,
+            "y": 38,
+            "id": "input1"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 98,
+            "y": 38,
+            "id": "input2"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 80,
+            "y": 56,
+            "id": "input3"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 98,
+            "y": 56,
+            "id": "input4"
+        },
+        {
+            "type": "custommachinery:progress",
+            "x": 116,
+            "y": 49
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 140,
+            "y": 38,
+            "id": "output1"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 158,
+            "y": 38,
+            "id": "output2"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 140,
+            "y": 56,
+            "id": "output3"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 158,
+            "y": 56,
+            "id": "output4"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "x": 178,
+            "y": 20,
+            "height": 70,
+            "texture": "kubejs:textures/gui/gas.png",
+            "id": "outputFluid1"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 177,
+            "y": 91,
+            "id": "fluidItemOutput1"
+        },
+        {
+            "type": "custommachinery:texture",
+            "x": 178,
+            "y": 20,
+            "height": 70,
+            "texture": "mekanism:gui/gauge/standard.png",
+            "jei": true
+        },
+        {
+            "type": "custommachinery:fluid",
+            "x": 196,
+            "y": 20,
+            "height": 70,
+            "texture": "kubejs:textures/gui/gas.png",
+            "id": "outputFluid2"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 195,
+            "y": 91,
+            "id": "fluidItemOutput2"
+        },
+        {
+            "type": "custommachinery:texture",
+            "x": 196,
+            "y": 20,
+            "height": 70,
+            "texture": "mekanism:gui/gauge/standard.png",
+            "jei": true
+        },
+        {
+            "type": "custommachinery:gas",
+            "x": 214,
+            "y": 20,
+            "height": 70,
+            "texture": "kubejs:textures/gui/gas.png",
+            "id": "outputGas1"
+        },
+        {
+            "type": "custommachinery:texture",
+            "x": 214,
+            "y": 20,
+            "height": 70,
+            "texture": "mekanism:gui/gauge/standard.png",
+            "jei": true
+        },
+        {
+            "type": "custommachinery:gas",
+            "x": 232,
+            "y": 20,
+            "height": 70,
+            "texture": "kubejs:textures/gui/gas.png",
+            "id": "outputGas2"
+        },
+        {
+            "type": "custommachinery:texture",
+            "x": 232,
+            "y": 20,
+            "height": 70,
+            "texture": "mekanism:gui/gauge/standard.png",
+            "jei": true
+        },
+        {
+            "type": "custommachinery:text",
+            "x": 8,
+            "y": 8,
+            "text": "machine.handmade.advanced_reaction_chamber",
+            "tooltips": "machine.handmade.advanced_reaction_chamber.tooltip"
+        },
+        {
+            "type": "custommachinery:texture",
+            "x": 0,
+            "y": 0,
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "priority": 1001
+        },
+        {
+            "type": "custommachinery:player_inventory",
+            "x": 8,
+            "y": 110
+        },
+        {
+            "type": "custommachinery:config",
+            "x": 180,
+            "y": 110
+        },
+        {
+            "type": "custommachinery:energy",
+            "x": 181,
+            "y": 136
+        },
+        {
+            "type": "custommachinery:texture",
+            "x": 208,
+            "y": 110,
+            "texture": "kubejs:textures/gui/upgrades.png",
+            "jei": true
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 211,
+            "y": 126,
+            "id": "upgrade1"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 229,
+            "y": 126,
+            "id": "upgrade2"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 211,
+            "y": 144,
+            "id": "upgrade3"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 229,
+            "y": 144,
+            "id": "upgrade4"
+        }
+    ]
+}

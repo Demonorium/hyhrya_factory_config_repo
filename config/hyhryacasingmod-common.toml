@@ -1,0 +1,19 @@
+
+#HyhryaCasingMod Configuration
+[facade_settings]
+	#List of exact block IDs that can be covered with facades.
+	#Format: 'modid:blockname'
+	#Example: 'pipez:item_pipe', 'mekanism:basic_universal_cable'
+	allowed_cable_ids = ["pipez:item_pipe", "pipez:fluid_pipe", "pipez:energy_pipe", "pipez:gas_pipe", "pipez:universal_pipe"]
+	#List of patterns to match block IDs that can be covered with facades.
+	#Use '*' as wildcard. Patterns are matched against 'modid:blockname'.
+	#Examples:
+	#  'pipez:*' - all blocks from Pipez
+	#  'mekanism:*cable*' - all Mekanism blocks containing 'cable'
+	#  '*:*pipe*' - any block from any mod containing 'pipe'
+	allowed_cable_patterns = ["pipez:*", "mekanism:*cable*", "mekanism:*transporter*", "mekanism:*tube*", "mekanism:*pipe*", "mekanism:*conductor*", "ae2:*cable*", "morered:*cable*", "morered:*wire*", "computercraft:*cable*", "pneumaticcraft:*pipe*", "pneumaticcraft:*tube*"]
+	#If true, allows covering ANY block that doesn't have a full collision shape.
+	#This is a fallback for mods not explicitly listed above.
+	#WARNING: May allow covering blocks that shouldn't be covered!
+	allow_any_non_full_block = false
+

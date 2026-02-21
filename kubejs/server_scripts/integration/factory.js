@@ -4,7 +4,216 @@ const meka_levels = ['basic', 'advanced', 'elite', 'ultimate']
 const alloy_levels = { 'basic': Item.of('mekanism:alloy_infused'), 'advanced': Item.of('mekanism:alloy_infused'), 'elite': Item.of('mekanism:alloy_reinforced'), 'ultimate': Item.of('mekanism:alloy_atomic'), 'absolute': Item.of('mekanism_extras:alloy_radiance'), 'supreme': Item.of('mekanism_extras:alloy_thermonuclear'), 'cosmic': Item.of('mekanism_extras:alloy_shining'), 'infinite': Item.of('mekanism_extras:alloy_spectrum') }
 const mekanism_extras_levels = ['absolute', 'supreme', 'cosmic', 'infinite']
 
+
+CustomMachineryEvents.upgrades(event => {
+  const all_machines = [
+    "handmade:primitive_reaction_chamber",
+    "handmade:gas_chemical_furnace",
+    "handmade:precipitation_bath",
+    "handmade:atmospheric_adsorption_separator",
+    "handmade:advanced_reaction_chamber"
+  ]
+
+  const energy_machines = [
+    "handmade:primitive_reaction_chamber",
+    "handmade:precipitation_bath",
+    "handmade:atmospheric_adsorption_separator",
+    "handmade:advanced_reaction_chamber"
+  ]
+
+  console.log('loading machine updates')
+  event.create(Item.of('mekanism:upgrade_speed'), 8)
+    .machine(all_machines)
+    .tooltip("Можно использовать в CustomMachinery. Удваивает скорость CustomMachinery (экспоненциально). Максимально улучшений: 8")
+    .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy_per_tick', 2))
+    .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy', 2))
+    .modifier(CMRecipeModifierBuilder.expInput('custommachinery:speed', 0.5))
+
+  event.create(Item.of('mekanism:upgrade_energy'), 8)
+    .machine(energy_machines)
+    .tooltip("Можно использовать в CustomMachinery. Снижает энергопотребление на 10% (экспоненциально). Максимально улучшений: 8")
+    .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy', 0.9))
+    .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy_per_tick', 0.9))
+
+  event.create(Item.of('mekanism_extras:upgrade_stack'), 4)
+    .machine(all_machines)
+    .tooltip("Можно использовать в CustomMachinery. Удаивает паралельную обработку машины. Максимально улучшений: 4")
+    .modifier(CMRecipeModifierBuilder.mulInput('custommachinery:item', 2))
+    .modifier(CMRecipeModifierBuilder.mulOutput('custommachinery:item', 2))
+    .modifier(CMRecipeModifierBuilder.mulInput('custommachinery:fluid', 2))
+    .modifier(CMRecipeModifierBuilder.mulOutput('custommachinery:fluid', 2))
+    .modifier(CMRecipeModifierBuilder.mulInput('custommachinery:fluid_per_tick', 2))
+    .modifier(CMRecipeModifierBuilder.mulOutput('custommachinery:fluid_per_tick', 2))
+    .modifier(CMRecipeModifierBuilder.mulInput('custommachinery:gas', 2))
+    .modifier(CMRecipeModifierBuilder.mulOutput('custommachinery:gas', 2))
+    .modifier(CMRecipeModifierBuilder.mulInput('custommachinery:slurry', 2))
+    .modifier(CMRecipeModifierBuilder.mulOutput('custommachinery:slurry', 2))
+    .modifier(CMRecipeModifierBuilder.mulInput('custommachinery:energy', 2))
+    .modifier(CMRecipeModifierBuilder.mulOutput('custommachinery:energy', 2))
+    .modifier(CMRecipeModifierBuilder.mulInput('custommachinery:energy_per_tick', 2))
+    .modifier(CMRecipeModifierBuilder.mulOutput('custommachinery:energy_per_tick', 2))
+
+})
+
+ServerEvents.tags("item", event => {
+  event.add("custommachinery:upgrades", 
+    'mekanism:upgrade_speed',
+    'mekanism:upgrade_energy',
+    'mekanism_extras:upgrade_stack'
+  )
+})
+
 ServerEvents.recipes(event => {
+  console.log("Custom Machinery Recipes loading...")
+  MACHINERY_RECIPES.forEach(recipe => {
+    const recipe_builder = event.recipes.custommachinery.custom_machine(recipe.machine, recipe.time)
+    // if (recipe.priority) {
+    //   recipe_builder.priority(priority)
+    // }
+
+    if (recipe.biomes) {
+      recipe_builder.biomeWhitelist(recipe.biomes)
+    }
+    if (recipe.dimensions) {
+      recipe_builder.dimensionWhitelist(recipe.dimensions)
+    }
+
+    if (recipe.energy) {
+      recipe_builder.requireEnergyPerTick(recipe.energy)
+    }
+    if (recipe.produce_energy) {
+      recipe_builder.produceEnergyPerTick(recipe.produce_energy)
+    }
+
+    if (recipe.filter) {
+      recipe_builder.requireItemFilter(recipe.filter.item)
+    }
+    if (recipe.req_rad) {
+      recipe_builder.requireRadiationPerTick(recipe.req_rad)
+    }
+    if (recipe.rs_rad) {
+      recipe_builder.emitRadiationPerTick(recipe.rs_rad)
+    }
+    if (recipe.fuel) {
+      recipe_builder.requireFuel(recipe.fuel)
+    }
+
+    const add_element = (element, setter, setterTag, perTick, perTickTag, id, amount) => {
+      let tag = id.startsWith('#')
+      if (tag) {
+        id = id.substring(1)
+      }
+
+      if (amount == null && element.chance) {
+        amount = Math.ceil(element.chance)
+      }
+      let builder = null
+      if (element.per_tick) {
+        if (tag) {
+          builder = perTickTag(id, amount)
+        } else {
+          builder = perTick(id, amount)
+        }
+
+      } else {
+        if (tag) {
+          builder = setterTag(id, amount)
+        } else {
+          builder = setter(id, amount)
+        }
+      }
+
+      if (element.chance) {
+        setter.chance(chance)
+      }
+    }
+
+    if (recipe.source_items) {
+      recipe.source_items.forEach(element => add_element(element,
+        (id, count) => recipe_builder.requireItem(Item.of(id, count)),
+        (id, count) => recipe_builder.requireItemTag(id, count),
+        (id, count) => null,
+        (id, count) => null,
+        element.item != null ? element.item : element.tag, element.count))
+    }
+    if (recipe.result_items) {
+      recipe.result_items.forEach(element => add_element(element,
+        (id, count) => recipe_builder.produceItem(Item.of(id, count)),
+        (id, count) => null,
+        (id, count) => null,
+        (id, count) => null,
+        element.item != null ? element.item : element.tag, element.count))
+    }
+
+    if (recipe.source_fluids) {
+      recipe.source_fluids.forEach(element => add_element(element,
+        (id, count) => recipe_builder.requireFluid(Fluid.of(id, count)),
+        (id, count) => recipe_builder.requireFluidTag(id, count),
+        (id, count) => recipe_builder.requireFluidPerTick(Fluid.of(id, count)),
+        (id, count) => recipe_builder.requireFluidTagPerTick(id, count),
+        element.fluid != null ? element.fluid : element.tag, element.amount))
+    }
+    if (recipe.result_fluids) {
+      recipe.result_fluids.forEach(element => add_element(element,
+        (id, count) => recipe_builder.produceFluid(Fluid.of(id, count)),
+        (id, count) => null,
+        (id, count) => recipe_builder.produceFluidPerTick(Fluid.of(id, count)),
+        (id, count) => null,
+        element.fluid != null ? element.fluid : element.tag, element.amount))
+    }
+
+    if (recipe.source_gases) {
+      recipe.source_gases.forEach(element => add_element(element,
+        (id, count) => recipe_builder.requireGas(id + " " + count),
+        (id, count) => null,
+        (id, count) => recipe_builder.requireGasPerTick(id + " " + count),
+        (id, count) => null,
+        element.gas != null ? element.gas : element.tag, element.amount))
+    }
+    if (recipe.result_gases) {
+      recipe.result_gases.forEach(element => add_element(element,
+        (id, count) => recipe_builder.produceGas(id + " " + count),
+        (id, count) => null,
+        (id, count) => recipe_builder.produceGasPerTick(id + " " + count),
+        (id, count) => null,
+        element.gas != null ? element.gas : element.tag, element.amount))
+    }
+
+    if (recipe.source_infuse_type) {
+      recipe.source_infuse_type.forEach(element => add_element(element,
+        (id, count) => recipe_builder.requireInfusion(id + " " + count),
+        (id, count) => null,
+        (id, count) => recipe_builder.requireInfusionPerTick(id + " " + count),
+        (id, count) => null,
+        element.infuse_type != null ? element.infuse_type : element.tag, element.amount))
+    }
+    if (recipe.result_infuse_type) {
+      recipe.result_infuse_type.forEach(element => add_element(element,
+        (id, count) => recipe_builder.produceInfusion(id + " " + count),
+        (id, count) => null,
+        (id, count) => recipe_builder.produceInfusionPerTick(id + " " + count),
+        (id, count) => null,
+        element.infuse_type != null ? element.infuse_type : element.tag, element.amount))
+    }
+
+    if (recipe.source_slurry) {
+      recipe.source_slurry.forEach(element => add_element(element,
+        (id, count) => recipe_builder.requireSlurry(id + " " + count),
+        (id, count) => null,
+        (id, count) => recipe_builder.requireSlurryPerTick(id + " " + count),
+        (id, count) => null,
+        element.slurry != null ? element.slurry : element.tag, element.amount))
+    }
+    if (recipe.result_slurry) {
+      recipe.result_slurry.forEach(element => add_element(element,
+        (id, count) => recipe_builder.produceSlurry(id + " " + count),
+        (id, count) => null,
+        (id, count) => recipe_builder.produceSlurryPerTick(id + " " + count),
+        (id, count) => null,
+        element.slurry != null ? element.slurry : element.tag, element.amount))
+    }
+  })
+
   console.log("meka recipes loading...")
   event.remove({ id: 'mekanism:enriching/enriched/carbon' })
   event.custom({
@@ -80,7 +289,7 @@ ServerEvents.recipes(event => {
   event.replaceInput({ id: "thermalendergy:endergy_upgrade_1" }, "thermal:enderium_gear", "mekanism:ultimate_control_circuit")
   event.replaceInput({ id: "thermalendergy:endergy_upgrade_2" }, "thermalendergy:prismalium_gear", "mekanism_extras:absolute_control_circuit")
   event.replaceInput({ id: "thermalendergy:endergy_upgrade_3" }, "thermalendergy:melodium_gear", "mekanism_extras:supreme_control_circuit")
-  
+
 
   event.remove({ type: 'thermal:furnace' })
   event.remove({ id: "thermal:machines/centrifuge/centrifuge_oil_red_sand" })

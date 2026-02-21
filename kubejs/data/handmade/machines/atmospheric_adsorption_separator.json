@@ -1,0 +1,245 @@
+{
+    "name": "machine.handmade.atmospheric_adsorption_separator",
+    "tooltips": {
+        "text": "machine.handmade.atmospheric_adsorption_separator.tooltip",
+        "color": "#2EEAEA"
+    },
+    "appearance": {
+        "block": "kubejs:machine/atmospheric_adsorption_separator_offline",
+        "light": 0,
+        "keep_inventory": true,
+        "running": {
+            "block": "kubejs:machine/atmospheric_adsorption_separator",
+            "light": 5
+        }
+    },
+    "components": [
+        {
+            "type": "custommachinery:item",
+            "id": "input1",
+            "mode": "input",
+            "variant": "custommachinery:filter"
+        },
+        {
+            "type": "custommachinery:gas",
+            "id": "rs1",
+            "capacity": 10000,
+            "mode": "output"
+        }, 
+        {
+            "type": "custommachinery:energy",
+            "capacity": 50000
+        }, 
+        {
+            "type": "custommachinery:gas",
+            "id": "rs2",
+            "capacity": 10000,
+            "mode": "output"
+        }, 
+        {
+            "type": "custommachinery:gas",
+            "id": "rs3",
+            "capacity": 10000,
+            "mode": "output"
+        }, 
+        {
+            "type": "custommachinery:gas",
+            "id": "rs4",
+            "capacity": 10000,
+            "mode": "output"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "upgrade1",
+            "mode": "input",
+            "variant": "custommachinery:upgrade",
+            "filter": ["#custommachinery:upgrades"],
+            "whitelist": true,
+            "config": {
+                "enabled": false,
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "upgrade2",
+            "mode": "input",
+            "variant": "custommachinery:upgrade",
+            "filter": ["#custommachinery:upgrades"],
+            "whitelist": true,
+            "config": {
+                "enabled": false,
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "upgrade3",
+            "mode": "input",
+            "variant": "custommachinery:upgrade",
+            "filter": ["#custommachinery:upgrades"],
+            "whitelist": true,
+            "config": {
+                "enabled": false,
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "upgrade4",
+            "mode": "input",
+            "variant": "custommachinery:upgrade",
+            "filter": ["#custommachinery:upgrades"],
+            "whitelist": true,
+            "config": {
+                "enabled": false,
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        }
+    ],
+    "gui": [
+        {
+            "type": "custommachinery:slot",
+            "x": 8,
+            "y": 49,
+            "id": "input1"
+        },
+        {
+            "type": "custommachinery:progress",
+            "x": 36,
+            "y": 50
+        },
+        {
+            "type": "custommachinery:gas",
+            "x": 68,
+            "y": 20,
+            "height": 70,
+            "texture": "kubejs:textures/gui/gas.png",
+            "id": "rs1"
+        },
+        {
+            "type": "custommachinery:texture",
+            "x": 68,
+            "y": 20,
+            "height": 70,
+            "texture": "mekanism:gui/gauge/standard.png",
+            "jei": true
+        },
+        {
+            "type": "custommachinery:gas",
+            "x": 98,
+            "y": 20,
+            "height": 70,
+            "texture": "kubejs:textures/gui/gas.png",
+            "id": "rs2"
+        },
+        {
+            "type": "custommachinery:texture",
+            "x": 98,
+            "y": 20,
+            "height": 70,
+            "texture": "mekanism:gui/gauge/standard.png",
+            "jei": true
+        },
+        {
+            "type": "custommachinery:gas",
+            "x": 128,
+            "y": 20,
+            "height": 70,
+            "texture": "kubejs:textures/gui/gas.png",
+            "id": "rs3"
+        },
+        {
+            "type": "custommachinery:texture",
+            "x": 128,
+            "y": 20,
+            "height": 70,
+            "texture": "mekanism:gui/gauge/standard.png",
+            "jei": true
+        },
+        {
+            "type": "custommachinery:gas",
+            "x": 158,
+            "y": 20,
+            "height": 70,
+            "texture": "kubejs:textures/gui/gas.png",
+            "id": "rs4"
+        },
+        {
+            "type": "custommachinery:texture",
+            "x": 158,
+            "y": 20,
+            "height": 70,
+            "texture": "mekanism:gui/gauge/standard.png",
+            "jei": true
+        },
+        {
+            "type": "custommachinery:text",
+            "x": 8,
+            "y": 8,
+            "text": "machine.handmade.atmospheric_adsorption_separator",
+            "tooltips": "machine.handmade.atmospheric_adsorption_separator.tooltip"
+        },
+        {
+            "type": "custommachinery:texture",
+            "x": 0,
+            "y": 0,
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "priority": 1001
+        },
+        {
+            "type": "custommachinery:player_inventory",
+            "x": 8,
+            "y": 110
+        },
+        {
+            "type": "custommachinery:config",
+            "x": 180,
+            "y": 110
+        },
+        {
+            "type": "custommachinery:energy",
+            "x": 181,
+            "y": 136
+        },
+        {
+            "type": "custommachinery:texture",
+            "x": 208,
+            "y": 110,
+            "texture": "kubejs:textures/gui/upgrades.png",
+            "jei": true
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 211,
+            "y": 126,
+            "id": "upgrade1"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 229,
+            "y": 126,
+            "id": "upgrade2"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 211,
+            "y": 144,
+            "id": "upgrade3"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 229,
+            "y": 144,
+            "id": "upgrade4"
+        }
+    ]
+}

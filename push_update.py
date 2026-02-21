@@ -41,7 +41,7 @@ if os.path.exists('changelogs/' + str(version) + '.md'):
     with open('changelogs/' + str(version) + '.md', mode='r', encoding='utf-8') as f:
         text.extend(f.readlines())
 
-        # Получаем текущее время
+    # Получаем текущее время
     current_time = datetime.now()
 
     # Добавляем 5 минут
