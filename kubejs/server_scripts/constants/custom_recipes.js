@@ -83766,44 +83766,6 @@ const CUSTOM_RECIPES = [
 		experience: 0,
 	},
 	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "thermal:rich_slag",
-				count: 1.0,
-			},
-		],
-		energy: 20000,
-		experience: 1.0,
-		ingredients: [
-			{
-				item: "chemlib:ozone",
-				count: 8.0,
-			},
-			{
-				item: "thermal:coal_coke",
-				count: 1.0,
-			},
-		],
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-		],
-		energy: 5000,
-		experience: 1.0,
-		ingredients: [
-			{
-				item: "chemlib:ozone",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:graphite_dust",
-				count: 1.0,
-			},
-		],
-	},
-	{
 		type: "thermal:pyrolyzer",
 		ingredient: {
 			item: "chemlib:strontium_nitrate_dust",
@@ -95868,24 +95830,6 @@ const CUSTOM_RECIPES = [
 		experience: 0,
 	},
 	{
-		type: "mekanism:dissolution",
-		gasInput: {
-			gas: "kubejs:ozone",
-			amount: 2.0,
-		},
-		itemInput: {
-			amount: 3.0,
-			ingredient: {
-				item: "chemlib:carbon_dust",
-			},
-		},
-		output: {
-			gas: "kubejs:carbon_dioxide",
-			amount: 300.0,
-			chemicalType: "gas",
-		},
-	},
-	{
 		type: "mekanism:oxidizing",
 		input: {
 			amount: 1.0,
@@ -104001,80 +103945,40 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "thermal:rich_slag",
-				count: 1.0,
+		type: "mekanism:dissolution",
+		gasInput: {
+			gas: "kubejs:carbon_dioxide",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:carbon_dust",
 			},
-		],
-		energy: 20000,
-		experience: 1.0,
-		ingredients: [
-			{
-				item: "chemlib:carbon_dioxide",
-				count: 8.0,
-			},
-			{
-				item: "thermal:coal_coke",
-				count: 1.0,
-			},
-		],
+		},
+		output: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 200.0,
+			chemicalType: "gas",
+		},
 	},
 	{
-		type: "thermal:smelter",
-		result: [
-		],
-		energy: 5000,
-		experience: 1.0,
-		ingredients: [
-			{
-				item: "chemlib:carbon_dioxide",
-				count: 4.0,
+		type: "mekanism:dissolution",
+		gasInput: {
+			gas: "mekanism:oxygen",
+			amount: 1.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:carbon_dust",
 			},
-			{
-				item: "chemlib:graphite_dust",
-				count: 1.0,
-			},
-		],
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "thermal:rich_slag",
-				count: 1.0,
-			},
-		],
-		energy: 20000,
-		experience: 1.0,
-		ingredients: [
-			{
-				item: "chemlib:oxygen",
-				count: 8.0,
-			},
-			{
-				item: "thermal:coal_coke",
-				count: 1.0,
-			},
-		],
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-		],
-		energy: 5000,
-		experience: 1.0,
-		ingredients: [
-			{
-				item: "chemlib:oxygen",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:graphite_dust",
-				count: 1.0,
-			},
-		],
+		},
+		output: {
+			gas: "kubejs:carbon_monoxide",
+			amount: 100.0,
+			chemicalType: "gas",
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -114008,7 +113912,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.1,
 			},
 		],
-		energy: 3000,
+		energy: 6000,
 		experience: 1,
 	},
 	{
@@ -114028,7 +113932,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.1,
 			},
 		],
-		energy: 3000.0,
+		energy: 6000.0,
 		experience: 1,
 	},
 	{
@@ -114106,7 +114010,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.3,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -114131,7 +114035,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.3,
 			},
 		],
-		energy: 6000.0,
+		energy: 9000.0,
 		experience: 2,
 	},
 	{
@@ -114177,7 +114081,7 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
-		energy: 0,
+		energy: 3000,
 		experience: 0,
 	},
 	{
@@ -114192,7 +114096,7 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
-		energy: 0.0,
+		energy: 3000.0,
 		experience: 0,
 	},
 	{
@@ -130221,7 +130125,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.5,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -130246,7 +130150,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.5,
 			},
 		],
-		energy: 6000.0,
+		energy: 9000.0,
 		experience: 2,
 	},
 	{
@@ -130319,7 +130223,7 @@ const CUSTOM_RECIPES = [
 				chance: 1.0,
 			},
 		],
-		energy: 3000,
+		energy: 6000,
 		experience: 1,
 	},
 	{
@@ -130339,7 +130243,7 @@ const CUSTOM_RECIPES = [
 				chance: 1.0,
 			},
 		],
-		energy: 3000.0,
+		energy: 6000.0,
 		experience: 1,
 	},
 	{
@@ -130395,7 +130299,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.75,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -130420,7 +130324,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.75,
 			},
 		],
-		energy: 6000.0,
+		energy: 9000.0,
 		experience: 2,
 	},
 	{
@@ -130445,7 +130349,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.2,
 			},
 		],
-		energy: 6000.0,
+		energy: 9000.0,
 		experience: 2,
 	},
 	{
@@ -130470,7 +130374,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.2,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -130548,7 +130452,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.2,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -130573,7 +130477,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.2,
 			},
 		],
-		energy: 6000.0,
+		energy: 9000.0,
 		experience: 2,
 	},
 	{
@@ -130624,7 +130528,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.5,
 			},
 		],
-		energy: 3000.0,
+		energy: 6000.0,
 		experience: 1,
 	},
 	{
@@ -130644,7 +130548,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.5,
 			},
 		],
-		energy: 3000,
+		energy: 6000,
 		experience: 1,
 	},
 	{
@@ -130669,7 +130573,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.2,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -130694,7 +130598,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.2,
 			},
 		],
-		energy: 6000.0,
+		energy: 9000.0,
 		experience: 2,
 	},
 	{
@@ -130745,7 +130649,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.5,
 			},
 		],
-		energy: 3000,
+		energy: 6000,
 		experience: 1,
 	},
 	{
@@ -130765,7 +130669,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.5,
 			},
 		],
-		energy: 3000.0,
+		energy: 6000.0,
 		experience: 1,
 	},
 	{
@@ -130790,7 +130694,7 @@ const CUSTOM_RECIPES = [
 				chance: 2.5,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -130815,7 +130719,7 @@ const CUSTOM_RECIPES = [
 				chance: 2.5,
 			},
 		],
-		energy: 6000.0,
+		energy: 9000.0,
 		experience: 2,
 	},
 	{
@@ -130871,7 +130775,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.5,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -130896,7 +130800,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.5,
 			},
 		],
-		energy: 6000.0,
+		energy: 9000.0,
 		experience: 2,
 	},
 	{
@@ -133254,7 +133158,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.2,
 			},
 		],
-		energy: 9000,
+		energy: 12000,
 		experience: 3,
 	},
 	{
@@ -133332,7 +133236,7 @@ const CUSTOM_RECIPES = [
 				chance: 1.0,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -133357,7 +133261,7 @@ const CUSTOM_RECIPES = [
 				chance: 1.0,
 			},
 		],
-		energy: 6000.0,
+		energy: 9000.0,
 		experience: 2,
 	},
 	{
@@ -133413,7 +133317,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.5,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -133469,7 +133373,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.1,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -133494,7 +133398,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.1,
 			},
 		],
-		energy: 6000.0,
+		energy: 9000.0,
 		experience: 2,
 	},
 	{
@@ -134354,7 +134258,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.1,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -134432,7 +134336,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.3,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -134457,7 +134361,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.3,
 			},
 		],
-		energy: 6000.0,
+		energy: 9000.0,
 		experience: 2,
 	},
 	{
@@ -134503,7 +134407,7 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
-		energy: 0,
+		energy: 3000,
 		experience: 0,
 	},
 	{
@@ -134518,7 +134422,7 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
-		energy: 0.0,
+		energy: 3000.0,
 		experience: 0,
 	},
 	{
@@ -134565,7 +134469,7 @@ const CUSTOM_RECIPES = [
 				chance: 1.5,
 			},
 		],
-		energy: 3000,
+		energy: 6000,
 		experience: 1,
 	},
 	{
@@ -134643,7 +134547,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.3,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -134668,7 +134572,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.3,
 			},
 		],
-		energy: 6000.0,
+		energy: 9000.0,
 		experience: 2,
 	},
 	{
@@ -134714,7 +134618,7 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
-		energy: 0,
+		energy: 3000,
 		experience: 0,
 	},
 	{
@@ -134729,7 +134633,7 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
-		energy: 0.0,
+		energy: 3000.0,
 		experience: 0,
 	},
 	{
@@ -134997,7 +134901,7 @@ const CUSTOM_RECIPES = [
 				chance: 1.0,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -135022,7 +134926,7 @@ const CUSTOM_RECIPES = [
 				chance: 1.0,
 			},
 		],
-		energy: 6000.0,
+		energy: 9000.0,
 		experience: 2,
 	},
 	{
@@ -135100,7 +135004,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.3,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -135125,7 +135029,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.3,
 			},
 		],
-		energy: 6000.0,
+		energy: 9000.0,
 		experience: 2,
 	},
 	{
@@ -135181,7 +135085,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.3,
 			},
 		],
-		energy: 6000,
+		energy: 9000,
 		experience: 2,
 	},
 	{
@@ -135206,7 +135110,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.3,
 			},
 		],
-		energy: 6000.0,
+		energy: 9000.0,
 		experience: 2,
 	},
 	{
@@ -135252,7 +135156,7 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
-		energy: 0,
+		energy: 3000,
 		experience: 0,
 	},
 	{
@@ -135267,7 +135171,7 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
-		energy: 0.0,
+		energy: 3000.0,
 		experience: 0,
 	},
 	{
@@ -135744,7 +135648,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.5,
 			},
 		],
-		energy: 12000,
+		energy: 18000,
 		experience: 2,
 	},
 	{
@@ -135769,7 +135673,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.5,
 			},
 		],
-		energy: 12000.0,
+		energy: 18000.0,
 		experience: 2,
 	},
 	{
@@ -135815,7 +135719,7 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
-		energy: 0,
+		energy: 3000,
 		experience: 0,
 	},
 	{
@@ -135830,7 +135734,7 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
-		energy: 0.0,
+		energy: 3000.0,
 		experience: 0,
 	},
 	{
@@ -135909,7 +135813,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.8,
 			},
 		],
-		energy: 12000,
+		energy: 18000,
 		experience: 2,
 	},
 	{
@@ -135934,7 +135838,7 @@ const CUSTOM_RECIPES = [
 				chance: 0.8,
 			},
 		],
-		energy: 12000.0,
+		energy: 18000.0,
 		experience: 2,
 	},
 	{
@@ -135980,7 +135884,7 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
-		energy: 0,
+		energy: 3000,
 		experience: 0,
 	},
 	{
@@ -135995,7 +135899,7 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
-		energy: 0.0,
+		energy: 3000.0,
 		experience: 0,
 	},
 	{

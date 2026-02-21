@@ -1,0 +1,14 @@
+
+#HyhryaCasingMod Client Configuration
+[rendering]
+	#Enable Ambient Occlusion (smooth lighting) for facades.
+	#ON: Better visuals, but lower performance
+	#OFF: Flat lighting, but much better performance
+	#Default: false (for better performance)
+	use_ambient_occlusion = false
+	#Maximum render distance for facades in blocks.
+	#Higher values = more facades rendered = lower FPS
+	#Default: 64
+	#Range: 16 ~ 256
+	render_distance = 64
+

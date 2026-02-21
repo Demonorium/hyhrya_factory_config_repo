@@ -214,6 +214,86 @@ ServerEvents.recipes(event => {
     }
   })
 
+  event.shaped(
+    Item.of("kubejs:primitive_reaction_chamber"),
+    [
+      "AAA",
+      "BCB",
+      "DED",
+    ],
+    {
+      A: Item.of(MATERIALS.STEEL.ingot),
+      B: Item.of("mekanism:basic_control_circuit"),
+      C: Item.of('pneumaticcraft:thermopneumatic_processing_plant'),
+      D: Item.of(MATERIALS.STEEL.gear),
+      E: Item.of("furnace"),
+    }
+  )
+
+  event.shaped(
+    Item.of("kubejs:precipitation_bath"),
+    [
+      "AAA",
+      "BCB",
+      "DED",
+    ],
+    {
+      A: Item.of(MATERIALS.STEEL.ingot),
+      B: Item.of("mekanism:advanced_control_circuit"),
+      C: Item.of('pneumaticcraft:fluid_mixer'),
+      D: Item.of(MATERIALS.STEEL.gear),
+      E: Item.of("superbwarfare:motor"),
+    }
+  )
+
+  event.shaped(
+    Item.of("kubejs:atmospheric_adsorption_separator"),
+    [
+      "AAA",
+      "BCB",
+      "DED",
+    ],
+    {
+      A: Item.of('pneumaticcraft:heat_sink'),
+      B: Item.of("mekanism:elite_control_circuit"),
+      C: Item.of('mekanismelements:air_compressor'),
+      D: Item.of(MATERIALS.IRIDIUM.gear),
+      E: Item.of("mekanismelements:adsorption_separator"),
+    }
+  )
+
+ event.shaped(
+    Item.of("kubejs:gas_chemical_furnace"),
+    [
+      "DBA",
+      "ACB",
+      "BEA",
+    ],
+    {
+      A: Item.of('pneumaticcraft:advanced_pressure_tube'),
+      B: Item.of(MATERIALS.STEEL.gear),
+      C: Item.of('pneumaticcraft:thermopneumatic_processing_plant'),
+      D: Item.of('mekanism:basic_control_circuit'),
+      E: Item.of("furnace"),
+    }
+  )
+
+  event.shaped(
+    Item.of("kubejs:advanced_reaction_chamber"),
+    [
+      "AAA",
+      "BCB",
+      "DED",
+    ],
+    {
+      A: Item.of(MATERIALS.IRIDIUM.plate),
+      B: Item.of("mekanism:ultimate_control_circuit"),
+      C: Item.of('kubejs:primitive_reaction_chamber'),
+      D: Item.of(MATERIALS.PLATINUM.gear),
+      E: Item.of("mekanism:pressurized_reaction_chamber"),
+    }
+  )
+
   console.log("meka recipes loading...")
   event.remove({ id: 'mekanism:enriching/enriched/carbon' })
   event.custom({

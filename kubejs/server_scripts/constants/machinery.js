@@ -40608,6 +40608,48 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
+		time: 60,
+		energy: 2259,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 50,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:carbon_dust",
+				count: 1.0,
+			},
+		],
+		result_items: null,
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "kubejs:ozone",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
 		time: 75,
 		energy: 415,
 		biomes: null,
