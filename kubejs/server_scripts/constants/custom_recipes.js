@@ -114182,7 +114182,7 @@ const CUSTOM_RECIPES = [
 	{
 		type: "pneumaticcraft:fluid_mixer",
 		input1: {
-			fluid: "chemlib:vinyl_chloride",
+			fluid: "kubejs:vinyl_chloride",
 			amount: 100.0,
 			type: "pneumaticcraft:fluid",
 		},
@@ -114606,7 +114606,7 @@ const CUSTOM_RECIPES = [
 			amount: 100.0,
 		},
 		item_output: {
-			item: "chemlib:chromium_hydroxide",
+			item: "chemlib:chromium_iii_hydroxide_dust",
 			count: 1.0,
 		},
 	},
