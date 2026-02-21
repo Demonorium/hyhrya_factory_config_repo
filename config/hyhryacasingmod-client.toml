@@ -5,7 +5,7 @@
 	#ON: Better visuals, but lower performance
 	#OFF: Flat lighting, but much better performance
 	#Default: false (for better performance)
-	use_ambient_occlusion = false
+	use_ambient_occlusion = true
 	#Maximum render distance for facades in blocks.
 	#Higher values = more facades rendered = lower FPS
 	#Default: 64
