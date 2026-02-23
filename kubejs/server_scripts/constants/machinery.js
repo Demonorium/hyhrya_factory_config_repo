@@ -364,16 +364,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:precipitation_bath",
-		time: 90,
-		energy: 26,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 180,
+		energy: 252,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: null,
@@ -392,8 +392,17 @@ const MACHINERY_RECIPES = [
 				fluid: "kubejs:aniline",
 				amount: 100,
 			},
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
 		],
-		source_gases: null,
+		source_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 600,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -517,6 +526,58 @@ const MACHINERY_RECIPES = [
 		result_fluids: [
 			{
 				fluid: "kubejs:monochloramine",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:ammonia",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 787,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "mekanism:salt",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:monochloramine",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "kubejs:hydrazine",
+				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
 				amount: 100,
 			},
 		],
@@ -1298,16 +1359,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 325,
-		energy: 64,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 210,
+		energy: 535,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -1333,7 +1394,12 @@ const MACHINERY_RECIPES = [
 				amount: 400,
 			},
 		],
-		source_gases: null,
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -1513,16 +1579,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: 14,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 210,
+		energy: 495,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -1540,7 +1606,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -2259,6 +2330,52 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
+		time: 495,
+		energy: 315,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "kubejs:disulfur_dichloride",
+				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 800,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 1200,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 1000,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
 		time: 105,
 		energy: 305,
 		biomes: null,
@@ -2443,15 +2560,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 75,
-		energy: 493,
+		time: 105,
+		energy: 490,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: [
@@ -2466,10 +2583,19 @@ const MACHINERY_RECIPES = [
 				amount: 200,
 			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		source_gases: [
 			{
 				gas: "mekanismelements:nitric_oxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
 				amount: 100,
 			},
 		],
@@ -2648,16 +2774,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 250,
-		energy: 172,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 210,
+		energy: 1112,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -2683,7 +2809,12 @@ const MACHINERY_RECIPES = [
 				amount: 400,
 			},
 		],
-		source_gases: null,
+		source_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 400,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -3154,16 +3285,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: 16,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 165,
+		energy: 534,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -3181,7 +3312,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -3294,16 +3430,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 250,
-		energy: 136,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 165,
+		energy: 1152,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -3327,6 +3463,10 @@ const MACHINERY_RECIPES = [
 		],
 		source_fluids: [
 			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+			{
 				fluid: "mekanism:sulfuric_acid",
 				amount: 100,
 			},
@@ -3340,16 +3480,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: 13,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 180,
+		energy: 447,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -3367,7 +3507,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -4411,6 +4556,57 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		result_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 600,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 255,
+		energy: 1830,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:carbon_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:lanthanum_oxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:lanthanum_iii_sulfide_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 300,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:carbon_monoxide",
+				amount: 300,
+			},
 			{
 				gas: "mekanism:hydrogen",
 				amount: 600,
@@ -5962,6 +6158,62 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
+		time: 225,
+		energy: 806,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:ozone",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
 		time: 240,
 		energy: 280,
 		biomes: null,
@@ -6257,6 +6509,48 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 525,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_iron",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iron_hydroxide_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 200,
 		energy: 56,
@@ -6525,15 +6819,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 45,
-		energy: 591,
+		time: 75,
+		energy: 551,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: [
@@ -6542,7 +6836,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -7828,16 +8127,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: 17,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 577,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -7855,12 +8154,64 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
 				gas: "mekanismelements:ammonia",
 				amount: 200,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 510,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: null,
+		result_items: [
+			{
+				item: "chemlib:ammonium_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:ammonia",
+				amount: 100,
 			},
 		],
 		result_gases: null,
@@ -8102,6 +8453,58 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 270,
+		energy: 536,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "moremekanismprocessing:dust_magnesium",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:ammonium_nitrate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:magnesium_nitrate_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 600,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 400,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 550,
 		energy: 99,
@@ -8337,16 +8740,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: 30,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 165,
+		energy: 834,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -8364,7 +8767,12 @@ const MACHINERY_RECIPES = [
 				count: 2.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -8372,6 +8780,57 @@ const MACHINERY_RECIPES = [
 				amount: 200,
 			},
 		],
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 360,
+		energy: 1529,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "moremekanismprocessing:dust_aluminum",
+				count: 8.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:aluminum_oxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:ammonium_nitrate_dust",
+				count: 3.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 600,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
+		],
+		result_fluids: null,
+		source_gases: null,
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -8426,16 +8885,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: 25,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 793,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -8453,7 +8912,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -8825,6 +9289,53 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "minecraft:water",
 				amount: 900,
+			},
+		],
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 285,
+		energy: 549,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "moremekanismprocessing:dust_aluminum",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:aluminium_chloride_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 600,
+			},
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 600,
 			},
 		],
 		source_gases: null,
@@ -9628,6 +10139,66 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 690,
+		energy: 774,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:lead_dioxide_dust",
+				count: 7.0,
+			},
+			{
+				item: "chemlib:potassium_cyanide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:lead_ii_chloride_dust",
+				count: 7.0,
+			},
+			{
+				item: "chemlib:potassium_chloride_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 1600,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 800,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 105,
@@ -9668,6 +10239,58 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "kubejs:carbon_dioxide",
 				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 135,
+		energy: 491,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:lead_dioxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:lead_ii_chloride_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 200,
+			},
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
 			},
 		],
 		source_infuse_type: null,
@@ -9725,6 +10348,57 @@ const MACHINERY_RECIPES = [
 		],
 		source_gases: null,
 		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 510,
+		energy: 465,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_lead",
+				count: 3.0,
+			},
+		],
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 1200,
+			},
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "kubejs:lead_iv_chloride",
+				amount: 300,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 800,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 400,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -9894,16 +10568,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 625,
-		energy: 126,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 495,
+		energy: 978,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -9923,6 +10597,10 @@ const MACHINERY_RECIPES = [
 		],
 		source_fluids: [
 			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 400,
+			},
+			{
 				fluid: "kubejs:thiocyanic_acid",
 				amount: 500,
 			},
@@ -9931,6 +10609,10 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "mekanismelements:hydrogen_cyanide",
 				amount: 500,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 400,
 			},
 		],
 		source_gases: null,
@@ -10832,6 +11514,58 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 135,
+		energy: 483,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:antimony_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:antimony_trichloride_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 300,
+			},
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 760,
 		energy: 105,
@@ -11105,16 +11839,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: 15,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 507,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -11123,7 +11857,12 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		result_items: null,
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:sulfuric_acid",
@@ -11467,16 +12206,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 200,
-		energy: 83,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 165,
+		energy: 723,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -11498,6 +12237,10 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "mekanism:hydrogen_chloride",
 				amount: 200,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
 			},
 		],
 		result_fluids: [
@@ -11596,6 +12339,54 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "kubejs:hydrogen_iodide",
 				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 330,
+		energy: 539,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:iodine_dust",
+				count: 8.0,
+			},
+		],
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:hydrogen_iodide",
+				amount: 800,
 			},
 		],
 		source_infuse_type: null,
@@ -11872,6 +12663,48 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 60,
+		energy: 876,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "thermal:silver_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:silver_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 91,
@@ -11965,6 +12798,54 @@ const MACHINERY_RECIPES = [
 				amount: 300,
 			},
 		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 924,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "thermal:silver_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:silver_nitrate_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -12117,16 +12998,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 75,
-		energy: 113,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 752,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -12142,11 +13023,20 @@ const MACHINERY_RECIPES = [
 		],
 		source_fluids: [
 			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+			{
 				fluid: "mekanism:sulfuric_acid",
 				amount: 100,
 			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		source_gases: null,
 		result_gases: null,
 		source_infuse_type: null,
@@ -12781,16 +13671,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 300,
-		energy: 93,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 345,
+		energy: 577,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -12820,7 +13710,12 @@ const MACHINERY_RECIPES = [
 				amount: 500,
 			},
 		],
-		source_gases: null,
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 800,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -12927,15 +13822,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 135,
-		energy: 1092,
+		time: 285,
+		energy: 652,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -12953,7 +13848,12 @@ const MACHINERY_RECIPES = [
 				count: 2.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "kubejs:hydrogen_peroxide",
@@ -12964,7 +13864,12 @@ const MACHINERY_RECIPES = [
 				amount: 300,
 			},
 		],
-		source_gases: null,
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 600,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -13015,16 +13920,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: 39,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 360,
+		energy: 935,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -13046,8 +13951,18 @@ const MACHINERY_RECIPES = [
 				count: 2.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 600,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 600,
+			},
+		],
 		source_gases: [
 			{
 				gas: "kubejs:phosphine",
@@ -14423,15 +15338,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 210,
-		energy: 1735,
+		time: 225,
+		energy: 1652,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -14444,6 +15359,10 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "mekanismelements:nitric_acid",
 				amount: 400,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
 			},
 		],
 		result_fluids: null,
@@ -14697,8 +15616,8 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 90,
-		energy: 358,
+		time: 165,
+		energy: 1031,
 		biomes: null,
 		dimensions: null,
 		filter: null,
@@ -14707,11 +15626,62 @@ const MACHINERY_RECIPES = [
 		produce_energy: null,
 		priority: 50,
 		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:carbon_dust",
+				count: 1.0,
+			},
+		],
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbonic_acid",
+				amount: 100,
+			},
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 400,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 392,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
 		source_items: null,
 		result_items: null,
 		source_fluids: [
 			{
 				fluid: "mekanismelements:bromine",
+				amount: 200,
+			},
+			{
+				fluid: "minecraft:water",
 				amount: 200,
 			},
 		],
@@ -14906,21 +15876,25 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 90,
-		energy: 412,
+		time: 120,
+		energy: 432,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: null,
 		source_fluids: [
 			{
 				fluid: "mekanismelements:bromine",
+				amount: 200,
+			},
+			{
+				fluid: "minecraft:water",
 				amount: 200,
 			},
 		],
@@ -15033,16 +16007,63 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 300,
-		energy: 44,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 330,
+		energy: 429,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "mekanismelements:bromine",
+				amount: 800,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:hydrogen_bromide",
+				amount: 800,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 240,
+		energy: 414,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -15061,6 +16082,10 @@ const MACHINERY_RECIPES = [
 				fluid: "mekanismelements:bromine",
 				amount: 500,
 			},
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
 		],
 		result_fluids: null,
 		source_gases: null,
@@ -15076,16 +16101,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 350,
-		energy: 50,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 270,
+		energy: 459,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -15098,6 +16123,10 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "mekanismelements:bromine",
 				amount: 600,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 400,
 			},
 		],
 		result_fluids: [
@@ -15119,16 +16148,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 150,
-		energy: 79,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 680,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -15146,6 +16175,10 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "mekanismelements:bromine",
 				amount: 200,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
 			},
 		],
 		result_fluids: null,
@@ -15249,15 +16282,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 270,
-		energy: 366,
+		time: 330,
+		energy: 389,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: [
@@ -15270,6 +16303,10 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "mekanismelements:bromine",
 				amount: 800,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 400,
 			},
 		],
 		result_fluids: null,
@@ -15376,16 +16413,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 150,
-		energy: 78,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 666,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -15403,6 +16440,10 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "mekanismelements:bromine",
 				amount: 200,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
 			},
 		],
 		result_fluids: null,
@@ -15505,16 +16546,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 450,
-		energy: 87,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 330,
+		energy: 730,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -15533,6 +16574,10 @@ const MACHINERY_RECIPES = [
 				fluid: "mekanismelements:bromine",
 				amount: 800,
 			},
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
 		],
 		result_fluids: null,
 		source_gases: null,
@@ -15549,15 +16594,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 120,
-		energy: 460,
+		time: 150,
+		energy: 466,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: null,
@@ -15565,6 +16610,10 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "mekanismelements:bromine",
 				amount: 300,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 200,
 			},
 		],
 		result_fluids: [
@@ -15632,6 +16681,100 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 453,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 50,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "mekanismelements:bromine",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:sulfur_trioxide",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:hydrogen_bromide",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 1277,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:barium_sulfide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:barium_sulfate",
+				count: 1.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:bromine",
+				amount: 200,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:hydrogen_bromide",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 100,
 		energy: 114,
@@ -15667,6 +16810,58 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "kubejs:hydrogen_bromide",
 				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 510,
+		energy: 698,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:zirconium_dust",
+				count: 3.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:zirconium_iv_chloride_dust",
+				count: 3.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 1200,
+			},
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 800,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 400,
 			},
 		],
 		source_infuse_type: null,
@@ -15770,16 +16965,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 250,
-		energy: 116,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 180,
+		energy: 885,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -15809,7 +17004,12 @@ const MACHINERY_RECIPES = [
 				amount: 200,
 			},
 		],
-		source_gases: null,
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
 		result_gases: [
 			{
 				gas: "mekanism:sulfur_dioxide",
@@ -16839,15 +18039,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 120,
-		energy: 1074,
+		time: 180,
+		energy: 877,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -16865,7 +18065,12 @@ const MACHINERY_RECIPES = [
 				count: 2.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanismelements:nitric_acid",
@@ -16876,7 +18081,12 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
-		source_gases: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -17326,6 +18536,58 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:hydrogen",
 				amount: 600,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 902,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_iron",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iron_ii_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 200,
 			},
 		],
 		source_infuse_type: null,
@@ -17847,6 +19109,49 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:hydrogen",
 				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
+		time: 125,
+		energy: 84,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_copper",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_ii_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 200,
 			},
 		],
 		source_infuse_type: null,
@@ -20181,6 +21486,58 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 702,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "moremekanismprocessing:dust_magnesium",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:magnesium_sulfate",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 90,
 		energy: 18,
@@ -20570,16 +21927,62 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 525,
-		energy: 145,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 150,
+		energy: 321,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:methane",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:hydrogen",
+				amount: 600,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 360,
+		energy: 1161,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -20601,12 +22004,21 @@ const MACHINERY_RECIPES = [
 				count: 8.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
 		result_fluids: null,
 		source_gases: null,
 		result_gases: [
 			{
 				gas: "mekanism:chlorine",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:hydrogen",
 				amount: 200,
 			},
 		],
@@ -21329,6 +22741,58 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 601,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "moremekanismprocessing:dust_zinc",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:zinc_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
 		time: 210,
 		energy: 161,
 		biomes: null,
@@ -21874,16 +23338,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 225,
-		energy: 324,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 210,
+		energy: 2446,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -21901,10 +23365,19 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: null,
 		source_gases: null,
 		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 300,
+			},
 			{
 				gas: "mekanism:hydrogen",
 				amount: 400,
@@ -22503,8 +23976,59 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 135,
-		energy: 334,
+		time: 165,
+		energy: 363,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:covellite_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_ii_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		result_fluids: null,
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 500,
+			},
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 442,
 		biomes: null,
 		dimensions: null,
 		filter: null,
@@ -22528,7 +24052,7 @@ const MACHINERY_RECIPES = [
 		source_fluids: [
 			{
 				fluid: "mekanismelements:nitric_acid",
-				amount: 100,
+				amount: 200,
 			},
 		],
 		result_fluids: null,
@@ -22536,11 +24060,11 @@ const MACHINERY_RECIPES = [
 		result_gases: [
 			{
 				gas: "mekanism:hydrogen",
-				amount: 500,
+				amount: 200,
 			},
 			{
 				gas: "mekanismelements:nitric_oxide",
-				amount: 100,
+				amount: 200,
 			},
 		],
 		source_infuse_type: null,
@@ -22772,6 +24296,52 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 255,
+		energy: 276,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanismelements:methane",
+				amount: 200,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:carbon_monoxide",
+				amount: 300,
+			},
+			{
+				gas: "mekanism:hydrogen",
+				amount: 1000,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 180,
 		energy: 121,
@@ -22824,16 +24394,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: 34,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 210,
+		energy: 653,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -22851,7 +24421,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -22859,7 +24434,12 @@ const MACHINERY_RECIPES = [
 				amount: 200,
 			},
 		],
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 600,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -22960,16 +24540,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 125,
-		energy: 61,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 135,
+		energy: 392,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -22988,6 +24568,10 @@ const MACHINERY_RECIPES = [
 				fluid: "kubejs:hydrogen_peroxide",
 				amount: 100,
 			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
 		],
 		result_fluids: null,
 		source_gases: null,
@@ -22995,6 +24579,10 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:hydrogen",
 				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 300,
 			},
 		],
 		source_infuse_type: null,
@@ -23319,16 +24907,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 1275,
-		energy: 338,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 870,
+		energy: 2804,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -23354,8 +24942,69 @@ const MACHINERY_RECIPES = [
 				amount: 2400,
 			},
 		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 400,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 300,
+			},
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 810,
+		energy: 3198,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 50,
+		fuel: null,
+		source_items: [
+			{
+				item: "minecraft:sugar",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:carbon_dust",
+				count: 23.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 2400,
+			},
+		],
 		source_gases: null,
 		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
 			{
 				gas: "mekanism:sulfur_dioxide",
 				amount: 200,
@@ -24938,6 +26587,56 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 1846,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:carbon_dust",
+				count: 1.0,
+			},
+			{
+				item: "thermal:niter_dust",
+				count: 2.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanismelements:nitrogen",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 250,
 		energy: 91,
@@ -25107,6 +26806,63 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanismelements:nitrogen",
 				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 1020,
+		energy: 654,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 6.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 6.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 3.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 900,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 2400,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:ammonia",
+				amount: 1000,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanismelements:nitrogen",
+				amount: 1000,
 			},
 		],
 		source_infuse_type: null,
@@ -25454,6 +27210,58 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanismelements:ammonia",
 				amount: 200,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanismelements:nitrogen",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 360,
+		energy: 406,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: null,
+		result_items: [
+			{
+				item: "chemlib:ammonium_chloride_dust",
+				count: 6.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:ammonia",
+				amount: 800,
+			},
+			{
+				gas: "mekanism:chlorine",
+				amount: 600,
 			},
 		],
 		result_gases: [
@@ -25966,16 +27774,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 625,
-		energy: 86,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 705,
+		energy: 642,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -25998,8 +27806,17 @@ const MACHINERY_RECIPES = [
 				fluid: "kubejs:hydrazine",
 				amount: 500,
 			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 600,
+			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 1600,
+			},
+		],
 		source_gases: null,
 		result_gases: [
 			{
@@ -26409,6 +28226,58 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "minecraft:water",
 				amount: 400,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitrogen",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 375,
+		energy: 701,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "moremekanismprocessing:dust_zinc",
+				count: 5.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:zinc_sulfate_dust",
+				count: 5.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 500,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 600,
 			},
 		],
 		source_gases: null,
@@ -26890,16 +28759,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 975,
-		energy: 32,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 2310,
+		energy: 893,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -26917,8 +28786,18 @@ const MACHINERY_RECIPES = [
 				count: 9.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 2700,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 5200,
+			},
+		],
 		source_gases: [
 			{
 				gas: "kubejs:methylamine",
@@ -26926,6 +28805,10 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 1000,
+			},
 			{
 				gas: "mekanismelements:nitrogen",
 				amount: 1000,
@@ -27085,6 +28968,53 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 360,
+		energy: 257,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_sulfur",
+				count: 5.0,
+			},
+		],
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 600,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 500,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitrogen",
+				amount: 600,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 280,
 		energy: 123,
@@ -27188,16 +29118,68 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: 19,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 375,
+		energy: 1142,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "moremekanismprocessing:dust_cobalt",
+				count: 5.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:cobalt_sulfate_dust",
+				count: 5.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 500,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 600,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitrogen",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 195,
+		energy: 497,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -27222,6 +29204,10 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanismelements:ammonia",
 				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 400,
 			},
 		],
 		result_gases: [
@@ -27318,6 +29304,62 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanismelements:nitrogen",
 				amount: 500,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 600,
+		energy: 386,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_nitrate_dust",
+				count: 1.0,
+			},
+			{
+				item: "thermal:niter_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrazine",
+				amount: 500,
+			},
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 600,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 1300,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitrogen",
+				amount: 1300,
 			},
 		],
 		source_infuse_type: null,
@@ -27460,6 +29502,59 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanismelements:nitrogen",
 				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 210,
+		energy: 785,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 3.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:sodium_bromide_dust",
+				count: 3.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:bromine",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:ammonia",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanismelements:nitrogen",
+				amount: 100,
 			},
 		],
 		source_infuse_type: null,
@@ -28005,6 +30100,58 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanismelements:nitrogen",
 				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
+		time: 625,
+		energy: 71,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 4.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 4.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrazine",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitrogen",
+				amount: 600,
 			},
 		],
 		source_infuse_type: null,
@@ -28567,15 +30714,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 210,
-		energy: 255,
+		time: 270,
+		energy: 308,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: null,
@@ -28583,6 +30730,10 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "mekanismelements:nitric_acid",
 				amount: 200,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 400,
 			},
 		],
 		result_fluids: [
@@ -28648,6 +30799,60 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:sulfur_dioxide",
 				amount: 300,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 390,
+		energy: 1336,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:calcium_carbonate_dust",
+				count: 2.0,
+			},
+			{
+				item: "thermal:niter_dust",
+				count: 6.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 5.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:calcium_sulfate_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 3.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanismelements:nitrogen",
+				amount: 600,
 			},
 		],
 		source_infuse_type: null,
@@ -28828,16 +31033,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: 32,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 150,
+		energy: 854,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -28855,7 +31060,12 @@ const MACHINERY_RECIPES = [
 				count: 2.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -28863,23 +31073,28 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 300,
-		energy: 71,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 390,
+		energy: 453,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -28899,13 +31114,27 @@ const MACHINERY_RECIPES = [
 		],
 		source_fluids: [
 			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 200,
+			},
+			{
 				fluid: "mekanismelements:nitric_acid",
 				amount: 600,
 			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 500,
+			},
+		],
 		source_gases: null,
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 700,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -29054,16 +31283,68 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 150,
-		energy: 102,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 676,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 195,
+		energy: 567,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -29079,16 +31360,29 @@ const MACHINERY_RECIPES = [
 		],
 		source_fluids: [
 			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+			{
 				fluid: "mekanism:sulfuric_acid",
 				amount: 100,
 			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		source_gases: null,
 		result_gases: [
 			{
 				gas: "mekanismelements:nitric_oxide",
 				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 400,
 			},
 		],
 		source_infuse_type: null,
@@ -29097,16 +31391,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 100,
-		energy: 82,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 135,
+		energy: 510,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -29122,13 +31416,27 @@ const MACHINERY_RECIPES = [
 		],
 		source_fluids: [
 			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+			{
 				fluid: "mekanismelements:nitric_acid",
 				amount: 200,
 			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		source_gases: null,
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -29433,16 +31741,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 75,
-		energy: 133,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 657,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -29458,13 +31766,27 @@ const MACHINERY_RECIPES = [
 		],
 		source_fluids: [
 			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+			{
 				fluid: "mekanism:sulfuric_acid",
 				amount: 100,
 			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		source_gases: null,
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -29693,6 +32015,62 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 165,
+		energy: 989,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_dichromate",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:chromium_oxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 400,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:precipitation_bath",
 		time: 180,
 		energy: 31,
@@ -29732,6 +32110,57 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:oxygen",
 				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 315,
+		energy: 762,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 4.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 4.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 700,
 			},
 		],
 		source_infuse_type: null,
@@ -29943,8 +32372,8 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:primitive_reaction_chamber",
-		time: 150,
-		energy: 99,
+		time: 125,
+		energy: 97,
 		biomes: null,
 		dimensions: null,
 		filter: null,
@@ -29952,6 +32381,54 @@ const MACHINERY_RECIPES = [
 		rs_rad: null,
 		produce_energy: null,
 		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:lead_dioxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:lead_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 195,
+		energy: 554,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -29974,10 +32451,19 @@ const MACHINERY_RECIPES = [
 				fluid: "kubejs:hydrogen_peroxide",
 				amount: 100,
 			},
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
 		],
 		result_fluids: null,
 		source_gases: null,
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 400,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -30080,6 +32566,57 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 135,
+		energy: 1026,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_iodide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iodine_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 45,
 		energy: 9,
@@ -30166,16 +32703,73 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: 30,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 270,
+		energy: 653,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 200,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 400,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 150,
+		energy: 815,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -30189,7 +32783,12 @@ const MACHINERY_RECIPES = [
 				count: 2.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanismelements:bromine",
@@ -30202,7 +32801,12 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -30303,16 +32907,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 150,
-		energy: 109,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 165,
+		energy: 687,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -30328,15 +32932,28 @@ const MACHINERY_RECIPES = [
 		],
 		source_fluids: [
 			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+			{
 				fluid: "mekanism:sulfuric_acid",
 				amount: 100,
 			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		source_gases: null,
 		result_gases: [
 			{
 				gas: "mekanismelements:nitric_oxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
 				amount: 200,
 			},
 		],
@@ -30443,8 +33060,8 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:primitive_reaction_chamber",
-		time: 175,
-		energy: 133,
+		time: 150,
+		energy: 69,
 		biomes: null,
 		dimensions: null,
 		filter: null,
@@ -30452,6 +33069,155 @@ const MACHINERY_RECIPES = [
 		rs_rad: null,
 		produce_energy: null,
 		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:lead_dioxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:lead_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
+		time: 150,
+		energy: 124,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_ii_oxide_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 165,
+		energy: 706,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:potassium_chloride_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 200,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 270,
+		energy: 682,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -30474,15 +33240,80 @@ const MACHINERY_RECIPES = [
 				fluid: "pneumaticcraft:ethanol",
 				amount: 100,
 			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
 		source_gases: null,
 		result_gases: [
 			{
 				gas: "kubejs:ethylene_oxide",
 				amount: 100,
 			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 400,
+			},
 		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 375,
+		energy: 687,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 700,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 1000,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 300,
+			},
+		],
+		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -30574,16 +33405,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 150,
-		energy: 136,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 165,
+		energy: 816,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -30601,31 +33432,45 @@ const MACHINERY_RECIPES = [
 				count: 2.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "kubejs:mercury",
 				amount: 100,
 			},
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
 		],
 		source_gases: null,
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 250,
-		energy: 143,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 210,
+		energy: 1033,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -30651,12 +33496,26 @@ const MACHINERY_RECIPES = [
 				count: 2.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		source_gases: null,
 		result_gases: [
 			{
 				gas: "kubejs:hydrogen_sulfide",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:oxygen",
 				amount: 100,
 			},
 		],
@@ -30714,6 +33573,53 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:primitive_reaction_chamber",
+		time: 225,
+		energy: 122,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_dichromate",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:chromium_oxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 400,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 60,
 		energy: 2259,
@@ -30757,19 +33663,81 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 75,
-		energy: 415,
+		time: 150,
+		energy: 859,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_iodide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iodine_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:ozone",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 346,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: null,
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanismelements:nitric_acid",
@@ -30786,7 +33754,12 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -30884,8 +33857,8 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:primitive_reaction_chamber",
-		time: 150,
-		energy: 117,
+		time: 500,
+		energy: 54,
 		biomes: null,
 		dimensions: null,
 		filter: null,
@@ -30893,6 +33866,58 @@ const MACHINERY_RECIPES = [
 		rs_rad: null,
 		produce_energy: null,
 		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_nitrate_dust",
+				count: 2.0,
+			},
+			{
+				item: "thermal:niter_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 600,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 500,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 165,
+		energy: 726,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -30911,10 +33936,24 @@ const MACHINERY_RECIPES = [
 				fluid: "mekanismelements:bromine",
 				amount: 200,
 			},
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		source_gases: null,
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -31064,16 +34103,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: 24,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 614,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -31087,7 +34126,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -31098,6 +34142,10 @@ const MACHINERY_RECIPES = [
 		result_gases: [
 			{
 				gas: "mekanism:hydrogen",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
 				amount: 200,
 			},
 		],
@@ -31149,16 +34197,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 150,
-		energy: 88,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 195,
+		energy: 506,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -31174,16 +34222,29 @@ const MACHINERY_RECIPES = [
 		],
 		source_fluids: [
 			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+			{
 				fluid: "mekanism:sulfuric_acid",
 				amount: 100,
 			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		source_gases: null,
 		result_gases: [
 			{
 				gas: "mekanismelements:nitric_oxide",
 				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 400,
 			},
 		],
 		source_infuse_type: null,
@@ -31249,15 +34310,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 120,
-		energy: 1296,
+		time: 435,
+		energy: 897,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: null,
@@ -31278,8 +34339,17 @@ const MACHINERY_RECIPES = [
 				gas: "kubejs:acetylene",
 				amount: 300,
 			},
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 600,
+			},
 		],
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 1500,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -31326,6 +34396,58 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:oxygen",
 				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 780,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 50,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_nitrate_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
 			},
 		],
 		source_infuse_type: null,
@@ -31386,6 +34508,48 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 90,
+		energy: 38,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 390,
 		energy: 474,
@@ -31432,6 +34596,57 @@ const MACHINERY_RECIPES = [
 				amount: 600,
 			},
 		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 799,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_iodide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iodine_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 100,
+			},
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: null,
+		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -32210,16 +35425,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: 47,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 270,
+		energy: 1412,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -32233,7 +35448,12 @@ const MACHINERY_RECIPES = [
 				count: 4.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:sulfuric_acid",
@@ -32648,6 +35868,62 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
+		time: 345,
+		energy: 603,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "thermal:cinnabar_dust",
+				count: 3.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:mercury_ii_chloride_dust",
+				count: 3.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 3.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 600,
+			},
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
 		time: 180,
 		energy: 484,
 		biomes: null,
@@ -33012,16 +36288,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: 22,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 165,
+		energy: 673,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -33039,8 +36315,18 @@ const MACHINERY_RECIPES = [
 				count: 3.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
+		],
 		source_gases: [
 			{
 				gas: "kubejs:hydrogen_sulfide",
@@ -33533,16 +36819,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 100,
-		energy: 162,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 1040,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -33562,11 +36848,20 @@ const MACHINERY_RECIPES = [
 		],
 		source_fluids: [
 			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+			{
 				fluid: "mekanism:sulfuric_acid",
 				amount: 100,
 			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		source_gases: null,
 		result_gases: null,
 		source_infuse_type: null,
@@ -33725,16 +37020,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: 33,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 240,
+		energy: 1093,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -33756,7 +37051,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -33813,16 +37113,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: 21,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 330,
+		energy: 646,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -33840,14 +37140,239 @@ const MACHINERY_RECIPES = [
 				count: 5.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 600,
+			},
+		],
 		source_gases: [
 			{
 				gas: "kubejs:hydrogen_sulfide",
 				amount: 400,
 			},
 		],
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 707,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:covellite_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_ii_sulfate_dust",
+				count: 1.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 195,
+		energy: 693,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_sulfite_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "mekanism:salt",
+				count: 2.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 3.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 200,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 450,
+		energy: 559,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_nitrate_dust",
+				count: 2.0,
+			},
+			{
+				item: "thermal:niter_dust",
+				count: 2.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 5.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 600,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 800,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 500,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 345,
+		energy: 824,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:nickel_sulfide_dust",
+				count: 3.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:nickel_chloride_dust",
+				count: 3.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 3.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 600,
+			},
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: null,
 		result_gases: [
 			{
 				gas: "mekanismelements:nitric_oxide",
@@ -34052,16 +37577,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 125,
-		energy: 95,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 714,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -34084,8 +37609,17 @@ const MACHINERY_RECIPES = [
 				fluid: "mekanism:hydrogen_chloride",
 				amount: 200,
 			},
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		source_gases: null,
 		result_gases: null,
 		source_infuse_type: null,
@@ -34094,16 +37628,72 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: 21,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 150,
+		energy: 857,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:nickel_sulfide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:nickel_sulfate_dust",
+				count: 1.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 180,
+		energy: 704,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -34125,7 +37715,12 @@ const MACHINERY_RECIPES = [
 				count: 3.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -34134,6 +37729,62 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 300,
+		energy: 907,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_sulfide_dust",
+				count: 3.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 3.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 3.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 200,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -34414,16 +38065,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 125,
-		energy: 125,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 948,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -34448,7 +38099,12 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		result_fluids: null,
-		source_gases: null,
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -34684,16 +38340,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 210,
-		energy: 25,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 240,
+		energy: 838,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -34715,7 +38371,12 @@ const MACHINERY_RECIPES = [
 				count: 3.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -34969,6 +38630,107 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:primitive_reaction_chamber",
+		time: 200,
+		energy: 147,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_iodide_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:sodium_sulfite_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iodine_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 2.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 150,
+		energy: 680,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:copper_i_sulfide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_ii_sulfate_dust",
+				count: 2.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
 		time: 480,
 		energy: 115,
 		biomes: null,
@@ -35068,6 +38830,53 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 165,
+		energy: 20,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_sulfite_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:sodium_sulfide_dust",
+				count: 1.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 3.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 300,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 120,
 		energy: 437,
@@ -35154,16 +38963,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 255,
-		energy: 15,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 390,
+		energy: 519,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -35181,8 +38990,18 @@ const MACHINERY_RECIPES = [
 				count: 8.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 800,
+			},
+		],
 		source_gases: [
 			{
 				gas: "kubejs:hydrogen_sulfide",
@@ -35504,15 +39323,175 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 210,
-		energy: 513,
+		time: 180,
+		energy: 755,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_nitrite_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:potassium_chloride_dust",
+				count: 2.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 330,
+		energy: 302,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 800,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 800,
+			},
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 270,
+		energy: 652,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "thermal:niter_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:potassium_chloride_dust",
+				count: 2.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 3.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 300,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 240,
+		energy: 510,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: [
@@ -35525,6 +39504,10 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "mekanism:sulfuric_acid",
 				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 200,
 			},
 		],
 		result_fluids: [
@@ -35546,16 +39529,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 60,
-		energy: 30,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 823,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -35573,14 +39556,75 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		source_gases: [
 			{
 				gas: "kubejs:hydrogen_sulfide",
 				amount: 100,
 			},
 		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 902,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_sulfide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 1.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: null,
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -35738,6 +39782,62 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 345,
+		energy: 691,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:covellite_dust",
+				count: 3.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_chloride",
+				count: 3.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 3.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 600,
+			},
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
 		energy: 26,
@@ -35780,16 +39880,72 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 500,
-		energy: 91,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 360,
+		energy: 902,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_dichromate",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:chromium_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 6.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 700,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 600,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 315,
+		energy: 799,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -35819,6 +39975,10 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "kubejs:carbon_disulfide",
 				amount: 300,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
 			},
 		],
 		result_fluids: null,
@@ -36217,16 +40377,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 625,
-		energy: 56,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 540,
+		energy: 501,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -36249,8 +40409,17 @@ const MACHINERY_RECIPES = [
 				fluid: "mekanism:hydrogen_chloride",
 				amount: 1000,
 			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 800,
+			},
+		],
 		source_gases: null,
 		result_gases: [
 			{
@@ -36467,6 +40636,58 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:chlorine",
 				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
+		time: 300,
+		energy: 64,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:potassium_chloride_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 300,
 			},
 		],
 		source_infuse_type: null,
@@ -36793,6 +41014,52 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanismelements:nitric_oxide",
 				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
+		time: 475,
+		energy: 145,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_perchlorate_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:sodium_sulfite_dust",
+				count: 7.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 7.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 200,
 			},
 		],
 		source_infuse_type: null,
@@ -37213,16 +41480,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 650,
-		energy: 56,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 450,
+		energy: 502,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -37235,6 +41502,10 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "kubejs:perchloric_acid",
 				amount: 600,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 400,
 			},
 		],
 		result_fluids: [
@@ -37397,16 +41668,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 225,
-		energy: 98,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 150,
+		energy: 799,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -37432,7 +41703,12 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
-		source_gases: null,
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
 		result_gases: [
 			{
 				gas: "mekanism:chlorine",
@@ -37479,6 +41755,59 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:chlorine",
 				amount: 800,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 985,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_chloride_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 200,
 			},
 		],
 		source_infuse_type: null,
@@ -37582,15 +41911,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 270,
-		energy: 425,
+		time: 360,
+		energy: 442,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: null,
@@ -37598,6 +41927,10 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "kubejs:perchloric_acid",
 				amount: 200,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 600,
 			},
 		],
 		result_fluids: [
@@ -37616,6 +41949,58 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:chlorine",
 				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 735,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 50,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_chloride_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "thermal:niter_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 100,
+			},
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 100,
 			},
 		],
 		source_infuse_type: null,
@@ -37911,16 +42296,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 2025,
-		energy: 153,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 3150,
+		energy: 1023,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -37942,10 +42327,24 @@ const MACHINERY_RECIPES = [
 				count: 12.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 5400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 5400,
+			},
+		],
 		source_gases: null,
 		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 2100,
+			},
 			{
 				gas: "mekanism:chlorine",
 				amount: 2400,
@@ -38266,6 +42665,59 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 180,
+		energy: 785,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "moremekanismprocessing:dust_aluminum",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:aluminum_oxide_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 400,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 220,
 		energy: 124,
@@ -38314,6 +42766,54 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 1483,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:calcium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:calcium_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "kubejs:bicarbonate",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -38888,16 +43388,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 270,
-		energy: 24,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 360,
+		energy: 762,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -38915,7 +43415,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 600,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:sulfuric_acid",
@@ -39278,6 +43783,58 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 165,
+		energy: 1041,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:iron_oxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "mekanism:dust_iron",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:carbon_monoxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:hydrogen",
+				amount: 400,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 420,
 		energy: 331,
@@ -39375,16 +43932,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 150,
-		energy: 127,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 180,
+		energy: 617,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -39410,7 +43967,12 @@ const MACHINERY_RECIPES = [
 				amount: 200,
 			},
 		],
-		source_gases: null,
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 600,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -40460,16 +45022,71 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: 26,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 1402,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:copper_ii_sulfate_dust",
+				count: 1.0,
+			},
+			{
+				item: "mekanism:dust_iron",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "mekanism:dust_copper",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:iron_ii_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 789,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -40483,7 +45100,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:sulfuric_acid",
@@ -40596,16 +45218,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 240,
-		energy: 23,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 300,
+		energy: 756,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -40619,7 +45241,12 @@ const MACHINERY_RECIPES = [
 				count: 3.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanismelements:nitric_acid",
@@ -41336,16 +45963,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 175,
-		energy: 158,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 165,
+		energy: 1086,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -41367,10 +45994,19 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 200,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanismelements:bromine",
+				amount: 200,
+			},
+			{
+				fluid: "minecraft:water",
 				amount: 200,
 			},
 		],
@@ -41572,16 +46208,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 750,
-		energy: 154,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 690,
+		energy: 1074,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -41607,11 +46243,20 @@ const MACHINERY_RECIPES = [
 				count: 5.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 800,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanismelements:bromine",
 				amount: 1000,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 800,
 			},
 		],
 		source_gases: null,
@@ -41705,16 +46350,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 175,
-		energy: 128,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 210,
+		energy: 819,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -41732,11 +46377,20 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 300,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanismelements:bromine",
 				amount: 300,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 400,
 			},
 		],
 		source_gases: null,
@@ -41799,16 +46453,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 375,
-		energy: 18,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 540,
+		energy: 595,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -41826,11 +46480,20 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanismelements:bromine",
 				amount: 1000,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 800,
 			},
 		],
 		source_gases: [
@@ -41931,6 +46594,52 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:primitive_reaction_chamber",
+		time: 200,
+		energy: 126,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_bromide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_bisulfate_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "mekanismelements:bromine",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 159,
 		biomes: null,
@@ -42014,16 +46723,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 390,
-		energy: 30,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 450,
+		energy: 982,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -42041,7 +46750,12 @@ const MACHINERY_RECIPES = [
 				count: 8.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanismelements:nitric_acid",
@@ -42314,16 +47028,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: 30,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 195,
+		energy: 961,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -42337,7 +47051,12 @@ const MACHINERY_RECIPES = [
 				count: 3.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanismelements:nitric_acid",
@@ -42761,6 +47480,62 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 540,
+		energy: 674,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iodine_dust",
+				count: 10.0,
+			},
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 800,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:hydrogen_iodide",
+				amount: 1000,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 220,
 		energy: 126,
@@ -43113,16 +47888,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 175,
-		energy: 154,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 135,
+		energy: 1190,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -43149,8 +47924,17 @@ const MACHINERY_RECIPES = [
 				fluid: "kubejs:sodium_hypochlorite",
 				amount: 100,
 			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		source_gases: null,
 		result_gases: null,
 		source_infuse_type: null,
@@ -43385,16 +48169,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: 24,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 180,
+		energy: 756,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -43412,8 +48196,18 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		source_gases: [
 			{
 				gas: "kubejs:hydrogen_iodide",
@@ -43572,9 +48366,9 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 180,
-		energy: 118,
+		machine: "handmade:gas_chemical_furnace",
+		time: 285,
+		energy: 34,
 		biomes: null,
 		dimensions: null,
 		filter: null,
@@ -43582,6 +48376,150 @@ const MACHINERY_RECIPES = [
 		rs_rad: null,
 		produce_energy: null,
 		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_iodide_dust",
+				count: 6.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iodine_dust",
+				count: 6.0,
+			},
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 6.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "kubejs:ozone",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 1043,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_iodide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iodine_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 135,
+		energy: 1143,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_iodide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iodine_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 2.0,
+			},
+			{
+				item: "mekanism:salt",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:sodium_hypochlorite",
+				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 180,
+		energy: 1385,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -43614,7 +48552,12 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		result_fluids: null,
-		source_gases: null,
+		source_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 300,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -43717,6 +48660,62 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanismelements:nitric_oxide",
 				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 180,
+		energy: 877,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_iodide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iodine_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
 			},
 		],
 		source_infuse_type: null,
@@ -44252,6 +49251,53 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 300,
+		energy: 34,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_iodide_dust",
+				count: 6.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iodine_dust",
+				count: 6.0,
+			},
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 6.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 240,
 		energy: 514,
@@ -44335,6 +49381,57 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 165,
+		energy: 798,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_iodide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iodine_dust",
+				count: 2.0,
+			},
+			{
+				item: "thermal:niter_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: null,
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -44496,15 +49593,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 540,
-		energy: 830,
+		time: 720,
+		energy: 745,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -44522,7 +49619,12 @@ const MACHINERY_RECIPES = [
 				count: 8.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 1200,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:hydrogen_chloride",
@@ -44678,15 +49780,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 105,
-		energy: 615,
+		time: 135,
+		energy: 588,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -44700,7 +49802,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:hydrogen_chloride",
@@ -45754,6 +50861,58 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:primitive_reaction_chamber",
+		time: 400,
+		energy: 139,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 4.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 4.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "pneumaticcraft:ethanol",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 375,
 		energy: 476,
@@ -46071,16 +51230,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 625,
-		energy: 151,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 1035,
+		energy: 1078,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -46103,10 +51262,24 @@ const MACHINERY_RECIPES = [
 				fluid: "kubejs:acetic_acid",
 				amount: 500,
 			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 1200,
+			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 2200,
+			},
+		],
 		source_gases: null,
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 1000,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -46490,16 +51663,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 250,
-		energy: 115,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 390,
+		energy: 1062,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -46522,26 +51695,40 @@ const MACHINERY_RECIPES = [
 				fluid: "kubejs:formic_acid",
 				amount: 500,
 			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 800,
+			},
+		],
 		source_gases: null,
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 500,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: 38,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 225,
+		energy: 1091,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -46559,15 +51746,30 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
 		source_gases: [
 			{
 				gas: "kubejs:acetylene",
 				amount: 100,
 			},
 		],
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 200,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -46622,16 +51824,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 500,
-		energy: 139,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 795,
+		energy: 957,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -46654,10 +51856,24 @@ const MACHINERY_RECIPES = [
 				fluid: "kubejs:methanol",
 				amount: 500,
 			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 900,
+			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 1900,
+			},
+		],
 		source_gases: null,
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 500,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -46716,16 +51932,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 525,
-		energy: 38,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 1365,
+		energy: 1037,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -46743,15 +51959,30 @@ const MACHINERY_RECIPES = [
 				count: 6.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 1800,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 2800,
+			},
+		],
 		source_gases: [
 			{
 				gas: "mekanism:ethene",
 				amount: 500,
 			},
 		],
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 1000,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -47070,16 +52301,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: 34,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 225,
+		energy: 956,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -47097,11 +52328,20 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "kubejs:acetic_acid",
 				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 400,
 			},
 		],
 		source_gases: [
@@ -47110,23 +52350,28 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: 24,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 315,
+		energy: 1106,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -47144,15 +52389,30 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
+		],
 		source_gases: [
 			{
 				gas: "kubejs:carbon_monoxide",
 				amount: 500,
 			},
 		],
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 500,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -47485,6 +52745,48 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:primitive_reaction_chamber",
+		time: 150,
+		energy: 139,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:methanol",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
 		time: 275,
 		energy: 164,
 		biomes: null,
@@ -47624,16 +52926,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 375,
-		energy: 36,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 960,
+		energy: 950,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -47651,15 +52953,30 @@ const MACHINERY_RECIPES = [
 				count: 4.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 1200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 2200,
+			},
+		],
 		source_gases: [
 			{
 				gas: "mekanismelements:methane",
 				amount: 500,
 			},
 		],
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 500,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -47794,6 +53111,53 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "kubejs:carbon_dioxide",
 				amount: 800,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 1651,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:calcium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:calcium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
 			},
 		],
 		source_infuse_type: null,
@@ -48529,6 +53893,56 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
+		time: 150,
+		energy: 2706,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:carbon_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:silicon_dioxide",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:sodium_metasilicate_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
 		time: 165,
 		energy: 457,
 		biomes: null,
@@ -48855,16 +54269,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 165,
-		energy: 40,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 450,
+		energy: 1028,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -48882,12 +54296,74 @@ const MACHINERY_RECIPES = [
 				count: 2.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 600,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 1000,
+			},
+		],
 		source_gases: [
 			{
 				gas: "kubejs:propane",
 				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 300,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 465,
+		energy: 31,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 8.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 4.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "kubejs:acetic_acid",
+				amount: 300,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:methane",
+				amount: 800,
 			},
 		],
 		result_gases: null,
@@ -48925,6 +54401,48 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanismelements:methane",
 				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 750,
+		energy: 40,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 18.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 18.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 9.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "kubejs:propylene",
+				amount: 500,
 			},
 		],
 		result_gases: null,
@@ -49104,16 +54622,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: 38,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 240,
+		energy: 1050,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -49131,15 +54649,30 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 500,
+			},
+		],
 		source_gases: [
 			{
 				gas: "kubejs:ethylene_oxide",
 				amount: 100,
 			},
 		],
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 200,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -49292,16 +54825,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 135,
-		energy: 28,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 180,
+		energy: 1011,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -49310,7 +54843,12 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		result_items: null,
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:hydrogen_chloride",
@@ -49323,7 +54861,12 @@ const MACHINERY_RECIPES = [
 				amount: 400,
 			},
 		],
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -49472,16 +55015,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 900,
-		energy: 41,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 2415,
+		energy: 1087,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -49499,15 +55042,30 @@ const MACHINERY_RECIPES = [
 				count: 11.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 3300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 4800,
+			},
+		],
 		source_gases: [
 			{
 				gas: "kubejs:butadiene",
 				amount: 500,
 			},
 		],
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 2000,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -49847,6 +55405,48 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 931,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:sodium_nitrate_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
 		time: 135,
 		energy: 1030,
 		biomes: null,
@@ -50126,6 +55726,53 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 375,
+		energy: 36,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 8.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 4.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "kubejs:acetic_acid",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:propane",
+				amount: 400,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 90,
 		energy: 427,
@@ -50214,16 +55861,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 1125,
-		energy: 159,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 1845,
+		energy: 1064,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -50246,10 +55893,80 @@ const MACHINERY_RECIPES = [
 				fluid: "kubejs:acetone",
 				amount: 500,
 			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 2400,
+			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 3900,
+			},
+		],
 		source_gases: null,
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 1500,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 1755,
+		energy: 1098,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 14.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 14.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 7.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:glycerol",
+				amount: 500,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 2100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 4100,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 1500,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -50815,6 +56532,62 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 165,
+		energy: 1588,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:calcium_carbonate_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:calcium_nitrate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:calcium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 4900,
 		energy: 91,
@@ -50871,16 +56644,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 150,
-		energy: 154,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 255,
+		energy: 1028,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -50903,10 +56676,24 @@ const MACHINERY_RECIPES = [
 				fluid: "kubejs:ethylene_glycol",
 				amount: 100,
 			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 600,
+			},
+		],
 		source_gases: null,
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 200,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -51059,16 +56846,76 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 400,
-		energy: 167,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 240,
+		energy: 916,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:barium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "moremekanismprocessing:dust_cobalt",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:barium_nitrate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:cobalt_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 600,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 645,
+		energy: 1130,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -51091,10 +56938,76 @@ const MACHINERY_RECIPES = [
 				fluid: "kubejs:benzene",
 				amount: 100,
 			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 900,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 1200,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 600,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 615,
+		energy: 1168,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 10.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 10.0,
+			},
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 10.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
 		],
 		result_fluids: null,
-		source_gases: null,
-		result_gases: null,
+		source_gases: [
+			{
+				gas: "kubejs:acetylene",
+				amount: 300,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 600,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -51234,6 +57147,53 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "kubejs:carbon_dioxide",
 				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 300,
+		energy: 1659,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:carbon_dust",
+				count: 3.0,
+			},
+		],
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 600,
+			},
+		],
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen",
+				amount: 400,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanismelements:ammonia",
+				amount: 400,
+			},
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 300,
 			},
 		],
 		source_infuse_type: null,
@@ -51451,6 +57411,63 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
+		time: 1200,
+		energy: 675,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 8.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_nitrate_dust",
+				count: 8.0,
+			},
+			{
+				item: "thermal:niter_dust",
+				count: 8.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 2400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 2200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:methane",
+				amount: 500,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 500,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
 		time: 90,
 		energy: 1776,
 		biomes: null,
@@ -51492,16 +57509,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 75,
-		energy: 139,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 1084,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -51520,10 +57537,24 @@ const MACHINERY_RECIPES = [
 				fluid: "kubejs:formic_acid",
 				amount: 100,
 			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		source_gases: null,
-		result_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -52281,16 +58312,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: 11,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 401,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -52308,7 +58339,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -52328,16 +58364,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: 34,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 1092,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -52355,7 +58391,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -52375,16 +58416,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: 25,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 150,
+		energy: 791,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -52402,7 +58443,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -52664,6 +58710,109 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 693,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "thermal:niter_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 315,
+		energy: 747,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 3.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 3.0,
+			},
+			{
+				item: "thermal:niter_dust",
+				count: 3.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 500,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 83,
@@ -52707,16 +58856,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: 19,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 135,
+		energy: 646,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -52734,7 +58883,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanismelements:nitric_acid",
@@ -52799,6 +58953,58 @@ const MACHINERY_RECIPES = [
 		],
 		source_gases: null,
 		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
+		time: 225,
+		energy: 109,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_nitrite_dust",
+				count: 3.0,
+			},
+		],
+		result_items: [
+			{
+				item: "thermal:niter_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 200,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -53154,6 +59360,53 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 150,
+		energy: 17,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_nitrate_dust",
+				count: 1.0,
+			},
+			{
+				item: "thermal:niter_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 500,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 120,
 		energy: 123,
@@ -53306,6 +59559,262 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 150,
+		energy: 539,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "thermal:niter_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 300,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 495,
+		energy: 898,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 9.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:potassium_chloride_dust",
+				count: 8.0,
+			},
+			{
+				item: "thermal:niter_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 600,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:ammonia",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:chlorine",
+				amount: 800,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 1050,
+		energy: 580,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 8.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_nitrate_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:phosphoric_acid_dust",
+				count: 5.0,
+			},
+			{
+				item: "thermal:niter_dust",
+				count: 8.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 2400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 1200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:phosphine",
+				amount: 500,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 330,
+		energy: 948,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_nitrite_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 2.0,
+			},
+			{
+				item: "thermal:niter_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 200,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 675,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_oxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "thermal:niter_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 135,
 		energy: 28,
@@ -53404,16 +59913,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: 16,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 546,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -53427,7 +59936,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:hydrogen_chloride",
@@ -53593,6 +60107,57 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 872,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:potassium_chloride_dust",
+				count: 1.0,
+			},
+			{
+				item: "thermal:niter_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 100,
+			},
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 100,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -54154,6 +60719,61 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 360,
+		energy: 669,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:mercury_ii_chloride_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:potassium_chloride_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 800,
+			},
+			{
+				fluid: "kubejs:mercury",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 440,
 		energy: 111,
@@ -54353,16 +60973,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: 29,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 915,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -54396,6 +61016,10 @@ const MACHINERY_RECIPES = [
 				gas: "mekanism:chlorine",
 				amount: 100,
 			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
 		],
 		result_gases: null,
 		source_infuse_type: null,
@@ -54405,8 +61029,8 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: 15,
+		time: 210,
+		energy: 28,
 		biomes: null,
 		dimensions: null,
 		filter: null,
@@ -54414,6 +61038,57 @@ const MACHINERY_RECIPES = [
 		rs_rad: null,
 		produce_energy: null,
 		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 4.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:potassium_chloride_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 300,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 210,
+		energy: 518,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -54427,7 +61102,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:sulfuric_acid",
@@ -54584,6 +61264,160 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 803,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:potassium_chloride_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:monochloramine",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "kubejs:hydrazine",
+				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:ammonia",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 180,
+		energy: 923,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 4.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:potassium_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:potassium_chloride_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:carbon_monoxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:chlorine",
+				amount: 200,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 180,
+		energy: 1087,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 4.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:potassium_chloride_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 100,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -55174,6 +62008,58 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 1017,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_sulfide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "mekanism:salt",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 200,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 105,
 		energy: 19,
@@ -55313,6 +62199,58 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 195,
+		energy: 794,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_sulfide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "mekanism:salt",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 200,
+			},
+			{
+				fluid: "mekanism:sulfur_trioxide",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 400,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -55481,16 +62419,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 125,
-		energy: 125,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 926,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -55514,8 +62452,18 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
-		result_fluids: null,
-		source_gases: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 100,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -55630,15 +62578,66 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 60,
-		energy: 700,
+		time: 180,
+		energy: 900,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 4.0,
+			},
+		],
+		result_items: [
+			{
+				item: "mekanism:salt",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 658,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: [
@@ -55650,6 +62649,10 @@ const MACHINERY_RECIPES = [
 		source_fluids: [
 			{
 				fluid: "kubejs:sodium_hypochlorite",
+				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
 				amount: 100,
 			},
 		],
@@ -56640,6 +63643,57 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 510,
+		energy: 595,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "moremekanismprocessing:dust_titanium",
+				count: 3.0,
+			},
+		],
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 1200,
+			},
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "kubejs:titanium_tetrachloride",
+				amount: 300,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 800,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 400,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 125,
 		energy: 109,
@@ -56767,6 +63821,104 @@ const MACHINERY_RECIPES = [
 		],
 		source_gases: null,
 		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 450,
+		energy: 33,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 8.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:phosphoric_acid_dust",
+				count: 5.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 4.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "kubejs:phosphine",
+				amount: 500,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 135,
+		energy: 588,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_gold",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:gold_iii_chloride_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 300,
+			},
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 100,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -57312,6 +64464,58 @@ const MACHINERY_RECIPES = [
 		],
 		source_gases: null,
 		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 150,
+		energy: 717,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_copper",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_chloride",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 200,
+			},
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -58844,6 +66048,101 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 195,
+		energy: 26,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 4.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:potassium_carbonate_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:ethene",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 1071,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_iron",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iron_ii_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 1080,
 		energy: 137,
@@ -58899,16 +66198,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 125,
-		energy: 143,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 1055,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -58927,11 +66226,19 @@ const MACHINERY_RECIPES = [
 				fluid: "mekanism:sulfuric_acid",
 				amount: 100,
 			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
 		],
 		result_fluids: [
 			{
 				fluid: "mekanism:hydrogen_chloride",
 				amount: 200,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
 			},
 		],
 		source_gases: null,
@@ -58985,6 +66292,53 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 655,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:sodium_nitrate_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 60,
@@ -59021,6 +66375,53 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 450,
+		energy: 28,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 6.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 6.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 3.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "kubejs:acetic_acid",
+				amount: 1000,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:butadiene",
+				amount: 500,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -59073,6 +66474,60 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "minecraft:water",
 				amount: 800,
+			},
+		],
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 1095,
+		energy: 1092,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:copper_ii_sulfate_dust",
+				count: 12.0,
+			},
+			{
+				item: "chemlib:glucose_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 24.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_i_oxide_dust",
+				count: 6.0,
+			},
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 12.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "kubejs:formic_acid",
+				amount: 600,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 1200,
 			},
 		],
 		source_gases: null,
@@ -59175,6 +66630,57 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanismelements:nitric_oxide",
 				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 510,
+		energy: 506,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:silicon_dust",
+				count: 3.0,
+			},
+		],
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrofluoric_acid",
+				amount: 1200,
+			},
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 800,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 400,
+			},
+			{
+				gas: "mekanism_extras:silicon_tetrafluoride",
+				amount: 300,
 			},
 		],
 		source_infuse_type: null,
@@ -60640,6 +68146,54 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 833,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_copper",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_chloride",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 380,
 		energy: 105,
@@ -61080,6 +68634,54 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 760,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_copper",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_ii_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -61714,6 +69316,53 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 763,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:calcium_hydroxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:calcium_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 280,
 		energy: 112,
@@ -61966,16 +69615,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 250,
-		energy: 139,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 270,
+		energy: 916,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -61994,11 +69643,19 @@ const MACHINERY_RECIPES = [
 				fluid: "kubejs:perchloric_acid",
 				amount: 100,
 			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 400,
+			},
 		],
 		result_fluids: [
 			{
 				fluid: "mekanism:hydrogen_chloride",
 				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 400,
 			},
 		],
 		source_gases: null,
@@ -62471,6 +70128,53 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 840,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_copper",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_chloride",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 200,
+			},
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 100,
 		energy: 118,
@@ -62650,6 +70354,62 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
+		time: 300,
+		energy: 639,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "thermal:niter_dust",
+				count: 2.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 500,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
 		time: 165,
 		energy: 188,
 		biomes: null,
@@ -62821,6 +70581,149 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 225,
+		energy: 22,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "kubejs:acetic_acid",
+				amount: 500,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:ethylene_oxide",
+				amount: 500,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 195,
+		energy: 712,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:manganese_hydroxide_dust",
+				count: 3.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 3.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 444,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:phosphoric_acid_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:diammonium_phosphate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:ammonia",
+				amount: 200,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 90,
 		energy: 940,
@@ -62868,6 +70771,54 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 135,
+		energy: 18,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:sodium_nitrate_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 300,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 175,
 		energy: 107,
@@ -62907,6 +70858,49 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanismelements:ammonia",
 				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
+		time: 125,
+		energy: 87,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:covellite_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_chloride",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 200,
+			},
+		],
+		result_fluids: null,
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 100,
 			},
 		],
 		source_infuse_type: null,
@@ -63285,6 +71279,53 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 872,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:potassium_nitrite_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 620,
 		energy: 146,
@@ -63420,6 +71461,58 @@ const MACHINERY_RECIPES = [
 		],
 		source_gases: null,
 		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 255,
+		energy: 749,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_copper",
+				count: 3.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_ii_sulfate_dust",
+				count: 3.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 200,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -64142,15 +72235,71 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 45,
-		energy: 540,
+		time: 225,
+		energy: 812,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:sulfur_trioxide",
+				amount: 300,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 500,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 521,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: [
@@ -64164,8 +72313,17 @@ const MACHINERY_RECIPES = [
 				fluid: "mekanism:hydrogen_chloride",
 				amount: 100,
 			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
 		],
-		result_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		source_gases: [
 			{
 				gas: "mekanismelements:ammonia",
@@ -64179,16 +72337,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 150,
-		energy: 39,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 270,
+		energy: 985,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -64206,8 +72364,18 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
-		result_fluids: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
 		source_gases: [
 			{
 				gas: "kubejs:phosphine",
@@ -64554,6 +72722,108 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 714,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:lithium_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:lithium_nitrate_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 735,
+		energy: 1176,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:copper_ii_sulfate_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 16.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_i_oxide_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 8.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:glycerol",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "kubejs:formic_acid",
+				amount: 300,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 900,
+			},
+		],
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 95,
@@ -64742,6 +73012,59 @@ const MACHINERY_RECIPES = [
 		],
 		source_gases: null,
 		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 734,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_copper",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 100,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -64949,8 +73272,8 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 285,
-		energy: 444,
+		time: 150,
+		energy: 1017,
 		biomes: null,
 		dimensions: null,
 		filter: null,
@@ -64958,6 +73281,57 @@ const MACHINERY_RECIPES = [
 		rs_rad: null,
 		produce_energy: null,
 		priority: 50,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:acetone",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "kubejs:acetic_acid",
+				amount: 100,
+			},
+			{
+				fluid: "kubejs:formic_acid",
+				amount: 300,
+			},
+		],
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 375,
+		energy: 361,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -64981,6 +73355,10 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanismelements:nitrogen_dioxide",
 				amount: 300,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 600,
 			},
 		],
 		result_gases: [
@@ -65184,16 +73562,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: 3,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 180,
+		energy: 82,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -65212,6 +73590,10 @@ const MACHINERY_RECIPES = [
 		source_gases: [
 			{
 				gas: "mekanism:hydrogen",
+				amount: 400,
+			},
+			{
+				gas: "mekanism:oxygen",
 				amount: 400,
 			},
 		],
@@ -65839,6 +74221,53 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:primitive_reaction_chamber",
+		time: 625,
+		energy: 104,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 4.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_sulfate_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:acetic_acid",
+				amount: 500,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "kubejs:formic_acid",
+				amount: 1000,
+			},
+		],
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
 		time: 100,
 		energy: 83,
 		biomes: null,
@@ -65933,6 +74362,58 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 330,
+		energy: 814,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "moremekanismprocessing:dust_magnesium",
+				count: 4.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:magnesium_chloride_dust",
+				count: 4.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 800,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 125,
 		energy: 108,
@@ -65981,15 +74462,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 75,
-		energy: 289,
+		time: 90,
+		energy: 257,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: null,
@@ -66012,6 +74493,10 @@ const MACHINERY_RECIPES = [
 		source_gases: [
 			{
 				gas: "mekanism:ethene",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:oxygen",
 				amount: 100,
 			},
 		],
@@ -66057,6 +74542,101 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 240,
+		energy: 747,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_iron",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iron_iii_nitrate_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 600,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 300,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 678,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:sodium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:carbon_monoxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -66118,16 +74698,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: 15,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 195,
+		energy: 510,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -66141,11 +74721,20 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "kubejs:hydrogen_peroxide",
+				amount: 400,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanismelements:nitric_acid",
 				amount: 200,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 400,
 			},
 		],
 		source_gases: [
@@ -66242,6 +74831,54 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 761,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_copper",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -66359,6 +74996,53 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 210,
+		energy: 471,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:sodium_sulfide_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 600,
+			},
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 240,
 		energy: 127,
@@ -66407,6 +75091,53 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanismelements:nitrogen_dioxide",
 				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
+		time: 1300,
+		energy: 29,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:iron_disulfide_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iron_oxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sulfate_dust",
+				count: 4.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 1500,
+			},
+		],
+		result_fluids: null,
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 3000,
 			},
 		],
 		source_infuse_type: null,
@@ -66605,6 +75336,48 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 690,
+		energy: 1762,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:carbon_dust",
+				count: 12.0,
+			},
+		],
+		result_items: [
+			{
+				item: "minecraft:sugar",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 2200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 1100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
 		energy: 32,
@@ -66724,6 +75497,54 @@ const MACHINERY_RECIPES = [
 		source_gases: [
 			{
 				gas: "kubejs:carbonic_acid",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 1329,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:calcium_chloride_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:calcium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
 				amount: 100,
 			},
 		],
@@ -67304,6 +76125,62 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 735,
+		energy: 907,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 10.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 10.0,
+			},
+			{
+				item: "chemlib:potassium_carbonate_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 6.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 1000,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "kubejs:ethylene_glycol",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:ethene",
+				amount: 1000,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 300,
 		energy: 82,
@@ -67856,16 +76733,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 760,
-		energy: 133,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 690,
+		energy: 1074,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -67895,6 +76772,10 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "mekanismelements:bromine",
 				amount: 1000,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 800,
 			},
 		],
 		result_fluids: [
@@ -68348,6 +77229,53 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
+		time: 90,
+		energy: 41,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_dichromate",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:chromium_oxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:gas_chemical_furnace",
 		time: 120,
 		energy: 17,
 		biomes: null,
@@ -68384,6 +77312,49 @@ const MACHINERY_RECIPES = [
 				amount: 300,
 			},
 		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
+		time: 125,
+		energy: 143,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:barium_chloride_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:barium_sulfate",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -69036,6 +78007,49 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:primitive_reaction_chamber",
+		time: 150,
+		energy: 115,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_sulfide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		result_fluids: null,
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
 		time: 340,
 		energy: 85,
 		biomes: null,
@@ -69521,6 +78535,48 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 336,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:calcium_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:calcium_hydroxide_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 125,
 		energy: 177,
@@ -69778,16 +78834,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 105,
-		energy: 34,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 135,
+		energy: 1261,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -69805,12 +78861,21 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
 				gas: "mekanismelements:ammonia",
 				amount: 200,
+			},
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
 			},
 		],
 		result_gases: null,
@@ -70031,16 +79096,58 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: 17,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 150,
+		energy: 412,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 50,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "kubejs:perchloric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 100,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 400,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 400,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 583,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -70054,7 +79161,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:hydrogen_chloride",
@@ -70075,15 +79187,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 270,
-		energy: 258,
+		time: 330,
+		energy: 300,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: [
@@ -70092,7 +79204,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:hydrogen_chloride",
@@ -70117,19 +79234,71 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 90,
-		energy: 304,
+		time: 270,
+		energy: 336,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_sulfur",
+				count: 1.0,
+			},
+		],
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 600,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 600,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 351,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: null,
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:hydrogen_chloride",
@@ -70191,6 +79360,52 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "kubejs:hydrogen_sulfide",
 				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 390,
+		energy: 337,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "kubejs:perchloric_acid",
+				amount: 300,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 300,
+			},
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 800,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 800,
 			},
 		],
 		result_gases: null,
@@ -70286,15 +79501,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 120,
-		energy: 517,
+		time: 150,
+		energy: 512,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -70308,7 +79523,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:hydrogen_chloride",
@@ -70323,6 +79543,54 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:chlorine",
 				amount: 200,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 330,
+		energy: 476,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_sulfide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 800,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 800,
 			},
 		],
 		result_gases: null,
@@ -70410,6 +79678,96 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 1227,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:barium_chloride_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:barium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 210,
+		energy: 481,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 50,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_sulfur",
+				count: 4.0,
+			},
+		],
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "kubejs:perchloric_acid",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 300,
+			},
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 400,
+			},
+		],
+		source_gases: null,
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -70888,16 +80246,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: 31,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 905,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -70911,7 +80269,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:hydrogen_chloride",
@@ -70919,6 +80282,10 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
 			{
 				gas: "mekanism:sulfur_dioxide",
 				amount: 100,
@@ -71103,6 +80470,54 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 330,
+		energy: 366,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:covellite_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_ii_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 800,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 800,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 125,
 		energy: 55,
@@ -71236,16 +80651,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 180,
-		energy: 9,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 240,
+		energy: 343,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -71259,7 +80674,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:hydrogen_chloride",
@@ -71365,15 +80785,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 270,
-		energy: 431,
+		time: 330,
+		energy: 442,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: null,
@@ -71381,6 +80801,10 @@ const MACHINERY_RECIPES = [
 			{
 				fluid: "kubejs:perchloric_acid",
 				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 400,
 			},
 		],
 		result_fluids: [
@@ -71535,6 +80959,49 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 90,
+		energy: 37,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:carbon_dust",
+				count: 1.0,
+			},
+		],
+		result_items: null,
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 200,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:carbon_monoxide",
+				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 100,
 		energy: 133,
@@ -71578,15 +81045,15 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 165,
-		energy: 592,
+		time: 225,
+		energy: 566,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -71600,7 +81067,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:hydrogen_chloride",
@@ -71701,6 +81173,54 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "kubejs:hydrogen_sulfide",
 				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 150,
+		energy: 468,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:lead_ii_chloride_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:lead_dioxide_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 400,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:chlorine",
+				amount: 200,
 			},
 		],
 		result_gases: null,
@@ -71882,6 +81402,48 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 60,
+		energy: 987,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "moremekanismprocessing:dust_magnesium",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:magnesium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
 		energy: 18,
@@ -71915,6 +81477,54 @@ const MACHINERY_RECIPES = [
 		source_gases: [
 			{
 				gas: "kubejs:carbonic_acid",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 1405,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:magnesium_sulfate",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:magnesium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
 				amount: 100,
 			},
 		],
@@ -72096,16 +81706,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 75,
-		energy: 249,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 1182,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -72120,8 +81730,17 @@ const MACHINERY_RECIPES = [
 		result_items: null,
 		source_fluids: null,
 		result_fluids: null,
-		source_gases: null,
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 400,
+			},
+		],
 		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
 			{
 				gas: "mekanism:sulfur_dioxide",
 				amount: 100,
@@ -72530,6 +82149,49 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
+		time: 75,
+		energy: 28,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:lead_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:lead_sulfide_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:hydrogen_sulfide",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:gas_chemical_furnace",
 		time: 60,
 		energy: 41,
 		biomes: null,
@@ -72697,6 +82359,105 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 150,
+		energy: 26,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 300,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 225,
+		energy: 727,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "kubejs:ethylene_glycol",
+				amount: 300,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:propylene",
+				amount: 200,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -72898,6 +82659,57 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 510,
+		energy: 783,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:potassium_permanganate",
+				count: 8.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 8.0,
+			},
+			{
+				item: "chemlib:phosphoric_acid_dust",
+				count: 3.0,
+			},
+			{
+				item: "chemlib:potassium_hydroxide_dust",
+				count: 8.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "kubejs:phosphine",
+				amount: 300,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 560,
 		energy: 82,
@@ -72948,6 +82760,49 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 105,
+		energy: 30,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:manganese_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:manganese_oxide_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "kubejs:ozone",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 300,
 		energy: 249,
@@ -72992,6 +82847,134 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 150,
+		energy: 250,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 50,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 300,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 60,
+		energy: 262,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 174,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_sulfur",
+				count: 1.0,
+			},
+		],
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 300,
+			},
+		],
+		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -73174,19 +83157,24 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 60,
-		energy: 256,
+		time: 75,
+		energy: 304,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: null,
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:sulfuric_acid",
@@ -73437,16 +83425,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: 20,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 150,
+		energy: 662,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -73464,7 +83452,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanism:sulfuric_acid",
@@ -73475,6 +83468,49 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:sulfur_dioxide",
 				amount: 200,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 105,
+		energy: 25,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:copper_ii_sulfate_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_i_oxide_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 100,
 			},
 		],
 		result_gases: null,
@@ -73612,6 +83648,49 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 60,
+		energy: 289,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_sulfur",
+				count: 1.0,
+			},
+		],
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:ozone",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 125,
 		energy: 133,
@@ -73648,6 +83727,48 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 150,
+		energy: 325,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 300,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:ozone",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 300,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -73827,6 +83948,92 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 60,
+		energy: 2,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_sulfur",
+				count: 1.0,
+			},
+		],
+		result_items: null,
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 200,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 1218,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:iron_ii_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iron_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 125,
 		energy: 173,
@@ -73971,6 +84178,48 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 377,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 300,
 		energy: 55,
@@ -74048,6 +84297,90 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "kubejs:hydrogen_sulfide",
 				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 263,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 300,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 150,
+		energy: 181,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 500,
 			},
 		],
 		result_gases: null,
@@ -74144,6 +84477,49 @@ const MACHINERY_RECIPES = [
 	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
+		energy: 111,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "thermal:niter_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:potassium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
+		time: 150,
 		energy: 68,
 		biomes: null,
 		dimensions: null,
@@ -74178,6 +84554,54 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 1199,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:barium_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:barium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -74486,16 +84910,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 285,
-		energy: 19,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 345,
+		energy: 635,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -74513,7 +84937,12 @@ const MACHINERY_RECIPES = [
 				count: 3.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanismelements:nitric_acid",
@@ -74786,16 +85215,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 270,
-		energy: 15,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 330,
+		energy: 517,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -74809,7 +85238,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "mekanismelements:nitric_acid",
@@ -75044,6 +85478,54 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 872,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:copper_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		source_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 69,
@@ -75124,6 +85606,57 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 195,
+		energy: 183,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:phosphorus_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:phosphoric_acid_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 400,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 300,
+			},
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 100,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -75868,6 +86401,91 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 45,
+		energy: 540,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 50,
+		fuel: null,
+		source_items: null,
+		result_items: [
+			{
+				item: "chemlib:ammonium_chloride_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:ammonia",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 846,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:salt",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:ammonium_chloride_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:ammonia",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 72,
@@ -75910,16 +86528,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 120,
-		energy: 19,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 165,
+		energy: 613,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -75937,7 +86555,12 @@ const MACHINERY_RECIPES = [
 				count: 3.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -75952,16 +86575,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 90,
-		energy: 23,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 722,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -75979,7 +86602,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
 		result_fluids: null,
 		source_gases: [
 			{
@@ -76291,6 +86919,48 @@ const MACHINERY_RECIPES = [
 		],
 		result_fluids: null,
 		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 60,
+		energy: 1967,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanismelements:dust_calcium_oxide",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:calcium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 100,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -76964,6 +87634,48 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:primitive_reaction_chamber",
+		time: 250,
+		energy: 375,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:carbon_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:sodium_sulfide_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "kubejs:carbon_monoxide",
+				amount: 400,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
 		time: 120,
 		energy: 201,
 		biomes: null,
@@ -77241,6 +87953,48 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 228,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "moremekanismprocessing:dust_magnesium",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:magnesium_hydroxide_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 75,
 		energy: 183,
@@ -77364,6 +88118,57 @@ const MACHINERY_RECIPES = [
 		],
 		result_fluids: null,
 		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 1096,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_copper",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_carbonate_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:copper_ii_hydroxide_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -77546,6 +88351,48 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 60,
+		energy: 1348,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_copper",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 75,
 		energy: 180,
@@ -77667,6 +88514,59 @@ const MACHINERY_RECIPES = [
 		],
 		source_gases: null,
 		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 300,
+		energy: 702,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 6.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:sodium_sulfate_dust",
+				count: 3.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 200,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 300,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 200,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -78174,6 +89074,96 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 785,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_lead",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:lead_sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfuric_acid",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 914,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:lithium_oxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:lithium_nitrate_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 75,
 		energy: 11,
@@ -78260,6 +89250,132 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 1436,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:magnesium_oxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:magnesium_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 210,
+		energy: 493,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "moremekanismprocessing:dust_magnesium",
+				count: 3.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:magnesium_nitrate_dust",
+				count: 3.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 600,
+			},
+			{
+				gas: "kubejs:ozone",
+				amount: 200,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 1549,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanismelements:dust_calcium_oxide",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:calcium_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:primitive_reaction_chamber",
 		time: 150,
 		energy: 89,
@@ -78296,6 +89412,132 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 739,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:iron_ii_oxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iron_iii_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 300,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 200,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 925,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:copper_ii_oxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:copper_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 1157,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:zinc_oxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:zinc_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
@@ -78345,6 +89587,169 @@ const MACHINERY_RECIPES = [
 				amount: 100,
 			},
 		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 75,
+		energy: 536,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:lead_oxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:lead_nitrate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 180,
+		energy: 716,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:aluminum_oxide_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:aluminum_nitrate_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 600,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 300,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 60,
+		energy: 319,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 50,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "mekanism:sulfur_trioxide",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:nitrogen_dioxide",
+				amount: 100,
+			},
+			{
+				gas: "mekanism:sulfur_dioxide",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanismelements:nitric_oxide",
+				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
+		time: 100,
+		energy: 234,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:carbon_dust",
+				count: 1.0,
+			},
+			{
+				item: "mekanism:dust_sulfur",
+				count: 2.0,
+			},
+		],
+		result_items: null,
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "kubejs:carbon_disulfide",
+				amount: 100,
+			},
+		],
+		source_gases: null,
+		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
@@ -78471,9 +89876,111 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 175,
-		energy: 46,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 422,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:iodine_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iodine_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfur_trioxide",
+				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 105,
+		energy: 1115,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "mekanism:dust_iron",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "mekanism:dust_iron",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sulfate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:sulfur_trioxide",
+				amount: 100,
+			},
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: null,
+		result_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 135,
+		energy: 9,
 		biomes: null,
 		dimensions: null,
 		filter: null,
@@ -78498,65 +90005,18 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: [
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
 			{
-				fluid: "mekanism:sulfur_trioxide",
+				gas: "mekanism:sulfur_dioxide",
 				amount: 100,
 			},
 		],
-		result_fluids: null,
-		source_gases: null,
 		result_gases: [
 			{
 				gas: "mekanism:hydrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:primitive_reaction_chamber",
-		time: 150,
-		energy: 136,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-		],
-		result_items: [
-			{
-				item: "mekanism:dust_iron",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sulfate_dust",
-				count: 1.0,
-			},
-		],
-		source_fluids: [
-			{
-				fluid: "mekanism:sulfur_trioxide",
-				amount: 100,
-			},
-		],
-		result_fluids: null,
-		source_gases: null,
-		result_gases: [
-			{
-				gas: "mekanism:hydrogen",
-				amount: 200,
+				amount: 400,
 			},
 		],
 		source_infuse_type: null,
@@ -78659,16 +90119,16 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 75,
-		energy: 29,
+		machine: "handmade:advanced_reaction_chamber",
+		time: 135,
+		energy: 795,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: null,
+		priority: 100,
 		fuel: null,
 		source_items: [
 			{
@@ -78682,7 +90142,12 @@ const MACHINERY_RECIPES = [
 				count: 1.0,
 			},
 		],
-		source_fluids: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
 		result_fluids: [
 			{
 				fluid: "kubejs:hydrazine",
@@ -78736,6 +90201,48 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "mekanism:chlorine",
 				amount: 400,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 90,
+		energy: 1951,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "moremekanismprocessing:dust_titanium",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:titanium_dioxide_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+			{
+				gas: "kubejs:ozone",
+				amount: 100,
 			},
 		],
 		result_gases: null,
@@ -79101,15 +90608,62 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
-		time: 45,
-		energy: 471,
+		time: 120,
+		energy: 790,
 		biomes: null,
 		dimensions: null,
 		filter: null,
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 50,
+		priority: 100,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:sodium_dust",
+				count: 2.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:sodium_bicarbonate_dust",
+				count: 2.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 200,
+			},
+			{
+				gas: "mekanism:oxygen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 60,
+		energy: 943,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 100,
 		fuel: null,
 		source_items: null,
 		result_items: [
@@ -79128,6 +90682,10 @@ const MACHINERY_RECIPES = [
 		source_gases: [
 			{
 				gas: "mekanismelements:ammonia",
+				amount: 100,
+			},
+			{
+				gas: "kubejs:carbon_dioxide",
 				amount: 100,
 			},
 		],
@@ -79252,6 +90810,44 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:advanced_reaction_chamber",
+		time: 60,
+		energy: 448,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 50,
+		fuel: null,
+		source_items: null,
+		result_items: [
+			{
+				item: "chemlib:ammonium_carbonate_dust",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanismelements:ammonia",
+				amount: 200,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
 		time: 90,
 		energy: 183,
 		biomes: null,
@@ -79280,6 +90876,44 @@ const MACHINERY_RECIPES = [
 		result_gases: [
 			{
 				gas: "kubejs:methylamine",
+				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 45,
+		energy: 653,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 50,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "kubejs:acetylene",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:ethylene_oxide",
 				amount: 100,
 			},
 		],
@@ -79321,6 +90955,44 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 45,
+		energy: 199,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 50,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 100,
+			},
+		],
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanism:ethene",
+				amount: 100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:chloroethane",
+				amount: 100,
+			},
+		],
 		source_infuse_type: null,
 		result_infuse_type: null,
 		source_slurry: null,
