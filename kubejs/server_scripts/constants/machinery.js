@@ -64470,6 +64470,43 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 45,
+		energy: 61,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 50,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "mekanismelements:nitric_acid",
+				amount: 100,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:hydrogen",
+				amount: 100,
+			},
+			{
+				gas: "mekanismelements:nitrogen",
+				amount: 100,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:gas_chemical_furnace",
 		time: 180,
 		energy: 21,

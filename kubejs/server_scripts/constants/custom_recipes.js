@@ -79672,21 +79672,6 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
-		type: "mekanism:chemical_infusing",
-		leftInput: {
-			gas: "mekanism:hydrogen",
-			amount: 2.0,
-		},
-		output: {
-			gas: "kubejs:azanide",
-			amount: 1.0,
-		},
-		rightInput: {
-			gas: "mekanismelements:nitrogen",
-			amount: 1.0,
-		},
-	},
-	{
 		type: "thermal:pyrolyzer",
 		ingredient: {
 			item: "chemlib:iron_ii_sulfate_dust",
