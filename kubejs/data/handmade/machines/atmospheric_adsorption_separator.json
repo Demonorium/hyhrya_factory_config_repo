@@ -10,7 +10,7 @@
         "keep_inventory": true,
         "shape": [[0.0, 0.0, 0.0, 1.0, 0.3125, 1.0], [0.1875, 0.3125, 0.1875, 0.8125, 0.875, 0.8125], [0.125, 0.875, 0.125, 0.875, 1.0, 0.875], [0.125, 0.875, 0.0625, 0.875, 1.0, 0.125], [0.125, 0.875, 0.875, 0.875, 1.0, 0.9375], [0.0625, 0.875, 0.125, 0.125, 1.0, 0.875], [0.875, 0.875, 0.125, 0.9375, 1.0, 0.875], [0.125, 0.3125, 0.0625, 0.1875, 0.875, 0.125], [0.0625, 0.3125, 0.125, 0.125, 0.875, 0.1875], [0.0625, 0.3125, 0.25, 0.125, 0.875, 0.3125], [0.0625, 0.3125, 0.375, 0.125, 0.875, 0.4375], [0.0625, 0.3125, 0.5625, 0.125, 0.875, 0.625], [0.0625, 0.3125, 0.6875, 0.125, 0.875, 0.75], [0.0625, 0.3125, 0.8125, 0.125, 0.875, 0.875], [0.875, 0.3125, 0.5625, 0.9375, 0.875, 0.625], [0.875, 0.3125, 0.8125, 0.9375, 0.875, 0.875], [0.875, 0.3125, 0.6875, 0.9375, 0.875, 0.75], [0.875, 0.3125, 0.375, 0.9375, 0.875, 0.4375], [0.875, 0.3125, 0.25, 0.9375, 0.875, 0.3125], [0.875, 0.3125, 0.125, 0.9375, 0.875, 0.1875], [0.25, 0.3125, 0.0625, 0.3125, 0.875, 0.125], [0.375, 0.3125, 0.0625, 0.4375, 0.875, 0.125], [0.8125, 0.3125, 0.0625, 0.875, 0.875, 0.125], [0.6875, 0.3125, 0.0625, 0.75, 0.875, 0.125], [0.5625, 0.3125, 0.0625, 0.625, 0.875, 0.125], [0.5625, 0.3125, 0.875, 0.625, 0.875, 0.9375], [0.125, 0.3125, 0.875, 0.1875, 0.875, 0.9375], [0.25, 0.3125, 0.875, 0.3125, 0.875, 0.9375], [0.375, 0.3125, 0.875, 0.4375, 0.875, 0.9375], [0.8125, 0.3125, 0.875, 0.875, 0.875, 0.9375], [0.6875, 0.3125, 0.875, 0.75, 0.875, 0.9375]],
         "running": {
-            "block": "kubejs:machine/atmospheric_adsorption_separator",
+            "block": "kubejs:machine/atmospheric_adsorbtion_separator",
             "light": 5
         }
     },
@@ -18,8 +18,7 @@
         {
             "type": "custommachinery:item",
             "id": "input1",
-            "mode": "both",
-            "variant": "custommachinery:filter"
+            "mode": "both"
         },
         {
             "type": "custommachinery:gas",
@@ -110,19 +109,20 @@
         {
             "type": "custommachinery:slot",
             "x": 8,
-            "y": 49,
+            "y": 40,
             "id": "input1"
         },
         {
             "type": "custommachinery:progress",
             "x": 36,
-            "y": 50
+            "y": 41
         },
         {
             "type": "custommachinery:gas",
             "x": 68,
             "y": 20,
-            "height": 70,
+            "width": 16,
+            "height": 28,
             "texture": "kubejs:textures/gui/gas.png",
             "id": "rs1"
         },
@@ -130,56 +130,64 @@
             "type": "custommachinery:texture",
             "x": 68,
             "y": 20,
-            "height": 70,
-            "texture": "mekanism:gui/gauge/standard.png",
+            "width": 16,
+            "height": 28,
+            "texture": "mekanism:gui/gauge/small.png",
             "jei": true
         },
+
         {
             "type": "custommachinery:gas",
-            "x": 98,
-            "y": 20,
-            "height": 70,
+            "x": 68,
+            "y": 50,
+            "width": 16,
+            "height": 28,
             "texture": "kubejs:textures/gui/gas.png",
             "id": "rs2"
         },
         {
             "type": "custommachinery:texture",
-            "x": 98,
-            "y": 20,
-            "height": 70,
-            "texture": "mekanism:gui/gauge/standard.png",
+            "x": 68,
+            "y": 50,
+            "width": 16,
+            "height": 28,
+            "texture": "mekanism:gui/gauge/small.png",
             "jei": true
         },
         {
             "type": "custommachinery:gas",
-            "x": 128,
+            "x": 98,
             "y": 20,
-            "height": 70,
+            "width": 16,
+            "height": 28,
             "texture": "kubejs:textures/gui/gas.png",
             "id": "rs3"
         },
         {
             "type": "custommachinery:texture",
-            "x": 128,
+            "x": 98,
             "y": 20,
-            "height": 70,
-            "texture": "mekanism:gui/gauge/standard.png",
+            "width": 16,
+            "height": 28,
+            "texture": "mekanism:gui/gauge/small.png",
             "jei": true
         },
         {
             "type": "custommachinery:gas",
-            "x": 158,
-            "y": 20,
-            "height": 70,
+            "x": 98,
+            "y": 50,
+            "width": 16,
+            "height": 28,
             "texture": "kubejs:textures/gui/gas.png",
             "id": "rs4"
         },
         {
             "type": "custommachinery:texture",
-            "x": 158,
-            "y": 20,
-            "height": 70,
-            "texture": "mekanism:gui/gauge/standard.png",
+            "x": 98,
+            "y": 50,
+            "width": 16,
+            "height": 28,
+            "texture": "mekanism:gui/gauge/small.png",
             "jei": true
         },
         {
@@ -203,44 +211,49 @@
         },
         {
             "type": "custommachinery:config",
-            "x": 180,
-            "y": 110
+            "x": 37,
+            "y": 60
         },
         {
             "type": "custommachinery:energy",
-            "x": 181,
-            "y": 136
+            "x": 118,
+            "y": 20,
+            "height": 58
         },
         {
             "type": "custommachinery:texture",
-            "x": 208,
-            "y": 110,
+            "x": 137,
+            "y": 20,
             "texture": "kubejs:textures/gui/upgrades.png",
-            "jei": true
+            "jei": false
         },
         {
             "type": "custommachinery:slot",
-            "x": 211,
-            "y": 126,
-            "id": "upgrade1"
+            "x": 140,
+            "y": 36,
+            "id": "upgrade1",
+            "jei": false
         },
         {
             "type": "custommachinery:slot",
-            "x": 229,
-            "y": 126,
-            "id": "upgrade2"
+            "x": 158,
+            "y": 36,
+            "id": "upgrade2",
+            "jei": false
         },
         {
             "type": "custommachinery:slot",
-            "x": 211,
-            "y": 144,
-            "id": "upgrade3"
+            "x": 140,
+            "y": 54,
+            "id": "upgrade3",
+            "jei": false
         },
         {
             "type": "custommachinery:slot",
-            "x": 229,
-            "y": 144,
-            "id": "upgrade4"
+            "x": 158,
+            "y": 54,
+            "id": "upgrade4",
+            "jei": false
         }
     ]
 }

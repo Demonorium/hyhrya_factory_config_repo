@@ -282,44 +282,49 @@
         },
         {
             "type": "custommachinery:config",
-            "x": 180,
-            "y": 110
+            "x": 73,
+            "y": 68
         },
         {
             "type": "custommachinery:energy",
-            "x": 181,
-            "y": 136
+            "x": 179,
+            "y": 20,
+            "height": 70
         },
         {
             "type": "custommachinery:texture",
             "x": 208,
-            "y": 110,
+            "y": 20,
             "texture": "kubejs:textures/gui/upgrades.png",
-            "jei": true
+            "jei": false
         },
         {
             "type": "custommachinery:slot",
             "x": 211,
-            "y": 126,
-            "id": "upgrade1"
+            "y": 36,
+            "id": "upgrade1",
+            "jei": false
         },
         {
             "type": "custommachinery:slot",
             "x": 229,
-            "y": 126,
-            "id": "upgrade2"
+            "y": 36,
+            "id": "upgrade2",
+            "jei": false
         },
         {
             "type": "custommachinery:slot",
             "x": 211,
-            "y": 144,
-            "id": "upgrade3"
+            "y": 54,
+            "id": "upgrade3",
+            "jei": false
         },
         {
             "type": "custommachinery:slot",
             "x": 229,
-            "y": 144,
-            "id": "upgrade4"
+            "y": 54,
+            "id": "upgrade4",
+            "jei": false
         }
     ]
 }

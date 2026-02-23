@@ -67,9 +67,9 @@ ServerEvents.recipes(event => {
   console.log("Custom Machinery Recipes loading...")
   MACHINERY_RECIPES.forEach(recipe => {
     const recipe_builder = event.recipes.custommachinery.custom_machine(recipe.machine, recipe.time)
-    // if (recipe.priority) {
-    //   recipe_builder.priority(priority)
-    // }
+    if (recipe.priority) {
+      recipe_builder.priority(recipe.priority)
+    }
 
     if (recipe.biomes) {
       recipe_builder.biomeWhitelist(recipe.biomes)
@@ -77,7 +77,7 @@ ServerEvents.recipes(event => {
     if (recipe.dimensions) {
       recipe_builder.dimensionWhitelist(recipe.dimensions)
     }
-
+    
     if (recipe.energy) {
       recipe_builder.requireEnergyPerTick(recipe.energy)
     }
@@ -86,7 +86,13 @@ ServerEvents.recipes(event => {
     }
 
     if (recipe.filter) {
-      recipe_builder.requireItemFilter(recipe.filter.item)
+      recipe_builder.transformItem(
+        Item.of(recipe.filter.item, recipe.filter.count),
+        Item.of(recipe.filter.item, recipe.filter.count),
+        recipe.filter.inputSlot,
+        recipe.filter.outputSlot,
+        (nbt) => nbt
+      )
     }
     if (recipe.req_rad) {
       recipe_builder.requireRadiationPerTick(recipe.req_rad)
