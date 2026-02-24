@@ -234,8 +234,9 @@ def install_mods(*to_download_mods):
                 urllib.request.urlretrieve(mod_url, 'update/mods/' + filename)
                 print('Mod', filename, 'downloaded')
                 success = True
-            except:
+            except Exception as e:
                 print('Error in mod download:', filename, 'link:', mod_url)
+                print(e)
                 errors.append(mod_url)
         elif success:
             print('Mod', filename, 'already downloaded')
