@@ -1,5 +1,3 @@
-import install_lib
-
 if __name__ == "__main__":
     install_lib.disable_mods(
         'justenoughbreeding-forge-1.20-1.20.1-2.3.0.jar',
