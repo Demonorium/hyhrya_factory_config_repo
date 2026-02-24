@@ -1,9 +1,9 @@
 import os
 import shutil
-import lib
+import install_lib
 
 if __name__ == "__main__":
-    lib.delete_mods(
+    install_lib.delete_mods(
         'cable_facades-1.20.1-Forge-1.3.2.jar'
     )
 

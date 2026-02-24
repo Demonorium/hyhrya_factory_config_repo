@@ -1,8 +1,8 @@
 import shutil
-import lib
+import install_lib
 
 if __name__ == "__main__":
-    lib.delete_mods(
+    install_lib.delete_mods(
         './mods/Explosion-Overhaul-0.2.0.0-a Forge 1.20.1.jar',
         './mods/betterfog-2.3-1.20.1.jar'
     )
