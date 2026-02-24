@@ -5,7 +5,7 @@ import json
 import urllib.request
 import urllib.parse
 
-import install_lib
+
 
 hooks = {}
 if os.path.exists('webhooks.json'):
@@ -64,6 +64,8 @@ try:
         shutil.copytree(source_path + p, p)
         print('install ', source_path + p, 'to', p)
 
+    rm_if_ex_copy('install_lib.py')
+    import install_lib
     rm_rf_if_ex_copy('update_scripts')
 
     scripts_to_run = []
