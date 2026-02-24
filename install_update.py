@@ -5,6 +5,8 @@ import json
 import urllib.request
 import urllib.parse
 
+import install_lib
+
 hooks = {}
 if os.path.exists('webhooks.json'):
     with open('webhooks.json', 'r', encoding='utf-8') as f:
