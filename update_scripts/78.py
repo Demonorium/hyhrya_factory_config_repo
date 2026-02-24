@@ -55,7 +55,7 @@ if success:
                 with open('options.txt', 'w', encoding='utf-8') as f:
                     for line in lines:
                         f.write(line)
-            except RuntimeError as e:
+            except Exception as e:
                 print(e)
                 print('Произошла неизвестная ошибка при обновлении')
                 print('Подключите ресурспак CustomMusic вручную')
