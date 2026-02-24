@@ -82,7 +82,7 @@ try:
     for (index, script) in scripts_to_run:
         print('Исполнение ', script)
         with open(script, 'r', encoding='utf-8') as f:
-            exec(''.join(f.readlines()), {"install_lib": install_lib})
+            exec(''.join(f.readlines()), {"install_lib": install_lib, **globals()})
 
     print('Импорт конфигурации')
     def configuration_filter(src: str, names: list[str]):
