@@ -222,6 +222,9 @@ def check_is_server():
 
 def install_mods(*to_download_mods):
     errors = []
+    if not os.path.exists('update/mods'):
+        os.mkdir('update/mods')
+
 
     for (mod_url, side) in to_download_mods:
         if check_is_server() and side == 'client':
@@ -246,11 +249,6 @@ def install_mods(*to_download_mods):
         if success and not os.path.exists('mods/' + filename):
             shutil.copy('update/mods/' + filename, 'mods/')
             print('Mod', filename, 'installed')
-
-    
-    if not os.path.exists('update/mods'):
-        os.mkdir('update/mods')
-
 
     if not check_is_server() and len(errors) > 0:
         root = tk.Tk()
