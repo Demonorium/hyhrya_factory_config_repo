@@ -1,7 +1,6 @@
 
 import os
 import shutil
-import install_lib
 
 if __name__ == "__main__":
     install_lib.disable_mods(

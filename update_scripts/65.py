@@ -1,5 +1,3 @@
-import install_lib
-
 if __name__ == "__main__":
     if not install_lib.check_is_server():
         install_lib.simple_install(

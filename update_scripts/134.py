@@ -1,5 +1,3 @@
-import install_lib
-
 if __name__ == "__main__":
     install_lib.install_mods(
         ['https://cdn.modrinth.com/data/iRmWy6ga/versions/Mtjt7u5h/pipez-forge-1.20.1-1.2.26.jar', 'server'],
