@@ -82458,34 +82458,6 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
-		type: "mekanism:oxidizing",
-		input: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:methane",
-			},
-		},
-		output: {
-			gas: "kubejs:methanol",
-			amount: 100.0,
-		},
-	},
-	{
-		type: "mekanism:chemical_infusing",
-		leftInput: {
-			gas: "mekanismelements:methane",
-			amount: 1.0,
-		},
-		output: {
-			gas: "kubejs:methanol",
-			amount: 1.0,
-		},
-		rightInput: {
-			gas: "mekanism:oxygen",
-			amount: 1.0,
-		},
-	},
-	{
 		type: "mekanism:injecting",
 		chemicalInput: {
 			gas: "mekanism:water_vapor",
@@ -82776,6 +82748,19 @@ const CUSTOM_RECIPES = [
 		output: {
 			item: "chemlib:phosphoric_acid_dust",
 			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:oxidizing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:methane",
+			},
+		},
+		output: {
+			gas: "mekanism:hydrogen",
+			amount: 400.0,
 		},
 	},
 	{
