@@ -4511,6 +4511,126 @@
 			x: -23.5d
 			y: -10.5d
 		}
+		{
+			dependencies: ["40303EB3A89F8CAF"]
+			id: "4F70551D1788E8C9"
+			rewards: [
+				{
+					count: 32
+					id: "23351D469A9E3236"
+					item: "curvy_pipes:tiny_fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "74A972EB009E3172"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "554D2307953B24FB"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "7F20D26C2A3882DF"
+				item: "kubejs:primitive_reaction_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18213DD3A7187903"]
+			id: "61596010AF549C5E"
+			rewards: [
+				{
+					count: 3
+					id: "41A53D5A8AA0B97A"
+					item: "mekanism:advanced_chemical_tank"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "46F738F0F9C19FD4"
+					item: "pipez:gas_pipe"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "73AA6E54B0A6E1C4"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "477EDE0E061D0242"
+					item: "kubejs:steel_gear"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "403D600C1CAD8392"
+				item: "kubejs:gas_chemical_furnace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F70551D1788E8C9"]
+			id: "397CF442E22233A7"
+			rewards: [{
+				count: 4
+				id: "1DC326C46C687754"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			subtitle: "Перенос настроек"
+			tasks: [{
+				id: "3D8F247153F0DC87"
+				item: "custommachinery:configuration_card"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40303EB3A89F8CAF"]
+			id: "57D23CE910BC7CE2"
+			rewards: [
+				{
+					count: 4
+					id: "5F0BF0C90B436375"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+				{
+					id: "17EDBE8DC929D1EC"
+					item: "superbwarfare:motor"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "558E84B6A90C1227"
+					item: "thermal:constantan_ingot"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Смешивание жидкостей с помощью энергии"
+			tasks: [{
+				id: "52AEB253956022EF"
+				item: "kubejs:precipitation_bath"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
 	]
 	title: "Глава 2. Автоматизация"
 }

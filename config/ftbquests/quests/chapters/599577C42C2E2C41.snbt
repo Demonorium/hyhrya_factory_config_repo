@@ -107,6 +107,12 @@
 		{
 			dependencies: ["74341A669DBB5CCE"]
 			id: "0B827D4F95442D85"
+			rewards: [{
+				count: 4
+				id: "799E9402C5A08A5B"
+				item: "minecraft:sponge"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "1BBD3E3BA33778E7"
@@ -209,14 +215,20 @@
 		{
 			dependencies: ["179D5F9B631B41D2"]
 			id: "6C03EB73F933C672"
-			size: 1.5d
+			rewards: [{
+				count: 2
+				id: "3B4AD19428001A18"
+				item: "minecraft:green_dye"
+				type: "item"
+			}]
+			size: 1.0d
 			tasks: [{
 				id: "51AF566752582EA7"
 				item: "chemlib:chromium_oxide_dust"
 				type: "item"
 			}]
 			x: -18.0d
-			y: 9.0d
+			y: 9.75d
 		}
 		{
 			dependencies: ["6C03EB73F933C672"]
@@ -226,8 +238,8 @@
 				item: "minecraft:green_dye"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 9.0d
+			x: -18.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["701812E8B8396A63"]
@@ -326,6 +338,12 @@
 		{
 			dependencies: ["52A57ACAFD53F1C6"]
 			id: "701812E8B8396A63"
+			rewards: [{
+				count: 8
+				id: "69A369F13115023D"
+				item: "thermal:phytogro"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C751D1C7A1DCB7F"
 				item: "minecraft:kelp"
@@ -337,6 +355,12 @@
 		{
 			dependencies: ["701812E8B8396A63"]
 			id: "230F8A00BBFBCF95"
+			rewards: [{
+				count: 4
+				id: "158217AA7E3C8D5B"
+				item: "mekanismelements:tablet_iodine"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4477619F593BE3AB"
 				item: "mekanismelements:tablet_iodine"
@@ -349,6 +373,20 @@
 			dependencies: ["00C310358F452A99"]
 			hide_until_deps_complete: true
 			id: "11189DC530BFF52C"
+			rewards: [
+				{
+					count: 4
+					id: "54DA0B191FD4E790"
+					item: "chemlib:iridium_plate"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3EC01C432D7424FA"
+					item: "mekanism:ultimate_control_circuit"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -374,6 +412,11 @@
 		{
 			dependencies: ["11189DC530BFF52C"]
 			id: "182AEC71C45E8108"
+			rewards: [{
+				id: "5D4F560675024090"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "78BC0F26705CF952"
 				item: "chemlib:hydrazine"
@@ -492,6 +535,12 @@
 		{
 			dependencies: ["5048539AF26215A5"]
 			id: "093E7F412D2A9A7D"
+			rewards: [{
+				count: 8
+				id: "33EEAF55DD43EAF6"
+				item: "mekanism:structural_glass"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BD52DBD08BF2FE6"
 				item: "mekanism:structural_glass"
@@ -843,6 +892,12 @@
 		{
 			dependencies: ["20987649F16183AB"]
 			id: "52A57ACAFD53F1C6"
+			rewards: [{
+				count: 8
+				id: "57EDF0821EA5CBCC"
+				item: "thermal:niter_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5742A03AB3E04509"
 				item: "mekanismelements:seawater_pump"
@@ -899,6 +954,12 @@
 		{
 			dependencies: ["20987649F16183AB"]
 			id: "0C063F64DAC9600B"
+			rewards: [{
+				count: 8
+				id: "68CBC14477808FA7"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
 			tasks: [{
 				id: "37D23BB3720BE392"
 				item: "mekanismelements:air_compressor"
@@ -1010,6 +1071,20 @@
 		{
 			dependencies: ["506A2ECDFB1ACE1E"]
 			id: "412FFFFA9AB6E363"
+			rewards: [
+				{
+					count: 8
+					id: "260FC5EAB2940962"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "183E82FFC3F7D1CF"
+					item: "mekanism:elite_control_circuit"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2826A58FC6B9FE67"
@@ -1075,6 +1150,12 @@
 		{
 			dependencies: ["412FFFFA9AB6E363"]
 			id: "5315C62E378B87CB"
+			rewards: [{
+				count: 2
+				id: "1091D64E877756C4"
+				item: "ballistix:missiletier1"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D3E859262645A4A"
 				item: "ballistix:missiletier1"
@@ -1091,6 +1172,12 @@
 				"Стол археолога является точкой интереса для жителя у которого можно купить карту потеряных звёздных врат."
 			]
 			id: "20FDAA198EC9425A"
+			rewards: [{
+				count: 8
+				id: "67267EC9CA4C91A6"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
 			subtitle: "В поисках золота"
 			tasks: [{
 				id: "43C85C6A325FF6CE"
@@ -1102,6 +1189,7 @@
 		}
 		{
 			dependencies: ["20FDAA198EC9425A"]
+			description: ["Добудьте звёздные врата в захоронении"]
 			icon: {
 				Count: 1
 				id: "sgjourney:milky_way_dhd"
@@ -1205,6 +1293,12 @@
 		{
 			dependencies: ["11189DC530BFF52C"]
 			id: "18CA24AFBB7BD38A"
+			rewards: [{
+				count: 4
+				id: "208C59A0E1502A09"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "763DF231F4C39FF9"
 				item: "ad_astra:fuel_bucket"
@@ -1217,6 +1311,20 @@
 			dependencies: ["637FE3D421036958"]
 			hide_until_deps_complete: true
 			id: "1862C9D367926544"
+			rewards: [
+				{
+					count: 4
+					id: "055AE5A9E4256D2F"
+					item: "ad_astra:desh_plate"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0C98452B8A239DC6"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "1F158C05A0842800"
@@ -1229,6 +1337,19 @@
 		{
 			dependencies: ["1862C9D367926544"]
 			id: "4D90E01B70E1A676"
+			rewards: [
+				{
+					id: "04984EC0A183D43D"
+					item: "dysonsphere:heat_shielding"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7006CB20C69589EA"
+					item: "mekanism:electrolytic_separator"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "40DD457A1D3E32B5"
 				item: "ad_astra:oxygen_distributor"
@@ -1240,6 +1361,20 @@
 		{
 			dependencies: ["1862C9D367926544"]
 			id: "203FA03831FDC72D"
+			rewards: [
+				{
+					count: 3
+					id: "6B70C30B55F6F762"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "54509C487B8857CD"
+					item: "thermal:cured_rubber"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5BE708ABF783A12E"
 				item: "ad_astra:tier_1_rover"
@@ -1251,6 +1386,19 @@
 		{
 			dependencies: ["1862C9D367926544"]
 			id: "5BCD62337827899D"
+			rewards: [
+				{
+					id: "6D038AAC07107710"
+					item: "dysonsphere:heat_shielding"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2394640FF29AFEC9"
+					item: "mekanismgenerators:gas_burning_generator"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1A1F0DF8F8700718"
 				item: "ad_astra:gravity_normalizer"
@@ -1266,6 +1414,11 @@
 			]
 			hide_until_deps_complete: true
 			id: "637FE3D421036958"
+			rewards: [{
+				id: "09F4FD1B596AC2A5"
+				item: "dysonsphere:heat_shielding"
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				dimension: "ad_astra:moon"
@@ -1280,6 +1433,19 @@
 		{
 			dependencies: ["18CA24AFBB7BD38A"]
 			id: "07CC849A14CF717F"
+			rewards: [
+				{
+					count: 8
+					id: "1E120ED253F90794"
+					item: "mekanism:block_steel"
+					type: "item"
+				}
+				{
+					id: "1179DF9C1624DFB7"
+					item: "dysonsphere:heat_shielding"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7F67A5CF13D58193"
 				item: "ad_astra:nasa_workbench"
@@ -1298,6 +1464,11 @@
 				}
 			}
 			id: "07C0404AA2A0C067"
+			rewards: [{
+				id: "271B6AC608D27504"
+				item: "ad_astra_giselle_addon:oxygen_can"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "16A2F5F0366A736E"
@@ -1350,11 +1521,16 @@
 		}
 		{
 			dependencies: [
-				"6C03EB73F933C672"
 				"43EF287730D4F9FB"
+				"179D5F9B631B41D2"
 			]
 			hide_until_deps_visible: true
 			id: "7A30302D722B9C01"
+			rewards: [{
+				id: "10E2890D805A9CB6"
+				item: "dysonsphere:heat_shielding"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4EDF459C3A4285DA"
 				item: "ad_astra:engine_frame"
@@ -1366,6 +1542,11 @@
 		{
 			dependencies: ["7A30302D722B9C01"]
 			id: "1A545C75AD39E73D"
+			rewards: [{
+				id: "3AC57F89C2E5CC98"
+				item: "dysonsphere:heat_shielding"
+				type: "item"
+			}]
 			tasks: [{
 				id: "435D5E33EE990854"
 				item: "ad_astra:steel_engine"
@@ -1377,6 +1558,12 @@
 		{
 			dependencies: ["637FE3D421036958"]
 			id: "31F656A139F2C74F"
+			rewards: [{
+				count: 16
+				id: "334403B91F4E58D9"
+				item: "ad_astra:cheese_block"
+				type: "item"
+			}]
 			subtitle: "Поешь сыра"
 			tasks: [{
 				id: "5A064148A3A95248"
@@ -1389,6 +1576,19 @@
 		{
 			dependencies: ["07C0404AA2A0C067"]
 			id: "4CAEAFFABA834E54"
+			rewards: [
+				{
+					id: "2850FE5BF52AFD90"
+					item: "ad_astra_giselle_addon:oxygen_can"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0EB7116DE2D1C153"
+					item: "moremekanismprocessing:platinum_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2806581AEC91D1BE"
 				item: "ad_astra:oxygen_loader"
@@ -1625,6 +1825,22 @@
 		{
 			dependencies: ["63EE7533B7D31775"]
 			id: "064AC01B6A8EA987"
+			rewards: [{
+				id: "26E9F888E3F2105F"
+				item: {
+					Count: 1
+					id: "mekanism:advanced_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "16000000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				dimension: "sgjourney:abydos"
@@ -1645,6 +1861,29 @@
 			]
 			hide_until_deps_visible: true
 			id: "239F1743BC842ABE"
+			rewards: [
+				{
+					id: "72071077F37152BD"
+					item: {
+						Count: 1
+						id: "mekanism:advanced_energy_cube"
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "16000000"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29E34C25CAFFEF94"
+					item: "ad_astra:gravity_normalizer"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				dimension: "sgjourney:cavum_tenebrae"
@@ -1681,6 +1920,12 @@
 		{
 			dependencies: ["1862C9D367926544"]
 			id: "40C1930754F57115"
+			rewards: [{
+				count: 8
+				id: "36B7843009E2632E"
+				item: "pneumaticcraft:compressed_iron_block"
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [
 				{
@@ -1780,6 +2025,12 @@
 		{
 			dependencies: ["07CC849A14CF717F"]
 			id: "506A2ECDFB1ACE1E"
+			rewards: [{
+				count: 2
+				id: "0E65418E554F8EBF"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "468EAF368A84E2AF"
 				item: "ad_astra_giselle_addon:automation_nasa_workbench"
@@ -1795,6 +2046,26 @@
 			]
 			hide_until_deps_visible: true
 			id: "0F838F1DB234B546"
+			rewards: [
+				{
+					count: 8
+					id: "5BC976A47004E03D"
+					item: "chemlib:helium_lamp_block"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "63D9FF12E7FB8C5C"
+					item: "chemlib:argon_lamp_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "54341FCA0E63972D"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -1841,6 +2112,18 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "2F5FC0E82610F7B4"
+			rewards: [{
+				count: 16
+				id: "4D0D9AB63D65F12D"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:micromissiles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "24E4A640C83F22D3"
 				item: "superbwarfare:missile_engine"
@@ -2029,6 +2312,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "Постройте хранилище энергии"
 			tasks: [
 				{
 					id: "457F04484FD9F93A"
@@ -2308,8 +2592,8 @@
 				item: "undergarden:depthrock_pebble"
 				type: "item"
 			}]
-			x: -19.5d
-			y: 9.0d
+			x: -18.0d
+			y: 8.25d
 		}
 		{
 			dependencies: ["64A8E4F955064194"]
@@ -2367,6 +2651,12 @@
 		{
 			dependencies: ["52A57ACAFD53F1C6"]
 			id: "013EC6F9977BE535"
+			rewards: [{
+				count: 3
+				id: "51AD652E4C25A340"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -2505,6 +2795,26 @@
 		{
 			dependencies: ["013EC6F9977BE535"]
 			id: "43EF287730D4F9FB"
+			rewards: [
+				{
+					count: 4
+					id: "6C38D5E472B1EDDC"
+					item: "superbwarfare:steel_spring"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "12BD923CA4D0F03B"
+					item: "superbwarfare:steel_trigger"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "66834EF633711DC7"
+					item: "thermal:coal_coke"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "272E379A4778C11A"
 				item: "clanginghowl:extraterrestrial_steel_ingot"
@@ -2705,6 +3015,7 @@
 		{
 			dependencies: ["1862C9D367926544"]
 			id: "251BF3065F52CBD9"
+			subtitle: "Атака титанов"
 			tasks: [{
 				id: "2E4E4D6BBE84B59A"
 				item: {
@@ -2781,8 +3092,15 @@
 		{
 			dependencies: ["22D245EE63939938"]
 			id: "443AF5927EB95F47"
+			rewards: [{
+				count: 16
+				id: "35774B22D1565DA5"
+				item: "pneumaticcraft:heat_pipe"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "Эффективная тепловая технология"
 			tasks: [{
 				id: "3D97876FFBD3D29E"
 				item: "chemlib:hafnium_ingot"
@@ -2804,6 +3122,116 @@
 			}]
 			x: -9.0d
 			y: -9.0d
+		}
+		{
+			dependencies: ["00C310358F452A99"]
+			id: "0A020D7F3DE36A57"
+			rewards: [
+				{
+					count: 32
+					id: "533CA20B2239EDA3"
+					item: "chemlib:platinum_plate"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "710F66F7EE35ECEC"
+					item: "chemlib:iridium_plate"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "15610B10377669A5"
+					item: "pipez:gas_pipe"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3C7AE7C924212A71"
+				item: "kubejs:advanced_reaction_chamber"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0874D51F0FB0A24C"]
+			id: "155BF92B96CB3A33"
+			rewards: [
+				{
+					count: 128
+					id: "2D382014BE0DF572"
+					item: "minecraft:yellow_concrete"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "43174B9A21006206"
+					item: "minecraft:black_concrete"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A752E7FA0C71A5A"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C063F64DAC9600B"]
+			id: "3D8D2C31E99B4FF3"
+			rewards: [
+				{
+					count: 4
+					id: "0168FBAAA2EAC55A"
+					item: "chemlib:platinum_plate"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "282F066F54A0B8A7"
+					item: "chemlib:iridium_plate"
+					type: "item"
+				}
+			]
+			subtitle: "Воздух иных миров"
+			tasks: [{
+				id: "617041A01B69F4DA"
+				item: "kubejs:atmospheric_adsorption_separator"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["064AC01B6A8EA987"]
+			id: "0FEF730BCF34BD64"
+			rewards: [{
+				id: "7E74CE69BB1C183C"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Возможно за стенами есть что-то интересное"
+			tasks: [{
+				icon: "sgjourney:sandstone_cartouche"
+				id: "4E89AB502B38300F"
+				structure: "sgjourney:cartouche/abydos_cartouche"
+				type: "structure"
+			}]
+			title: "Найдите картограф"
+			x: 4.5d
+			y: 16.5d
 		}
 	]
 	title: "Главы 3. Продвинутая химия"

@@ -91852,7 +91852,7 @@ const MACHINERY_RECIPES = [
 		source_fluids: [
 			{
 				fluid: "thermal:ender",
-				amount: 10000,
+				amount: 100,
 			},
 		],
 		result_fluids: null,
@@ -91890,7 +91890,7 @@ const MACHINERY_RECIPES = [
 		source_fluids: [
 			{
 				fluid: "thermal:ender",
-				amount: 10000,
+				amount: 100,
 			},
 		],
 		result_fluids: null,
