@@ -132591,6 +132591,21 @@ const CUSTOM_RECIPES = [
 	{
 		type: "thermal:insolator",
 		ingredient: {
+			item: "farmersdelight:onion",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "farmersdelight:onion",
+				chance: 2,
+			},
+		],
+		energy_mod: 1.0,
+		water_mod: 1.0,
+	},
+	{
+		type: "thermal:insolator",
+		ingredient: {
 			item: "biomesoplenty:red_maple_sapling",
 			count: 1.0,
 		},
