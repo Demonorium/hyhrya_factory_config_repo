@@ -166,7 +166,7 @@ ServerEvents.recipes(event => {
             'DEA'
         ],
         {
-            A: Item.of(MATERIALS.STELLARIUM.plate),
+            A: Item.of('sgjourney:heavy_liquid_naquadah_bucket'),
             B: Item.of('mekanism_extras:absolute_control_circuit'),
             D: Item.of('ballistix:nuclear'),
             E: Item.of('mekanism:pellet_antimatter')
@@ -191,15 +191,16 @@ ServerEvents.recipes(event => {
     event.shaped(
         Item.of('ballistix:darkmatter', 1), 
         [
-            'AED',
+            'ACD',
             'EBE',
-            'DEA'
+            'DCA'
         ],
         {
             A: Item.of('pncepcb:high_power_finished_pcb'),
             B: Item.of('mekanism_extras:cosmic_control_circuit'),
             D: Item.of('chemlib:unknown'),
-            E: Item.of('ae2:singularity')
+            E: Item.of('ae2:singularity'),
+            C: Item.of('sgjourney:heavy_liquid_naquadah_bucket')
         }
     )
 

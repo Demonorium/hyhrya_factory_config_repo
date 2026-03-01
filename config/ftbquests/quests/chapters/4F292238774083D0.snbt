@@ -3821,8 +3821,8 @@
 			}]
 			subtitle: "Соедините покрытие в сетке крафта с любым блоком и накройте ваши трубы и редстоун кабели"
 			tasks: [{
-				id: "3482436501CE8A18"
-				item: "cable_facades:facade"
+				id: "1591EFDA3515B71D"
+				item: "hyhryacasingmod:facade"
 				type: "item"
 			}]
 			x: -12.0d

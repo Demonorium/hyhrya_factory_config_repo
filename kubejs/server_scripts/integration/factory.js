@@ -130,7 +130,7 @@ ServerEvents.recipes(event => {
       }
 
       if (element.chance) {
-        setter.chance(chance)
+        builder.chance(element.chance)
       }
     }
 

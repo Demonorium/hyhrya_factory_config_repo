@@ -119194,6 +119194,58 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:crushing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "minecraft:small_amethyst_bud",
+			},
+		},
+		output: {
+			item: "minecraft:amethyst_shard",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:crushing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "minecraft:medium_amethyst_bud",
+			},
+		},
+		output: {
+			item: "minecraft:amethyst_shard",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:crushing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "minecraft:large_amethyst_bud",
+			},
+		},
+		output: {
+			item: "minecraft:amethyst_shard",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:crushing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "minecraft:amethyst_cluster",
+			},
+		},
+		output: {
+			item: "minecraft:amethyst_shard",
+			count: 3.0,
+		},
+	},
+	{
 		type: "mekanism:purifying",
 		chemicalInput: {
 			gas: "mekanism:uranium_oxide",
@@ -134602,6 +134654,673 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "thermal:crystallizer",
+		ingredients: [
+			{
+				fluid: "sgjourney:liquid_naquadah",
+				amount: 100.0,
+			},
+			{
+				item: "sgjourney:unity_shard",
+				count: 5.0,
+			},
+			{
+				item: "sgjourney:pure_naquadah",
+				count: 3.0,
+			},
+		],
+		result: [
+			{
+				item: "sgjourney:crystal_base",
+				count: 1.0,
+			},
+		],
+		energy: 50000,
+	},
+	{
+		type: "thermal:crystallizer",
+		ingredients: [
+			{
+				fluid: "sgjourney:heavy_liquid_naquadah",
+				amount: 100.0,
+			},
+			{
+				item: "sgjourney:unity_shard",
+				count: 5.0,
+			},
+			{
+				item: "sgjourney:crystal_base",
+				count: 1.0,
+			},
+		],
+		result: [
+			{
+				item: "sgjourney:advanced_crystal_base",
+				count: 1.0,
+			},
+		],
+		energy: 100000,
+	},
+	{
+		type: "thermal:crystallizer",
+		ingredients: [
+			{
+				fluid: "sgjourney:liquid_naquadah",
+				amount: 100.0,
+			},
+			{
+				item: "sgjourney:crystal_base",
+				count: 1.0,
+			},
+			{
+				item: "minecraft:redstone",
+				count: 32.0,
+			},
+		],
+		result: [
+			{
+				item: "sgjourney:energy_crystal",
+				count: 1.0,
+			},
+		],
+		energy: 50000,
+	},
+	{
+		type: "mekanism:combining",
+		extraInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:crystal_base",
+			},
+		},
+		mainInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism_extras:supreme_control_circuit",
+			},
+		},
+		output: {
+			item: "sgjourney:control_crystal",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:combining",
+		extraInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:crystal_base",
+			},
+		},
+		mainInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "ae2:cell_component_1k",
+			},
+		},
+		output: {
+			item: "sgjourney:memory_crystal",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:combining",
+		extraInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:crystal_base",
+			},
+		},
+		mainInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "ae2:spatial_cell_component_2",
+			},
+		},
+		output: {
+			item: "sgjourney:materialization_crystal",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:combining",
+		extraInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:crystal_base",
+			},
+		},
+		mainInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism_extras:alloy_radiance",
+			},
+		},
+		output: {
+			item: "sgjourney:transfer_crystal",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:combining",
+		extraInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:crystal_base",
+			},
+		},
+		mainInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "ae2:charged_certus_quartz_crystal",
+			},
+		},
+		output: {
+			item: "sgjourney:communication_crystal",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:combining",
+		extraInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:control_crystal",
+			},
+		},
+		mainInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism_extras:supreme_control_circuit",
+			},
+		},
+		output: {
+			item: "sgjourney:large_control_crystal",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:combining",
+		extraInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:control_crystal",
+			},
+		},
+		mainInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "minecraft:redstone",
+			},
+		},
+		output: {
+			item: "sgjourney:stargate_variant_crystal",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:combining",
+		extraInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:advanced_crystal_base",
+			},
+		},
+		mainInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism_extras:cosmic_control_circuit",
+			},
+		},
+		output: {
+			item: "sgjourney:advanced_control_crystal",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:combining",
+		extraInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:advanced_crystal_base",
+			},
+		},
+		mainInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:memory_crystal",
+			},
+		},
+		output: {
+			item: "sgjourney:advanced_memory_crystal",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:combining",
+		extraInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:advanced_crystal_base",
+			},
+		},
+		mainInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:materialization_crystal",
+			},
+		},
+		output: {
+			item: "sgjourney:advanced_materialization_crystal",
+			count: 1.0,
+		},
+	},
+	{
+		type: "thermal:crystallizer",
+		ingredients: [
+			{
+				fluid: "sgjourney:heavy_liquid_naquadah",
+				amount: 20.0,
+			},
+			{
+				item: "sgjourney:advanced_crystal_base",
+				count: 1.0,
+			},
+			{
+				item: "sgjourney:energy_crystal",
+				count: 2.0,
+			},
+		],
+		result: [
+			{
+				item: "sgjourney:advanced_energy_crystal",
+				count: 1.0,
+			},
+		],
+		energy: 100000,
+	},
+	{
+		type: "mekanism:combining",
+		extraInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:advanced_crystal_base",
+			},
+		},
+		mainInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanism_extras:alloy_radiance",
+			},
+		},
+		output: {
+			item: "sgjourney:advanced_transfer_crystal",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:combining",
+		extraInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:advanced_crystal_base",
+			},
+		},
+		mainInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "ae2:charged_staff",
+			},
+		},
+		output: {
+			item: "sgjourney:advanced_communication_crystal",
+			count: 1.0,
+		},
+	},
+	{
+		type: "minecraft:crafting_shaped",
+		category: "misc",
+		key: {
+			O: {
+				item: "sgjourney:materialization_crystal",
+				count: 1.0,
+			},
+			B: {
+				item: "hostilenetworks:end_prediction",
+				count: 1.0,
+			},
+			A: {
+				item: "kubejs:sky_prediction",
+				count: 1.0,
+			},
+		},
+		pattern: [
+			"BAB",
+			"AOB",
+			"ABA",
+		],
+		result: {
+			item: "sgjourney:stargate_upgrade_crystal",
+			count: 1.0,
+			nbt: {
+				Type: "sgjourney:pegasus_stargate",
+			},
+		},
+		show_notification: true,
+	},
+	{
+		type: "minecraft:crafting_shaped",
+		category: "misc",
+		key: {
+			O: {
+				item: "sgjourney:materialization_crystal",
+				count: 1.0,
+			},
+			B: {
+				item: "hostilenetworks:overworld_prediction",
+				count: 1.0,
+			},
+			A: {
+				item: "kubejs:sky_prediction",
+				count: 1.0,
+			},
+		},
+		pattern: [
+			"BAB",
+			"AOB",
+			"ABA",
+		],
+		result: {
+			item: "sgjourney:stargate_upgrade_crystal",
+			count: 1.0,
+			nbt: {
+				Type: "sgjourney:milky_way_stargate",
+			},
+		},
+		show_notification: true,
+	},
+	{
+		type: "minecraft:crafting_shaped",
+		category: "misc",
+		key: {
+			O: {
+				item: "sgjourney:materialization_crystal",
+				count: 1.0,
+			},
+			B: {
+				item: "kubejs:sky_prediction",
+				count: 1.0,
+			},
+			C: {
+				item: "hostilenetworks:overworld_prediction",
+				count: 1.0,
+			},
+			A: {
+				item: "kubejs:sky_prediction",
+				count: 1.0,
+			},
+		},
+		pattern: [
+			"BCA",
+			"BOC",
+			"ABC",
+		],
+		result: {
+			item: "sgjourney:stargate_upgrade_crystal",
+			count: 1.0,
+			nbt: {
+				Type: "sgjourney:tollan_stargate",
+			},
+		},
+		show_notification: true,
+	},
+	{
+		type: "minecraft:crafting_shaped",
+		category: "misc",
+		key: {
+			O: {
+				item: "sgjourney:materialization_crystal",
+				count: 1.0,
+			},
+			A: {
+				item: "kubejs:sky_prediction",
+				count: 1.0,
+			},
+		},
+		pattern: [
+			"AAA",
+			"AOA",
+			"AAA",
+		],
+		result: {
+			item: "sgjourney:stargate_upgrade_crystal",
+			count: 1.0,
+			nbt: {
+				Type: "sgjourney:universe_stargate",
+			},
+		},
+		show_notification: true,
+	},
+	{
+		type: "minecraft:crafting_shaped",
+		category: "misc",
+		key: {
+			O: {
+				item: "sgjourney:stargate_variant_crystal",
+				count: 1.0,
+			},
+			B: {
+				item: "hostilenetworks:overworld_prediction",
+				count: 1.0,
+			},
+			A: {
+				item: "kubejs:sky_prediction",
+				count: 1.0,
+			},
+		},
+		pattern: [
+			"BAB",
+			"AOB",
+			"ABA",
+		],
+		result: {
+			item: "sgjourney:stargate_variant_crystal",
+			count: 1.0,
+			nbt: {
+				Variant: "sgjourney:classic_milky_way",
+			},
+		},
+		show_notification: true,
+	},
+	{
+		type: "minecraft:crafting_shaped",
+		category: "misc",
+		key: {
+			O: {
+				item: "sgjourney:stargate_variant_crystal",
+				count: 1.0,
+			},
+			A: {
+				item: "hostilenetworks:overworld_prediction",
+				count: 1.0,
+			},
+		},
+		pattern: [
+			"AAA",
+			"AOA",
+			"AAA",
+		],
+		result: {
+			item: "sgjourney:stargate_variant_crystal",
+			count: 1.0,
+			nbt: {
+				Variant: "sgjourney:milky_way_movie",
+			},
+		},
+		show_notification: true,
+	},
+	{
+		type: "minecraft:crafting_shaped",
+		category: "misc",
+		key: {
+			O: {
+				item: "sgjourney:stargate_variant_crystal",
+				count: 1.0,
+			},
+			A: {
+				item: "hostilenetworks:end_prediction",
+				count: 1.0,
+			},
+		},
+		pattern: [
+			"AAA",
+			"AOA",
+			"AAA",
+		],
+		result: {
+			item: "sgjourney:stargate_variant_crystal",
+			count: 1.0,
+			nbt: {
+				Variant: "sgjourney:milky_way_promo",
+			},
+		},
+		show_notification: true,
+	},
+	{
+		type: "minecraft:crafting_shaped",
+		category: "misc",
+		key: {
+			O: {
+				item: "sgjourney:stargate_variant_crystal",
+				count: 1.0,
+			},
+			B: {
+				item: "hostilenetworks:overworld_prediction",
+				count: 1.0,
+			},
+			A: {
+				item: "hostilenetworks:end_prediction",
+				count: 1.0,
+			},
+		},
+		pattern: [
+			"BAB",
+			"AOB",
+			"ABA",
+		],
+		result: {
+			item: "sgjourney:stargate_variant_crystal",
+			count: 1.0,
+			nbt: {
+				Variant: "sgjourney:milky_way_sg-1",
+			},
+		},
+		show_notification: true,
+	},
+	{
+		type: "minecraft:crafting_shaped",
+		category: "misc",
+		key: {
+			O: {
+				item: "sgjourney:stargate_variant_crystal",
+				count: 1.0,
+			},
+			B: {
+				item: "hostilenetworks:overworld_prediction",
+				count: 1.0,
+			},
+			C: {
+				item: "kubejs:sky_prediction",
+				count: 1.0,
+			},
+			D: {
+				item: "hostilenetworks:overworld_prediction",
+				count: 1.0,
+			},
+			A: {
+				item: "hostilenetworks:end_prediction",
+				count: 1.0,
+			},
+		},
+		pattern: [
+			"BCD",
+			"AOB",
+			"CDA",
+		],
+		result: {
+			item: "sgjourney:stargate_variant_crystal",
+			count: 1.0,
+			nbt: {
+				Variant: "sgjourney:pegasus_atlantis",
+			},
+		},
+		show_notification: true,
+	},
+	{
+		type: "mekanism:crushing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:small_unity_bud",
+			},
+		},
+		output: {
+			item: "sgjourney:unity_shard",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:crushing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:medium_unity_bud",
+			},
+		},
+		output: {
+			item: "sgjourney:unity_shard",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:crushing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:large_unity_bud",
+			},
+		},
+		output: {
+			item: "sgjourney:unity_shard",
+			count: 2.0,
+		},
+	},
+	{
+		type: "mekanism:crushing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "sgjourney:unity_cluster",
+			},
+		},
+		output: {
+			item: "sgjourney:unity_shard",
+			count: 3.0,
+		},
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "sgjourney:unity_shard",
+			count: 1.0,
+		},
+		result: {
+			fluid: "mffs:fortron_fluid",
+			amount: 1.0,
+		},
+		energy: 10000,
+	},
+	{
 		type: "minecraft:crafting_shaped",
 		category: "misc",
 		key: {
@@ -139511,609 +140230,6 @@ const CUSTOM_RECIPES = [
 			item: "minecraft:ice",
 			count: 1.0,
 		},
-	},
-	{
-		type: "thermal:crystallizer",
-		ingredients: [
-			{
-				fluid: "sgjourney:liquid_naquadah",
-				amount: 100.0,
-			},
-			{
-				item: "sgjourney:unity_shard",
-				count: 5.0,
-			},
-			{
-				item: "sgjourney:pure_naquadah",
-				count: 3.0,
-			},
-		],
-		result: [
-			{
-				item: "sgjourney:crystal_base",
-				count: 1.0,
-			},
-		],
-		energy: 50000,
-	},
-	{
-		type: "thermal:crystallizer",
-		ingredients: [
-			{
-				fluid: "sgjourney:heavy_liquid_naquadah",
-				amount: 100.0,
-			},
-			{
-				item: "sgjourney:unity_shard",
-				count: 5.0,
-			},
-			{
-				item: "sgjourney:crystal_base",
-				count: 1.0,
-			},
-		],
-		result: [
-			{
-				item: "sgjourney:advanced_crystal_base",
-				count: 1.0,
-			},
-		],
-		energy: 100000,
-	},
-	{
-		type: "thermal:crystallizer",
-		ingredients: [
-			{
-				fluid: "sgjourney:liquid_naquadah",
-				amount: 100.0,
-			},
-			{
-				item: "sgjourney:crystal_base",
-				count: 1.0,
-			},
-			{
-				item: "minecraft:redstone",
-				count: 32.0,
-			},
-		],
-		result: [
-			{
-				item: "sgjourney:energy_crystal",
-				count: 1.0,
-			},
-		],
-		energy: 50000,
-	},
-	{
-		type: "mekanism:combining",
-		extraInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "sgjourney:crystal_base",
-			},
-		},
-		mainInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "mekanism_extras:supreme_control_circuit",
-			},
-		},
-		output: {
-			item: "sgjourney:control_crystal",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:combining",
-		extraInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "sgjourney:crystal_base",
-			},
-		},
-		mainInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "ae2:cell_component_1k",
-			},
-		},
-		output: {
-			item: "sgjourney:memory_crystal",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:combining",
-		extraInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "sgjourney:crystal_base",
-			},
-		},
-		mainInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "ae2:spatial_cell_component_2",
-			},
-		},
-		output: {
-			item: "sgjourney:materialization_crystal",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:combining",
-		extraInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "sgjourney:crystal_base",
-			},
-		},
-		mainInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "mekanism_extras:alloy_radiance",
-			},
-		},
-		output: {
-			item: "sgjourney:transfer_crystal",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:combining",
-		extraInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "sgjourney:crystal_base",
-			},
-		},
-		mainInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "ae2:charged_certus_quartz_crystal",
-			},
-		},
-		output: {
-			item: "sgjourney:communication_crystal",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:combining",
-		extraInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "sgjourney:control_crystal",
-			},
-		},
-		mainInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "mekanism_extras:supreme_control_circuit",
-			},
-		},
-		output: {
-			item: "sgjourney:large_control_crystal",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:combining",
-		extraInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "sgjourney:control_crystal",
-			},
-		},
-		mainInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "minecraft:redstone",
-			},
-		},
-		output: {
-			item: "sgjourney:stargate_variant_crystal",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:combining",
-		extraInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "sgjourney:advanced_crystal_base",
-			},
-		},
-		mainInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "mekanism_extras:cosmic_control_circuit",
-			},
-		},
-		output: {
-			item: "sgjourney:advanced_control_crystal",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:combining",
-		extraInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "sgjourney:advanced_crystal_base",
-			},
-		},
-		mainInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "sgjourney:memory_crystal",
-			},
-		},
-		output: {
-			item: "sgjourney:advanced_memory_crystal",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:combining",
-		extraInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "sgjourney:advanced_crystal_base",
-			},
-		},
-		mainInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "sgjourney:materialization_crystal",
-			},
-		},
-		output: {
-			item: "sgjourney:advanced_materialization_crystal",
-			count: 1.0,
-		},
-	},
-	{
-		type: "thermal:crystallizer",
-		ingredients: [
-			{
-				fluid: "sgjourney:heavy_liquid_naquadah",
-				amount: 20.0,
-			},
-			{
-				item: "sgjourney:advanced_crystal_base",
-				count: 1.0,
-			},
-			{
-				item: "sgjourney:energy_crystal",
-				count: 2.0,
-			},
-		],
-		result: [
-			{
-				item: "sgjourney:advanced_energy_crystal",
-				count: 1.0,
-			},
-		],
-		energy: 100000,
-	},
-	{
-		type: "mekanism:combining",
-		extraInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "sgjourney:advanced_crystal_base",
-			},
-		},
-		mainInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "mekanism_extras:alloy_radiance",
-			},
-		},
-		output: {
-			item: "sgjourney:advanced_transfer_crystal",
-			count: 1.0,
-		},
-	},
-	{
-		type: "mekanism:combining",
-		extraInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "sgjourney:advanced_crystal_base",
-			},
-		},
-		mainInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "ae2:charged_staff",
-			},
-		},
-		output: {
-			item: "sgjourney:advanced_communication_crystal",
-			count: 1.0,
-		},
-	},
-	{
-		type: "minecraft:crafting_shaped",
-		category: "misc",
-		key: {
-			O: {
-				item: "sgjourney:materialization_crystal",
-				count: 1.0,
-			},
-			B: {
-				item: "hostilenetworks:end_prediction",
-				count: 1.0,
-			},
-			A: {
-				item: "kubejs:sky_prediction",
-				count: 1.0,
-			},
-		},
-		pattern: [
-			"BAB",
-			"AOB",
-			"ABA",
-		],
-		result: {
-			item: "sgjourney:stargate_upgrade_crystal",
-			count: 1.0,
-			nbt: {
-				Type: "sgjourney:pegasus_stargate",
-			},
-		},
-		show_notification: true,
-	},
-	{
-		type: "minecraft:crafting_shaped",
-		category: "misc",
-		key: {
-			O: {
-				item: "sgjourney:materialization_crystal",
-				count: 1.0,
-			},
-			B: {
-				item: "hostilenetworks:overworld_prediction",
-				count: 1.0,
-			},
-			A: {
-				item: "kubejs:sky_prediction",
-				count: 1.0,
-			},
-		},
-		pattern: [
-			"BAB",
-			"AOB",
-			"ABA",
-		],
-		result: {
-			item: "sgjourney:stargate_upgrade_crystal",
-			count: 1.0,
-			nbt: {
-				Type: "sgjourney:milky_way_stargate",
-			},
-		},
-		show_notification: true,
-	},
-	{
-		type: "minecraft:crafting_shaped",
-		category: "misc",
-		key: {
-			O: {
-				item: "sgjourney:materialization_crystal",
-				count: 1.0,
-			},
-			B: {
-				item: "kubejs:sky_prediction",
-				count: 1.0,
-			},
-			C: {
-				item: "hostilenetworks:overworld_prediction",
-				count: 1.0,
-			},
-			A: {
-				item: "kubejs:sky_prediction",
-				count: 1.0,
-			},
-		},
-		pattern: [
-			"BCA",
-			"BOC",
-			"ABC",
-		],
-		result: {
-			item: "sgjourney:stargate_upgrade_crystal",
-			count: 1.0,
-			nbt: {
-				Type: "sgjourney:tollan_stargate",
-			},
-		},
-		show_notification: true,
-	},
-	{
-		type: "minecraft:crafting_shaped",
-		category: "misc",
-		key: {
-			O: {
-				item: "sgjourney:materialization_crystal",
-				count: 1.0,
-			},
-			A: {
-				item: "kubejs:sky_prediction",
-				count: 1.0,
-			},
-		},
-		pattern: [
-			"AAA",
-			"AOA",
-			"AAA",
-		],
-		result: {
-			item: "sgjourney:stargate_upgrade_crystal",
-			count: 1.0,
-			nbt: {
-				Type: "sgjourney:universe_stargate",
-			},
-		},
-		show_notification: true,
-	},
-	{
-		type: "minecraft:crafting_shaped",
-		category: "misc",
-		key: {
-			O: {
-				item: "sgjourney:stargate_variant_crystal",
-				count: 1.0,
-			},
-			B: {
-				item: "hostilenetworks:overworld_prediction",
-				count: 1.0,
-			},
-			A: {
-				item: "kubejs:sky_prediction",
-				count: 1.0,
-			},
-		},
-		pattern: [
-			"BAB",
-			"AOB",
-			"ABA",
-		],
-		result: {
-			item: "sgjourney:stargate_variant_crystal",
-			count: 1.0,
-			nbt: {
-				Variant: "sgjourney:classic_milky_way",
-			},
-		},
-		show_notification: true,
-	},
-	{
-		type: "minecraft:crafting_shaped",
-		category: "misc",
-		key: {
-			O: {
-				item: "sgjourney:stargate_variant_crystal",
-				count: 1.0,
-			},
-			A: {
-				item: "hostilenetworks:overworld_prediction",
-				count: 1.0,
-			},
-		},
-		pattern: [
-			"AAA",
-			"AOA",
-			"AAA",
-		],
-		result: {
-			item: "sgjourney:stargate_variant_crystal",
-			count: 1.0,
-			nbt: {
-				Variant: "sgjourney:milky_way_movie",
-			},
-		},
-		show_notification: true,
-	},
-	{
-		type: "minecraft:crafting_shaped",
-		category: "misc",
-		key: {
-			O: {
-				item: "sgjourney:stargate_variant_crystal",
-				count: 1.0,
-			},
-			A: {
-				item: "hostilenetworks:end_prediction",
-				count: 1.0,
-			},
-		},
-		pattern: [
-			"AAA",
-			"AOA",
-			"AAA",
-		],
-		result: {
-			item: "sgjourney:stargate_variant_crystal",
-			count: 1.0,
-			nbt: {
-				Variant: "sgjourney:milky_way_promo",
-			},
-		},
-		show_notification: true,
-	},
-	{
-		type: "minecraft:crafting_shaped",
-		category: "misc",
-		key: {
-			O: {
-				item: "sgjourney:stargate_variant_crystal",
-				count: 1.0,
-			},
-			B: {
-				item: "hostilenetworks:overworld_prediction",
-				count: 1.0,
-			},
-			A: {
-				item: "hostilenetworks:end_prediction",
-				count: 1.0,
-			},
-		},
-		pattern: [
-			"BAB",
-			"AOB",
-			"ABA",
-		],
-		result: {
-			item: "sgjourney:stargate_variant_crystal",
-			count: 1.0,
-			nbt: {
-				Variant: "sgjourney:milky_way_sg-1",
-			},
-		},
-		show_notification: true,
-	},
-	{
-		type: "minecraft:crafting_shaped",
-		category: "misc",
-		key: {
-			O: {
-				item: "sgjourney:stargate_variant_crystal",
-				count: 1.0,
-			},
-			B: {
-				item: "hostilenetworks:overworld_prediction",
-				count: 1.0,
-			},
-			C: {
-				item: "kubejs:sky_prediction",
-				count: 1.0,
-			},
-			D: {
-				item: "hostilenetworks:overworld_prediction",
-				count: 1.0,
-			},
-			A: {
-				item: "hostilenetworks:end_prediction",
-				count: 1.0,
-			},
-		},
-		pattern: [
-			"BCD",
-			"AOB",
-			"CDA",
-		],
-		result: {
-			item: "sgjourney:stargate_variant_crystal",
-			count: 1.0,
-			nbt: {
-				Variant: "sgjourney:pegasus_atlantis",
-			},
-		},
-		show_notification: true,
 	},
 	{
 		type: "biomancy:bio_forging",

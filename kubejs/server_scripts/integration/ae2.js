@@ -41,6 +41,7 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.remove({id: 'appliedpneumatics:assembly/matter_ball_to_singularity'})
     event.remove({id: 'megacells:transform/sky_steel_ingot'})
     event.remove({id: 'ae2:network/blocks/crystal_processing_charger'})
     event.shaped(

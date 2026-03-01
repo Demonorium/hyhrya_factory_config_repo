@@ -1061,8 +1061,8 @@
 			]
 			id: "0C4BC778C0FBCB2C"
 			tasks: [{
-				id: "0925498270C5832A"
-				item: "mekanism:yellow_cake_uranium"
+				id: "0D3867D1998C2F32"
+				item: "chemlib:uranium_oxide_dust"
 				type: "item"
 			}]
 			x: 3.0d

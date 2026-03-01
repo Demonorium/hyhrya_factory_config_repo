@@ -91901,4 +91901,122 @@ const MACHINERY_RECIPES = [
 		source_slurry: null,
 		result_slurry: null,
 	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 120,
+		energy: 5000,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "sgjourney:unity_shard",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "sgjourney:unity_shard",
+				count: 1.0,
+			},
+			{
+				item: "sgjourney:unity_shard",
+				count: 1.0,
+				chance: 0.7,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:silicon",
+				amount: 100,
+			},
+			{
+				fluid: "kubejs:sulfur",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "kubejs:titanium",
+				amount: 100,
+			},
+			{
+				fluid: "mffs:fortron_fluid",
+				amount: 1000,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:compressed_air",
+				amount: 300,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 240,
+		energy: 5000,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "sgjourney:unity_shard",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "sgjourney:unity_shard",
+				count: 2.0,
+			},
+			{
+				item: "sgjourney:unity_shard",
+				count: 2.0,
+				chance: 0.7,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "kubejs:cesium",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "kubejs:titanium",
+				amount: 500,
+			},
+			{
+				fluid: "mffs:fortron_fluid",
+				amount: 1000,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:compressed_air",
+				amount: 300,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
 ]

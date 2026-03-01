@@ -134,7 +134,7 @@ ServerEvents.recipes(event => {
         {
             A: Item.of('mekanism_extras:alloy_thermonuclear'),
             B: Item.of('bfr:fusion_reactor_frame'),
-            C: Item.of('ad_astra:ostrum_block'),
+            C: Item.of(MATERIALS.NAQUADAH.block),
             D: Item.of('thermalendergy:melodium_block'),
             E: Item.of(MATERIALS.PRASEODYMIUM.gear)
         }
