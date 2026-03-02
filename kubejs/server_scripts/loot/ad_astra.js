@@ -38,4 +38,16 @@ LootJS.modifiers((event) => {
         .addLoot(LootEntry.of("ad_astra:glacian_fur").applyLootingBonus([0, 2]))
         .addLoot(LootEntry.of("minecraft:mutton").applyLootingBonus([1, 3]))
 
+    event.addBlockLootModifier("thermal_and_space:venus_ruby_ore")
+        .addAlternativesLoot(LootEntry.of("thermal_and_space:venus_ruby_ore").when((c) =>
+        c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+    ), LootEntry.of("thermal:ruby")
+        .applyOreBonus("minecraft:fortune"));
+
+    event.addBlockLootModifier("thermal_and_space:glacio_sapphire_ore")
+        .addAlternativesLoot(LootEntry.of("thermal_and_space:glacio_sapphire_ore").when((c) =>
+        c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+    ), LootEntry.of("thermal:sapphire_ore")
+        .applyOreBonus("minecraft:fortune"));
+
 })

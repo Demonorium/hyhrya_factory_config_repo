@@ -399,3 +399,11 @@ ServerEvents.tags("item", event => {
   event.removeAll('forge:sawdust')
   event.add('forge:sawdust', 'mekanism:sawdust')
 })
+
+MBDMachineEvents.onRecipeWorking("kubejs:vent", event => {
+  const machine = event.getEvent().getMachine();
+  const gasTrait = machine.getTraitByName("gas")
+  gasTrait.storages.forEach(storage => {
+    storage.stored = null;
+  })
+});
