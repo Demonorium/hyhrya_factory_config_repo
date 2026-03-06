@@ -300,6 +300,39 @@ ServerEvents.recipes(event => {
     }
   )
 
+  event.shaped(
+    Item.of("kubejs:unity_incubator"),
+    [
+      "AAA",
+      "BCB",
+      "DED",
+    ],
+    {
+      A: Item.of('mekanismgenerators:reactor_glass'),
+      B: Item.of("mekanism_weaponry:magnetic_circuit"),
+      C: Item.of('sgjourney:budding_unity'),
+      D: Item.of(MATERIALS.NAQUADAH.gear),
+      E: Item.of("mekanism_extras:supreme_control_circuit"),
+    }
+  )
+
+  event.shaped(
+    Item.of("kubejs:fortron_converter"),
+    [
+      "ADA",
+      "BCB",
+      "AEA",
+    ],
+    {
+      A: Item.of('sgjourney:naquadah_alloy'),
+      B: Item.of("mekanismgenerators:reactor_glass"),
+      C: Item.of('sgjourney:naquadah_generator_core'),
+      D: Item.of(MATERIALS.ACTINIUM.gear),
+      E: Item.of("mekanism_extras:supreme_control_circuit"),
+    }
+  )
+
+  
   console.log("meka recipes loading...")
   event.remove({ id: 'mekanism:enriching/enriched/carbon' })
   event.custom({

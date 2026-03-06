@@ -12,9 +12,13 @@
 			dependencies: [
 				"70E5B972F195C885"
 				"47C1AFD9A32CBD7A"
+				"2317A8F2D3FC606B"
 			]
 			hide_until_deps_visible: true
 			id: "07D13F1DD12D4DDC"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Глава 4. Часть вторая"
 			tasks: [{
 				id: "39641DE41BE3E268"
 				item: "chemlib:yttrium_barium_copper_oxide_dust"
@@ -45,9 +49,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 2.0d
-			subtitle: "Глава 4. Часть первая"
+			shape: "circle"
+			size: 1.5d
 			tasks: [{
 				id: "01D1BDD62083F1EF"
 				item: "moremekanismprocessing:dust_aluminum"
@@ -93,7 +96,7 @@
 		{
 			dependencies: [
 				"0EA6102293564A51"
-				"0C4BC778C0FBCB2C"
+				"44FCF6EA7E5DF03D"
 			]
 			id: "55B415F4EAD3CF06"
 			tasks: [{
@@ -101,8 +104,8 @@
 				item: "chemlib:yttrium_hydroxide_dust"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -7.5d
+			x: 0.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["74341A669DBB5CCE"]
@@ -398,7 +401,8 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["6568506BD2B1F16F"]
+			dependencies: ["40C1930754F57115"]
+			hide_dependency_lines: true
 			icon: "mekanism:hazmat_mask"
 			id: "7A36A93CB4952816"
 			tasks: [{
@@ -406,8 +410,8 @@
 				item: "mekanism:hazmat_mask"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -6.0d
+			x: 1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["11189DC530BFF52C"]
@@ -622,17 +626,6 @@
 			y: 6.75d
 		}
 		{
-			dependencies: ["239F1743BC842ABE"]
-			id: "6568506BD2B1F16F"
-			tasks: [{
-				id: "4711E7FC273845A0"
-				item: "mekanism:raw_lead"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -4.5d
-		}
-		{
 			dependencies: ["318D11881F2EA09D"]
 			hide_until_deps_complete: true
 			id: "7862397CCA28CD6A"
@@ -836,8 +829,8 @@
 				item: "mekanism:fluorite_gem"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.5d
+			x: -2.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["601E6009AE7C411B"]
@@ -1055,20 +1048,6 @@
 			y: -14.0d
 		}
 		{
-			dependencies: [
-				"026406E57858AB34"
-				"2317A8F2D3FC606B"
-			]
-			id: "0C4BC778C0FBCB2C"
-			tasks: [{
-				id: "0D3867D1998C2F32"
-				item: "chemlib:uranium_oxide_dust"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -7.5d
-		}
-		{
 			dependencies: ["506A2ECDFB1ACE1E"]
 			id: "412FFFFA9AB6E363"
 			rewards: [
@@ -1163,94 +1142,6 @@
 			}]
 			x: -14.5d
 			y: 7.0d
-		}
-		{
-			dependencies: ["0BE93773B72111B9"]
-			description: [
-				"Найдите пирамиды древних и обыщите их внутренние помещения. Найдите Идол."
-				""
-				"Стол археолога является точкой интереса для жителя у которого можно купить карту потеряных звёздных врат."
-			]
-			id: "20FDAA198EC9425A"
-			rewards: [{
-				count: 8
-				id: "67267EC9CA4C91A6"
-				item: "minecraft:gold_block"
-				type: "item"
-			}]
-			subtitle: "В поисках золота"
-			tasks: [{
-				id: "43C85C6A325FF6CE"
-				item: "sgjourney:archeology_table"
-				type: "item"
-			}]
-			x: -27.0d
-			y: 16.5d
-		}
-		{
-			dependencies: ["20FDAA198EC9425A"]
-			description: ["Добудьте звёздные врата в захоронении"]
-			icon: {
-				Count: 1
-				id: "sgjourney:milky_way_dhd"
-				tag: {
-					BlockEntityTag: {
-						generation_step: 2b
-						id: "sgjourney:milky_way_dhd"
-					}
-				}
-			}
-			id: "63EE7533B7D31775"
-			rewards: [{
-				id: "00020C593D07EE8D"
-				item: {
-					Count: 1
-					id: "mekanism:advanced_energy_cube"
-					tag: {
-						mekData: {
-							EnergyContainers: [{
-								Container: 0b
-								stored: "16000000"
-							}]
-						}
-					}
-				}
-				type: "item"
-			}]
-			size: 1.5d
-			subtitle: "Межзвёздные прыжки"
-			tasks: [
-				{
-					id: "57418B85421FCA80"
-					item: {
-						Count: 1
-						id: "sgjourney:milky_way_stargate"
-						tag: {
-							BlockEntityTag: {
-								generation_step: 2b
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "14A7478F2A1A0084"
-					item: {
-						Count: 1
-						id: "sgjourney:milky_way_dhd"
-						tag: {
-							BlockEntityTag: {
-								generation_step: 2b
-								id: "sgjourney:milky_way_dhd"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Врата млечного пути"
-			x: -21.75d
-			y: 16.5d
 		}
 		{
 			dependencies: ["00C310358F452A99"]
@@ -1356,7 +1247,7 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1862C9D367926544"]
@@ -1405,7 +1296,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -1599,34 +1490,6 @@
 		}
 		{
 			dependencies: [
-				"07D13F1DD12D4DDC"
-				"3A7A131158AEE4E3"
-			]
-			id: "77961D154AED3D18"
-			shape: "diamond"
-			size: 2.0d
-			subtitle: "Глава 4. Часть вторая"
-			tasks: [{
-				id: "53B9F0B34A1143AE"
-				item: "mekanism_extras:alloy_radiance"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -10.5d
-		}
-		{
-			dependencies: ["0C4BC778C0FBCB2C"]
-			id: "3A7A131158AEE4E3"
-			tasks: [{
-				id: "6B99C7F2912843D0"
-				item: "mekanism_extras:dust_radiance"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -9.0d
-		}
-		{
-			dependencies: [
 				"7C7BBFBBC60461A7"
 				"4A3B9A53AF1E4376"
 				"39320735EDA89A34"
@@ -1810,7 +1673,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6B9E1548A3C2D82A"]
 			dependency_requirement: "one_completed"
 			id: "44FCF6EA7E5DF03D"
 			size: 1.5d
@@ -1819,103 +1681,22 @@
 				item: "chemlib:strontium_ingot"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -8.25d
-		}
-		{
-			dependencies: ["63EE7533B7D31775"]
-			id: "064AC01B6A8EA987"
-			rewards: [{
-				id: "26E9F888E3F2105F"
-				item: {
-					Count: 1
-					id: "mekanism:advanced_energy_cube"
-					tag: {
-						mekData: {
-							EnergyContainers: [{
-								Container: 0b
-								stored: "16000000"
-							}]
-						}
-					}
-				}
-				type: "item"
-			}]
-			size: 1.5d
-			tasks: [{
-				dimension: "sgjourney:abydos"
-				icon: "sgjourney:golden_idol"
-				id: "01B59F45098B6796"
-				title: "Посетите Абидас"
-				type: "dimension"
-			}]
-			x: 3.0d
-			y: 16.5d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
-				"064AC01B6A8EA987"
-				"40C1930754F57115"
-				"3974FF1CB397EC6E"
+				"7A36A93CB4952816"
 				"0E29AFC234E69DAC"
 			]
-			hide_until_deps_visible: true
-			id: "239F1743BC842ABE"
-			rewards: [
-				{
-					id: "72071077F37152BD"
-					item: {
-						Count: 1
-						id: "mekanism:advanced_energy_cube"
-						tag: {
-							mekData: {
-								EnergyContainers: [{
-									Container: 0b
-									stored: "16000000"
-								}]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "29E34C25CAFFEF94"
-					item: "ad_astra:gravity_normalizer"
-					type: "item"
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				dimension: "sgjourney:cavum_tenebrae"
-				icon: "ae2:singularity"
-				id: "25E529D873A56DDA"
-				type: "dimension"
-			}]
-			title: "Посетите Каврум"
-			x: 3.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["239F1743BC842ABE"]
-			id: "026406E57858AB34"
-			tasks: [{
-				id: "542ADFC8FCB544E0"
-				item: "mekanism:deepslate_uranium_ore"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["7A36A93CB4952816"]
 			id: "2317A8F2D3FC606B"
 			tasks: [{
 				id: "126679BE8EC99CDC"
 				item: "pneumaticcraft:radiation_shielding_upgrade"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -7.5d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1862C9D367926544"]
@@ -2293,13 +2074,15 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6E813EA8755FE2C1"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "409BB2FE85419FE5"
 				item: "mekanism:dust_lithium"
 				type: "item"
 			}]
 			x: -31.5d
-			y: 13.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["6E813EA8755FE2C1"]
@@ -2339,7 +2122,7 @@
 				}
 			]
 			x: -31.5d
-			y: 16.5d
+			y: 17.25d
 		}
 		{
 			dependencies: [
@@ -2668,17 +2451,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["601E6009AE7C411B"]
-			id: "6B9E1548A3C2D82A"
-			tasks: [{
-				id: "118636D784C3DBA4"
-				item: "minecraft:echo_shard"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -12.5d
-		}
-		{
 			dependencies: ["18E437A6007A7821"]
 			id: "25F7EAEACC8AA072"
 			rewards: [
@@ -2757,17 +2529,6 @@
 			}]
 			x: -3.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["6B9E1548A3C2D82A"]
-			id: "3976A5722990BCC5"
-			tasks: [{
-				id: "65452ED50C458BCE"
-				item: "chemlib:germanium_dust"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -12.5d
 		}
 		{
 			dependencies: ["6715E28C7A6DCD4E"]
@@ -3208,30 +2969,458 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["064AC01B6A8EA987"]
-			id: "0FEF730BCF34BD64"
-			rewards: [{
-				id: "7E74CE69BB1C183C"
+			dependencies: ["67342BFD3A7C5724"]
+			hide_until_deps_complete: true
+			id: "652F63FD0FE536BD"
+			tasks: [{
+				id: "75B1F33C9EEE611A"
+				item: "moremekanismprocessing:aluminum_ingot"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["652F63FD0FE536BD"]
+			id: "04691C5532996D17"
+			tasks: [{
+				id: "2B12E5C4C2F28F9D"
+				item: "superbwarfare:vehicle_assembling_table"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["04691C5532996D17"]
+			id: "7293E286B66BDA36"
+			tasks: [{
+				id: "1204EA4C089AF65A"
+				item: "superbwarfare:charging_station"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -2.5178571428571246d
+		}
+		{
+			dependencies: ["7293E286B66BDA36"]
+			id: "141FC371FC370637"
+			tasks: [{
+				id: "4F42C33F939A04CA"
 				item: {
 					Count: 1
-					id: "minecraft:flint_and_steel"
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:wheel_chair"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Инвалидное кресло"
+			x: -21.0d
+			y: -2.5178571428571246d
+		}
+		{
+			dependencies: ["7293E286B66BDA36"]
+			id: "7B51B29C04FF4691"
+			tasks: [{
+				id: "6F815940D498AA98"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:type_63"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Град из ракет"
+			x: -19.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04691C5532996D17"]
+			id: "4D801ADCBABFEF04"
+			tasks: [{
+				id: "7FCCD33A52391722"
+				item: {
+					Count: 1
+					id: "superbwarfare:crowbar"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			shape: "gear"
-			subtitle: "Возможно за стенами есть что-то интересное"
+			x: -23.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["652F63FD0FE536BD"]
+			id: "2C737A50E47A28FB"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Глава 4. Оружие"
 			tasks: [{
-				icon: "sgjourney:sandstone_cartouche"
-				id: "4E89AB502B38300F"
-				structure: "sgjourney:cartouche/abydos_cartouche"
-				type: "structure"
+				id: "00E994DA8C4608B1"
+				item: "superbwarfare:rare_material_pack"
+				type: "item"
 			}]
-			title: "Найдите картограф"
-			x: 4.5d
-			y: 16.5d
+			x: -19.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "3A60A41CE39BE4E8"
+			tasks: [{
+				id: "334B0B0BA067CF9B"
+				item: {
+					Count: 1
+					id: "superbwarfare:glock_18"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "6A911D0485C96E29"
+			tasks: [{
+				id: "67BE4D0346A2E51A"
+				item: {
+					Count: 1
+					id: "superbwarfare:m_79"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "3102F7AD205346C4"
+			tasks: [{
+				id: "434874B06C5DDE8E"
+				item: {
+					Count: 1
+					id: "superbwarfare:rpg"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "3DFE33B9C17BA129"
+			tasks: [{
+				id: "44EE63C1CBDCEED9"
+				item: {
+					Count: 1
+					id: "superbwarfare:qbz_95"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "5ABFCA884C3D250A"
+			tasks: [{
+				id: "1E89B9FEF464E05B"
+				item: {
+					Count: 1
+					id: "superbwarfare:hk_416"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "3048E6D2346E44B3"
+			tasks: [{
+				id: "5C2C25E15786ACC5"
+				item: {
+					Count: 1
+					id: "superbwarfare:ak_47"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "56BC96558666DF5F"
+			tasks: [{
+				id: "05B1FB42DA41A1DD"
+				item: {
+					Count: 1
+					id: "superbwarfare:mosin_nagant"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "5D6563A06F426E2F"
+			tasks: [{
+				id: "29E254CDBF5EFED3"
+				item: {
+					Count: 1
+					id: "superbwarfare:sks"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "3AC6E40D010D9718"
+			tasks: [{
+				id: "27DF5507B27F33E1"
+				item: {
+					Count: 1
+					id: "superbwarfare:k_98"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "17ACBEA4E7F49C71"
+			tasks: [{
+				id: "7117FC51E9A63830"
+				item: {
+					Count: 1
+					id: "superbwarfare:m_4"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -18.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "2809729DB6875940"
+			tasks: [{
+				id: "41CC7121ABE71770"
+				item: {
+					Count: 1
+					id: "superbwarfare:mp_5"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: {
+							Ammo: { }
+							Damage: { }
+							Functional: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "6ABA8F46F93E7DCA"
+			tasks: [{
+				id: "0B113B67D880CBBD"
+				item: {
+					Count: 1
+					id: "superbwarfare:m_2_hb"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: {
+							Ammo: { }
+							Damage: { }
+							Functional: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"7293E286B66BDA36"
+				"6ABA8F46F93E7DCA"
+			]
+			id: "475CBE7A66B63AFB"
+			tasks: [{
+				id: "4C4DA1C69AB68EB0"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:speedboat"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Катер"
+			x: -17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "616C1F6C964BA66D"
+			tasks: [{
+				id: "2FEE2A060F5EFE83"
+				item: {
+					Count: 1
+					id: "superbwarfare:m_870"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "488827C8B0D760B6"
+			shape: "gear"
+			tasks: [{
+				id: "44E1DD3E861F8E1E"
+				item: {
+					Count: 1
+					id: "superbwarfare:ak_12"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2C737A50E47A28FB"]
+			id: "10ADBB3F58BA3F4F"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Глава 4. Транспорт"
+			tasks: [{
+				id: "5B5B4685A9FA5B85"
+				item: "superbwarfare:light_armament_module"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"10ADBB3F58BA3F4F"
+				"7293E286B66BDA36"
+			]
+			id: "0A07DE1547FC14A0"
+			tasks: [{
+				id: "5DFAC39742099F7B"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:lav_150"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Командная БМП"
+			x: -14.5d
+			y: -2.5d
+		}
+		{
+			id: "28F660F38DC02E0E"
+			tasks: [{
+				id: "79B542CC8D7E35B8"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
 		}
 	]
 	title: "Главы 3. Продвинутая химия"

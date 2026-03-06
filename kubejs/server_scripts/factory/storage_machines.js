@@ -198,7 +198,7 @@ ServerEvents.recipes(event => {
                 "item": "ae2:drive"
             },
             "C": {
-                "item": "mekanism_extras:supreme_control_circuit"
+                "item": "sgjourney:control_crystal"
             },
             "G": {
                 "item": "ae2:semi_dark_monitor"

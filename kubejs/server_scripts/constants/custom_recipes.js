@@ -134969,7 +134969,7 @@ const CUSTOM_RECIPES = [
 		mainInput: {
 			amount: 1.0,
 			ingredient: {
-				item: "ae2:charged_staff",
+				item: "ae2:charged_certus_quartz_crystal",
 			},
 		},
 		output: {

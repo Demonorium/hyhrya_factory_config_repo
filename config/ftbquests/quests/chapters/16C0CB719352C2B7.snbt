@@ -16,22 +16,19 @@
 				item: "mekanism_extras:infinite_control_circuit"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 2.5d
+			x: 18.5d
+			y: 4.5d
 		}
 		{
-			dependencies: [
-				"46E2231251211EBA"
-				"238601DF7A8437E9"
-			]
+			dependencies: ["238601DF7A8437E9"]
 			id: "7C3EC436B88C1892"
 			tasks: [{
 				id: "6A9E14300A6B4A62"
 				item: "mekanism_extras:alloy_spectrum"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 2.5d
+			x: 11.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -41,8 +38,8 @@
 				item: "mekanism:mekasuit_helmet"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 1.0d
+			x: 20.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -52,8 +49,8 @@
 				item: "mekanism:mekasuit_bodyarmor"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 2.0d
+			x: 20.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -63,8 +60,8 @@
 				item: "mekanism:mekasuit_pants"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 3.0d
+			x: 20.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -74,8 +71,8 @@
 				item: "mekanism:mekasuit_boots"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 4.0d
+			x: 20.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -85,8 +82,8 @@
 				item: "mekanism:meka_tool"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 0.5d
+			x: 18.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -96,8 +93,8 @@
 				item: "mekaweapons:mekatana"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 3.5d
+			x: 18.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -107,8 +104,8 @@
 				item: "mekaweapons:mekabow"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 4.5d
+			x: 18.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -130,8 +127,8 @@
 				type: "item"
 			}]
 			title: "Аннигилятор"
-			x: 18.0d
-			y: 4.5d
+			x: 17.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["421F9D094748593B"]
@@ -152,8 +149,8 @@
 				type: "item"
 			}]
 			title: "Призматический танк"
-			x: 16.0d
-			y: 3.5d
+			x: 13.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -161,6 +158,7 @@
 				"421F9D094748593B"
 			]
 			id: "3A2B27C9756299DF"
+			shape: "gear"
 			tasks: [{
 				id: "5C516AB7F4558E6D"
 				item: {
@@ -177,26 +175,27 @@
 				type: "item"
 			}]
 			title: "Сверхтяжёлый танк"
-			x: 17.0d
-			y: 4.5d
+			x: 15.0d
+			y: 6.5d
 		}
 		{
-			dependencies: [
-				"46E2231251211EBA"
-				"1A24E9B8B8EE2CD2"
-			]
+			dependencies: ["1A24E9B8B8EE2CD2"]
 			id: "29A36638B429D5EC"
+			shape: "circle"
+			size: 1.5d
 			tasks: [{
 				id: "25656534721DA598"
 				item: "mekanism_extras:cosmic_control_circuit"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 6.5d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["29A36638B429D5EC"]
+			dependencies: ["59F552E869DB47AA"]
 			id: "2CF46C87A8779899"
+			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					id: "532BE12BC3EB12CD"
@@ -229,7 +228,7 @@
 			]
 			title: "Наквадовый реактор"
 			x: 13.5d
-			y: 6.5d
+			y: -2.25d
 		}
 		{
 			dependencies: [
@@ -254,8 +253,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.0d
-			y: 6.5d
+			x: 10.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["00DE9C83CE353866"]
@@ -273,8 +272,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 5.5d
+			x: 10.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["29A36638B429D5EC"]
@@ -284,7 +283,7 @@
 				item: "superbwarfare:legendary_material_pack"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 11.0d
 			y: 6.5d
 		}
 		{
@@ -310,8 +309,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.0d
-			y: 7.5d
+			x: 11.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["00DE9C83CE353866"]
@@ -329,7 +328,7 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
+			x: 10.0d
 			y: 7.5d
 		}
 		{
@@ -348,8 +347,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.0d
-			y: 6.5d
+			x: 11.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["00DE9C83CE353866"]
@@ -367,8 +366,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 8.5d
+			x: 11.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["00DE9C83CE353866"]
@@ -386,8 +385,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 9.5d
+			x: 12.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["29A36638B429D5EC"]
@@ -397,8 +396,8 @@
 				item: "ballistix:darkmatter"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 4.5d
+			x: 9.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["29A36638B429D5EC"]
@@ -408,33 +407,33 @@
 				item: "ballistix:largeantimatter"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 5.5d
+			x: 8.5d
+			y: 6.5d
 		}
 		{
-			dependencies: ["29A36638B429D5EC"]
+			dependencies: ["59F552E869DB47AA"]
 			id: "4627AC1E2224C37C"
 			tasks: [{
 				id: "70C685889CD1DC62"
 				item: "ae2_mega_things:fluid_disk_housing"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 8.5d
+			x: 12.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["47A3E2D3EDF506D2"]
+			dependencies: ["59F552E869DB47AA"]
 			id: "0FA659A50C5F19F9"
 			tasks: [{
 				id: "18A458926389C99A"
 				item: "ae2_mega_things:mega_fluid_disk_housing"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 10.5d
+			x: 10.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["29A36638B429D5EC"]
+			dependencies: ["59F552E869DB47AA"]
 			id: "21882687630A9769"
 			tasks: [{
 				id: "51BE29A5A30F4E23"
@@ -442,29 +441,29 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 8.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["3543494E3EB8E8EB"]
+			dependencies: ["59F552E869DB47AA"]
 			id: "10A816290232894D"
 			tasks: [{
 				id: "5D3A700535394AC2"
 				item: "ae2_mega_things:mega_chemical_disk_housing"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 10.5d
+			x: 10.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["4D2199CC538DE5DA"]
+			dependencies: ["59F552E869DB47AA"]
 			id: "16C9A1D8C7A8F48E"
 			tasks: [{
 				id: "0293EB4FF2917AA0"
 				item: "ae2_mega_things:mega_item_disk_housing"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 10.5d
+			x: 11.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["09C9917B03B225E0"]
@@ -474,8 +473,8 @@
 				item: "appliedpneumatics:mega_air_cell_shell"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 10.5d
+			x: 7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["09C9917B03B225E0"]
@@ -485,8 +484,8 @@
 				item: "megacells:mega_item_cell_housing"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 9.5d
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["09C9917B03B225E0"]
@@ -496,8 +495,8 @@
 				item: "megacells:mega_chemical_cell_housing"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 9.5d
+			x: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["09C9917B03B225E0"]
@@ -507,8 +506,8 @@
 				item: "megacells:mega_fluid_cell_housing"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 9.5d
+			x: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["29A36638B429D5EC"]
@@ -518,8 +517,8 @@
 				item: "megacells:cell_component_1m"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 9.5d
+			x: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -529,19 +528,20 @@
 				item: "tempad:tempad"
 				type: "item"
 			}]
-			x: 19.0d
-			y: -0.5d
+			x: 18.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["29A36638B429D5EC"]
 			id: "3370C931A1C6EFAD"
+			shape: "gear"
 			tasks: [{
 				id: "1B29BB662633ADD9"
 				item: "ballistix:rejuvination"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 4.5d
+			x: 9.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["29A36638B429D5EC"]
@@ -551,8 +551,8 @@
 				item: "megacells:mega_crafting_unit"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.5d
+			x: 6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["29A36638B429D5EC"]
@@ -562,8 +562,8 @@
 				item: "megacells:mega_interface"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 6.5d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["29A36638B429D5EC"]
@@ -573,8 +573,8 @@
 				item: "megacells:radioactive_cell_component"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 8.5d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["29A36638B429D5EC"]
@@ -584,19 +584,19 @@
 				item: "megacells:mega_energy_cell"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 6.5d
+			x: 9.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["29A36638B429D5EC"]
+			dependencies: ["0B3219B67CE4A226"]
 			id: "2ECF81045B9670B1"
 			tasks: [{
 				id: "4F667879FD38C927"
 				item: "megacells:bulk_item_cell"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 8.5d
+			x: 19.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["29A36638B429D5EC"]
@@ -606,8 +606,8 @@
 				item: "megacells:mega_pattern_provider"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.5d
+			x: 6.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["29A36638B429D5EC"]
@@ -617,8 +617,8 @@
 				item: "megacells:decompression_module"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 7.5d
+			x: 8.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["29A36638B429D5EC"]
@@ -640,7 +640,7 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
+			x: 6.5d
 			y: 5.5d
 		}
 		{
@@ -651,8 +651,8 @@
 				item: "dysonsphere:laser_controller"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.5d
+			x: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["238601DF7A8437E9"]
@@ -662,8 +662,8 @@
 				item: "pncepcb:quantum_finished_pcb"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 2.5d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1A342258150273FD"]
@@ -673,8 +673,8 @@
 				item: "mekaweapons:module_arrowenergy_unit"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 5.5d
+			x: 18.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1A342258150273FD"]
@@ -684,8 +684,8 @@
 				item: "mekaweapons:module_autofire_unit"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 7.5d
+			x: 18.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1A342258150273FD"]
@@ -695,8 +695,8 @@
 				item: "mekaweapons:module_drawspeed_unit"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 8.5d
+			x: 18.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["1A342258150273FD"]
@@ -706,8 +706,8 @@
 				item: "mekaweapons:module_gravitydampener_unit"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 6.5d
+			x: 18.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -720,8 +720,8 @@
 				item: "mekaweapons:module_attackamplification_unit"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 4.0d
+			x: 19.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1C4105768402F2F8"]
@@ -731,8 +731,8 @@
 				item: "ad_astra_giselle_addon:module_acid_rain_proof_unit"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 2.0d
+			x: 22.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["02BDA2BB67A1CBC1"]
@@ -742,8 +742,8 @@
 				item: "ad_astra_giselle_addon:module_gravity_normalizing_unit"
 				type: "item"
 			}]
-			x: 30.5d
-			y: 4.0d
+			x: 30.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2A0CA92DD5805F1D"]
@@ -753,8 +753,8 @@
 				item: "ad_astra_giselle_addon:module_space_breathing_unit"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 1.0d
+			x: 22.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["373A4FDABA572983"]
@@ -764,8 +764,8 @@
 				item: "mekanism:module_energy_unit"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 1.5d
+			x: 16.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -780,8 +780,8 @@
 				item: "mekanism:module_color_modulation_unit"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 0.0d
+			x: 20.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -796,8 +796,8 @@
 				item: "mekanism:module_laser_dissipation_unit"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 5.0d
+			x: 20.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -812,8 +812,8 @@
 				item: "mekanism:module_radiation_shielding_unit"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 6.0d
+			x: 20.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5538F214016C0CAC"]
@@ -823,8 +823,8 @@
 				item: "mekanism:module_attack_amplification_unit"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 0.5d
+			x: 17.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -834,8 +834,8 @@
 				item: "mekanism:modification_station"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 1.5d
+			x: 17.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5538F214016C0CAC"]
@@ -845,8 +845,8 @@
 				item: "mekanism:module_farming_unit"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 0.5d
+			x: 14.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5538F214016C0CAC"]
@@ -856,8 +856,8 @@
 				item: "mekanism:module_shearing_unit"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 0.5d
+			x: 15.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5538F214016C0CAC"]
@@ -867,8 +867,8 @@
 				item: "mekanism:module_silk_touch_unit"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 0.5d
+			x: 16.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5538F214016C0CAC"]
@@ -878,8 +878,8 @@
 				item: "mekanism:module_excavation_escalation_unit"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 0.5d
+			x: 13.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5538F214016C0CAC"]
@@ -889,8 +889,8 @@
 				item: "mekanism:module_fortune_unit"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 0.5d
+			x: 12.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5538F214016C0CAC"]
@@ -900,8 +900,8 @@
 				item: "mekanism:module_vein_mining_unit"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.5d
+			x: 11.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["373A4FDABA572983"]
@@ -911,8 +911,8 @@
 				item: "mekanism:module_teleportation_unit"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 1.5d
+			x: 15.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2A0CA92DD5805F1D"]
@@ -922,8 +922,8 @@
 				item: "mekanism:module_electrolytic_breathing_unit"
 				type: "item"
 			}]
-			x: 23.5d
-			y: 1.0d
+			x: 23.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2A0CA92DD5805F1D"]
@@ -933,8 +933,8 @@
 				item: "mekanism:module_inhalation_purification_unit"
 				type: "item"
 			}]
-			x: 24.5d
-			y: 1.0d
+			x: 24.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2A0CA92DD5805F1D"]
@@ -944,8 +944,8 @@
 				item: "mekanism:module_vision_enhancement_unit"
 				type: "item"
 			}]
-			x: 25.5d
-			y: 1.0d
+			x: 25.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2A0CA92DD5805F1D"]
@@ -955,8 +955,8 @@
 				item: "mekanism:module_nutritional_injection_unit"
 				type: "item"
 			}]
-			x: 26.5d
-			y: 1.0d
+			x: 26.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1C4105768402F2F8"]
@@ -966,8 +966,8 @@
 				item: "mekanism:module_dosimeter_unit"
 				type: "item"
 			}]
-			x: 23.5d
-			y: 2.0d
+			x: 23.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1C4105768402F2F8"]
@@ -977,8 +977,8 @@
 				item: "mekanism:module_geiger_unit"
 				type: "item"
 			}]
-			x: 24.5d
-			y: 2.0d
+			x: 24.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1C4105768402F2F8"]
@@ -988,8 +988,8 @@
 				item: "mekanism:module_jetpack_unit"
 				type: "item"
 			}]
-			x: 28.5d
-			y: 2.0d
+			x: 28.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1C4105768402F2F8"]
@@ -999,8 +999,8 @@
 				item: "mekanism:module_charge_distribution_unit"
 				type: "item"
 			}]
-			x: 25.5d
-			y: 2.0d
+			x: 25.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1013,8 +1013,8 @@
 				item: "mekanism:module_gravitational_modulating_unit"
 				type: "item"
 			}]
-			x: 30.5d
-			y: 2.0d
+			x: 30.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1C4105768402F2F8"]
@@ -1024,8 +1024,8 @@
 				item: "mekanism:module_elytra_unit"
 				type: "item"
 			}]
-			x: 29.5d
-			y: 2.0d
+			x: 29.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["75AD9125524C7951"]
@@ -1035,8 +1035,8 @@
 				item: "mekanism:module_gyroscopic_stabilization_unit"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 3.0d
+			x: 22.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["75AD9125524C7951"]
@@ -1046,8 +1046,8 @@
 				item: "mekanism:module_hydrostatic_repulsor_unit"
 				type: "item"
 			}]
-			x: 23.5d
-			y: 3.0d
+			x: 23.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["75AD9125524C7951"]
@@ -1057,8 +1057,8 @@
 				item: "mekanism:module_locomotive_boosting_unit"
 				type: "item"
 			}]
-			x: 24.5d
-			y: 3.0d
+			x: 24.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["75AD9125524C7951"]
@@ -1068,8 +1068,8 @@
 				item: "mekanism:module_motorized_servo_unit"
 				type: "item"
 			}]
-			x: 25.5d
-			y: 3.0d
+			x: 25.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["02BDA2BB67A1CBC1"]
@@ -1079,8 +1079,8 @@
 				item: "mekanism:module_hydraulic_propulsion_unit"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 4.0d
+			x: 22.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["02BDA2BB67A1CBC1"]
@@ -1090,8 +1090,8 @@
 				item: "mekanism:module_magnetic_attraction_unit"
 				type: "item"
 			}]
-			x: 23.5d
-			y: 4.0d
+			x: 23.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["02BDA2BB67A1CBC1"]
@@ -1101,8 +1101,8 @@
 				item: "mekanism:module_frost_walker_unit"
 				type: "item"
 			}]
-			x: 24.5d
-			y: 4.0d
+			x: 24.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["54DF16E7F09F9734"]
@@ -1112,8 +1112,8 @@
 				item: "gravitationalmodulatingunittweaks:module_gravitational_modulating_additional_unit"
 				type: "item"
 			}]
-			x: 31.5d
-			y: 2.0d
+			x: 31.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -1133,8 +1133,8 @@
 				type: "item"
 			}]
 			title: "Волновая башня"
-			x: 20.0d
-			y: 0.5d
+			x: 19.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["00DE9C83CE353866"]
@@ -1144,8 +1144,8 @@
 				item: "superbwarfare:heavy_armament_module"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 4.5d
+			x: 12.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -1163,8 +1163,8 @@
 					type: "item"
 				}
 			]
-			x: 19.0d
-			y: -1.5d
+			x: 18.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -1174,7 +1174,877 @@
 				item: "pipez:infinity_upgrade"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 17.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1120504C499B875F"]
+			id: "3D7AD04288204175"
+			rewards: [{
+				id: "6DD5D2858B921D58"
+				item: "mekanism:qio_dashboard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B790A6183ADB8D1"
+				item: "mekanism:qio_drive_array"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3D7AD04288204175"]
+			id: "2AA348D765AE35F9"
+			shape: "gear"
+			tasks: [{
+				id: "480712A4069FB22D"
+				item: "mekanism:portable_qio_dashboard"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D7AD04288204175"]
+			id: "5E7337891BE965B8"
+			rewards: [{
+				id: "588E19F2FCCB1A8F"
+				item: "mekanism:qio_importer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F12F196BDBDE4B4"
+				item: "mekanism:qio_exporter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3D7AD04288204175"]
+			id: "15E7A310DB337E93"
+			tasks: [{
+				id: "501D993A6D142AAF"
+				item: "mekanism:qio_redstone_adapter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["650100D124A3A280"]
+			id: "533CAD14FAD50B37"
+			rewards: [
+				{
+					count: 16
+					id: "65EAACD3879B1F90"
+					item: "ae2:spatial_pylon"
+					type: "item"
+				}
+				{
+					id: "2827EDBE4494C494"
+					item: "ae2:spatial_cell_component_2"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "5E7E357EC4A1B3A4"
+					item: "ae2:spatial_io_port"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "291A553C02A3A43A"
+					item: { Count: 12, id: "ae2:spatial_pylon" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D7AD04288204175"]
+			id: "4C3296C1DF558B48"
+			tasks: [{
+				id: "1506C7D28FF58156"
+				item: "mekanism:qio_drive_base"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["533CAD14FAD50B37"]
+			id: "009FA7EA50540157"
+			rewards: [{
+				count: 16
+				id: "7CEE216C8A99A35F"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			subtitle: "Акт творения"
+			tasks: [{
+				dimension: "ae2:spatial_storage"
+				id: "602DBD15493C40CD"
+				title: "Создайте мир"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0E11F280BC81485B"
+				"49642CB3101B5400"
+			]
+			id: "2B810B12311B5CC2"
+			size: 1.5d
+			subtitle: "Путь ко всеми мирам"
+			tasks: [
+				{
+					id: "654E7B7F291038EE"
+					item: "sgjourney:classic_stargate_base_block"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "5E166FC198A932BD"
+					item: { Count: 7, id: "sgjourney:classic_stargate_chevron_block" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "171A0F0056F1DE5B"
+					item: { Count: 14, id: "sgjourney:classic_stargate_ring_block" }
+					type: "item"
+				}
+			]
+			title: "Строительство Звёздных врат"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B810B12311B5CC2"]
+			id: "1FBDCF02B49870DF"
+			subtitle: "Консоль управления"
+			tasks: [{
+				id: "21CF6AAB73801605"
+				item: "sgjourney:classic_dhd"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2B810B12311B5CC2"]
+			id: "1CD2EEF82597FA1A"
+			tasks: [{
+				id: "5457A09A0BA01183"
+				item: {
+					Count: 1
+					id: "sgjourney:milky_way_dhd"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0L
+							Inventory: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 0
+										id: "sgjourney:large_control_crystal"
+									}
+									{
+										Count: 1b
+										Slot: 1
+										id: "sgjourney:energy_crystal"
+										tag: {
+											Energy: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 2
+										id: "sgjourney:communication_crystal"
+										tag: {
+											Frequency: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 3
+										id: "sgjourney:energy_crystal"
+										tag: {
+											Energy: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 5
+										id: "sgjourney:energy_crystal"
+										tag: {
+											Energy: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 7
+										id: "sgjourney:transfer_crystal"
+										tag: {
+											TransferLimit: 150000L
+										}
+									}
+								]
+								Size: 9
+							}
+							energy_inventory: {
+								Items: [{
+									Count: 1b
+									Slot: 0
+									id: "sgjourney:fusion_core"
+								}]
+								Size: 2
+							}
+							id: "sgjourney:milky_way_dhd"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"0E11F280BC81485B"
+				"49642CB3101B5400"
+			]
+			id: "41CD2BCB360EF099"
+			tasks: [{
+				id: "74EEAAC28F5455D7"
+				item: "sgjourney:crystal_interface"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5E1BB6007F43933F"
+				"5DDE326EFF9B6736"
+				"41CD2BCB360EF099"
+			]
+			id: "200087F6D4161898"
+			tasks: [{
+				id: "56FD83A4AC86ACB1"
+				item: "sgjourney:advanced_crystal_interface"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["50D44D2AF9B81ED1"]
+			id: "699DF7BC7437DAA3"
+			size: 1.5d
+			tasks: [{
+				id: "309C60E5E5777CCC"
+				item: "sgjourney:crystal_base"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["1120504C499B875F"]
+			id: "1606181987025E94"
+			size: 1.5d
+			tasks: [{
+				id: "2658B92D16ACB07D"
+				item: "sgjourney:advanced_crystal_base"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["2B810B12311B5CC2"]
+			id: "7BC5B08DA192A03A"
+			tasks: [{
+				id: "5317994A05C5B221"
+				item: {
+					Count: 1
+					id: "sgjourney:materialization_crystal"
+					tag: {
+						CrystalMode: "INCREASE_RANGE"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7BC5B08DA192A03A"
+				"1606181987025E94"
+			]
+			id: "21B3DC073CED7762"
+			tasks: [{
+				id: "50330FC2731B7EC0"
+				item: {
+					Count: 1
+					id: "sgjourney:advanced_materialization_crystal"
+					tag: {
+						CrystalMode: "INCREASE_RANGE"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1120504C499B875F"]
+			id: "0E11F280BC81485B"
+			tasks: [{
+				id: "26A7ABC8A2F76B13"
+				item: "sgjourney:energy_crystal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"59F552E869DB47AA"
+				"0E11F280BC81485B"
+			]
+			id: "5E1BB6007F43933F"
+			tasks: [{
+				id: "74B031E5045A6559"
+				item: "sgjourney:advanced_energy_crystal"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1120504C499B875F"]
+			id: "49642CB3101B5400"
+			tasks: [{
+				id: "02AA892EEDE9FF95"
+				item: {
+					Count: 1
+					id: "sgjourney:communication_crystal"
+					tag: {
+						Frequency: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"59F552E869DB47AA"
+				"49642CB3101B5400"
+			]
+			id: "5DDE326EFF9B6736"
+			tasks: [{
+				id: "2E6684A2C4029C0E"
+				item: {
+					Count: 1
+					id: "sgjourney:advanced_communication_crystal"
+					tag: {
+						Frequency: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"29A36638B429D5EC"
+				"1606181987025E94"
+			]
+			id: "59F552E869DB47AA"
+			size: 1.5d
+			tasks: [{
+				id: "39EB6E3026FF3E88"
+				item: "sgjourney:advanced_control_crystal"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["699DF7BC7437DAA3"]
+			id: "1120504C499B875F"
+			size: 1.5d
+			tasks: [{
+				id: "346774AE981CF375"
+				item: "sgjourney:control_crystal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["1120504C499B875F"]
+			id: "326DE701A345A0EA"
+			tasks: [{
+				id: "5765639BA320C3DA"
+				item: "sgjourney:large_control_crystal"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2B810B12311B5CC2"
+				"5DDE326EFF9B6736"
+			]
+			id: "4D12564C69E0B8B9"
+			tasks: [{
+				id: "6408059F4903732A"
+				item: {
+					Count: 1
+					id: "sgjourney:pegasus_dhd"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0L
+							Inventory: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 0
+										id: "sgjourney:large_control_crystal"
+									}
+									{
+										Count: 1b
+										Slot: 1
+										id: "sgjourney:advanced_energy_crystal"
+										tag: {
+											Energy: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 2
+										id: "sgjourney:advanced_communication_crystal"
+										tag: {
+											Frequency: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 3
+										id: "sgjourney:advanced_energy_crystal"
+										tag: {
+											Energy: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 6
+										id: "sgjourney:advanced_communication_crystal"
+										tag: {
+											Frequency: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 7
+										id: "sgjourney:advanced_transfer_crystal"
+										tag: {
+											TransferLimit: 2500000L
+										}
+									}
+								]
+								Size: 9
+							}
+							energy_inventory: {
+								Items: [{
+									Count: 1b
+									Slot: 0
+									id: "sgjourney:fusion_core"
+								}]
+								Size: 2
+							}
+							id: "sgjourney:pegasus_dhd"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"323BFBEDEF074509"
+				"1D8C314B87687AF0"
+			]
+			id: "1185710085BEEAC6"
+			tasks: [{
+				id: "477D5B1DF71CA88C"
+				item: "ad_astra:tier_4_rocket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF1531973723E86"]
+			id: "323BFBEDEF074509"
+			size: 1.0d
+			tasks: [{
+				id: "02D48CB14945CDFC"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"02B5E9492B56192B"
+				"03F30977019E2425"
+			]
+			id: "3D417079D0545748"
+			tasks: [{
+				id: "6973BD62CBAF1685"
+				item: "ballistix:antimatter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["02B5E9492B56192B"]
+			id: "794F06FFD7C8DE4B"
+			tasks: [{
+				id: "0B8687E5BAAA487F"
+				item: "superbwarfare:shortcut_pack"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1120504C499B875F"]
+			hide_until_deps_complete: true
+			id: "21EEA5C05D176B78"
+			rewards: [{
+				count: 64
+				id: "7454F80D8074770F"
+				item: "mekanism:structural_glass"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					count: 60L
+					id: "2FB723A38A7FD7BC"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					id: "7EE1706BBCBE64E3"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "78B6ABD2C3811501"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["21EEA5C05D176B78"]
+			id: "2EF1531973723E86"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "1FD0379AAD1293C5"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"46E2231251211EBA"
+				"323BFBEDEF074509"
+			]
+			id: "238601DF7A8437E9"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "14F1F4477FBC41EE"
+				item: "thermalendergy:stellarium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2EF1531973723E86"]
+			id: "46E2231251211EBA"
+			size: 1.0d
+			tasks: [{
+				id: "61512F24E47DFD9A"
+				item: "mekanism_extras:alloy_shining"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["21EEA5C05D176B78"]
+			id: "02B5E9492B56192B"
+			tasks: [{
+				id: "1C4C474053890C37"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["238601DF7A8437E9"]
+			id: "0753C4CF7651EF00"
+			tasks: [{
+				id: "3F7E9813AF5E52B3"
+				item: "thermalendergy:endergy_upgrade_3"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7293E286B66BDA36"
+				"7735767D370C451F"
+			]
+			id: "3EBEB8EB2DD87D45"
+			tasks: [{
+				id: "0A86C96C86B5C5EF"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:laser_tower"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Автономная лазерная башня"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7293E286B66BDA36"
+				"10ADBB3F58BA3F4F"
+				"7735767D370C451F"
+			]
+			id: "59C016BE00ED04BF"
+			tasks: [{
+				id: "18B7F773D05ACC54"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:a_10a"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Самолёт"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["03F30977019E2425"]
+			hide_until_deps_complete: true
+			id: "5BBA9E5DD8C4BB38"
+			size: 1.5d
+			tasks: [{
+				dimension: "sgjourney:unitas"
+				icon: "sgjourney:budding_unity"
+				id: "773B1CAC6412C890"
+				type: "dimension"
+			}]
+			title: "Единство"
+			x: -11.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["5BBA9E5DD8C4BB38"]
+			id: "50D44D2AF9B81ED1"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "5583328191653FC7"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "handmade:unity_incubator"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["1120504C499B875F"]
+			id: "02AA58E8627B7CE7"
+			tasks: [{
+				id: "4953A049CEED160A"
+				item: "kubejs:fortron_converter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1120504C499B875F"]
+			hide_until_deps_visible: true
+			id: "68681D990D513DC6"
+			tasks: [{
+				id: "4FBCC7CAE145AC03"
+				item: "ae2things:disk_housing"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["02AA58E8627B7CE7"]
+			id: "1D8C314B87687AF0"
+			tasks: [{
+				id: "65C7B1443718D01A"
+				item: "mffs:projector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D8C314B87687AF0"]
+			id: "42A35E56692CE7F4"
+			tasks: [{
+				id: "6CF34F7400335575"
+				item: "mffs:coercion_deriver"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D8C314B87687AF0"]
+			id: "288F64E9E99E79E5"
+			tasks: [{
+				id: "4081B20132B93051"
+				item: "mffs:biometric_identifier"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D8C314B87687AF0"]
+			id: "6517B95E9BE83033"
+			tasks: [{
+				id: "0EB0ACD83197EC23"
+				item: "mffs:interdiction_matrix"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["699DF7BC7437DAA3"]
+			id: "4F4153016F82E366"
+			tasks: [{
+				id: "0DB3A8FEF90EA10B"
+				item: {
+					Count: 1
+					id: "sgjourney:transfer_crystal"
+					tag: {
+						TransferLimit: 150000L
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1606181987025E94"]
+			id: "0D6D4E7AE1DC7919"
+			tasks: [{
+				id: "220AD41FF88CE69C"
+				item: {
+					Count: 1
+					id: "sgjourney:advanced_transfer_crystal"
+					tag: {
+						TransferLimit: 2500000L
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1120504C499B875F"]
+			hide_until_deps_complete: false
+			id: "650100D124A3A280"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4D8FC2E76C139225"
+				item: "ae2:spatial_anchor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1185710085BEEAC6"]
+			id: "7735767D370C451F"
+			size: 1.5d
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "6D1119E6B5714340"
+				title: "Посетите Гласио"
+				type: "dimension"
+			}]
+			x: 1.5d
 			y: 3.0d
 		}
 	]

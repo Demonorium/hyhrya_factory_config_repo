@@ -5,4 +5,5 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: "mekanismgenerators:generator/heat" }, MATERIALS.COPPER.ingot, MATERIALS.BRONZE.gear)
     event.replaceInput({ id: "mekanismgenerators:generator/wind" }, MATERIALS.OSMIUM.ingot, "pneumaticcraft:turbine_blade")
 
+    event.replaceInput({id: 'mekanism_extras:naquadah_reactor/controller'}, 'mekanism_extras:cosmic_control_circuit', 'sgjourney:advanced_control_crystal')
 })

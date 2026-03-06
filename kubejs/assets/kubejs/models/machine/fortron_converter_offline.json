@@ -5,8 +5,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "kubejs:block/fortron_converter_animation",
-		"particle": "kubejs:block/fortron_converter_animation"
+		"0": "kubejs:block/fortron_converter",
+		"particle": "kubejs:block/fortron_converter"
 	},
 	"elements": [
 		{

@@ -22,9 +22,9 @@ ServerEvents.recipes(event => {
     }
   })
 
-  event.replaceInput({ mod: 'mffs' }, "diamond", 'mekanism:ultimate_control_circuit')
-  event.replaceInput({ mod: 'mffs' }, "redstone", 'pncepcb:crystal_clear_finished_pcb')
-  event.replaceInput({ mod: 'mffs' }, "ender_pearl", 'mekanism_extras:cosmic_control_circuit')
+  event.replaceInput({ mod: 'mffs' }, "diamond", 'sgjourney:control_crystal')
+  event.replaceInput({ mod: 'mffs' }, "redstone", 'sgjourney:communication_crystal')
+  event.replaceInput({ mod: 'mffs' }, "ender_pearl", 'sgjourney:advanced_control_crystal')
   event.replaceInput({ id: 'undergarden:catalyst' }, 'diamond', 'meetyourfight:phantoplasm')
   event.replaceInput({ mod: 'wirelesschargers' }, 'iron_ingot', MATERIALS.STEEL.plate)
   event.replaceInput({ mod: 'wirelesschargers' }, 'blaze_powder', 'mekanism_weaponry:magnetic_circuit')

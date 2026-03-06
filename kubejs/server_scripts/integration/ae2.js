@@ -75,9 +75,9 @@ ServerEvents.recipes(event => {
 
     event.remove({id: 'appliedpneumatics:assembly/flaw_budding_quartz_to_flawless_budding_quartz'})
 
-    event.replaceInput({mod: "ae2_mega_things"}, 'redstone', 'mekanism_extras:cosmic_control_circuit')
+    event.replaceInput({mod: "ae2_mega_things"}, 'redstone', 'sgjourney:advanced_control_crystal')
     event.replaceInput({mod: "ae2_mega_things"}, 'netherite_ingot', 'thermalendergy:stellarium_ingot')
-    event.replaceInput({mod: "ae2things"}, 'redstone', 'mekanism_extras:supreme_control_circuit')
+    event.replaceInput({mod: "ae2things"}, 'redstone', 'sgjourney:control_crystal')
     event.replaceInput({mod: "ae2things"}, 'netherite_ingot', 'thermalendergy:stellarium_ingot')
 
     let ae2_aluminum_network = (recipe, from, to) => {
@@ -419,8 +419,10 @@ ServerEvents.recipes(event => {
         }
     )
 
-    event.replaceInput({id: 'ae2:network/blocks/spatial_anchor'}, 'ae2:engineering_processor', 'mekanism_extras:supreme_control_circuit')
-    event.replaceInput({id: 'ae2:network/blocks/spatial_io_port'}, 'ae2:engineering_processor', 'mekanism_extras:supreme_control_circuit')
+    event.replaceInput({id: 'megacells:crafting/bulk_cell_component'}, 'megacells:accumulation_processor', 'mekanism_extras:infinite_control_circuit')
+
+    event.replaceInput({id: 'ae2:network/blocks/spatial_anchor'}, 'ae2:engineering_processor', 'sgjourney:control_crystal')
+    event.replaceInput({id: 'ae2:network/blocks/spatial_io_port'}, 'ae2:engineering_processor', 'sgjourney:control_crystal')
     event.replaceInput({id: 'ae2:network/blocks/spatial_io_port'}, 'ae2:fluix_glass_cable', 'ae2:spatial_anchor')
 
     event.replaceInput({mod: 'ae2wtlib'}, 'ae2:engineering_processor', 'mekanism_extras:absolute_control_circuit')
@@ -436,8 +438,6 @@ ServerEvents.recipes(event => {
     event.replaceInput({mod: 'ae2_mega_things'}, 'megacells:accumulation_processor', 'mekanism_extras:cosmic_control_circuit')
 
     event.replaceInput({id: 'mekanism:qio_dashboard'}, 'glass_pane', 'ae2:crafting_terminal')
-    event.replaceInput({id: 'mekanism:qio_drive_array'}, 'mekanism:ultimate_control_circuit', 'mekanism_extras:supreme_control_circuit')
-    event.replaceInput({id: 'mekanism:qio_drive_array'}, '#mekanism:personal_storage', 'ae2:drive')
     
     event.replaceInput({id: 'mekanism:qio_drive_base'}, 'mekanism:pellet_polonium', 'ae2:cell_component_16k')
     
@@ -453,6 +453,8 @@ ServerEvents.recipes(event => {
     let prev = 'mekanism:qio_drive_base'
     drives.forEach(value => {
         event.remove({id: value[0]})
+        
+        
         event.shaped(
         Item.of(value[0], 1), 
             [

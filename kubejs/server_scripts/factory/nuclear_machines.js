@@ -154,7 +154,7 @@ ServerEvents.recipes(event => {
             A: Item.of('mekanism:sps_port'),
             B: Item.of('mekanism:sps_casing'),
             C: Item.of(MATERIALS.PRASEODYMIUM.block),
-            D: Item.of('pncepcb:quantum_finished_pcb'),
+            D: Item.of('sgjourney:advanced_control_crystal'),
         }
     )
 

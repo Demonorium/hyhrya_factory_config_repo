@@ -1,15 +1,15 @@
 {
-    "name": "machine.handmade.unitity_incubator",
+    "name": "machine.handmade.unity_incubator",
     "tooltips": {
-        "text": "machine.handmade.unitity_incubator.tooltip",
+        "text": "machine.handmade.unity_incubator.tooltip",
         "color": "#2EEAEA"
     },
     "appearance": {
-        "block": "kubejs:machine/unitity_incubator",
+        "block": "kubejs:machine/unity_incubator",
         "light": 0,
         "keep_inventory": true,
         "running": {
-            "block": "kubejs:machine/unitity_incubator",
+            "block": "kubejs:machine/unity_incubator",
             "light": 2
         }
     },
@@ -36,6 +36,19 @@
             "type": "custommachinery:item",
             "id": "output1",
             "mode": "output"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "id": "outputFluid1",
+            "capacity": 10000,
+            "mode": "output"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "fluidItemOutput1",
+            "mode": "output",
+            "variant": "custommachinery:fluid",
+            "tanks": "outputFluid1"
         },
         {
             "type": "custommachinery:energy",
@@ -123,27 +136,9 @@
         },
         {
             "type": "custommachinery:slot",
-            "x": 32,
-            "y": 38,
+            "x": 41,
+            "y": 47,
             "id": "input1"
-        },
-        {
-            "type": "custommachinery:slot",
-            "x": 50,
-            "y": 38,
-            "id": "input2"
-        },
-        {
-            "type": "custommachinery:slot",
-            "x": 32,
-            "y": 56,
-            "id": "input3"
-        },
-        {
-            "type": "custommachinery:slot",
-            "x": 50,
-            "y": 56,
-            "id": "input4"
         },
         {
             "type": "custommachinery:progress",
@@ -152,27 +147,9 @@
         },
         {
             "type": "custommachinery:slot",
-            "x": 100,
-            "y": 38,
+            "x": 109,
+            "y": 47,
             "id": "output1"
-        },
-        {
-            "type": "custommachinery:slot",
-            "x": 118,
-            "y": 38,
-            "id": "output2"
-        },
-        {
-            "type": "custommachinery:slot",
-            "x": 100,
-            "y": 56,
-            "id": "output3"
-        },
-        {
-            "type": "custommachinery:slot",
-            "x": 118,
-            "y": 56,
-            "id": "output4"
         },
         {
             "type": "custommachinery:fluid",
@@ -197,27 +174,11 @@
             "jei": true
         },
         {
-            "type": "custommachinery:gas",
-            "x": 158,
-            "y": 20,
-            "height": 70,
-            "texture": "kubejs:textures/gui/gas.png",
-            "id": "outputGas1"
-        },
-        {
-            "type": "custommachinery:texture",
-            "x": 158,
-            "y": 20,
-            "height": 70,
-            "texture": "mekanism:gui/gauge/standard.png",
-            "jei": true
-        },
-        {
             "type": "custommachinery:text",
             "x": 8,
             "y": 8,
-            "text": "machine.handmade.primitive_reaction_chamber",
-            "tooltips": "machine.handmade.primitive_reaction_chamber.tooltip"
+            "text": "machine.handmade.unity_incubator",
+            "tooltips": "machine.handmade.unity_incubator.tooltip"
         },
         {
             "type": "custommachinery:texture",
