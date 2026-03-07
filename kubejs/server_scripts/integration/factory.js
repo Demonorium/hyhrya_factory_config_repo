@@ -11,7 +11,9 @@ CustomMachineryEvents.upgrades(event => {
     "handmade:gas_chemical_furnace",
     "handmade:precipitation_bath",
     "handmade:atmospheric_adsorption_separator",
-    "handmade:advanced_reaction_chamber"
+    "handmade:advanced_reaction_chamber",
+    "handmade:unity_incubator",
+    "handmade:fortron_converter"
   ]
 
   console.log('loading machine updates')

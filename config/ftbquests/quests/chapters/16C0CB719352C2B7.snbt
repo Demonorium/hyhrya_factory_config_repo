@@ -11,6 +11,9 @@
 		{
 			dependencies: ["7C3EC436B88C1892"]
 			id: "0B3219B67CE4A226"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Конец сборки"
 			tasks: [{
 				id: "2A4389104B2AA11B"
 				item: "mekanism_extras:infinite_control_circuit"
@@ -38,7 +41,7 @@
 				item: "mekanism:mekasuit_helmet"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 22.0d
 			y: 3.0d
 		}
 		{
@@ -49,7 +52,7 @@
 				item: "mekanism:mekasuit_bodyarmor"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 22.0d
 			y: 4.0d
 		}
 		{
@@ -60,7 +63,7 @@
 				item: "mekanism:mekasuit_pants"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 22.0d
 			y: 5.0d
 		}
 		{
@@ -71,7 +74,7 @@
 				item: "mekanism:mekasuit_boots"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 22.0d
 			y: 6.0d
 		}
 		{
@@ -83,7 +86,7 @@
 				type: "item"
 			}]
 			x: 18.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -94,7 +97,7 @@
 				type: "item"
 			}]
 			x: 18.5d
-			y: 5.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -105,7 +108,7 @@
 				type: "item"
 			}]
 			x: 18.5d
-			y: 6.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -127,8 +130,8 @@
 				type: "item"
 			}]
 			title: "Аннигилятор"
-			x: 17.5d
-			y: 6.5d
+			x: 16.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["421F9D094748593B"]
@@ -175,7 +178,7 @@
 				type: "item"
 			}]
 			title: "Сверхтяжёлый танк"
-			x: 15.0d
+			x: 17.0d
 			y: 6.5d
 		}
 		{
@@ -529,7 +532,7 @@
 				type: "item"
 			}]
 			x: 18.5d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["29A36638B429D5EC"]
@@ -595,7 +598,7 @@
 				item: "megacells:bulk_item_cell"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 21.0d
 			y: 4.5d
 		}
 		{
@@ -674,7 +677,7 @@
 				type: "item"
 			}]
 			x: 18.5d
-			y: 7.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1A342258150273FD"]
@@ -685,7 +688,7 @@
 				type: "item"
 			}]
 			x: 18.5d
-			y: 9.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1A342258150273FD"]
@@ -696,7 +699,7 @@
 				type: "item"
 			}]
 			x: 18.5d
-			y: 10.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["1A342258150273FD"]
@@ -707,7 +710,7 @@
 				type: "item"
 			}]
 			x: 18.5d
-			y: 8.5d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -721,7 +724,7 @@
 				type: "item"
 			}]
 			x: 19.5d
-			y: 6.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["1C4105768402F2F8"]
@@ -731,7 +734,7 @@
 				item: "ad_astra_giselle_addon:module_acid_rain_proof_unit"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 23.5d
 			y: 4.0d
 		}
 		{
@@ -742,7 +745,7 @@
 				item: "ad_astra_giselle_addon:module_gravity_normalizing_unit"
 				type: "item"
 			}]
-			x: 30.0d
+			x: 31.5d
 			y: 6.0d
 		}
 		{
@@ -753,7 +756,7 @@
 				item: "ad_astra_giselle_addon:module_space_breathing_unit"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 23.5d
 			y: 3.0d
 		}
 		{
@@ -765,7 +768,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -780,7 +783,7 @@
 				item: "mekanism:module_color_modulation_unit"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 22.0d
 			y: 2.0d
 		}
 		{
@@ -796,7 +799,7 @@
 				item: "mekanism:module_laser_dissipation_unit"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 22.0d
 			y: 7.0d
 		}
 		{
@@ -812,7 +815,7 @@
 				item: "mekanism:module_radiation_shielding_unit"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 22.0d
 			y: 8.0d
 		}
 		{
@@ -824,7 +827,7 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -835,7 +838,7 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5538F214016C0CAC"]
@@ -846,7 +849,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5538F214016C0CAC"]
@@ -857,7 +860,7 @@
 				type: "item"
 			}]
 			x: 15.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5538F214016C0CAC"]
@@ -868,7 +871,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5538F214016C0CAC"]
@@ -879,7 +882,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5538F214016C0CAC"]
@@ -890,7 +893,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5538F214016C0CAC"]
@@ -901,7 +904,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["373A4FDABA572983"]
@@ -912,7 +915,7 @@
 				type: "item"
 			}]
 			x: 15.5d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2A0CA92DD5805F1D"]
@@ -922,7 +925,7 @@
 				item: "mekanism:module_electrolytic_breathing_unit"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 24.5d
 			y: 3.0d
 		}
 		{
@@ -933,7 +936,7 @@
 				item: "mekanism:module_inhalation_purification_unit"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 25.5d
 			y: 3.0d
 		}
 		{
@@ -944,7 +947,7 @@
 				item: "mekanism:module_vision_enhancement_unit"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 26.5d
 			y: 3.0d
 		}
 		{
@@ -955,7 +958,7 @@
 				item: "mekanism:module_nutritional_injection_unit"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 27.5d
 			y: 3.0d
 		}
 		{
@@ -966,7 +969,7 @@
 				item: "mekanism:module_dosimeter_unit"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 24.5d
 			y: 4.0d
 		}
 		{
@@ -977,7 +980,7 @@
 				item: "mekanism:module_geiger_unit"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 25.5d
 			y: 4.0d
 		}
 		{
@@ -988,7 +991,7 @@
 				item: "mekanism:module_jetpack_unit"
 				type: "item"
 			}]
-			x: 28.0d
+			x: 29.5d
 			y: 4.0d
 		}
 		{
@@ -999,7 +1002,7 @@
 				item: "mekanism:module_charge_distribution_unit"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 26.5d
 			y: 4.0d
 		}
 		{
@@ -1013,7 +1016,7 @@
 				item: "mekanism:module_gravitational_modulating_unit"
 				type: "item"
 			}]
-			x: 30.0d
+			x: 31.5d
 			y: 4.0d
 		}
 		{
@@ -1024,7 +1027,7 @@
 				item: "mekanism:module_elytra_unit"
 				type: "item"
 			}]
-			x: 29.0d
+			x: 30.5d
 			y: 4.0d
 		}
 		{
@@ -1035,7 +1038,7 @@
 				item: "mekanism:module_gyroscopic_stabilization_unit"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 23.5d
 			y: 5.0d
 		}
 		{
@@ -1046,7 +1049,7 @@
 				item: "mekanism:module_hydrostatic_repulsor_unit"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 24.5d
 			y: 5.0d
 		}
 		{
@@ -1057,7 +1060,7 @@
 				item: "mekanism:module_locomotive_boosting_unit"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 25.5d
 			y: 5.0d
 		}
 		{
@@ -1068,7 +1071,7 @@
 				item: "mekanism:module_motorized_servo_unit"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 26.5d
 			y: 5.0d
 		}
 		{
@@ -1079,7 +1082,7 @@
 				item: "mekanism:module_hydraulic_propulsion_unit"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 23.5d
 			y: 6.0d
 		}
 		{
@@ -1090,7 +1093,7 @@
 				item: "mekanism:module_magnetic_attraction_unit"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 24.5d
 			y: 6.0d
 		}
 		{
@@ -1101,7 +1104,7 @@
 				item: "mekanism:module_frost_walker_unit"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 25.5d
 			y: 6.0d
 		}
 		{
@@ -1112,7 +1115,7 @@
 				item: "gravitationalmodulatingunittweaks:module_gravitational_modulating_additional_unit"
 				type: "item"
 			}]
-			x: 31.0d
+			x: 32.5d
 			y: 4.0d
 		}
 		{
@@ -1134,7 +1137,7 @@
 			}]
 			title: "Волновая башня"
 			x: 19.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["00DE9C83CE353866"]
@@ -1164,7 +1167,7 @@
 				}
 			]
 			x: 18.5d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0B3219B67CE4A226"]
@@ -1174,8 +1177,8 @@
 				item: "pipez:infinity_upgrade"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 5.0d
+			x: 19.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1120504C499B875F"]
@@ -1905,14 +1908,8 @@
 			shape: "square"
 			size: 1.5d
 			tasks: [{
-				id: "5583328191653FC7"
-				item: {
-					Count: 1
-					id: "custommachinery:custom_machine_item"
-					tag: {
-						machine: "handmade:unity_incubator"
-					}
-				}
+				id: "67D804B77F94800D"
+				item: "kubejs:unity_incubator"
 				type: "item"
 			}]
 			x: -9.75d

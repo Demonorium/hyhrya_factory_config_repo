@@ -8,6 +8,7 @@
         "block": "kubejs:machine/unity_incubator",
         "light": 0,
         "keep_inventory": true,
+        "shape": [[0.0, 0.0, 0.0, 1.0, 0.25, 1.0], [0.125, 0.25, 0.125, 0.875, 1.0, 0.875], [0.0, 0.25, 0.25, 0.125, 0.75, 0.75], [0.875, 0.25, 0.25, 1.0, 0.75, 0.75]],
         "running": {
             "block": "kubejs:machine/unity_incubator",
             "light": 2
@@ -18,7 +19,14 @@
             "type": "custommachinery:fluid",
             "id": "inputFluid1",
             "capacity": 10000,
-            "mode": "input"
+            "mode": "input",
+            "config": {
+                "default": "none",
+                "input": true,
+                "output": false,
+                "right": "input",
+                "left": "input"
+            }
         },
         {
             "type": "custommachinery:item",
@@ -30,18 +38,39 @@
         {
             "type": "custommachinery:item",
             "id": "input1",
-            "mode": "input"
+            "mode": "both",
+            "config": {
+                "enabled": false,
+                "default": "none",
+                "top": "both",
+                "input": true
+            }
         },
         {
             "type": "custommachinery:item",
             "id": "output1",
-            "mode": "output"
+            "mode": "output",
+            "config": {
+                "default": "none",
+                "input": false,
+                "output": true,
+                "right": "output",
+                "left": "output"
+            }
         },
         {
             "type": "custommachinery:fluid",
             "id": "outputFluid1",
             "capacity": 10000,
-            "mode": "output"
+            "mode": "output",
+            "config": {
+                "default": "none",
+                "input": false,
+                "output": true,
+                "right": "output",
+                "left": "output",
+                "bottom": "output"
+            }
         },
         {
             "type": "custommachinery:item",

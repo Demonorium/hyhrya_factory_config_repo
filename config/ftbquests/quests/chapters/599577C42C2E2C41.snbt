@@ -11,8 +11,8 @@
 		{
 			dependencies: [
 				"70E5B972F195C885"
-				"47C1AFD9A32CBD7A"
 				"2317A8F2D3FC606B"
+				"55B415F4EAD3CF06"
 			]
 			hide_until_deps_visible: true
 			id: "07D13F1DD12D4DDC"
@@ -81,17 +81,6 @@
 			}]
 			x: -24.0d
 			y: -10.5d
-		}
-		{
-			dependencies: ["55B415F4EAD3CF06"]
-			id: "47C1AFD9A32CBD7A"
-			tasks: [{
-				id: "68499C415CFA4A22"
-				item: "chemlib:yttrium_carbonate_dust"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -829,7 +818,7 @@
 				item: "mekanism:fluorite_gem"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: -9.0d
 		}
 		{
@@ -1673,6 +1662,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["28F660F38DC02E0E"]
 			dependency_requirement: "one_completed"
 			id: "44FCF6EA7E5DF03D"
 			size: 1.5d
@@ -3413,13 +3403,15 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["4884C92A0FFF9B86"]
 			id: "28F660F38DC02E0E"
+			shape: "square"
 			tasks: [{
 				id: "79B542CC8D7E35B8"
 				item: "mekanism:solar_neutron_activator"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 0.0d
 		}
 	]

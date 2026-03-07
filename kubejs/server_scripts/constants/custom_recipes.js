@@ -135316,7 +135316,7 @@ const CUSTOM_RECIPES = [
 		},
 		result: {
 			fluid: "mffs:fortron_fluid",
-			amount: 1.0,
+			amount: 100.0,
 		},
 		energy: 10000,
 	},

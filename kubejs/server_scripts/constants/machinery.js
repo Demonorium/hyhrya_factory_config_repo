@@ -92034,7 +92034,7 @@ const MACHINERY_RECIPES = [
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 1,
+		priority: null,
 		fuel: null,
 		source_items: null,
 		result_items: [
@@ -92047,7 +92047,8 @@ const MACHINERY_RECIPES = [
 		result_fluids: [
 			{
 				fluid: "mffs:fortron_fluid",
-				amount: 1000,
+				amount: 1.0,
+				per_tick: true,
 			},
 		],
 		source_gases: null,
@@ -92072,7 +92073,7 @@ const MACHINERY_RECIPES = [
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 10,
+		priority: null,
 		fuel: null,
 		source_items: null,
 		result_items: [
@@ -92090,7 +92091,8 @@ const MACHINERY_RECIPES = [
 		result_fluids: [
 			{
 				fluid: "mffs:fortron_fluid",
-				amount: 1000,
+				amount: 10.0,
+				per_tick: true,
 			},
 		],
 		source_gases: null,
@@ -92115,7 +92117,7 @@ const MACHINERY_RECIPES = [
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 10,
+		priority: null,
 		fuel: null,
 		source_items: null,
 		result_items: [
@@ -92133,7 +92135,8 @@ const MACHINERY_RECIPES = [
 		result_fluids: [
 			{
 				fluid: "mffs:fortron_fluid",
-				amount: 100,
+				amount: 1.0,
+				per_tick: true,
 			},
 		],
 		source_gases: null,
@@ -92158,7 +92161,7 @@ const MACHINERY_RECIPES = [
 		req_rad: null,
 		rs_rad: null,
 		produce_energy: null,
-		priority: 10,
+		priority: null,
 		fuel: null,
 		source_items: null,
 		result_items: [
@@ -92176,9 +92179,39 @@ const MACHINERY_RECIPES = [
 		result_fluids: [
 			{
 				fluid: "mffs:fortron_fluid",
-				amount: 100,
+				amount: 1.0,
+				per_tick: true,
 			},
 		],
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:fortron_converter",
+		time: 1,
+		energy: null,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: 12500,
+		priority: null,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "mffs:fortron_fluid",
+				amount: 1.0,
+				per_tick: true,
+			},
+		],
+		result_fluids: null,
 		source_gases: null,
 		result_gases: null,
 		source_infuse_type: null,
