@@ -1598,8 +1598,8 @@
 				item: "ad_astra:oxygen_sensor"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5C4071E659E7783F"]
