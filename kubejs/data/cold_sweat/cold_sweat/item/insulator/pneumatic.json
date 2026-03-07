@@ -1,0 +1,77 @@
+{
+    "type": "armor",
+    "insulation": {
+        "heat": 12,
+        "cold": 12
+    },
+    "item": {
+        "items": [
+            "pneumaticcraft:pneumatic_helmet",
+            "pneumaticcraft:pneumatic_chestplate",
+            "pneumaticcraft:pneumatic_leggings",
+            "pneumaticcraft:pneumatic_boots"
+        ]
+    },
+    "entity": {
+        "entities": [
+            "*"
+        ],
+        "equipment": {
+            "head": {
+                "items": [
+                    "pneumaticcraft:pneumatic_helmet"
+                ],
+                "nbt": {
+                    "pneumaticcraft:air": "1:"
+                }
+            },
+            "chest": {
+                "items": [
+                    "pneumaticcraft:pneumatic_chestplate"
+                ],
+                "nbt": {
+                    "pneumaticcraft:air": "1:"
+                }
+            },
+            "legs": {
+                "items": [
+                    "pneumaticcraft:pneumatic_leggings"
+                ],
+                "nbt": {
+                    "pneumaticcraft:air": "1:"
+                }
+            },
+            "feet": {
+                "items": [
+                    "pneumaticcraft:pneumatic_boots"
+                ],
+                "nbt": {
+                    "pneumaticcraft:air": "1:"
+                }
+            }
+        },
+        "attributes": {
+            "cold_sweat:heat_dampening": [
+                {
+                    "name": "ad_astra:space_suit_set_bonus",
+                    "amount": 0.25,
+                    "operation": "addition"
+                }
+            ],
+            "cold_sweat:cold_dampening": [
+                {
+                    "name": "ad_astra:space_suit_set_bonus",
+                    "amount": 0.25,
+                    "operation": "addition"
+                }
+            ]
+        },
+        "immune_temp_modifiers": {
+            "cold_sweat:blocks": 1.0,
+            "cold_sweat:water": 1.0
+        },
+        "hint": {
+            "key": "tooltip.hint.astra_space_suit"
+        }
+    }
+}
