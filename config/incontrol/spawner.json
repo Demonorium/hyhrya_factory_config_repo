@@ -16,7 +16,7 @@
     },
     {
         "mob": "cataclysm:ignited_berserker",
-        "persecond": 0.35,
+        "persecond": 0.5,
         "attempts": 10,
         "amount": {
             "minimum": 2,
@@ -24,9 +24,9 @@
         },
         "conditions": {
             "dimension": "minecraft:the_nether",
-            "mindist": 25,
+            "mindist": 16,
             "maxdist": 100,
-            "maxthis": 20,
+            "maxthis": 30,
             "and": {
                 "structure": "cataclysm:burning_arena"
             }
@@ -34,7 +34,7 @@
     },
     {
         "mob": "cataclysm:ignited_revenant",
-        "persecond": 0.1,
+        "persecond": 0.35,
         "attempts": 3,
         "amount": {
             "minimum": 1,
@@ -42,9 +42,9 @@
         },
         "conditions": {
             "dimension": "minecraft:the_nether",
-            "mindist": 25,
+            "mindist": 16,
             "maxdist": 100,
-            "maxthis": 5,
+            "maxthis": 10,
             "and": {
                 "structure": "cataclysm:burning_arena"
             }

@@ -57,13 +57,5 @@
         ],
         "when": "onjoin",
         "result": "allow"
-    },
-    {
-        "mob": [
-            "cataclysm:ignited_berserker",
-            "cataclysm:ignited_revenant"
-        ],
-        "when": "onjoin",
-        "result": "deny"
     }
 ]
