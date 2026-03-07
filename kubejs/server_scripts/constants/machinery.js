@@ -92172,7 +92172,7 @@ const MACHINERY_RECIPES = [
 		],
 		source_fluids: [
 			{
-				fluid: "kubejs:SiO2",
+				fluid: "kubejs:silicon_dioxide",
 				amount: 100,
 			},
 		],
