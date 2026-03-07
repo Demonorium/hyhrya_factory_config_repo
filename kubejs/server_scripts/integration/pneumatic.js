@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
             C: Item.of('ad_astra:netherite_space_suit'),
             D: Item.of('cataclysm:ignitium_ingot'),
             E: Item.of('ad_astra:netherite_space_pants'),
-            F: Item.of('ad_astra:netherite_space_boots')
+            F: Item.of('ad_astra:netherite_space_helmet')
     })
 
     event.shaped(Item.of('pneumaticcraft:radiation_shielding_upgrade'), [
