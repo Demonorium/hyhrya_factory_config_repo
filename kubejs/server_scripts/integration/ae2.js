@@ -489,7 +489,7 @@ ServerEvents.recipes(event => {
           "item": "ae2:quartz_glass"
         },
         "b": {
-          "tag": "ae2:all_cetrus_quartz"
+          "tag": "ae2:all_certus_quartz"
         },
         "c": {
           "item": Item.of('mekanism:crafting_formula').getId()

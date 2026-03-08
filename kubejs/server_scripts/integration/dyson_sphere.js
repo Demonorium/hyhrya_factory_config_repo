@@ -161,7 +161,7 @@ ServerEvents.recipes(event => {
   )
 
   event.replaceInput({id: 'dysonsphere:laser_controller'}, '#forge:circuits', 'mekanism_extras:cosmic_control_circuit')
-  event.replaceInput({id: 'dysonsphere:laser_pattern'}, '#forge:circuits', 'ae2:crafting_pattern')
+  event.replaceInput({id: 'dysonsphere:laser_pattern'}, '#forge:circuits', 'ae2:blank_pattern')
   event.replaceInput({id: 'dysonsphere:laser_pattern_controller_block'}, '#forge:circuits', 'mekanism_extras:cosmic_control_circuit')
   event.replaceInput({id: 'dysonsphere:laser_pattern_controller_block'}, 'glass', 'ae2:semi_dark_monitor')
   event.replaceInput({id: 'dysonsphere:laser_pattern_controller_block'}, 'redstone_lamp', 'ae2:inscriber')

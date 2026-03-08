@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
 
 
     event.replaceInput({id: "hostilenetworks:framework"}, "smooth_stone", 'mekanism:ultimate_control_circuit')
-    event.replaceInput({id: "hostilenetworks:framework"}, "gold_ingot", 'ae2:crafting_pattern')
+    event.replaceInput({id: "hostilenetworks:framework"}, "gold_ingot", 'ae2:blank_pattern')
     event.replaceInput({id: "hostilenetworks:framework"}, "redstone", 'ae2:spatial_cell_component_2')
     event.replaceInput({id: "hostilenetworks:framework"}, "clay_ball", MATERIALS.ALUMINUM.plate)
     
