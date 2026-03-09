@@ -1,0 +1,17 @@
+{
+    "type": "mekanism:metallurgic_infusing",
+    "chemicalInput": {
+        "infuse_type": "mekanism:gold",
+        "amount": 10
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "thermal:raw_silver"
+        }
+    },
+    "output": {
+        "item": "thermal:electrum_dust",
+        "count": 2.0
+    }
+}

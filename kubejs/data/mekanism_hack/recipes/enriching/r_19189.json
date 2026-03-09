@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "chemlib:molybdenum_dust"
+        }
+    },
+    "output": {
+        "item": "kubejs:enriched_molybdenum",
+        "count": 1.0
+    }
+}

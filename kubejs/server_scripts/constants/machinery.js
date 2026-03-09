@@ -30760,6 +30760,54 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 240,
+		energy: 42,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:chromium_iv_oxide_dust",
+				count: 6.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:chromium_oxide_dust",
+				count: 3.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 300,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanismelements:ammonia",
+				amount: 200,
+			},
+		],
+		result_gases: [
+			{
+				gas: "mekanismelements:nitrogen",
+				amount: 200,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 240,
 		energy: 399,
@@ -51617,6 +51665,57 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:gas_chemical_furnace",
+		time: 330,
+		energy: 46,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:iron_ii_chromite_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:sodium_carbonate_dust",
+				count: 4.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iron_oxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_chromate_dust",
+				count: 4.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: null,
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 700,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 400,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:gas_chemical_furnace",
 		time: 150,
 		energy: 50,
 		biomes: null,
@@ -53645,6 +53744,49 @@ const MACHINERY_RECIPES = [
 			{
 				gas: "kubejs:carbon_dioxide",
 				amount: 100,
+			},
+		],
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:advanced_reaction_chamber",
+		time: 525,
+		energy: 678,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: 50,
+		fuel: null,
+		source_items: null,
+		result_items: null,
+		source_fluids: [
+			{
+				fluid: "kubejs:ethylbenzene",
+				amount: 100,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 500,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 2100,
+			},
+		],
+		result_gases: [
+			{
+				gas: "kubejs:carbon_dioxide",
+				amount: 800,
 			},
 		],
 		source_infuse_type: null,
@@ -74507,6 +74649,57 @@ const MACHINERY_RECIPES = [
 		result_slurry: null,
 	},
 	{
+		machine: "handmade:gas_chemical_furnace",
+		time: 390,
+		energy: 32,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:iron_ii_chromite_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:sodium_hydroxide_dust",
+				count: 8.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:iron_oxide_dust",
+				count: 1.0,
+			},
+			{
+				item: "chemlib:sodium_chromate_dust",
+				count: 4.0,
+			},
+		],
+		source_fluids: null,
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 400,
+			},
+		],
+		source_gases: [
+			{
+				gas: "mekanism:oxygen",
+				amount: 700,
+			},
+		],
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
 		machine: "handmade:advanced_reaction_chamber",
 		time: 120,
 		energy: 102,
@@ -91034,156 +91227,6 @@ const MACHINERY_RECIPES = [
 			},
 		],
 		source_gases: null,
-		result_gases: null,
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 240,
-		energy: 42,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:chromium_iv_oxide_dust",
-				count: 6.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 3.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 300,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanismelements:ammonia",
-				amount: 200,
-			},
-		],
-		result_gases: [
-			{
-				gas: "mekanismelements:nitrogen",
-				amount: 200,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 330,
-		energy: 46,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_chromite_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:sodium_carbonate_dust",
-				count: 4.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_chromate_dust",
-				count: 4.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: null,
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 700,
-			},
-		],
-		result_gases: [
-			{
-				gas: "kubejs:carbon_dioxide",
-				amount: 400,
-			},
-		],
-		source_infuse_type: null,
-		result_infuse_type: null,
-		source_slurry: null,
-		result_slurry: null,
-	},
-	{
-		machine: "handmade:gas_chemical_furnace",
-		time: 390,
-		energy: 32,
-		biomes: null,
-		dimensions: null,
-		filter: null,
-		req_rad: null,
-		rs_rad: null,
-		produce_energy: null,
-		priority: null,
-		fuel: null,
-		source_items: [
-			{
-				item: "chemlib:iron_ii_chromite_dust",
-				count: 2.0,
-			},
-			{
-				item: "chemlib:sodium_hydroxide_dust",
-				count: 8.0,
-			},
-		],
-		result_items: [
-			{
-				item: "chemlib:iron_oxide_dust",
-				count: 1.0,
-			},
-			{
-				item: "chemlib:sodium_chromate_dust",
-				count: 4.0,
-			},
-		],
-		source_fluids: null,
-		result_fluids: [
-			{
-				fluid: "minecraft:water",
-				amount: 400,
-			},
-		],
-		source_gases: [
-			{
-				gas: "mekanism:oxygen",
-				amount: 700,
-			},
-		],
 		result_gases: null,
 		source_infuse_type: null,
 		result_infuse_type: null,

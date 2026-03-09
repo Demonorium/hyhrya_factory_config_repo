@@ -5563,6 +5563,37 @@ const CUSTOM_RECIPES = [
 		experience: 0,
 	},
 	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "mekanism:ingot_steel",
+				count: 1,
+			},
+		],
+		energy: 13230,
+		ingredients: [
+			{
+				fluid: "kubejs:steel",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "mekanism:ingot_steel",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:steel",
+			amount: 100.0,
+		},
+		energy: 13230,
+	},
+	{
 		type: "mekanism:crushing",
 		input: {
 			amount: 1.0,
@@ -8136,6 +8167,37 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "silentcompat:arcmetal_ingot",
+				count: 1,
+			},
+		],
+		energy: 32730,
+		ingredients: [
+			{
+				fluid: "kubejs:arcmetal",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "silentcompat:arcmetal_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:arcmetal",
+			amount: 100.0,
+		},
+		energy: 32730,
+	},
+	{
 		type: "mekanism:crushing",
 		input: {
 			amount: 1.0,
@@ -8824,6 +8886,37 @@ const CUSTOM_RECIPES = [
 			item: "kubejs:shard_voidmetal",
 			count: 1.0,
 		},
+	},
+	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "silentcompat:voidmetal_ingot",
+				count: 1,
+			},
+		],
+		energy: 11730,
+		ingredients: [
+			{
+				fluid: "kubejs:voidmetal",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "silentcompat:voidmetal_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:voidmetal",
+			amount: 100.0,
+		},
+		energy: 11730,
 	},
 	{
 		type: "mekanism:crushing",
@@ -9516,6 +9609,37 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "silentcompat:solarmetal_ingot",
+				count: 1,
+			},
+		],
+		energy: 7730,
+		ingredients: [
+			{
+				fluid: "kubejs:solarmetal",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "silentcompat:solarmetal_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:solarmetal",
+			amount: 100.0,
+		},
+		energy: 7730,
+	},
+	{
 		type: "mekanism:crushing",
 		input: {
 			amount: 1.0,
@@ -10204,6 +10328,37 @@ const CUSTOM_RECIPES = [
 			item: "kubejs:shard_plasteel",
 			count: 1.0,
 		},
+	},
+	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "silentcompat:plasteel_ingot",
+				count: 1,
+			},
+		],
+		energy: 20730,
+		ingredients: [
+			{
+				fluid: "kubejs:plasteel",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "silentcompat:plasteel_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:plasteel",
+			amount: 100.0,
+		},
+		energy: 20730,
 	},
 	{
 		type: "mekanism:crushing",
@@ -14138,6 +14293,37 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "undergarden:cloggrum_ingot",
+				count: 1,
+			},
+		],
+		energy: 30730,
+		ingredients: [
+			{
+				fluid: "kubejs:cloggrum",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "undergarden:cloggrum_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:cloggrum",
+			amount: 100.0,
+		},
+		energy: 30730,
+	},
+	{
 		type: "silentgear:salvaging",
 		ingredient: {
 			item: "undergarden:froststeel_chestplate",
@@ -15108,6 +15294,37 @@ const CUSTOM_RECIPES = [
 		],
 	},
 	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "undergarden:froststeel_ingot",
+				count: 1,
+			},
+		],
+		energy: 92730,
+		ingredients: [
+			{
+				fluid: "kubejs:froststeel",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "undergarden:froststeel_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:froststeel",
+			amount: 100.0,
+		},
+		energy: 92730,
+	},
+	{
 		type: "silentgear:salvaging",
 		ingredient: {
 			item: "undergarden:utherium_chestplate",
@@ -15566,6 +15783,37 @@ const CUSTOM_RECIPES = [
 			item: "kubejs:shard_utherium",
 			count: 1.0,
 		},
+	},
+	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "undergarden:utherium_crystal",
+				count: 1,
+			},
+		],
+		energy: 9730,
+		ingredients: [
+			{
+				fluid: "kubejs:utherium",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "undergarden:utherium_crystal",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:utherium",
+			amount: 100.0,
+		},
+		energy: 9730,
 	},
 	{
 		type: "thermal:press",
@@ -16957,6 +17205,37 @@ const CUSTOM_RECIPES = [
 		experience: 0,
 	},
 	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "thermal:enderium_ingot",
+				count: 1,
+			},
+		],
+		energy: 62730,
+		ingredients: [
+			{
+				fluid: "kubejs:enderium",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "thermal:enderium_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:enderium",
+			amount: 100.0,
+		},
+		energy: 62730,
+	},
+	{
 		type: "mekanism:crushing",
 		input: {
 			amount: 1.0,
@@ -17182,6 +17461,37 @@ const CUSTOM_RECIPES = [
 		experience: 0,
 	},
 	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "thermalendergy:melodium_ingot",
+				count: 1,
+			},
+		],
+		energy: 92730,
+		ingredients: [
+			{
+				fluid: "kubejs:melodium",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "thermalendergy:melodium_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:melodium",
+			amount: 100.0,
+		},
+		energy: 92730,
+	},
+	{
 		type: "mekanism:crushing",
 		input: {
 			amount: 1.0,
@@ -17405,6 +17715,37 @@ const CUSTOM_RECIPES = [
 		],
 		energy: 6000,
 		experience: 0,
+	},
+	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "thermalendergy:stellarium_ingot",
+				count: 1,
+			},
+		],
+		energy: 262730,
+		ingredients: [
+			{
+				fluid: "kubejs:stellarium",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "thermalendergy:stellarium_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:stellarium",
+			amount: 100.0,
+		},
+		energy: 262730,
 	},
 	{
 		type: "mekanism:crushing",
@@ -18354,6 +18695,37 @@ const CUSTOM_RECIPES = [
 				count: 1.0,
 			},
 		],
+	},
+	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "clanginghowl:extraterrestrial_steel_ingot",
+				count: 1,
+			},
+		],
+		energy: 25730,
+		ingredients: [
+			{
+				fluid: "kubejs:extraterrestrial_steel",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "clanginghowl:extraterrestrial_steel_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:extraterrestrial_steel",
+			amount: 100.0,
+		},
+		energy: 25730,
 	},
 	{
 		type: "mekanism:crushing",
@@ -19414,6 +19786,37 @@ const CUSTOM_RECIPES = [
 		experience: 0,
 	},
 	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "thermal:invar_ingot",
+				count: 1,
+			},
+		],
+		energy: 16980,
+		ingredients: [
+			{
+				fluid: "kubejs:invar",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "thermal:invar_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:invar",
+			amount: 100.0,
+		},
+		energy: 16980,
+	},
+	{
 		type: "mekanism:crushing",
 		input: {
 			amount: 1.0,
@@ -19637,6 +20040,37 @@ const CUSTOM_RECIPES = [
 		],
 		energy: 15600,
 		experience: 0,
+	},
+	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "thermal:electrum_ingot",
+				count: 1,
+			},
+		],
+		energy: 12730,
+		ingredients: [
+			{
+				fluid: "kubejs:electrum",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "thermal:electrum_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:electrum",
+			amount: 100.0,
+		},
+		energy: 12730,
 	},
 	{
 		type: "mekanism:crushing",
@@ -19864,6 +20298,37 @@ const CUSTOM_RECIPES = [
 		experience: 0,
 	},
 	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "silentgear:azure_electrum_ingot",
+				count: 1,
+			},
+		],
+		energy: 16730,
+		ingredients: [
+			{
+				fluid: "kubejs:azure_electrum",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "silentgear:azure_electrum_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:azure_electrum",
+			amount: 100.0,
+		},
+		energy: 16730,
+	},
+	{
 		type: "mekanism:crushing",
 		input: {
 			amount: 1.0,
@@ -20087,6 +20552,251 @@ const CUSTOM_RECIPES = [
 		],
 		energy: 8900,
 		experience: 0,
+	},
+	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "thermal:constantan_ingot",
+				count: 1,
+			},
+		],
+		energy: 15330,
+		ingredients: [
+			{
+				fluid: "kubejs:constantan",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "thermal:constantan_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:constantan",
+			amount: 100.0,
+		},
+		energy: 15330,
+	},
+	{
+		type: "mekanism:crushing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "kubejs:brass_ingot",
+			},
+		},
+		output: {
+			item: "kubejs:brass_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "minecraft:crafting_shapeless",
+		category: "misc",
+		ingredients: [
+			{
+				item: "kubejs:brass_dust",
+				count: 1.0,
+			},
+			{
+				item: "macabre:scorching_acid",
+				count: 1.0,
+			},
+		],
+		result: {
+			item: "kubejs:brass_ingot",
+			count: 1.0,
+		},
+	},
+	{
+		type: "thermal:smelter",
+		ingredient: {
+			item: "kubejs:brass_dust",
+			count: 1.0,
+		},
+		result: [
+			{
+				item: "kubejs:brass_ingot",
+				count: 1.0,
+			},
+		],
+		energy: 1173,
+		experience: 0,
+	},
+	{
+		type: "minecraft:blasting",
+		category: "misc",
+		cookingtime: 117.3,
+		experience: 0,
+		ingredient: {
+			item: "kubejs:brass_dust",
+			count: 1.0,
+		},
+		result: {
+			item: "kubejs:brass_ingot",
+			count: 1.0,
+		},
+	},
+	{
+		type: "minecraft:smelting",
+		category: "misc",
+		cookingtime: 234.6,
+		experience: 0,
+		ingredient: {
+			item: "kubejs:brass_dust",
+			count: 1.0,
+		},
+		result: {
+			item: "kubejs:brass_ingot",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:crushing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "kubejs:brass_plate",
+			},
+		},
+		output: {
+			item: "kubejs:brass_dust",
+			count: 1.0,
+		},
+	},
+	{
+		type: "mekanism:crushing",
+		input: {
+			amount: 1.0,
+			ingredient: {
+				item: "kubejs:brass_gear",
+			},
+		},
+		output: {
+			item: "kubejs:brass_dust",
+			count: 2.0,
+		},
+	},
+	{
+		type: "thermal:press",
+		ingredients: [
+			{
+				item: "kubejs:brass_ingot",
+				count: 3.0,
+			},
+			{
+				item: "thermal:press_gear_die",
+				count: 1.0,
+			},
+		],
+		result: [
+			{
+				item: "kubejs:brass_gear",
+				count: 1.0,
+			},
+		],
+		energy: 12750,
+		experience: 0,
+	},
+	{
+		type: "minecraft:crafting_shaped",
+		category: "misc",
+		key: {
+			A: {
+				item: "kubejs:brass_ingot",
+				count: 1.0,
+			},
+			B: {
+				item: "minecraft:iron_nugget",
+				count: 1.0,
+			},
+		},
+		pattern: [
+			" A ",
+			"ABA",
+			" A ",
+		],
+		result: {
+			item: "kubejs:brass_gear",
+			count: 1.0,
+		},
+		show_notification: true,
+	},
+	{
+		type: "thermal:press",
+		ingredients: [
+			{
+				item: "kubejs:brass_ingot",
+				count: 1.0,
+			},
+		],
+		result: [
+			{
+				item: "kubejs:brass_plate",
+				count: 1.0,
+			},
+		],
+		energy: 6375,
+		experience: 0,
+	},
+	{
+		type: "thermal:press",
+		ingredients: [
+			{
+				item: "kubejs:brass_plate",
+				count: 2.0,
+			},
+			{
+				item: "thermal:press_gear_die",
+				count: 1.0,
+			},
+		],
+		result: [
+			{
+				item: "kubejs:brass_gear",
+				count: 1.0,
+			},
+		],
+		energy: 8500,
+		experience: 0,
+	},
+	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "kubejs:brass_ingot",
+				count: 1,
+			},
+		],
+		energy: 11730,
+		ingredients: [
+			{
+				fluid: "kubejs:brass",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "kubejs:brass_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:brass",
+			amount: 100.0,
+		},
+		energy: 11730,
 	},
 	{
 		type: "mekanism:crushing",
@@ -20314,6 +21024,37 @@ const CUSTOM_RECIPES = [
 		experience: 0,
 	},
 	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "thermal:signalum_ingot",
+				count: 1,
+			},
+		],
+		energy: 20730,
+		ingredients: [
+			{
+				fluid: "kubejs:signalum",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "thermal:signalum_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:signalum",
+			amount: 100.0,
+		},
+		energy: 20730,
+	},
+	{
 		type: "mekanism:crushing",
 		input: {
 			amount: 1.0,
@@ -20537,6 +21278,37 @@ const CUSTOM_RECIPES = [
 		],
 		energy: 4000,
 		experience: 0,
+	},
+	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "thermalendergy:prismalium_ingot",
+				count: 1,
+			},
+		],
+		energy: 13730,
+		ingredients: [
+			{
+				fluid: "kubejs:prismalium",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "thermalendergy:prismalium_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:prismalium",
+			amount: 100.0,
+		},
+		energy: 13730,
 	},
 	{
 		type: "mekanism:crushing",
@@ -20764,6 +21536,37 @@ const CUSTOM_RECIPES = [
 		experience: 0,
 	},
 	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "thermal:lumium_ingot",
+				count: 1,
+			},
+		],
+		energy: 10730,
+		ingredients: [
+			{
+				fluid: "kubejs:lumium",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "thermal:lumium_ingot",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:lumium",
+			amount: 100.0,
+		},
+		energy: 10730,
+	},
+	{
 		type: "mekanism:crushing",
 		input: {
 			amount: 1.0,
@@ -20855,6 +21658,37 @@ const CUSTOM_RECIPES = [
 		],
 		energy: 400,
 		experience: 0,
+	},
+	{
+		type: "thermal:chiller",
+		result: [
+			{
+				item: "minecraft:amethyst_shard",
+				count: 1,
+			},
+		],
+		energy: 16980,
+		ingredients: [
+			{
+				fluid: "kubejs:amethyst",
+				amount: 100,
+			},
+			{
+				item: "thermal:chiller_ingot_cast",
+			},
+		],
+	},
+	{
+		type: "thermal:crucible",
+		ingredient: {
+			item: "minecraft:amethyst_shard",
+			count: 1.0,
+		},
+		result: {
+			fluid: "kubejs:amethyst",
+			amount: 100.0,
+		},
+		energy: 16980,
 	},
 	{
 		type: "mekanism:crushing",
@@ -84359,6 +85193,25 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanism:combining",
+		extraInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:chromium_oxide_dust",
+			},
+		},
+		mainInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:chromium_trioxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:chromium_iv_oxide_dust",
+			count: 3.0,
+		},
+	},
+	{
 		type: "mekanism:purifying",
 		chemicalInput: {
 			gas: "mekanism:chlorine",
@@ -84576,6 +85429,25 @@ const CUSTOM_RECIPES = [
 			item: "mekanism:salt",
 			count: 2.0,
 		},
+	},
+	{
+		type: "thermal:pyrolyzer",
+		ingredient: {
+			item: "chemlib:chromium_iv_oxide_dust",
+			count: 2.0,
+		},
+		result: [
+			{
+				item: "chemlib:chromium_oxide_dust",
+				count: 1.0,
+			},
+			{
+				fluid: "mekanism:oxygen",
+				amount: 100.0,
+			},
+		],
+		energy: 6480.0,
+		experience: 0,
 	},
 	{
 		type: "mekanism:injecting",
@@ -89639,6 +90511,60 @@ const CUSTOM_RECIPES = [
 		type: "thermal:smelter",
 		result: [
 			{
+				item: "chemlib:chromium_dust",
+				count: 16.0,
+			},
+			{
+				item: "mekanism:dust_iron",
+				count: 8.0,
+			},
+			{
+				item: "thermal:rich_slag",
+				count: 1.0,
+			},
+		],
+		energy: 20000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:iron_ii_chromite_dust",
+				count: 8.0,
+			},
+			{
+				item: "thermal:coal_coke",
+				count: 4.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "chemlib:chromium_dust",
+				count: 8.0,
+			},
+			{
+				item: "mekanism:dust_iron",
+				count: 4.0,
+			},
+		],
+		energy: 5000,
+		experience: 1.0,
+		ingredients: [
+			{
+				item: "chemlib:iron_ii_chromite_dust",
+				count: 4.0,
+			},
+			{
+				item: "chemlib:graphite_dust",
+				count: 4.0,
+			},
+		],
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
 				item: "mekanismelements:dust_calcium_oxide",
 				count: 3.0,
 			},
@@ -89776,6 +90702,23 @@ const CUSTOM_RECIPES = [
 				count: 3.0,
 			},
 		],
+	},
+	{
+		type: "mekanism:purifying",
+		chemicalInput: {
+			gas: "mekanism:hydrogen",
+			amount: 4.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:chromium_iv_oxide_dust",
+			},
+		},
+		output: {
+			item: "chemlib:chromium_dust",
+			count: 1.0,
+		},
 	},
 	{
 		type: "thermal:smelter",
@@ -112402,115 +113345,6 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
-		type: "mekanism:combining",
-		extraInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:chromium_oxide_dust",
-			},
-		},
-		mainInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:chromium_trioxide_dust",
-			},
-		},
-		output: {
-			item: "chemlib:chromium_iv_oxide_dust",
-			count: 3.0,
-		},
-	},
-	{
-		type: "thermal:pyrolyzer",
-		ingredient: {
-			item: "chemlib:chromium_iv_oxide_dust",
-			count: 2.0,
-		},
-		result: [
-			{
-				item: "chemlib:chromium_oxide_dust",
-				count: 1.0,
-			},
-			{
-				fluid: "mekanism:oxygen",
-				amount: 100.0,
-			},
-		],
-		energy: 6480.0,
-		experience: 0,
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 16.0,
-			},
-			{
-				item: "mekanism:dust_iron",
-				count: 8.0,
-			},
-			{
-				item: "thermal:rich_slag",
-				count: 1.0,
-			},
-		],
-		energy: 20000,
-		experience: 1.0,
-		ingredients: [
-			{
-				item: "chemlib:iron_ii_chromite_dust",
-				count: 8.0,
-			},
-			{
-				item: "thermal:coal_coke",
-				count: 4.0,
-			},
-		],
-	},
-	{
-		type: "thermal:smelter",
-		result: [
-			{
-				item: "chemlib:chromium_dust",
-				count: 8.0,
-			},
-			{
-				item: "mekanism:dust_iron",
-				count: 4.0,
-			},
-		],
-		energy: 5000,
-		experience: 1.0,
-		ingredients: [
-			{
-				item: "chemlib:iron_ii_chromite_dust",
-				count: 4.0,
-			},
-			{
-				item: "chemlib:graphite_dust",
-				count: 4.0,
-			},
-		],
-	},
-	{
-		type: "mekanism:purifying",
-		chemicalInput: {
-			gas: "mekanism:hydrogen",
-			amount: 4.0,
-		},
-		itemInput: {
-			amount: 1.0,
-			ingredient: {
-				item: "chemlib:chromium_iv_oxide_dust",
-			},
-		},
-		output: {
-			item: "chemlib:chromium_dust",
-			count: 1.0,
-		},
-	},
-	{
 		type: "minecraft:crafting_shaped",
 		category: "misc",
 		key: {
@@ -116965,6 +117799,24 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanismelements:adsorption",
+		fluidInput: {
+			fluid: "mekanism:brine",
+			amount: 8.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "chemlib:potassium_diamminetetrathiodanochromate_dust",
+			},
+		},
+		output: {
+			gas: "kubejs:magnesium_oxide",
+			amount: 20,
+			chemicalType: "gas",
+		},
+	},
+	{
 		type: "thermal:crystallizer",
 		ingredients: [
 			{
@@ -119461,7 +120313,8 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermal:invar_ingot",
-				count: 2.0,
+				count: 0.0,
+				chance: 2,
 			},
 		],
 		energy: 15000,
@@ -119515,7 +120368,8 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermal:constantan_ingot",
-				count: 2.0,
+				count: 0.0,
+				chance: 2,
 			},
 		],
 		energy: 12000,
@@ -119528,6 +120382,61 @@ const CUSTOM_RECIPES = [
 					},
 					{
 						item: "thermal:nickel_dust",
+					},
+				],
+				count: 1.0,
+			},
+			{
+				value: [
+					{
+						item: "minecraft:copper_ingot",
+					},
+					{
+						item: "mekanism:dust_copper",
+					},
+				],
+				count: 1.0,
+			},
+		],
+	},
+	{
+		type: "pneumaticcraft:fluid_mixer",
+		input1: {
+			fluid: "kubejs:zinc",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		input2: {
+			fluid: "kubejs:copper",
+			amount: 100.0,
+			type: "pneumaticcraft:fluid",
+		},
+		pressure: 3,
+		time: 160,
+		fluid_output: {
+			fluid: "kubejs:brass",
+			amount: 200.0,
+		},
+	},
+	{
+		type: "thermal:smelter",
+		result: [
+			{
+				item: "kubejs:brass_ingot",
+				count: 0.0,
+				chance: 2,
+			},
+		],
+		energy: 12000,
+		experience: 1.0,
+		ingredients: [
+			{
+				value: [
+					{
+						item: "moremekanismprocessing:zinc_ingot",
+					},
+					{
+						item: "moremekanismprocessing:dust_zinc",
 					},
 				],
 				count: 1.0,
@@ -119603,7 +120512,8 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermal:electrum_ingot",
-				count: 2.0,
+				count: 0.0,
+				chance: 2,
 			},
 		],
 		energy: 12000,
@@ -119638,7 +120548,8 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermal:signalum_ingot",
-				count: 4.0,
+				count: 0.0,
+				chance: 4,
 			},
 		],
 		energy: 36000,
@@ -119676,7 +120587,8 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermal:signalum_ingot",
-				count: 4.0,
+				count: 0.0,
+				chance: 4,
 			},
 		],
 		energy: 33000,
@@ -119714,7 +120626,8 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermal:lumium_ingot",
-				count: 4.0,
+				count: 0.0,
+				chance: 4,
 			},
 		],
 		energy: 30000,
@@ -119760,7 +120673,8 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermal:enderium_ingot",
-				count: 4.0,
+				count: 0.0,
+				chance: 4,
 			},
 		],
 		energy: 30000,
@@ -119825,7 +120739,8 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "mekanism:ingot_bronze",
-				count: 4.0,
+				count: 0.0,
+				chance: 4,
 			},
 		],
 		energy: 24000,
@@ -119860,7 +120775,8 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "superbwarfare:cemented_carbide_ingot",
-				count: 1.0,
+				count: 0.0,
+				chance: 1,
 			},
 		],
 		energy: 42000,
@@ -119944,7 +120860,8 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "silentgear:azure_electrum_ingot",
-				count: 1.0,
+				count: 0.0,
+				chance: 1,
 			},
 		],
 		energy: 21000,
@@ -120055,7 +120972,8 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermalendergy:stellarium_ingot",
-				count: 1.0,
+				count: 0.0,
+				chance: 1,
 			},
 		],
 		energy: 15000,
@@ -120093,7 +121011,8 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "minecraft:netherite_ingot",
-				count: 1.0,
+				count: 0.0,
+				chance: 1,
 			},
 		],
 		energy: 12000,
@@ -120312,7 +121231,8 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermalendergy:prismalium_ingot",
-				count: 2.0,
+				count: 0.0,
+				chance: 2,
 			},
 		],
 		energy: 24000,

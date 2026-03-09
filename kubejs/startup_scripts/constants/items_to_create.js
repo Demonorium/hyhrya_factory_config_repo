@@ -178,10 +178,28 @@ const ITEMS_TO_CREATE = [
 		name: "extraterrestrial_steel_dust",
 	},
 	{
+		name: "enriched_nickel",
+	},
+	{
 		name: "azure_electrum_plate",
 	},
 	{
 		name: "azure_electrum_gear",
+	},
+	{
+		name: "brass_nugget",
+	},
+	{
+		name: "brass_ingot",
+	},
+	{
+		name: "brass_plate",
+	},
+	{
+		name: "brass_gear",
+	},
+	{
+		name: "brass_dust",
 	},
 	{
 		name: "lithium_gear",
@@ -223,10 +241,16 @@ const ITEMS_TO_CREATE = [
 		name: "chromium_gear",
 	},
 	{
+		name: "enriched_manganese",
+	},
+	{
 		name: "manganese_gear",
 	},
 	{
 		name: "cobalt_gear",
+	},
+	{
+		name: "enriched_zinc",
 	},
 	{
 		name: "zinc_gear",
@@ -248,6 +272,9 @@ const ITEMS_TO_CREATE = [
 	},
 	{
 		name: "niobium_gear",
+	},
+	{
+		name: "enriched_molybdenum",
 	},
 	{
 		name: "molybdenum_gear",

@@ -1,0 +1,17 @@
+{
+    "type": "mekanism:metallurgic_infusing",
+    "chemicalInput": {
+        "infuse_type": "kubejs:molybdenum",
+        "amount": 40
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "mekanism:enriched_iron"
+        }
+    },
+    "output": {
+        "item": "kubejs:extraterrestrial_steel_dust",
+        "count": 1.0
+    }
+}

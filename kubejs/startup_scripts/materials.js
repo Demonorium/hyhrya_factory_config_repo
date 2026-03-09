@@ -94,6 +94,12 @@ StartupEvents.registry("mekanism:infuse_type", event => {
 		.color(0xccccb5)	
 	event.create("nickel")
 		.displayName("Nickel")
-		.color(0xe8e5c7)	
+		.color(0x63B482)		
+	event.create("manganese")
+		.displayName("Manganese")
+		.color(0x978965)			
+	event.create("molybdenum")
+		.displayName("Molybdenum")
+		.color(0x26629F)	
 })
 

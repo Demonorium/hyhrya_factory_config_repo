@@ -1,0 +1,17 @@
+{
+    "type": "mekanism:metallurgic_infusing",
+    "chemicalInput": {
+        "infuse_type": "kubejs:manganese",
+        "amount": 10
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "thermal:nickel_ingot"
+        }
+    },
+    "output": {
+        "item": "kubejs:enriched_nickel",
+        "count": 1.0
+    }
+}

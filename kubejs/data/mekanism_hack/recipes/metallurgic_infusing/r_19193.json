@@ -1,0 +1,17 @@
+{
+    "type": "mekanism:metallurgic_infusing",
+    "chemicalInput": {
+        "infuse_type": "mekanism:tin",
+        "amount": 10
+    },
+    "itemInput": {
+        "amount": 1.0,
+        "ingredient": {
+            "item": "moremekanismprocessing:dust_zinc"
+        }
+    },
+    "output": {
+        "item": "kubejs:enriched_zinc",
+        "count": 1.0
+    }
+}

@@ -1201,6 +1201,10 @@ const TAGS_TO_FIX = [
 		item: "thermal:nickel_dust",
 	},
 	{
+		tag: "mekanism:enriched/nickel",
+		item: "kubejs:enriched_nickel",
+	},
+	{
 		tag: "mekanism:crystals/nickel",
 		item: "moremekanismprocessing:crystal_nickel",
 	},
@@ -1303,6 +1307,10 @@ const TAGS_TO_FIX = [
 	{
 		tag: "forge:dusts/constantan",
 		item: "thermal:constantan_dust",
+	},
+	{
+		tag: "forge:nuggets/brass",
+		item: "kubejs:brass_nugget",
 	},
 	{
 		tag: "forge:ingots/signalum",
@@ -1769,6 +1777,10 @@ const TAGS_TO_FIX = [
 		item: "chemlib:manganese_dust",
 	},
 	{
+		tag: "mekanism:enriched/manganese",
+		item: "kubejs:enriched_manganese",
+	},
+	{
 		tag: "forge:ingots/iron",
 		item: "minecraft:iron_ingot",
 	},
@@ -1909,6 +1921,10 @@ const TAGS_TO_FIX = [
 		item: "moremekanismprocessing:dust_zinc",
 	},
 	{
+		tag: "mekanism:enriched/zinc",
+		item: "kubejs:enriched_zinc",
+	},
+	{
 		tag: "forge:ingots/gallium",
 		item: "chemlib:gallium_ingot",
 	},
@@ -2047,6 +2063,10 @@ const TAGS_TO_FIX = [
 	{
 		tag: "forge:dusts/molybdenum",
 		item: "chemlib:molybdenum_dust",
+	},
+	{
+		tag: "mekanism:enriched/molybdenum",
+		item: "kubejs:enriched_molybdenum",
 	},
 	{
 		tag: "forge:ingots/ruthenium",

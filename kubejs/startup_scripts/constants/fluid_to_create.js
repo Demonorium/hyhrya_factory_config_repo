@@ -81,6 +81,11 @@ const FLUID_TO_CREATE = [
 		temperature: 1533,
 	},
 	{
+		id: "brass",
+		color: 15582852,
+		temperature: 1173,
+	},
+	{
 		id: "signalum",
 		color: 16744576,
 		temperature: 2073,

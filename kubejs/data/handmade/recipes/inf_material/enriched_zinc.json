@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:infusion_conversion",
+    "input": {
+      "ingredient": [
+        {
+          "item": "kubejs:enriched_zinc"
+        }
+      ]
+    },
+    "output": {
+      "amount": 80,
+      "infuse_type": "kubejs:zinc"
+    }
+  }
