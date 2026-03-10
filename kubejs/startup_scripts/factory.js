@@ -7,5 +7,6 @@ StartupEvents.registry('block', event => {
 	event.create("kubejs:gas_chemical_furnace", "custommachinery").machine("handmade:gas_chemical_furnace").renderType("cutout")
 	event.create("kubejs:unity_incubator", "custommachinery").machine("handmade:unity_incubator")
 	event.create("kubejs:fortron_converter", "custommachinery").machine("handmade:fortron_converter")
+	event.create("kubejs:meka_bio_forge", "custommachinery").machine("handmade:meka_bio_forge")
 	
 })

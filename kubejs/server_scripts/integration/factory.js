@@ -13,25 +13,35 @@ CustomMachineryEvents.upgrades(event => {
     "handmade:atmospheric_adsorption_separator",
     "handmade:advanced_reaction_chamber",
     "handmade:unity_incubator",
-    "handmade:fortron_converter"
+    "handmade:fortron_converter",
+    "handmade:meka_bio_forge",
+  ]
+
+  const energy_machines = [
+    "handmade:primitive_reaction_chamber",
+    "handmade:gas_chemical_furnace",
+    "handmade:precipitation_bath",
+    "handmade:atmospheric_adsorption_separator",
+    "handmade:advanced_reaction_chamber",
+    "handmade:unity_incubator"
   ]
 
   console.log('loading machine updates')
   event.create(Item.of('mekanism:upgrade_speed'), 8)
     .machine(all_machines)
     .tooltip("Можно использовать в CustomMachinery. Удваивает скорость CustomMachinery (экспоненциально). Максимально улучшений: 8")
-    .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy_per_tick', 2))
-    .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy', 2))
+    .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy_per_tick', 1.5))
+    .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy', 1.5))
     .modifier(CMRecipeModifierBuilder.expInput('custommachinery:speed', 0.5))
 
   event.create(Item.of('mekanism:upgrade_energy'), 8)
-    .machine(all_machines)
+    .machine(energy_machines)
     .tooltip("Можно использовать в CustomMachinery. Снижает энергопотребление на 10% (экспоненциально). Максимально улучшений: 8")
     .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy', 0.9))
     .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy_per_tick', 0.9))
 
   event.create(Item.of('cataclysm:lava_power_cell'), 8)
-    .machine(all_machines)
+    .machine(energy_machines)
     .tooltip("Можно использовать в CustomMachinery. Снижает энергопотребление на 10% (экспоненциально). Максимально улучшений: 8")
     .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy', 0.9))
     .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy_per_tick', 0.9))
@@ -96,6 +106,11 @@ ServerEvents.recipes(event => {
         (nbt) => nbt
       )
     }
+
+    if (recipe.select) {
+      recipe_builder.requireItemFilter(recipe.select)
+    }
+
     if (recipe.req_rad) {
       recipe_builder.requireRadiationPerTick(recipe.req_rad)
     }
@@ -331,6 +346,22 @@ ServerEvents.recipes(event => {
       C: Item.of('sgjourney:naquadah_generator_core'),
       D: Item.of(MATERIALS.ACTINIUM.gear),
       E: Item.of("mekanism_extras:supreme_control_circuit"),
+    }
+  )
+
+  event.shaped(
+    Item.of("kubejs:meka_bio_forge"),
+    [
+      "ADA",
+      "BCB",
+      "AEA",
+    ],
+    {
+      A: Item.of(MATERIALS.PLATINUM.plate),
+      B: Item.of("mekanism:ultimate_control_circuit"),
+      C: Item.of('biomancy:bio_forge'),
+      D: Item.of(MATERIALS.BRASS.gear),
+      E: Item.of("thermal:rf_coil"),
     }
   )
 
