@@ -120313,7 +120313,6 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermal:invar_ingot",
-				count: 0.0,
 				chance: 2,
 			},
 		],
@@ -120368,7 +120367,6 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermal:constantan_ingot",
-				count: 0.0,
 				chance: 2,
 			},
 		],
@@ -120423,7 +120421,6 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "kubejs:brass_ingot",
-				count: 0.0,
 				chance: 2,
 			},
 		],
@@ -120512,7 +120509,6 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermal:electrum_ingot",
-				count: 0.0,
 				chance: 2,
 			},
 		],
@@ -120548,7 +120544,6 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermal:signalum_ingot",
-				count: 0.0,
 				chance: 4,
 			},
 		],
@@ -120587,7 +120582,6 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermal:signalum_ingot",
-				count: 0.0,
 				chance: 4,
 			},
 		],
@@ -120626,7 +120620,6 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermal:lumium_ingot",
-				count: 0.0,
 				chance: 4,
 			},
 		],
@@ -120673,7 +120666,6 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermal:enderium_ingot",
-				count: 0.0,
 				chance: 4,
 			},
 		],
@@ -120739,7 +120731,6 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "mekanism:ingot_bronze",
-				count: 0.0,
 				chance: 4,
 			},
 		],
@@ -120775,7 +120766,6 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "superbwarfare:cemented_carbide_ingot",
-				count: 0.0,
 				chance: 1,
 			},
 		],
@@ -120860,7 +120850,6 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "silentgear:azure_electrum_ingot",
-				count: 0.0,
 				chance: 1,
 			},
 		],
@@ -120972,7 +120961,6 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermalendergy:stellarium_ingot",
-				count: 0.0,
 				chance: 1,
 			},
 		],
@@ -121011,7 +120999,6 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "minecraft:netherite_ingot",
-				count: 0.0,
 				chance: 1,
 			},
 		],
@@ -121231,7 +121218,6 @@ const CUSTOM_RECIPES = [
 		result: [
 			{
 				item: "thermalendergy:prismalium_ingot",
-				count: 0.0,
 				chance: 2,
 			},
 		],
