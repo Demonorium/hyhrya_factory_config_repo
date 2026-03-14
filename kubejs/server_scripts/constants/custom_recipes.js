@@ -116564,6 +116564,24 @@ const CUSTOM_RECIPES = [
 		},
 	},
 	{
+		type: "mekanismelements:radiation_irradiating",
+		gasInput: {
+			gas: "mekanism:nuclear_waste",
+			amount: 40.0,
+		},
+		itemInput: {
+			amount: 1.0,
+			ingredient: {
+				item: "mekanismelements:pellet_neutron_source",
+			},
+		},
+		output: {
+			gas: "mekanism:polonium",
+			amount: 1000,
+			chemicalType: "gas",
+		},
+	},
+	{
 		type: "thermal:centrifuge",
 		ingredient: {
 			item: "bfr:solidified_waste",
