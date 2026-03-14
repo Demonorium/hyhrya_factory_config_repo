@@ -957,6 +957,12 @@
 			]
 			hide_until_deps_visible: true
 			id: "77FC7968D277B4BF"
+			rewards: [{
+				count: 8
+				id: "4BD79C9675E42CCF"
+				item: "biomancy:nutrient_bar"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "75C46B98A531DFD9"
@@ -986,8 +992,8 @@
 				item: "biomancy:chrysalis"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -19.5d
+			x: -4.0d
+			y: -18.5d
 		}
 		{
 			dependencies: ["77FC7968D277B4BF"]
@@ -2607,6 +2613,20 @@
 		{
 			dependencies: ["073681958FA85BA6"]
 			id: "5B16438AB2BFD293"
+			rewards: [
+				{
+					count: 8
+					id: "178F499DDF9A1F6C"
+					item: "biomancy:nutrient_bar"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3CFC4BA35650F70B"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+			]
 			subtitle: "Убейте Пустого"
 			tasks: [{
 				id: "3A8FD2BEAEDEC3BC"
@@ -3413,6 +3433,18 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["10A24C71082285AC"]
+			id: "33A0AB26FF632468"
+			shape: "gear"
+			tasks: [{
+				id: "478892A6B4FD1881"
+				item: "kubejs:meka_bio_forge"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -19.5d
 		}
 	]
 	title: "Главы 3. Продвинутая химия"
