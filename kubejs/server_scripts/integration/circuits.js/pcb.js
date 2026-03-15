@@ -81,11 +81,6 @@ ServerEvents.recipes(event => {
   assembly_component(event, Item.of('chemlib:zinc_oxide_dust', 1), Item.of('pneumaticcraft:transistor', 1), 1)
   assembly_component(event, Item.of('chemlib:europium_ii_oxide_dust', 1), Item.of('pneumaticcraft:transistor', 4), 2)
 
-  event.replaceInput({ id: 'pneumaticcraft:pneumatic_dynamo' }, 'pneumaticcraft:printed_circuit_board', 'pncepcb:primitive_finished_pcb')
-  event.replaceInput({ id: 'pneumaticcraft:pneumatic_dynamo' }, 'pneumaticcraft:advanced_pressure_tube', 'pneumaticcraft:reinforced_pressure_tube')
-  event.replaceInput({ id: 'pneumaticcraft:flux_compressor' }, 'pneumaticcraft:printed_circuit_board', 'pncepcb:primitive_finished_pcb')
-  event.replaceInput({ id: 'pneumaticcraft:flux_compressor' }, 'pneumaticcraft:adadvanced_pressure_tube', 'pneumaticcraft:reinforced_pressure_tube')
-
   smd_component(event, Item.of('chemlib:lanthanum_phosphide'), Item.of('pncepcb:smd_transistor', 16))
   smd_component(event, Item.of('chemlib:beryllium_oxide_dust'), Item.of('pncepcb:smd_transistor', 12))
   smd_component(event, Item.of(MATERIALS.BISMUTH.dust), Item.of('pncepcb:smd_transistor', 9))

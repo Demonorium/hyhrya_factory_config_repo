@@ -5,6 +5,11 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: "pneumaticcraft:drone_interface"}, 'pneumaticcraft:printed_circuit_board', 'advancedperipherals:peripheral_casing')
     event.replaceInput({id: 'pneumaticcraft:liquid_compressor'}, 'leather', MATERIALS.TIN.gear)
 
+    event.replaceInput({ id: 'pneumaticcraft:pneumatic_dynamo' }, 'pneumaticcraft:printed_circuit_board', 'pncepcb:primitive_finished_pcb')
+    event.replaceInput({ id: 'pneumaticcraft:pneumatic_dynamo' }, 'pneumaticcraft:advanced_pressure_tube', 'pneumaticcraft:reinforced_pressure_tube')
+    event.replaceInput({ id: 'pneumaticcraft:flux_compressor' }, 'pneumaticcraft:printed_circuit_board', 'pncepcb:primitive_finished_pcb')
+    event.replaceInput({ id: 'pneumaticcraft:flux_compressor' }, 'pneumaticcraft:adadvanced_pressure_tube', 'pneumaticcraft:reinforced_pressure_tube')
+
     event.remove({id: "pneumaticcraft:thermopneumatic_processing_plant"})
     event.shaped("pneumaticcraft:thermopneumatic_processing_plant",
         [
@@ -17,6 +22,20 @@ ServerEvents.recipes(event => {
             B: Item.of('pneumaticcraft:small_tank'),
             C: Item.of("pneumaticcraft:pressure_tube"),
             D: MATERIALS.IRON.gear,
+            F: Item.of("pneumaticcraft:reinforced_stone_slab")
+        }
+    )
+    event.shaped(Item.of("pneumaticcraft:thermopneumatic_processing_plant", 2),
+        [
+            'ADA',
+            'BCB',
+            'FDF'
+        ],
+        {
+            A: Item.of(MATERIALS.COMPRESSED_IRON.ingot),
+            B: Item.of('pneumaticcraft:small_tank'),
+            C: Item.of("pneumaticcraft:pressure_tube"),
+            D: MATERIALS.BRASS.gear,
             F: Item.of("pneumaticcraft:reinforced_stone_slab")
         }
     )
@@ -34,6 +53,18 @@ ServerEvents.recipes(event => {
             C: Item.of(MATERIALS.REDSTONE.ingot)
         }
     )
+    event.shaped(Item.of("pneumaticcraft:pressure_gauge", 4),
+        [
+            ' C ',
+            'ABA',
+            '   '
+        ],
+        {
+            A: Item.of(MATERIALS.BRASS.gear),
+            B: Item.of(MATERIALS.COMPRESSED_IRON.ingot),
+            C: Item.of(MATERIALS.REDSTONE.ingot)
+        }
+    )
 
     event.remove({id: "pneumaticcraft:gas_lift"})
     event.shaped("pneumaticcraft:gas_lift",
@@ -47,6 +78,19 @@ ServerEvents.recipes(event => {
             B: Item.of('pneumaticcraft:small_tank'),
             C: Item.of("pneumaticcraft:pressure_tube"),
             D: MATERIALS.IRON.gear
+        }
+    )
+    event.shaped(Item.of("pneumaticcraft:gas_lift", 2),
+        [
+            'ABA',
+            'DCD',
+            ' C '
+        ],
+        {
+            A: Item.of(MATERIALS.COMPRESSED_IRON.ingot),
+            B: Item.of('pneumaticcraft:small_tank'),
+            C: Item.of("pneumaticcraft:pressure_tube"),
+            D: MATERIALS.BRASS.gear
         }
     )
 

@@ -18,6 +18,22 @@ ServerEvents.recipes(event => {
             F: Item.of("mekanism:basic_control_circuit")
         }
     )
+    event.shaped(
+        Item.of('thermal:machine_pyrolyzer', 2),
+        [
+            'FDF',
+            'ABA',
+            'CEC'
+        ],
+        {
+            A: Item.of('dysonsphere:thermopile'),
+            B: Item.of("furnace"),
+            C: Item.of(MATERIALS.BRASS.gear),
+            D: Item.of("pncepcb:high_temp_finished_pcb"),
+            E: Item.of("thermal:rf_coil"),
+            F: Item.of("mekanism:basic_control_circuit")
+        }
+    )
 
     event.replaceInput({ id: 'thermal:machine_press' }, MATERIALS.CONSTANTAN.gear, 'superbwarfare:motor')
 
@@ -90,7 +106,22 @@ ServerEvents.recipes(event => {
             F: Item.of("thermal:rf_coil")
         }
     )
-
+    event.shaped(
+        Item.of('thermal:machine_refinery', 2),
+        [
+            'AEA',
+            'CBC',
+            'DFD'
+        ],
+        {
+            A: Item.of('mekanism:advanced_control_circuit'),
+            B: Item.of("thermal:machine_frame"),
+            C: Item.of(MATERIALS.BRASS.plate),
+            D: Item.of("thermal:invar_gear"),
+            E: Item.of("hopper"),
+            F: Item.of("thermal:rf_coil")
+        }
+    )
 
 
     event.remove({ id: "thermal:machine_pulverizer" })
@@ -142,6 +173,38 @@ ServerEvents.recipes(event => {
             E: Item.of(MATERIALS.DIAMOND.gear),
             F: Item.of("mekanism:elite_control_circuit"),
         }
+    )
+
+    event.remove({id: 'thermal:machine_bottler'})
+    event.shaped(
+        Item.of('thermal:machine_bottler', 1),
+        [
+            " X ",
+            "YCY",
+            "IPI"
+        ],
+        {
+            C: Item.of("thermal:machine_frame"),
+            I: "#forge:gears/copper",
+            P: Item.of("thermal:rf_coil"),
+            X: Item.of('mekanism:basic_control_circuit'),
+            Y: "#forge:glass"
+        },
+    )
+    event.shaped(
+        Item.of('thermal:machine_bottler', 2),
+        [
+            " X ",
+            "YCY",
+            "IPI"
+        ],
+        {
+            C: Item.of("thermal:machine_frame"),
+            I: MATERIALS.BRASS.gear,
+            P: Item.of("thermal:rf_coil"),
+            X: Item.of('mekanism:basic_control_circuit'),
+            Y: "#forge:glass"
+        },
     )
 
 })

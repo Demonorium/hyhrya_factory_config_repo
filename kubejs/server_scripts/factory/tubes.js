@@ -8,6 +8,35 @@ ServerEvents.recipes(event => {
     _gas_pipes(event)
 
     event.shaped(
+        Item.of('mekanism_extras:absolute_pressurized_tube', 4),
+        [
+            'ACA',
+            'BDB',
+            'ACA'
+        ],
+        {
+            A: Item.of('thermal:tar'),
+            B: MATERIALS.CHROMIUM.gear,
+            C: MATERIALS.MOLYBDENUM.ingot,
+            D: Item.of('mekanism_extras:alloy_shining')
+        }
+    )
+    event.shaped(
+        Item.of('mekanism_extras:absolute_mechanical_pipe', 4),
+        [
+            'ACA',
+            'BDB',
+            'ACA'
+        ],
+        {
+            A: "#forge:glass/silica",
+            B: MATERIALS.TITANIUM.gear,
+            C: MATERIALS.TITANIUM.ingot,
+            D: Item.of('mekanism_extras:alloy_shining')
+        }
+    )
+    
+    event.shaped(
         Item.of('pipez:universal_pipe', 2),
         [
             'ABC',

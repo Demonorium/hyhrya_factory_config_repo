@@ -14,7 +14,6 @@ ServerEvents.recipes(event => {
             D: MATERIALS.REDSTONE.ingot
         }
     )
-
     event.shaped(Item.of("pneumaticcraft:logistics_core", 8),
         [
             'BAB',

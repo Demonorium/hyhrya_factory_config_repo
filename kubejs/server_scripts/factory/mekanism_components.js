@@ -596,4 +596,18 @@ function steel_casing_recipes(event) {
             D: MATERIALS.OSMIUM.gear
         }
     )
+
+    event.shaped(
+        Item.of('mekanism_weaponry:plasma_circuit', 2),
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: MATERIALS.BRASS.ingot,
+            B: MATERIALS.STEEL.plate,
+            C: Item.of('mekanism:elite_control_circuit')
+        }
+    )
 }

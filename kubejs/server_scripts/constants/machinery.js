@@ -93412,6 +93412,8 @@ const MACHINERY_RECIPES = [
 		biomes: null,
 		dimensions: [
 			"minecraft:overworld",
+			"undergarden:undergarden",
+			"deeperdarker:otherside",
 		],
 		filter: {
 			item: "kubejs:absorbent",
@@ -93460,6 +93462,8 @@ const MACHINERY_RECIPES = [
 		biomes: null,
 		dimensions: [
 			"minecraft:overworld",
+			"undergarden:undergarden",
+			"deeperdarker:otherside",
 		],
 		filter: {
 			item: "chemlib:silicon_dioxide",
