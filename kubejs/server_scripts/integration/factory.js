@@ -73,6 +73,7 @@ ServerEvents.tags("item", event => {
     'mekanism_extras:upgrade_stack',
     'cataclysm:lava_power_cell'
   )
+  event.add("minecraft:glass_panes", "#forge:glass_panes")
 })
 
 ServerEvents.recipes(event => {

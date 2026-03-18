@@ -1416,18 +1416,6 @@ const CUSTOM_TAGS = [
 		],
 	],
 	[
-		"kubejs:ad_astra/mercury_sand_1",
-		[
-			"ad_astra:mercury_sand",
-		],
-	],
-	[
-		"kubejs:ad_astra/mercury_sandstone_1",
-		[
-			"ad_astra:mercury_sandstone",
-		],
-	],
-	[
 		"kubejs:ad_astra/glacio_cobblestone_1",
 		[
 			"ad_astra:glacio_cobblestone_stairs",

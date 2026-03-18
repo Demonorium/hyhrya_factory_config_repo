@@ -140581,60 +140581,6 @@ const CUSTOM_RECIPES = [
 		experience: 0,
 	},
 	{
-		type: "mekanism:reaction",
-		duration: 200,
-		energyRequired: 400,
-		fluidInput: {
-			amount: 300,
-			fluid: "kubejs:aluminum",
-		},
-		gasInput: {
-			amount: 300,
-			gas: "mekanism:oxygen",
-		},
-		itemInput: {
-			amount: 2.0,
-			ingredient: {
-				tag: "kubejs:ad_astra/mercury_sand_1",
-			},
-		},
-		gasOutput: {
-			amount: 300,
-			gas: "mekanismgenerators:tritium",
-		},
-		itemOutput: {
-			count: 3,
-			item: "thermal:rich_slag",
-		},
-	},
-	{
-		type: "mekanism:reaction",
-		duration: 200,
-		energyRequired: 400,
-		fluidInput: {
-			amount: 600,
-			fluid: "kubejs:aluminum",
-		},
-		gasInput: {
-			amount: 600,
-			gas: "mekanism:oxygen",
-		},
-		itemInput: {
-			amount: 2.0,
-			ingredient: {
-				tag: "kubejs:ad_astra/mercury_sandstone_1",
-			},
-		},
-		gasOutput: {
-			amount: 600,
-			gas: "mekanismgenerators:tritium",
-		},
-		itemOutput: {
-			count: 6,
-			item: "thermal:rich_slag",
-		},
-	},
-	{
 		type: "thermal:centrifuge",
 		ingredient: {
 			tag: "kubejs:ad_astra/glacio_cobblestone_1",
