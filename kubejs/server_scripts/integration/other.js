@@ -165,6 +165,11 @@ ServerEvents.tags("item", event => {
   event.add("silentgear:grader_catalysts/tier5", MATERIALS.CALORITE.dust)
 })
 
+ServerEvents.tags("block", event => {
+  event.removeAll("endermanoverhaul:cave_enderman_holdable")
+  event.removeAll("minecraft:enderman_holdable")
+})
+
 
 function _blueprint_recipes(event) {
   event.remove({ id: 'portable_blueprints:crafting_table/tablet2' })
