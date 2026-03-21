@@ -7,6 +7,7 @@ ServerEvents.recipes(event => {
     _energy_pipes(event)
     _gas_pipes(event)
 
+    event.remove({id: 'mekanism_extras:transmitter/pressurized_tube/absolute'})
     event.shaped(
         Item.of('mekanism_extras:absolute_pressurized_tube', 4),
         [
@@ -18,9 +19,10 @@ ServerEvents.recipes(event => {
             A: Item.of('thermal:tar'),
             B: MATERIALS.CHROMIUM.gear,
             C: MATERIALS.MOLYBDENUM.ingot,
-            D: Item.of('mekanism_extras:alloy_shining')
+            D: Item.of('mekanism_extras:alloy_radiance')
         }
     )
+    event.remove({id: 'mekanism_extras:transmitter/mechanical_pipe/absolute'})
     event.shaped(
         Item.of('mekanism_extras:absolute_mechanical_pipe', 4),
         [
@@ -32,7 +34,7 @@ ServerEvents.recipes(event => {
             A: "#forge:glass/silica",
             B: MATERIALS.TITANIUM.gear,
             C: MATERIALS.TITANIUM.ingot,
-            D: Item.of('mekanism_extras:alloy_shining')
+            D: Item.of('mekanism_extras:alloy_radiance')
         }
     )
     

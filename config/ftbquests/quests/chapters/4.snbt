@@ -20,68 +20,13 @@
 			y: -11.5d
 		}
 		{
-			dependencies: ["66971F8190DDE4DD"]
-			id: "5D38300615C2FF33"
-			tasks: [{
-				id: "0157F6DE768C507A"
-				item: "ae2:cell_component_1k"
-				type: "item"
-			}]
-			x: -13.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["5D38300615C2FF33"]
-			id: "5E2DD5C3E92DCA43"
-			tasks: [{
-				id: "7B3EC0B7B5BA830C"
-				item: "appliedpneumatics:air_cell_shell"
-				type: "item"
-			}]
-			x: -13.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["5D38300615C2FF33"]
-			id: "6CAA15F338104F84"
-			shape: "gear"
-			tasks: [{
-				id: "150DB19C0D5E1102"
-				item: "ae2:item_cell_housing"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["5D38300615C2FF33"]
-			id: "0E6FA2A9DFDB2796"
-			tasks: [{
-				id: "1BDD77E0F10209CF"
-				item: "ae2:fluid_cell_housing"
-				type: "item"
-			}]
-			x: -13.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["5D38300615C2FF33"]
-			id: "4AC342384E43ACC1"
-			tasks: [{
-				id: "6C21BA6BB0E96813"
-				item: "appmek:chemical_cell_housing"
-				type: "item"
-			}]
-			x: -13.5d
-			y: -4.5d
-		}
-		{
 			dependencies: [
 				"13B46C3F5CAB1752"
 				"2E00BB1868026D04"
 				"6A1FC50D6E06C2A9"
 				"4E29ED8A556FD6FD"
 				"0CA6E0735563B8A6"
+				"1D82FBAC219D6678"
 			]
 			id: "1E0318C6FBDB9DDB"
 			rewards: [{
@@ -191,6 +136,11 @@
 		{
 			dependencies: ["5A63DAB3C15C5DB2"]
 			id: "07E4CFFB622D4358"
+			rewards: [{
+				id: "17FD8A2D999B91EE"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D1B47367E69B3C6"
 				item: "mekanism:quantum_entangloporter"
@@ -240,6 +190,11 @@
 		{
 			dependencies: ["5A63DAB3C15C5DB2"]
 			id: "3ABA811128D8A09E"
+			rewards: [{
+				id: "67A80BD613C7D96F"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A37054FE25927D5"
 				item: "mekanism:digital_miner"
@@ -327,6 +282,12 @@
 			]
 			hide_until_deps_complete: true
 			id: "0CA6E0735563B8A6"
+			rewards: [{
+				count: 32
+				id: "6D9CF678B5979036"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "00F7C2E5741759F1"
@@ -377,6 +338,11 @@
 			]
 			hide_until_deps_visible: true
 			id: "11745900AD0C598E"
+			rewards: [{
+				id: "540E53058AE916BD"
+				item: "superbwarfare:epic_material_pack"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -716,6 +682,26 @@
 			dependencies: ["0CA6E0735563B8A6"]
 			hide_until_deps_visible: true
 			id: "66971F8190DDE4DD"
+			rewards: [
+				{
+					count: 32
+					id: "0AB842272288C39D"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "660F8C61A14154FD"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6B5B410CBCB43DC0"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "6F37C4B4BBB9E0F9"
@@ -787,6 +773,19 @@
 		{
 			dependencies: ["0D6F7FC66C3EAF4A"]
 			id: "26A053AEB7D66F8E"
+			rewards: [{
+				id: "1C6B957C58203517"
+				item: {
+					Count: 1
+					id: "ad_astra:etrionic_capacitor"
+					tag: {
+						BotariumData: {
+							Energy: 250000L
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "502D8C6BC49B557D"
 				item: "mekanism:portable_teleporter"
@@ -1125,6 +1124,12 @@
 		{
 			dependencies: ["66971F8190DDE4DD"]
 			id: "51558714B6715A34"
+			rewards: [{
+				count: 6
+				id: "6EEBD3869DA5AF6D"
+				item: "pncepcb:crystal_clear_finished_pcb"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 2L
@@ -1471,6 +1476,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "0C4BC778C0FBCB2C"
+			rewards: [{
+				count: 4
+				id: "284D1CE973810F2E"
+				item: "chemlib:triuranium_octoxide_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D3867D1998C2F32"
 				item: "chemlib:uranium_oxide_dust"
@@ -1482,6 +1493,12 @@
 		{
 			dependencies: ["0C4BC778C0FBCB2C"]
 			id: "3A7A131158AEE4E3"
+			rewards: [{
+				count: 8
+				id: "3DDBF434319ADF8F"
+				item: "chemlib:yttrium_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B99C7F2912843D0"
 				item: "mekanism_extras:dust_radiance"
@@ -1496,6 +1513,12 @@
 				"3A7A131158AEE4E3"
 			]
 			id: "77961D154AED3D18"
+			rewards: [{
+				count: 2
+				id: "4F57F026171F8962"
+				item: "mekanism_extras:alloy_radiance"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -1553,6 +1576,20 @@
 		{
 			dependencies: ["66971F8190DDE4DD"]
 			id: "7F9A21AFB65C5AA6"
+			rewards: [
+				{
+					count: 2
+					id: "32CE77525D1AC030"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "215B06668D653C85"
+					item: "ae2:crafting_monitor"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4A1346DDF3A49B7A"
 				item: "ae2:crafting_accelerator"
@@ -1651,6 +1688,46 @@
 				type: "item"
 			}]
 			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4E29ED8A556FD6FD"]
+			description: ["К сожалению, многоблоки реакторов из mekanism могут работать только с трубами из mekanism, используйте эти трубы чтобы подключать хладогент к реактору."]
+			id: "1D82FBAC219D6678"
+			rewards: [
+				{
+					count: 4
+					id: "3F5869CEB1E130B2"
+					item: "mekanism_extras:absolute_mechanical_pipe"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "34E3D078AD81C442"
+					item: "mekanism_extras:absolute_pressurized_tube"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0DF32BFDAC848D35"
+					item: "mekanism_extras:absolute_control_circuit"
+					type: "item"
+				}
+			]
+			subtitle: "Баганые трубы"
+			tasks: [
+				{
+					id: "51951E5185F03769"
+					item: "mekanism_extras:absolute_mechanical_pipe"
+					type: "item"
+				}
+				{
+					id: "7E8F95550320FADD"
+					item: "mekanism_extras:absolute_pressurized_tube"
+					type: "item"
+				}
+			]
+			x: -2.0d
 			y: -6.0d
 		}
 	]
