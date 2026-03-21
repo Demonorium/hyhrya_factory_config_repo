@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
 
       [
         Item.of('ae2:fluix_glass_cable'),
-        Item.of('chemlib:samarium_iii_oxide')
+        Item.of('chemlib:samarium_iii_oxide_dust')
       ]
     )
     
