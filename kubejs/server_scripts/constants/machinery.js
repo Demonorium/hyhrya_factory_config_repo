@@ -6096,6 +6096,54 @@ const MACHINERY_RECIPES = [
 	},
 	{
 		machine: "handmade:primitive_reaction_chamber",
+		time: 250,
+		energy: 141,
+		biomes: null,
+		dimensions: null,
+		filter: null,
+		req_rad: null,
+		rs_rad: null,
+		select: null,
+		produce_energy: null,
+		priority: null,
+		fuel: null,
+		source_items: [
+			{
+				item: "chemlib:magnesium_orthosilicate_dust",
+				count: 1.0,
+			},
+		],
+		result_items: [
+			{
+				item: "chemlib:magnesium_chloride_dust",
+				count: 2.0,
+			},
+			{
+				item: "chemlib:silicon_dioxide",
+				count: 1.0,
+			},
+		],
+		source_fluids: [
+			{
+				fluid: "mekanism:hydrogen_chloride",
+				amount: 400,
+			},
+		],
+		result_fluids: [
+			{
+				fluid: "minecraft:water",
+				amount: 200,
+			},
+		],
+		source_gases: null,
+		result_gases: null,
+		source_infuse_type: null,
+		result_infuse_type: null,
+		source_slurry: null,
+		result_slurry: null,
+	},
+	{
+		machine: "handmade:primitive_reaction_chamber",
 		time: 1250,
 		energy: 69,
 		biomes: null,
